@@ -1,0 +1,214 @@
+BEGIN Event
+    Name            PowerStationFire
+    Action          ObjectFire
+    Advisor         Warden
+    ExtremeChance   0.05
+    ObjectId        PowerStation
+    BEGIN PreReq Type GeneratorLoad Value 0.8 END
+    BEGIN PreReq Type Object ObjectId Warden END
+    BEGIN Data Name Load Value 0.8 END
+    BEGIN Data Name NumFires Value 12 END
+    BEGIN Data Name NumFiresX Value 25 END
+    BEGIN Data Name ExplodeOnExtreme Value 1 END
+    BEGIN Data Name Range Value 3.0 END
+    BEGIN Data Name RangeX Value 7.0 END
+END
+
+BEGIN Event
+    Name            PowerStationFireLarge
+    Action          ObjectFire
+    Advisor         Warden
+    ExtremeChance   0.33
+    ObjectId        PowerStation
+    Value           0.8
+    BEGIN PreReq Type GeneratorLoad Value 0.95 END
+    BEGIN PreReq Type Object ObjectId Warden END
+    BEGIN Data Name NumFires Value 12 END
+    BEGIN Data Name NumFiresX Value 25 END
+    BEGIN Data Name ExplodeOnExtreme Value 1 END
+    BEGIN Data Name Range Value 3.0 END
+    BEGIN Data Name RangeX Value 7.0 END
+END
+
+BEGIN Event
+    Name            KitchenFire
+    Action          ObjectFire
+    Advisor         Warden
+    ObjectId        Cooker
+    RoomId          Kitchen
+    BEGIN PreReq Type Object ObjectId Cooker RoomId Kitchen END
+    BEGIN PreReq Type Object ObjectId Warden END
+    BEGIN Data Name NumFires Value 3 END
+    BEGIN Data Name NumFiresX Value 6 END
+    BEGIN Data Name Range Value 2.0 END
+    BEGIN Data Name RangeX Value 3.0 END
+END    
+
+BEGIN Event
+    Name            WaterPipeBurst
+    Action          PipeBurst
+    Advisor         Warden
+    ExtremeChance   0.05
+    BEGIN PreReq Type WaterSystem END
+    BEGIN PreReq Type Object ObjectId Warden END
+END    
+
+BEGIN Event
+    Name            BulkIntake
+    Action          BulkIntake
+    Advisor         Mayor
+    ExtremeChance   0.05
+    BEGIN PreReq Type Object ObjectId Prisoner Value 100 END
+    BEGIN Data Name PrisonersMin Value 25 END
+    BEGIN Data Name PrisonersMax Value 40 END
+END    
+
+BEGIN Event
+    Name            WorkshopAccident
+    Action          ApplyStatusEffect
+    Advisor         Doctor
+    ObjectId        Prisoner
+    RoomId          Workshop
+    BEGIN PreReq Type Object ObjectId Doctor END
+    BEGIN PreReq Type Object ObjectId Prisoner RoomId Workshop END
+    BEGIN Data Name Effect String Wounded END
+END
+
+BEGIN Event
+    Name            Subsidence
+    Action          WallCollapse
+    Advisor         Warden
+    ExtremeChance   0.05
+    BEGIN PreReq Type SectorsExist END
+    BEGIN Data Name Range Value 4 END
+    BEGIN Data Name RangeX Value 12 END
+END
+
+BEGIN Event
+    Name            Virus
+    Action          ApplyStatusEffect
+    Advisor         Doctor
+    ObjectId        Prisoner
+    Targets         3
+    ExtremeChance   0.1
+    BEGIN PreReq Type Object ObjectId Prisoner Value 100 END
+    BEGIN Data Name Effect String Virus END
+    BEGIN Data Name EffectX String VirusDeadly END
+    BEGIN Data Name StartValue Value 0.5 END
+    BEGIN Data Name ShowObjective Value 1 END
+END
+
+BEGIN Event
+    Name            MassAssassination
+    Action          CreateAssassinations
+    Advisor         Warden
+    ExtremeChance   0.05
+    BEGIN PreReq Type Object ObjectId Prisoner Value 150 END
+    BEGIN Data Name TargetsMin Value 7 END
+    BEGIN Data Name TargetsMax Value 10 END
+    BEGIN Data Name Time Value 360 END
+    BEGIN Data Name TimeX Value 60 END
+    BEGIN Data Name ReleaseTime Value 2880 END
+    BEGIN Data Name ReleaseVariance Value 2880 END
+END
+
+BEGIN Event
+    Name            TVRemovalDemand
+    Action          PoliticianDemand
+    Advisor         Mayor
+    ObjectId        Tv
+    RoomId          CommonRoom
+    Pool            PoliticianDemand
+    BEGIN PreReq Type Object ObjectId Tv RoomId CommonRoom END
+    BEGIN Data Name DemandType String Removal END
+    BEGIN Data Name StartTime Value 720 END
+    BEGIN Data Name FinePeriod Value 6 END
+    BEGIN Data Name Duration Value 5670 END
+    BEGIN Data Name Fine Value 10000 END
+END
+
+BEGIN Event
+    Name            WeightsRemovalDemand
+    Action          PoliticianDemand
+    Advisor         Mayor
+    ObjectId        WeightsBench
+    RoomId          Yard
+    Pool            PoliticianDemand
+    BEGIN PreReq Type Object ObjectId WeightsBench RoomId Yard END
+    BEGIN Data Name DemandType String Removal END
+    BEGIN Data Name StartTime Value 720 END
+    BEGIN Data Name FinePeriod Value 6 END
+    BEGIN Data Name Duration Value 5670 END
+    BEGIN Data Name Fine Value 10000 END
+END
+
+BEGIN Event
+    Name            LessFoodDemand
+    Action          PoliticianDemand
+    Advisor         Ceo
+    Pool            PoliticianDemand
+    BEGIN PreReq Type FoodQuantity Value 2 END
+    BEGIN Data Name DemandType String FoodQuantity END
+    BEGIN Data Name FoodAmount Value 1 END
+    BEGIN Data Name FoodVariation Value 1 END
+    BEGIN Data Name StartTime Value 120 END
+    BEGIN Data Name FinePeriod Value 3 END
+    BEGIN Data Name Duration Value 5670 END
+    BEGIN Data Name Fine Value 5000 END
+END
+
+BEGIN Event
+    Name            RemoveVisitationDemand
+    Action          PoliticianDemand
+    Advisor         Mayor
+    RoomId          Visitation
+    Pool            PoliticianDemand
+    BEGIN PreReq Type Room RoomId Visitation END
+    BEGIN Data Name DemandType String Removal END
+    BEGIN Data Name StartTime Value 360 END
+    BEGIN Data Name FinePeriod Value 12 END
+    BEGIN Data Name Duration Value 5670 END
+    BEGIN Data Name Fine Value 20000 END
+END
+
+BEGIN Event
+    Name            LessWorkDemand
+    Action          PrisonerDemand
+    Advisor         Warden
+    Pool            PrisonerDemand
+    ExtremeChance   0.05
+    BEGIN PreReq Type Regime RegimeType Work Value 7 END
+    BEGIN Data Name StartTime Value 240 END
+    BEGIN Data Name DemandType String RegimeLessEqual END
+    BEGIN Data Name Regime String Work Value 2 END
+    BEGIN Data Name Duration Value 4320 END
+    BEGIN Data Name NumOutbreaks Value 3 END
+END
+
+BEGIN Event
+    Name            MoreSleepDemand
+    Action          PrisonerDemand
+    Advisor         Warden
+    Pool            PrisonerDemand
+    ExtremeChance   0.05
+    BEGIN PreReq Type Regime RegimeType Sleep Value 6 Modifier -1 END
+    BEGIN Data Name StartTime Value 240 END
+    BEGIN Data Name DemandType String RegimeMoreEqual END
+    BEGIN Data Name Regime String Sleep Value 7 END
+    BEGIN Data Name Duration Value 10080 END
+    BEGIN Data Name NumOutbreaks Value 3 END
+END
+
+BEGIN Event
+    Name            MoreFreeTimeDemand
+    Action          PrisonerDemand
+    Advisor         Warden
+    Pool            PrisonerDemand
+    ExtremeChance   0.05
+    BEGIN PreReq Type Regime RegimeType FreeTime Value 2 Modifier -1 END
+    BEGIN Data Name StartTime Value 240 END
+    BEGIN Data Name DemandType String RegimeMoreEqual END
+    BEGIN Data Name Regime String FreeTime Value 6 END
+    BEGIN Data Name Duration Value 7200 END
+    BEGIN Data Name NumOutbreaks Value 3 END
+END

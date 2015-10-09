@@ -1,0 +1,54 @@
+BEGIN Content
+	File0		data/materials.txt
+	File1		data/grants.lua
+	File2		data/research.txt
+	File3		data/production.txt
+	File4		data/processors.txt
+	File5		data/needs.txt
+END
+
+BEGIN Scenario
+	Dir0		data/campaign/
+END
+
+BEGIN "Graphics And Sound"
+	Dir0		data/advisers/
+	Dir1		data/dialogs/
+	Dir2		data/patterns/
+	Dir3		data/polaroids/
+	Dir4		data/shaders/
+	Dir5		data/sounds/
+	
+	File0		data/biographies.txt
+	File1		data/clipboard.png
+	File2		data/clothes.png
+	File3		data/clothes.png
+	File4		data/cloudyglow.bmp
+	File5		data/codex.png
+	File6		data/complaints.png
+	File7		data/dsp-effects.txt
+	File8		data/effects.bmp
+	File9		data/fonts/catalogue.bmp
+	File10		data/fonts/verdana-bold-outlined.bmp
+	File11		data/fonts/verdana-bold.bmp
+	File12		data/fonts/verdana.bmp
+	File13		data/glow.bmp
+	File14		data/interface.spritebank
+	File15		data/letter.png
+	File16		data/objects.png
+	File17		data/objects.spritebank
+	File18		data/papersheet.bmp
+	File19		data/people.png
+	File20		data/qualification.bmp
+	File21		data/skin.png
+	File22		data/sound.bmp
+	File23		data/sounds.txt
+	File24		data/starburst.bmp
+	File25		data/stripes.png
+	File26		data/tab.png
+	File27		data/target.png
+	File28		data/texture_corkboard.png
+	File29		data/tileset.png
+	File30		data/ui.png
+	File31		data/viewcone.png
+END

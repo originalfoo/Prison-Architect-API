@@ -1,0 +1,21 @@
+
+BEGIN Sprites    
+    Size                 16  
+    BEGIN "[i 0]"      Name Alcohol  x 19  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 1]"      Name Bladder  x 2  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 2]"      Name Bowels  x 3  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 3]"      Name Clothing  x 15  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 4]"      Name Comfort  x 17  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 5]"      Name Drugs  x 20  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 6]"      Name Environment  x 16  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 7]"      Name Exercise  x 8  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 8]"      Name Family  x 11  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 9]"      Name Food  x 5  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 10]"     Name Freedom  x 10  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 11]"     Name Hygiene  x 6  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 12]"     Name Privacy  x 7  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 13]"     Name Recreation  x 12  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 14]"     Name Safety  x 18  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 15]"     Name Sleep  x 4  y 0  w 1  h 1  RotateType 0  TopAligned false  END
+END
+BEGIN Markers    Size 0  END

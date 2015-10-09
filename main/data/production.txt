@@ -1,0 +1,489 @@
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Ingredients  
+    Container            Fridge  
+    Room                 Kitchen  
+    Distribution         Kitchens  
+    MaxSlotId            1  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Ingredients  
+    Container            Fridge  
+    Distribution         Random  
+    MaxSlotId            1  
+END
+
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Ingredients  
+    Room                 Kitchen  
+    Distribution         Random  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             IngredientsCooked  
+    Container            ServingTable  
+    Distribution         Nearest  
+    MinSlotId            1  
+    MaxSlotId            4  
+    Properties           HighPriority
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             FoodTray  
+    Container            ServingTable  
+    Distribution         Linked  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             FoodTray  
+    Container            ServingTable  
+    Distribution         Nearest
+    Condition            NotInFoodSystem  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             FoodTrayDirty  
+    Container            Sink  
+    Distribution         Linked
+    Condition            NotDuringMealService  
+    StackInRoom          Canteen
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             FoodTrayDirty  
+    Container            Sink  
+    Distribution         Nearest
+    Condition            NotInFoodSystem  
+    StackInRoom          Canteen
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             FoodTrayDirty  
+    Room                 Canteen
+    Container            Table
+    Distribution         Linked
+    Condition            NotInKitchenOrCanteen  
+    StackInRoom          Canteen
+    MaxSlotId            3
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             PrisonerUniform  
+    Container            Table  
+    Room                 Intake  
+    Distribution         Random  
+    MaxSlotId            3  
+    Condition            UniformsInIntake  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             PrisonerUniform  
+    Container            Table  
+    Room                 Laundry  
+    Distribution         Random  
+    MaxSlotId            3  
+    Condition            UniformsRequireMoving  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             PrisonerUniform  
+    Room                 Laundry  
+    Distribution         Random  
+    Condition            UniformsRequireMoving  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             PrisonerUniform  
+    Container            Table  
+    Room                 Intake  
+    Distribution         Random  
+    MaxSlotId            3  
+    Condition            UniformsRequireMovingToIntake
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             DirtyPrisonerUniform  
+    Room                 Laundry  
+    Distribution         Random  
+    Condition            UniformsNotTargetted
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            DirtyPrisonerUniform
+    Container           LaundryMachine
+    Room                Laundry
+    Distribution        Nearest
+    Condition           UniformsInLaundry
+    MaxSlotId           0
+END 
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            DirtyPrisonerUniform
+    Container           LaundryBasket
+    Distribution        Nearest
+    Condition           NotLoadedIsStack
+    MaxSlotId           0
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             CrumpledPrisonerUniform  
+    Container            IroningBoard  
+    Room                 Laundry  
+    Distribution         Nearest  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Bleach  
+    Room                 CleaningCupboard  
+    Distribution         Random  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Container            WorkshopSaw  
+    Distribution         NonCompeting  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Container            WorkshopSaw  
+    Distribution         OutOfStock  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Log  
+    Room                 Storage  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Container            CarpenterTable  
+    Distribution         NonCompeting  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Container            CarpenterTable  
+    Distribution         OutOfStock  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             Wood  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Container            WorkshopSaw  
+    Distribution         NonCompeting  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Container            WorkshopSaw  
+    Distribution         OutOfStock  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             SheetMetal  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoaded  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             LicensePlateBlank  
+    Container            WorkshopPress  
+    Distribution         NonCompeting  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             LicensePlate  
+    Container            Table  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    MaxSlotId            3  
+END
+
+BEGIN ProductionRule       
+    Rule                 Storage
+    Material             LicensePlate  
+    Room                 Workshop  
+    Distribution         NonCompeting  
+    Condition            NotLoadedOnTable  
+END
+
+BEGIN ProductionRule       
+    Rule                 Entity
+    Container            Hearse  
+    Distribution         Random  
+    MaxSlotId            3  
+    Condition            EntityDead  
+    Properties           HighPriority  
+END
+
+BEGIN ProductionRule       
+    Rule                 Entity
+    Container            PrisonerBus  
+    Distribution         Random  
+    MaxSlotId            8
+    Condition            DeathRowTransfer  
+    Properties           HighPriority  
+END
+
+BEGIN ProductionRule       
+    Rule                 Entity
+    Container            MorgueSlab  
+    Room                 Morgue  
+    Distribution         Random  
+    Condition            EntityDead  
+    Properties           HighPriority  
+END
+
+BEGIN ProductionRule       
+    Rule                 Entity
+    Container            MedicalBed  
+    Room                 MedicalWard  
+    Distribution         Nearest  
+    Properties           HighPriority  
+    Condition            EntitySeriouslyInjured  
+END
+    
+BEGIN ProductionRule
+    Rule                Storage
+    Material            LibraryBookUnsorted
+    Room                Library
+    Distribution        Random
+    Condition           NotLoaded
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            LibraryBookUnsorted
+    Container           SortingTable
+    Room                Library
+    Distribution        Random
+    Condition           NotLoaded 
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            LibraryBookSorted
+    Container           LibraryBookshelf
+    Room                Library
+    Distribution        Random
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            IngredientsCooking
+    Container           Cooker
+    Room                Kitchen
+    Distribution        Nearest
+    Condition           NotLoaded
+    MaxSlotId           1
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            MailUnsorted
+    Container           SortingTable
+    Room                MailRoom
+    Distribution        Random
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            MailUnsorted
+    Container           Table
+    Room                MailRoom
+    Distribution        Random
+    MaxSlotId           3
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            MailSorted
+    Container           MailSatchel
+    Room                MailRoom
+    Distribution        Random
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            MailSatchel
+    Container           Table
+    Room                MailRoom
+    Distribution        Random
+    MaxSlotId           3
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            MailSatchel
+    Room                MailRoom
+    Distribution        Random
+    Condition           NotLoaded
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            ShopGoods
+    Room                Shop
+    Container           ShopShelf
+    Distribution        NonCompeting
+    Condition           InRoom
+    MaxSlotId           2
+    Properties          LoadObject
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            ShopGoods
+    Room                Shop
+    Container           Table
+    Distribution        Random
+    Condition           NotLoaded
+    MaxSlotId           3
+END
+
+BEGIN ProductionRule
+    Rule                Storage
+    Material            ShopGoods
+    Room                Shop
+    Distribution        Random
+    Condition           NotLoaded
+END
+
+BEGIN Processor
+    Processor            WorkshopSaw
+    Input                SheetMetal
+    Output               LicensePlateBlank
+    OutputCount          2
+    OperatingTime        12.0
+END
+
+BEGIN Processor
+    Processor            WorkshopSaw
+    Input                Log
+    Output               Wood
+    OutputCount          4
+    OperatingTime        30.0
+END
+
+BEGIN Processor
+    Processor            WorkshopPress
+    Input                LicensePlateBlank
+    Output               LicensePlate
+    OperatingTime        6.0
+END
+
+BEGIN Processor
+    Processor            IroningBoard
+    Input                CrumpledPrisonerUniform
+    Output               PrisonerUniform
+    OperatingTime        4.0
+    Properties           ShowDuringOperation
+END
+
+BEGIN Processor
+    Processor            CarpenterTable
+    Input                Wood
+    InputCount           5
+    Output               SuperiorBed
+    OperatingTime        60.0
+    Properties           ShowDuringOperation
+END
+
+BEGIN Processor
+    Processor            SortingTable
+    Input                LibraryBookUnsorted
+    Output               LibraryBookSorted
+    OperatingTime        15.0
+    Worker               Prisoner
+    AlternateOutput      RuinedBook
+    AlternateOutputCount 1
+    AlternateOutputChance 0.1
+END
+
+BEGIN Processor
+    Processor            SortingTable
+    Input                MailUnsorted
+    Output               MailSorted
+    OperatingTime        15.0
+    Worker               Guard
+    Worker               Prisoner
+END

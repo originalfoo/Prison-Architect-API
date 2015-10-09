@@ -1,0 +1,237 @@
+Function List
+____________________________________________
+
+Object.GetProperty
+    Format:
+    (1) GetProperty( ObjectTable, PropertyName )
+    (2) GetProperty( ObjectName, PropertyName )
+            - Used to get the "objectName" table
+    (3) GetProperty( PropertyName )
+            - Used on the "me" object
+    (4) objectTable.PropertyName
+    
+    Gets a property on an object's DataRegistry. If no object name is given, it defaults to the current object.
+    If the property can not be found in the DataRegistry, and no ObjectName is given, then look for the property in the 
+        object's ScriptState blackboard.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). PropertyName is then used as a table index, and can be used in the standard Lua ways. For example, this.Damage 
+        or this[ "Damage" ]. 
+        N.B. Any name that has a dot in it will be initialised as a lua table, with appropriate variables from the name. For
+        example, the property name "Pos.x" can be called in the following manners:
+            - local x = this.Pos.x
+            - local x = this[ "Pos.x" ]
+    
+    ObjectTable/ObjectName:     Optional. Defaults to the object that the script is running on.
+    PropertyName:               Required. Name of the property to set.
+    
+    Returns:        The value of the property on the named object, or nil
+____________________________________________
+
+Object.SetProperty
+    Format:
+    (1) Object.SetProperty( ObjectTable, PropertyName, Value )
+    (2) Object.SetProperty( ObjectName, PropertyName, Value )
+            - Used to get the "ObjectName" table
+    (3) Object.SetProperty( PropertyName, Value )
+            - Used on the "me" object
+    (4) objectTable.PropertyName
+             
+    Sets a property in an object's DataRegistry. If no object name is given, it defaults to the current object.
+    If the named property can not be found in the DataRegistry, and no ObjectName is given, then set the property in the 
+        object's ScriptState blackboard.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). PropertyName is then used as a table index, and can be used in the standard Lua ways. For example, this.Damage 
+        or this[ "Damage" ] 
+        N.B. Any name that has a dot in it will be initialised as a lua table, with appropriate variables from the name. For
+        example, the property name "Pos.x" can be called in the following manners:
+            - this.Pos.x = x
+            - this[ "Pos.x" ] = x
+    
+    ObjectTable/ObjectName:     Optional. Defaults to the object that the script is running on.
+    PropertyName:               Required. Name of the property to set.
+    Value:                      Required. The value to set to the named property.
+    
+    Returns:        N/A
+____________________________________________
+
+Object.Spawn
+    Format:
+    (1) Spawn( ObjectTypeName, X, Y )
+    
+    Spawns an object of type ObjectTypeName at position X,Y
+    
+    ObjectTypeName: Required. The name of an Object listed in materials.txt.
+    X:              Required. The x-position of the spawned object.
+    Y:              Required. The y-position of the spawned object.
+    
+    Returns:        The identifier name of the object spawned, or nil if no object is spawned.
+____________________________________________
+
+Object.Delete
+    Format:
+    (1) Object.Delete( ObjectTable )
+    (2) Object.Delete( ObjectName )
+            - Use to get the "objectName" table
+    (3) Object.Delete()
+            - Used to on the "me" table
+    (4) objectTable.Delete()
+    
+    Deletes a named object.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.Delete()
+    
+    ObjectTable/ObjectName:     Optional. The table/name of an Object to be deleted. Defaults to the object the script
+                                    is running on.
+    
+    Returns:        N/A
+____________________________________________
+
+Object.ApplyVelocity
+    Format:
+    (1) Object.ApplyVelocity( ObjectTable, X, Y[, Rotate] )
+    (2) Object.ApplyVelocity( ObjectName, X, Y[, Rotate] )
+            - Use to get the "ObjectName" table
+    (3) Object.ApplyVelocity( X, Y[, Rotate] )
+            - Used to on the "me" table
+    (4) objectTable.ApplyVelocity( X, Y[, Rotate] )
+             
+    Applies an animation velocity to the named WorldObject
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.ApplyVelocity( 2.0, 5.0, false )
+    
+    ObjectTable/ObjectName:     Optional. The table/name of an Object. Defaults to the object the script is running on.
+    X:                          Required. The x-velocity of the object.
+    Y:                          Required. The y-velocity of the object.
+    Rotate:                     Optional. Should the velocity cause some mild rotation? Defaults to true.
+    
+    Returns:        N/A
+____________________________________________
+
+Object.GetMaterial
+    Format:
+    (1) Object.GetMaterial( X, Y )
+    
+    Gets the material name for the cell X,Y
+    
+    X:              Required. The x-location of the cell.
+    Y:              Required. The y-location of the cell.
+    
+    Returns:        The name of the material at cell X,Y.
+____________________________________________
+
+Object.CreateJob
+    Format:
+    (1) Object.CreateJob( ObjectTable, JobName )
+    (2) Object.CreateJob( ObjectName, JobName )
+            - Use to get the "objectName" table
+    (3) Object.CreateJob( JobName )
+            - Used to on the "me" table
+    (4) objectTable.CreateJob( JobName )
+    
+    Create a custom job on the given object.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.CreateJob( "MyJob" )
+    
+    ObjectTable/ObjectName:     Optional. The table/name of an Object. Defaults to the object the script is running on.
+    JobName:                    Required. The name of the job.
+    
+    Returns:        N/A
+____________________________________________
+
+Object.GetNearbyObjects
+    Format:
+    (1) Object.GetNearbyObjects( ObjectTable, TypeName, SearchDistance )
+    (2) Object.GetNearbyObjects( ObjectName, TypeName, SearchDistance )
+            - Use to get the "objectName" table
+    (3) Object.GetNearbyObjects( TypeName, SearchDistance )
+            - Used to on the "me" table
+    (4) objectTable.GetNearbyObjects( TypeName, SearchDistance )
+             
+    Gets a table of all entities of type TypeName that are within SearchDistance of the calling object.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.GetNearbyObjects( "Guard", 50.0 )
+    
+    ObjectTable/ObjectName:     Optional. The table/name of an Object. Defaults to the object the script is running on.
+    TypeName:                   Required. The type of entity to search for.
+    SearchDistance:             Required. The distance from this scripted object to search within.
+    
+    Returns:        A table of object tables and their distance to the calling object. 
+                    N.B. Both name and distance values will be returned as strings.
+____________________________________________
+
+Object.NavigateTo
+    Format:
+    (1) Object.NavigateTo( ObjectTable, X, Y )
+    (2) Object.NavigateTo( ObjectName, X, Y )
+            - Use to get the "objectName" table
+    (3) Object.NavigateTo( X, Y )
+            - Used to on the "me" table
+    (4) objectTable.NavigateTo( X, Y )
+             
+    Navigates ObjectTable/ObjectName to the point (X,Y). The object must be an Entity. If no object name is given, 
+        it defaults to the current object.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.NavigateTo( 25.0, 50.0 )
+    
+    ObjectTable/ObjectName:     Optional. Must be an entity. Defaults to the object that the script is running on.
+    X:                          Required. The x-location of the cell.
+    Y:                          Required. The y-location of the cell.
+    
+    Returns:        N/A
+____________________________________________
+
+Object.ClearRouting
+    Format:
+    (1) Object.ClearRouting( ObjectTable )
+    (2) Object.ClearRouting( ObjectName )
+            - Use to get the "objectName" table
+    (3) Object.ClearRouting()
+            - Used to on the "me" table
+    (4) objectTable.ClearRouting()
+    
+    Clears any routing that the ObjectTable/object called ObjectName has. The object must be an Entity. If no object 
+        name is given, it defaults to the current object.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.ClearRouting()
+    
+    ObjectTable/ObjectName:     Optional. Must be an entity. Defaults to the object that the script is running on.
+    
+    Returns:        N/A
+____________________________________________
+
+Object.Sound
+    Format:
+    (1) Object.Sound( ObjectTable, SoundGroup, SoundId )
+    (2) Object.Sound( ObjectName, SoundGroup, SoundId )
+            - Use to get the "objectName" table
+    (3) Object.Sound( SoundGroup, SoundId )
+            - Used to on the "me" table
+    (4) objectTable.Sound( SoundGroup, SoundId )
+             
+    Triggers a sound event at the given object's position.
+    In format 4, objectTable can refer to a return object's table or the "this" table (for the object the script is running 
+        on). For example, this.Sound( soundGroupName, soundIdName )
+    
+    ObjectTable/ObjectName:     Optional. Defaults to the object that the script is running on.
+    SoundGroup:                 Sound group name (defined by OBJECT in sounds.txt)
+    SoundId:                    Sound name (defined by EVENT in sounds.txt)
+    
+    Returns:        N/A
+____________________________________________
+
+Game.Time()
+    Returns the current game time in seconds. Useful for timing events and checks.
+    
+    Returns:        A string of the current game time.
+____________________________________________
+
+Game.DebugOut( Message )
+    Prints a debug message to the script debugger window. Opens the window if it is not yet opened.
+    N.B. As this functions opens a debug window, you should only use this function for testing purposes
+        and remove any calls before publishing your mod.
+        
+    Message:        A string to print to the debug window.
+    
+    Returns:        N/A
+____________________________________________
+

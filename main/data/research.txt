@@ -1,0 +1,437 @@
+
+BEGIN Research   
+END
+BEGIN Research   
+    Name                 Warden  
+    Type                 Entity  
+    Sprite               Warden  
+    X                    580  
+    Y                    60  
+    NonWideX             540  
+    NonWideY             40  
+END
+BEGIN Research   
+    Name                 Maintainance  
+    Type                 Entity  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Foreman  
+    Cost                 -500  
+    Time                 360  
+    X                    400  
+    Y                    360  
+    NonWideX             320  
+    NonWideY             300  
+END
+BEGIN Research   
+    Name                 Security  
+    Type                 Entity  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Chief  
+    Cost                 -500  
+    Time                 360  
+    X                    760  
+    Y                    100  
+    NonWideX             660  
+    NonWideY             300  
+END
+BEGIN Research   
+    Name                 Legal  
+    Type                 Entity  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Lawyer  
+    Cost                 -5000  
+    Time                 720  
+    X                    400  
+    Y                    540  
+    NonWideX             320  
+    NonWideY             480  
+END
+BEGIN Research   
+    Name                 MentalHealth  
+    Type                 Entity  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Psychologist  
+    Cost                 -500  
+    Time                 360  
+    X                    760  
+    Y                    300  
+    NonWideX             800  
+    NonWideY             60  
+END
+BEGIN Research   
+    Name                 Finance  
+    Type                 Entity  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Accountant  
+    Cost                 -500  
+    Time                 360  
+    X                    400  
+    Y                    100  
+    NonWideX             320  
+    NonWideY             80  
+END
+BEGIN Research   
+    Name                 Cctv  
+    Type                 Ability  
+    Requires             Security  
+    Admin                Security  
+    Sprite               Cctv  
+    Cost                 -2000  
+    Time                 360  
+    X                    1180  
+    Y                    100  
+    NonWideX             920  
+    NonWideY             300  
+END
+BEGIN Research   
+    Name                 RemoteAccess  
+    Type                 Ability  
+    Requires             Security  
+    Admin                Security  
+    Sprite               RemoteDoor  
+    Cost                 -2000  
+    Time                 360  
+    X                    1000  
+    Y                    340  
+    NonWideX             800  
+    NonWideY             500  
+END
+BEGIN Research   
+    Name                 Health  
+    Type                 Entity  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Doctor  
+    Cost                 -500  
+    Time                 360  
+    X                    760  
+    Y                    440  
+    NonWideX             800  
+    NonWideY             180  
+END
+BEGIN Research   
+    Name                 Cleaning  
+    Type                 Entity  
+    Requires             Maintainance  
+    Admin                Maintainance  
+    Sprite               Janitor  
+    Cost                 -2000  
+    Time                 360  
+    X                    160  
+    Y                    540  
+    NonWideX             160  
+    NonWideY             480  
+END
+BEGIN Research   
+    Name                 GroundsKeeping  
+    Type                 Entity  
+    Requires             Maintainance  
+    Admin                Maintainance  
+    Sprite               Gardener  
+    Cost                 -2000  
+    Time                 360  
+    X                    160  
+    Y                    420  
+    NonWideX             160  
+    NonWideY             360  
+END
+BEGIN Research   
+    Name                 Clone  
+    Type                 Ability  
+    Requires             Maintainance  
+    Admin                Maintainance  
+    Cost                 -1500  
+    Time                 360  
+    X                    160  
+    Y                    360  
+    NonWideX             160  
+    NonWideY             300  
+END
+BEGIN Research   
+    Name                 Deployment  
+    Type                 Ability  
+    Requires             Security  
+    Admin                Security  
+    Cost                 -1000  
+    Time                 360  
+    X                    1000  
+    Y                    140  
+    NonWideX             800  
+    NonWideY             320  
+END
+BEGIN Research   
+    Name                 Patrols  
+    Type                 Ability  
+    Requires             Security  
+    Admin                Security  
+    Cost                 -1000  
+    Time                 360  
+    X                    1000  
+    Y                    260  
+    NonWideX             800  
+    NonWideY             440  
+END
+BEGIN Research   
+    Name                 Dogs  
+    Type                 Entity  
+    Requires             Patrols  
+    Admin                Security  
+    Sprite               Dog  
+    Cost                 -1000  
+    Time                 360  
+    X                    1180  
+    Y                    260  
+    NonWideX             920  
+    NonWideY             440  
+END
+BEGIN Research   
+    Name                 PrisonLabour  
+    Type                 Ability  
+    Requires             Maintainance  
+    Admin                Maintainance  
+    Sprite               LicensePlate  
+    Cost                 -1000  
+    Time                 360  
+    X                    280  
+    Y                    540  
+    NonWideX             160  
+    NonWideY             600  
+END
+BEGIN Research   
+    Name                 Education  
+    Type                 Ability  
+    Requires             Warden  
+    Admin                Warden  
+    Sprite               Teacher  
+    Cost                 -2000  
+    Time                 720  
+    X                    760  
+    Y                    580  
+    NonWideX             920  
+    NonWideY             180  
+END
+BEGIN Research   
+    Name                 LandExpansion  
+    Type                 Ability  
+    Requires             Finance  
+    Admin                Finance  
+    Cost                 -1000  
+    Time                 720  
+    X                    220  
+    Y                    100  
+    NonWideX             200  
+    NonWideY             20  
+END
+BEGIN Research   
+    Name                 Contraband  
+    Type                 Ability  
+    Requires             Security  
+    Admin                Security  
+    Cost                 -1000  
+    Time                 360  
+    X                    1000  
+    Y                    200  
+    NonWideX             800  
+    NonWideY             380  
+END
+BEGIN Research   
+    Name                 Policy  
+    Type                 Ability  
+    Requires             Warden  
+    Admin                Warden  
+    Cost                 -1000  
+    Time                 360  
+    X                    760  
+    Y                    220  
+    NonWideX             920  
+    NonWideY             120  
+END
+BEGIN Research   
+    Name                 Armoury  
+    Type                 Entity  
+    Requires             Security  
+    Admin                Security  
+    Sprite               ArmedGuard  
+    Cost                 -2000  
+    Time                 720  
+    X                    940  
+    Y                    480  
+    NonWideX             800  
+    NonWideY             620  
+END
+BEGIN Research   
+    Name                 BodyArmour  
+    Type                 Ability  
+    Requires             Armoury  
+    Admin                Security  
+    Cost                 -1000  
+    CostPerUse           -100  
+    Time                 360  
+    X                    1080  
+    Y                    560  
+    NonWideX             920  
+    NonWideY             680  
+END
+BEGIN Research   
+    Name                 Tazers  
+    Type                 Ability  
+    Requires             Armoury  
+    Admin                Security  
+    Cost                 -1000  
+    CostPerUse           -400  
+    Time                 360  
+    X                    1080  
+    Y                    480  
+    NonWideX             920  
+    NonWideY             620  
+END
+BEGIN Research   
+    Name                 TazersForEveryone  
+    Type                 Ability  
+    Requires             Tazers  
+    Admin                Security  
+    Cost                 -5000  
+    CostPerUse           -400  
+    Time                 720  
+    X                    1200  
+    Y                    480  
+    NonWideX             920  
+    NonWideY             560  
+END
+BEGIN Research   
+    Name                 BankLoans  
+    Type                 Ability  
+    Requires             Finance  
+    Admin                Finance  
+    Cost                 -500  
+    Time                 720  
+    X                    220  
+    Y                    220  
+    NonWideX             200  
+    NonWideY             140  
+END
+BEGIN Research   
+    Name                 LowerTaxes1  
+    Type                 Ability  
+    Requires             Finance  
+    Admin                Finance  
+    Cost                 -10000  
+    Time                 2880  
+    X                    220  
+    Y                    280  
+    NonWideX             200  
+    NonWideY             200  
+END
+BEGIN Research   
+    Name                 LowerTaxes2  
+    Type                 Ability  
+    Requires             LowerTaxes1  
+    Admin                Finance  
+    Cost                 -50000  
+    Time                 2880  
+    X                    100  
+    Y                    280  
+    NonWideX             80  
+    NonWideY             200  
+END
+BEGIN Research   
+    Name                 ExtraGrant  
+    Type                 Ability  
+    Requires             Finance  
+    Admin                Finance  
+    Cost                 -500  
+    Time                 360  
+    X                    220  
+    Y                    160  
+    NonWideX             200  
+    NonWideY             80  
+END
+BEGIN Research   
+    Name                 AdvancedManagement  
+    Type                 Ability  
+    Requires             Warden  
+    Admin                Warden  
+    Cost                 -1000  
+    Time                 360  
+    X                    400  
+    Y                    220  
+    NonWideX             320  
+    NonWideY             220  
+END
+BEGIN Research   
+    Name                 Deathrow  
+    Type                 Ability  
+    Requires             Legal  
+    Admin                Legal  
+    Cost                 -10000  
+    Time                 1440  
+    X                    520  
+    Y                    600  
+    NonWideX             460  
+    NonWideY             540  
+END
+BEGIN Research   
+    Name                 PermanentPunishment  
+    Type                 Ability  
+    Requires             Legal  
+    Admin                Legal  
+    Cost                 -5000  
+    Time                 1440  
+    X                    520  
+    Y                    660  
+    NonWideX             460  
+    NonWideY             600  
+END
+BEGIN Research   
+    Name                 RemoveMinCellSize  
+    Type                 Ability  
+    Requires             Legal  
+    Admin                Legal  
+    Cost                 -10000  
+    Time                 1440  
+    X                    400  
+    Y                    660  
+    NonWideX             460  
+    NonWideY             660  
+END
+BEGIN Research   
+    Name                 ReduceExecutionLiability  
+    Type                 Ability  
+    Requires             Deathrow  
+    Admin                Legal  
+    Cost                 -10000  
+    Time                 4320  
+    X                    640  
+    Y                    600  
+    NonWideX             580  
+    NonWideY             540  
+END
+BEGIN Research   
+    Name                 LegalPrep  
+    Type                 Ability  
+    Requires             Legal  
+    Admin                Legal  
+    Cost                 -50000  
+    Time                 4320  
+    X                    520  
+    Y                    540  
+    NonWideX             460  
+    NonWideY             480  
+END
+BEGIN Research   
+    Name                 LegalDefense  
+    Type                 Ability  
+    Requires             LegalPrep  
+    Admin                Legal  
+    Cost                 -50000  
+    Time                 180  
+    X                    640  
+    Y                    540  
+    NonWideX             580  
+    NonWideY             480  
+END

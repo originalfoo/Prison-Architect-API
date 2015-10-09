@@ -1,0 +1,624 @@
+
+BEGIN Need       
+    Name                 Bladder   
+    Priority             9  
+    FailureAction        Urinate 
+    TimeToAction         600.000  
+    TimeToFailure        720.000  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               1.00000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           Involuntary
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Bowels  
+    Priority             9   
+    FailureAction        SoilSuit 
+    TimeToAction         600.000  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               1.00000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           Involuntary
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Sleep  
+    Priority             8    
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               1.00000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Food  
+    Priority             8   
+    TimeToAction         960.000  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               1.00000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Safety  
+    Priority             7   
+    TimeToAction         -360.000  
+    TimeToFailure        -360.000  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.900000  
+    Visibility           Visible
+    Properties           AutoCharge
+END
+
+BEGIN Need       
+    Name                 Hygiene  
+    Priority             7   
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.800000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Exercise  
+    Priority             6  
+    Hidden               false   
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.600000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Family  
+    Priority             6   
+    MisbehaviorType      Escaping  
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.000000  
+    GenerationRules      Family  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Recreation   
+    Priority             6   
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.700000  
+    Visibility           Visible
+    Properties           AutoCharge
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Comfort  
+    Priority             5   
+    TimeToAction         720.000  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.700000  
+    Visibility           Visible
+    Properties           AutoCharge
+END
+
+BEGIN Need       
+    Name                 Environment  
+    Priority             5   
+    TimeToAction         720.000  
+    TimeToFailure        720.000  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.700000  
+    Visibility           Visible
+END
+
+BEGIN Need       
+    Name                 Privacy   
+    Priority             5   
+    MisbehaviorType      Spoiling  
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.500000  
+    Visibility           Visible
+    Properties           AutoCharge
+END
+
+BEGIN Need       
+    Name                 Freedom  
+    Priority             5   
+    MisbehaviorType      Escaping  
+    TimeToAction         1440.00  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.660000  
+    Visibility           Visible
+    Properties           RaisesTemp
+END
+
+BEGIN Need       
+    Name                 Clothing  
+    Priority             8
+    TimeToAction         4320.00  
+    TimeToFailure        4320.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               1.00000  
+    Visibility           Visible
+    Properties           AutoCharge
+END
+
+BEGIN Need       
+    Name                 Drugs  
+    Priority             8  
+    FailureAction        Withdrawal  
+    MisbehaviorType      Spoiling  
+    TimeToAction         720.000  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.200000  
+    GenerationRules      Narcotics  
+    Visibility           AutoHide
+    Properties           AutoCharge
+    Properties           Involuntary
+END
+
+BEGIN Need       
+    Name                 Alcohol  
+    Priority             8  
+    Hidden               false  
+    AutoCharge           true  
+    FailureAction        Withdrawal  
+    MisbehaviorType      Spoiling  
+    TimeToAction         720.000  
+    TimeToFailure        1440.00  
+    StartingActionPoints 33  
+    RandomActionPoints   33  
+    Chance               0.200000  
+    GenerationRules      Narcotics  
+    Visibility           AutoHide
+    Properties           AutoCharge
+    Properties           Involuntary
+END
+
+BEGIN Need
+    Name                    Spirituality
+    Priority                5
+    TimeToAction            1440.00  
+    TimeToFailure           1440.00 
+    StartingActionPoints    33
+    RandomActionPoints      33
+    Chance                  0.33
+    Properties              AutoCharge
+    Visibility              Visible
+END
+
+BEGIN Need
+    Name                    Literacy
+    Priority                5
+    TimeToAction            2880.00
+    TimeToFailure           2880.00
+    StartingActionPoints    33
+    RandomActionPoints      33
+    Chance                  0.2
+    Visibility              Visible
+    Properties              AutoCharge
+    GenerationRules         Intelligent
+END
+    
+    
+
+BEGIN Provider
+	Action          Poo
+	ProviderType	Object
+	Object	        Toilet
+	PrimaryNeed	    Bowels
+	PrimaryRate	    -5.00000
+	SecondaryNeed	Bladder
+	SecondaryRate	-10.0000
+	ActionType	    Use
+	Flags	        UsesEntireObject
+END
+
+BEGIN Provider
+	Action	        Wee
+	ProviderType	Object
+	Object	        Toilet
+	PrimaryNeed	    Bladder
+	PrimaryRate	    -10.0000
+	SecondaryNeed	Bowels
+	SecondaryRate	-5.00000
+	ActionType	    Use
+	Flags	        UsesEntireObject
+END
+
+BEGIN Provider
+	Action	        Wash
+	ProviderType	Object
+	Object	        ShowerHead
+	PrimaryNeed	    Hygiene
+	PrimaryRate	    -5.00000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Relax
+	ProviderType	Object
+	Object	        Bed
+	Slot	        1
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.500000
+	ActionType	    Use
+	Flags	        RequiresQuiet
+	Flags	        UsesEntireObject
+END
+
+BEGIN Provider
+	Action	        Sleep
+	ProviderType	Object
+	Object	        Bed
+	Slot	        0
+	PrimaryNeed	    Sleep
+	PrimaryRate	    -0.200000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.200000
+	ActionType	    Sleep
+	Flags	        RequiresQuiet
+	Flags	        UsesEntireObject
+	Flags	        RequiresNight
+END
+
+BEGIN Provider
+	Action	        Relax
+	ProviderType	Object
+	Object	        SuperiorBed
+	Slot	        1
+	PrimaryNeed	    Comfort
+	ActionType	    Use
+	Flags	        RequiresQuiet
+	Flags	        UsesEntireObject
+END
+
+BEGIN Provider
+	Action	        Sleep
+	ProviderType	Object
+	Object	        SuperiorBed
+	Slot	        0
+	PrimaryNeed	    Sleep
+	PrimaryRate	    -0.400000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.400000
+	ActionType	    Sleep
+	Flags	        RequiresQuiet
+	Flags	        UsesEntireObject
+	Flags	        RequiresNight
+END
+
+BEGIN Provider
+	Action	        GetMeal
+	ProviderType	Object
+	Object	        ServingTable
+	Slot	        0
+	Regime	        Eat
+	PrimaryNeed	    Food
+	PrimaryRate	    0.000000
+	ActionType	    Eat
+END
+
+BEGIN Provider
+	Action	        GetMeal
+	ProviderType	Object
+	Object	        ServingTable
+	Slot	        1
+	Regime	        Eat
+	PrimaryNeed	    Food
+	PrimaryRate	    0.000000
+	ActionType	    Eat
+END
+
+BEGIN Provider
+	Action	        GetMeal
+	ProviderType	Object
+	Object	        ServingTable
+	Slot	        2
+	Regime	        Eat
+	PrimaryNeed	    Food
+	PrimaryRate	    0.000000
+	ActionType	    Eat
+END
+
+BEGIN Provider
+	Action	        GetMeal
+	ProviderType	Object
+	Object	        ServingTable
+	Slot	        3
+	Regime	        Eat
+	PrimaryNeed	    Food
+	PrimaryRate	    0.000000
+	ActionType	    Eat
+END
+
+BEGIN Provider
+	Action	        GetMeal
+	ProviderType	Object
+	Object	        ServingTable
+	Slot	        4
+	Regime	        Eat
+	PrimaryNeed	    Food
+	PrimaryRate	    0.000000
+	ActionType	    Eat
+END
+
+BEGIN Provider
+	Action	        Sit
+	ProviderType	Object
+	Object	        Bench
+	Slot	        0
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Sit
+	ProviderType	Object
+	Object	        Bench
+	Slot	        1
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Sit
+	ProviderType	Object
+	Object	        Bench
+	Slot	        2
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Sit
+	ProviderType	Object
+	Object	        Bench
+	Slot	        3
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Sit
+	ProviderType	Object
+	Object	        Chair
+	Slot	        0
+	PrimaryNeed	    Comfort
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Exercise
+	ProviderType	Room
+	Room	        Yard
+	PrimaryNeed	    Exercise
+	ActionType	    Exercise
+	Flags	        Shareable
+END
+
+BEGIN Provider
+	Action	        LiftWeights
+	ProviderType	Object
+	Object	        WeightsBench
+	Slot	        0
+	PrimaryNeed	    Exercise
+	PrimaryRate	    -3.00000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        PhoneHome
+	ProviderType	Object
+	Object	        PhoneBooth
+	PrimaryNeed	    Family
+	PrimaryRate	    -4.00000
+	ActionType	    UsePhone
+END
+
+BEGIN Provider
+	Action	        WatchTv
+	ProviderType	Object
+	Object	        Tv
+	PrimaryNeed	    Recreation
+	PrimaryRate	    -2.00000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.200000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        WatchTv
+	ProviderType	Object
+	Object	        LargeTv
+	PrimaryNeed	    Recreation
+	PrimaryRate	    -2.00000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.200000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        ListenToRadio
+	ProviderType	Object
+	Object	        Radio
+	PrimaryNeed	    Recreation
+	PrimaryRate	    -1.00000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.200000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        PlayPool
+	ProviderType	Object
+	Object	        PoolTable
+	Slot	        0
+	PrimaryNeed	    Recreation
+	PrimaryRate	    -4.00000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        PlayPool
+	ProviderType	Object
+	Object	        PoolTable
+	Slot	        1
+	PrimaryNeed	    Recreation
+	PrimaryRate	    -4.00000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        ChangeClothes
+	ProviderType	Object
+	Object	        PrisonerUniform
+	PrimaryNeed	    Clothing
+	PrimaryRate	    -100.000
+	ActionType	    Consume
+END
+
+BEGIN Provider
+	Action	        Pray
+	ProviderType	Object
+	Object	        Pews
+	Slot	        0
+	PrimaryNeed	    Spirituality
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Pray
+	ProviderType	Object
+	Object	        Pews
+	Slot	        1
+	PrimaryNeed	    Spirituality
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Pray
+	ProviderType	Object
+	Object	        Pews
+	Slot	        2
+	PrimaryNeed	    Spirituality
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Pray
+	ProviderType	Object
+	Object	        Pews
+	Slot	        3
+	PrimaryNeed	    Spirituality
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+	Action	        Pray
+	ProviderType	Object
+	Object	        PrayerMat
+	PrimaryNeed	    Spirituality
+	PrimaryRate	    -0.300000
+	ActionType	    Use
+END
+
+BEGIN Provider
+    Action          GetBook
+    ProviderType    Object
+    Object          LibraryBookshelf
+    PrimaryNeed     Literacy
+    PrimaryRate     0.000000
+    ActionType      ReadBook
+    Flags           Shareable
+END
+
+BEGIN Provider
+    Action          Shopping
+    ProviderType    Object
+    Object          ShopFront
+    PrimaryNeed     Food
+    PrimaryRate     0.00000
+    ActionType      Shopping
+    Flags           Shareable
+    Flags           RequiresCash
+    Flags           NoRoomRequired
+    Priority        1.05
+END
+
+BEGIN Provider
+    Action          Shopping
+    ProviderType    Object
+    Object          ShopFront
+    PrimaryNeed     Recreation
+    PrimaryRate     0.00000
+    ActionType      Shopping
+    Flags           Shareable
+    Flags           RequiresCash
+    Flags           NoRoomRequired
+    Priority        1.05
+END
+
+BEGIN Provider
+    Action          Shopping
+    ProviderType    Object
+    Object          ShopFront
+    PrimaryNeed     Hygiene
+    PrimaryRate     0.00000
+    ActionType      Shopping
+    Flags           Shareable
+    Flags           RequiresCash
+    Flags           NoRoomRequired
+    Priority        1.05
+END

@@ -1,0 +1,214 @@
+
+BEGIN Program
+    Name            WorkshopInduction
+    SessionCost     -100
+    Places          10
+    SessionLength   120
+    NumSessions     2
+    Difficulty      10
+    Research        PrisonLabour
+    Room            Workshop
+    Teacher         Foreman
+    Equipment       WorkshopSaw
+    EquipmentAlt    WorkshopPress
+    Intake          Voluntary
+    Properties      Practical
+END
+
+BEGIN Program
+    Name            KitchenInduction
+    SessionCost     -100
+    Places          5
+    SessionLength   120
+    NumSessions     2
+    Difficulty      10
+    Research        PrisonLabour
+    Room            Kitchen
+    Teacher         Cook
+    Equipment       Cooker
+    Intake          Voluntary
+    Properties      Practical
+END
+
+BEGIN Program
+    Name            FoundationEducation
+    SessionCost     -300
+    Places          20
+    SessionLength   180
+    NumSessions     10
+    Difficulty      25
+    Room            Classroom
+    Teacher         Teacher
+    Equipment       SchoolDesk
+    Research        Education
+    Intake          Voluntary
+    Properties      CanHireExternally
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            GeneralEducation
+    SessionCost     -500
+    Places          10
+    SessionLength   180
+    NumSessions     20
+    Difficulty      50
+    Room            Classroom
+    Equipment       SchoolDesk
+    Teacher         Teacher
+    Research        Education
+    Intake          Voluntary
+    Qualification   FoundationEducation
+    Properties      CanHireExternally
+    Properties      StudentsSit
+    Properties      Academic
+END
+
+BEGIN Program
+    Name            Carpentry
+    SessionCost     -500
+    Places          5
+    SessionLength   120
+    NumSessions     5
+    Difficulty      60
+    Teacher         Foreman
+    Room            Workshop
+    Equipment       CarpenterTable
+    Research        PrisonLabour
+    Intake          Voluntary
+    Qualification   WorkshopInduction
+    Properties      Practical
+END
+
+BEGIN Program
+    Name            Therapy
+    SessionCost     -200
+    Places          1
+    SessionLength   120
+    NumSessions     5
+    Difficulty      40
+    Teacher         Psychologist
+    Room            Office
+    Equipment       Chair
+    Research        MentalHealth
+    Intake          ReferralViolence
+    Properties      StudentsSit
+END
+
+BEGIN Program
+    Name            Methadone
+    SessionCost     -200
+    Places          10
+    SessionLength   60
+    NumSessions     3
+    Difficulty      0
+    Teacher         Doctor
+    Room            MedicalWard
+    Equipment       MedicalBed
+    Research        Health
+    Intake          ReferralDrugAddiction
+    Properties      StudentsSit
+    Properties      Repeatable
+    Properties      Passive
+END
+
+BEGIN Program
+    Name            AlcoholicsMeeting
+    SessionCost     -200
+    Places          20
+    SessionLength   120
+    NumSessions     10
+    Difficulty      0
+    Teacher         Psychologist
+    Room            CommonRoom
+    Equipment       Chair
+    EquipmentAlt    SofaChairSingle
+    Research        MentalHealth
+    Intake          ReferralAlcoholism
+    Properties      StudentsSit
+    Properties      Repeatable
+END
+
+BEGIN Program
+    Name            TazerTraining
+    SessionCost     -100
+    Places          10
+    SessionLength   60
+    NumSessions     1
+    Difficulty      10
+    Equipment       SchoolDesk
+    Research        TazersForEveryone
+    Room            Classroom
+    Teacher         Chief
+    Intake          Guards
+    Properties      Practical
+    Properties      StaffOnly
+    Properties      OutsideOfWork
+END
+
+BEGIN Program
+    Name            SpiritualGuidance
+    SessionCost     -250
+    Places          20
+    SessionLength   120
+    NumSessions     1
+    Difficulty      10
+    Room            Chapel
+    Equipment       Pews
+    EquipmentAlt    PrayerMat
+    Teacher         SpiritualLeader
+    TeacherEquipment Altar
+    Intake          NeedRequired
+    RequiredNeed    Spirituality
+    Properties      CanHireExternally
+    Properties      StudentsSit
+    Properties      Repeatable
+    ProgressEffect  calming
+    EffectChargeRate 1.0
+    DischargeNeed   Spirituality
+END
+
+BEGIN Program
+    Name            ParoleHearing
+    SessionCost     0
+    Places          1
+    SessionLength   240
+    NumSessions     1
+    Difficulty      0
+    Equipment       VisitorTable
+    Research        Policy
+    Room            ParoleRoom
+    Teacher         ParoleOfficer
+    SecondTeacher   ParoleLawyer
+    TeacherEquipment VisitorTable
+    Intake          Parole
+    Properties      StudentsSit
+    Properties      TeachersSit
+    Properties      CanEscortStudent
+    Properties      OutsideOfWork
+    Properties      CanHireExternally
+END
+
+BEGIN Program
+    Name            DeathRowAppeal
+    SessionCost     0
+    Places          1
+    SessionLength   240
+    NumSessions     1
+    Difficulty      0
+    Equipment       VisitorTable
+    Research        Deathrow
+    Room            ParoleRoom
+    Teacher         AppealsMagistrate
+    SecondTeacher   AppealsLawyer
+    TeacherEquipment VisitorTable
+    Intake          DeathRow
+    Properties      StudentsSit
+    Properties      TeachersSit
+    Properties      CanEscortStudent
+    Properties      OutsideOfWork
+    Properties      CanHireExternally
+    Properties      Repeatable
+    WaitTime        3
+END
