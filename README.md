@@ -6,4 +6,4 @@ There are two sections, really. Above, you can see a folder browser - in there w
 
 The bulk of the guide, however, is over in the wiki - you can get to it any time by clicking the little book icon in the sidebar, or just [click here](https://github.com/aubergine10/Prison-Architect-API/wiki).
 
-:construction" This entire wiki is still heavily under constuction, just like the game.
+:construction: This entire wiki is still heavily under constuction, just like the game.
