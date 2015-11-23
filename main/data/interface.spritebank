@@ -1,6 +1,6 @@
 
 BEGIN Sprites    
-    Size                 106  
+    Size                 109  
     BEGIN "[i 0]"      Name ArmedPatrol  x 24  y 22  w 4  h 4  RotateType 0  TopAligned false  END
     BEGIN "[i 1]"      Name Bangup  x 18  y 6  w 3  h 3  RotateType 0  TopAligned false  END
     BEGIN "[i 2]"      Name Blank  x 0  y 0  w 3  h 3  RotateType 0  TopAligned false  END
@@ -65,47 +65,50 @@ BEGIN Sprites
     BEGIN "[i 61]"     Name RoomClearRooms  x 30  y 3  w 3  h 3  RotateType 0  TopAligned false  END
     BEGIN "[i 62]"     Name RoomCommonRoom  x 21  y 9  w 3  h 3  RotateType 0  TopAligned false  END
     BEGIN "[i 63]"     Name RoomDeliveries  x 12  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 64]"     Name RoomExecution  x 12  y 6  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 65]"     Name RoomExports  x 18  y 15  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 66]"     Name RoomForestry  x 27  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 67]"     Name RoomGarbage  x 15  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 68]"     Name RoomHoldingCell  x 6  y 6  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 69]"     Name RoomIntake  x 21  y 18  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 70]"     Name RoomKennel  x 15  y 15  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 71]"     Name RoomKitchen  x 0  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 72]"     Name RoomLaundry  x 9  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 73]"     Name RoomLibrary  x 18  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 74]"     Name RoomMailRoom  x 39  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 75]"     Name RoomMedicalWard  x 21  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 76]"     Name RoomMorgue  x 27  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 77]"     Name RoomOffice  x 6  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 78]"     Name RoomParoleRoom  x 24  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 79]"     Name RoomSecurity  x 18  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 80]"     Name RoomShop  x 42  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 81]"     Name RoomShower  x 12  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 82]"     Name RoomSolitary  x 9  y 6  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 83]"     Name RoomStaffroom  x 6  y 15  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 84]"     Name RoomStorage  x 9  y 12  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 85]"     Name RoomSuperiorCell  x 3  y 6  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 86]"     Name RoomVisitation  x 15  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 87]"     Name RoomWorkshop  x 6  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 88]"     Name RoomYard  x 0  y 9  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 89]"     Name Search  x 14  y 30  w 2  h 2  RotateType 0  TopAligned false  END
-    BEGIN "[i 90]"     Name Shakedown  x 21  y 6  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 91]"     Name Staff  x 21  y 0  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 92]"     Name Sticker  x 28  y 26  w 6  h 4  RotateType 0  TopAligned false  END
-    BEGIN "[i 93]"     Name StickerSmall  x 28  y 30  w 6  h 2  RotateType 0  TopAligned false  END
-    BEGIN "[i 94]"     Name TopbarBalance  x 27  y 31  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 95]"     Name TopbarCCTV  x 27  y 30  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 96]"     Name TopbarCashflow  x 26  y 31  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 97]"     Name TopbarGrading  x 27  y 27  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 98]"     Name TopbarGuards  x 27  y 29  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 99]"     Name TopbarMainMenu  x 27  y 28  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 100]"    Name TopbarPrisoner  x 26  y 29  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 101]"    Name TopbarResearch  x 26  y 28  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 102]"    Name TopbarThermometer  x 26  y 30  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 103]"    Name TopbarTodo  x 26  y 27  w 1  h 1  RotateType 0  TopAligned false  END
-    BEGIN "[i 104]"    Name Utilities  x 18  y 0  w 3  h 3  RotateType 0  TopAligned false  END
-    BEGIN "[i 105]"    Name WeaponsFree  x 27  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 64]"     Name RoomDormitory  x 30  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 65]"     Name RoomExecution  x 12  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 66]"     Name RoomExports  x 18  y 15  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 67]"     Name RoomFamilyCell  x 33  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 68]"     Name RoomForestry  x 27  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 69]"     Name RoomGarbage  x 15  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 70]"     Name RoomHoldingCell  x 6  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 71]"     Name RoomIntake  x 21  y 18  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 72]"     Name RoomKennel  x 15  y 15  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 73]"     Name RoomKitchen  x 0  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 74]"     Name RoomLaundry  x 9  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 75]"     Name RoomLibrary  x 18  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 76]"     Name RoomMailRoom  x 39  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 77]"     Name RoomMedicalWard  x 21  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 78]"     Name RoomMorgue  x 27  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 79]"     Name RoomNursery  x 36  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 80]"     Name RoomOffice  x 6  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 81]"     Name RoomParoleRoom  x 24  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 82]"     Name RoomSecurity  x 18  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 83]"     Name RoomShop  x 42  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 84]"     Name RoomShower  x 12  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 85]"     Name RoomSolitary  x 9  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 86]"     Name RoomStaffroom  x 6  y 15  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 87]"     Name RoomStorage  x 9  y 12  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 88]"     Name RoomSuperiorCell  x 3  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 89]"     Name RoomVisitation  x 15  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 90]"     Name RoomWorkshop  x 6  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 91]"     Name RoomYard  x 0  y 9  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 92]"     Name Search  x 14  y 30  w 2  h 2  RotateType 0  TopAligned false  END
+    BEGIN "[i 93]"     Name Shakedown  x 21  y 6  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 94]"     Name Staff  x 21  y 0  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 95]"     Name Sticker  x 28  y 26  w 6  h 4  RotateType 0  TopAligned false  END
+    BEGIN "[i 96]"     Name StickerSmall  x 28  y 30  w 6  h 2  RotateType 0  TopAligned false  END
+    BEGIN "[i 97]"     Name TopbarBalance  x 27  y 31  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 98]"     Name TopbarCCTV  x 27  y 30  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 99]"     Name TopbarCashflow  x 26  y 31  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 100]"    Name TopbarGrading  x 27  y 27  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 101]"    Name TopbarGuards  x 27  y 29  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 102]"    Name TopbarMainMenu  x 27  y 28  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 103]"    Name TopbarPrisoner  x 26  y 29  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 104]"    Name TopbarResearch  x 26  y 28  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 105]"    Name TopbarThermometer  x 26  y 30  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 106]"    Name TopbarTodo  x 26  y 27  w 1  h 1  RotateType 0  TopAligned false  END
+    BEGIN "[i 107]"    Name Utilities  x 18  y 0  w 3  h 3  RotateType 0  TopAligned false  END
+    BEGIN "[i 108]"    Name WeaponsFree  x 27  y 6  w 3  h 3  RotateType 0  TopAligned false  END
 END
 BEGIN Markers    Size 0  END

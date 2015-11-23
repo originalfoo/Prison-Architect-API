@@ -41,6 +41,24 @@ BEGIN Object
 END
 
 BEGIN Object     
+    Name                 BunkBed  
+    Height               2  
+    ConstructionTime     5.00000  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                -500  
+    NumSlots             2  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               BunkBed  
+    ToolbarSprite        BunkBedToolbar
+    MadeOf               Wood
+    Properties           StaticObject
+END
+
+BEGIN Object     
     Name                 SuperiorBed
     Height               2  
     ConstructionTime     3.00000  
@@ -60,6 +78,43 @@ BEGIN Object
     Properties           StaticObject
     Properties           Sellable
     Properties           RoomSpecific
+END
+
+BEGIN Object     
+    Name                 Crib  
+    ConstructionTime     3.00000  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                -200  
+    NumSlots             1  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Cot  
+    MadeOf               Wood
+    Properties           StaticObject
+    Properties           WomenOnly
+    Properties           RoomSpecific 
+END
+
+
+BEGIN Object
+    Name                 PlayMat  
+    ConstructionTime     3.00000  
+    Toughness            5.0000  
+    Price                -50  
+    NumSlots             1  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               PlayMat  
+    MadeOf               Composite
+    Properties           StaticObject
+    Properties           WomenOnly
+    Properties           RoomSpecific 
 END
 
 BEGIN Object     
@@ -2494,7 +2549,7 @@ BEGIN Object
     Properties           Material
     Properties           SlowDelivery
     WorkGroup            Shop
-END
+END    
 
 BEGIN Object     
     Name                 Boombox  
@@ -3033,6 +3088,8 @@ BEGIN Room       Name None  END
 BEGIN Room       
     Name                 Cell  
     Capturable           true
+    Properties           Housing
+    Properties           QualityGraded
     BEGIN Requirement Type MinimumSize  x 2  y 3  END
     BEGIN Requirement Type Enclosed END
     BEGIN Requirement Type Indoor  END
@@ -3047,11 +3104,23 @@ BEGIN Room
     BEGIN LikelyObject  Id      Chair           END
     BEGIN LikelyObject  Id      ShowerHead      END
     BEGIN LikelyObject  Id      Drain           END
+    BEGIN Grading       Type    RoomSize Size   6               END
+    BEGIN Grading       Type    RoomSize Size   9               END
+    BEGIN Grading       Type    RoomSize Size   16              END
+    BEGIN Grading       Type    OutsideWindow   Stackable true  END
+    BEGIN Grading       Type    Item    Id      OfficeDesk      END
+    BEGIN Grading       Type    Item    Id      ShowerHead      END
+    BEGIN Grading       Type    Item    Id      Tv              END
+    BEGIN Grading       Type    Item    Id      Radio           END
+    BEGIN Grading       Type    Item    Id      Bookshelf       END
+    BEGIN Grading       Type    Item    Id      Chair           END    
 END
 
 BEGIN Room       
     Name                 SuperiorCell
     Capturable           true
+    Properties           Housing
+    Properties           QualityGraded
     BEGIN Requirement Type MinimumSize  x 4  y 4  END
     BEGIN Requirement Type Enclosed END
     BEGIN Requirement Type Indoor  END
@@ -3062,11 +3131,22 @@ BEGIN Room
     BEGIN Requirement Type Object  Id Tv END
     BEGIN Requirement Type Object  Id Bookshelf END
     BEGIN LikelyObject Id Drain END
+    BEGIN Grading       Type    RoomSize Size   6               END
+    BEGIN Grading       Type    RoomSize Size   9               END
+    BEGIN Grading       Type    RoomSize Size   16              END
+    BEGIN Grading       Type    OutsideWindow   Stackable true  END
+    BEGIN Grading       Type    Item    Id      OfficeDesk      END
+    BEGIN Grading       Type    Item    Id      ShowerHead      END
+    BEGIN Grading       Type    Item    Id      Tv              END
+    BEGIN Grading       Type    Item    Id      Radio           END
+    BEGIN Grading       Type    Item    Id      Bookshelf       END
+    BEGIN Grading       Type    Item    Id      Chair           END  
 END
 
 BEGIN Room       
     Name                 HoldingCell  
     Capturable           true
+    Properties           Housing
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
     BEGIN Requirement Type Enclosed END
     BEGIN Requirement Type Indoor  END
@@ -3078,9 +3158,76 @@ BEGIN Room
     BEGIN LikelyObject	Id		Bed             END
 END
 
+BEGIN Room
+    Name                 Dormitory
+    Properties           Housing
+    Properties           QualityGraded
+    BEGIN Requirement Type MinimumSize  x 2  y 3  END
+    BEGIN Requirement Type Enclosed END
+    BEGIN Requirement Type Indoor  END
+    BEGIN Requirement Type Object  Id Bed Alt BunkBed END
+    BEGIN Requirement Type Object  Id Toilet  END
+    BEGIN LikelyObject	Id		JailDoor		END
+    BEGIN LikelyObject  Id      Bookshelf       END
+    BEGIN LikelyObject  Id      Tv              END
+    BEGIN LikelyObject  Id      Window          END
+    BEGIN LikelyObject  Id      Radio           END
+    BEGIN LikelyObject  Id      PoolTable       END
+    BEGIN LikelyObject  Id      PhoneBooth      END
+    BEGIN Grading       Type    RoomSize Size   6               END
+    BEGIN Grading       Type    RoomSize Size   12              END
+    BEGIN Grading       Type    RoomSize Size   18              END
+    BEGIN Grading       Type    Item    Id      ShowerHead      END
+    BEGIN Grading       Type    Item    Id      Tv              END
+    BEGIN Grading       Type    Item    Id      Radio           END
+    BEGIN Grading       Type    Item    Id      Bookshelf       END
+    BEGIN Grading       Type    Item    Id      Chair           END
+    BEGIN Grading       Type    Item    Id      PoolTable       END
+    BEGIN Grading       Type    OutsideWindow   Stackable true  END
+END
+
+BEGIN Room
+    Name                FamilyCell
+    Properties          Housing
+    Properties          WomenOnly
+    Properties          MothersOnly
+    Properties           RequiresSector
+    BEGIN Requirement Type MinimumSize  x 4  y 4  END
+    BEGIN Requirement Type Enclosed END
+    BEGIN Requirement Type Indoor  END
+    BEGIN Requirement Type Object  Id Bed END
+    BEGIN Requirement Type Object  Id Toilet  END
+    BEGIN Requirement Type Object  Id Crib END
+    BEGIN Requirement Type Object  Id ShowerHead END
+    BEGIN LikelyObject	Id		JailDoor		END
+    BEGIN LikelyObject  Id      Bookshelf       END
+    BEGIN LikelyObject  Id      Tv              END
+    BEGIN LikelyObject  Id      Window          END
+    BEGIN LikelyObject  Id      Radio           END
+    BEGIN LikelyObject	Id		Drain			END
+END
+
+BEGIN Room
+    Name                Nursery
+    Properties          RequiresSector
+    Properties          WomenOnly
+    Properties          MothersOnly
+    Properties          DiningArea
+    BEGIN Requirement Type Object  Id ServingTable  END
+    BEGIN Requirement Type Object  Id Table END
+    BEGIN Requirement Type Object  Id Bench END
+    BEGIN Requirement Type Object  Id Crib END
+    BEGIN Requirement Type Object  Id PlayMat END
+    BEGIN LikelyObject	Id		Tv             END
+    BEGIN LikelyObject  Id      Window          END
+    BEGIN LikelyObject  Id      Radio           END
+    BEGIN LikelyObject	Id		PhoneBooth		END
+END
+
 BEGIN Room       
     Name                 Canteen  
     Properties           RequiresSector
+    Properties           DiningArea
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id ServingTable  END
     BEGIN Requirement Type Object  Id Table END
@@ -3642,9 +3789,10 @@ BEGIN Equipment
     AttackPower          15.0000
     RechargeTime         0.50000
     Range                10.0
+    Ammo                 6
     Properties           Weapons
     Properties           Metal
-    Properties           RangedWeapon
+    Properties           RangedWeapon    
     Properties           NoImport
 END
 
@@ -3656,6 +3804,7 @@ BEGIN Equipment
     RechargeTime         1.00000  
     TwoHanded            true  
     Range                10.0
+    Ammo                 6
     Properties           Weapons
     Properties           RangedWeapon
     Properties           Metal
@@ -3670,6 +3819,7 @@ BEGIN Equipment
     RechargeTime         2.00000
     TwoHanded            true  
     Range                40.0
+    Ammo                 10
     Properties           Weapons
     Properties           RangedWeapon
     Properties           Metal
@@ -3683,6 +3833,7 @@ BEGIN Equipment
     AttackPower          4.00000  
     RechargeTime         0.1000
     Range                20.0
+    Ammo                 30
     TwoHanded            true  
     Properties           Weapons
     Properties           RangedWeapon
@@ -3697,6 +3848,7 @@ BEGIN Equipment
     AttackPower          2.00000
     RechargeTime         0.1000
     Range                20.0
+    Ammo                 30
     Properties           Weapons
     Properties           RangedWeapon
     Properties           Metal
@@ -3710,6 +3862,7 @@ BEGIN Equipment
     AttackPower          1.00000
     RechargeTime         2.00000  
     TwoHanded            false  
+    Ammo                 1
     Properties           Weapons
     Properties           RangedWeapon
     Properties           NoImport

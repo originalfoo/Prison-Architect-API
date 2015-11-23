@@ -27,6 +27,106 @@ BEGIN Names
     Forename James
     Forename Sean
     Forename Felix
+    FemaleName Sophia
+    FemaleName Emma
+    FemaleName Olivia
+    FemaleName Ava
+    FemaleName Isabella
+    FemaleName Mia
+    FemaleName Zoe
+    FemaleName Lily
+    FemaleName Emily
+    FemaleName Madelyn
+    FemaleName Madison
+    FemaleName Chloe
+    FemaleName Charlotte
+    FemaleName Aubrey
+    FemaleName Avery
+    FemaleName Abigail
+    FemaleName Kaylee
+    FemaleName Layla
+    FemaleName Harper
+    FemaleName Ella
+    FemaleName Amelia
+    FemaleName Arianna
+    FemaleName Riley
+    FemaleName Aria
+    FemaleName Hailey
+    FemaleName Hannah
+    FemaleName Aaliyah
+    FemaleName Evelyn
+    FemaleName Addison
+    FemaleName Mackenzie
+    FemaleName Adalyn
+    FemaleName Ellie
+    FemaleName Brooklyn
+    FemaleName Nora
+    FemaleName Scarlett
+    FemaleName Grace
+    FemaleName Anna
+    FemaleName Isabelle
+    FemaleName Natalie
+    FemaleName Kaitlyn
+    FemaleName Lillian
+    FemaleName Sarah
+    FemaleName Audrey
+    FemaleName Elizabeth
+    FemaleName Leah
+    FemaleName Annabelle
+    FemaleName Kylie
+    FemaleName Mila
+    FemaleName Claire
+    FemaleName Victoria
+    FemaleName Maya
+    FemaleName Lila
+    FemaleName Elena
+    FemaleName Lucy
+    FemaleName Savannah
+    FemaleName Gabriella
+    FemaleName Callie
+    FemaleName Alaina
+    FemaleName Sophie
+    FemaleName Makayla
+    FemaleName Kennedy
+    FemaleName Sadie
+    FemaleName Skyler
+    FemaleName Allison
+    FemaleName Caroline
+    FemaleName Charlie
+    FemaleName Penelope
+    FemaleName Alyssa
+    FemaleName Peyton
+    FemaleName Samantha
+    FemaleName Liliana
+    FemaleName Bailey
+    FemaleName Maria
+    FemaleName Reagan
+    FemaleName Violet
+    FemaleName Eliana
+    FemaleName Adeline
+    FemaleName Eva
+    FemaleName Stella
+    FemaleName Keira
+    FemaleName Katherine
+    FemaleName Vivian
+    FemaleName Alice
+    FemaleName Alexandra
+    FemaleName Camilla
+    FemaleName Kayla
+    FemaleName Alexis
+    FemaleName Sydney
+    FemaleName Kaelyn
+    FemaleName Jasmine
+    FemaleName Julia
+    FemaleName Cora
+    FemaleName Lauren
+    FemaleName Piper
+    FemaleName Gianna
+    FemaleName Paisley
+    FemaleName Bella
+    FemaleName London
+    FemaleName Clara
+    FemaleName Cadence
     Surname Alexander
     Surname Almond
     Surname Ansley
@@ -899,8 +999,8 @@ END
 BEGIN Reputation
     Name            GangMember
     ChanceLow       0
-    ChanceMedium    5
-    ChanceHigh      15
+    ChanceMedium    10
+    ChanceHigh      25
 END
 
 BEGIN Reputation

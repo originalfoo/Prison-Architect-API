@@ -7332,6 +7332,15 @@ OBJECT _EscapeMode
 		FREQUENCY          PARAMETER TypeLinked            0.00     0.98   100.00     1.99     0.00  ProgressBarStatus  UpdateConstantly
 		RELEASE            PARAMETER TypeFixedValue        0.50  UpdateOncePerLoop
 	END
+	EVENT OutOfAmmo           
+		SOUNDNAME          104412__nanashi__trigger-with-hammer-fall
+		SOURCETYPE         0
+		POSITIONTYPE       1
+		INSTANCETYPE       0
+		LOOPTYPE           0
+		MINDISTANCE        10.00
+		VOLUME             PARAMETER TypeFixedValue        8.95  UpdateOncePerLoop
+	END
 END
 
 

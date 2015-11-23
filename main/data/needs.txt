@@ -241,6 +241,32 @@ BEGIN Need
     Properties              AutoCharge
     GenerationRules         Intelligent
 END
+
+BEGIN Need
+    Name                    BabySleep
+    Priority                9
+    TimeToAction            180.00
+    TimeToFailure           180.00
+    StartingActionPoints    33
+    RandomActionPoints      17
+    Chance                  1.0
+    Visibility              Hidden
+    Properties              AutoCharge
+    GenerationRules         MothersOnly
+END
+
+BEGIN Need
+    Name                    BabyPlay
+    Priority                8
+    TimeToAction            520.00
+    TimeToFailure           720.00
+    StartingActionPoints    33
+    RandomActionPoints      33
+    Chance                  1.0
+    Visibility              Hidden
+    Properties              AutoCharge
+    GenerationRules         MothersOnly
+END
     
     
 
@@ -301,6 +327,34 @@ BEGIN Provider
 	ActionType	    Sleep
 	Flags	        RequiresQuiet
 	Flags	        UsesEntireObject
+	Flags	        RequiresNight
+END
+
+BEGIN Provider
+	Action	        Sleep
+	ProviderType	Object
+	Object	        BunkBed
+	Slot	        0
+	PrimaryNeed	    Sleep
+	PrimaryRate	    -0.200000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.0500000
+	ActionType	    Sleep
+	Flags	        RequiresQuiet
+	Flags	        RequiresNight
+END
+
+BEGIN Provider
+	Action	        Sleep
+	ProviderType	Object
+	Object	        BunkBed
+	Slot	        1
+	PrimaryNeed	    Sleep
+	PrimaryRate	    -0.200000
+	SecondaryNeed	Comfort
+	SecondaryRate	-0.0500000
+	ActionType	    Sleep
+	Flags	        RequiresQuiet
 	Flags	        RequiresNight
 END
 
@@ -621,4 +675,26 @@ BEGIN Provider
     Flags           RequiresCash
     Flags           NoRoomRequired
     Priority        1.05
+END
+
+BEGIN Provider
+	Action	        BabySleep
+	ProviderType	Object
+	Object	        Crib
+	Slot	        0
+	PrimaryNeed	    BabySleep
+	PrimaryRate	    -0.50000
+	ActionType	    LoadBaby
+    Flags           RequiresBaby
+END
+
+BEGIN Provider
+	Action	        BabyPlay
+	ProviderType	Object
+	Object	        PlayMat
+	Slot	        0
+	PrimaryNeed	    BabyPlay
+	PrimaryRate	    -2.000000
+	ActionType	    LoadBaby
+    Flags           RequiresBaby
 END

@@ -1,0 +1,31 @@
+
+BEGIN Sprites    
+    Size                 26  
+    BEGIN "[i 0]"      Name bulgarian  x 2  y 1794  w 423  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 1]"      Name czech  x 518  y 1794  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 2]"      Name danish  x 1034  y 1794  w 334  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 3]"      Name dutch  x 1550  y 1794  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 4]"      Name english  x 2  y 1534  w 508  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 5]"      Name finnish  x 518  y 1534  w 415  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 6]"      Name french  x 1034  y 1534  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 7]"      Name german  x 1550  y 1534  w 423  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 8]"      Name greek  x 2  y 1274  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 9]"      Name hungarian  x 518  y 1274  w 508  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 10]"     Name italian  x 1034  y 1274  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 11]"     Name japanese  x 1550  y 1274  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 12]"     Name korean  x 2  y 1014  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 13]"     Name norwegian  x 518  y 1014  w 348  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 14]"     Name polish  x 1034  y 1014  w 406  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 15]"     Name portuguese  x 1550  y 1014  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 16]"     Name portuguese-brazil  x 2  y 754  w 362  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 17]"     Name romanian  x 518  y 754  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 18]"     Name russian  x 1034  y 754  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 19]"     Name simplifiedchinese  x 1550  y 754  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 20]"     Name traditionalchinese  x 1550  y 754  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 21]"     Name spanish  x 2  y 494  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 22]"     Name swedish  x 518  y 494  w 406  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 23]"     Name thai  x 1034  y 494  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 24]"     Name turkish  x 1550  y 494  w 380  h 252  RotateType 0  TopAligned false  END
+    BEGIN "[i 25]"     Name ukrainian  x 2  y 234  w 380  h 252  RotateType 0  TopAligned false  END
+END
+BEGIN Markers    Size 0  END
