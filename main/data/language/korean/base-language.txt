@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              새로시작
+dialog_load                             불러오기
+dialog_save                             저장
+dialog_saveas                           다른 이름으로 저장
+dialog_delete                           삭제
+dialog_width                            너비
+dialog_height                           높이
+dialog_name                             이름
+dialog_type                             유형
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                W
+dialog_h                                H
+dialog_exit                             나가기
+dialog_cancel                           취소
+dialog_ok                               확인
+dialog_open                             열기
+dialog_close                            닫기
+dialog_closed                           닫힘
+dialog_add                              추가
+dialog_up                               위로
+dialog_down                             아래로
+dialog_yes                              예
+dialog_no                               아니오
+dialog_loading                          불러오는 중...
+dialog_low                              낮음
+dialog_medium                           중간
+dialog_high                             높음
+dialog_none                             없음
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      대화 편집기
+dialogeditor_back                       뒤로
+dialogeditor_front                      앞으로
+dialogeditor_reloadlanguage             언어 다시 불러오기
+dialogeditor_test                       시험
+dialogeditor_window                     창
+dialogeditor_grid                       격자
+dialogeditor_caption                    설명
+dialogeditor_component                  요소
+dialogeditor_select						선택
+dialogeditor_create						생성
+dialogeditor_background                 배경이미지
+dialogeditor_panel                      패널
+
+dialogcomponent_custom                  꾸미기
+dialogcomponent_button                  버튼
+dialogcomponent_container               컨테이너
+dialogcomponent_caption                 설명
+dialogcomponent_titlecaption            제목설명
+dialogcomponent_checkbox                체크상자
+dialogcomponent_inputfield              입력란
+dialogcomponent_inputslider             입력슬라이더
+dialogcomponent_dropdownmenu            드롭다운메뉴
+dialogcomponent_selectionlist           선택목록
+dialogcomponent_selectionlistitem       선택목록아이템
+dialogcomponent_scrollbar               스크롤바
+dialogcomponent_progressbar             진행상태바
+dialogcomponent_canvas                  캔버스
+dialogcomponent_iconbox					아이콘상자
+
+dialogposition_absolute                 절대값
+dialogposition_relative                 상대값
+dialogposition_scaled                   축척
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          프로파일러
+profiler_name                           이름
+profiler_timings                        시간
+profiler_totaltime                      총시간
+profiler_glfinishcaption                glFinish
+profiler_reset                          초기화
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                사운드 채널
+soundeditor_title                       사운드 편집기
+soundinstanceeditor_title				사운드 인스턴스 편집기
+
+soundeditor_positiontitle		위치 종류
+soundeditor_instancetitle		인스턴스 종류
+soundeditor_looptitle			반복 종류
+soundeditor_sourcetypetitle		사운드 종류
+soundeditor_soundnametitle		사운드 이름
+
+soundeditor_volumetitle			음량
+soundeditor_frequencytitle              빈도
+soundeditor_mindistancetitle            최소 거리
+soundeditor_attacktitle                 공격
+soundeditor_sustaintitle                유지
+soundeditor_releasetitle                석방
+soundeditor_loopdelaytitle              반복 지연시간
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              다음 사건
+
+soundeditor_play                        재생
+soundeditor_stop                        중지
+
+soundparametereditor_title              사운드 변수
+soundparametereditor_typetitle          유형
+soundparametereditor_linktitle          연결
+soundparametereditor_updatetitle        업데이트 종류
+soundparametereditor_smoothing          부드럽게
+soundparametereditor_chaintitle         연쇄
+
+soundeditor_newdsp                      DSP 추가
+sounddspeditor_title                    DSP 편집기
+samplebankeditor_title                  샘플 저장소 편집기
+samplebankeditor_addsample              사운드 추가
+samplebank                              (샘플 저장소)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            완료
+interfacemode_destroy                         파괴
+interfacemode_foundations				기초
+interfacemode_construction                    자재
+interfacemode_planning                        계획
+interfacemode_objects                         물품
+interfacemode_designation                     방
+interfacemode_utilities                       공공시설
+interfacemode_staff                           직원
+interfacemode_deployment                      배치
+interfacemode_logistics                       물류
+interfacemode_prisoners                       죄수
+interfacemode_needs                           욕구
+interfacemode_threats                         위협
+interfacemode_overlays                        오버레이
+interfacemode_research                        업무결재시스템
+interfacemode_emergencies                     긴급
+interfacemode_clone                           복사
+interfacemode_contraband                      정보수집
+interfacemode_grading                         등급
+interfacemode_spawn                           (산란)
+interfacemode_properties                      (속성)
+interfacemode_cutscenes                       (장면)
+interfacemode_selection                       선택
+
+interfaceoverlay_security                       보안
+interfaceoverlay_patrols                        순찰
+interfaceoverlay_decay                          부식
+interfaceoverlay_territory                      지역
+interfaceoverlay_contraband                     밀반입
+
+interfaceproperty_indoor                        실내
+interfaceproperty_visible                       가시 구역
+interfaceproperty_territoryprisoner             갱단
+interfaceproperty_territoryguard                교도관
+interfaceproperty_sectorprisoner                폭동
+interfaceproperty_tunnel                        땅굴
+
+interfacedeployment_guards                      교도관
+interfacedeployment_patrols                     교도관 순찰
+interfacedeployment_dogpatrols                  경비견 순찰
+interfacedeployment_armedpatrols                무장교도관 순찰
+interfacedeployment_removeguards                교도관 제거
+interfacedeployment_clearpatrols                순찰 제거
+interfacedeployment_targetting                  물류
+interfacedeployment_targettingfood              음식 물류
+interfacedeployment_targettinglaundry           세탁 물류
+interfacedeployment_securearea                  안전구역
+interfacedeployment_sharedzone                  공용구역
+interfacedeployment_staffonlyzone               직원 전용
+interfacedeployment_maxseczone                  고위험자 전용
+interfacedeployment_medseczone                  중위험자 전용
+interfacedeployment_minseczone                  저위험자 전용
+interfacedeployment_protectedzone               보호감호자 전용
+interfacedeployment_supermaxzone                초고위험자 전용
+interfacedeployment_deathrowzone                사형수 전용
+interfacedeployment_unlockedzone                잠금해제
+interfacedeployment_zonered                     레드윙
+interfacedeployment_zonegreen                   그린윙
+interfacedeployment_zoneblue                    블루윙
+interfacedeployment_zoneyellow                  옐로윙
+
+interfacelogistics_jobs                         수감자 노역
+interfacelogistics_removejobs                   노역 취소
+interfacelogistics_targettingfood               음식 분배
+interfacelogistics_targettinglaundry            세탁물 분배
+interfacelogistics_roomquality                  방등급
+
+interfaceplanning_wall							벽
+interfaceplanning_object						물품
+interfaceplanning_route							통로
+interfaceplanning_clear							제거
+interfaceplanning_zone1							구역 1
+interfaceplanning_zone2							구역 2
+interfaceplanning_zone3							구역 3
+interfaceplanning_zone4							구역 4
+interfaceplanning_zone5							구역 5
+interfaceplanning_zone6							구역 6
+interfaceplanning_zone7							구역 7
+interfaceplanning_zone8							구역 8
+interfaceplanning_zone9							구역 9
+
+interfacecontraband_source                      위험물
+interfacecontraband_day                          -24시간
+interfacecontraband_week                         -7일
+interfacecontraband_alltime                      -30일
+interfacecontraband_informants                  정보원
+interfacecontraband_gangs                       갱단
+
+interfaceclone_copy                             복사
+interfaceclone_paste                            붙여넣기
+
+interfacetopbar_todo							할 일
+interfacetopbar_balance							잔고 *B
+interfacetopbar_budget							현금유출입 *C
+interfacetopbar_income							수입 *I
+interfacetopbar_expenses						지출 *C
+interfacetopbar_day								*D일
+
+interfacetopbar_title_balance					은행잔고
+interfacetopbar_title_budget					일일 현금유출입
+interfacetopbar_title_cctv						CCTV
+interfacetopbar_title_day						운영일
+interfacetopbar_title_prisoners					죄수
+interfacetopbar_title_guards					교도관
+interfacetopbar_title_tension                   위험수준
+
+interfacetopbar_tooltip_balance					은행에 보유한 현금이 얼마나 있는지 보여줍니다.\n\n클릭하면 보조금 목록을 통해 더 많은 자금을 확보할 수 있습니다.
+interfacetopbar_tooltip_budget					현재의 수입 지출을 기준으로 매일 들어오는 금액을 보여줍니다.\n\클릭하면 자세한 수입과 지출 내역을 볼 수 있습니다.
+interfacetopbar_tooltip_cctv					현재 보유하고 있는 CCTV 카메라와 모니터의 수를 나타냅니다.
+interfacetopbar_tooltip_day						교도소를 얼마나 오랫동안 운영했는지 보여줍니다.
+interfacetopbar_tooltip_prisoners				현재 교도소에 수용하고 있는 죄수의 수와 수용 가능한 최대 죄수의 수를 나타냅니다.
+interfacetopbar_tooltip_guards					현재 교도소에서 활용할 수 있는 교도관이 몇 명인지 나타냅니다.
+interfacetopbar_tooltip_tension                 교도대장을 통해 교도소의 전반적인 위험 수준을 나타냅니다.
+
+interfacetopbar_tooltip_recenttransactions      최근 거래
+
+interfacetopbar_tooltip_gametime                총 플레이 시간: *X시간, *Y분, *Z초
+
+interfacetopbar_tooltip_totalguards             전체 교도관: *X명
+interfacetopbar_tooltip_guardincapacitated      무능력자: *X명
+interfacetopbar_tooltip_guardstationed          경비 중: *X명
+interfacetopbar_tooltip_guardpatrolling         순찰 중: *X명
+interfacetopbar_tooltip_guardavailable          가용 인원: *X명
+interfacetopbar_tooltip_guardresting            휴식 중: *X명
+interfacetopbar_tooltip_guardactive             (사건 대응 중: *X명)
+interfacetopbar_tooltip_guarddoingjob           업무 중: *X명
+interfacetopbar_tooltip_idle                    (업무 없음: *X명)
+interfacetopbar_tooltip_armedguards              + 무장교도관: *X명
+interfacetopbar_tooltip_dogs                     + 경비견 조련사: *X명
+
+interfacetopbar_unlimitedfunds                  무한한 재정
+
+interfacetopbar_budget_moneyin					수입: $*M /하루
+interfacetopbar_budget_moneyout					지출: $*M /하루
+interfacetopbar_budget_cantgonegative           재정을 관리할 회계사를 고용할 때까지는 현금유출입이 적자(지출이 수입보다 많은 상태)가 되어서는 안됩니다.
+
+interfacetopbar_prisoners_types					현재 *X명 수감중
+interfacetopbar_prisoners_capacity              최대 안전 수용능력: *X
+interfacetopbar_prisonercells_shared            공용감방 수용능력: *X
+interfacetopbar_prisonercells_unlocked          잠금해제감방 수용능력: *X
+interfacetopbar_prisonercells_minseconly        저위험자 수용능력: *X
+interfacetopbar_prisonercells_medseconly        중위험자 수용능력: *X
+interfacetopbar_prisonercells_maxseconly        고위험자 수용능력: *X
+interfacetopbar_prisonercells_protectedonly     보호감호자 수용능력: *X
+interfacetopbar_prisonercells_supermaxonly      초고위험자 수용능력: *X
+interfacetopbar_prisonercells_deathrowonly      사형수 수용능력: *X
+interfacetopbar_prisonercells_staffonly         사용 불가 감방: *X
+interfacetopbar_prisoners_nocells               *X명의 죄수에게 감방을 배정할 수 없습니다
+
+interfacetopbar_cctv_current					현재 *C대의 카메라 운영 중
+interfacetopbar_cctv_cap						*C대의 카메라 수용가능
+
+interfacetopbar_tension_currentlevel            위험 수준 *X
+interfacetopbar_tension_increasing              높아지고 있음
+interfacetopbar_tension_decreasing              낮아지고 있음
+interfacetopbar_tension_description             변화요인:
+interfacetopbar_tension_happyprisoners           - *X명의 죄수가 좋은 대우를 받고 있다고 말함
+interfacetopbar_tension_unhappyprisoners         + *X명의 죄수는 심각한 불만이 있음
+interfacetopbar_tension_lockedupprisoners        + *X명의 죄수가 감방이나 독방에 감금되어 있음
+interfacetopbar_tension_riotingprisoners         + *X명의 죄수가 폭동을 일으킴
+interfacetopbar_tension_wellfedprisoners         - *X명의 죄수가 잘 먹고 있음
+interfacetopbar_tension_suppressedprisoners      = *X명의 죄수가 제압됨(여전히 불만)
+interfacetopbar_tension_activeriotguards         + *X명의 폭동진압대가 출동함
+interfacetopbar_tension_activearmedguards        + *X명의 무장교도관이 근무함
+interfacetopbar_tension_recentdeaths             + 최근 *X명의 사람이 사망함
+interfacetopbar_tension_recentsearches           + 최근 *X명의 죄수가 불필요한 수색을 당함
+interfacetopbar_tension_angrygangmembers         + *X명의 갱단이 분노함(우두머리가 처벌 받음)
+interfacetopbar_tension_recentpunishments        = (억제됨)최근 *X회의 처벌이 내려짐
+interfacetopbar_tension_recentcalmed             - 최근 *X명의 죄수가 안정됨
+
+interfacecontrol_mainmenu                       메인메뉴(Esc)
+interfacecontrol_mainmenu_tooltip               메인메뉴를 엽니다(새로시작/불러오기/저장/나가기 등).
+interfacecontrol_todo                           할 일 목록
+interfacecontrol_todo_tooltip                   할 일 목록을 엽니다.
+interfacecontrol_research                       업무결재시스템
+interfacecontrol_research_tooltip               업무결재시스템 화면을 엽니다. 관리자를 배정해서 새 아이템, 새 직원, 새 시설을 잠금해제할 수 있습니다.
+interfacecontrol_grading                        교도소 평점
+interfacecontrol_grading_tooltip                교도소 평점 화면을 엽니다. 교도소가 얼마나 성공적으로 운영되었는지 평점을 보여줍니다.
+
+interface_confirmlandbuy                        이 토지를 $*X에 구매하시겠습니까?
+interface_loadconfirm                           이 지도를 불러오기 하시겠습니까? 저장되지 않은 부분은 사라집니다.
+interface_saveconfirm                           이 파일명으로 저장하시겠습니까? 기존 데이터를 덮어쓰게 됩니다.
+
+interface_landbuylabel                          *Xm x *Ym. 총면적 *A 평방미터. *C
+
+interface_action_dismantle                      철거
+interface_action_dump                           버리기
+interface_action_repair                         수리
+interface_action_medicalbay                     치료 구역
+interface_action_search                         수색
+interface_action_searchcell                     감방 수색
+interface_action_searchcellblock                감방동 수색
+interface_action_sack                           해고
+interface_action_doormodenormal                 문 설정: 기본
+interface_action_doormodelockedshut             문 설정: 잠그기
+interface_action_doormodelockedopen             문 설정: 열어놓기
+interface_action_switchon                       스위치 켜기
+interface_action_switchoff                      스위치 끊기
+interface_action_sellobject                     물품 팔기
+interface_action_dismiss                        지우기
+interface_action_connect                        연결
+interface_action_clearconnections               연결 해제
+interface_action_servoopen                      신호 오면 열기
+interface_action_servoclose                     신호 오면 닫기
+
+interface_contents_container                    내용물: *X 
+interface_contents_stack                        내용물: *X x *Y 
+
+interface_skip                                  건너뛰기
+
+interface_error_riotmove                        들어갈 수 없음: 폭동
+
+interface_foundationsinprogress                 기초공사 진행 중
+riot_underway                                   폭동 중
+riot_status_prisoners                           *X명의 죄수가 폭동을 일으킴
+shakedown_underway                              전면수색 진행 중
+shakedown_found                                 발견된 것:
+
+gameover_caption                                계속하려면 ESC를 누르십시오
+
+sector_jobs_max                                 최대 일자리 *X
+sector_jobs_qualified                           유자격자 죄수: *X
+sector_jobs_required                            (*X 필요)
+sector_noaccess                                 길 없음
+sector_insecure                                 위험함
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					하드웨어 호환성 검사
+hardware_compat_message					검사를 수락하면 귀하의 컴퓨터에서 하드웨어 데이터를 수집하게 됩니다.\n\n이 정보는 철저한 익명성이 보장되며 프리즌 아키텍트가 가능한 한 다양한 컴퓨터 하드웨어에서 지원되도록 도울 것입니다.\n\n감사합니다!
+hardware_compat_accept					수락
+hardware_compat_decline					거부
+
+connectionmenu_connect                  연결
+connectionmenu_disconnect               연결해제
+connectionmenu_clear                    제거
+connectionmenu_done                     완료
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      건설
+buildtoolbar_reports                    보고서
+buildtoolbar_bangup                     전원입실
+buildtoolbar_lockdown                   전체잠금
+buildtoolbar_shakedown                  전면수색
+buildtoolbar_weaponsfree                발포허가
+
+buildtoolbar_tooltip_reports			보고서 창을 열어서 죄수, 직원, 수입, 보조금 등에 대한 정보를 확인합니다.
+buildtoolbar_tooltip_bangup				모든 죄수를 자기 감방으로 보냅니다. 너무 오랫동안 가두어 두면 죄수들이 화나게 됩니다.
+buildtoolbar_tooltip_lockdown			즉시 교도소의 모든 문을 잠급니다.
+buildtoolbar_tooltip_shakedown          모든 감방에 대한 즉각적인 수색을 지시합니다. 어느정도 시간이 걸리며 재소자들이 무척 짜증을 냅니다.
+buildtoolbar_tooltip_weaponsfree        무장교도관이 살상무기를 사용하도록 허가합니다.
+
+buildtoolbar_cost						비용: $*C
+buildtoolbar_cost_sqrft					비용: $*C /sq
+buildtoolbar_wages						임금 : 일당 $*W
+buildtoolbar_outdoor					실외 전용
+buildtoolbar_indoor						실내 전용
+buildtoolbar_walk_speed					이동 속도 : *S
+buildtoolbar_walk_speed_slow			느림
+buildtoolbar_walk_speed_norm			보통
+buildtoolbar_walk_speed_fast			빠름
+buildtoolbar_locked                     잠김
+buildtoolbar_locked_research			잠김(*B 필요)
+buildtoolbar_locked_administrator		잠김(*B 필요)
+buildtoolbar_room						방
+
+buildtoolbar_electrical                  - 전기제품
+buildtoolbar_highpower                   - 많은 전력 필요
+buildtoolbar_water                       - 수도 연결 필요
+buildtoolbar_wired                       - 전기 배선(전기가 연결된 다른 물품에 연결)
+buildtoolbar_modcontent                  - 요소 수정하기
+
+buildtoolbar_popup_foundations			교도소를 만들기 위해 건물을 새우거나 철거합니다.
+buildtoolbar_popup_construction			여러 종류의 바닥이나 벽.
+buildtoolbar_popup_planning				인부들이 무슨 일을 할지 고민 하지 말고 먼저 계획을 세웁니다.
+buildtoolbar_popup_designation			교도소에 특별한 기능을 하는 구역을 지정합니다.
+buildtoolbar_popup_objects				교도소에 유용한 물건을 놓습니다.
+buildtoolbar_popup_overlays				교도소 배치도를 보고 취약점을 직접 확인합니다.
+buildtoolbar_popup_utilities			배관과 전기시스템.
+buildtoolbar_popup_staff				교도소를 운영하는데 필요한 사람들을 고용합니다.
+buildtoolbar_popup_deployment			교도소에 직원을 배치합니다.
+buildtoolbar_popup_logistics            죄수들을 교도소 내의 노역에 배정합니다. 식당이나 세탁 일자리를 수동으로 조정할 수도 있습니다.
+buildtoolbar_popup_research				교도소를 위한 새로운 기능들을 잠금해제 합니다.
+buildtoolbar_popup_emergencies			상황이 악화될 것 같으면 긴급출동센터에 연락합니다.
+buildtoolbar_popup_spawn				산란? 이게 뭐 하는거지?
+buildtoolbar_popup_clone				기존 건축물을 복사해서 붙여넣기 합니다.
+buildtoolbar_popup_properties			무엇이든 알아냅니다.
+buildtoolbar_popup_contraband           밀반입품의 출처와 교도소에서 최근 발견된 모든 밀반입품을 알려줍니다. 비밀 정보원과 그들이 수집한 정보를 알려줍니다.
+buildtoolbar_popup_grading              처벌, 교정, 보안, 건강의 네 가지 핵심 항목을 기준으로 교도소에 대한 전체적인 평가를 보여줍니다. 출소자들의 재범율도 보여줍니다.
+buildtoolbar_popup_room_cell			죄수들이 생활하는 곳입니다.
+buildtoolbar_popup_room_holdingcell		새로 들어온 죄수가 감방을 배정받을 때까지 마무는 곳입니다.
+buildtoolbar_popup_room_solitary		악질 중의 악질을 가두는 독립된 공간입니다.
+buildtoolbar_popup_room_canteen			죄수들이 밥이나 차를 마시는 곳입니다.
+buildtoolbar_popup_room_kitchen			죄수들에게 줄 음식을 조리하는 곳입니다.
+buildtoolbar_popup_room_shower			죄수들이 깨끗하게 씻고 머릿니를 박멸하는 공간입니다.
+buildtoolbar_popup_room_yard			죄수들이 감시탑의 매서운 시선 아래 잠깐동안 햇빛을 볼 수 쬘 수 있게 해줍니다.
+buildtoolbar_popup_room_storage			교도소에 필요한 자재들을 저장하는 곳입니다.
+buildtoolbar_popup_room_deliveries		물품, 자재, 죄수들이 도착하는 곳입니다.
+buildtoolbar_popup_room_garbage			쓰레기를 모으는 곳입니다.
+buildtoolbar_popup_room_execution		죄수를 사형 집행하기 위해 보내는 곳입니다.
+buildtoolbar_popup_room_workshop		지루해 죽을 지경인 죄수들을 데려다 자동차 번호판을 만들 수 있는 공간입니다.
+buildtoolbar_popup_room_security		교도관을 위한 사무실입니다.
+buildtoolbar_popup_room_office			관리자들이 일하는 공간입니다.
+buildtoolbar_popup_room_medicalward		의료 대원들이 일하는 공간입니다.
+buildtoolbar_popup_room_morgue			사망자를 안치하기 위해 보내는 공간입니다.
+buildtoolbar_popup_room_commonroom		죄수들이 자유시간에 휴식을 취하게 해줍니다.
+buildtoolbar_popup_room_kennel          경비견들이 생활하는 곳입니다.
+buildtoolbar_popup_room_chapel          운영위원회가 열려 수감자들의 종교적 욕구를 해결하기 위해 머리를 맞대고 생각해낸 것이 무엇일까요? '다종교 기도실'. 우리는 그걸 예배실이라고 부릅니다.
+buildtoolbar_popup_room_paroleroom      죄수들은 형량의 50%에서 75%정도 복역하면 가석방될 수 있습니다. 그들의 운명은 이 방에서 교도소장과 교도대장과 함께 결정될 것입니다.\n\n참고: 추가적인 경비가 필요합니다. 죄수들은 가석방이 거부되면 난폭해지는 경향이 있습니다.
+buildtoolbar_popup_room_library         교도소에는 전국에서 보낸 버려지거나 낡은 책 상자들이 쌓입니다. 죄수들은 그 책들을 책장에 정리할 필요가 있습니다.
+buildtoolbar_popup_room_intake          죄수가 처음 도착하면 보내지는 곳입니다.
+
+buildtoolbar_popup_obj_bed				너무 푹신하지도 너무 딱딱하지도 않으면 좋겠지만, 사실 너무 작고 딱딱합니다.
+buildtoolbar_popup_obj_toilet			마땅이 줘야 할 인권입니다. 뭐, 저 나쁜놈들을 믿는다면요.
+buildtoolbar_popup_obj_table			의자랑 있으면 완벽합니다.
+buildtoolbar_popup_obj_chair			책상과 있으면 딱이네요.
+buildtoolbar_popup_obj_bench			앉는 곳.
+buildtoolbar_popup_obj_electricchair	2000V의 고압 전류로 정의를 구현합니다.
+buildtoolbar_popup_obj_jaildoor			죄수들이 있어야 할 곳에 가둬놓는 장치.
+buildtoolbar_popup_obj_jaildoorlarge	많은 죄수들을 가둬놓는 장치.
+buildtoolbar_popup_obj_door				단순한 문입니다.
+buildtoolbar_popup_obj_solitarydoor		최강의 죄수도 탈출을 막을 수 있는 튼튼한 문입니다.
+buildtoolbar_popup_obj_staffdoor		교도관 외에도 모든 직원이 열 수 있는 문입니다.
+buildtoolbar_popup_obj_window			햇빛을 살짝 느낄 수 있습니다.
+buildtoolbar_popup_obj_windowlarge		햇빛을 살짝 더 넓게 느낄 수 있습니다.
+buildtoolbar_popup_obj_tree				지구 온난화를 막는 것은 우리 모두의 의무입니다.
+buildtoolbar_popup_obj_light			하루 종일 재소자를 볼 수 있게 불을 밝힙니다.
+buildtoolbar_popup_obj_cooker			죄수들에게 따뜻한 음식으로 럭셔리한 인생을 누리게 해줍니다.
+buildtoolbar_popup_obj_fridge			음식이 상하지 않게 해줍니다.
+buildtoolbar_popup_obj_bin				정리정돈은 밀반입품을 막기 위해 중요합니다.
+buildtoolbar_popup_obj_sink				모든 사람들이 손을 씻어야 합니다.
+buildtoolbar_popup_obj_servingtable		죄수들에게 음식을 배식합니다.
+buildtoolbar_popup_obj_showerhead		샤워기입니다. 샤워 할 때 씁니다.
+buildtoolbar_popup_obj_bookshelf		책을 정돈해 두는 곳입니다.
+buildtoolbar_popup_obj_officedesk		직원들은 작성해야 할 것이 많습니다. 일할 수 있도록 반짝반짝한 사무용 책상을 주세요.
+buildtoolbar_popup_obj_filingcabinet	직원들이 작성한 서류를 깔끔하게 정리해서 보관해야 합니다.
+buildtoolbar_popup_obj_medicalbed		약물을 보관해 두는 곳으로 이따금 죄수들이 이곳에서 약물을 훔칩니다.
+buildtoolbar_popup_obj_morgueslab		사망자를 옮기기 전에 경건한 곳에 있도록 합니다.
+buildtoolbar_popup_obj_drain			바닥의 물이 배수되도록 합니다.
+buildtoolbar_popup_obj_sprinkler		화재가 발생하면 자동으로 그 구역에 물이 분사됩니다.
+buildtoolbar_popup_obj_metaldetector	죄수가 통과할 때 밀반입품을 찾아냅니다. 밀반입품을 압수하려면 근처에 교도관이 있어야 합니다.
+buildtoolbar_popup_obj_weightsbench		죄수들이 운동을 할 수 있게 해주어 행복 지수를 높여줍니다.
+buildtoolbar_popup_obj_phonebooth		죄수들도 가족과 이야기를 나누고 싶을 수 있습니다.
+buildtoolbar_popup_obj_tv				죄수들의 지루한 일상에 평화를 가져다 줍니다.
+buildtoolbar_popup_obj_largetv			더 많은 죄수들의 뇌를 멍청하게 만들어줍니다.
+buildtoolbar_popup_obj_pooltable		당구 게임으로 교도소 생활의 단조로움을 극복합니다.
+buildtoolbar_popup_obj_dismantleobject	교도소에서 물품을 철거합니다.
+buildtoolbar_popup_obj_altar            예배자들을 더 높은 권능과 직접적으로 연결해줍니다.
+buildtoolbar_popup_obj_pews             신자를 위한 의자입니다. 가장 단단한 나무로 만들어집니다.
+buildtoolbar_popup_obj_prayermat        죄수들이 기도하는 동안 더러워지는 것을 막아줍니다. 
+
+buildtoolbar_popup_staff_workman		당신이 설계한대로 교도소를 지어줍니다.
+buildtoolbar_popup_staff_guard			죄수들을 관리하고 감시하는 직원입니다.
+buildtoolbar_popup_staff_armedguard     총으로 무장한 교도관이며, 죄수들은 이 친구를 공격하기 전에 두 번은 생각해야 합니다.\n\n참고: 무장교도관들은 무기고에 각자의 개인사물함이 필요합니다.
+buildtoolbar_popup_staff_doctor			주위의 다친 사람들을 죄수이든 교도관이든 가리지 않고 전부 치료합니다.
+buildtoolbar_popup_staff_cook			죄수들을 먹여줄 직원입니다.
+buildtoolbar_popup_staff_gardener		교도소 정원을 깔끔하게 관리해줍니다.
+buildtoolbar_popup_staff_janitor		교도소 내부를 청결하게 관리해줍니다. 빨래도 도와줍니다.
+buildtoolbar_popup_staff_warden			교도소 최고 감독관입니다. 연구를 수행하고 고위 직원을 고용하기 위해 필요합니다.
+buildtoolbar_popup_staff_chief			교도관 배치, CCTV, 폭동진압대 등을 쓸 수 있게 해주는 고위 직원입니다.
+buildtoolbar_popup_staff_foreman		청소부와 정원사를 부를 수 있게 해주는 고위 직원입니다.
+buildtoolbar_popup_staff_psychologist	죄수들의 마음에 대한 통찰력을 얻게 해주는 고위 직원입니다. 
+buildtoolbar_popup_staff_accountant		재정 보고서에 접근할 수 있게 해주는 고위 직원입니다.
+buildtoolbar_popup_staff_lawyer			교도소를 보다 잘 통제하기 위해 규칙을 유연하게 조정할 수 있게 해주는 고위 직원입니다.
+
+buildtoolbar_popup_uts_powerstation		교도소에 사용할 전기를 생산합니다.
+buildtoolbar_popup_uts_capacitor		발전기 바로 옆에 놓여 전기 생산량을 늘립니다.
+buildtoolbar_popup_uts_electricalcable	교도소 전체에 전기를 공급합니다.
+buildtoolbar_popup_uts_powerswitch		연결된 케이블에 전기를 공급하거나 차단합니다.\n\n오른쪽 버튼을 클릭해서 켜고 끕니다.
+buildtoolbar_popup_uts_waterpumpstation	교도소에 물을 공급하는 원천입니다.
+buildtoolbar_popup_uts_pipevalve		연결된 파이프에 물을 공급하거나 차단합니다.
+buildtoolbar_popup_uts_pipelarge		교도소에 고압으로 대량의 물을 공급하는 파이프입니다. 사람이 기어들어갈 수 있을 정도로 큽니다.\n\n참고: 수압이 너무 세기 때문에 보통 싱크대나 샤워기에 직접 연결하지 않습니다. 그런 용도로는 작은 파이프를 사용합니다.
+buildtoolbar_popup_uts_pipesmall		화장실이나 샤워기, 싱크대 같은 품목을 대형 파이프에 연결하기 위해 사용됩니다. 수압이 낮기 때문에 연결할 수 있는 길이에 한계가 있습니다. 수압이 너무 떨어지기 전에 연결되어야 합니다.
+buildtoolbar_popup_uts_cctv				교도관 없이도 교도소 모든 지역을 한번에 볼 수 있게 해줍니다.\n\nCCTV 모니터와 카메라를 연결해야 합니다.
+buildtoolbar_popup_uts_cctvmonitor		보안실 내부에 설치하고 교도관이 작동합니다. CCTV 카메라로 교도소 주변을 원격으로 감시합니다.\n\n연결 도구를 이용해 CCTV와 연결해야 합니다.\n\n참고: 한 번에 8대의 카메라만 연결 가능합니다. 8대를 넘게 연결하면 그 중 일부만 돌아가며 감시하게 됩니다.
+buildtoolbar_popup_uts_DoorControlSystem  보안실 내부에 설치하고 교도관이 작동합니다. 교도소 내부의 문들을 원격으로 열 수 있습니다.\n\n연결 도구를 이용해 통제시스템을 문 개폐기에 연결합니다. 원격으로 제어할 문에 개폐기가 설치되어 있어야 합니다.\n\n참고: 통제시스템을 원하는 여러 대의 문 개폐기에 연결할 수 있습니다. 그러나 통제시스템을 조작하는 교도관은 1초에 최대 2개의 문을 열 수 있습니다.
+buildtoolbar_popup_uts_phonemonitor     보안실에 설치해서 교도관이 운영합니다. 죄수들의 통화 내역을 감시해서 불법적인 행동을 계획하는 것을 막을 수 있습니다.\n\n연결 도구를 이용해 전화부스와 연결해야 합니다.
+buildtoolbar_popup_uts_Servo            원격으로 제어하고 싶은 문 위에 개폐기를 설치합니다. 모터를 정확히 문 위에 설치해야 합니다.\n\n개폐기가 설치되면 문 통제시스템이나 문 타이머로 신호를 보내 자동으로 문을 열고 닫을 수 있습니다.\n\n개폐기를 서로 연결하여 하나의 문을 열면 나머지 문들도 같이 열 수 있습니다.
+buildtoolbar_popup_uts_LogicCircuit     고급 건축가 전용.\n\n입력과 출력을 설정 할 수 있는 논리회로입니다.\n\n가능한 작동법: And / Or / Not / Nand / Nor / Xor\n\n오른클릭으로 작동법을 바꿀 수 있습니다.
+buildtoolbar_popup_uts_LogicBridge      고급 건축가 전용.\n\n신호를 받아서 같은 공간에 있는 설치되어 있는 전력 케이블에 신호를 이어줍니다. 그러면 같은 전력 케이블에 설치된 다른 논리회로에 신호를 전달합니다.\n\n신호를 교도소 전체로 '방송'할 수 있습니다. 시계 신호를 전달하는데 유용합니다.
+buildtoolbar_popup_uts_DoorTimer        정해진 시간에 자동으로 문을 열 수 있습니다.\n\n연결 도구를 이용해 타이머를 문 개폐기에 연결해야 합니다.
+buildtoolbar_popup_uts_Wire             원격 조종 시스템을 서로 연결합니다.
+buildtoolbar_popup_uts_showallwires		교도소 내의 연결된 모든 전선을 보여줍니다.
+buildtoolbar_popup_uts_remotedoor       열쇠로는 열 수 없는 강력한 철문입니다(원격으로만 열림). 이것을 이용하면 죄수가 감방 열쇠를 가지고 있어도 탈옥할 수없습니다.
+buildtoolbar_popup_uts_dismantleutility	교도소의 공공시설 물품을 철거합니다.
+buildtoolbar_popup_uts_pressurepad      패드를 밟으면 연결된 물체에 신호를 보냅니다.
+buildtoolbar_popup_uts_statuslight      수신한 신호에 따라 빨간불이나 녹색불이 켜집니다.
+
+buildtoolbar_popup_autolights_name      자동조명
+buildtoolbar_popup_autolights           자동조명 설치
+buildtoolbar_popup_autolights_desc      선택하면 새로 짓는 건물이 완성되면 조명이 자동으로 설치됩니다.
+
+buildtoolbar_contraband_source          밀반입품을 어디에서 훔쳤는지 보여줍니다.
+buildtoolbar_contraband_day             최근 24시간 동안 압수된 밀반입품을 보여줍니다.
+buildtoolbar_contraband_week            최근 7일 동안 압수된 밀반입품을 보여줍니다.
+buildtoolbar_contraband_alltime         교도소가 설립된 이후 압수된 모든 밀반입품을 보여줍니다.
+buildtoolbar_contraband_informants      비밀 정보원에게서 받은 정보를 보여줍니다.
+
+buildtoolbar_deployment_Guards          교도소의 특정 구역에 교도관을 배정합니다.
+buildtoolbar_deployment_Patrols         클릭한 다음 드래그해서 순찰 경로를 지정합니다.\n\n순찰 경로에 교도관을 배정하려면 기존의 순찰 구역을 다시 클릭합니다.\n교도관 순찰을 지우려면 오른쪽 버튼을 클릭해서 드래그합니다.
+buildtoolbar_deployment_DogPatrols      클릭한 다음 드래그해서 순찰 경로를 지정합니다.\n\n순찰 경로에 경비견을 배정하려면 기존의 순찰 구역을 다시 클릭합니다.\n경비견 순찰을 지우려면 오른쪽 버튼을 클릭해서 드래그합니다.
+buildtoolbar_deployment_ArmedPatrols    클릭한 다음 드래그해서 순찰 경로를 지정합니다.\n\n순찰 경로에 무장 교도관을 배정하려면 기존의 순찰 구역을 다시 클릭합니다.\n무장 교도관 순찰을 지우려면 오른쪽 버튼을 클릭해서 드래그합니다.
+buildtoolbar_deployment_SharedZone      모든 죄수들이 이 구역을 이용할 수 있습니다.
+buildtoolbar_deployment_MinSecZone      저위험 등급 죄수만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_MedSecZone      중위험 등급 죄수만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_MaxSecZone      고위험 등급 죄수만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_ProtectedZone   보호감호' 등급 죄수만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_SuperMaxZone    초고위험' 등급 죄수만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_DeathRowZone    사형수' 등급 죄수만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_StaffOnlyZone   직원만이 이 구역에 들어가는 것이 허용됩니다.
+buildtoolbar_deployment_UnlockedZone    이 구역에는 누구라도 들어갈 수 있고, 모든 문의 자물쇠가 열려 있습니다.
+
+job_matsassigned                        자재 배정됨
+job_matsavailable                       자재 사용가능
+job_awaitingmaterials                   자재 기다리는 중
+job_inprogress                          작업중
+job_blocked                             작업(차단됨)
+job_queued                              작업(대기중)
+
+job_failed_noroute                      길 없음
+job_failed_nomaterials                  자재 없음
+job_failed_toodangerous                 너무 위험함
+job_failed_materialsbeingcarried        자재 운송 중
+
+job_rightclicktocancel                  오른쪽 버튼 클릭으로 취소
+job_refundamount                        환불: *X
+
+failuremessage_blocked                  차단됨
+failuremessage_cantafford               자금 부족
+failuremessage_cantaffordupkeep         일일 예산 초과
+failuremessage_maximumcountreached      고용 한계치
+failuremessage_maxstaff                 너무 많은 직원
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                배달
+statustoolbar_finances                  재정
+statustoolbar_regime                    시간표
+statustoolbar_escapemap                 보안
+statustoolbar_electricity               전기
+statustoolbar_stats                     상태
+statustoolbar_danger                    위험수준
+statustoolbar_jobs                      작업
+statustoolbar_gangs                     갱단
+statustoolbar_staff                     직원
+statustoolbar_research                  연구
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  스프라이트 은행 편집기
+spritebankeditor_create                 생성
+spritebankeditor_rotate                 회전
+spritebankeditor_sort                   정렬
+spritebankeditor_markermodetitle        시장 모드
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          메인 메뉴
+codex_campaign                          캠페인
+codex_cutscenes                         장면
+codex_qualifications                    자격
+codex_load                              교도소 불러오기
+codex_loadcampaign                      캠페인 불러오기
+codex_save                              교도소 저장
+codex_savecampaign                      캠페인 저장
+codex_performance						성능 테스트
+codex_developer_load                    (개발자)지도 불러오기
+codex_developer_save                    (개발자)지도 저장
+codex_developer_clearach                (개발자)성취 지우기
+codex_contacts                          연락처
+codex_materials                         자재
+codex_play                              재생
+codex_polaroids                         폴라로이드
+codex_introduction                      도입부
+codex_restartintroduction               도입부 재시작
+codex_restartchapter                    챕터 재시작
+codex_help                              도움말(wiki)
+codex_opensavefolder                    저장 폴더 열기
+codex_options							설정
+codex_nitgs								게임에 등장하는 이름
+codex_workshop							교도소 공유(스팀 창작마당)
+codex_checkforupdates                   업데이트 확인
+codex_preorder                          사전예약주문
+codex_termsconditions                   이용약관
+codex_twitter                           트위터
+codex_extras                            추가
+codex_unlocked                          잠금해제 *X/*Y
+
+codex_new                               새 교도소 만들기
+codex_new_worldsize                     크기
+codex_new_small                         작게
+codex_new_medium                        중간
+codex_new_large                         크게
+codex_new_selectwarden                  교도소장 선택
+
+codex_options_graphics					그래픽
+codex_options_resolution				해상도
+codex_options_resolutionauto			자동
+codex_options_windowed					창모드
+codex_options_highdpi					고해상도
+codex_options_filtering					안티앨리어싱
+codex_options_nofiltering				OFF
+codex_options_multisampled				멀티샘플링
+codex_options_supersampled				수퍼샘플링
+
+codex_options_audio						오디오
+codex_options_volume					기본 볼륨
+codex_options_frequency					주파수
+codex_options_swapstero					오디오 좌우 반전
+codex_options_dspenabled				DSP 켜기
+codex_options_11khz						11025Hz
+codex_options_22khz						22050Hz
+codex_options_44khz						44100Hz
+
+codex_options_clocktype                 시계 유형
+codex_options_clocktype_analogue        아날로그
+codex_options_clocktype_12h             12시간
+codex_options_clocktype_24h             24시간
+
+codex_options_gameplay					게임
+codex_options_autosave					자동저장 간격
+codex_options_renderrooms				방 바닥 체크무늬
+codex_options_apply						적용
+
+codex_options_language					언어
+
+codex_enabled                           켜기
+codex_disabled                          끄기
+
+codex_option_intake                     연속해서 죄수 받기
+codex_tooltip_intake                    활성화하면 정해지지 않은 수의 새로운 죄수가 매일 들어옵니다.\n\n비활성화하면 죄수를 받을 준비가 되는 때를 선택할 수 있습니다. 보고서의 죄수 탭을 클릭해서 정합니다.
+codex_option_fogofwar                   사각지대
+codex_tooltip_fogofwar                  교도관이 순찰하지 않거나 CCTV로 감시하지 않는 교도소 내부 지역의 시야가 제한됩니다.
+codex_option_lakes                      호수 생성
+codex_tooltip_lakes                     지형을 막는 호수가 무작위적으로 생성됩니다. 경고: 시험중.
+codex_option_forests                    숲 생성
+codex_tooltip_forests                   나무들이 나타납니다.
+codex_option_buildings                  건물 생성
+codex_tooltip_buildings                 무작위로 버려진 건물들이 남아있어서 원하면 사용할 수도 있습니다.
+codex_option_failure                    패배 조건
+codex_tooltip_failure                   추가 난이도 도전! 교도소를 잘못 운영하면 당신은 해고되고 게임이 종료됩니다.(폭동, 파산, 너무 많은 사망자나 탈옥 등)
+codex_option_unlimitedfunds             무제한 재정
+codex_tooltip_unlimitedfunds            처음부터 돈이 모이기를 기다릴 필요 없이 원하는 만큼 돈을 계속 쓸 수 있습니다.
+codex_option_gangs                      갱단
+codex_tooltip_gangs                     어떤 죄수는 갱단에 가입된 상태로 오며, 라이벌 갱단을 공격합니다. 추가 난이도 도전.
+codex_option_events                     사건
+codex_tooltip_events                    사건이 일어나 게임을 하는 동안 긴장을 늦출 수 없게 합니다. 난이도가 추가되고 예상하지 못한 요소가 나타납니다.
+
+codex_option_funds                      재정
+codex_tooltip_funds                     은행계좌에 든 이 돈을 가지고 시작하게 됩니다. 평가액 화면에서 기존 교도소를 팔면 더 많은 돈을 가지고 시작할 수 있습니다.
+
+codex_transfer							이감
+codex_transferring						이감 중
+codex_in_prison							현재 수감 중
+codex_useravatar                        나의 아바타
+codex_tooltip_useravatar                이 죄수를 자신의 아바타로 선택합니다. 교도소에서 당신을 대신할 죄수입니다.
+codex_tooltip_flagbio                   이 약력이 불쾌하거나 모욕적이면 신고합니다.
+
+codex_workshop_current					현재 교도소
+codex_workshop_publish					이 교도소 올리기
+codex_workshop_update					업데이트
+codex_workshop_play						재생
+codex_workshop_downloading				다운로드 중
+codex_workshop_download_failed			다운로드 실패
+codex_workshop_publishing				올리는 중...
+codex_workshop_new						새로운 것
+codex_workshop_title					제목
+codex_workshop_desc						설명
+codex_workshop_view_in_workshop			스팀 창작마당에서 보기
+codex_workshop_heading_pubed			당신이 올린 교도소
+codex_workshop_heading_subed			구독한 교도소
+codex_workshop_published_by				*P가 올린 교도소
+codex_workshop_published_by_you			당신이 올린 교도소
+codex_workshop_published_good			올린 교도소
+codex_workshop_published_good_msg		당신의 교도소가 성공적으로 올라갔습니다.
+codex_workshop_published_bad			교도소 올리기 실패
+codex_workshop_published_bad_msg		교도소 올리기에 실패했습니다.
+codex_workshop_published_bad_msg_new	교도소 올리기에 실패했습니다. 다시 시도하세요.
+codex_workshop_busy						스팀에 이미 마법이 벌어지고 있습니다. 처음 한 것이 될 때 까지 기다려주세요.
+codex_workshop_file_exists				같은 이름으로 교도소를 올렸습니다. 다른 이름을 선택하세요.
+codex_workshop_generic_fail				교도소 올리기에 실패했습니다. 다시 시도하세요.
+codex_workshop_download_bad				교도소 다운로드에 실패했습니다.
+codex_workshop_pa_workshop				프리즌 아키텍트 창작마당 열기
+codex_workshop_agreement				이 항목을 구독하면 [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop terms of service[/url] 에 동의하는 것입니다.
+
+codex_options_timelapse					타임랩스
+codex_timelapse_record					타임랩스 녹화
+codex_timelapse_stop					타임랩스 중지
+codex_timelapse_camera					카메라 모드
+codex_timelapse_resolution				해상도
+codex_timelapse_customresw				가로 해상도 조정
+codex_timelapse_customresh				세로 해상도 조정
+codex_timelapse_resolution				해상도
+codex_timelapse_fps						재생 속도
+codex_timelapse_interval				캡처 간격
+codex_timelapse_quality					품질
+codex_timelapse_unsupported				이 기능은 현재의 하드웨어에서는 사용할 수 없습니다.
+codex_timelapse_savesettings			설정 저장
+
+codex_timelapse_cam_zoom                줌 카메라
+codex_timelapse_cam_fitmap              지도에 맞추기
+codex_timelapse_cam_fitheight           지도 높이에 맞추기
+codex_timelapse_cam_fitwidth            지도 너비에 맞추기
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            높음
+codex_timelapse_quality_med             중간
+codex_timelapse_quality_low             낮음
+codex_timelapse_interval_value          게임시간 *X분
+
+codex_performance_running				성능 시험기 작동
+codex_performance_time					남은 시간: *Ts
+codex_performance_current				현재 프레임 시간: *Tms
+codex_performance_min					최소 프레임: *Tms
+codex_performance_avg					평균 프레임: *Tms
+codex_performance_max					최대 프레임: *Tms
+codex_performance_numframes				프레임 숫자: *T
+
+codex_last_modified						최근 수정된 날짜: *T
+codex_sortbydesc						날짜별
+codex_sortname							이름
+codex_sortdate							날짜
+codex_apply								적용
+codex_select                            선택
+
+codex_mods								모드
+codex_mod_activetitle					모드 활성화
+codex_mod_inactivetitle					사용가능모드
+codex_mod_deactivate					사용불가모드
+codex_mod_wiki							더 많은 모드 찾기(Wiki)
+codex_mod_openmodsfolder				모드 폴더 열기
+codex_mod_moresteammods					더 많은 모드 찾기(스팀 창작마당)
+codex_mod_findsteamtranslations         더 많은 번역 찾기(스팀 창작마당)
+codex_authortitle                       제작자
+codex_versiontitle                      버전
+codex_datetitle                         날짜
+codex_urltitle                          URL
+codex_typetitle							유형
+codex_mod_graphicsandsound				그래픽과 사운드
+codex_mod_translation					번역
+codex_mod_scenario						시나리오
+codex_mod_content						내용
+codex_mod_load_scenario					시나리오 플레이
+codex_publishmod						이 모드 올리기
+
+codex_mod_update						이 모드 업데이트
+codex_mod_published_good				모드 올림
+codex_mod_published_good_msg			모드를 성공적으로 올림.
+codex_mod_published_bad					모드 올리기 실패
+codex_mod_published_bad_msg				모드 올리기에 실패했습니다.
+codex_mod_modsupdated					모드 업데이트됨
+codex_mod_modsupdated_msg				활성화된 모드가 업데이트 되었습니다. OK를 누르면 변경사항이 적용됩니다. 진행 중인 게임이 자동 저장됩니다.
+codex_mod_translationcaption            다른 언어로 번역한 것입니까?
+
+codex_language                          언어
+codex_language_englishdefault           영어(기본)
+codex_language_default                  기본 언어
+codex_language_download                 다운로드
+codex_language_failed_download          다운로드 실패
+codex_language_failed_download_msg      선택하신 번역의 다운로드에 실패했습니다.
+codex_language_searching_workshop       스팀 창작마당 검색 중
+codex_language_community                이 번역 팩은 커뮤니티에 의해 제작 및 운영됩니다 - 감사합니다!
+
+codex_save_confirm                      *X를 현재 교도소로 덮어쓰기 하시겠습니까?
+codex_researtchapter_confirm            현재 챕터를 다시 시작하시겠습니까? 저장되지 않은 부분은 사라집니다.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					그래픽 설정을 바꾸시겠습니까?
+graphicschange_time						초 뒤에 원래 설정으로 돌아갑니다.
+graphicschange_accept					수락
+graphicschange_revert					돌아가기
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    스크립트 디버거(F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   모드 변경 확인됨
+modnotification_info                    현재 교도소가 저장될 때 이 모드를 사용했습니다. 이 교도소를 플레이하기 전에 먼저 이 모드를 다운로드해서 활성화하실 것을 권장합니다.
+modnotification_playnow                 시작하기
+modnotification_active                  활성화
+modnotification_inactive                비활성화
+modnotification_new                     새모드
+modnotification_unknown                 알 수 없음
+modnotification_popup_title             모드 차이점
+modnotification_popup_active            이 모드는 현재 활성화되었습니다. 비활성화 하려면 클릭하세요.
+modnotification_popup_inactive          이 모드는 현재 비활성화되었습니다. 활성화 하려면 클릭하세요.
+modnotification_popup_new_url           새 모드입니다. 웹브라우저에서 링크를 열려면 클릭하세요.
+modnotification_popup_new_steam         새 스팀 모드입니다. 이 모드를 구독하고 다운로드하려면 클릭하세요.
+modnotification_popup_unknown           어디서 만든지 알 수 없는 모드입니다. 직접 찾아서 설치해야 합니다.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        정지하고 수색 
+biography_selected                      선택됨
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               죄수번호 *X
+biography_prisoner_age                  나이: *X
+biography_prisoner_traits               특성 :
+biography_prisoner_convicted            *C로 유죄 판결받음(*P)
+biography_prisoner_sentenced            *X년형 선고받음
+biography_parole_now                    현재 가석방 대상
+biography_parole_later                  *X년 후 가석방 대상
+biography_prisoner_served               *X년 복역함
+biography_prisoner_priors               우선: 
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							나이:
+rapsheet_category						범주:
+rapsheet_traits							알려진 특징:
+rapsheet_conviction_text				*C - *Y년
+rapsheet_found_text						(*P)
+rapsheet_convictions					유죄판결
+rapsheet_misconductstitle				최근 불법행위
+rapsheet_biography                      약력
+rapsheet_guilty							유죄 인정
+rapsheet_notguilty						무죄 주장
+rapsheet_served							복역함
+rapsheet_served_time					*Y년 복역
+rapsheet_time							총 *Y년
+rapsheet_bio							*A(으)로 *Y년형 선고받음.
+rapsheet_bio_med						*A와 *B의 복합 범죄로 *Y년형 선고받음.
+rapsheet_bio_long						*A 와 *B 와 *C 의 복합 범죄로 *Y 년형 선고받음.
+rapsheet_category_minsec				저위험도
+rapsheet_category_normal				중위험도
+rapsheet_category_maxsec				고위험도
+rapsheet_category_protected             보호감호
+rapsheet_category_supermax              초고위험도
+rapsheet_category_deathrow              사형수
+rapsheet_tab_biography                  약력
+rapsheet_tab_experience                 경험
+rapsheet_tab_grading                    등급
+rapsheet_tab_character                  성격
+rapsheet_punish                         처벌
+rapsheet_recruit                        정보원 고용
+
+rapsheet_timeinside                     현 교도소에서 *X일 복역
+rapsheet_timeinside_hours               현 교도소에서 *X시간 복역
+rapsheet_mood                           기분
+rapsheet_activity                       활동
+rapsheet_condition                      상태
+rapsheet_program                        교정 프로그램
+rapsheet_passchance                     성공 가능성
+rapsheet_reformhistory                  교정 프로그램 기록
+
+rapsheet_reform_success                 성공
+rapsheet_reform_successcount            *X회 완료
+rapsheet_reform_failed                  실패
+rapsheet_reform_failcount               *X회 실패
+
+rapsheet_grading_punishment             처벌
+rapsheet_grading_health                 건강
+rapsheet_grading_security               보안
+rapsheet_grading_reform                 교정
+rapsheet_grading_points                 *X점 : 
+rapsheet_grading_penalties              *X 패널티 : 
+
+rapsheet_scheduleexecution              사형집행 예정
+
+
+punish_lockdown_6                       감금(6시간)
+punish_lockdown_12                      감금(12시간)
+punish_lockdown_24                      감금(24시간)
+punish_solitary_6                       독방(6시간)
+punish_solitary_12                      독방(12시간)
+punish_solitary_24                      독방(24시간)
+punish_solitary_perm                    독방(종신)
+punish_lockdown_perm                    감금(종신)
+punish_solitary                         독방
+punish_lockdown                         전체잠금
+punish_none                             없음
+punish_timer                            *X시간 *Y분
+punish_timer_minutes                    *X분
+punish_active                           진행중
+punish_permanent                        (종신)
+punish_end                              처벌 종료
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  없음
+misconduct_reporttype_complaint             불만
+misconduct_reporttype_destruction           파괴
+misconduct_reporttype_escapeattempt         탈옥 시도
+misconduct_reporttype_injuredprisoner       죄수 공격
+misconduct_reporttype_injuredstaff          직원 공격
+misconduct_reporttype_seriousinjury         중상
+misconduct_reporttype_murder                살인
+misconduct_reporttype_contrabandweapons     무기 발견
+misconduct_reporttype_contrabandtools       도구 발견
+misconduct_reporttype_contrabandnarcotics   마약 발견
+misconduct_reporttype_contrabandluxuries    사치품 발견
+misconduct_reporttype_intoxicated           약물 중독
+misconduct_title                             =[불법행위]=
+
+misconduct_report_addiction                 *X 에 중독됨
+misconduct_report_recoving                  *X 중독 치료됨
+misconduct_report_alcoholic                 알콜중독
+misconduct_report_recovingalcoholic         알콜중독 치료됨
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       보고서를 작성하려면 *X이 필요합니다.
+research_requireunlock                  보고서를 잠금해제하려면 '*X' 연구가 필요합니다.
+research_approved                       승인됨
+research_cost                           비용: *X
+research_costperitem                     + 항목당 *X
+research_timetounlock                   잠금해제에 필요한 시간: *X시간
+research_movementpenalty                이동 패널티: *X%
+research_protectionbonus                보호: *X%
+research_tap_to_authorise               승인하려면 클릭하세요.
+
+research_none                           없음
+research_warden                         교도소장
+research_maintainance                   유지관리
+research_security                       보안
+research_legal                          법률
+research_mentalhealth                   심리학
+research_finance                        재정
+research_landexpansion                  토지 확장
+research_cctv                           감시장비
+research_riotguards                     폭동진압대
+research_health                         건강
+research_cleaning                       청소
+research_groundskeeping                 정원관리
+research_clone                          복사
+research_deployment                     배치
+research_patrols                        순찰
+research_dogs                           경비견
+research_prisonlabour                   수감자 노역
+research_education                      교육
+research_contraband                     정보수집
+research_policy                         교도소 정책
+research_armoury                        무기고
+research_bodyarmour                     방탄복
+research_tazers                         테이저
+research_tazersforeveryone              테이저 보급확대
+research_bankloans                      은행 대출
+research_lowertaxes1                    세금 경감
+research_lowertaxes2                    역외 조세 피난처
+research_remoteaccess                   원격 조종
+research_extragrant                     추가 보조금
+research_advancedmanagement             세부 관리
+research_deathrow                       사형수
+research_permanentpunishment            종신형
+research_removemincellsize              소형 감방
+research_reduceexecutionliability       사형집행 책임 경감
+research_legalprep                      법적 절차
+research_legaldefense                   법적 방어
+
+researchtooltip_warden                  교도소장과 업무결재시스템을 잠금해제합니다. 교도소장은 직원 툴바에서 고용할 수 있습니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_security                교도대장을 잠금해제합니다. 직원 툴바에서 고용할 수 있습니다. 교도대장은 교도관 배치 화면에 접근할 수 있게 해주며 교도소의 위험수준을 실시간으로 알려주고, 때로는 미래에 일어날 수 있는 문제를 예측합니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_maintenance             현장감독을 잠금해제합니다. 직원 툴바에서 고용할 수 있습니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_legal                   변호사를 잠금해제합니다. 직원 툴바에서 고용할 수 있습니다. 교도소를 통제하는데 도움을 주는 여러 연구들을 잠금해제할 수 있습니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_deployment              교도소의 특정 구역에 교도관을 배치해 영구적으로 감시합니다.
+researchtooltip_patrols                 교도소 경계와 같이 중요한 구역에 순찰 구역을 지정하고 교도관이 순찰을 돌게 할 수 있습니다.
+researchtooltip_dogs                    경비견과 조련사를 잠금해제합니다. 이들은 밀반입품의 냄새를 맡고, 땅굴을 발견합니다.\n\n경비견은 아주 빨라서 도주하는 죄수들을 쉽게 잡을 수 있습니다.
+researchtooltip_cctv                    CCTV 카메라와 보안 모니터를 잠금해제합니다. 이것을 이용해 사람이 없는 곳도 감시할 수 있습니다.\n\n도청장치도 잠금해제하여 죄수의 통화를 엿들을 수 있고 중요한 정보를 얻을 수 있습니다.
+researchtooltip_remoteaccess            원격조종과 자동으로 열리는 문을 열 수 있는 고급 장비를 잠금해제합니다. 문 통제시스템을 이용해 원격으로 문을 열 수도 있고(교도관이 작동), 문 타이머로 특정 시간에 열리게 만들 수도 있습니다.
+researchtooltip_riotguards              (현재 소용없음)\n폭동진압대를 잠금해제합니다. 이들은 무장을 하고 있어서 폭력 사태를 처리하는데 유리합니다.
+researchtooltip_maintainance            현장감독을 잠금해제합니다. 수감자 노역같은 연구를 할 수 있게 하고 정원사같은 직원을 고용할 수 있게 해줍니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_clone                   메인 툴바에서 복사 툴을 잠금해제합니다. 감방과 같은 교도소 시설을 빠르게 지을 수 있습니다. 마우스 오른쪽 버튼으로 드래그해서 복사할 구역을 선택한 다음 왼쪽 버튼으로 복사합니다.
+researchtooltip_groundskeeping          정원사를 잠금해제합니다. 정원사는 실외를 정리정돈 합니다.
+researchtooltip_cleaning                청소부를 잠금해제합니다. 청소부는 교도소의 모든 실내 구역을 청소하며 빨래를 도와줄 수 있습니다.
+researchtooltip_health                  의사와 의무실, 영안실을 잠금해제합니다. 부상당한 죄수와 직원을 의무실로 보내 의사가 치료하도록 합니다.
+researchtooltip_MentalHealth            심리학자를 잠금해제합니다. 심리학자는 항상 죄수들의 정신상태를 파악해서 당신에게 가치있는 통찰력을 제공합니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_finance                 회계사를 잠금해제해서 재정 보고서를 볼 수 있게 합니다.\n\n비축되어 있는 자금을 추정하여 수입을 초과하는 금액도 지출할 수 있게 합니다.\n\n다른 관리자처럼 사무실이 필요합니다.
+researchtooltip_landexpansion           근처의 토지를 매입하여 최초의 경계를 넘어서 교도소 규모를 확장할 수 있도록 승인합니다.
+researchtooltip_prisonlabour            죄수들을 교도소에서 일하게 해서 (요리, 청소 등) 직원 임금도 줄이고 돈도 벌고 죄수들에게 새로운 기술도 가르칩니다.\n\n작업장과 세탁실도 잠금해제합니다.
+researchtooltip_education               교육 교정 프로그램을 잠금해제하여 외부에서 선생님을 고용해 죄수들을 교육합니다.
+researchtooltip_contraband              교도관들이 밀반입품을 더 잘 찾고 추적할 수 있도록 훈련합니다. 밀반입품 수요공급 보고서와 밀반입품 오버레이(교도소 내의 모든 가능한 절도 위치를 보여줌)를 잠금해제하고, 찾아낸 모든 밀반입품을 어디에서 몰래 들여오거나 훔쳤는지 추적합니다.\n\n죄수를 비밀정보원으로 고용할 수 있는 능력도 잠금해제합니다.\n\n또한 갱단 정보수집 보기도 잠금해제합니다.
+researchtooltip_policy                  정책 보고서를 잠금해제하여 모든 종류의 불법행위에 대한 처벌을 늘리거나 줄일 수 있고 부정행위를 하는 죄수와 그의 감방을 자동으로 수색할 수 있습니다.\n\n급식 정책을 통제하여 죄수들에게 공급되는 음식의 양과 식단을 조정 할 수 있습니다.
+researchtooltip_armoury                 무기고를 잠금해제하여 교도소에 무장교도관을 배치 할 수 있게 됩니다.
+researchtooltip_bodyarmour              모든 교도관, 무장교도관, 경비견 조련사에게 방탄복을 지급합니다. 싸우는 동안 피해를 줄여주지만 속도가 느려집니다.\n\n교도관이 무기고에 가서 이 장비를 가져와야 하고, 방탄복을 구입할 때마다 비용이 듭니다.
+researchtooltip_tazers                  무장교도관이 죄수를 한번에 제압하는 테이저를 소지하도록 합니다. 테이저는 사용하기 전에 충전되어야 하며 충전하는데 한 시간이 걸립니다.\n\n무장교도관이 무기고에 가서 이 장비를 가져와야 하고, 테이저를 구입할 때마다 비용이 듭니다.
+researchtooltip_tazersforeveryone       일반 교도관도 방어를 위해 테이저를 소지할 수 있도록 테이저 프로그램을 확대합니다.\n\n교도관이 무기고에 가서 이 장비를 가져와야 하고, 테이저를 구입할 때마다 비용이 듭니다.
+researchtooltip_bankloans               은행에서 매일 이자를 지급하는 조건으로 돈을 빌릴 수 있게 합니다. 빚을 갚으면 신용등급이 올라가 나중에 더 큰 돈을 빌릴 수 있게 됩니다.
+researchtooltip_lowertaxes1             정부의 세금 감면을 받아 법인세가 15% 줄어듭니다.\n\n일일 수익금이 $10,000라면 $1,500의 세금이 절약됩니다.
+researchtooltip_lowertaxes2             회계사가 규칙을 확대적용해서 모든 공식 계좌를 세금이 적은 외국으로 옮깁니다. 법인세율이 1%로 떨어집니다.\n\n일일 수익금 $10,000 중 $3,000의 세금이 절약됩니다.
+researchtooltip_extragrant              한번에 최대 3개까지 보조금을 받을 수 있게 됩니다.
+researchtooltip_advancedmanagement      당신의 요구사항을 정확하게 준수하도록 교도소의 세부 관리 방법을 제공합니다.\n\n음식 물류를 잠금해제합니다. 어떤 주방이 어떤 식당을 위해 조리하는지, 재소자가 어떤 식장에서 먹는지 설정이 가능합니다. 세탁 물류도 마찬가지로 어떤 구역에 어떤 빨랫감을 놓는지 설정이 가능합니다.\n\n추가적으로 배치 스케줄을 잠금해제하면 시간에 따라 교도관을 다르게 배치할 수 있습니다.\n\n교정 프로그램 스케줄을 잠금해제하면 프로그램 일정을 조정할 수 있습니다.
+researchtooltip_permanentpunishment     때로는 교도소에 있는 것만으로 충분하지 않습니다. 당신의 변호사가 원하는 죄수를 영원히 감방에 가두는데 필요한 서류를 준비할 수 있습니다.
+researchtooltip_removemincellsize       감방은 법적으로 정해진 크기로 만들어야만 합니다. 하지만 제한이 없다면 얼마나 많은 감방을 만들 수 있을지 생각해보시죠! 일반적인 감방의 최소 크기 제한을 없애줍니다.
+researchtooltip_reduceexecutionliability 사형집행 절차를 정당하게 진행하기에 앞서 당신의 변호사가 필요한 판결확신도 축소를 위해 로비를 합니다. 사형수가 재심 청구할 회수를 줄여서 그전에 법적 책임 부담없이 사형집행을 계획할 수 있습니다. 
+researchtooltip_legalprep               모든 교도소는 크고 작은 문제를 안고 운영됩니다. 그 중에는 법적인 절차가 필요한 것들도 있습니다. 당신의 변호사는 당신이 저지른 실수를 수습하기 위해 서류 작업을 시작할 것입니다. 그러나 먼저 이것이 완료되어야 합니다.
+researchtooltip_legaldefense            당신은 현재 좋지 않은 상황에 놓여있습니다. 잘못된 행동으로 주목을 받고 있습니다. 당신이 해결하기는 힘들어 보이지만 당신의 변호사가 도와줄 수 있습니다. 이 연구를 마치면 당신이 해고될 수도 있는 잘못에서 벗어나게 해줍니다.
+
+research_legaldefense_adviser1          자네의 변호사가 엉망진창인 상황으로부터 자네를 보호해준 것 같군. 자네를 해고할 수 없겠어. 이번에는 말이지.
+research_legaldefense_adviser2          교도소를 어서 통제하게. 그런 수법이 영원히 자네를 보호해주는 건 아니야.
+
+research_missingadministrator           필요함:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                필요함:
+roomrequirement_recommended             권장사항: 
+roomrequirement_minimumsize             최소 크기 *W x *H
+roomrequirement_minimumsize_short	크기 *W x *H
+roomrequirement_indoor                  실내
+roomrequirement_outdoor                 실외
+roomrequirement_solidground             단단한 지면
+roomrequirement_secure                  안전(최소 하나의 문 필요)
+roomrequirement_secure_short		안전
+roomrequirement_enclosed                둘러막힘(벽과 문으로 에워싸야함)
+roomrequirement_enclosed_short		둘러막힘
+requirement_entrance                    입구 필요
+roomrequirement_title                   =[방 필요조건]=
+roomrequirement_passed                  [통과] 
+roomrequirement_failed                  [실패] 
+roomrequirement_adjacentobject          방 옆에 있어야함: 
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            잠금해제됨
+
+unlock_special_electricity              전기 시스템
+unlock_special_food                     음식 준비
+unlock_special_officersafety            교도관 안전
+unlock_special_misbehavior              부정행위
+unlock_special_accounting               회계
+unlock_special_gangs                    갱단
+
+unlock_electricity_caption              발전기와 전력케이블을 설치해 전기가 필요한 곳에 전기를 공급할 수 있습니다.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       계속하려면 클릭하십시오...
+incoming_call                           전화 오는중...
+
+adviser_name_unknown                    알 수 없음
+adviser_name_ceo                        CEO
+adviser_name_warden                     교도소장
+adviser_name_governer                   주지사
+adviser_name_chief                      교도대장
+adviser_name_doctor                     의사
+adviser_name_kingpin                    대부
+adviser_name_edwardshooter              에드워드
+adviser_name_edwardsinner               에드워드
+adviser_name_edwardinmate               에드워드
+adviser_name_edwardswife                에드워드의 아내 수잔
+adviser_name_priest                     신부
+adviser_name_newsreader                 CNDC 뉴스
+adviser_name_mayor 						캘빈 헬러 시장
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            직원
+report_prisoners                        죄수
+report_jobs                             작업
+report_needs                            욕구
+report_threats                          위협
+report_regime                           시간표
+report_policy                           정책
+report_grants                           보조금
+report_finance                          재정
+report_valuation                        평가액
+report_contraband                       밀반입
+report_programs                         프로그램
+report_schedule                         일정표
+report_intake                           입소
+
+report_grants_bankloan                  은행 대출
+report_grants_bankloan_text             은행에서 자금을 빌릴 수 있습니다. 그대신 매일 이자를 갚아야 합니다.\n\n규칙적으로 이자를 납입하면 신용 등급이 올라가 더 많은 돈을 대출 할 수 있게 됩니다. 하지만 이자를 납입하지 않으면 신용 등급이 떨어져 돈이 필요할 때 은행이 대출을 거부하게 됩니다.\n\n참고: 매일 이자만 내도 대출금은 그대로 남아있습니다.
+report_grants_max1                      한 번에 한 개의 보조금만 받을 수 있습니다.\n회계사를 통해 이 제한을 늘릴 수 있습니다.
+report_grants_max2                      한 번에 두 개까지 보조금을 받을 수 있습니다.\n회계사를 통해 이 제한을 늘릴 수 있습니다.
+report_grants_max3                      한 번에 세 개까지 보조금을 받을 수 있습니다.
+report_grants_bankloan_amount           현재 은행 대출: *X
+report_grants_bankloan_interest         하루 이자: *X
+report_grants_bankloan_max              최대 대출 한도: *X
+report_grants_creditrating              신용 등급: *X
+report_grants_inprogress_tt             (진행 중)
+report_grants_completed_tt              (완료)
+report_grants_locked_tt                 (잠김)
+report_grants_advancepayment            보조금 선불: *X
+report_grants_completionbonus           보조금 잔금: *X
+report_grants_objectives                [목표]
+report_grants_prereqs                   [선결조건]
+report_grants_completed                 완료
+report_grants_locked                    잠김
+report_grants_inprogress                진행 중
+report_grants_hidden                    (*X 개 숨겨짐)
+report_grants_taptoaccept               수용하려면 탭을 누르세요
+report_grants_cancelfee                 취소 비용: *X
+
+report_staff_title                      전체 직원: *X
+report_prisoners_title                  전체 죄수: *X
+report_staff_group_builders             인부
+report_staff_group_guards               교도관
+report_staff_group_staff                직원
+report_staff_group_administrators       관리자
+report_staff_group_prisoners            죄수
+report_staff_group_prisoners_high       고위험
+report_staff_group_prisoners_normal     중위험
+report_staff_group_prisoners_low        저위험
+report_staff_group_prisoners_protected  보호감호
+report_staff_group_prisoners_supermax   초고위험도
+report_staff_group_prisoners_deathrow   사형수
+
+report_staff_fire                       해고
+
+report_intake_title                     입소
+report_intake_catheader_cat             죄수등급
+report_intake_catheader_pay             지원금
+report_intake_catheader_available       가능인원
+report_intake_catheader_amount          비율
+report_intake_next_header               다음 입소: *X
+report_intake_cat_minsec                저위험자
+report_intake_cat_normal                중위험자
+report_intake_cat_maxsec                고위험자
+report_intake_cat_deathrow              사형수
+report_intake_slider_minsec             저위험자 비율 조정
+report_intake_slider_normal             중위험자 비율 조정
+report_intake_slider_maxsec             고위험자 비율 조정
+report_intake_slider_deathrow           사형수 비율 조정
+report_intake_closed                    닫힘
+report_intake_locked                    잠김
+report_intakemaxperdaydesc              일일 입소
+report_intakemaxperdaydesc_tooltip      다음 번 입소에서 받을 전체 죄수의 수
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              없음
+report_intakemaxperdayall               모두
+reports_intakedelivernow                바로 받기
+report_intakepayment                    지원금
+report_intakeall                        모두
+report_intake_list_tooltip_title        입소자 등급
+report_intake_list_tooltip              교도소에서 받을 수 있는 모든 죄수 등급을 보여줍니다.\n\n풀 사이즈는 각 등급별로 받을 수 있는 죄수의 총 숫자를 표시합니다. 이 숫자는 슬라이더 비율에 따라 시간이 지나면서 증가하게 됩니다.\n\n다음에 받을 죄수 등급의 비율을 슬라이더로 조정할 수 있습니다.
+report_intake_list_tooltip_dr           \n\n사형수를 수감하려면 교도소에 특별히 설치된 사형수 수감시설이 필요합니다. 사형수 입소는 일반 재소자 입소에 비해 훨씬 느리며, 사형수 규모도 증가하지 않습니다. 사형수 입소는 수도 적고 간격도 깁니다.
+report_intake_buttons_tooltip_title     다음 입소
+report_intake_buttons_tooltip           이곳을 이용해서 다음에 받을 죄수의 수를 늘리거나 줄일 수 있습니다.\n\n"없음"을 선택하면 새로운 죄수가 들어오지 않으며, "모두"를 선택하면 받을 수 있는 모든 수의 죄수가 옵니다.\n\n각 등급별 죄수 숫자는 위에 있는 슬라이더로 조정할 수 있습니다.
+report_intake_overview_tooltip_title    입소 개요
+report_intake_overview_tooltip          다음에 받을 죄수의 숫자와 지원금을 확인할 수 있습니다. 입소할 죄수의 수와 등급은 위의 슬라이더와 버튼으로 조정할 수 있습니다. 지원금은 각 등급의 죄수 숫자에 영향을 받습니다.
+
+valuation_categoryprison                교도소 가치
+valuation_construction                  벽돌과 시멘트
+valuation_objects                       설비와 장비
+valuation_stock                         재고와 자재
+valuation_staff                         직원
+valuation_startupgrant                  시작 보조금
+valuation_capacity                      죄수 수용능력
+valuation_cash                          현금
+valuation_debt                          은행 대출
+valuation_categoryperformance           안전 및 보안
+valuation_bonustimewithoutincident      [보너스] 무사고 시간
+valuation_finedeath                     [패널티] 지난 24시간 동안 사망
+valuation_fineescape                    [패널티] 지난 24시간 동안 탈옥
+valuation_total                         총액
+valuation_sell                          판매
+valuation_sellprison                    교도소 매각
+valuation_sell_tooltip                  교도소를 매각하여 수익금을 회수할 수 있고 훨씬 많은 은행 잔고를 가지고 새로 교도소를 운영할 수 있습니다.\n\n이 교도소를 계속 운영 할 수 있지만 한 교도소는 한 번만 팔 수 있습니다. 모든 판매 수익금은 새 교도소로 이전됩니다.
+valuation_sold                          이 교도소는 *X 에 매각되었습니다.
+valuation_donotown                      소유하지 않은 교도소는 팔 수 없습니다
+valuation_sellsome                      지분 팔기
+valuation_buysome                       지분 사기
+valuation_shares                        지분 사고팔기
+valuation_shares_tooltip                교도소 지분을 최대 50%까지 외부 투자자에게 판매할 수 있습니다. 판매 대금은 즉시 현금으로 받게 됩니다. 나중에 교도소를 매각할 때는 보유한 지분에 따라 매각 대금을 나눠받게 됩니다.\n\n예를 들어 지분을 30% 판매한 경우, 최종 교도소 매각 대금의 70%만 받게 됩니다. 언제라도 판매한 지분을 다시 매입할 수 있습니다. 하지만 매입 비용은 판매했던 가격보다 더 높을 수 있습니다.
+valuation_ownership                     당신은 교도소의 *X%를 소유하고 있습니다.
+valuation_saleprice                     판매 가격: *X
+valuation_title                          =[평가액]=
+valuation_totalprisonvalue              전체 교도소 가치: *X
+valuation_subcashreserves               현금준비금 제외: *X
+valuation_tenpercentprice               10% 지분 가격: *X
+valuation_profit                        수익금: *X
+valuation_tap_to_authorise              승인하려면 클릭하세요.
+
+salecondition_title                     판매 조건
+salecondition_cannotsell                아래 조건이 충족되기 전에는 교도소 또는 지분을 판매 할 수 없습니다.
+salecondition_minimumvalue              최소 가치 $50,000
+salecondition_cashflow                  현금유출입 흑자
+salecondition_accountant                회계사 보유
+salecondition_minprisoners              최소 죄수 20명
+salecondition_recentdeaths              최근 사망자 없음
+salecondition_recentescapes             최근 탈옥자 없음
+salecondition_passed                    [통과] 
+salecondition_failed                    [실패] 
+
+policy_title                            사고
+policy_search                            - 수색 -
+policy_prisoner                         죄수
+policy_cell                             감방
+policy_punishment                       처벌
+policy_quantity                         시간
+policy_punishmenttime                   *X 시간
+policy_mealcost                         $*X / 하루
+policy_totalmealcost                    (총 $*X / 하루)
+
+job_construct                           *X 건설
+job_installobject                       *X 설치
+job_installobjectinroom                 *Y 에 *X 설치
+job_moveobject                          *X 이동
+job_moveobjecttoroom                    *X를 *Y로 이동
+job_loadobjectinto                      *X를 *Y에 적재
+job_storeobject                         *X를 *Y에 보관
+job_dismantleobject                     *X 철거
+job_dumpobject                          *X 버림
+job_repairobject                        *X 수리
+job_operateequipment                    *X 작동
+job_escortprisoner                      죄수를 *X로 호송
+job_punishprisoner                      죄수 처리 중
+job_searchobject                        *X 수색
+job_searchentity                        죄수 수색
+job_searchingentity						죄수 수색 중
+job_searchcell                          감방 수색
+job_searchcellblock                     감방동 수색
+job_improvecellindoor                   실내 구역 청소
+job_improvecelloutdoor                  실외 정원 관리
+job_opendoor                            잠긴 문 열기
+job_giveuniform                         죄수복 보급
+job_failurecount                        *X회 실패
+job_feedprisoner                        죄수 급식제공
+job_healprisoner                        죄수 치료
+job_delivermail                         우편물 전달
+       
+finances_title                          재정
+finances_income                         수입
+finances_expenses                       지출
+finances_total                          총액
+finances_profit                         순이익
+finances_timewithoutincident            (*X 일)
+finances_dailyincome                    *X / 하루
+
+finances_category_federalgrant          정부 보조금
+finances_category_minsecprisoners       저위험 죄수 보조금
+finances_category_medsecprisoners       일반 죄수 보조금
+finances_category_maxsecprisoners       고위험 죄수 보조금
+finances_category_prisoners             죄수 보조금
+finances_category_workmen               인부 임금
+finances_category_guards                교도관 임금
+finances_category_admin                 관리자 임금
+finances_category_staff                 직원 임금
+finances_category_food                  음식
+finances_category_electricity           전기
+finances_category_workshops             작업장
+finances_category_loaninterest          대출 이자
+finances_category_reformprogs           교정 프로그램
+finances_category_noincident            무사고일
+finances_category_exports               출하(어제)
+finances_category_corptax               세금
+finances_category_prisonerwages         죄수 임금(어제)
+finances_category_shoprevenue           판매점 수익(어제)
+
+reports_foodtitle                       급식 정책
+meal_quantity                           음식의 양
+meal_variety                            식단 다양성
+meal_cost                               죄수 1인당 비용
+
+reports_paroletitle                     가석방 기준
+parole_title                            가석방 비율
+parole_info                             가석방 컷오프: *P%
+parole_desc                             죄수의 재범율이 이 수치를 넘지 않으면 가석방 청문회를 거쳐 출소하게 됩니다.
+parole_fine                             재범 벌금
+parole_reward                           조기 출소 보상
+
+victory_title                           증명서
+
+victory_PrisonValue                     교도소 가치
+victory_Income                          일일 수익금
+victory_Prisoners                       수용능력
+victory_PrisonersReleased               출소 재소자
+victory_prisonersdied                   수감 중 사망자
+victory_prisonersescaped                탈옥한 죄수
+victory_Bankrupt                        파산
+victory_Riot                            통제불가\n폭동
+victory_TooManyDeaths                   직무\n유기
+victory_TooManyEscapes                  보안\n파탄
+victory_failure                         실패
+victory_warning                         경고
+victory_remaining                       남음
+victory_death                           사망
+victory_escapes                         탈옥
+victory_counter                         (오늘 *X명)
+victory_executions                      불법적 사형집행
+victory_innocentsexecuted               사형집행된 무고한 죄수
+
+victory_warning_bankrupt                24시간 내로 재정 파탄을 복구해야 합니다.
+victory_warning_riot                    폭동을 빨리 제압하지 않으면 정부가 통제권을 행사할 수 밖에 없습니다.
+victory_warning_toomanydeaths           오늘 너무 많은 사망자가 발생하면 고발당하게 됩니다.
+victory_warning_toomanyescapes          오늘 너무 많은 죄수가 탈옥하면 당신은 해고됩니다.
+
+victory_prisoners_units                 정원
+victory_prisonersreleased_units         석방자
+victory_toomanydeaths_units             사망
+victory_toomanyescapes_units            탈옥
+victory_prisonersparoled                가석방 죄수
+victory_prisonersreoffended             재범 죄수
+
+victory_adviserwarning_toomanydeaths1   어제는 이 교도소의 역사에서 어두운 한 페이지였소. 너무 많은 사람이 여기서 목숨을 잃었소.
+victory_adviserwarning_toomanydeaths2   오늘은 누구도 죽지 않도록 하시오. 아니면 직무 유기로 고발당할 거요.
+victory_advisernotice_toomanydeaths1    우리가 경고하지 않았소. 당신은 최근 이곳에서 벌어진 사건 때문에 직무 유기죄로 고발당했네.
+victory_advisernotice_toomanydeaths2    당신은 당신이 지은 죄로 10년동안 감방생활을 해야할 거요. 당신이 지은 감방에서 말이오.
+victory_adviserwarning_riot1            당신의 교도소는 통제불가입니다. 폭동을 진압하시오. 그렇지 않으면 교도소가 정부로 넘어갈 것이오.
+victory_advisernotice_riot1             당신은 폭동을 진압하는데 실패했소. 정부가 운영계약을 취소했고 교도소를 접수하려고 정부 교도관을 보냈소.
+victory_adviserwarning_toomanyescapes1  언론이 들끓고 있어요. 현재 너무 많은 죄수들이 탈옥했고, 그것은 당신의 잘못입니다. 
+victory_adviserwarning_toomanyescapes2  이곳을 철통같이 봉쇄하고 누구도 탈옥하지 못하게 하세요. 그러지 않으면 언론이 당신을 도마 위의 생선처럼 다룰 것이오.
+victory_advisernotice_toomanyescapes1   당신은 실패했소. 이 교도소는 언론의 웃음거리가 되었소. 그들은 책임질 누군가를 찾고있소.
+victory_advisernotice_toomanyescapes2   그 누군가가 바로 당신이오. 당신은 해고됐소.
+victory_adviserwarning_bankrupt1        우리는 파산했소! 당신의 엉터리 운영이 재정 파산으로 이끌었소.
+victory_adviserwarning_bankrupt2        이 문제를 당장 해결할 방법을 찾지 못하면 당신은 해고될 것이오.
+victory_advisernotice_bankrupt1         우리는 파산신청을 하고 교도소를 정부에 넘길 수 밖에 없소. 당신은 실패했소.
+victory_adviserwarning_wardendeaths1    당신과 함께 일하는 건 너무나 위험하오. 교도소에서 일할 새 교도소장을 찾고있소.
+victory_adviserwarning_wardendeaths2    만약 교도소장이 또 죽게되면 당신을 해고할 수 밖에 없소.
+victory_advisernotice_wardendeaths1     당신은 교도소장에게 안전한 업무환경을 만들어주지 못했소. 모두들 당신과 함께 일하는 것을 두려워하고 있소.
+victory_advisernotice_wardendeaths2     당신을 해고할 수 밖에 없소. 당신은 해고되었소.
+victory_adviserwarning_reoffenders1     당신의 교도소에서 출소한 많은 죄수들이 범죄를 일으키고 있소. 상황을 관리하지 못하면 우리의 비용이 더 많이 들 것이오.
+victory_adviserwarning_reoffenders2     너무 많은 죄수가 석방되어 재범을 일으킨다면 당신의 책임을 물을 것이오.
+victory_advisernotice_reoffenders1      당신은 너무 많은 위험한 범죄자를 세상에 풀어놓았소. 당신을 해고할 수 밖에 없소. 자네는 실패했소.
+victory_adviserwarning_executions1      무고한 죄수를 죽인 건 이번이 두번째요. 바깥에 원성이 자자하오.
+victory_adviserwarning_executions2      다시 한 번 무고한 죄수를 사형시키면 책임을 지게 될 것이오.
+victory_advisernotice_executions1       당신은 너무 많은 무고한 사람을 사형시켰소. 자네에게 교도소의 운영을 맡기면 안되겠소. 자네는 실패했소.
+victory_advisernotice_InnocentsExecuted1 당신은 정당한 절차에 따르지 않고 사형을 집행했소. 그는 무죄임이 밝혀졌소. 이것은 중대한 오심이고 당신이 책임져야 하오. 당신은 해고되었고 아마도 철창에 갇히게 될것이오.
+
+score_title                             교도소 평가
+score_reoffendingrate                   재범율
+score_prisonersreleased                 *X명의 죄수가 석방되었습니다.
+score_minimumprisonersreleased          이 보고서를 작성하려면 먼저 *X명의 죄수가 석방되어야 합니다.
+score_deaths                            *X명의 죄수 사망
+score_escapes                           *X명의 죄수 탈옥
+score_reoffendingchance                 예상 재범 가능성
+score_startingreoffendingchance         예상 확률: *X%
+score_prisonersparoled                  조기 가석방자(재범)
+score_prisonersparoled_info             *P (*E%)
+score_clemencychance                    감형 가능성
+score_convictionstrength                국가공인 판결확신도
+score_prisonersexecuted                 사형집행된 죄수(무고함)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                이것은 사회적 관점에서 죄수가 지은 죄에 대해 얼마나 잘 처벌 받았는지 보여줍니다. 오랜 기간 복역한 것이 강력한 처벌의 기본이지만 혼자 갇혀있던 시간도 평가에 포함됩니다.\n\n너무 많은 교정과 자유시간은 약한 처벌로 간주되고 처벌 점수에 불리하게 작용합니다.\n\n강력한 처벌은 석방 후에 죄수의 재범을 막아줄 것입니다.
+score_tooltip_reform                    교정 프로그램을 통해 죄수를 얼마나 교화하고 갱생하려 시도했는지 보여줍니다.\n\n교정 점수가 높으면 죄수가 출소 후 좋은 일자리를 찾을 기회가 커지고 따라서 재범 가능성이 줄어듭니다.\n\n참고: 죄수가 교도소에서 일을 하면 교정 점수가 올라갑니다.
+score_tooltip_health                    교도소에 수감되어 있는 동안 죄수의 건강과 복지를 보여줍니다. 실외 운동시간과 훌륭한 음식은 점수에 플러스가 됩니다. 치료받지 못한 부상과 알코올, 마약은 마이너스가 됩니다.\n\n마약이나 알코올 의존성을 치료하지 않고 석방할 경우 낮은 점수가 재범 가능성을 높입니다.
+score_tooltip_security                  죄수를 얼마나 안전하게 가둬두었는지 보여주는 평점입니다. 죄수가 무장교도관 감시 하에 갇혀있으면 이 점수가 높아집니다. 죄수가 싸움이나, 살인, 탈옥시도에 연루되면 패널티를 받게됩니다.\n\n점수가 낮다는 것은 재소자가 교도소 안에서도 범죄 경험이 있으며, 따라서 석방된 후에 재범 가능성이 높다는 것을 의미합니다.
+
+score_tooltip_reoffendingchance         죄수가 출소한 뒤 다시 범죄를 저지를 가능성을 나타냅니다 이 점수를 결정하는데는 많은 요인들이 고려됩니다:\n\n- 감소요인: 강력한 처벌\n- 감소요인: 성공적인 교정 프로그램\n- 증가요인: 취약한 건강과 보안\n- 증가요인: 마약 및 알콜 중독 방치\n 증가요인: 갱단 가입\n\n\n- 죄수의 나이도 중요한 요인입니다.\n- 전과 누범도 강력한 지표입니다.\n- 가족의 지원이 도움이 될 수 있습니다.
+score_tooltip_clemencychance_title      감형 가능성
+score_tooltip_clemencychance            재심 위원회에서 선처를 베풀어 해당 죄수의 사형선고를 감형할 가능성을 나타냅니다. 재심 청구가 기각될 때마다 이 수치가 내려가며, 수치는 사형집행 진행 절차의 승인을 얻을 수 있는 범위인 국가공인 판결확신도 미만이 될 때까지 떨어집니다. 이 수치에 도달하기 전에 사형을 집행하고, 나중에 죄수의 재심 청구가 성공적으로 받아들여질 경우, 당신은 엄청난 패널티를 받게됩니다.\n\n감형이 허가되면 해당 죄수는 즉시 석방되거나(무죄임이 밝혀질 경우) 최상 보안 등급으로 이감됩니다(여전히 유죄로 판결되는 경우).
+score_tooltip_currentchance             국가공인 판결확신도: *X%
+score_tooltip_clemencywarning           이 죄수가 감형을 받을 가능성이 현재 국가가 공인한 안전한 수준를 넘어섭니다. 사형집행을 진행할 경우 나중에 감형 탄원이 받아들여지면, 당신이 개인적으로 책임을 지게 됩니다. 
+
+experiencefactor_FractionalLockedUp     감금 *X%
+experiencefactor_FractionalReform       교정 프로그램 *X%
+experiencefactor_fractionalWorking      노역 *X%
+experiencefactor_fractionalsuppressed   제압 *X%
+experiencefactor_fractionalinjured      치료받지 못한 부상 *X%
+experiencefactor_fractionalintoxicated  중독(약물/알코올/금단) *X%
+experiencefactor_fractionalmisbehaving  부정행위 *X%
+experiencefactor_fractionalarmedguard   무장교도관에게 제압 *X%
+experiencefactor_fractionalwellfed      잘먹음 *X%
+experiencefactor_fractionalexercising   운동 *X%
+experiencefactor_fractionalfreetime     자유시간 *X%
+
+experiencefactor_passedeasyprograms             초급 프로그램 *X회 통과
+experiencefactor_passedintermediateprograms     중급 프로그램 *X회 통과
+experiencefactor_passedadvancedprograms         고급 프로그램 *X회 통과
+experiencefactor_passedexpertprograms           전문 프로그램 *X회 통과
+
+experiencefactor_YearsServed            *X년 복역
+experiencefactor_fights                 폭력 행위 연루
+experiencefactor_murders                교도소에서 *X번 살인
+experiencefactor_escapeattempts         *X번 탈옥시도
+experiencefactor_addictions             *X 중독
+experiencefactor_gangmembership         갱단원
+
+legend_key                              열쇠:
+
+needs_graphscale_title                  죄수:
+needs_key_critical                      심각
+needs_key_high                          높음
+needs_key_med                           중간
+needs_key_satisfied                     만족
+needs_key_active                        활성화
+
+contraband_supplyanddemand              공급과 수요
+contraband_narcotics                    약물
+contraband_weapons                      무기
+contraband_tools                        도구
+contraband_luxuries                     사치품
+contraband_metal                        금속
+contraband_smelly                       냄새
+contraband_rangedweapon                 원거리 무기
+contraband_improvised                   급조무기
+
+contraband_key_supply                   공급
+contraband_key_demand                   수요
+contraband_log_stolen                   탈취
+contraband_log_position                 위치
+contraband_log_smuggled                 밀반입됨
+contraband_log_traded                   거래됨
+contraband_log_thrown                   던짐
+contraband_log_hidden                   숨겨짐
+contraband_log_detected                 탐지됨
+contraband_log_dog                      경비견
+contraband_log_found                    찾음
+contraband_log_owner                    소유자
+
+schedule_zone_shared                    공용구역
+schedule_zone_minseconly                저위험자
+schedule_zone_medseconly                중위험자
+schedule_zone_maxseconly                고위험자
+schedule_zone_protectedonly             보호감호
+schedule_zone_supermaxonly              초고위험자
+schedule_zone_deathrowonly              사형수
+schedule_zone_staffonly                 직원 전용
+schedule_zone_unlocked                  잠금해제됨
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              대변보는중
+action_wee                              소변보는중
+action_wash                             샤워 중
+action_relax                            휴식 중
+action_sleep                            수면 중
+action_nap                              잠깐 졸기
+action_getmeal                          식사 중
+action_sit                              앉음
+action_exercise                         운동
+action_liftweights                      역기
+action_phonehome                        가족 전화
+action_watchtv                          TV 시청
+action_playpool                         당구
+action_stealknife                       의심 행동
+action_stealspoon                       의심 행동
+action_urinate                          노상방뇨
+action_soilsuit                         옷 더럽힘
+action_eat                              식사
+action_complain                         불만제기
+action_work                             노역
+action_visitation                       면회
+action_parole                           가석방 청문회
+action_none                             없음
+action_misbehaving                      부정행위
+action_escaping                         탈옥
+action_destroying                       파괴
+action_spoiling                         망침
+action_fighting                         싸움
+action_rioting                          폭동
+action_hostagetaking                    인질 잡음
+action_reformprogram                    교정 프로그램
+action_changeclothes                    옷 갈아입기
+action_getbook                          책 가짐
+action_pray                             기도중
+action_shopping                         구매중
+
+status_effect_title						 =[상태 효과]=
+status_effect_none						없음
+status_effect_suppressed				제압됨
+status_effect_goodfood					잘 먹음
+status_effect_drunk						취함
+status_effect_high                      높음
+status_effect_withdrawal				금단증상
+status_effect_tazed                     테이저 맞음
+status_effect_overdosed                 약물남용
+status_effect_surrendered               항복함
+status_effect_calming                   진정됨
+status_effect_angst                     화남
+status_effect_wounded                   출혈
+status_effect_virus                     질병
+status_effect_virusdeadly               질병
+
+condition_treated                       치료됨
+condition_needstreating                 치료가 필요함
+
+experience_totaltime                    총 시간
+experience_misconduct                   불법행위
+experience_lockeddown                   전체잠금
+experience_regime                       시간표
+experience_sleep                        취침
+experience_work                         노역
+experience_class                        수업
+experience_freetime                     자유시간
+experience_moodbad                      나쁨
+experience_moodnormal                   보통
+experience_moodgood                     좋음
+experience_nocondition                  없음
+experience_kod                          마약
+experience_hurt                         아픔
+experience_suppressed                   제압됨
+experience_intoxicated                  중독
+experience_wellfed                      잘 먹음
+experience_exercise                     운동
+
+need_name_nothing                       없음
+need_name_bladder                       소변
+need_name_bowels                        대변
+need_name_sleep                         취침
+need_name_food                          음식
+need_name_safety                        안전
+need_name_hygiene                       위생
+need_name_exercise                      운동
+need_name_family                        가족
+need_name_recreation                    재미
+need_name_comfort                       편안
+need_name_environment                   환경
+need_name_privacy                       사생활
+need_name_freedom                       자유
+need_name_clothing                      옷
+need_name_drugs                         마약
+need_name_alcohol                       알콜
+need_name_starving                      굶주림
+need_name_spirituality                  종교
+need_name_literacy                      문학
+needs_locked                            (욕구를 파악하려면 심리학자가 필요합니다)
+needs_title                              =[욕구]=
+
+reputation_title                        평판
+reputation_hidden                       (평판 알 수 없음)
+reputation_hidden_short                 ???
+
+reputation_legendary                    --전설적임--
+reputation_strong                       돌주먹
+reputation_tough                        맷집왕
+reputation_volatile                     꼴통
+reputation_snitch                       밀고자
+reputation_deadly                       살인병기
+reputation_stoical                      고집불통
+reputation_fearless                     무데뽀
+reputation_exlaw                        전직 법집행관
+reputation_copkiller                    경찰살해자
+reputation_quick                        빠름빠름
+reputation_instigator                   선동가
+reputation_fighter                      노련한 싸움꾼
+reputation_gangmember                   갱단원
+reputation_federalwitness               증인보호프로그램 대상
+
+reputation_strong_high                  대단한 돌주먹
+reputation_tough_high                   대단한 맷집왕
+reputation_volatile_high                대단한 꼴통
+reputation_deadly_high                  대단한 살인병기
+reputation_exlaw_high                   전직 교도관
+reputation_quick_high                   대단한 빠름빠름
+reputation_fighter_high                 전문 싸움꾼
+
+reputation_legendary_high               --전설적임--
+reputation_snitch_high                  밀고자
+reputation_stoical_high                 고집불통
+reputation_fearless_high                무데뽀
+reputation_copkiller_high               경찰살해자
+reputation_instigator_high              선동가
+reputation_gangmember_high              갱단원
+
+reputationtooltip_legendary             이 죄수는 전설적인 범죄자였으며, 수많은 기술과 능력이 그를 더 위협적으로 만듭니다.
+reputationtooltip_strong                이 죄수는 남들보다 강한 주먹을 가지고 있습니다.
+reputationtooltip_tough                 이 죄수는 싸움에서 더 오래 버팁니다. 가끔 테이저에 저항하기도 합니다.
+reputationtooltip_volatile              이 죄수는 갑자기 아무런 경고나 이유없이 공격하기도 합니다.
+reputationtooltip_stoical               이 죄수는 독방에 가두어도 잘 제압되지 않고 아무런 신경도 쓰지 않습니다.
+reputationtooltip_snitch                이 죄수는 뛰어난 정보원으로 알려져 있으며 위험합니다. 이 죄수를 혼자 다른 죄수와 너무 오래있게 하지 마십시오.
+reputationtooltip_deadly                이 죄수는 치명적인 전투에 능하며 단 한 주목으로 사람을 죽일 수도 있습니다.
+reputationtooltip_exlaw                 이 죄수는 경찰관으로 활동했거나 다른 법집행 직업을 갖고 있었습니다. 그의 인생 자체가 위험으로 점철되었습니다.
+reputationtooltip_copkiller             이 죄수는 경관살해죄로 잡혀왔습니다. 당신의 교도관들은 그를 진압할 수 없을수도 있습니다.
+reputationtooltip_fearless              이 죄수는 무장교도관을 보더라도 고분고분해지지 않으며 싸움에서 쉽게 항복하지 않습니다.
+reputationtooltip_quick                 이 죄수는 정말 빨리 달립니다.
+reputationtooltip_instigator            이 죄수는 주변에 불신의 씨앗을 심습니다. 이 죄수가 문제를 일으키면 주변의 죄수도 함께할 것입니다.
+reputationtooltip_fighter               이 죄수는 공격과 방어를 잘 합니다. 이 죄수는 상대방의 무장을 해제시킬 수 있으며, 무기를 뺏을수도 있습니다.
+reputationtooltip_gangmember            이 죄수는 갱단에 가입했습니다. 이 죄수는 동료 갱단원을 지키고 라이벌 갱단을 공격합니다.
+reputationtooltip_federalwitness        이 죄수는 중요한 사건의 증인으로 갱단이나 조직 보스로부터 살해 표적이 될 수 있습니다.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       노역
+nameplate_stationed                     배치됨
+nameplate_patrolling                    순찰중
+nameplate_resting                       휴식중
+nameplate_tired                         지침
+nameplate_injured                       부상
+nameplate_unconscious                   의식없음
+nameplate_dead                          사망
+nameplate_released                      석방
+nameplate_researching                   연구중
+nameplate_overdose                      약물남용
+nameplate_starving                      굶주림
+nameplate_wounded                       출혈
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              모든 죄수에게 식사 제공
+objective_caption_prisoners             죄수
+objective_caption_meals                 식사
+objective_readceosletter                CEO의 편지 읽기
+objective_actionrequired                사건 경위서
+
+objective_deathrowinmates               사형수 현황
+
+objective_prisonerintake                죄수 입소
+objective_intake_arrivals               *X명의 죄수가 오전 8시에 도착합니다
+objective_intake_closed                 당신의 교도소는 새로운 죄수를 받지 않습니다.
+objective_intake_closed2                (보고서에서 죄수 항목 참조)
+objective_intake_closed3                (보고서에서 입소 항목 참조)
+objective_intake_specials				특별 이감:
+objective_intake_categories             범주: 
+objective_intake_minsec                 저위험자, 
+objective_intake_medsec                 중위험자, 
+objective_intake_maxsec                 고위험자
+objective_intake_deathrow               사형수
+
+objective_builddeliveriesroom           운송받을 지역 설정하기 
+
+objective_outgoing                      죄수가 석방될 시간입니다
+objective_outgoing_count                *X명의 죄수가 곧 석방됨
+objective_outgoing_timer                (*X 시간)
+
+objective_visitors                      면회객(8am - 8pm)
+objective_visitors_waiting              *X가족이 면회 대기 중
+objective_visitors_onsite               *X명의 *Y 가족이 방문합니다
+
+objective_staffexhausted                탈진 직원
+objective_reststaff_exhausted           *X명의 직원이 탈진했습니다.
+objective_reststaff_resting             (*X명 휴식 중)
+objective_reststaff_needstaffroom       직원이 쉴 수 있도록 직원휴게소 건설.
+
+objective_punishment_solitary           *X명 독방 수용
+objective_punishment_solitary_queue     *X명 독방 대기 중
+objective_punishment_solitary_mix       *X 독방 (+*Y 대기)
+objective_punishment_lockdown           *X 감금
+objective_incident_medical              *X 의료 필요함
+objective_incident_dead                 *X 시체
+
+objective_prisonerparole                죄수 가석방
+objective_parole_count                  *X명의 죄수 가석방 신청
+
+objective_payment_receivedfull          지원금: *X 받음
+objective_payment_receivedpart          지원금: *Y 중에서 *X 받음
+
+objective_grant_bootstraps                  기본 구금실
+objective_grant_bootstraps_description      공터를 교도소로 바꿔보세요. 이 정부 계약은 첫 죄수들을 받을 최소한의 시설을 짓는데 필요한 자금을 지원합니다.
+objective_grant_bootstraps_holdingcell      유치장 건설
+objective_grant_bootstraps_shower           샤워실 건설
+objective_grant_bootstraps_yard             운동장 건설
+objective_grant_bootstraps_kitchen          주방 건설
+objective_grant_bootstraps_canteen          식당 건설
+objective_grant_bootstraps_guard            최소 2명의 교도관 고용
+objective_grant_bootstraps_chef             최소 2명의 요리사 고용
+
+objective_grant_administration                          관리 사무실
+objective_grant_administration_description              모든 교도소 사업에는 원활하고 책임있는 운영을 위해 사무실이 필요합니다. 이 계약은 교도소장과 회계사를 고용하고 그들의 사무실을 지을 비용을 지원합니다. 그러면 그들이 모든 정부 보조금에 접근할 수 있게 할 것입니다.
+objective_grant_administration_offices                  사무실 2개 건설
+objective_grant_administration_warden                   교도소장 고용
+objective_grant_administration_accountant_research      업무결재시스템에서 재정을 잠금해제
+objective_grant_administration_accountant               회계사 고용
+
+objective_grant_firstcellblock                  A감방동
+objective_grant_firstcellblock_description      기본적인 것은 되었습니다. 첫번째 감방동을 지어 죄수를 감방으로 보낼 때가 되었습니다.
+objective_grant_firstcellblock_cells            죄수 수용 능력을 15로 증가
+
+objective_grant_health                      재소자 건강과 복지
+objective_grant_health_description          재소자들의 신체적 정신적 건강이 매우 중요합니다. 이 보조금으로 의무실을 짓고 의사와 심리학자를 고용해 재소자들의 건강 욕구를 관리하세요.
+objective_grant_health_ward                 의무실 건설
+objective_grant_health_doctors              최소 2명의 의사 고용
+objective_grant_health_psychologist         심리학자 고용(사무실 필요)
+
+objective_grant_bailout                     정부 긴급구제지원
+objective_grant_bailout_description         정부는 당신의 실적에 크게 실망했지만 큰 교도소를 망하게 둘 수는 없었습니다. 파산을 막기 위해 자금이 지원됩니다. 하지만 현금유출입을 흑자로 바꿔야 하며(일일 수입이 지출보다 높아야 함), 은행 빚을 갚아야 합니다.
+objective_grant_bailout_cashflow            수입을 지출보다 늘리기
+objective_grant_bailout_debt                빚 갚기
+
+
+objective_grant_maintenance                         교도소 유지관리
+objective_grant_maintenance_description             교도소를 유지관리하는 것은 직원과 죄수의 보안과 안전을 위해 중요합니다. 필요한 직원을 고용하여 교도소를 청결하고 질서 있게 관리하세요.
+objective_grant_maintenance_research_root           업무결재시스템에서 유지관리 잠금해제
+objective_grant_maintenance_research_cleaning       업무결재시스템에서 청소 잠금해제
+objective_grant_maintenance_research_groundskeeping 업무결재시스템에서 정원관리 잠금해제
+objective_grant_maintenance_foreman                 현장감독 고용(사무실 필요)
+objective_grant_maintenance_janitor                 최소 2명의 청소부 고용
+objective_grant_maintenance_gardener                정원사 고용
+
+objective_grant_visitation                          면회 권리
+objective_grant_visitation_description              이 지역의 다른 몇몇 교도소에서는 죄수에게 면회를 허가하지 않아 법적 조치에 직면해 있습니다. 투자자들은 소동을 원치않아서 적절한 시설을 갖추도록 이 보조금을 주려고 합니다.
+objective_grant_visitation_room                     면회실 건설
+objective_grant_visitation_tables                   최소 3개의 면회실 탁자 설치
+objective_grant_visitation_commonroom               휴게실 건설
+objective_grant_visitation_pooltable                당구대 설치
+objective_grant_visitation_tv                       최소 2대의 TV 설치
+objective_grant_visitation_phones                   최소 5대의 전화기 설치
+
+objective_grant_basicsecurity                       보안 절차 증명
+objective_grant_basicsecurity_description           새로운 교도소에서 생기는 통상적인 위험들은 직원들이 시설에 대한 경험이 적기 때문에 발생합니다. 보안을 허용 수준까지 올려 미래의 기록에 오점을 남길 수 있는 사고를 미연에 방지하십시오.
+objective_grant_basicsecurity_chief                 교도대장 고용(사무실 필요)
+objective_grant_basicsecurity_guards                10명의 교도관 고용
+objective_grant_basicsecurity_patrols               3명의 교도관 순찰시키기
+objective_grant_basicsecurity_research              업무결재시스템에서 순찰 잠금해제
+
+objective_grant_enhancedsecurity                    정부 보안 등급
+objective_grant_enhancedsecurity_description        정부는 교도소가 일정 규모 이상이 되면 일정한 보안 요구사항을 준수하도록 하며, 이를 지키지 않으면 등급을 과중한 벌금을 부과합니다.
+objective_grant_enhancedsecurity_armoury            무기고 건설
+objective_grant_enhancedsecurity_kennel             사육장 건설
+objective_grant_enhancedsecurity_guards             2명의 무장교도관 고용
+objective_grant_enhancedsecurity_dogs               2명의 경비견 조련사 고용
+objective_grant_enhancedsecurity_patroldogs         2명의 경비견 조련사 순찰시키기
+objective_grant_enhancedsecurity_patrolarmed        2명의 무장교도관 순찰시키기
+
+objective_grant_advancedsecurity                    최고 등급의 보안시설 완성
+objective_grant_advancedsecurity_description        수많은 죄수를 상대로 보안을 유지하는 것은 쉽지 않지만 보안이 뚫렸을 때 드는 비용은 적절한 보안 대책을 수립하는 비용보다 훨씬 많이 듭니다. 교도소에 필요한 장비를 설치하세요.
+objective_grant_advancedsecurity_guards             교도관 숫자 늘리기
+objective_grant_advancedsecurity_researchcctv       업무결재시스템에서 CCTV 잠금해제
+objective_grant_advancedsecurity_researchbodyarmour 업무결재시스템에서 방탄복 잠금해제
+objective_grant_advancedsecurity_researchtazers     업무결재시스템에서 테이저 잠금해제
+objective_grant_advancedsecurity_office             보안실 건설
+objective_grant_advancedsecurity_cctvmonitor        CCVT 모니터 설치
+objective_grant_advancedsecurity_cctvcameras        교도소에 CCTV 설치
+
+objective_grant_prisonerworkforce                   죄수 순화와 업무 
+objective_grant_prisonerworkforce_description       죄수에게 일을 주는 것은 환경에 통합시키는 좋은 방법이며 돈도 절약 할 수 있습니다. 죄수들에게 일을 하도록 하는데 필요한 교육을 시키고 건물을 건설하세요.
+objective_grant_prisonerworkforce_research          업무결재시스템에서 수감자 노역 잠금해제
+objective_grant_prisonerworkforce_cleaning          청소도구실 건설
+objective_grant_prisonerworkforce_laundry           세탁실 건설
+objective_grant_prisonerworkforce_kitchenclass      3명의 죄수에게 주방 안전과 위생 교육
+objective_grant_prisonerworkforce_laundryassigned   세탁실에 3명의 죄수 배정
+objective_grant_prisonerworkforce_kitchenassigned   주방에 3명의 죄수 배정
+objective_grant_prisonerworkforce_cleaningassigned  청소도구실에 3명의 죄수 배정
+
+objective_grant_educationreformprogram              교육 프로그램을 통한 교정
+objective_grant_educationreformprogram_description  한 유명한 시민단체가 교육이 재소자의 재범률에 미치는 영향에 관한 대규모 실험을 진행하고 있습니다. 교실을 만들고 재소자들을 위한 교육을 시작하세요.
+objective_grant_educationreformprogram_research     업무결재시스템에서 교육 잠금해제
+objective_grant_educationreformprogram_classroom    교실 건설
+objective_grant_educationreformprogram_desks        20개의 학교 책상 설치
+objective_grant_educationreformprogram_foundationed 10명의 죄수가 기초교육과정 통과
+objective_grant_educationreformprogram_generaled    1명의 죄수가 일반교육과정 통과
+
+objective_grant_prisonlabour                        교도소 생산 시설
+objective_grant_prisonlabour_description            주주들은 교도소의 수익성을 높이길 원하고 있고 작업장을 지을 돈을 지원할 의사가 있으며 죄수들의 노동력을 활용하기를 희망합니다.
+objective_grant_prisonlabour_workshop               작업장 건설
+objective_grant_prisonlabour_saw                    작업장 톱 2대 설치
+objective_grant_prisonlabour_press                  작업장 프레스 2대 설치
+objective_grant_prisonlabour_reform                 5명의 죄수가 작업장 안전 교육 통과
+objective_grant_prisonlabour_plates                 30개의 자동차 번호판 제작
+
+objective_grant_furnituremanufacturing              목수 견습 교육
+objective_grant_furnituremanufacturing_description  죄수들에게 목수 교습 과정을 제공하여 그들이 석방되었을 때 사용할 수 있는 유용한 기술을 가르칠 수 있습니다. 또한 작업장에서 고급 가구를 제작해서 그것을 판매해 수입을 늘릴 수 있습니다.
+objective_grant_furnituremanufacturing_forestry     조림지 조성
+objective_grant_furnituremanufacturing_table        2개의 목공 작업대 설치
+objective_grant_furnituremanufacturing_reform       2명의 죄수가 목수 과정 통과
+objective_grant_furnituremanufacturing_bed          10개의 고급 침대 제작
+
+objective_grant_reducestaffstress                   직원 복지 시스템
+objective_grant_reducestaffstress_description       교도소 노동조합은 직원들이 과도한 스트레스와 과로로 인해 실수를 저지르는 지경에 이르렀다는 보고서를 받았습니다. 당신의 시설에서 유사한 일이 일어나지 않도록 하세요.
+objective_grant_reducestaffstress_staffroom         직원휴게소 건설
+objective_grant_reducestaffstress_freeguards        최소 5명의 교도관에게 임무 해제
+objective_grant_reducestaffstress_restedstaff       탈진한 직원이 없게 하기
+
+objective_grant_shortterminvestment                 단기 투자
+objective_grant_shortterminvestment_description     돈을 투자해서 나중에 큰 돈을 받습니다.
+objective_grant_shortterminvestment_wait            기금 기다리는 중...
+
+objective_grant_longterminvestment                  장기 투자
+objective_grant_longterminvestment_description      장기 투자로 나중에 더 큰 돈을 받습니다.
+objective_grant_longterminvestment_wait             기금 기다리는 중...
+
+objective_grant_cellblock50                         B감방동
+objective_grant_cellblock50_description             기초적인 유치장 수준에서 벗어나 교도소를 확장할 때입니다.
+objective_grant_cellblock50_cells                   죄수 수용 능력을 50으로 증가
+
+objective_grant_cellblock100                        C감방동
+objective_grant_cellblock100_description            토지를 적절히 사용해 교도소 규모를 확장합니다.
+objective_grant_cellblock100_cells                  죄수 수용 능력을 100으로 증가
+
+objective_grant_cellblock200                        D감방동
+objective_grant_cellblock200_description            죄수가 늘어나면 늘어날수록 돈을 더 받게 됩니다. 교도소 수용능력을 늘리세요.
+objective_grant_cellblock200_cells                  죄수 수용능력을 200으로 증가
+
+objective_grant_cellblock500                        E감방동
+objective_grant_cellblock500_description            정부에서 대형 교도소에 많은 재정적 인센티브를 제공합니다. 목표를 향해 달려갈 때입니다.
+objective_grant_cellblock500_cells                  죄수 수용 능력을 500으로 증가
+
+objective_grant_nutritionresearch                   재소자 영양 연구
+objective_grant_nutritionresearch_description       어떤 연구소에서 다양한 재소자 식습관의 영향에 관한 연구에 참여하는 조건으로 기금을 제공합니다.
+objective_grant_nutritionresearch_poor              이틀 동안 단조로운 식단의 적은 양의 음식을 하루 한 번 제공
+objective_grant_nutritionresearch_good              이틀 동안 다양한 식단의 충분한 양의 음식을 하루 세 번 제공
+
+objective_grant_drugsearch                          마약 단속
+objective_grant_drugsearch_description              요즘 큰 교도소에서는 마약에 대한 걱정이 늘어나고 있습니다. 당신이 전문가의 손길로 본보기를 보여주세요.
+objective_grant_drugsearch_find                     10개의 불법 약물 찾기
+
+objective_grant_contrabandsupply                    도구 정리
+objective_grant_contrabandsupply_description        다른 교도소에서 훔친 물건과 관련한 사고가 빈번해지자 교도소 내의 도구나 무기 유통에 관한 연구가 진행되었습니다. 이 연구는 교도소 내에 돌아다니는 도난품을 없애는데 도움을 줄 것입니다.
+objective_grant_contrabandsupply_tools              훔친 도구의 공급을 없애기
+objective_grant_contrabandsupply_weapons            훔친 무기의 공급을 없애기
+
+grant_category_completed                            완료:
+grant_category_unlocked                             잠금해제:
+grant_category_cash                                 현금:
+grant_category_cashflow                             현금유출입:
+grant_category_debt                                 부채:
+grant_category_prisoners                            죄수:
+
+grant_property_atleast                              최소 *X
+grant_property_atmost                               최대 *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              없음
+object_box                               박스
+object_stack                             물건더미
+object_bed                               침대
+object_toilet                            화장실
+object_table                             탁자
+object_chair                             의자
+object_bench                             벤치
+object_electricchair                     전기 의자
+object_jaildoor                          철창문
+object_jaildoorlarge                     대형 철창문
+object_door                              문
+object_solitarydoor                      독방 문
+object_staffdoor                         직원 문
+object_remotedoor                        원격조종 문
+object_roadgate                          도로 출입구
+object_jailbars                          쇠창살
+object_window                            창
+object_windowlarge                       큰 창문
+object_tree                              나무
+object_light                             조명
+object_cooker                            조리기구
+object_fridge                            냉장고
+object_bin                               쓰레기통
+object_sink                              싱크대
+object_servingtable                      배식 테이블
+object_showerhead                        샤워기
+object_brick                             벽돌
+object_concrete                          콘크리트
+object_steel                             철근
+object_ingredients                       요리재료
+object_ingredientscooking                요리재료(조리중)
+object_ingredientscooked                 요리재료(조리됨)
+object_ingredientsspoiled                요리재료(상함)
+object_meal                              요리
+object_foodtray                          식판
+object_foodtraydirty                     식판(더러움)
+object_grassturf                         잔디
+object_prisoneruniform                   죄수복
+object_dirtyprisoneruniform              죄수복(더러움)
+object_crumpledprisoneruniform           죄수복(구겨짐)
+object_bleach                            표백제
+object_sheetmetal                        철판
+object_licenseplateblank                 번호판(빈)
+object_licenseplate                      번호판
+object_log                               통나무
+object_wood                              목재
+object_workman                           인부
+object_truckdriver                       트럭 운전수
+object_guard                             교도관
+object_riotguard                         폭동진압대
+object_armedguard                        무장교도관
+object_prisoner                          죄수
+object_doctor                            의사
+object_paramedic                         응급대원
+object_cook                              요리사
+object_gardener                          정원사
+object_janitor                           청소부
+object_fireman                           소방관
+object_avatar                            아바타
+object_actor                             배우
+object_visitor                           면회객
+object_executionwitness                  사형집행 증인
+object_doghandler                        경비견 조련사
+object_dog                               경비견
+object_dogcrate                          개집
+object_teacher                           선생님
+object_soldier                           군인
+object_warden                            교도소장
+object_chief                             교도대장
+object_foreman                           현장감독
+object_psychologist                      심리학자
+object_accountant                        회계사
+object_lawyer                            변호사
+object_supplytruck                       보급 트럭
+object_prisonerbus                       죄수 버스
+object_fireengine                        소방차
+object_riotvan                           폭동진압밴
+object_ambulance                         구급차
+object_hearse                            영구차
+object_trooptruck                        군용차
+object_fire                              화재
+object_garbage                           쓰레기
+object_rubble                            돌더미
+object_bookshelf                         책장
+object_officedesk                        사무실 책상
+object_filingcabinet                     파일 수납함
+object_medicalbed                        의료 침대
+object_morgueslab                        시신 안치대
+object_equipment                         장비
+object_prop                              지주
+object_dummy                             인형
+object_powerstation                      발전기
+object_capacitor                         축전기
+object_electricalcable                   전력케이블
+object_powerswitch                       전원 스위치
+object_logiccircuit                      논리 회로
+object_logicbridge                       논리 브리지
+object_waterpumpstation                  급수기
+object_pipevalve                         파이프 밸브
+object_pipelarge                         큰 파이프
+object_pipesmall                         작은 파이프
+object_drain                             배수로
+object_sprinkler                         살수 소화장치
+object_metaldetector                     금속탐지기
+object_weightsbench                      역기 벤치
+object_phonebooth                        전화 부스
+object_tv                                TV
+object_largetv                           대형 TV
+object_pooltable                         당구대
+object_polaroid                          폴라로이드
+object_cctv                              CCTV
+object_cctvmonitor                       CCTV 모니터
+object_laundrymachine                    세탁기
+object_laundrybasket                     빨래통
+object_ironingboard                      다리미판
+object_visitortable                      면회실 탁자
+object_workshopsaw                       작업장 톱
+object_workshoppress                     작업장 프레스
+object_carpentertable                    목공 작업대
+object_boombox                           카세트라디오
+object_guardlocker                       교도관 사물함
+object_sofachairsingle                   소파
+object_sofachairdouble                   넓은 소파
+object_drinkmachine                      자판기
+object_arcadecabinet                     게임기
+object_radio                             라디오
+object_bookshelflarge                    도서관 책장
+object_weaponrack                        무기보관함 
+object_treestump                         그루터기
+object_schooldesk                        학교 책상
+object_superiorbed                       고급 침대
+object_doorcontrolsystem                 문 통제시스템
+object_phonemonitor                      도청장치
+object_servo                             문 개폐기
+object_doortimer                         문 타이머
+object_pressurepad                       압력패드
+object_statuslight                       상태표시등
+object_wire                              연결
+object_dismantleobject                   물품 철거
+object_dismantleutility                  공공시설 철거
+object_sellobject                        물품 팔기
+object_canceljobs                        작업 취소
+object_showallwires                      전선 보기
+object_tidywires                         전선 정리
+object_cutscenepolaroid                  장면 폴라로이드
+object_cutscenecamera                    장면 카메라
+object_cutscenecue                       장면 신호
+object_foodwaste                         음식쓰레기
+object_altar                             제단
+object_pews                              예배용 의자
+object_prayermat                         예배용 매트
+object_paroleofficer                     가석방 관리자
+object_parolelawyer                      가석방 변호사
+object_spiritualleader                   성직자
+object_librarybookshelf                  도서관 책장
+object_librarybookunsorted               도서관 책(미분류)
+object_librarybooksorted                 도서관 책(분류됨)
+object_sortingtable                      분류대
+object_ruinedbook                        찢어진 책
+object_foodbowl                          음식
+object_appealslawyer                     재심 변호사
+object_appealsmagistrate                 재심 판사
+object_mailsatchel                       우편 가방
+object_mailunsorted                      미분류 우편물
+object_mailsorted                        분류된 우편물
+object_prisonermail                      우편물
+object_prisonermailopened                우편물(개봉됨)
+object_shopfront                         판매점 매대
+object_shopgoods                         판매점 상품
+object_shopshelf                         판매점 선반
+
+material_none                            없음
+material_building                        건물(벽돌)
+material_buildingconcrete                건물(콘크리트)
+material_demolish                        파괴
+material_clearindoorarea                 실내 구역 정리
+material_demolishwalls                   벽 파괴
+material_removetunnels                   땅굴 제거
+material_canceljobs                      작업 취소
+material_dirt                            흙
+material_sand                            모래
+material_pavingstone                     보도블럭
+material_grass                           잔디
+material_gravel                          자갈
+material_road                            도로
+material_roadmarkings                    도로 표시
+material_roadmarkingsleft                도로 표시(왼쪽)
+material_roadmarkingsright               도로 표시(오른쪽)
+material_stone                           돌
+material_fence                           철조망
+material_concretetiles                   콘크리트 타일
+material_concretefloor                   콘크리트 바닥
+material_woodenfloor                     나무 바닥
+material_ceramicfloor                    세라믹 바닥
+material_mosaicfloor                     모자이크 바닥
+material_metalfloor                      금속 바닥
+material_marbletiles                     대리석 타일
+material_whitetiles                      하얀 타일
+material_fancytiles                      장식 타일
+material_concretewall                    콘크리트 벽
+material_brickwall                       벽돌 벽
+material_perimeterwall                   경계담장
+material_burntfloor                      탄 바닥
+material_burntwall                       탄 벽
+material_buildingframe                   건물 뼈대
+material_roof                            지붕
+
+room_none                                없음
+room_cell                                감방
+room_holdingcell                         유치장
+room_solitary                            독방
+room_superiorcell                        상급 감방
+room_canteen                             식당
+room_kitchen                             주방
+room_shower                              샤워실
+room_yard                                운동장
+room_storage                             창고
+room_deliveries                          배달
+room_garbage                             쓰레기
+room_execution                           사형집행실
+room_workshop                            작업장
+room_security                            보안
+room_office                              사무실
+room_medicalward                         의무실
+room_morgue                              영안실
+room_commonroom                          휴게실
+room_laundry                             세탁실
+room_visitation                          면회
+room_cleaningcupboard                    청소도구실
+room_kennel                              사육장
+room_armoury                             무기고
+room_staffroom                           직원휴게실
+room_library                             도서관
+room_forestry                            조림지
+room_classroom                           교실
+room_exports                             출하품
+room_chapel                              예배당
+room_intake                              수용실
+room_clearrooms                          청소실
+room_paroleroom                          가석방실
+room_mailroom                            우편실
+room_shop                                판매점
+
+equipment_none                           없음
+equipment_fists                          주먹
+equipment_baton                          곤봉
+equipment_club                           몽둥이
+equipment_shank                          자루
+equipment_knife                          칼
+equipment_fork                           포크
+equipment_gun                            총
+equipment_spoon                          수저
+equipment_needle                         주사기
+equipment_booze                          술
+equipment_poison                         독
+equipment_cigs                           담배
+equipment_saw                            톱
+equipment_jailkeys                       철창문 열쇠
+equipment_mobilephone                    휴대전화기
+equipment_lighter                        라이터
+equipment_screwdriver                    드라이버
+equipment_drugs                          마약
+equipment_sheers                         전지 가위
+equipment_mop                            대걸레
+equipment_rake                           갈퀴
+equipment_hose                           호스
+equipment_spatula                        주걱
+equipment_woodenspoon                    나무 수저
+equipment_cleaningbrush                  청소용 솔
+equipment_hammer                         망치
+equipment_clipboard                      클립보드
+equipment_drill                          드릴
+equipment_pianowire                      피아노선
+equipment_scissors                       가위
+equipment_medicine                       약품
+equipment_shotgun                       산탄총
+equipment_moneybag                      돈 가방
+equipment_tazer                         테이저
+equipment_guarduniform                  경비복
+equipment_stabvest                      방검복
+equipment_rifle                         소총
+equipment_dogleash                      경비견 목끈
+equipment_assaultrifle                  돌격 소총
+equipment_woodenpickaxe                 나무 곡괭이
+equipment_cbradio                       무전기
+equipment_axe                           도끼
+equipment_spade                         삽
+
+research_requires_short                 *X이 필요합니다
+
+reformprogram_workshopinduction         작업장 안전 교육
+reformprogram_foundationeducation       기초교육강의
+reformprogram_generaleducation          일반교육강의
+reformprogram_carpentry                 목수 견습
+reformprogram_kitcheninduction          주방 안전과 위생
+reformprogram_therapy                   행동 치료
+reformprogram_methadone                 약물 중독 치료
+reformprogram_alcoholicsmeeting         알콜 중독 치료
+reformprogram_tazertraining             교도관 테이저 자격증
+reformprogram_spiritualguidance         정신 수양
+reformprogram_parolehearing             가석방 청문회
+reformprogram_deathrowappeal            사형수 재심 청구
+
+reformprogram_tazertrained              허가됨: 테이저
+
+reformprogram_workshopinduction_text    안전제일! 재소자들이 작업장에서 일을 하려면 먼저 이 교육을 통과해야 합니다.
+reformprogram_foundationeducation_text  많은 죄수들이 읽기, 쓰기, 산수의 기본 조차도 부족합니다. 이 교육과정은 죄수들의 수준을 향상시킬 것입니다. 이 과정을 통과한 죄수는 도서관에서 일 할 수 있습니다.
+reformprogram_carpentry_text            실용적인 능력이 필요한 복잡한 기술입니다. 이 교육을 받은 재소자는 이 기술을 이용해 목공 작업대에서 고급 목재 가구를 만들 수 있습니다.
+reformprogram_kitcheninduction_text     수백 명을 먹일 음식을 하려면 식품 표준이 중요합니다. 재소자가 주방에서 일하려면 먼저 이 교육을 받아야합니다.
+reformprogram_therapy_text              어떤 재소자들은 폭력적인 성향을 다스리려고 애씁니다. 교도소 심리학자와 일대일 교육를 통해 죄수들이 폭력적으로 변하기 전에 행동을 바로잡습니다.
+reformprogram_methadone_text            죄수들의 마약 중독을 치료하는 5회에 걸친 교육입니다. 치료할 때마다 약물 의존이 낮아지며 교육을 마치면 중독에서 벗어날 가능성이 높아집니다.
+reformprogram_alcoholicsmeeting_text    알콜 중독을 치료하는 그룹 미팅입니다. 알콜에 대한 욕구를 줄이는데 도움을 주지만 욕구를 완전히 없애지는 못합니다.
+reformprogram_parolehearing_text        죄수를 조기에 석방해도 좋은지 알아보는 청문회입니다. 죄수가 재범을 저지르지 않는 성공적인 가석방에는 추가 보상이 뒤따릅니다. 
+reformprogram_spiritualguidance_text    일부 죄수들은 종교를 가지고 있고 생활 속에서 영적인 부분에 대한 욕구가 있습니다. 지역사회에서 성직자를 데려와 기도를 하게하고 죄수들이 평온한 마음을 찾도록 합니다.
+
+reformerror_unscheduled                 계획없음
+reformerror_noroom                      방 없음
+reformerror_nofreetimeslot              모든 방 예약됨
+reformerror_staffonly                   모든 방이 직원전용
+reformerror_noobjects                   장비 없음
+reformerror_noregimetime                작업 시간표 없음
+reformerror_noteachers                  선생님 없음
+
+reform_interested                       *X명 관심있음 
+reform_interested_qualified             *X명 관심있음/자격있음 
+reform_queued                           *X명 대기 
+reform_completion                       - *X명 마침 - *Y명 통과(*P%)
+reform_locked                           잠김
+reform_start                            시작
+reform_costpersession                   회당 *X
+reform_placespersession                 *X 회 / *Y 전체
+reform_program_starting                 시작중
+reform_program_active                   활성화
+reform_program_paused                   일시중지
+reform_program_stop                     중지
+reform_program_ledby                     - *Z 에서 *P 가 진행
+reform_program_ledwith                   - *S 가 도와줌
+reform_program_length                    - 교육시간: *X 시간
+reform_program_requirements              - 죄수마다 *X 필요
+reform_program_requirements_alt          - 죄수마다 *X 또는 *Y 필요
+reform_program_prereqs                  죄수가 다음을 완료해야 함:
+reform_program_research_required        필요: *X
+
+reform_program_intake_none                      없음
+reform_program_intake_mandatory                 의무
+reform_program_intake_voluntary                 자원
+reform_program_intake_referralviolence          외부위탁: 폭력성
+reform_program_intake_referraldrugaddiction     외부위탁: 약물 중독
+reform_program_intake_referralalcoholism        외부위탁: 알콜 중독
+reform_program_intake_guards                    교도관 전용
+reform_program_intake_parole                    전체 형량 중 50% 또는 75%를 복역해야함
+reform_program_intake_needrequired              특수한 욕구를 가진 죄수가 들어올 수 있음
+reform_program_intake_deathrow                  사형수
+
+reform_program_properties_canhireexternally     외부에서 고용 가능
+reform_program_properties_studentssit           학생 자리
+reform_program_properties_academic              학문적
+reform_program_properties_practical             실용적
+reform_program_properties_repeatable            반복적
+reform_program_properties_passive               수동적
+reform_program_properties_staffonly             직원 전용
+reform_program_properties_outsideofwork         일과중 실외활동
+reform_program_properties_teacherssit           선생님 자리
+reform_program_properties_canescortstudent      교도관이 학생을 호송할 수 있음
+
+reform_program_waittime                         *T일에 한 번만 가능
+
+reform_program_difficulty_easy           - 쉬움
+reform_program_difficulty_intermediate   - 중간
+reform_program_difficulty_advanced       - 고급
+reform_program_difficulty_expert         - 전문
+
+regime_nothing                          감금
+regime_sleep                            취침
+regime_eat                              식사
+regime_shower                           샤워실
+regime_yard                             운동장
+regime_work                             노역
+regime_lockdown                         전체잠금
+regime_freetime                         자유시간
+regime_currenttime                      지금
+regime_unspecified                      특정되지 않음
+
+regimetooltip_nothing                   죄수들을 감방에 가둡니다. 감방에서 아무 것도 하지 않지만 교도소에 왜 오게 되었는지를 반성할 것입니다.\n\n장기간 가두는 것은 처벌로 간주됩니다.
+regimetooltip_sleep                     죄수들을 감방에 가두고 불을 끕니다. 모두 잠에 듭니다.\n\n땅굴을 파는 죄수들은 빼고요.
+regimetooltip_eat                       죄수들이 가장 가까운 접근 가능한 식당에 가서 식사를 합니다.\n\n식당에 있는 모든 시설을 이용할 수 있지만 이 시간 동안에는 식당을 나갈 수 없습니다.
+regimetooltip_shower                    죄수들이 옷을 벗고 샤워를 합니다. 샤워는 죄수 위생에 매우 중요하지만 많은 죄수들은 시키지 않으면 하지 않습니다.
+regimetooltip_yard                      죄수들이 감방에서 운동장으로 나가 운동을 하거나 햇빛을 쬐거나 신선한 공기를 마십니다.\n\n죄수들은 운동장에 있는 모든 시설을 사용합니다. 예를 들어 전화기를 쓰거나 운동기구를 쓰거나 샤워를 합니다.
+regimetooltip_work                      죄수들이 교도소 내에서 노역을 합니다. 모든 일자리가 채워지고 죄수들이 자동으로 자기 위치를 보고합니다.(배치 화면에서 일자리를 지정할 수 있습니다.)\n\n모든 교정 프로그램도 노역 시간에 이루어집니다. 일이 없거나 교정 교육에 배정되지 않은 죄수는 자유시간처럼 교도소를 돌아다닙니다.
+regimetooltip_freetime                  죄수들이 감방에서 나와 교도소의 모든 시설을 이용할 수 있습니다. 죄수들은 이 시간을 가장 좋아하며 자기에게 가장 필요한 것을 합니다.\n\n긴 휴식시간은 죄수들을 편하게 해주지만 처벌의 의미가 약합니다.
+
+regime_clear                            이 범주의 죄수 일정을 삭제하고 다른 범주의 죄수 일정으로 대체합니다
+
+schedule_editor_students                학생: *X/*Y
+schedule_editor_error_staffonly         목표한 방은 직원 전용입니다.
+schedule_editor_error_noregimetime      프로그램이 유효한 작업시간 외에 있습니다.
+schedule_editor_error_noteachers        이 프로그램을 진행할 선생님이 없습니다.
+schedule_editor_error_noobjects         이 프로그램에 필요한 물품이 방에 없습니다.
+schedule_editor_pin                     이 프로그램에 여기에 고정합니다.
+schedule_editor_unpin                   이 프로그램을 고정 해제합니다.
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         문 타이머 조종
+doortimer_connected_servos              연결된 개폐기 *X대 
+doortimer_state_open                    열기
+doortimer_state_closed                  닫힘
+
+doortimer_security_none                 모든 보안 등급
+doortimer_security_minsec               저위험도
+doortimer_security_normal               중위험도
+doortimer_security_maxsec               고위험도
+doortimer_security_Protected            보호감호
+doortimer_security_SuperMax             초고위험도
+doortimer_security_DeathRow             사형수
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   사형집행 시작
+execution_stage_Lockdown                교도소 전체 잠금
+execution_stage_Testing                 사형시설 점검
+execution_stage_Assemble                사형집행 필수인원 소집
+execution_stage_Witnesses               사형시설로 증인 호송
+execution_stage_Escort                  사형시설로 죄수 호송
+execution_stage_Execution               사형집행
+execution_stage_Dismissed               직원과 증인 해산하기
+execution_stage_FinalReport             최종 보고서
+
+execution_stagetooltip_start            이 죄수에 대한 사형집행이 계획되었으며 공식 집행 절차에 따라야합니다.
+execution_stagetooltip_lockdown         모든 죄수를 자기 감방으로 보내고 교도소를 잠급니다.
+execution_stagetooltip_testing          모든 것이 작동하는지 최종 점검합니다. 전기의자에 공급할 전기가 충분한지 검사합니다. 죄수의 마지막 길을 설정해야 하며, 죄수가 사형집행실까지 직접 걸어갈 수 있어야 합니다.
+execution_stagetooltip_assemble         교도소장과 교도대장이 사형수의 감방으로 갑니다. 그리고 신부 또는 사형수가 선택한 성직자가 그의 감방에 찾아와 마지막 기도를 드려야 합니다.
+execution_stagetooltip_witnesses        사형집행 증인이 교도소에 도착해 사형시설로 갑니다. 증인에는 사형수의 가족이나 피해자의 가족이 포함될 수 있습니다.\n\n참고: 증인에게는 의자가 필요합니다.
+execution_stagetooltip_escort           사형수가 감방에서 나와 사형집행 시설로 호송됩니다. 교도소장과 교도대장, 신부가 동행합니다.
+execution_stagetooltip_execution        모두가 참석하고 모든 절차를 완료한 뒤, 사형을 집행하기 위한 최종 승인이 떨어집니다.
+execution_stagetooltip_dismissed        직원과 증인을 해산시키고 사형집행실에서 나갈 수 있게 합니다.
+execution_stagetooltip_finalreport      사형이 완료되면 보고서를 작성합니다. 실적 등급이 매겨집니다.
+
+execution_underway                      사형집행 중
+execution_result_ok                     *N에 대한 사형집행이 예정된 대로 *T에 증인 입회 하에 전기의자에 의해 시행되었습니다. 본 기관이 사형집행 과정에서 맡은 바를 해냈으므로 표준 보상금 $10,000가 지급됩니다.
+execution_result_appealed               *N에 대한 사형집행이 예정된 대로 *T에 증인 입회 하에 전기의자에 의해 시행되었습니다. 유감스럽게도 그 후에 새로운 정보가 밝혀졌고, 그 사실이 그의 감형을 위한 재심 청구에 영향을 미쳤습니다. 그럼에도 불구하고 본 기관에 대해 아무런 조치도 취해지지 않을 것이며, 사형집행 과정에서 맡은 바를 해냈으므로 표준 보상금 $10,000가 지급될 것입니다.
+execution_result_innocent               *N에 대한 사형집행이 예정된 대로 *T에 증인 입회 하에 전기의자에 의해 시행되었습니다. 유감스럽게도 그 후에 *N의 무죄를 밝혀 줄 증거가 발견되었습니다. 그럼에도 불구하고 본 기관에 대해 아무런 조치도 취해지지 않을 것이며, 사형집행 과정에서 맡은 바를 해냈으므로 표준 보상금 $10,000가 지급될 것입니다.
+execution_result_illegal                *N에 대한 사형집행이 예정된 대로 *T에 증인 입회 하에 전기의자에 의해 시행되었습니다. 법적으로 요구되는 재심 청구 절차를 따르지 않았고 궁극적으로 재심 청구를 성공으로 이끌었을 정보가 발견되었으므로 본 기관에는 $50,000의 벌금이 처해집니다. 적절한 절차를 따르지 않았으므로 사형집행은 다음으로 연기되며 교도소 내의 나머지 사형수들은 다른 시설로 이감될 것입니다.
+execution_result_illegalinnocent        *N에 대한 불법적인 사형집행이 예정된 대로 *T에 증인 입회 하에 전기의자에 의해 시행되었습니다. 법적으로 요구되는 재심 청구 절차를 따르지 않았고 *N에 대한 범죄 혐의가 무죄였다는 사실로 인해, 본 시설의 관리자는 즉시 그 직위에서 해임됩니다.
+execution_warning_one                   다음 사형집행도 올바른 절차를 밟지 않는다면 당신은 그 직위에서 해고될 것입니다.
+execution_warning_two                   이전의 합법적인 절차를 밟지 않았던 실수로 인해 한 번만 더 실수하면 당신은 해고됩니다.
+
+execution_error_MissingEquipment        실패: 필요 장비가 없음\n사형집행실에 전기 의자가 있어야 합니다.
+execution_error_ElectricalSupply        실패: 전력 부족\n의자에 공급될 전기가 부족합니다.
+execution_error_NavigationPrisoner      실패: 죄수 이동\n사형수가 걸어서 감방에서 사형집행실로 이동할 수 없습니다.
+execution_error_NoRouteFromRoad         실패: 접근 불가\n밖에서 사형집행을 보러 온 사람들이 시설에 접근할 수 없습니다.
+execution_error_NoSpaceInRoom           실패: 자리 없음\n시설에 사람들이 참석할만한 공간이 없습니다.
+execution_error_NoRoom                  사형을 집행하기 전에 집행할 시설이 있어야 합니다.
+
+roomerror_nokitchen                     이 식당에 음식을 보내줄 수 있는 주방이 없습니다
+roomerror_noprisoners                   이 식당에서 음식을 먹도록 배정된 죄수가 없습니다
+roomerror_nocanteen_cells               이 감방에서 갈 수 있는 식당이 없습니다. 이 감방에 있는 죄수는 먹으러 갈 곳이 없습니다.
+roomerror_nocanteen_kitchen             이 주방에서 갈 수 있는 식당이 없습니다. 조리시간에 아무 요리도 만들지 않을 것입니다.
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             내용물: *X
+stack_contents                           내용물: *X x *Y
+mail_contents                            내용물: *X 우편물
+mail_opened_from                         *X의 *F로부터 온 우편물
+mail_closed_from                         *X에게 온 우편물
+
+object_dump                             쓰레기
+object_todo                             할일: *X
+object_sale_price                       판매 가격: *X
+
+object_door_cyclepermissions            클릭해서 접근 권한을 순환합니다
+object_door_cyclepermissions_1          (열림, 직원 전용, 닫힘)
+
+object_firemen_hosehelp_intro           소방관이 화재 근처에 호스를 조준합니다
+object_firemen_hosehelp                 H를 눌러 호스를 수동으로 조종합니다
+
+interface_clone_help_copy               마우스 오른쪽 버튼을 누른 채 드래그해서 복재하려는 영역을 선택합니다
+interface_clone_help_paste              마우스 왼쪽 버튼을 클릭해서 선택된 영역을 복재합니다
+
+object_inactive                         작동정지
+object_cctv_moremonitors                더 많은 CCTV 모니터를 설치하세요
+object_cctvmonitor_needsguards          모니터를 작동할 교도관이 필요합니다
+object_processor_blocked                작동 위치에 접근할 수 없음
+
+administrator_requiresoffice            사무실 필요
+administrator_requiresoffice_2          *X의 사무실 필요
+office_ownership                        *X의 사무실
+
+teacher_teaching                        강의중
+teacher_preparing                       준비중
+
+prisoner_assignedto                     필요: *X
+prisoner_roomquality                    감방 수준: *X (*Y)
+prisoner_roomquality_average            평범함
+prisoner_roomquality_aboveaverage       좋음
+prisoner_roomquality_wayaboveaverage    아주 좋음
+prisoner_roomquality_belowaverage       낮음
+prisoner_roomquality_waybelowaverage    아주 낮음
+prisoner_attendance                     출석
+prisoner_concentration                  집중도
+prisoner_understanding                  이해도
+prisoner_concentration_0                형편없음
+prisoner_concentration_1                나쁨
+prisoner_concentration_2                적당
+prisoner_concentration_3                좋음
+prisoner_concentration_4                우수함
+prisoner_passchance                     성공 가능성: *X%
+prisoner_informant                      비밀 정보원
+
+prisoner_dayswithoutincident            무사고 *X일
+prisoner_availablemoney                 현금 : $*X
+
+informant_suspicion                     혐의
+informant_title                         비밀 정보원
+informant_none                          비밀 정보원이 없습니다
+informant_hint                          (감금된 죄수를 고용하세요 - 독방에 있는 죄수 등)
+informant_recruitable                   (잠재적 정보원)
+informant_target                        목표
+
+contraband_owner                        소유자: *X
+contraband_ownerunknown                 소유자 모름
+contraband_stolenfrom                   *Y시간 전 *X 에서 훔침
+contraband_smuggledthrough              *Y시간 전 *X을(를) 통해 반입
+contraband_smuggledin                   *Y시간 전 죄수가 반입
+contraband_type                         종류: *X
+contraband_tradevalue_title             거래 가격
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         탈진
+staff_tired                             지침
+staff_needsrest                         직원이 직원휴게소에서 쉬어야 합니다.
+
+dog_needskennel                         경비견은 잠을 잘 사육장이 필요합니다.
+
+doctor_requireinfirmary                 의무실 필요
+
+entity_carryingequipment                *X 소지
+entity_carryingkeys                     철창문 열쇠 소지
+entity_carryingstaffkeys                직원문 열쇠 소지
+entity_wearingarmour                    *X 착용
+
+reports_schedule                        모든 프로그램 일정 재조정
+reports_edit                            일정 편집
+reports_bankloan                        은행 대출
+reports_increaseloan                    증가
+reports_decreaseloan                    축소
+reports_unlockbankloans                 회계사가 잠금해제
+
+drugs_heroin                            헤로인
+drugs_cocaine                           코카인
+
+#                                       예를 들어 "밥의 어머니"
+visitor_relationship                    *X의 *Y
+visitor_age                             나이: *X
+
+family_wife                             아내
+family_exwife                           전 아내
+family_girlfriend                       여자 친구
+family_son                              아들
+family_daughter                         딸
+family_mother                           어머니
+family_father                           아버지
+family_brother                          형제
+family_sister                           여자 형제
+family_lawyer                           변호사
+family_priest                           신부
+family_victims                          피해자의 가족
+family_caption                          가족: 
+family_none                             없음
+
+damage_dead                             사망
+damage_unconscious                      의식없음
+damage_serious                          중상
+damage_injured                          부상
+damage_amount                           *X% 파손
+
+message_autosaving                      자동 저장 중...
+
+buildtoolbar_entersearchterm            찾을 단어 입력...
+
+deploymentscheduler_title               배치 일정
+supplyanddemand_supplyheader            공급
+supplyanddemand_demandheader            수요
+
+tooltip_multipleobjects                 탭을 눌러 표시할 물건 변경
+remotedoor_noservo                      원격조종 문은 개폐기가 부착되지 않으면 작동하지 않습니다.
+
+roomgrading                             방 평가
+roomgrading_roomsize                    방은 최소 *X평 필요
+roomgrading_cleanliness                 청결도 *X% 이상
+roomgrading_outsidewindow               바깥쪽 창문
+roomgrading_item                        물건 : *X
+roomgrading_result                      등급 *X
+roomgrading_currentoccupant             입주자의 평가 *X
+roomgrading_unoccupied                  입주자 없음
+
+roomerror_nokitchen                     이 식당에 음식을 보내줄 수 있는 주방이 없습니다
+roomerror_noprisoners                   이 식당에서 음식을 먹도록 배정된 죄수가 없습니다
+roomerror_nocanteen_cells               이 감방에서 갈 수 있는 식당이 없습니다. 이 감방에 있는 죄수는 먹으러 갈 곳이 없습니다.
+roomerror_nocanteen_kitchen             이 주방에서 갈 수 있는 식당이 없습니다. 조리시간에 아무 요리도 만들지 않을 것입니다.
+
+ceos_letter                             안녕하세요.\n\n\n오리엔테이션을 마친 것을 축하합니다. 이제 당신은 완전히 자격을 갖춘 교도소 건축가입니다! 당신은 빈 공터와 벽돌 몇 무더기로 교도소를 설계하고 건축하고 운영해야 합니다. 시작하기 전에 당신에게 중요한 몇 가지 사실을 알려주려고 합니다.\n\n1. 모든 교도소에는 교도소장이 필요합니다. 가장 먼저 고용해야 할 사람입니다. 교도소장에게 멋진 사무실을 지어주면 그가 업무결재시스템을 통해 고급 시설과 기능들을 사용 가능하게 할 것입니다.\n\n2. 개인별 감방은 비용이 많이 듭니다. 특히 자금이 충분하지 못한 초기에는 더욱 그렇습니다. 여러 죄수들이 함께 사용할 수 있는 커다란 유치장 하나로 시작해서 돈을 절약하세요.\n\n3. 첫 번째 죄수들이 들이닥치기 전에 식당과 주방을 건축하고, 요리사를 고용하세요. 배고픔은 죄수들을 포악하게 만듭니다!\n\n4. 교도소 건설과 운영은 큰 돈이 들어가는 사업입니다. 그러니 보조금과 계약을 통해 많은 돈을 조달하는데 능숙해야 합니다. '보고서' 화면을 통해 보조금에 접근할 수 있습니다.\n\n알려드릴 것은 이게 다입니다. 행운을 빕니다!\n\n프리즌 아키텍처 공사\nCEO 드림
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			챕터 *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                사형수
+
+campaignchapter_deathrow_description    예정된 사형수 사형집행이 제때 이루어지도록 교도소에 사형집행실을 짓기로 계약했습니다.
+
+campaigncutscene_deathrowmurder         두 명을 살해한 살인범
+campaigncutscene_deathrowconfession     고백
+
+adviser_deathrow_murder1                너희 둘이 여기 있을 줄 알았어.
+adviser_deathrow_murder2                에드워드! 저는...
+adviser_deathrow_murder25               아니 필요 없어… 됐어.
+adviser_deathrow_murder3                어떻게 하려는 거예요?
+
+adviser_deathrow_church1                어떻게 오셨소?
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                용서를 구하시오?
+adviser_deathrow_church3                모르겠어요. 뭔가 해야하지만, 제가 저지른 일 때문에 살아 갈 수가 없어요.
+adviser_deathrow_church4                자수하시오. 당신이 무슨 일을 저질렀건 그 결과를 피할 수는 없소. 
+adviser_deathrow_church5                자신의 과거와 대면하지 않고서 스스로를 용납할 수 없는 것이오.
+adviser_deathrow_church6                돌아가고 싶어요. 그녀를 용서하고 싶고, 또 그녀에게 용서받고 싶어요.
+adviser_deathrow_church7                신에게 용서를 구하면, 당신이 무엇을 했건 용서해줄 것이오.
+adviser_deathrow_church8                하지만 법적인 측면에서 당신이 저지른 범죄에 책임을 져야하오. 다른 길은 없소.
+
+adviser_deathrowintro_1                 좀 까다로운 일이 있소.
+adviser_deathrowintro_2                 이 시설에 두 명을 살해하고 사형을 선고받은 죄수가 구금되어 있소.
+adviser_deathrowintro_3                 우리가 해야 할 일이 있는데. 그 자를 위해 큰일을 치룰 사형집행실을 짓기로 계약을 했소.
+adviser_deathrowintrob_1                여기에 새 시설을 지었으면 좋겠소.
+adviser_deathrowintrob_2                모든 일의 첫 단계는 건물을 짓는 것이오.  사형집행실과 유치장이 들어갈 수 있어야 하오.
+adviser_deathrowintrob_3                그럼 시작합시다. 여기에 새 건물을 지어보시오.
+
+adviser_deathrow_explain1               건물을 짓는 것은 인부들이 할 것이오.
+adviser_deathrow_explain2               그들이 이 창고에서 철근과 콘크리트를 가지고 건설장소로 갈 것이오.
+adviser_deathrow_explain3               그들이 이 자재를 가지고 건물의 기초와 틀을 세울 것이오.
+adviser_deathrow_explain4               새 건물을 세울 때 이것이 가장 오래 걸리는 부분이니 미리 계획을 세우시오.
+adviser_deathrow_explain5               기다리는 동안 주위를 둘러보시오. WASD 키나 화살표 키로 이동하고 마우스 휠로 확대 축소할 수 있소.
+
+objective_deathrow_building             사형집행 시설을 수용할 건물 건축
+
+adviser_deathrow_buildinside1           새 사형집행 시설에 들어갈 입구도 필요하오.
+adviser_deathrow_buildinside2           남쪽 벽에 대형 철창문을 설치하시오.
+
+objective_deathrow_buildouterdoor       대형 철창문 입구 설치
+
+adviser_deathrow_internalwalls1          건물 안에 감방과 사형집행실 만들었으면 좋겠소.
+adviser_deathrow_internalwalls2          벽돌 벽을 쌓아 공간을 나누시오.
+
+objective_deathrow_buildinternalwalls   내부 벽 건축
+
+adviser_deathrow_internaldoors1          이제 벽 사이에 대형 철창문을 넣으시오.
+adviser_deathrow_internaldoors2          가운데 마우스 버튼(또는 R 키)을 누르면 물건을 회전시킬 수 있소.
+
+objective_deathrow_buildinternaldoors   내부 문 설치(가운데 마우스 버튼이나 R 키로 물건 회전)
+
+adviser_deathrow_designation1           보기가 좋소. 이제 이 공간에 방을 지정할 필요가 있소.
+adviser_deathrow_designation2           사형수가 생활할 작은 공간을 감방으로 지정하시오.
+adviser_deathrow_designation3           그리고 큰 공간을 사형집행실로 지정하시오.
+
+objective_deathrow_designatecell        감방 지정
+objective_deathrow_designateexecution   사형집행실 지정
+
+adviser_deathrow_roomrequirements1      방을 사용하기 전에 필요한 것들이 있소.
+adviser_deathrow_roomrequirements2      감방에는 침대와 화장실이 필요하오.
+adviser_deathrow_roomrequirements3      사형집행실에는 전기의자가 필요하오.
+
+objective_deathrow_cellobjects1         침대 설치
+objective_deathrow_cellobjects2         화장실 설치
+objective_deathrow_executionobjects     전기의자 설치
+
+adviser_deathrow_optional1              이제 기본적인 것은 다 되었소. 하지만 몇 가지 개선할 것이 있소.
+adviser_deathrow_optional2              반드시 필요한 것은 아니니 당신 생각에 달려있소. 죄수와 환경을 얼마나 생각하느냐에 달렸소.
+adviser_deathrow_optional3              바깥으로 향한 창문과 작은 책장을 놓아 감방을 개선할 수 있소.
+adviser_deathrow_optional4              그리고 나무 바닥재나 모자이크 타일 같은 고급자재를 쓰면 시설이 더 좋아 보일 것이오.
+adviser_deathrow_optional5              바깥에는 조명을 달고 필요하다면 통로를 만들 수도 있소.
+
+adviser_deathrow_transfer05             이 자가 바로 문제의 인물, 에드워드 롬지라고 하오. 선생님이었다고 하는데, 믿을 수 있겠소.
+adviser_deathrow_transfer06             그에게 이것이 합당한지 판단하는 것은 우리 몫이 아니오. 결정은 법이 하고 우리는 그대로 따르기만 하면 되는 것이오.
+adviser_deathrow_transfer1              준비된 시설이 마음에 들면 죄수를 새 감방으로 이감할 수 있소.
+adviser_deathrow_transfer2              감방 안에 있는 폴라로이드를 클릭하면 이감이 시작되오.
+
+objective_deathrow_path                 (선택사항) 새로운 시설에 통로 설치
+objective_deathrow_window               (선택사항) 감방에 창문 설치
+objective_deathrow_bookshelf            (선택사항) 감방에 책장 설치
+objective_deathrow_flooring             (선택사항) 바닥을 고급 소재로 바꾸기
+objective_deathrow_outerlights          (선택사항) 시설 외부에 조명 설치
+objective_deathrow_transferinmate       준비가 되었으면 에드워드의 감방에 있는 폴라로이드를 클릭해서 죄수를 이감합니다.
+
+adviser_deathrow_setupmurder1           이 자를 위해 한 방울의 눈물도 흘리지 마세요. 냉혈한 살인마일뿐이예요.
+adviser_deathrow_setupmurder2           자백까지 했어요. 그가 무슨 말을 했는지 듣고 싶어요?
+adviser_deathrow_setupmurder3           들어보세요. "밤 11시 정도였습니다. 불은 이미 켜져 있었습니다. 그녀가 집에 있다는 건 알고 있었습니다..."
+adviser_deathrow_postmurder1            내가 말한대로, 냉혈한 살인마예요.
+adviser_deathrow_postmurder2            모든 것은 명백해요. 그에게는 전기의자가 마땅해요.
+adviser_deathrow_postmurder3            모든 사람은 용서받을 수 있소. 그도 마찬가지요. 당신이 최후의 심판을 할 수 있다고 생각하오?
+adviser_deathrow_postmurder4            아내와 다른 남자가 함께 있는 모습을 잡았다고 해도 그건 이유가 되지 않아요. 
+adviser_deathrow_postmurder5            그는 그들이 함께 있다는 것을 알고 장전된 총을 들고 그곳으로 갔어요. 두 명을 살해한 계획적인 살인 범죄죠.
+adviser_deathrow_postmurder6            그가 이렇게 된 것은 정부하고도 관련이 있소. 이 주에서는 본보기를 만들려고 하오. 
+adviser_deathrow_postmurder7            그가 이 범죄를 북쪽으로 100마일 떨어진 곳에서 저질렀다면 무기징역을 받았을 거요. 그것이 정의롭지 않겠소?
+adviser_deathrow_postmurder8            이런 자가 자유롭게 활보하기를 바라세요? 나는 이런 자를 완전히 보내버려야 밤에 잠을 푹 잘 수 있어요.
+           
+
+adviser_deathrowelectricity_1           지금까지 잘 했소.
+adviser_deathrowelectricity_2           하지만 한 가지 문제가 있소. 사형집행실에 전기가 들어오지 않아 제대로 작동하지 않고 있소.
+adviser_deathrowelectricity_3           전기를 연결해야 하오.
+
+adviser_deathrowelectricityb_1          우리는 지금 공공시설 모드에서 교도소를 보고 있소. 교도소 전체에 대한 전기배선을 볼 수 있소.
+adviser_deathrowelectricityb_2          각 건물은 지하에 묻힌 전력 케이블로 전력망에 연결되어 있소.
+adviser_deathrowelectricityb_3          교도소의 전기는 이 변전소에서 공급하고 있소. 이것이 전력망에서 전기를 끌어온다오.
+adviser_deathrowelectricityb_4          보는 것처럼 모든 감방동에 전기 공급이 안 되고 있소. 조명도 모두 나갔고.
+adviser_deathrowelectricityb_4b         이 문제를 해결하려면 공공시설 모드로 전환해서 왜 전기가 나갔는지 알아봐야 하오.
+adviser_deathrowelectricityb_5          가장 가까운 전력 케이블이 너무 멀어서 기술자들이 이 구역에 배선을 마칠 수가 없소.
+adviser_deathrowelectricityb_6          전력 케이블을 근처까지 확장해야 겠소.
+
+objective_deathrow_cellpower            방에 전기 연결하기
+
+adviser_deathrow_connectchair_1         조명만 전기가 필요한 것은 아니오. 전기의자도 전기가 필요하오.
+adviser_deathrow_connectchair_2         전력 케이블을 사형집행실까지 연결하시오.
+adviser_deathrow_connectchair_3         전기의자는 특별한 전기 장치로 전용선이 필요하오. 전력 케이블을 직접 연결해야 하오.
+
+objective_deathrow_chairpower           전기의자에 전기 연결하기
+objective_deathrow_condemnedcellpower   감방에 전기 연결하기
+
+adviser_deathrow_testchair_1            거의 다 된 것 같소. 사형집행실을 사용하기 전에 제대로 작동하는지 시험해야겠소.
+adviser_deathrow_testchair_2            몇 초동안 전원을 켤테니 잘 작동하는지 보시오.
+adviser_deathrow_testchair_3            이런, 안 되겠소. 전기를 너무 많이 써서 발전기의 차단기가 내려간 것 같소. 교도소 전체가 암흑천지가 되었소.
+adviser_deathrow_testchair_4            전기 의자가 제대로 작동하려면 더 많은 전력이 필요할 것 같소.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   먼저 다시 전원을 켜는게 필요하오. 두 가지 작업이 필요하오.
+adviser_deathrow_testchair_5b           발전기를 클릭해서 나타나는 메뉴에서 스위치 켜기를 선택해서 발전기를 다시 켜시오.
+adviser_deathrow_testchair_6            그다음 축전기를 세 개 더 설치해서 전기 의자에 충분한 전기를 공급하시오.
+adviser_deathrow_testchair_7            작업이 완료되면 전기의자를 클릭해서 메뉴에서 스위치 켜기를 선택해서 다시 시험해 보시오.
+
+objective_deathrow_poweron              발전기 다시 켜기(발전기를 클릭한 다음 메뉴에서 스위치 켜기를 선택)
+objective_deathrow_expandpower          발전기에 축전기 3개 추가
+objective_deathrow_chairworking         전기의자 다시 시험하기(전기의자를 클릭해서 스위치 켜기를 선택)
+
+adviser_deathrow_execution_1            잘 되었소. 이 일은 다 끝난 것 같소.
+adviser_deathrow_execution_2            나머지는 이제 우리 손에서 떠났소. 어려운 일을 해냈소, 그게 우리 일에서 중요한 부분이오.
+adviser_deathrow_execution_3            다음에 무슨 일이 일어날지는 걱정하지 마시오.
+
+adviser_deathrow_setupexecution1        시간이 되었소, 에드워드.
+adviser_deathrow_setupexecution2        당신은 양심에 따라 행동했소. 비록 이 세상이 당신을 용서하지 않더라도 말이오.
+adviser_deathrow_setupexecution3        당신은 곧 신을 만나게 될 것이고, 거기서 최후의 심판을 받을 것이오.
+
+adviser_deathrow_setupexecution4        에드워드 롬지. 당신은 두 명을 살해한 1급 살인 혐의로 유죄를 선고받았습니다.
+adviser_deathrow_setupexecution5        그 벌은 사형입니다.
+adviser_deathrow_setupexecution6        마지막으로 할 말 있습니까?
+adviser_deathrow_setupexecution7        수잔...
+adviser_deathrow_setupexecution8        미안하오.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 이전 교도소 판매금
+finance_cost_equiptazer                 장비: 테이저
+finance_cost_equipbodyarmour            장비: 방탄복
+finance_cost_exports                    출하품
+finance_cost_foundations                건물 기초
+finance_cost_cashflow                   현금유출입
+finance_cost_bankloan                   은행 대출
+finance_cost_bankloan_repayment         은행 대출 상환
+finance_cost_sharesale                  지분 매각
+finance_cost_sharepurchase              지분 매입
+finance_cost_grantadvance               보조금 선불
+finance_cost_grantcompletion            보조금 잔금
+finance_cost_reformprogram              교정 프로그램 수업
+finance_cost_repair                     수리
+finance_cost_sellobject                 물품 팔기
+finance_cost_landpurchase               토지 구입
+finance_cost_prisonerintake             죄수 입소
+finance_cost_grantcancellation          취소 비용
+finance_cost_grantrefund                - 환불: *X
+finance_cost_grantfine                  - 벌금: *X
+finance_cost_executionfine              부적절한 사형집행 벌금
+finance_cost_executioncompensation      사형집행 보상금
+finance_cost_shopintake                 판매점 매상
+finance_cost_prisonerwages              죄수 임금
+finance_cost_fine                       벌금
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           벌금
+clock_speed_half                        ...
+clock_add_hour                          +
+clock_am                                오전
+clock_pm                                오후
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  과도전압으로 인해 발전기에 과부하가 걸려 화재 발생! 
+event_powerstationfire_x                과도전압으로 인해 발전기에 치명적인 과부하가 걸려 전체가 폭발!
+event_powerstationfirelarge             과도전압으로 인해 발전기에 과부하가 걸려 화재 발생! 
+event_powerstationfirelarge_x           과도전압으로 인해 발전기에 치명적인 과부하가 걸려 전체가 폭발!
+event_kitchenfire                       주방에서 화재 발생!
+event_waterpipeburst                    수도관에 파열이 생겨 주위가 물바다가 되었소. 피해가 더 커지기 전에 수리하시오.
+event_bulkintake                        인근 교도소에서 일어난 재해로 시설 전 구역이 사용할 수 없게 되었소. 인근에 적당한 시설이 없어서 죄수들을 당신의 교도소로 옮길 수 밖에 없소. 죄수들이 곧 도착할 것이오.
+event_workshopaccident                  작업장에서 사고가 발생해 죄수 한 명이 중상을 입어 움직일 수가 없소! 빨리 의사를 부르시오!
+event_subsidence                        지반이 침하되어 외벽의 일부가 무너졌소. 당장 수리해야 하오!
+event_earthquake                        지진으로 인해 교도소의 일부가 붕괴되었소!
+event_virus                             여러 재소자들로부터 질병 보고서를 받았소. 감염자를 확인하고 격리해서 감염이 확산되지 않도록 막는 것이 좋겠소.
+event_virus_x                           여러 재소자들로부터 질병 보고서를 받았는데, 증상이 심각해 보이는군요. 감염이 너무 확산되기 전에 환자들을 격리해서 치료하는 것을 고려하시오.
+
+event_massassassination_1               연방 기소 사건의 여러 증인들의 신분이 유출되었소. 그들 가운데 일부가 우리 교도소의 재소자들이오.
+event_massassassination_2               그들을 대상으로 공격이 가해졌소. 그들이 살아 있어야만 하오. 이 재소자들을 확인해서 재판이 열릴 때까지 안전하게 보호할 필요가 있소.
+event_massassassination_3_x             이 사실을 너무 늦게 알게 되었고, 따라서 공격이 또 시작될 때까지 시간이 별로 없소.
+
+event_tvremovaldemand_1                 재소자들을 위한 편의시설에 대해 언론이 보도를 시작하면서 내 사무실 전화에 비난이 빗발치고 있소.
+event_tvremovaldemand_2                 내가 교도소 내 공동휴게실에서 TV를 금지하는 법을 통과시킬 거요. 그러니 휴게실에서 모든 TV를 철거하지 않으면, 벌금을 물게 될 거요. 주어진 시간은 6 시간이오. 
+event_tvremovaldemand_fine              이제 휴게실에서 TV가 법으로 금지되었는데, 당신이 아직 TV를 철거하지 않아서 벌금이 부과되었소. 철거할 때까지 벌금이 계속 부과될 거요. 
+event_tvremovaldemand_complete          이제 언론이 다른 쪽으로 눈을 돌리고 있고, 휴게실에서 TV를 치우는 법안이 철회되었소. 원한다면 TV를 다시 설치하시오.
+
+event_weightsremovaldemand_1            재소자들을 위한 편의시설에 대해 언론이 보도를 시작하면서 내 사무실 전화에 비난이 빗발치고 있소.
+event_weightsremovaldemand_2            내가 교도소 운동장에서 운동 장비를 금지하는 법을 통과시킬 거요. 그러니 운동장에서 모든 역기를 철거하지 않으면, 벌금을 물게 될 거요. 주어진 시간은 6시간이오.
+event_weightsremovaldemand_fine         이제 운동장에서 역기가 법으로 금지되었는데, 당신이 아직 역기를 철거하지 않아서 벌금이 부과되었소. 철거할 때까지 벌금이 계속 부과될 거요. 
+event_weightsremovaldemand_complete     이제 언론이 다른 쪽으로 눈을 돌리고 있고, 운동장에서 역기를 치우는 법안이 철회되었소. 원한다면 다시 설치하시오.
+
+event_lessfooddemand_1                  위원회는 우리 시설에서 비용 절감 대책을 실험하기로 결정했고, 당신의 교도소도 여기에 포함되었소.
+event_lessfooddemand_2                  그러니 당신의 교도소에서 배식량과 식단의 가짓수를 줄여서 이것이 전체 예산에 미치는 영향을 살펴볼 필요가 있소. 
+event_lessfooddemand_fine               당신이 우리가 요구한 새로운 급식 정책을 실행하지 않았으니, 절감 예상액을 당신의 자금에서 직접 환수할 거요. 내가 요구한대로 할 때까지 이것이 계속될 거요.
+event_lessfooddemand_complete           식비 예산 실험이 끝났고 실험 결과가 그리 확실치 않소. 그러니 원한다면 당신의 급식 정책을 다시 실행해도 좋소.
+
+event_removevisitationdemand_1          다른 시설에서 벌어진 사건으로 교도소에 가족 면회 시 보안 검사와 관련한 잠재적인 문제가 부각되었소.
+event_removevisitationdemand_2          면회 과정을 제대로 검토할 때까지, 모든 면회를 중지해야 하오. 12시간 내에 교도소 내의 모든 면회실을 철거하시오.
+event_removevisitationdemand_fine       현재의 보안 문제에도 불구하고 교도소에서 면회실을 철거하지 않아서, 벌금이 부과되었소. 철거할 때까지 계속 벌금이 부과될 것이오.
+event_removevisitationdemand_complete   면회 과정에 대한 보안 검토가 끝났으니, 원한다면 교도소에 면회실을 다시 설치해도 좋소.
+
+event_lessworkdemand_1                  재소자들이 작업 시간을 불만스럽게 여겨서 시간을 줄여주지 않으면 말썽을 일으킬 계획이라는 얘기를 방금 들었소. 
+event_lessworkdemand_2                  한 교도관이 누군가 하루에 2시간 이상 일해야 한다면 그곳을 '쑥대밭으로 만들겠다'고 말하는 걸 엿들은 모양이요.
+event_lessworkdemand_ignore             재소자들이 포기하고 잠잠해진 것 같소. 그들이야 탐탁치 않겠지만, 여기서 누가 갑인지 그들에게 보여줄 필요가 있소. 
+event_lessworkdemand_complete                재소자들이 이제 작업 시간에 대해 안정을 되찾았소. 내 생각에는 그들이 지난 며칠 간이 휴가라고 생각한 것 같소. 이제 문제 없이 그들을 다시 일하게 만들 수 있소. 
+
+event_moresleepdemand_1                 재소자들이 수면 시간이 충분히 허락되지 않아 무척 짜증스러워 한다는 민원을 받았소.
+event_moresleepdemand_2                 재소자들은 야간에 적어도 7시간의 수면 시간이 주어지지 않으면 말썽을 일으키겠다고 말했소.
+event_moresleepdemand_ignore            재소자들이 마침내 김이 빠져서 수면 시간 부족에 대한 시위를 포기한 것 같소. 아마 너무 피곤했던 것 같소.
+event_moresleepdemand_complete          재소자 취침 일정과 관련한 문제가 마침내 해결되었으니, 원한다면 일정을 다시 변경해도 좋소.
+
+event_morefreetimedemand_1              수감자들이 하루 일과 중에 자유 시간이 적은 것에 불만이 있는 것 같소.
+event_morefreetimedemand_2              뭔가 조치가 취해지지 않으면 소란을 일으키겠다고 재소자들이 속삭이는 소리를 교도관이 엿들었소.
+event_morefreetimedemand_ignore         재소자들이 자유 시간 부족에 대해 말썽을 일으키는 것을 멈추고 잠잠해졌소. 독방에 갇히면 자유 시간이 더 줄어들 것임을 깨달은 모양이오.
+event_morefreetimedemand_complete       자유 시간 증가에 대한 재소자들의 요구는 들어줄만큼 들어줬소. 이제 원한다면 다시 일정을 변경해도 좋소. 
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    재소자 입소
+objective_tvremovaldemand               공동휴게실에서 TV를 철거하세요.
+objective_tvremovaldemand_child         공동휴게실에 TV가 없도록 조치하세요.
+objective_weightsremovaldemand          운동장에서 역기를 제거하세요.
+objective_weightsremovaldemand_child    운동장에 역기가 없도록 조치하세요.
+objective_lessfooddemand                배식량과 식단 가짓수를 줄이세요.
+objective_lessfooddemand_child          재소자들의 배식량과 식단 가짓수를 줄이세요.
+objective_removevisitationdemand        모든 면회실을 철거하세요.
+objective_removevisitationdemand_child  보안 검토가 끝날 때까지 교도소에 면회실이 없도록 조치하세요.
+objective_virus                         바이러스 발생
+objective_virus_child                   총 감염 재소자:
+objective_massassassination             증인보호프로그램 대상자\n 재판 날짜
+objective_massassassination_child       생존 증인:
+objective_lessworkdemand                재소자들이 노동 시간 감소를 요구
+objective_lessworkdemand_child          노동 시간을 하루 2시간 미만으로 감소
+objective_moresleepdemand               재소자에게 수면 시간을 더 제공
+objective_moresleepdemand_child         하루에 7시간 이상으로 수면 시간을 증가
+objective_morefreetimedemand            재소자에게 자유 시간을 더 주시오.
+objective_morefreetimedemand_child      자유시간을 하루에 최소 6시간으로 증가
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     교도소장님
+warden_default_desc                     그는 세상에서 가장 균형 잡힌 사람으로 일 이외에는 아무것도 관심이 없습니다. 사람들은 그를 그냥 교도소장님이라고 부릅니다.
+warden_lobbyist_name                    로비스트
+warden_lobbyist_desc                    로비스트는 고위직에 아는 사람이 많이 있어 재소자들을 통제하기 쉽게 만들 수 있습니다. \n\n - 폭력범, 흉악범, 꼴통, 살인병기, 싸움꾼을 재소자로 받을 확률을 반으로 줄입니다.
+warden_lobbyist_desc_short              - 폭력범, 흉악범, 꼴통, 살인병기, 싸움꾼을 재소자로 받을 확률을 반으로 줄입니다.
+warden_fear_name                        리타
+warden_fear_desc                        무자비하고 무서운 리타는 공포스럽게 시설을 운영하는 것으로 유명합니다. 채찍을 들고 다닌다는 소문은 과장일 수 있습니다.\n\n - 재소자가 고집불통이나 무데뽀일 가능성을 절반으로 줄입니다.\n 재소자들이 두 배 빠르게 진압됩니다.
+warden_fear_desc_short                   - 재소자가 고집불통이나 무데뽀일 가능성을 절반으로 줄입니다.\n 재소자들이 두 배 빠르게 진압됩니다.
+warden_tunnels_name                     J.W. 페리윈클
+warden_tunnels_desc                     페리윈클 교도소장은 자신이 공병으로 참전했다고 말합니다. 구체적으로 어느 전쟁인지 말한 적은 없지만, 땅굴을 파는 것에 대해서는 모든 것을 알고 있습니다.\n\n - 경비견이 땅굴을 탐지하고 적발할 가능성이 50%입니다.
+warden_tunnels_desc_short                - 경비견이 땅굴을 탐지하고 적발할 가능성이 50%입니다.
+warden_calming_name                     평화주의자
+warden_calming_desc                     평화주의자는 가장 폭력적인 사람들마저 진정시킬 수 있는 특별한 능력이 있습니다. 그와 같은 방에 있는 것만으로 사람들이 온순해지고 순종적이 됩니다.\n\n - 교도소 내의 전반적인 분위기를  차분하게 가라앉혀 수감자들이 말썽을 일으킬 가능성을 줄입니다.
+warden_calming_desc_short                - 교도소 내의 전반적인 분위기를  차분하게 가라앉혀 수감자들이 말썽을 일으킬 가능성을 줄입니다.
+warden_contraband_name                  사파라 아크노바
+warden_contraband_desc                  사파라 아크노바는 무결점 평판과 깨끗한 이력의 소유자입니다. 그러나 이면에서는 수상하고 은밀한 뒷거래에 익숙합니다.\n\n - 발견된 밀반입품을 되팔아 약간의 몫을 챙깁니다.\n - 밀반입품을 소지하고 있다가 들킨 재소자에게 직접 '벌금'이 부과됩니다.   
+warden_contraband_desc_short             - 발견된 밀반입품을 되팔아 약간의 몫을 챙깁니다.\n - 밀반입품을 소지하고 있다가 들킨 재소자에게 직접 '벌금'이 부과됩니다.   
+buildtoolbar_wardenlobbyist             로비스트
+buildtoolbar_tooltip_wardenlobbyist     교도소에 덜 폭력적인 범죄자가 입소합니다.
+interfacetopbar_tension_calmingwarden    - 교도소장이 재소자들을 진정시키는데 영향을 미칩니다.
+warden_consultingfee                    상담 비용
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     뇌물
+crime_aggravatedburglary          가중 절도
+crime_burglary                    절도
+crime_arson                       방화
+crime_criminaldamage              기물 파손
+crime_vandalism                   공공 기물 파손
+crime_violentdisorder             폭력 소요
+crime_possession                  불법 소지
+crime_possessionintenttosupply    공급 목적의 불법 소지
+crime_forgery                     위조
+crime_fraud                       사기
+crime_counterfeightingcurrency    통화 위조
+crime_falseaccounting             분식 회계
+crime_insidertrading              내부자 거래
+crime_moneylaundering             돈세탁
+crime_aggravatedvehicletheft      가중 차량 절도
+crime_joyriding                   차량 절도 및 폭주
+crime_dangerousdriving            난폭 운전
+crime_deathbydangerousdriving     난폭 운전에 의한 사망
+crime_drivingunderinfluence       음주 운전
+crime_kidnapping                  납치
+crime_falseimprisonment           불법 감금
+crime_torture                     고문
+crime_assault                     폭행
+crime_aggravatedassault           가중 폭행
+crime_assaultinganofficer         경찰 폭행
+crime_greviousbodilyharm          중대한 신체적 상해
+crime_murder                      살인
+crime_attemptedmurder             살인 미수
+crime_manslaughter                우발적 살인
+crime_pervertingcourseofjustice   공무집행방해
+crime_contemptofcourt             법정모독
+crime_drunkdisorderlybehaviour    음주 난동
+crime_escapingfromlawfulcustody   적법한 구금에서 탈출
+crime_perjury                     위증
+crime_rioting                     폭동
+crime_espionage                   간첩 활동
+crime_violentdisorder             폭력 소요
+crime_trafficking                 밀매
+crime_armedrobbery                무장 강도
+crime_robbery                     강도
+crime_carjacking                  차량 탈취
+crime_blackmail                   골갈협박
+crime_handlingstolengoods         장물 취급
+crime_videogamepiracy             비디오 게임 불법복제
+crime_indievideogamepiracy        인디 비디오 게임 불법복제
+crime_shoplifting                 들치기
+crime_pickpocketing               소매치기
+crime_cartheft                    차량 절도 및 폭주
+crime_rape                        강간
+crime_grossindecency              성추행
+crime_voyeurism                   관음증

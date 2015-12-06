@@ -1,0 +1,5 @@
+Name        "Finnish"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official Finnish translation of Prison Architect"
+ThumbnailSprite finnish

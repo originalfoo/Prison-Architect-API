@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              Ny
+dialog_load                             Last inn
+dialog_save                             Lagre
+dialog_saveas                           Lagre som
+dialog_delete                           Slett
+dialog_width                            Bredde
+dialog_height                           Høyde
+dialog_name                             Navn
+dialog_type                             Type
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                B
+dialog_h                                H
+dialog_exit                             Avslutt
+dialog_cancel                           Avbryt
+dialog_ok                               Ok
+dialog_open                             Åpne
+dialog_close                            Lukk
+dialog_closed                           Lukket
+dialog_add                              Legg til
+dialog_up                               Opp
+dialog_down                             Ned
+dialog_yes                              Ja
+dialog_no                               Nei
+dialog_loading                          Laster inn ...
+dialog_low                              Lav
+dialog_medium                           Middels
+dialog_high                             Høy
+dialog_none                             Ingen
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Dialogredigerer
+dialogeditor_back                       Bak
+dialogeditor_front                      Foran
+dialogeditor_reloadlanguage             Last inn språk
+dialogeditor_test                       Test
+dialogeditor_window                     Vindu
+dialogeditor_grid                       Rutenett
+dialogeditor_caption                    Tekst
+dialogeditor_component                  Komponent
+dialogeditor_select						Velg
+dialogeditor_create						Opprett
+dialogeditor_background                 Bakgrunnsbilde
+dialogeditor_panel                      Panel
+
+dialogcomponent_custom                  Egendefinert
+dialogcomponent_button                  Knapp
+dialogcomponent_container               Beholder
+dialogcomponent_caption                 Tekst
+dialogcomponent_titlecaption            Titteltekst
+dialogcomponent_checkbox                Avmerkingsboks
+dialogcomponent_inputfield              Inndatafelt
+dialogcomponent_inputslider             Glidebryter
+dialogcomponent_dropdownmenu            Nedtrekksmeny
+dialogcomponent_selectionlist           Valgliste
+dialogcomponent_selectionlistitem       Valglistepunkt
+dialogcomponent_scrollbar               Rullefelt
+dialogcomponent_progressbar             Fremdriftslinje
+dialogcomponent_canvas                  Lerret
+dialogcomponent_iconbox					Ikonboks
+
+dialogposition_absolute                 Absolutt
+dialogposition_relative                 Relativ
+dialogposition_scaled                   Skalert
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Profileringsverktøy
+profiler_name                           Navn
+profiler_timings                        Tidtakinger
+profiler_totaltime                      Totalt
+profiler_glfinishcaption                glFinish
+profiler_reset                          Tilbakestill
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Lydkanaler
+soundeditor_title                       Lydredigerer
+soundinstanceeditor_title				Lydinstansredigerer
+
+soundeditor_positiontitle		Posisjonstype
+soundeditor_instancetitle		Instanstype
+soundeditor_looptitle			Looptype
+soundeditor_sourcetypetitle		Lydtype
+soundeditor_soundnametitle		Lydnavn
+
+soundeditor_volumetitle			Volum
+soundeditor_frequencytitle              Frekvens
+soundeditor_mindistancetitle            Min.avstand
+soundeditor_attacktitle                 Attack
+soundeditor_sustaintitle                Sustain
+soundeditor_releasetitle                Uttoning
+soundeditor_loopdelaytitle              Loopforsinkelse
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              Neste hendelse
+
+soundeditor_play                        Spill
+soundeditor_stop                        Stopp
+
+soundparametereditor_title              Lydparameter
+soundparametereditor_typetitle          Type
+soundparametereditor_linktitle          Koblet til
+soundparametereditor_updatetitle        Oppdateringstype
+soundparametereditor_smoothing          Utjevning
+soundparametereditor_chaintitle         Kjede
+
+soundeditor_newdsp                      Legg til DSP
+sounddspeditor_title                    DSP-redigerer
+samplebankeditor_title                  Samplingsredigerer
+samplebankeditor_addsample              Legg til lyd
+samplebank                              (Samplingsbank)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Ferdig
+interfacemode_destroy                         Fjern
+interfacemode_foundations				Grunnarbeider
+interfacemode_construction                    Materialer
+interfacemode_planning                        Planlegging
+interfacemode_objects                         Ting
+interfacemode_designation                     Rom
+interfacemode_utilities                       Anlegg
+interfacemode_staff                           Personal
+interfacemode_deployment                      Utplassering
+interfacemode_logistics                       Logistikk
+interfacemode_prisoners                       Fanger
+interfacemode_needs                           Behov
+interfacemode_threats                         Trusler
+interfacemode_overlays                        Overlegg
+interfacemode_research                        Byråkrati
+interfacemode_emergencies                     Nød
+interfacemode_clone                           Klone
+interfacemode_contraband                      Intelligens
+interfacemode_grading                         Gradering
+interfacemode_spawn                           (Spawn)
+interfacemode_properties                      (Egenskaper)
+interfacemode_cutscenes                       (Filmsekvenser)
+interfacemode_selection                       Velg
+
+interfaceoverlay_security                       Sikkerhet
+interfaceoverlay_patrols                        Patruljer
+interfaceoverlay_decay                          Forfall
+interfaceoverlay_territory                      Territorium
+interfaceoverlay_contraband                     Smuglergods
+
+interfaceproperty_indoor                        Innendørs
+interfaceproperty_visible                       Synlig
+interfaceproperty_territoryprisoner             Gjenger
+interfaceproperty_territoryguard                Vakter
+interfaceproperty_sectorprisoner                Opprør
+interfaceproperty_tunnel                        Tunnel
+
+interfacedeployment_guards                      Vakter
+interfacedeployment_patrols                     Vaktpatruljer
+interfacedeployment_dogpatrols                  Hundepatruljer
+interfacedeployment_armedpatrols                Bevæpnede patruljer
+interfacedeployment_removeguards                Fjern vakter
+interfacedeployment_clearpatrols                Fjern patruljer
+interfacedeployment_targetting                  Logistikk
+interfacedeployment_targettingfood              Matlogistikk
+interfacedeployment_targettinglaundry           Klesvasklogistikk
+interfacedeployment_securearea                  Sikret område
+interfacedeployment_sharedzone                  Delt
+interfacedeployment_staffonlyzone               Bare ansatte
+interfacedeployment_maxseczone                  Bare høysikkerhet
+interfacedeployment_medseczone                  Bare middels sikkerhet
+interfacedeployment_minseczone                  Bare lavsikkerhet
+interfacedeployment_protectedzone               Bare forvaring
+interfacedeployment_supermaxzone                Bare superhøy
+interfacedeployment_deathrowzone                Bare dødsdømte
+interfacedeployment_unlockedzone                Ulåst
+interfacedeployment_zonered                     Rød fløy
+interfacedeployment_zonegreen                   Grønn fløy
+interfacedeployment_zoneblue                    Blå fløy
+interfacedeployment_zoneyellow                  Gul fløy
+
+interfacelogistics_jobs                         Straffearbeid
+interfacelogistics_removejobs                   Fjern arbeid
+interfacelogistics_targettingfood               Distribusjon av mat
+interfacelogistics_targettinglaundry            Distribusjon av klesvask
+interfacelogistics_roomquality                  Romkvalitet
+
+interfaceplanning_wall							Vegger
+interfaceplanning_object						Ting
+interfaceplanning_route							Ruter
+interfaceplanning_clear							Fjern
+interfaceplanning_zone1							Sone 1
+interfaceplanning_zone2							Sone 2
+interfaceplanning_zone3							Sone 3
+interfaceplanning_zone4							Sone 4
+interfaceplanning_zone5							Sone 5
+interfaceplanning_zone6							Sone 6
+interfaceplanning_zone7							Sone 7
+interfaceplanning_zone8							Sone 8
+interfaceplanning_zone9							Sone 9
+
+interfacecontraband_source                      Farer
+interfacecontraband_day                         24 timer
+interfacecontraband_week                        7 dager
+interfacecontraband_alltime                     30 dager
+interfacecontraband_informants                  Informanter
+interfacecontraband_gangs                       Gjenger
+
+interfaceclone_copy                             Kopier
+interfaceclone_paste                            Lim inn
+
+interfacetopbar_todo							Gjøreliste
+interfacetopbar_balance							Bank *B
+interfacetopbar_budget							Kontantstrøm *C
+interfacetopbar_income							Inntekter *I
+interfacetopbar_expenses						Kostnader *C
+interfacetopbar_day								Dag *D
+
+interfacetopbar_title_balance					Banksaldo
+interfacetopbar_title_budget					Daglig kontantstrøm
+interfacetopbar_title_cctv						Overvåkningsanlegg
+interfacetopbar_title_day						Dag
+interfacetopbar_title_prisoners					Fanger
+interfacetopbar_title_guards					Vakter
+interfacetopbar_title_tension                   Fare
+
+interfacetopbar_tooltip_balance					Hvor mye penger du har i banken.\n\nKlikk for å skaffe mer penger via Tilskudd-listen.
+interfacetopbar_tooltip_budget					Hvor mye penger du får inn hver dag, basert på nåværende inntekter og utgifter.\n\nKlikk for en mer detaljert oversikt over inntekter og utgifter.
+interfacetopbar_tooltip_cctv					Antallet overvåkningskameraer og -skjermer du har.
+interfacetopbar_tooltip_day						Hvor lenge du har drevet fengselet.
+interfacetopbar_tooltip_prisoners				Antallet fanger fengselet har for øyeblikket, og hvor mange det har plass til.
+interfacetopbar_tooltip_guards					Antallet fanger i fengselet som er tilgjengelig for arbeid.
+interfacetopbar_tooltip_tension                 Fengselets generelle farenivå ifølge sikkerhetssjefen.
+
+interfacetopbar_tooltip_recenttransactions      Siste transaksjoner
+
+interfacetopbar_tooltip_gametime                Total spilletid: *X timer, *Y minutter, *Z sekunder
+
+interfacetopbar_tooltip_totalguards             *X vakter totalt
+interfacetopbar_tooltip_guardincapacitated      *X satt ut av spill
+interfacetopbar_tooltip_guardstationed          *X stasjonert
+interfacetopbar_tooltip_guardpatrolling         *X på patrulje
+interfacetopbar_tooltip_guardavailable          *X tilgjengelig
+interfacetopbar_tooltip_guardresting            *X hvilende
+interfacetopbar_tooltip_guardactive             (*X respondere på situasjoner)
+interfacetopbar_tooltip_guarddoingjob           *X gjør jobber
+interfacetopbar_tooltip_idle                    (*X er ledige)
+interfacetopbar_tooltip_armedguards             + *X bevæpnede vakter
+interfacetopbar_tooltip_dogs                    + *X hundeførere
+
+interfacetopbar_unlimitedfunds                  UBEGRENSET MED MIDLER
+
+interfacetopbar_budget_moneyin					Penger inn: *M*$ /dag
+interfacetopbar_budget_moneyout					Penger ut: *M*$ /dag
+interfacetopbar_budget_cantgonegative           Du kan ikke ha en negativ kontantstrøm (dvs. høyere utgifter enn inntekter) før du har hyret inn en regnskapsfører.
+
+interfacetopbar_prisoners_types					Fengselet har *X fanger:
+interfacetopbar_prisoners_capacity              Kapasitet på høysik.: *X
+interfacetopbar_prisonercells_shared            Kapasitet på delte: *X
+interfacetopbar_prisonercells_unlocked          Kapasitet på ulåste: *X
+interfacetopbar_prisonercells_minseconly        Kapasitet på lavsik.: *X
+interfacetopbar_prisonercells_medseconly        Kapasitet på mid.sik.: *X
+interfacetopbar_prisonercells_maxseconly        Kapasitet på høysik.: *X
+interfacetopbar_prisonercells_protectedonly     Kapasitet på forvaring: *X
+interfacetopbar_prisonercells_supermaxonly      Kapasitet på superhøy: *X
+interfacetopbar_prisonercells_deathrowonly      Kapasitet for dødsdømte: *X
+interfacetopbar_prisonercells_staffonly         Utilgjengelig: *X
+interfacetopbar_prisoners_nocells               *X fanger kan ikke bli tilordnet en celle
+
+interfacetopbar_cctv_current					*C kameraer er aktivert
+interfacetopbar_cctv_cap						Plass til *C kameraer
+
+interfacetopbar_tension_currentlevel            Farenivået er *X
+interfacetopbar_tension_increasing              og øker
+interfacetopbar_tension_decreasing              og synker
+interfacetopbar_tension_description             FAKTORER:
+interfacetopbar_tension_happyprisoners           - *X fanger sier de blir bra behandlet
+interfacetopbar_tension_unhappyprisoners         + *X fanger har alvorlige klager
+interfacetopbar_tension_lockedupprisoners        + *X fanger sitter i håndjern eller på isolat
+interfacetopbar_tension_riotingprisoners         + *X fanger gjør opprør
+interfacetopbar_tension_wellfedprisoners         - *X fanger får nok mat
+interfacetopbar_tension_suppressedprisoners      = *X fanger er kuet (føyelige)
+interfacetopbar_tension_activeriotguards         + *X opprørspoliti er på plass
+interfacetopbar_tension_activearmedguards        + *X bevæpnede vakter er i tjeneste
+interfacetopbar_tension_recentdeaths             + *X personer har blitt drept i det siste
+interfacetopbar_tension_recentsearches           + *X fanger har blitt unødvendig visitert i det siste
+interfacetopbar_tension_angrygangmembers         + *X GJENGMEDLEMMER ER RASENDE (lederen blir straffet)
+interfacetopbar_tension_recentpunishments        = (AVSKREKKELSE) *X dommer er gitt i det siste
+interfacetopbar_tension_recentcalmed             - *X fanger er roet ned i det siste
+
+interfacecontrol_mainmenu                       Hovedmeny (Esc)
+interfacecontrol_mainmenu_tooltip               Justere hovedmeny (Ny / Last inn / Lagre / Avslutt osv.)
+interfacecontrol_todo                           Gjøreliste
+interfacecontrol_todo_tooltip                   Åpne/lukke gjøreliste
+interfacecontrol_research                       Byråkrati
+interfacecontrol_research_tooltip               Åpner Byråkrati-skjermen hvor du kan be administratorene dine å låse opp nye ting, personaltyper og anlegg.
+interfacecontrol_grading                        Fengselsgradering
+interfacecontrol_grading_tooltip                Åpner fengselsgraderingsskjermen hvor du ser hvor bra du har gjort det totalt sett.
+
+interface_confirmlandbuy                        Er du sikker på at du vil kjøpe denne tomten for $*X?
+interface_loadconfirm                           Er du sikker på at du vil laste inn dette kartet? All ulagret fremdrift vil gå tapt.
+interface_saveconfirm                           Er du sikker på at du vil lagre med dette filnavnet? Eksisterende data blir overskrevet.
+
+interface_landbuylabel                          *Xm x *Ym. Totalt areal *A kvm. *C
+
+interface_action_dismantle                      Demonter
+interface_action_dump                           Dump
+interface_action_repair                         Reparer
+interface_action_medicalbay                     Sykestue
+interface_action_search                         Gjennomsøk
+interface_action_searchcell                     Gjennomsøk celle
+interface_action_searchcellblock                Gjennomsøk celleblokk
+interface_action_sack                           Spark
+interface_action_doormodenormal                 Dørmodus: Normal
+interface_action_doormodelockedshut             Dørmodus: Låst
+interface_action_doormodelockedopen             Dørmodus: Åpen
+interface_action_switchon                       Slå på
+interface_action_switchoff                      Slå av
+interface_action_sellobject                     Selg ting
+interface_action_dismiss                        Send hjem
+interface_action_connect                        Koble til
+interface_action_clearconnections               Fjern tilkoblinger
+interface_action_servoopen                      Åpnes ved aktivering
+interface_action_servoclose                     Lukkes ved aktivering
+
+interface_contents_container                    Innhold: *X
+interface_contents_stack                        Innhold: *X x *Y
+
+interface_skip                                  HOPP OVER
+
+interface_error_riotmove                        Kan ikke entre: Opprør
+
+interface_foundationsinprogress                 Grunnarbeider pågår
+riot_underway                                   OPPRØR PÅGÅR
+riot_status_prisoners                           *X fanger gjør opprør
+shakedown_underway                              ENDEVENDELSE PÅGÅR
+shakedown_found                                 Fant:
+
+gameover_caption                                Trykk på ESC for å fortsette
+
+sector_jobs_max                                 Maks jobber *X
+sector_jobs_qualified                           Kvalifiserte fanger: *X
+sector_jobs_required                            (Påkrevd: *X)
+sector_noaccess                                 INGEN TILGANG
+sector_insecure                                 USIKKERT
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Test av maskinvarekompatibilitet
+hardware_compat_message					Vi vil gjerne undersøke de følgende maskinvaredataene på datamaskinen din.\n\nDenne informasjonen er helt anonym og hjelper oss med å sørge for at Prison Architect støtter et så bredt spekter av maskinvare som mulig.\n\nTakk for hjelpen!
+hardware_compat_accept					Aksepter
+hardware_compat_decline					Avslå
+
+connectionmenu_connect                  Koble til
+connectionmenu_disconnect               Koble fra
+connectionmenu_clear                    Fjern
+connectionmenu_done                     Ferdig
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      Bygg
+buildtoolbar_reports                    Rapporter
+buildtoolbar_bangup                     Innesperring
+buildtoolbar_lockdown                   Avsperring
+buildtoolbar_shakedown                  Endevending
+buildtoolbar_weaponsfree                Åpne ild
+
+buildtoolbar_tooltip_reports			Åpne rapportvinduet for å se info om fanger, ansatte, inntekter, tilskudd osv.
+buildtoolbar_tooltip_bangup				Send alle fanger tilbake på cellen. Merk at de kan bli veldig sinte hvis du holder dem innesperret for lenge.
+buildtoolbar_tooltip_lockdown			Lås alle fengselets dører umiddelbart.
+buildtoolbar_tooltip_shakedown          Beordre en umiddelbar gjennomsøking av alle cellene. Dette tar en god stund og gjør de innsatte fly forbanna.
+buildtoolbar_tooltip_weaponsfree        Gi de bevæpnede vaktene tillatelse til å skyte for å drepe.
+
+buildtoolbar_cost						Kostnad: *C*$
+buildtoolbar_cost_sqrft					Kostnad: *C*$ /sq
+buildtoolbar_wages						Lønn: $*W per dag
+buildtoolbar_outdoor					Kun utendørs
+buildtoolbar_indoor						Kun innendørs
+buildtoolbar_walk_speed					Gåhastighet: *S
+buildtoolbar_walk_speed_slow			Sakte
+buildtoolbar_walk_speed_norm			Normal
+buildtoolbar_walk_speed_fast			Rask
+buildtoolbar_locked                     LÅST
+buildtoolbar_locked_research			LÅST (du må ha *B)
+buildtoolbar_locked_administrator		LÅST (*B kreves)
+buildtoolbar_room						Rom
+
+buildtoolbar_electrical                  - Elektrisk
+buildtoolbar_highpower                   - Høyeffekts
+buildtoolbar_water                       - Krever tilkobling til vann
+buildtoolbar_wired                       - Kablet (kobles til annet kablet utstyr)
+buildtoolbar_modcontent                  - Modinnhold
+
+buildtoolbar_popup_foundations			Utform fengselet ved å bygge/rive bygninger.
+buildtoolbar_popup_construction			Ulike typer gulv og vegger.
+buildtoolbar_popup_planning				Planlegg fengselet uten å bekymre deg for at arbeiderne driver og gjør ting.
+buildtoolbar_popup_designation			Angi spesifikke funksjoner for ulike deler av fengselet.
+buildtoolbar_popup_objects				Plasser nyttige ting rundt om i fengselet.
+buildtoolbar_popup_overlays				Kartlegg svakheter i fengselets planløsning.
+buildtoolbar_popup_utilities			Røropplegg og elektrisk anlegg.
+buildtoolbar_popup_staff				Utplasser den bemanningen som er nødvendig for drift av fengselet.
+buildtoolbar_popup_deployment			Utplasser ansatte til bestemte områder av fengselet.
+buildtoolbar_popup_logistics            Utplasser fanger til arbeidsoppgaver rundt om i fengselet. Du har også manuell styring over arbeidet i matsalen og på vaskeriet.
+buildtoolbar_popup_research				Lås opp nye muligheter for fengselet.
+buildtoolbar_popup_emergencies			Tilkall nødetatene hvis situasjonen utarter seg.
+buildtoolbar_popup_spawn				Spawn? Hva faen betyr det?
+buildtoolbar_popup_clone				Kopier og lim inn dine eksisterende konstruksjoner.
+buildtoolbar_popup_properties			Les om en masse dritt.
+buildtoolbar_popup_contraband           Viser smuglergodskilder og alt nylig oppdaget smuglergods i fengselet. Viser også informantene dine og informasjonen deres.
+buildtoolbar_popup_grading              Viser fengselets totale gradering innen fire kategorier: Straff, Reform, Sikkerhet og Helse. Viser også tilbakefallsprosenten til fengselet.
+buildtoolbar_popup_room_cell			Stedet hvor fangene bor.
+buildtoolbar_popup_room_holdingcell		Et sted hvor nye fanger plasseres inntil de får en egen celle.
+buildtoolbar_popup_room_solitary		Et sted hvor de verste av de verste kan isoleres.
+buildtoolbar_popup_room_canteen			Her kan fangene spise maten sin.
+buildtoolbar_popup_room_kitchen			Her lager kokkene mat til fangene.
+buildtoolbar_popup_room_shower			Brukes for å holde fangene skinnende rene og fri for lus.
+buildtoolbar_popup_room_yard			La fangene dine få se solen et par timer daglig – under streng bevoktning av snikskyttertårnene.
+buildtoolbar_popup_room_storage			Et sted hvor du oppbevarer materiell som fengselets ansatte trenger.
+buildtoolbar_popup_room_deliveries		Hit leveres varer, materiell og fanger.
+buildtoolbar_popup_room_garbage			Her ender alt av søppel.
+buildtoolbar_popup_room_execution		Stedet hvor dødsdømte fanger ender sitt liv.
+buildtoolbar_popup_room_workshop		Stedet hvor fangene dør av kjedsomhet mens de lager bilskilt.
+buildtoolbar_popup_room_security		Kontor for ledelsen.
+buildtoolbar_popup_room_office			Administrasjonens arbeidssted.
+buildtoolbar_popup_room_medicalward		Helsepersonellets arbeidssted.
+buildtoolbar_popup_room_morgue			Hit sender du døde fanger og ansatte.
+buildtoolbar_popup_room_commonroom		Her kan du la fangene slappe av og bedrive fritidsaktiviteter.
+buildtoolbar_popup_room_kennel          Her bor fengselets hunder.
+buildtoolbar_popup_room_chapel          Hva skjer når en byråkratisk komité kommer sammen for å finne en løsning på de innsattes religiøse behov? Jo, et "flertrosbønnerom". Vi kaller det bare kapellet.
+buildtoolbar_popup_room_paroleroom      Fangene kan få innvilget prøveløslatelse etter å ha sonet 50–70 % av dommen. Dette avgjøres i dette rommet – av fengselsdirektøren og sikkerhetssjefen.\n\nNb! Ekstra sikkerhet tilrådes. Det er ikke uvanlig at fangene blir ganske så sinte hvis de ikke får innvilget prøveløslatelse.
+buildtoolbar_popup_room_library         Fengselet får tilsendt esker med brukte bøker fra hele landet. Fangene må selv sortere dem og sette dem i hyllene.
+buildtoolbar_popup_room_intake          Det er hit fangene føres når de ankommer fengselet.
+
+buildtoolbar_popup_obj_bed				Ikke for myk, ikke for hard, bare akkurat passe. Eller, egentlig ganske hard og for liten.
+buildtoolbar_popup_obj_toilet			Det er visst en menneskerett å få gå hit.
+buildtoolbar_popup_obj_table			Utrolig praktisk sammen med en stol.
+buildtoolbar_popup_obj_chair			Utrolig praktisk sammen med et bord.
+buildtoolbar_popup_obj_bench			Til å sitte på.
+buildtoolbar_popup_obj_electricchair	Her leveres 2000 volts rettferdighet.
+buildtoolbar_popup_obj_jaildoor			Holder fangene der de skal være.
+buildtoolbar_popup_obj_jaildoorlarge	Holder mange av fangene der de skal være.
+buildtoolbar_popup_obj_door				En vanlig dør.
+buildtoolbar_popup_obj_solitarydoor		En ekstra robust dør som hindrer selv de sterkeste fangene i å rømme.
+buildtoolbar_popup_obj_staffdoor		En låst dør som kan åpnes av alle ansatte – ikke bare vakter.
+buildtoolbar_popup_obj_window			Gir et lite solgløtt.
+buildtoolbar_popup_obj_windowlarge		Gir et litt større solgløtt.
+buildtoolbar_popup_obj_tree				Vi tar vårt ansvar for å redusere den globale oppvarmingen.
+buildtoolbar_popup_obj_light			Sørger for at fangene er synlige til enhver tid.
+buildtoolbar_popup_obj_cooker			Gi fangene litt luksus i form av varm mat.
+buildtoolbar_popup_obj_fridge			Sørg for at matvarene ikke råtner.
+buildtoolbar_popup_obj_bin				Det er viktig å ha det ryddig for å stoppe smuglergods.
+buildtoolbar_popup_obj_sink				Alle ansatte må vaske hendene.
+buildtoolbar_popup_obj_servingtable		Server mat til fangene.
+buildtoolbar_popup_obj_showerhead		Et dusjhode – til å dusje med, vet du.
+buildtoolbar_popup_obj_bookshelf		En hylle til bøker.
+buildtoolbar_popup_obj_officedesk		Personalet må ofte skrive ned ting. Gi dem et skinnende skrivebord å gjøre det på.
+buildtoolbar_popup_obj_filingcabinet	Personalet må sørge for å holde orden i papirarbeidet.
+buildtoolbar_popup_obj_medicalbed		Her kan du oppbevare narkotika – frem til fangene stjeler den.
+buildtoolbar_popup_obj_morgueslab		Vis de døde litt respekt før de flyttes.
+buildtoolbar_popup_obj_drain			Til å fjerne vann fra gulvet.
+buildtoolbar_popup_obj_sprinkler		Automatisk slukking med vann hvis det skulle begynne å brenne.
+buildtoolbar_popup_obj_metaldetector	Med disse kan du finne smuglergods som fangene har på seg. Krever en vakt i nærheten.
+buildtoolbar_popup_obj_weightsbench		Her kan fangene trene, slik at de holder humøret oppe.
+buildtoolbar_popup_obj_phonebooth		Fangene vil ofte snakke med familien, og med disse praktiske telefonboksene kan de det.
+buildtoolbar_popup_obj_tv				Ro ned fangene med middelmådig fordummende underholdning.
+buildtoolbar_popup_obj_largetv			Nedsløving av hjernen for mange fanger samtidig.
+buildtoolbar_popup_obj_pooltable		Gjør fengselslivet litt mindre monotont med litt biljard.
+buildtoolbar_popup_obj_dismantleobject	Fjern noe fra fengselet.
+buildtoolbar_popup_obj_altar            Rett bønnene direkte til en høyere makt etter eget ønske.
+buildtoolbar_popup_obj_pews             Sitteplasser for de troende. Laget av det hardeste og mest upolstrede trevirke.
+buildtoolbar_popup_obj_prayermat        Beskytt fangene mot det skitne gulvet når de ber.
+
+buildtoolbar_popup_staff_workman		Bygger fengselet for deg, basert på plantegningene du gir dem.
+buildtoolbar_popup_staff_guard			Holder kontroll på fangene.
+buildtoolbar_popup_staff_armedguard     Fangene tenker seg om to ganger før de angriper denne haglebærende karen.\n\nMerk: Alle bevæpnede vakter på ha et eget skap i våpenrommet.
+buildtoolbar_popup_staff_doctor			Helbreder automatisk alle skadde i nærheten – enten det er vakter eller fanger.
+buildtoolbar_popup_staff_cook			Tilbereder og gir måltider til fangene.
+buildtoolbar_popup_staff_gardener		Holder fengselsområdet pent og ryddig.
+buildtoolbar_popup_staff_janitor		Sørger for at fengselslokalene er rene og ryddige. Kan også hjelpe til med klesvasken.
+buildtoolbar_popup_staff_warden			Fengselets sjefsvokter. Kreves før du kan forske og hyre inn avanserte ansatte.
+buildtoolbar_popup_staff_chief			En avansert ansatt som gir tilgang til forskningspunktene Utplassering, Overvåkning og Opprørsvakter.
+buildtoolbar_popup_staff_foreman		En avansert ansatt som gir deg tilgang til vaktmestere og gartnere.
+buildtoolbar_popup_staff_psychologist	En avansert ansatt som gir deg innsikt i fangenes tankegang.
+buildtoolbar_popup_staff_accountant		En avansert ansatt som gir deg tilgang til økonomiske rapporter.
+buildtoolbar_popup_staff_lawyer			En avansert ansatt som hjelper deg med å tøye reglene litt så du får større kontroll over fengselet.
+
+buildtoolbar_popup_uts_powerstation		Genererer strøm til fengselet.
+buildtoolbar_popup_uts_capacitor		Øker mengden strøm som genereres når den plasseres ved siden av en kraftstasjon.
+buildtoolbar_popup_uts_electricalcable	Sender strøm rundt om i fengselet.
+buildtoolbar_popup_uts_powerswitch		Styrer strømtilførselen.\n\nHøyreklikk for å slå på/av.
+buildtoolbar_popup_uts_waterpumpstation	Gir fengselet vann.
+buildtoolbar_popup_uts_pipevalve		Styrer vanntilførselen.
+buildtoolbar_popup_uts_pipelarge		Frakter store mengder vann rundt om i fengselet. Dessverre også stort nok til at noen kan krype igjennom den og ut i frihet.\n\nNB! Brukes vanligvis ikke til å koble til vasker, dusjer osv. fordi trykket da blir for høyt. Bruk små rør til dette.
+buildtoolbar_popup_uts_pipesmall		Brukes til å koble slikt som toaletter, dusjer, vasker osv. til det store rørnettet. Trykket i disse rørene er mye lavere, så det er grenser for hvor lange avstander du kan legge små rør før trykket blir for lavt.
+buildtoolbar_popup_uts_cctv				Hold et øye med fengselet uten å måtte ha vakter overalt.\n\nDu må koble en overvåkningsskjerm til dette kameraet for at det skal fungere.
+buildtoolbar_popup_uts_cctvmonitor		Skal bygges inn i et sikkerhetsrom og betjenes av en vakt. Viser bilder fra alle overvåkningskameraene rundt om i fengselet.\n\nBruk verktøyet "Koble til" for å koble denne skjermen til overvåkningskameraene.\n\nMerk: Du kan vise maks åtte kameraer av gangen. Kobler du til flere enn åtte kameraer, veksler skjermen mellom dem, slik at du bare får delvis dekning.
+buildtoolbar_popup_uts_DoorControlSystem  Skal bygges inn i et sikkerhetsrom og betjenes av en vakt. Kan brukes til å fjernåpne dører rundt om i fengselet.\n\nBruk verktøyet "Koble til" for å koble dette systemet til dørmotorene. Dørmotorene skal settes opp over dørene som du vil fjernstyre.\n\nMerk: Du kan ikke koble den til så mange dørmotorer du vil, og vakten som betjener systemet, kan ikke åpne flere enn to dører per sekund.
+buildtoolbar_popup_uts_phonemonitor     Skal bygges inn i et sikkerhetsrom og betjenes av en vakt. Gjør at du kan overvåke alle fangenes utgående telefonsamtaler, slik at du kan følge med på planlagte ulovligheter.\n\nBruk verktøyet "Koble til" for å koble dette systemet til telefonboksene.
+buildtoolbar_popup_uts_Servo            Plasser en dørmotor over dører du vil fjernstyre. Sørg for at motoren er rett over døren.\n\nNår den er montert, åpnes døren når motoren aktiveres – som regel via et dørkontrollsystem eller en tidsbryter.\n\nDørmotorene kan også sammenkobles slik at idet den første døren åpnes, utløses også de andre.
+buildtoolbar_popup_uts_LogicCircuit     Kun for avanserte arkitekter.\n\nEn enkel kretsboks som utfører logiske operasjoner basert på inndata.\n\nTilgjengelige operasjoner: And / Or / Not / Nand / Nor / Xor\n\nHøyreklikk på syklusen for å bla gjennom de logiske operasjonene.
+buildtoolbar_popup_uts_LogicBridge      Kun for avanserte arkitekter.\n\nBrokobler det innkommende signalet til strømledningen som er installert i den samme ruten. Denne strømledningen fører signalet videre til andre logiske kretser som er installert på samme strømledning.\n\nKan brukes for å "kringkaste" et signal rundt om i hele fengselet, noe som er nyttig for å distribuere f.eks. klokkesignaler.
+buildtoolbar_popup_uts_DoorTimer        Kan brukes til automatisk åpning av dører på bestemte tidspunkter.\n\nBruk verktøyet "Koble til" for å koble tidtakeren til dørmotorene.
+buildtoolbar_popup_uts_Wire             Til sammenkobling av fjernstyringssystemene.
+buildtoolbar_popup_uts_showallwires		Vis alle tilkoblede ledninger i fengselet.
+buildtoolbar_popup_uts_remotedoor       En robust metalldør som ikke kan åpnes med nøkkel (bare fjernåpnes). Brukes til å hindre masseflukt dersom en fange skulle få tak nøkler til fengselet.
+buildtoolbar_popup_uts_dismantleutility	Fjern et verktøy fra fengselet.
+buildtoolbar_popup_uts_pressurepad      Sender et signal til tilkoblede gjenstander når noe presser ned på puten.
+buildtoolbar_popup_uts_statuslight      Lyser enten rødt eller grønt, avhengig av hvilket signal som mottas.
+
+buildtoolbar_popup_autolights_name      Automatiske lamper
+buildtoolbar_popup_autolights           Plassering av automatiske lamper
+buildtoolbar_popup_autolights_desc      Hvis du velger dette, blir lamper automatisk plassert ut rundt om i bygningene når de er ferdige.
+
+buildtoolbar_contraband_source          Viser alle steder i fengselet som smuglergods kan bli stjålet fra.
+buildtoolbar_contraband_day             Viser alt smuglergods som er konfiskert de siste 24 timene.
+buildtoolbar_contraband_week            Viser alt smuglergods som er konfiskert de siste 7 dagene.
+buildtoolbar_contraband_alltime         Viser alt smuglergods som er konfiskert i fengselet gjennom tidene.
+buildtoolbar_contraband_informants      Viser informasjon som er samlet av informantene dine.
+
+buildtoolbar_deployment_Guards          Utplasser vakter i fengselets ulike sektorer.
+buildtoolbar_deployment_Patrols         Klikk og dra for å lage patruljeruter.\n\nFor å sette en vakt på en patruljerute klikker du bare på en eksisterende patruljerute.\nHøyreklikk og dra for å fjerne vaktpatruljer.
+buildtoolbar_deployment_DogPatrols      Klikk og dra for å lage patruljeruter.\n\nFor å sette en vakt på en patruljerute klikker du bare på en eksisterende patruljerute.\nHøyreklikk og dra for å fjerne vaktpatruljer.
+buildtoolbar_deployment_ArmedPatrols    Klikk og dra for å lage patruljeruter.\n\nFor å sette en vakt på en patruljerute klikker du bare på en eksisterende patruljerute.\nHøyreklikk og dra for å fjerne vaktpatruljer.
+buildtoolbar_deployment_SharedZone      Alle fanger vil ha adgang til denne sektoren.
+buildtoolbar_deployment_MinSecZone      Bare lavsikkerhetsfanger vil ha adgang til denne sektoren.
+buildtoolbar_deployment_MedSecZone      Bare fanger på middels sikkerhet vil ha adgang til denne sektoren.
+buildtoolbar_deployment_MaxSecZone      Bare høysikkerhetsfanger vil ha adgang til denne sektoren.
+buildtoolbar_deployment_ProtectedZone   Bare forvaringsfanger vil ha adgang til denne sektoren.
+buildtoolbar_deployment_SuperMaxZone    Bare fanger på superhøy sikkerhet vil ha adgang til denne sektoren.
+buildtoolbar_deployment_DeathRowZone    Bare dødsdømte fanger vil ha adgang til denne sektoren.
+buildtoolbar_deployment_StaffOnlyZone   Bare ansatte vil ha adgang til denne sektoren.
+buildtoolbar_deployment_UnlockedZone    Alle vil ha adgang til denne sektoren, og alle dører vil være ulåst.
+
+job_matsassigned                        Materialer utplassert
+job_matsavailable                       Materialer tilgjengelig
+job_awaitingmaterials                   Ventende materialer
+job_inprogress                          Jobb pågår
+job_blocked                             Jobb (blokkert)
+job_queued                              Jobb (i kø)
+
+job_failed_noroute                      Ingen rute
+job_failed_nomaterials                  Ingen materialer
+job_failed_toodangerous                 For farlig
+job_failed_materialsbeingcarried        Materialer underveis
+
+job_rightclicktocancel                  Høyreklikk for å avbryte
+job_refundamount                        Refusjonsbeløp: *X
+
+failuremessage_blocked                  Blokkert
+failuremessage_cantafford               Ikke nok midler
+failuremessage_cantaffordupkeep         Overskrider det daglige budsjettet
+failuremessage_maximumcountreached      Maks ansatte allerede
+failuremessage_maxstaff                 For mange ansatte
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Leveranser
+statustoolbar_finances                  Finanser
+statustoolbar_regime                    Regime
+statustoolbar_escapemap                 Sikkerhet
+statustoolbar_electricity               Strøm
+statustoolbar_stats                     Statistikk
+statustoolbar_danger                    Fare
+statustoolbar_jobs                      Jobber
+statustoolbar_gangs                     Gjenger
+statustoolbar_staff                     Personal
+statustoolbar_research                  Forskning
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Spriteredigerer
+spritebankeditor_create                 Opprett
+spritebankeditor_rotate                 Roter
+spritebankeditor_sort                   Sorter
+spritebankeditor_markermodetitle        Markørmodus
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Hovedmeny
+codex_campaign                          Kampanje
+codex_cutscenes                         Filmsekvenser
+codex_qualifications                    Kvalifikasjoner
+codex_load                              Last inn fengsel
+codex_loadcampaign                      Last inn kampanje
+codex_save                              Lagre fengsel
+codex_savecampaign                      Lagre kampanje
+codex_performance						Ytelsestest
+codex_developer_load                    (Utvikler) Last inn kart
+codex_developer_save                    (Utvikler) Lagre kart
+codex_developer_clearach                (Utvikler) Fjern prestasjoner
+codex_contacts                          Kontakter
+codex_materials                         Materialer
+codex_play                              Spill
+codex_polaroids                         Fotoer
+codex_introduction                      Innledning
+codex_restartintroduction               Start innledningen på nytt
+codex_restartchapter                    Start kapittelet på nytt
+codex_help                              Hjelp (wiki)
+codex_opensavefolder                    Åpne lagringsmappe
+codex_options							Alternativer
+codex_nitgs								Navn i spillet
+codex_workshop							Deling av fengsel (Steam Workshop)
+codex_checkforupdates                   Se etter oppdateringer
+codex_preorder                          Forhåndsbestill nå
+codex_termsconditions                   Vilkår og betingelser
+codex_twitter                           Twitter
+codex_extras                            Ekstra
+codex_unlocked                          Låst opp *X/*Y
+
+codex_new                               Lag nytt fengsel
+codex_new_worldsize                     Verdensstørrelse
+codex_new_small                         Liten
+codex_new_medium                        Middels
+codex_new_large                         Stor
+codex_new_selectwarden                  Velg fengselsdirektør
+
+codex_options_graphics					Grafikk
+codex_options_resolution				Oppløsning
+codex_options_resolutionauto			Auto
+codex_options_windowed					Vindusmodus
+codex_options_highdpi					Høy DPI
+codex_options_filtering					Filtrering
+codex_options_nofiltering				Av
+codex_options_multisampled				Multisampling
+codex_options_supersampled				Supersampling
+
+codex_options_audio						Lyd
+codex_options_volume					Hovedvolum
+codex_options_frequency					Frekvens
+codex_options_swapstero					Bytt stereo
+codex_options_dspenabled				Aktiver DSP
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
+
+codex_options_clocktype                 Klokketype
+codex_options_clocktype_analogue        Analog
+codex_options_clocktype_12h             12 timer
+codex_options_clocktype_24h             24 timer
+
+codex_options_gameplay					Spill
+codex_options_autosave					Tid for autolagring
+codex_options_renderrooms				Rutemønstret gulv
+codex_options_apply						Bruk
+
+codex_options_language					Språk
+
+codex_enabled                           Aktivert
+codex_disabled                          Deaktivert
+
+codex_option_intake                     Løpende inntak
+codex_tooltip_intake                    Hvis dette er aktivert, får du et tilfeldig antall nye fanger hver dag – i all evighet.\n\nEr det deaktivert, kan du selv velge når du skal ta imot fanger ved å gå til rapportene og klikke på "Inntak"-fanen.
+codex_option_fogofwar                   Krigståke
+codex_tooltip_fogofwar                  Du kommer til å miste oversikten over fengselsbygningene med mindre du har vakter som patruljerer eller overvåkningskameraer som dekker området.
+codex_option_lakes                      Generer innsjøer
+codex_tooltip_lakes                     Tilfeldige innsjøer vil blokkere deler av tomten. ADVARSEL: Eksperimentelt.
+codex_option_forests                    Generer skoger
+codex_tooltip_forests                   Små skogholt dukker opp på tomten.
+codex_option_buildings                  Generer bygninger
+codex_tooltip_buildings                 Tilfeldige forlatte bygninger vil bli stående på tomten. Disse kan du bruke som du vil.
+codex_option_failure                    Harde krav
+codex_tooltip_failure                   En ekstra utfordring! Du får sparken og spillet er over hvis det går for dårlig (opprør, konkurs, for mange dødsfall eller flukter osv.)
+codex_option_unlimitedfunds             Ubegrensede midler
+codex_tooltip_unlimitedfunds            Ren sandkassemodus! Du kan bruke så mye penger du vil, helt fra starten av, uten å måtte bekymre deg eller vente på mer.
+codex_option_gangs                      Gjenger
+codex_tooltip_gangs                     Noen fanger kommer som medlem av en gjeng og vil angripe rivaliserende gjengmedlemmer. En ekstra utfordring.
+codex_option_events                     Hendelser
+codex_tooltip_events                    Aktiverer diverse hendelser som holder deg på tærne. Dette gir deg litt ekstra utfordring og uforutsigbarhet.
+
+codex_option_funds                      Midler
+codex_tooltip_funds                     Du starter med denne saldoen på kontoen. Selg etablerte fengsler via Verdi-skjermen for å starte med mer midler.
+
+codex_transfer							Overfør
+codex_transferring						Overfører
+codex_in_prison							I fengsel
+codex_useravatar                        Dette er meg
+codex_tooltip_useravatar                Merk denne fangen som deg. Hvis du skulle havne i fengsel selv, er det denne fangen som vil representere deg.
+codex_tooltip_flagbio                   Rapporter denne biografien som upassende eller støtende.
+
+codex_workshop_current					Nåværende fengsel
+codex_workshop_publish					Publiser dette fengselet
+codex_workshop_update					Oppdater
+codex_workshop_play						Spill
+codex_workshop_downloading				Laster ned
+codex_workshop_download_failed			Nedlasting mislyktes
+codex_workshop_publishing				Publiserer ...
+codex_workshop_new						NY
+codex_workshop_title					Tittel
+codex_workshop_desc						Beskrivelse
+codex_workshop_view_in_workshop			Vis i Steam Workshop
+codex_workshop_heading_pubed			Dine publiserte fengsler
+codex_workshop_heading_subed			Fengsler du har lastet ned
+codex_workshop_published_by				Publisert av *P
+codex_workshop_published_by_you			Publisert av deg
+codex_workshop_published_good			Fengsel publisert
+codex_workshop_published_good_msg		Fengselet ditt er publisert.
+codex_workshop_published_bad			Kunne ikke publisere fengsel
+codex_workshop_published_bad_msg		Det skjedde en feil under publiseringen av fengselet ditt.
+codex_workshop_published_bad_msg_new	Kunne ikke publisere det nye fengselet ditt. Prøv på nytt.
+codex_workshop_busy						Steam driver allerede og tryller med et eller annet. Vent til det er ferdig, og prøv på nytt.
+codex_workshop_file_exists				Du har allerede publisert et fengsel med dette navnet. Velg et annet navn.
+codex_workshop_generic_fail				Kunne ikke publisere fengselet. Prøv på nytt.
+codex_workshop_download_bad				Kunne ikke laste ned fengselet.
+codex_workshop_pa_workshop				Åpne Prison Architect Workshop
+codex_workshop_agreement				Ved å sende inn dette samtykker du i [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]tjenestevilkårene for Workshop[/url].
+
+codex_options_timelapse					Tidsforløp
+codex_timelapse_record					Tidsforløp – opptak
+codex_timelapse_stop					Tidsforløp – stopp
+codex_timelapse_camera					Kameramodus
+codex_timelapse_resolution				Oppløsning
+codex_timelapse_customresw				Egendefinert oppl.bredde
+codex_timelapse_customresh				Egendefinert oppl.høyde
+codex_timelapse_resolution				Oppløsning
+codex_timelapse_fps						Avspillingshastighet
+codex_timelapse_interval				Opptaksintervall
+codex_timelapse_quality					Kvalitet
+codex_timelapse_unsupported				Denne funksjonen er ikke tilgjengelig på din maskinvare.
+codex_timelapse_savesettings			Lagre innstillinger
+
+codex_timelapse_cam_zoom                Zoom kamera
+codex_timelapse_cam_fitmap              Juster kart
+codex_timelapse_cam_fitheight           Juster karthøyde
+codex_timelapse_cam_fitwidth            Juster kartbredde
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            Høy
+codex_timelapse_quality_med             Middels
+codex_timelapse_quality_low             Lav
+codex_timelapse_interval_value          *X spillminutter
+
+codex_performance_running				Ytelsestest pågår
+codex_performance_time					Tid igjen: *Ts
+codex_performance_current				Nåværende bildetid: *Tms
+codex_performance_min					Minste bildetid: *Tms
+codex_performance_avg					Gjennomsnittlig bildetid: *Tms
+codex_performance_max					Maks bildetid: *Tms
+codex_performance_numframes				Antall bilder: *T
+
+codex_last_modified						Sist endret: *T
+codex_sortbydesc						Sorter etter dato
+codex_sortname							Navn
+codex_sortdate							Dato
+codex_apply								Bruk
+codex_select                            Velg
+
+codex_mods								Mods
+codex_mod_activetitle					Aktive mods
+codex_mod_inactivetitle					Tilgjengelige mods
+codex_mod_deactivate					Deaktiver alle mods
+codex_mod_wiki							Finn flere mods (Wiki)
+codex_mod_openmodsfolder				Åpne modsmappe
+codex_mod_moresteammods					Finn flere mods (Steam Workshop)
+codex_mod_findsteamtranslations         Finn flere oversettelser (Steam Workshop)
+codex_authortitle                       Forfatter
+codex_versiontitle                      Versjon
+codex_datetitle                         Dato
+codex_urltitle                          URL
+codex_typetitle							Type
+codex_mod_graphicsandsound				Grafikk og lyd
+codex_mod_translation					Oversettelse
+codex_mod_scenario						Scenario
+codex_mod_content						Innhold
+codex_mod_load_scenario					Spill scenario
+codex_publishmod						Publiser denne moden
+
+codex_mod_update						Oppdater denne moden
+codex_mod_published_good				Mod publisert
+codex_mod_published_good_msg			Din mod er nå publisert.
+codex_mod_published_bad					Kunne ikke publisere mod
+codex_mod_published_bad_msg				Det oppsto en feil under publisering av moden din.
+codex_mod_modsupdated					Moder oppdatert
+codex_mod_modsupdated_msg				Noen av dine aktive moder er oppdatert. Klikk på OK for å ta i bruk endringene. Spillet blir autolagret.
+codex_mod_translationcaption            Er dette en oversettelse til et annet språk?
+
+codex_language                          Språk
+codex_language_englishdefault           Engelsk (standard)
+codex_language_default                  Standardspråk
+codex_language_download                 Last ned
+codex_language_failed_download          Kunne ikke laste ned oversettelsen
+codex_language_failed_download_msg      Det oppsto en feil under nedlasting av den valgte oversettelsen.
+codex_language_searching_workshop       Søker i Steam Workshop
+codex_language_community                Disse oversettelsespakkene blir laget og oppdatert av samfunnet. Takk for hjelpen!
+
+codex_save_confirm                      Er du sikker på at du vil overskrive *X med dette fengselet?
+codex_researtchapter_confirm            Er du sikker på at du vil starte kapittelet på nytt? Ulagret fremdrift vil gå tapt.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Vil du beholde disse grafikkinnstillingene? Endringene tilbakestilles om
+graphicschange_time						sekunder.
+graphicschange_accept					Aksepter
+graphicschange_revert					Tilbakestill
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    Feilsøkingsprogram for skript (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   Modforskjeller funnet
+modnotification_info                    Disse modene ble brukt da det aktive fengselet ble lagret. Vi anbefaler at de lastes ned og aktiveres før du spiller med dette fengselet.
+modnotification_playnow                 Spill nå
+modnotification_active                  Aktiv
+modnotification_inactive                Inaktiv
+modnotification_new                     Ny
+modnotification_unknown                 Ukjent
+modnotification_popup_title             Modforskjell
+modnotification_popup_active            Denne moden er aktivert. Klikk for å deaktivere.
+modnotification_popup_inactive          Denne moden er deaktivert. Klikk for å aktivere.
+modnotification_popup_new_url           Dette er en ny mod. Klikk for å åpne lenken i nettleseren.
+modnotification_popup_new_steam         Dette er en ny Steam-mod. Klikk for å laste ned moden nå.
+modnotification_popup_unknown           Vi kunne ikke fastslå hvor denne moden kom fra. Du må finne og installere den selv.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Stopp og søk
+biography_selected                      VALGT
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               Fange #*X
+biography_prisoner_age                  Alder: *S
+biography_prisoner_traits               Egenskaper:
+biography_prisoner_convicted            Dømt for *C (erklærte seg *P)
+biography_prisoner_sentenced            Dømt til *X år i fengsel
+biography_parole_now                    Kan søke om prøveløslatelse nå
+biography_parole_later                  Kan søke om prøveløslatelse etter *X år
+biography_prisoner_served               Sonet *X år
+biography_prisoner_priors               Tidligere dommer:
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Alder:
+rapsheet_category						Kategori:
+rapsheet_traits							Kjente egenskaper:
+rapsheet_conviction_text				*C - *Y år
+rapsheet_found_text						(Erklæring: *P)
+rapsheet_convictions					Domfellinger
+rapsheet_misconductstitle				Nylige forseelser
+rapsheet_biography                      Biografi
+rapsheet_guilty							Skyldig
+rapsheet_notguilty						Ikke skyldig
+rapsheet_served							Sonet
+rapsheet_served_time					Sonet *Y år
+rapsheet_time							*Y år
+rapsheet_bio							Dømt til *Y år for *A.
+rapsheet_bio_med						Dømt til *Y år for en rekke lovbrudd, blant annet *A og *B.
+rapsheet_bio_long						Dømt til *Y år for en rekke lovbrudd, blant annet *A, *B og *C.
+rapsheet_category_minsec				Lavsikkerhet
+rapsheet_category_normal				Middels sikkerhet
+rapsheet_category_maxsec				Høysikkerhet
+rapsheet_category_protected             Forvaring
+rapsheet_category_supermax              Superhøy
+rapsheet_category_deathrow              Dødsdømte
+rapsheet_tab_biography                  Biografi
+rapsheet_tab_experience                 Erfaring
+rapsheet_tab_grading                    Gradering
+rapsheet_tab_character                  Karakter
+rapsheet_punish                         Straff
+rapsheet_recruit                        Rekrutter informant
+
+rapsheet_timeinside                     *X dager i fengselet ditt
+rapsheet_timeinside_hours               *X dager i fengselet ditt
+rapsheet_mood                           Humør
+rapsheet_activity                       Aktivitet
+rapsheet_condition                      Tilstand
+rapsheet_program                        Program
+rapsheet_passchance                     Suksessjanse
+rapsheet_reformhistory                  Historikk for reformprogram
+
+rapsheet_reform_success                 Suksess
+rapsheet_reform_successcount            Fullført *X ganger
+rapsheet_reform_failed                  Mislykket
+rapsheet_reform_failcount               Mislykket *X ganger
+
+rapsheet_grading_punishment             Straff
+rapsheet_grading_health                 Helse
+rapsheet_grading_security               Sikkerhet
+rapsheet_grading_reform                 Reform
+rapsheet_grading_points                 *X poeng:
+rapsheet_grading_penalties              *X sanksjoner:
+
+rapsheet_scheduleexecution              Tidfest henrettelse
+
+
+punish_lockdown_6                       Avsperring (6 t)
+punish_lockdown_12                      Avsperring (12 t)
+punish_lockdown_24                      Avsperring (24 t)
+punish_solitary_6                       Isolat (6 t)
+punish_solitary_12                      Isolat (12 t)
+punish_solitary_24                      Isolat (24 t)
+punish_solitary_perm                    Isolat (permanent)
+punish_lockdown_perm                    Avsperring (permanent)
+punish_solitary                         Isolat
+punish_lockdown                         Avsperring
+punish_none                             Ingen
+punish_timer                            *Xh *Ym
+punish_timer_minutes                    *Xm
+punish_active                           AKTIV
+punish_permanent                        (Permanent)
+punish_end                              Avslutt straff
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  Ingen
+misconduct_reporttype_complaint             Klage
+misconduct_reporttype_destruction           Hærverk
+misconduct_reporttype_escapeattempt         Fluktforsøk
+misconduct_reporttype_injuredprisoner       Angrep medfange
+misconduct_reporttype_injuredstaff          Angrep ansatt
+misconduct_reporttype_seriousinjury         Alvorlig legemsbeskadigelse
+misconduct_reporttype_murder                Mord
+misconduct_reporttype_contrabandweapons     Funnet våpen
+misconduct_reporttype_contrabandtools       Funnet verktøy
+misconduct_reporttype_contrabandnarcotics   Funnet rusmidler
+misconduct_reporttype_contrabandluxuries    Funnet luksusartikler
+misconduct_reporttype_intoxicated           Rus
+misconduct_title                             =[Forseelse]=
+
+misconduct_report_addiction                 Avhengig av *X
+misconduct_report_recoving                  Nykter *X-avhengig
+misconduct_report_alcoholic                 Alkoholiker
+misconduct_report_recovingalcoholic         Tørrlagt alkoholiker
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       Du trenger en *X for å skrive denne rapporten.
+research_requireunlock                  Du må forske på *X for å låse opp denne rapporten.
+research_approved                       GODKJENT
+research_cost                           Kostnad: *X
+research_costperitem                     + *X per ting.
+research_timetounlock                   Tid til opplåsing: *X timer
+research_movementpenalty                Bevegelsesreduksjon: *X %
+research_protectionbonus                Beskyttelse: *X %
+research_tap_to_authorise               TRYKK FOR Å TILLATE
+
+research_none                           Ingen
+research_warden                         Fengselsdirektør
+research_maintainance                   Vedlikehold
+research_security                       Sikkerhet
+research_legal                          Juridisk
+research_mentalhealth                   Psykologi
+research_finance                        Økonomi
+research_landexpansion                  Tomteutvidelse
+research_cctv                           Overvåkning
+research_riotguards                     Opprørsvakter
+research_health                         Helse
+research_cleaning                       Vaktmester
+research_groundskeeping                 Gartner
+research_clone                          Klone
+research_deployment                     Utplassering
+research_patrols                        Patruljer
+research_dogs                           Hunder
+research_prisonlabour                   Straffearbeid
+research_education                      Utdanning
+research_contraband                     Intelligens
+research_policy                         Fengselsreglement
+research_armoury                        Våpenrom
+research_bodyarmour                     Skuddsikre vester
+research_tazers                         Elektrosjokkvåpen
+research_tazersforeveryone              Fulldekning av elektrosjokkvåpen
+research_bankloans                      Banklån
+research_lowertaxes1                    Skattefradrag
+research_lowertaxes2                    Skatteparadis
+research_remoteaccess                   Fjerntilgang
+research_extragrant                     Ekstra tilskudd
+research_advancedmanagement             Mikrostyring
+research_deathrow                       Dødsdømte
+research_permanentpunishment            Permanente straffer
+research_removemincellsize              Små celler
+research_reduceexecutionliability       Redusert henrettelsesansvar
+research_legalprep                      Juridiske forberedelser
+research_legaldefense                   Juridisk forsvar
+
+researchtooltip_warden                  Låser opp fengselsdirektøren og hele Byråkrati-systemet. Du hyrer ham inn via verktøylinjen "Ansatte".\n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_security                Låser opp sikkerhetssjefen, som kan hyres inn via verktøylinjen "Ansatte". Sikkerhetssjefen gir deg tilgang til utplasseringsskjermen, og han gir deg også en sanntidsrapport av fengselets farenivå, som ofte gir en pekepinn på fremtidige problemer.\n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_maintenance             Låser opp oppsynsmannen. \n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_legal                   Låser opp advokaten, som kan hyres inn via verktøylinjen "Ansatte". Han gir tilgang til en rekke typer forskning som kan gi deg større kontroll over fengselet.\n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_deployment              Muliggjør permanent stasjonering av vakter rundt om i fengselets sektorer.
+researchtooltip_patrols                 Lar deg angi patruljer rundt i viktige områder av fengselet (f.eks. langs perimeteren) samt sette vakter på disse patruljene.
+researchtooltip_dogs                    Låser opp hundeføreren og vakthunden. De er perfekt for å snuse opp smuglergods i fengselet og oppdage rømningstunneler.\n\nHunder er også meget raske, noe som gjør at de enkelt får tak i rømlinger.
+researchtooltip_cctv                    Låser opp overvåkningskameraer og -skjermer. Disse kan du bruke til å holde øye med ubemannede deler av fengselet.\n\nLåser også opp telefonavlyttingssystemet, som gjør at du kan avlytte fangenes telefonsamtaler og skaffe viktig etterretning.
+researchtooltip_remoteaccess            Låser opp high-tech-utstyr til fjernstyring og automatisering av dører. Dører kan åpnes via et dørkontrollsystem (som betjenes av en vakt) eller med en tidsbryter som stilles til bestemte tidspunkter på dagen.
+researchtooltip_riotguards              (FOR ØYEBLIKKET UTEN FUNKSJON)\nLåser opp opprørsvaktene. De er bedre pansret og rustet for voldelige situasjoner.
+researchtooltip_maintainance            Låser opp oppsynsmannen. Han gir tilgang til en rekke typer forskning slik som straffearbeid eller ekstra ansatte som gartneren.\n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_clone                   Låser opp kloneverktøyet på hovedverktøylinjen. Med det kan du raskt kopiere ulike områder av fengselet, som f.eks. celler. Velg sonen som skal kopieres, ved å klikke og dra med høyre museknapp, og plasser kopien med venstre museknapp.
+researchtooltip_groundskeeping          Låser opp gartneren. Han sørger for at uteområdene er ryddige.
+researchtooltip_cleaning                Låser opp vaktmesteren. Han sørger for at alle fengselslokalene er rene, og kan også hjelpe til med klesvasken.
+researchtooltip_health                  Låser opp legen, sykestua og likhuset. Skadde fanger og ansatte blir ført til sykestua hvor legen lapper dem sammen.
+researchtooltip_MentalHealth            Låser opp psykologen, som gir deg verdifull innsikt om fangenes mentale tilstand til enhver tid.\n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_finance                 Låser opp regnskapsføreren, som gir deg tilgang til økonomiske rapporter.\n\nMed en regnskapsfører kan du også bruke mer per dag enn inntektene normalt skulle tilsi, så fremt du har disse pengene på bok.\n\nSom alle i administrasjonen trenger han et kontor.
+researchtooltip_landexpansion           Gjør det mulig å kjøpe nabotomter og dermed utvide størrelsen på fengselet.
+researchtooltip_prisonlabour            Gjør det mulig å sette fangene i arbeid rundt om i fengselet (matlaging, renhold osv.), slik at du kan spare penger på lønnskostnader samtidig som at du kan gi fangene ny kompetanse.\n\nLåser også opp verkstedet og vaskeriet.
+researchtooltip_education               Gjør det mulig å lage reformprogrammer for fangene, med eksterne lærere.
+researchtooltip_contraband              Opplæring av vaktene slik at de blir flinkere til å spore opp og finne smuglergods. Låser opp tilbud-og-etterspørsmål-rapporten for smuglergods, smuglergodsoverlegget (med alle mulige tyveristeder i fengselet), og sporer alt funnet smuglergods tilbake dit det ble smuglet eller stjålet.\n\nLåser også opp muligheten til å rekruttere fanger som informanter.\n\nLåser også opp gjengetterretningsvisning.
+researchtooltip_policy                  Låser opp reglementsrapporten, hvor du kan øke eller senke straffene for alle typer forseelser, samt automatisk ransaking av både overtrederen og cellen hans.\n\nGjør det også mulig å styre ernæringen i fengselet ved å endre mengden og typen mat som fangene får servert.
+researchtooltip_armoury                 Låser opp våpenrommet og lar deg utplassere bevæpnede vakter rundt om i fengselet.
+researchtooltip_bodyarmour              Utruster alle vakter, bevæpnede vakter og hundeførere med skuddsikre vester. Dette kan redusere skadene de får i kamp, men til gjengjeld vil vaktene bevege seg saktere.\n\nVaktene må innom våpenrommet for å hente dette utstyret, og du må betale for alle skuddsikre vester som kjøpes på denne måten.
+researchtooltip_tazers                  Gir bevæpnede vakter tilgang til elektrosjokkvåpen – et effektivt skytevåpen som svimeslår de fleste umiddelbart. Elektrosjokkvåpen kan bare skytes én gang, hvorpå de må lades opp i en hel time.\n\nDe bevæpnede vaktene må innom våpenrommet for å hente dette utstyret, og du må betale for alle elektrosjokkvåpen som kjøpes på denne måten.
+researchtooltip_tazersforeveryone       Utvider elektrosjokkvåpenprogrammet slik at også ordinære vakter kan bære elektrosjokkvåpen.\n\nDe må innom våpenrommet for å hente dette utstyret, og du må betale for alle elektrosjokkvåpen som kjøpes på denne måten.
+researchtooltip_bankloans               Gjør at du kan låne store beløp fra banken, mot en daglig rente. Når du tilbakebetaler lånene, forbedrer du kredittvurderingen din slik at du kan låne enda mer senere.
+researchtooltip_lowertaxes1             Utnytter skattesystemet slik at den effektive selskapsskatten reduseres til bare 15 %.\n\nPå dette kan sparer du $1.500 i skatt per $10.000 du tjener.
+researchtooltip_lowertaxes2             Regnskapsføreren tøyer reglene til bristepunktet og flytter alle fengselets offisielle kontoer og forretninger til et utenlandsk skatteparadis. Dette får den effektive selskapsskatten ned i ca. 1 %.\n\nPå dette kan sparer du $3.000 i skatt per $10.000 du tjener.
+researchtooltip_extragrant              Gjør at du kan ta imot tre i stedet for to tilskudd samtidig.
+researchtooltip_advancedmanagement      Gir deg verktøy til å mikrostyre visse aspekter av fengselet etter dine behov.\n\nLåser opp matlogistikken, slik at du kan spesifisere hvilke kjøkken som lager mat til hvilke matsaler, samt hvilke matsaler de innsatte spiser i. På samme måte lar klesvasklogistikken deg styre hvilke celleblokker som betjenes av hvilke vaskerier.\n\nLåser også opp utplasseringsplanleggeren, som gjør det mulig å spesifisere utplasseringen av vakter på ulike tidspunkter på dagen.\n\nLåser opp reformprogramplanleggeren, hvor du kan overstyre timeplanen for de ulike programmene.
+researchtooltip_permanentpunishment     Iblant holder det ikke med vanlig fengselsstraff. Advokaten din kan fylle ut skjemaer som gjør at du kan sperre fanger inne på cellen på permanent basis.
+researchtooltip_removemincellsize       I henhold til lovverket må cellene i fengselet være av en viss størrelse. Men tenk hvor mange flere celler du kunne fått plass til hvis denne loven ikke var der! Fjerner minstekravet til størrelsen på standardceller.
+researchtooltip_reduceexecutionliability Advokatene dine driver lobbyvirksomhet for å redusere kravene for gjennomføring av dødsstraff. I praksis betyr det en reduksjon i antallet ganger en dødsdømt fange kan anke dommen før du kan tidfeste dødsstraffen.
+researchtooltip_legalprep               Alle fengsler støter på problemer iblant, og noen av disse problemene fører til store juridiske konsekvenser. Advokaten kan jobbe for å dempe slike situasjoner, men dette må gjøres på forhånd.
+researchtooltip_legaldefense            Du er i en knipe – noe gikk forferdelig galt, og du har fått en reprimande. Hvis det ser ut til at du ikke klarer å håndtere situasjonen, kan advokaten hjelpe deg. Med denne forskningen kan du fjerne advarsler som ellers kunne ført til at du fikk sparken.
+
+research_legaldefense_adviser1          Det ser ut til at advokaten din har sendt inn noen dokumenter som beskytter deg mot konsekvensene av dette rotet. Det betyr vel at jeg ikke kan sparke deg – denne gangen.
+research_legaldefense_adviser2          Få orden på fengselet ditt, og det litt brennkvikt. Det trikset der kommer ikke til å fungere igjen, og det vil ikke kunne beskytte deg for alltid.
+
+research_missingadministrator           KREVES:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                KREVES:
+roomrequirement_recommended             Anbefalt:
+roomrequirement_minimumsize             Maksstørrelse *W x *H
+roomrequirement_minimumsize_short	Størrelse *W x *H
+roomrequirement_indoor                  Innendørs
+roomrequirement_outdoor                 Utendørs
+roomrequirement_solidground             Fast grunn
+roomrequirement_secure                  Sikkert (bak minst én dør)
+roomrequirement_secure_short		Sikkert
+roomrequirement_enclosed                Innkapslet (omgitt av vegger og dører)
+roomrequirement_enclosed_short		Innkapslet
+requirement_entrance                    Krever inngang
+roomrequirement_title                    =[Romkrav]=
+roomrequirement_passed                  [OPPFYLT]
+roomrequirement_failed                  [IKKE OPPFYLT]
+roomrequirement_adjacentobject          Ved siden av rom:
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            OPPLÅST
+
+unlock_special_electricity              Elektriske anlegg
+unlock_special_food                     Matlaging
+unlock_special_officersafety            Sikkerhet for ledelsen
+unlock_special_misbehavior              Dårlig oppførsel
+unlock_special_accounting               Regnskap
+unlock_special_gangs                    Gjenger
+
+unlock_electricity_caption              Gjør det mulig å bygge kraftstasjoner og strømledninger som gir strøm til alt utstyr som trenger det.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Klikk for å fortsette ...
+incoming_call                           Innkommende samtale ...
+
+adviser_name_unknown                    Ukjent
+adviser_name_ceo                        Adm.dir.
+adviser_name_warden                     Fengselsdirektøren
+adviser_name_governer                   Guvernøren
+adviser_name_chief                      Sikkerhetssjefen
+adviser_name_doctor                     Doktoren
+adviser_name_kingpin                    Bossen
+adviser_name_edwardshooter              Edward
+adviser_name_edwardsinner               Edward
+adviser_name_edwardinmate               Edward
+adviser_name_edwardswife                Edwards kone Susan
+adviser_name_priest                     Presten
+adviser_name_newsreader                 CDNC News
+adviser_name_mayor 						Borgermester Calvin Heller
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Personal
+report_prisoners                        Fanger
+report_jobs                             Jobber
+report_needs                            Behov
+report_threats                          Trusler
+report_regime                           Regime
+report_policy                           Reglement
+report_grants                           Tilskudd
+report_finance                          Økonomi
+report_valuation                        Verdi
+report_contraband                       Smuglergods
+report_programs                         Programmer
+report_schedule                         Planlegger
+report_intake                           Inntak
+
+report_grants_bankloan                  Banklån
+report_grants_bankloan_text             Du kan låne store beløp fra banken, mot en daglig rente som trekkes fra kontantstrømmen din.\n\nVed å betale avdragene forbedrer du kredittvurderingen din slik at du kan låne enda mer senere. Klarer du derimot ikke å betale avdragene, blir kredittvurderingen svekket, og banken vil nekte å låne deg mer når du trenger det.\n\nMerk: Lånet blir aldri tilbakebetalt ved bare å betale rentene.
+report_grants_max1                      Du kan bare ta imot ett tilskudd av gangen.\nBruk regnskapsføreren for å øke denne grensen.
+report_grants_max2                      Du kan ikke ta imot mer enn to tilskudd av gangen.\nBruk regnskapsføreren for å øke denne grensen.
+report_grants_max3                      Du kan ikke ta imot mer enn tre tilskudd av gangen.
+report_grants_bankloan_amount           Banklån: *X
+report_grants_bankloan_interest         Rente: *X per dag
+report_grants_bankloan_max              Maks lån: *X
+report_grants_creditrating              Kredittvurdering: *X
+report_grants_inprogress_tt             (AKTIVT)
+report_grants_completed_tt              (FULLFØRT)
+report_grants_locked_tt                 (LÅST)
+report_grants_advancepayment            *X forskuddsbetaling
+report_grants_completionbonus           *X fullføringsbonus
+report_grants_objectives                [Mål]
+report_grants_prereqs                   [Forutsetninger]
+report_grants_completed                 FULLFØRT
+report_grants_locked                    Låst
+report_grants_inprogress                Aktivt
+report_grants_hidden                    (*X fler skjulte)
+report_grants_taptoaccept               TRYKK FOR Å AKSEPTERE
+report_grants_cancelfee                 Avbrytelseskostnad: *X
+
+report_staff_title                      Ansatte totalt: *X
+report_prisoners_title                  Fanger totalt: *X
+report_staff_group_builders             Arbeidere
+report_staff_group_guards               Vakter
+report_staff_group_staff                Personal
+report_staff_group_administrators       Administratorer
+report_staff_group_prisoners            Fanger
+report_staff_group_prisoners_high       Høy risiko
+report_staff_group_prisoners_normal     Normal risiko
+report_staff_group_prisoners_low        Lav risiko
+report_staff_group_prisoners_protected  Forvaring
+report_staff_group_prisoners_supermax   Superhøy
+report_staff_group_prisoners_deathrow   Dødsdømte
+
+report_staff_fire                       SPARK
+
+report_intake_title                     Inntak
+report_intake_catheader_cat             Kategori
+report_intake_catheader_pay             Betaling
+report_intake_catheader_available       Tilgjengelig
+report_intake_catheader_amount          Forhold
+report_intake_next_header               Neste inntak: *X
+report_intake_cat_minsec                Lavsikkerhet
+report_intake_cat_normal                Middels sikkerhet
+report_intake_cat_maxsec                Høysikkerhet
+report_intake_cat_deathrow              Dødsdømte
+report_intake_slider_minsec             Juster inntaksforholdet for lavsikkerhetsfanger
+report_intake_slider_normal             Juster inntaksforholdet for fanger på middels sikkerhet
+report_intake_slider_maxsec             Juster inntaksforholdet for høysikkerhetsfanger
+report_intake_slider_deathrow           Juster inntaksforholdet for dødsdømte
+report_intake_closed                    STENGT
+report_intake_locked                    LÅST
+report_intakemaxperdaydesc              Daglig inntak
+report_intakemaxperdaydesc_tooltip      Antall fanger du ønsker i neste inntak
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              Ingen
+report_intakemaxperdayall               Alle
+reports_intakedelivernow                Lever nå
+report_intakepayment                    Betaling
+report_intakeall                        ALLE
+report_intake_list_tooltip_title        Inntakskategorier
+report_intake_list_tooltip              En liste over alle kategorier av fanger du kan få til fengselet.\n\nInntaksstørrelsen viser det totale antallet fanger som kan leveres i hver kategori. Dette tallet vokser over tid avhengig av forholdet mellom glidebryterne.\n\nDu kan justere disse for å endre forholdet mellom fangekategoriene du vil motta i neste inntak.
+report_intake_list_tooltip_dr           \n\nFør du kan ta imot dødsdømte fanger, må du ha en spesialcelle til dem. Inntak av dødsdømte går også mye saktere enn et vanlig inntak, og det er ikke alltid du får inn nye. Disse fangene er sjelden vare.
+report_intake_buttons_tooltip_title     Neste inntak
+report_intake_buttons_tooltip           Her kan du øke eller senke antallet fanger du ønsker å motta i neste inntak.\n\nVelger du "Ingen" lukker du fengselet for nye fanger, mens hvis du velger "Alle", tar du imot det maksimale antallet tilgjengelige fanger.\n\nAntallet fanger fra hver kategori justeres med glidebryterne over.
+report_intake_overview_tooltip_title    Inntaksoversikt
+report_intake_overview_tooltip          Her ser du den neste fangeleveransen og tilskuddet du får for dem. Antallet og kategorien av fanger kan du justere med glidebryterne og knappene over. Tilskuddet er basert på antallet fanger i hver kategori.
+
+valuation_categoryprison                Fengselets verdi
+valuation_construction                  Murstein og mørtel
+valuation_objects                       Inventar
+valuation_stock                         Lager og materiell
+valuation_staff                         Personal
+valuation_startupgrant                  Oppstartstilskudd
+valuation_capacity                      Fengselets kapasitet
+valuation_cash                          Kontanter
+valuation_debt                          Banklån
+valuation_categoryperformance           Sikkerhet og vakthold
+valuation_bonustimewithoutincident      [Bonus] Tid uten hendelser
+valuation_finedeath                     [Straff] Dødsfall siste 24 t
+valuation_fineescape                    [Straff] Flukter siste 24 t
+valuation_total                         TOTALT
+valuation_sell                          SELG
+valuation_sellprison                    SELG FENGSEL
+valuation_sell_tooltip                  Hvis du selger fengselet, kan du bruke overskuddet fra det til å bygge et nytt fengsel med mye høyere oppstartssaldo.\n\nDu vil kunne fortsette å drive dette fengselet, men du kan bare selge fengselet én gang. Alt overskudd fra salget blir overført til det nye anlegget.
+valuation_sold                          Dette fengselet ble solgt for: *X
+valuation_donotown                      Du kan ikke selge dette fengselet, for du eier det ikke.
+valuation_sellsome                      Selg aksjer
+valuation_buysome                       Kjøp aksjer
+valuation_shares                        Kjøp og selg aksjer
+valuation_shares_tooltip                Du kan selge opptil 50 % av fengselet som aksjer til investorer. Du får da pengene inn som kontanter umiddelbart. Til gjengjeld får aksjonærene sin andel av et eventuelt salg av fengselet.\n\nHvis du f.eks. selger 30 % av aksjene, vil du bare få 70 % av salgssummen hvis du selger fengselet. Du kan når som helst kjøpe tilbake aksjer du har solgt, men vær klar over at prisen da kan ha økt.
+valuation_ownership                     Du eier *X % av fengselet ditt
+valuation_saleprice                     Salgspris: *X
+valuation_title                          =[VERDI]=
+valuation_totalprisonvalue              Fengselets totale verdi: *X
+valuation_subcashreserves               Minus kontantreserve: *X
+valuation_tenpercentprice               Pris for 10 % : *X
+valuation_profit                        Ditt overskudd: *X
+valuation_tap_to_authorise              TRYKK FOR Å TILLATE
+
+salecondition_title                     SALGSKRAV
+salecondition_cannotsell                Du kan ikke selge fengselet eller handle med aksjer før betingelsene under er innfridd.
+salecondition_minimumvalue              Minimumsverdi på $50.000
+salecondition_cashflow                  Positiv kontantstrøm
+salecondition_accountant                Regnskapsfører ansatt
+salecondition_minprisoners              Minst 20 fanger
+salecondition_recentdeaths              Ingen dødsfall i det siste
+salecondition_recentescapes             Ingen flukter i det siste
+salecondition_passed                    [OPPFYLT]
+salecondition_failed                    [IKKE OPPFYLT]
+
+policy_title                            HENDELSE
+policy_search                            - SØK -
+policy_prisoner                         HAM
+policy_cell                             CELLE
+policy_punishment                       STRAFF
+policy_quantity                         TID
+policy_punishmenttime                   *X t
+policy_mealcost                         $*X / dag
+policy_totalmealcost                    (TOTALT: $*X / dag)
+
+job_construct                           Bygg *X
+job_installobject                       Installer *X
+job_installobjectinroom                 Installer *X i *Y
+job_moveobject                          Flytt *X
+job_moveobjecttoroom                    Flytt *X til *Y
+job_loadobjectinto                      Last inn *X i *Y
+job_storeobject                         Lagre *X i *Y
+job_dismantleobject                     Demonter *X
+job_dumpobject                          Dump *X
+job_repairobject                        Reparer *X
+job_operateequipment                    Bruk *X
+job_escortprisoner                      Eskorter fange til *X
+job_punishprisoner                      Gi fange straff
+job_searchobject                        Gjennomsøk *X
+job_searchentity                        Visiter fange
+job_searchingentity						Visiterer fange
+job_searchcell                          Gjennomsøk celle
+job_searchcellblock                     Gjennomsøk celleblokk
+job_improvecellindoor                   Vask innendørs
+job_improvecelloutdoor                  Fiks opp uteområde
+job_opendoor                            Åpne låst dør
+job_giveuniform                         Gi fange uniform
+job_failurecount                        Mislykket *X ganger
+job_feedprisoner                        Gi fange mat
+job_healprisoner                        Helbred fange
+job_delivermail                         Lever ut post
+       
+finances_title                          Finanser
+finances_income                         Inntekter
+finances_expenses                       Utgifter
+finances_total                          Totalt
+finances_profit                         Netto
+finances_timewithoutincident            (*X dager)
+finances_dailyincome                    *X / dag
+
+finances_category_federalgrant          Føderalt tilskudd
+finances_category_minsecprisoners       Tilskudd for lavsikkerhetsfanger
+finances_category_medsecprisoners       Tilskudd for fanger på middels sikkerhet
+finances_category_maxsecprisoners       Tilskudd for høysikkerhetsfanger
+finances_category_prisoners             Fangetilskudd
+finances_category_workmen               Lønn til bygningsarbeidere
+finances_category_guards                Lønn til vakter
+finances_category_admin                 Lønn til administratorer
+finances_category_staff                 Lønn til ansatte
+finances_category_food                  Mat
+finances_category_electricity           Strøm
+finances_category_workshops             Verksteder
+finances_category_loaninterest          Renter på lån
+finances_category_reformprogs           Reformprogrammer
+finances_category_noincident            Dager uten hendelser
+finances_category_exports               Eksporter (i går)
+finances_category_corptax               Selskapsskatt
+finances_category_prisonerwages         Lønn til fanger (i går)
+finances_category_shoprevenue           Inntekter fra butikk (i går)
+
+reports_foodtitle                       Ernæringsretningslinjer
+meal_quantity                           Antall måltider
+meal_variety                            Variasjon i måltider
+meal_cost                               Kostnad per fange
+
+reports_paroletitle                     Retningslinjer for prøveløslatelse
+parole_title                            Prøveløslatelsesgrad
+parole_info                             Grense for brudd på prøveløslatelse: *P%
+parole_desc                             Hvis en fange har lavere tilbakefallsprosent enn denne verdien, vil han bli løslatt etter prøveløslatelseshøringen sin.
+parole_fine                             Bot ved tilbakefall
+parole_reward                           Belønning ved tidlig løslatelse
+
+victory_title                           KURSING
+
+victory_PrisonValue                     Fengselets verdi
+victory_Income                          Daglig inntekt
+victory_Prisoners                       Kapasitet
+victory_PrisonersReleased               Innsatte løslatt
+victory_prisonersdied                   Dødsfall i varetekt
+victory_prisonersescaped                Fanger flyktet
+victory_Bankrupt                        Konkurs
+victory_Riot                            Ukontrollert\nopprør
+victory_TooManyDeaths                   Grov\nuaktsomhet
+victory_TooManyEscapes                  Sikkerhets-\nskandale
+victory_failure                         MISLYKKET
+victory_warning                         ADVARSEL
+victory_remaining                       gjenstående
+victory_death                           DØDSFALL
+victory_escapes                         FLUKTER
+victory_counter                         (*X i dag)
+victory_executions                      Ulovlige henrettelser
+victory_innocentsexecuted               Uskyldig fange henrettet
+
+victory_warning_bankrupt                Du har 24 timer på deg til å forhindre økonomisk ruin.
+victory_warning_riot                    Få bukt med dette opprøret så snart som mulig, ellers blir myndighetene nødt til å gripe inn.
+victory_warning_toomanydeaths           Det vil bli søksmål hvis det skjer noen særlig flere dødsfall i dag.
+victory_warning_toomanyescapes          Du får sparken hvis det blir noen særlig flere som flykter i dag.
+
+victory_prisoners_units                 Steder
+victory_prisonersreleased_units         Løslatelser
+victory_toomanydeaths_units             Dødsfall
+victory_toomanyescapes_units            Flukter
+victory_prisonersparoled                Fanger prøveløslatt
+victory_prisonersreoffended             Fanger med tilbakefall
+
+victory_adviserwarning_toomanydeaths1   I går var det en svært mørk dag i fengselets historie. Altfor mange mistet livet her.
+victory_adviserwarning_toomanydeaths2   Sørg for at ingen dør i dag, ellers står du overfor søksmål for grov uaktsomhet.
+victory_advisernotice_toomanydeaths1    Ikke si vi ikke advarte deg. Du er funnet skyldig i grov uaktsomhet som følge av den siste tids hendelser her.
+victory_advisernotice_toomanydeaths2    Du er dømt til ti år i fengsel for forbrytelsen. Tiden sones i ditt eget fengsel. Lykke til.
+victory_adviserwarning_riot1            Fengselet er ute av kontroll. Sett en stopper for dette opprøret nå, ellers griper myndighetene inn og tar kontroll over fengselet med makt.
+victory_advisernotice_riot1             Du klarte ikke å stoppe opprøret. Myndighetene har trukket tilbake løyvet vårt og sender nå inn nasjonalgarden for å ta tilbake kontrollen i fengselet.
+victory_adviserwarning_toomanyescapes1  Vi har en PR-katastrofe på trappene her. Det er altfor mange fanger som har rømt i det siste, og det er din feil.
+victory_adviserwarning_toomanyescapes2  Se å få avsperret dette stedet og sørg for at ingen andre rømmer, ellers kommer pressen til å be om hodet ditt på et fat.
+victory_advisernotice_toomanyescapes1   Du har mislyktes. Fengselet er gjort til latter i media, og de trenger en syndebukk.
+victory_advisernotice_toomanyescapes2   Den syndebukken blir deg. Du har sparken!
+victory_adviserwarning_bankrupt1        Vi er konkurs! Den katastrofale økonomiske styringen din har ruinert oss.
+victory_adviserwarning_bankrupt2        Finn en måte å fikse dette på fort som svint, ellers har du sparken.
+victory_advisernotice_bankrupt1         Vi har ikke annet valg enn å erklære oss konkurs og sette fengselet under administrasjon. Du har mislyktes.
+victory_adviserwarning_wardendeaths1    Det har blitt for farlig å jobbe for deg. Vi sliter med å finne en fengselsdirektør som er villig til å jobbe her.
+victory_adviserwarning_wardendeaths2    Hvis du lar flere fengselsdirektører dø nå, har vi ikke annet valg enn å sparke deg.
+victory_advisernotice_wardendeaths1     Du har mislyktes i å sørge for et trygt arbeidsmiljø for dine fengselsdirektører. Alle er redde for å jobbe for deg.
+victory_advisernotice_wardendeaths2     Vi har ikke annet valg enn å la deg gå. Du har sparken.
+victory_adviserwarning_reoffenders1     Mange av fangene du har løslatt før tiden, har hatt tilbakefall. Dette kan koste oss dyrt hvis vi ikke tar kontroll over situasjonen.
+victory_adviserwarning_reoffenders2     Hvis for mange fanger har tilbakefall etter løslatelsen, vil du få skylden.
+victory_advisernotice_reoffenders1      Du har sluppet for mange farlige kriminelle ut i verden. Vi har ikke annet valg enn å la deg gå. Du har mislyktes.
+victory_adviserwarning_executions1      Dette er andre gang du har tatt livet av en uskyldig fange. Det har ført til et offentlig ramaskrik.
+victory_adviserwarning_executions2      Hvis flere uskyldige blir henrettet nå, vil du bli holdt ansvarlig.
+victory_advisernotice_executions1       Du har latt for mange uskyldige bli henrettet. Vi kan ikke lenger la deg drive dette fengselet. Du har mislyktes.
+victory_advisernotice_InnocentsExecuted1 Du har henrettet noen uten å følge den rette prosedyren, og det viser seg at nå at vedkommende var uskyldig. Dette er et forferdelig justismord, og du er ansvarlig. Du har sparken, og du må antakelig belage deg på fengsel selv.
+
+score_title                             FENGSELSGRADERING
+score_reoffendingrate                   TILBAKEFALLSPROSENT
+score_prisonersreleased                 *X fanger er sluppet fri
+score_minimumprisonersreleased          *X fanger må bli sluppet fri før denne rapporten kan utarbeides
+score_deaths                            *X fanger døde i varetekt
+score_escapes                           *X fanger har flyktet
+score_reoffendingchance                 Beregnet tilbakefallsprosent
+score_startingreoffendingchance         Beregnet ved ankomst: *X %
+score_prisonersparoled                  Tidlig prøveløslatelse (tilbakefall)
+score_prisonersparoled_info             *P (*E%)
+score_clemencychance                    Sannsynlighet for benådning
+score_convictionstrength                Statens dødsstraffkrav
+score_prisonersexecuted                 Fanger henrettet (uskyldige)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                Dette er en gradering av hvor riktig fangens straff er ifølge folket. Lange fengselsdommer er utgangspunktet for strenge straffer, men også tid i isolat kan inngå i dette.\n\nHusk at for stor grad av reform eller fritid vil bli sett på som "for mildt" og reduserer straffegraden.\n\nEn høy straffepoengsum vil avskrekke fangen så han ikke får tilbakefall etter løslatelse.
+score_tooltip_reform                    En gradering av hvor godt du har reformert og rehabilitert fangen gjennom reformprogrammer.\n\nEn høy reformpoengsum gir fangen mye bedre sjanse til å finne seg en ordentlig jobb etter løslatelse, noe som dermed reduserer tilbakefallssjansen hans.\n\nMerk: Å sette fangene i arbeid i fengselet bidrar også til dette.
+score_tooltip_health                    En oversikt over fangens helse og velferd i løpet av hans tid i fengselet. Utendørsaktiviteter og god mat øker dette tallet. Ubehandlede skader, narkotika- og alkoholbruk reduserer det.\n\nEn dårlig poengsum her øker sjansen for tilbakefall, særlig dersom fangen løslates uten å ha blitt behandlet for narkotika- eller alkoholavhengighet.
+score_tooltip_security                  En gradering som viser hvor godt du har sikret fangen. En viktig faktor her er å holde fangen innelåst på cellen med bevæpnet vakthold. Du blir straffet hvis fangen blir involvert i slåsskamper, mord eller fluktforsøk.\n\nEn lav poengsum viser at fangen fortsatte sin forbryterske adferd i fengselet, noe som betyr at tilbakefallssjansen hans vil være høy etter løslatelse.
+
+score_tooltip_reoffendingchance         En beregning av fangens sannsynlighet for tilbakefall etter løslatelse. Det er mange faktorer som spiller inn her:\n\n-REDUKSJON: Streng/hard straff\n- REDUKSJON: Vellykkede reformprogrammer\n- ØKNING: Dårlig helse og sikkerhet\n- ØKNING: Ubehandlet narkotika- og alkoholavhengighet\n- ØKNING: Gjengmedlemskap\n\n\n- Fangens alder er også en viktig faktor.\n- Antallet tidligere domfellelser er en god indikator.\n- Mye støtte fra familien kan hjelpe.
+score_tooltip_clemencychance_title      Sannsynlighet for benådning
+score_tooltip_clemencychance            Sannsynligheten for at appelldomstolen vil gi benådning og gjøre om dødsstraffen. For hver mislykkede anke reduseres denne verdien til den til slutt kommer under tallet for statens dødsstraffkrav, noe som innebærer at dødsstraffen kan gjennomføres. Hvis du tidfester henrettelsen før dette, risikerer du meget strenge straffer dersom det senere blir oppdaget av fangens anke hadde blitt tatt til følge.\n\nDersom fangen benådes, vil han løslates umiddelbart (om han er uskyldig) eller overføres til høysikkerhet (hvis han fremdeles anses som skyldig.)
+score_tooltip_currentchance             Tallet for statens dødsstraffkrav er *X %
+score_tooltip_clemencywarning           Sjansen for at denne fangen blir benådet, er for øyeblikket over statens dødsstraffkrav. Hvis du gjennomfører denne henrettelsen, vil du bli holdt personlig ansvarlig dersom det senere kommer frem at han ville ha blitt benådet.
+
+experiencefactor_FractionalLockedUp     *X % av oppholdet på cellen
+experiencefactor_FractionalReform       *X % av oppholdet i reformprogrammer
+experiencefactor_fractionalWorking      *X % av oppholdet i arbeid
+experiencefactor_fractionalsuppressed   *X % av oppholdet kuet
+experiencefactor_fractionalinjured      *X % av oppholdet med ubehandlede skader
+experiencefactor_fractionalintoxicated  *X % av oppholdet ruset (narkotika/alkohol/abstinenser)
+experiencefactor_fractionalmisbehaving  *X % av oppholdet med dårlig oppførsel
+experiencefactor_fractionalarmedguard   *X % av oppholdet under bevæpnet vakthold eller kuet
+experiencefactor_fractionalwellfed      *X % av oppholdet velernært
+experiencefactor_fractionalexercising   *X % av oppholdet i trening
+experiencefactor_fractionalfreetime     *X % av oppholdet som fritid
+
+experiencefactor_passedeasyprograms             Bestått *X enkle programmer
+experiencefactor_passedintermediateprograms     Bestått *X middels programmer
+experiencefactor_passedadvancedprograms         Bestått *X avanserte programmer
+experiencefactor_passedexpertprograms           Bestått *X ekspertprogrammer
+
+experiencefactor_YearsServed            *X år sonet
+experiencefactor_fights                 Involvert i voldelige situasjoner
+experiencefactor_murders                Begått mord *X mord i fengselet
+experiencefactor_escapeattempts         Prøv å flykte *X ganger
+experiencefactor_addictions             *X avhengigheter
+experiencefactor_gangmembership         Gjengmedlem
+
+legend_key                              Nøkkel:
+
+needs_graphscale_title                  Fanger:
+needs_key_critical                      Kritisk
+needs_key_high                          Høy
+needs_key_med                           Middels
+needs_key_satisfied                     Fornøyd
+needs_key_active                        Aktiv
+
+contraband_supplyanddemand              Tilbud og etterspørsel
+contraband_narcotics                    Narkotika
+contraband_weapons                      Våpen
+contraband_tools                        Verktøy
+contraband_luxuries                     Luksusartikler
+contraband_metal                        Metall
+contraband_smelly                       Illeluktende
+contraband_rangedweapon                 Avstandsvåpen
+contraband_improvised                   Improvisert
+
+contraband_key_supply                   Tilbud
+contraband_key_demand                   Etterspørsel
+contraband_log_stolen                   STJÅLET
+contraband_log_position                 PLASSERING
+contraband_log_smuggled                 SMUGLET
+contraband_log_traded                   HANDLET
+contraband_log_thrown                   KASTET
+contraband_log_hidden                   GJEMT
+contraband_log_detected                 OPPDAGET
+contraband_log_dog                      HUND
+contraband_log_found                    FUNNET
+contraband_log_owner                    EIER
+
+schedule_zone_shared                    Delt
+schedule_zone_minseconly                Lavsikkerhet
+schedule_zone_medseconly                Middels sikkerhet
+schedule_zone_maxseconly                Høysikkerhet
+schedule_zone_protectedonly             Forvaring
+schedule_zone_supermaxonly              Superhøy
+schedule_zone_deathrowonly              Dødsdømte
+schedule_zone_staffonly                 Bare ansatte
+schedule_zone_unlocked                  Opplåst
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              Bommelomme
+action_wee                              Bimmelimme
+action_wash                             Dusjer
+action_relax                            Slapper av
+action_sleep                            Sover
+action_nap                              Hviler
+action_getmeal                          Spiser
+action_sit                              Sitter
+action_exercise                         Trener
+action_liftweights                      Løfter vekter
+action_phonehome                        Ringer familien
+action_watchtv                          Ser på TV
+action_playpool                         Spiller biljard
+action_stealknife                       Opptrer mistenkelig
+action_stealspoon                       Opptrer mistenkelig
+action_urinate                          Pisser
+action_soilsuit                         Driter på seg
+action_eat                              Spiser
+action_complain                         Klager
+action_work                             Jobber
+action_visitation                       Besøk
+action_parole                           I prøveløslatelseshøring
+action_none                             Ingen
+action_misbehaving                      Oppfører seg dårlig
+action_escaping                         Flykter
+action_destroying                       Driver hærverk
+action_spoiling                         Ypper
+action_fighting                         Slåss
+action_rioting                          Opprør
+action_hostagetaking                    Tar gissel
+action_reformprogram                    I reformprogram
+action_changeclothes                    Bytter klær
+action_getbook                          Henter bok
+action_pray                             Ber
+action_shopping                         Handler
+
+status_effect_title						 =[Statuseffekter]=
+status_effect_none						Ingen
+status_effect_suppressed				Kuet
+status_effect_goodfood					Velernært
+status_effect_drunk						Full
+status_effect_high                      Høy
+status_effect_withdrawal				Har abstinenser
+status_effect_tazed                     Elektrosjokket
+status_effect_overdosed                 Tatt overdose
+status_effect_surrendered               Overgitt seg
+status_effect_calming                   Roer seg ned
+status_effect_angst                     Sint
+status_effect_wounded                   Blør
+status_effect_virus                     Er syk
+status_effect_virusdeadly               Er syk
+
+condition_treated                       Behandlet
+condition_needstreating                 Trenger behandling
+
+experience_totaltime                    Total tid
+experience_misconduct                   Dårlig oppførsel
+experience_lockeddown                   Avsperring
+experience_regime                       Regime
+experience_sleep                        Søvn
+experience_work                         Arbeid
+experience_class                        Klasse
+experience_freetime                     Fritid
+experience_moodbad                      Dårlig
+experience_moodnormal                   Normalt
+experience_moodgood                     Godt
+experience_nocondition                  Ingen
+experience_kod                          Slått ut
+experience_hurt                         Skadet
+experience_suppressed                   Kuet
+experience_intoxicated                  Ruset
+experience_wellfed                      Velernært
+experience_exercise                     Trening
+
+need_name_nothing                       Ingen
+need_name_bladder                       Må på do
+need_name_bowels                        Sulten
+need_name_sleep                         Søvn
+need_name_food                          Mat
+need_name_safety                        Sikkerhet
+need_name_hygiene                       Hygiene
+need_name_exercise                      Trening
+need_name_family                        Familie
+need_name_recreation                    Fritid
+need_name_comfort                       Komfort
+need_name_environment                   Miljø
+need_name_privacy                       Privatliv
+need_name_freedom                       Frihet
+need_name_clothing                      Klær
+need_name_drugs                         Narkotika
+need_name_alcohol                       Alkohol
+need_name_starving                      Sulter
+need_name_spirituality                  Åndelighet
+need_name_literacy                      Lesekyndighet
+needs_locked                            (Du må ha en psykolog for å kunne vise behov)
+needs_title                              =[Behov]=
+
+reputation_title                        Rykte
+reputation_hidden                       (Ukjent rykte)
+reputation_hidden_short                 ???
+
+reputation_legendary                    --LEGENDARISK--
+reputation_strong                       Sterk
+reputation_tough                        Tøff
+reputation_volatile                     Ustabil
+reputation_snitch                       Tyster
+reputation_deadly                       Farlig
+reputation_stoical                      Stoisk
+reputation_fearless                     Fryktløs
+reputation_exlaw                        Eks-politi
+reputation_copkiller                    Politimorder
+reputation_quick                        Rask
+reputation_instigator                   Opphisser
+reputation_fighter                      Hardhaus
+reputation_gangmember                   Gjengmedlem
+reputation_federalwitness               Føderalt vitne
+
+reputation_strong_high                  Ekstremt sterk
+reputation_tough_high                   Ekstremt tøff
+reputation_volatile_high                Ekstremt ustabil
+reputation_deadly_high                  Ekstremt farlig
+reputation_exlaw_high                   Eks-fengselsbetjent
+reputation_quick_high                   Ekstremt rask
+reputation_fighter_high                 Slåsskjempe
+
+reputation_legendary_high               --LEGENDARISK--
+reputation_snitch_high                  Tyster
+reputation_stoical_high                 Stoisk
+reputation_fearless_high                Fryktløs
+reputation_copkiller_high               Politimorder
+reputation_instigator_high              Opphisser
+reputation_gangmember_high              Gjengmedlem
+
+reputationtooltip_legendary             Denne fangen er en legende i forbryterverdenen. Han har en rekke evner og ferdigheter som gjør ham svært farlig.
+reputationtooltip_strong                Denne fangen slår hardere for hvert slag i slåsskamper.
+reputationtooltip_tough                 Denne fangen tåler ekstremt mye i slåsskamper. Han kan til og med tåle å bli truffet av elektrosjokkvåpen.
+reputationtooltip_volatile              Denne fangen har en tendens til å klikke uten forvarsel og grunn.
+reputationtooltip_stoical               Denne fangen lar seg ikke kue av å bli satt på isolat. Han bryr seg faktisk ikke.
+reputationtooltip_snitch                Denne fangen er en kjent informant, og han kan derfor være i livsfare. Ikke la ham være for lenge alene med andre fanger.
+reputationtooltip_deadly                Denne fangen er dødelig i nærkamp. Han kan iblant drepe med ett slag.
+reputationtooltip_exlaw                 Denne fangen var i sin tid politimann eller noe annet innen lov og rett. Han kan være i livsfare.
+reputationtooltip_copkiller             Denne fangen har drept en politimann. Det kan hende fengselsvaktene dine kan slite med å holde seg i tøylene når de jobber med ham.
+reputationtooltip_fearless              Denne fangen blir ikke skremt av synet av bevæpnede vakter, og han gir seg ikke så lett i kamp.
+reputationtooltip_quick                 Denne fangen løper usedvanlig fort.
+reputationtooltip_instigator            Denne fangen sørger for å gjøre alle rundt seg misfornøyde. Når han skaper trøbbel, kommer andre fanger i nærheten til å ville gjøre det også.
+reputationtooltip_fighter               Denne fangen er god til å forsvare seg. Han kan avvæpne motstanderen og til og med ta våpenet fra dem i kamp.
+reputationtooltip_gangmember            Denne fangen er med i en gjeng. Han forsvarer sine gjengmedlemmer og hater rivaliserende gjenger.
+reputationtooltip_federalwitness        Denne fangen er et vitne i en viktig rettssak og er derfor et mål for en gjeng eller en mafiaboss.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Jobber
+nameplate_stationed                     Stasjonert
+nameplate_patrolling                    Patruljerer
+nameplate_resting                       Hviler
+nameplate_tired                         Sliten
+nameplate_injured                       Skadet
+nameplate_unconscious                   Bevisstløs
+nameplate_dead                          DØD
+nameplate_released                      SLUPPET FRI
+nameplate_researching                   Forsker
+nameplate_overdose                      TATT OVERDOSE
+nameplate_starving                      SULTER
+nameplate_wounded                       BLØR
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Fø alle fanger
+objective_caption_prisoners             Fanger
+objective_caption_meals                 Måltider
+objective_readceosletter                Les brevet fra adm.dir.
+objective_actionrequired                Hendelsesrapporter
+
+objective_deathrowinmates               Status for dødsdømte fanger
+
+objective_prisonerintake                Inntak av fanger
+objective_intake_arrivals               Det kommer *X fanger kl. 08.00
+objective_intake_closed                 Fengselet er nå stengt for nye fanger
+objective_intake_closed2                (se fangerapporten)
+objective_intake_closed3                (se inntaksrapporten)
+objective_intake_specials				Spesialoverføringer:
+objective_intake_categories             Kategorier:
+objective_intake_minsec                 Lav
+objective_intake_medsec                 Mid
+objective_intake_maxsec                 Høy
+objective_intake_deathrow               Dødsdømte
+
+objective_builddeliveriesroom           Lag et leveringsområde
+
+objective_outgoing                      Fanger som skal løslates
+objective_outgoing_count                *X fanger skal snart løslates
+objective_outgoing_timer                (*X t)
+
+objective_visitors                      Besøkende (08.00–20.00)
+objective_visitors_waiting              *X familier venter på å besøke
+objective_visitors_onsite               *X besøkende på plass fordelt på *Y grupper
+
+objective_staffexhausted                Ansatte utslitt
+objective_reststaff_exhausted           *X ansatte er utslitte.
+objective_reststaff_resting             (*X hviler)
+objective_reststaff_needstaffroom       Bygg et personalrom hvor de kan hvile.
+
+objective_punishment_solitary           *X på isolat
+objective_punishment_solitary_queue     *X venter på isolat
+objective_punishment_solitary_mix       *X på isolat (+*Y som venter)
+objective_punishment_lockdown           *X innelåst
+objective_incident_medical              *X trenger legehjelp
+objective_incident_dead                 *X lik
+
+objective_prisonerparole                Prøveløslatelse
+objective_parole_count                  *X fanger skal prøveløslates
+
+objective_payment_receivedfull          Betaling: *X mottatt
+objective_payment_receivedpart          Betaling: *X av totalt *Y mottatt
+
+objective_grant_bootstraps                  Grunnleggende fengsel
+objective_grant_bootstraps_description      Gjør en tomt om til et fengsel. Denne kontrakten med myndighetene gir deg de nødvendige midlene til å bygge et fengsel som oppfyller minstekravene for de første leveransen med fanger.
+objective_grant_bootstraps_holdingcell      Bygg en varetektscelle
+objective_grant_bootstraps_shower           Bygg en dusj
+objective_grant_bootstraps_yard             Bygg en luftegård
+objective_grant_bootstraps_kitchen          Bygg et kjøkken
+objective_grant_bootstraps_canteen          Bygg en matsal
+objective_grant_bootstraps_guard            Ansett minst to vakter
+objective_grant_bootstraps_chef             Ansett minst to kokker
+
+objective_grant_administration                          Administrasjonssenter
+objective_grant_administration_description              Ethvert fengsel trenger en administrasjon for å sørge for at alt går skikkelig for seg. Denne kontrakten gir deg penger til en fengselsdirektør og en regnskapsfører samt kontorer til dem, noe som igjen gir tilgang til det føderale tilskuddssystemet.
+objective_grant_administration_offices                  Bygg to kontorer
+objective_grant_administration_warden                   Ansett en fengselsdirektør
+objective_grant_administration_accountant_research      Lås opp Økonomi via Byråkrati
+objective_grant_administration_accountant               Ansett en regnskapsfører
+
+objective_grant_firstcellblock                  Celleblokk A
+objective_grant_firstcellblock_description      Det grunnleggende er nå i gang. Det er på tide å bygge din første celleblokk og overføre fangene dine til egne celler.
+objective_grant_firstcellblock_cells            Øk fangekapasiteten til 15
+
+objective_grant_health                      Fangenes helse og velferd
+objective_grant_health_description          De innsattes fysiske og mentale helse er meget viktig for oss. Med dette tilskuddet kan du bygge en førsteklasses medisinsk avdeling og ansette leger og psykologier som kan ta seg av fangenes helsebehov.
+objective_grant_health_ward                 Bygg en medisinsk avdeling
+objective_grant_health_doctors              Ansett minst to leger
+objective_grant_health_psychologist         Ansett en psykolog (trenger et kontor)
+
+objective_grant_bailout                     Statlig redningspakke
+objective_grant_bailout_description         Myndighetene er meget misfornøyd med deg, men har kommet til at fengselet ditt er for stort til at de kan la det gå dukken. Skattebetalernes penger vil bli brukt til å hindre konkurs. Du må imidlertid få balanse i regnskapet og sørge for at fengselet har en positiv kontantstrøm (høyere inntekter enn utgifter) samt betale bankgjelden.
+objective_grant_bailout_cashflow            Høyere inntekter enn utgifter
+objective_grant_bailout_debt                Betal gjelden
+
+
+objective_grant_maintenance                         Vedlikehold av fengselet
+objective_grant_maintenance_description             Det generelle vedlikeholdet av fengselet og fengselsområdet er viktig for sikkerheten til både ansatte og innsatte. Ansett det nødvendige personalet for å sørge for at fengselet er rent og ryddig.
+objective_grant_maintenance_research_root           Lås opp Vedlikehold via Byråkrati
+objective_grant_maintenance_research_cleaning       Lås opp Vaktmester via Byråkrati
+objective_grant_maintenance_research_groundskeeping Lås opp Gartner via Byråkrati
+objective_grant_maintenance_foreman                 Ansett en oppsynsmann (trenger et kontor)
+objective_grant_maintenance_janitor                 Ansett minst to vaktmestere
+objective_grant_maintenance_gardener                Ansett en gartner
+
+objective_grant_visitation                          Besøksrett
+objective_grant_visitation_description              Mange andre fengsler i regionen har fått søksmål mot seg for å hindre fangene besøk. Investorene vil nødig ha en skandale og gir deg derfor dette tilskuddet for å sørge for at dette besørges.
+objective_grant_visitation_room                     Bygg et besøksrom
+objective_grant_visitation_tables                   Sett inn minst tre besøksbord
+objective_grant_visitation_commonroom               Bygg et fellesrom
+objective_grant_visitation_pooltable                Sett inn et biljardbord
+objective_grant_visitation_tv                       Sett inn minst to TV-er
+objective_grant_visitation_phones                   Bygg minst fem telefonbokser
+
+objective_grant_basicsecurity                       Sikkerhetprosedyre
+objective_grant_basicsecurity_description           En vanlig fallgruve i nye fengsler er sikkerhetsbrudd på grunn av at personalet er uerfarne. Få sikkerheten opp på et akseptabelt nivå slik at vi ikke får noen uheldige hendelser i starten som kan skade oss i fremtiden.
+objective_grant_basicsecurity_chief                 Ansett en sikkerhetssjef (trenger et kontor)
+objective_grant_basicsecurity_guards                Ansett ti vakter
+objective_grant_basicsecurity_patrols               Sett tre vakter på patruljeruter
+objective_grant_basicsecurity_research              Lås opp Patruljer via Byråkrati
+
+objective_grant_enhancedsecurity                    Myndighetenes sikkerhetsgrad
+objective_grant_enhancedsecurity_description        Myndighetene har visse sikkerhetskrav til fengsler av en viss størrelse og gir heftige bøter til dem som ikke oppfyller disse. Sørg for at dette ikke blir et problem hos oss.
+objective_grant_enhancedsecurity_armoury            Bygg et våpenrom
+objective_grant_enhancedsecurity_kennel             Bygg en kennel
+objective_grant_enhancedsecurity_guards             Ansett to bevæpnede vakter
+objective_grant_enhancedsecurity_dogs               Ansett to hundeførere
+objective_grant_enhancedsecurity_patroldogs         Sett to hundeførere på en hundepatrulje
+objective_grant_enhancedsecurity_patrolarmed        Sett to bevæpnede vakter på en patrulje
+
+objective_grant_advancedsecurity                    Høysikkerhetsinfrastruktur
+objective_grant_advancedsecurity_description        Det kan være vanskelig å sørge for sikkerheten i et fengsel med mange fanger, men prisen for et brudd er langt større enn å implementere de nødvendige sikkerhetstiltakene. Installer det nødvendige utstyret rundt om i fengselet.
+objective_grant_advancedsecurity_guards             Øk størrelsen på sikkerhetsstyrken
+objective_grant_advancedsecurity_researchcctv       Lås opp Overvåkningsanlegg via Byråkrati
+objective_grant_advancedsecurity_researchbodyarmour Lås opp Skuddsikre vester via Byråkrati
+objective_grant_advancedsecurity_researchtazers     Lås opp Elektrosjokkvåpen via Byråkrati
+objective_grant_advancedsecurity_office             Bygg et sikkerhetsrom
+objective_grant_advancedsecurity_cctvmonitor        Bygg en overvåkningsskjerm
+objective_grant_advancedsecurity_cctvcameras        Plasser overvåkningskameraer rundt om i fengselet
+
+objective_grant_prisonerworkforce                   Akklimatisering og motivasjon av fanger
+objective_grant_prisonerworkforce_description       Det å sette fangene i arbeid i fengselet er en god måte å integrere dem på samtidig som at du kutter kostnader. Gjennomfør den nødvendige kursingen og bygg de nødvendige fasilitetene for å sette fangene i arbeid.
+objective_grant_prisonerworkforce_research          Lås opp Straffearbeid via Byråkrati
+objective_grant_prisonerworkforce_cleaning          Bygg et bøttekott
+objective_grant_prisonerworkforce_laundry           Bygg et vaskeri
+objective_grant_prisonerworkforce_kitchenclass      Få tre fanger til å fullføre kurset Kjøkkensikkerhet og -hygiene
+objective_grant_prisonerworkforce_laundryassigned   Sett tre fanger til å jobbe i vaskeriet
+objective_grant_prisonerworkforce_kitchenassigned   Sett tre fanger til å jobbe på kjøkkenet
+objective_grant_prisonerworkforce_cleaningassigned  Sett tre fanger til å jobbe fra bøttekottet
+
+objective_grant_educationreformprogram              Reform gjennom utdanning
+objective_grant_educationreformprogram_description  En markant kampanjegruppe har satt i gang en storstilt studie av virkningen av utdanning for å redusere fangers tilbakefallsprosent. Lag noen klasserom og begynn å utdanne fangene dine.
+objective_grant_educationreformprogram_research     Lås opp Patruljer via Byråkrati
+objective_grant_educationreformprogram_classroom    Bygg et klasserom
+objective_grant_educationreformprogram_desks        Bygg 20 skolepulter
+objective_grant_educationreformprogram_foundationed Få ti fanger til å bestå grunnutdanningskurset
+objective_grant_educationreformprogram_generaled    Få én fange til å bestå hele utdanningskurset
+
+objective_grant_prisonlabour                        Produksjonsanlegg
+objective_grant_prisonlabour_description            Investorene vil at du skal øke fengselets lønnsomhet og er villige til å investere for å bygge verksteder hvor fangene kan jobbe og produsere ting.
+objective_grant_prisonlabour_workshop               Bygg et verksted
+objective_grant_prisonlabour_saw                    Bygg to sager
+objective_grant_prisonlabour_press                  Bygg to presser
+objective_grant_prisonlabour_reform                 Få fem fanger til å bestå verkstedssikkerhetskurset
+objective_grant_prisonlabour_plates                 Produser 30 bilskilt
+
+objective_grant_furnituremanufacturing              Snekkerprogram
+objective_grant_furnituremanufacturing_description  Ved å tilby snekkerkurs til fangene kan de få verdifull kompetanse som de kan bruke når de slipper ut, og samtidig kan de produsere førsteklasses møbler som du kan selge og tjene penger på.
+objective_grant_furnituremanufacturing_forestry     Bygg et skogbruk
+objective_grant_furnituremanufacturing_table        Bygg to høvelbenk
+objective_grant_furnituremanufacturing_reform       Få to fanger til å bestå snekkerkurset
+objective_grant_furnituremanufacturing_bed          Produser to luksussenger
+
+objective_grant_reducestaffstress                   Velferdsinitiativ for ansatte
+objective_grant_reducestaffstress_description       Fengselsbetjentenes fagforening har fått inn rapporter om fengselsansatte som har vært så overarbeidede at de har begått feil. Sørg for at slike situasjoner ikke oppstår i ditt fengsel.
+objective_grant_reducestaffstress_staffroom         Bygg et personalrom
+objective_grant_reducestaffstress_freeguards        Gi minst fem vakter tjenestefri
+objective_grant_reducestaffstress_restedstaff       Sørg for at ingen av de ansatte er overarbeidet
+
+objective_grant_shortterminvestment                 Kortsiktig investering
+objective_grant_shortterminvestment_description     Sett penger i et investeringsfond som vil gi en relativt god avkastning.
+objective_grant_shortterminvestment_wait            Vent på pengene ...
+
+objective_grant_longterminvestment                  Langsiktig investering
+objective_grant_longterminvestment_description      Sett penger i et langsiktig investeringsfond som vil gi en meget god avkastning.
+objective_grant_longterminvestment_wait             Vent på pengene ...
+
+objective_grant_cellblock50                         Celleblokk B
+objective_grant_cellblock50_description             Det er på tide å utvide fengselet.
+objective_grant_cellblock50_cells                   Øk fangekapasiteten til 50
+
+objective_grant_cellblock100                        Celleblokk C
+objective_grant_cellblock100_description            Utnytt tomten ved å utvide fengselet ytterligere.
+objective_grant_cellblock100_cells                  Øk fangekapasiteten til 100
+
+objective_grant_cellblock200                        Celleblokk D
+objective_grant_cellblock200_description            Flere fanger betyr mer i tilskudd fra staten. Øk kapasiteten for å dra nytte av dette.
+objective_grant_cellblock200_cells                  Øk fangekapasiteten til 200
+
+objective_grant_cellblock500                        Celleblokk E
+objective_grant_cellblock500_description            Myndighetene har en rekke økonomiske insentiver til de største fengslene. Det er på tide å jobbe for å oppnå dem.
+objective_grant_cellblock500_cells                  Øk fangekapasiteten til 500
+
+objective_grant_nutritionresearch                   Forskning på fangenes ernæring
+objective_grant_nutritionresearch_description       En uavhengig forskningsgruppe tilbyr penger for å delta i et prøveprosjekt om effekten av ulike spisevaner hos fangene.
+objective_grant_nutritionresearch_poor              Server ett enkelt måltid med lav kvalitet og liten variasjon i to dager
+objective_grant_nutritionresearch_good              Server tre måltider med høy kvalitet og stor variasjon i to dager
+
+objective_grant_drugsearch                          Kampen mot narkotika
+objective_grant_drugsearch_description              Bekymringene rundt bruken av narkotika i store fengsler har økt i det siste. Innta en proaktiv holdning og vis at du tar deg av problemet.
+objective_grant_drugsearch_find                     Finn ti illegale narkotiske stoffer
+
+objective_grant_contrabandsupply                    Opprydning i verktøyet
+objective_grant_contrabandsupply_description        Etter en rekke tyverier av verktøy i andre fengsler er det nå en gruppe som forsker på distribusjonen av verktøy og våpen rundt om i fengslene. Denne delen av studien dreier seg om å fjerne så mye som mulig av disse tingene fra fengselet.
+objective_grant_contrabandsupply_tools              Fjern alt av stjålet verktøy
+objective_grant_contrabandsupply_weapons            Fjern alt av stjålne våpen
+
+grant_category_completed                            Fullført:
+grant_category_unlocked                             Opplåst:
+grant_category_cash                                 Penger:
+grant_category_cashflow                             Kontantstrøm:
+grant_category_debt                                 Gjeld:
+grant_category_prisoners                            Fanger:
+
+grant_property_atleast                              Minst *X
+grant_property_atmost                               Maks *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              Ingen
+object_box                               Kasse
+object_stack                             Stabel
+object_bed                               Seng
+object_toilet                            Toalett
+object_table                             Bord
+object_chair                             Stol
+object_bench                             Benk
+object_electricchair                     Den elektriske stol
+object_jaildoor                          Fengselsdør
+object_jaildoorlarge                     Stor fengselsdør
+object_door                              Dør
+object_solitarydoor                      Dør til isolat
+object_staffdoor                         Personaldør
+object_remotedoor                        Fjernstyrt dør
+object_roadgate                          Veibom
+object_jailbars                          Gitter
+object_window                            Vindu
+object_windowlarge                       Stort vindu
+object_tree                              Tre
+object_light                             Lys
+object_cooker                            Komfyr
+object_fridge                            Kjøleskap
+object_bin                               Søppelkasse
+object_sink                              Oppvaskkum
+object_servingtable                      Serveringsbord
+object_showerhead                        Dusjhode
+object_brick                             Murstein
+object_concrete                          Betong
+object_steel                             Stål
+object_ingredients                       Ingredienser
+object_ingredientscooking                Ingredienser (tilberedes)
+object_ingredientscooked                 Ingredienser (tilberedt)
+object_ingredientsspoiled                Ingredienser (bedervet)
+object_meal                              Måltid
+object_foodtray                          Matbrett
+object_foodtraydirty                     Matbrett (skittent)
+object_grassturf                         Gressplen
+object_prisoneruniform                   Fangedrakt
+object_dirtyprisoneruniform              Fangedrakt (skitten)
+object_crumpledprisoneruniform           Fangedrakt (krøllete)
+object_bleach                            Blekemiddel
+object_sheetmetal                        Blikk
+object_licenseplateblank                 Bilskilt (blanke)
+object_licenseplate                      Bilskilt
+object_log                               Tømmer
+object_wood                              Tre
+object_workman                           Bygningsarbeider
+object_truckdriver                       Lastebilsjåfør
+object_guard                             Vakt
+object_riotguard                         Opprørsvakt
+object_armedguard                        Bevæpnet vakt
+object_prisoner                          Fange
+object_doctor                            Lege
+object_paramedic                         Ambulansepersonell
+object_cook                              Kokk
+object_gardener                          Gartner
+object_janitor                           Vaktmester
+object_fireman                           Brannmann
+object_avatar                            Avatar
+object_actor                             Utøver
+object_visitor                           Besøkende
+object_executionwitness                  Henrettelsesvitne
+object_doghandler                        Hundefører
+object_dog                               Vakthund
+object_dogcrate                          Hundehus
+object_teacher                           Lærer
+object_soldier                           Soldat
+object_warden                            Fengselsdirektør
+object_chief                             Sikkerhetssjef
+object_foreman                           Oppsynsmann
+object_psychologist                      Psykolog
+object_accountant                        Regnskapsfører
+object_lawyer                            Advokat
+object_supplytruck                       Lastebil
+object_prisonerbus                       Fangebuss
+object_fireengine                        Brannbil
+object_riotvan                           Opprørsbil
+object_ambulance                         Ambulanse
+object_hearse                            Likbil
+object_trooptruck                        Troppetransport
+object_fire                              Brann
+object_garbage                           Søppel
+object_rubble                            Stein
+object_bookshelf                         Bokhylle
+object_officedesk                        Skrivebord
+object_filingcabinet                     Arkivskap
+object_medicalbed                        Sykeseng
+object_morgueslab                        Likbenk
+object_equipment                         Utstyr
+object_prop                              Rekvisitt
+object_dummy                             Dukke
+object_powerstation                      Kraftstasjon
+object_capacitor                         Kondensator
+object_electricalcable                   Strømledning
+object_powerswitch                       Strømbryter
+object_logiccircuit                      Logisk krets
+object_logicbridge                       Logisk bro
+object_waterpumpstation                  Vannpumpestasjon
+object_pipevalve                         Rørventil
+object_pipelarge                         Stort rør
+object_pipesmall                         Lite rør
+object_drain                             Avløp
+object_sprinkler                         Sprinkler
+object_metaldetector                     Metalldetektor
+object_weightsbench                      Vektbenk
+object_phonebooth                        Telefonboks
+object_tv                                TV
+object_largetv                           Stort TV
+object_pooltable                         Biljardbord
+object_polaroid                          Foto
+object_cctv                              Overvåkningsanlegg
+object_cctvmonitor                       Overvåkningsskjerm
+object_laundrymachine                    Vaskemaskin
+object_laundrybasket                     Skittentøyskurv
+object_ironingboard                      Strykejern
+object_visitortable                      Besøksbord
+object_workshopsaw                       Sag
+object_workshoppress                     Presse
+object_carpentertable                    Høvelbenk
+object_boombox                           Stereo
+object_guardlocker                       Vaktskap
+object_sofachairsingle                   Sofa
+object_sofachairdouble                   Bred sofa
+object_drinkmachine                      Drikkeautomat
+object_arcadecabinet                     Spillmaskin
+object_radio                             Radio
+object_bookshelflarge                    Bibliotekshylle
+object_weaponrack                        Våpenstativ
+object_treestump                         Trestubbe
+object_schooldesk                        Skolepult
+object_superiorbed                       Luksusseng
+object_doorcontrolsystem                 Dørkontrollsystem
+object_phonemonitor                      Telefonovervåkning
+object_servo                             Dørmotor
+object_doortimer                         Tidsbryter til dør
+object_pressurepad                       Trykkpute
+object_statuslight                       Statuslampe
+object_wire                              Koble til
+object_dismantleobject                   Demonter gjenstand
+object_dismantleutility                  Demonter utstyr
+object_sellobject                        Selg ting
+object_canceljobs                        Avbryt jobb
+object_showallwires                      Vis ledninger
+object_tidywires                         Ordne ledninger
+object_cutscenepolaroid                  Filmsekvens – foto
+object_cutscenecamera                    Filmsekvens – kamera
+object_cutscenecue                       Startpunkt for filmsekvens
+object_foodwaste                         Matavfall
+object_altar                             Alter
+object_pews                              Kirkebenk
+object_prayermat                         Bønnematte
+object_paroleofficer                     Tilsynsfører
+object_parolelawyer                      Prøveløslatelsesadvokat
+object_spiritualleader                   Åndelig leder
+object_librarybookshelf                  Bibliotekshylle
+object_librarybookunsorted               Biblioteksbok (usortert)
+object_librarybooksorted                 Biblioteksbok (sortert)
+object_sortingtable                      Sorteringsbord
+object_ruinedbook                        Ødelagt bok
+object_foodbowl                          Mat
+object_appealslawyer                     Ankeadvokat
+object_appealsmagistrate                 Ankedommer
+object_mailsatchel                       Postveske
+object_mailunsorted                      Usortert post
+object_mailsorted                        Sortert post
+object_prisonermail                      Post
+object_prisonermailopened                Post (åpnet)
+object_shopfront                         Butikkvindu
+object_shopgoods                         Butikkvarer
+object_shopshelf                         Butikkhylle
+
+material_none                            Ingen
+material_building                        Bygning (murstein)
+material_buildingconcrete                Bygning (betong)
+material_demolish                        Riv
+material_clearindoorarea                 Rydd innendørs
+material_demolishwalls                   Riv vegger
+material_removetunnels                   Riv tunneler
+material_canceljobs                      Avbryt jobb
+material_dirt                            Jord
+material_sand                            Sand
+material_pavingstone                     Brostein
+material_grass                           Gress
+material_gravel                          Grus
+material_road                            Vei
+material_roadmarkings                    Veimerking
+material_roadmarkingsleft                Veimerking (venstre)
+material_roadmarkingsright               Veimerking (høyre)
+material_stone                           Stein
+material_fence                           Gjerde
+material_concretetiles                   Betongfliser
+material_concretefloor                   Betonggulv
+material_woodenfloor                     Tregulv
+material_ceramicfloor                    Keramisk gulv
+material_mosaicfloor                     Mosaikkgulv
+material_metalfloor                      Metallgulv
+material_marbletiles                     Marmorfliser
+material_whitetiles                      Hvite fliser
+material_fancytiles                      Fancy fliser
+material_concretewall                    Betongvegg
+material_brickwall                       Mursteinsvegg
+material_perimeterwall                   Perimetervegg
+material_burntfloor                      Brent gulv
+material_burntwall                       Brent vegg
+material_buildingframe                   Reisverk
+material_roof                            Tak
+
+room_none                                Ingen
+room_cell                                Celle
+room_holdingcell                         Varetektscelle
+room_solitary                            Isolat
+room_superiorcell                        Luksuscelle
+room_canteen                             Matsal
+room_kitchen                             Kjøkken
+room_shower                              Dusj
+room_yard                                Luftegård
+room_storage                             Lager
+room_deliveries                          Leveranser
+room_garbage                             Søppel
+room_execution                           Henrettelsesrom
+room_workshop                            Verksted
+room_security                            Sikkerhet
+room_office                              Kontor
+room_medicalward                         Sykestue
+room_morgue                              Likhus
+room_commonroom                          Fellesrom
+room_laundry                             Vaskeri
+room_visitation                          Besøksrom
+room_cleaningcupboard                    Bøttekott
+room_kennel                              Kennel
+room_armoury                             Våpenrom
+room_staffroom                           Personalrom
+room_library                             Bibliotek
+room_forestry                            Skogbruk
+room_classroom                           Klasserom
+room_exports                             Eksport
+room_chapel                              Kapell
+room_intake                              Resepsjon
+room_clearrooms                          Tomme rom
+room_paroleroom                          Prøveløslatelse
+room_mailroom                            Postrom
+room_shop                                Butikk
+
+equipment_none                           Ingen
+equipment_fists                          Never
+equipment_baton                          Batong
+equipment_club                           Klubbe
+equipment_shank                          Dolk
+equipment_knife                          Kniv
+equipment_fork                           Gaffel
+equipment_gun                            Pistol
+equipment_spoon                          Skje
+equipment_needle                         Nål
+equipment_booze                          Sprit
+equipment_poison                         Gift
+equipment_cigs                           Sigaretter
+equipment_saw                            Sag
+equipment_jailkeys                       Fengselsnøkler
+equipment_mobilephone                    Mobiltelefon
+equipment_lighter                        Tenner
+equipment_screwdriver                    Skrutrekker
+equipment_drugs                          Narkotika
+equipment_sheers                         Hagesaks
+equipment_mop                            Mopp
+equipment_rake                           Rake
+equipment_hose                           Slange
+equipment_spatula                        Spatel
+equipment_woodenspoon                    Treskje
+equipment_cleaningbrush                  Vaskebørste
+equipment_hammer                         Hammer
+equipment_clipboard                      Utklippstavle
+equipment_drill                          Drill
+equipment_pianowire                      Pianostreng
+equipment_scissors                       Saks
+equipment_medicine                       Medisin
+equipment_shotgun                       Hagle
+equipment_moneybag                      Pengeveske
+equipment_tazer                         Elektrosjokkvåpen
+equipment_guarduniform                  Vaktuniform
+equipment_stabvest                      Stikksikker vest
+equipment_rifle                         Gevær
+equipment_dogleash                      Hundebånd
+equipment_assaultrifle                  Automatgevær
+equipment_woodenpickaxe                 Trehakke
+equipment_cbradio                       CB-radio
+equipment_axe                           Øks
+equipment_spade                         Spade
+
+research_requires_short                 Krever en *X
+
+reformprogram_workshopinduction         Verkstedsikkerhet
+reformprogram_foundationeducation       Grunnutdanningskurs
+reformprogram_generaleducation          Utdanningskurs
+reformprogram_carpentry                 Snekkerlærling
+reformprogram_kitcheninduction          Kjøkkensikkerhet og -hygiene
+reformprogram_therapy                   Adferdsterapi
+reformprogram_methadone                 Farmakologisk rusbehandling
+reformprogram_alcoholicsmeeting         Gruppeterapi for alkoholikere
+reformprogram_tazertraining             Elektrosjokkvåpenkurs
+reformprogram_spiritualguidance         Åndelig veiledning
+reformprogram_parolehearing             I prøveløslatelseshøring
+reformprogram_deathrowappeal            Anke av dødsdom
+
+reformprogram_tazertrained              Sertifisert: Elektrosjokkvåpen
+
+reformprogram_workshopinduction_text    Sikkerheten kommer først! De innsatte må bestå dette kurset for å kunne arbeide på verkstedet.
+reformprogram_foundationeducation_text  Mange innsatte kan verken lese, skrive eller regne. Dette kurset gir dem denne utdanningen. Består de, kan de jobbe på biblioteket.
+reformprogram_carpentry_text            Dette er et vanskelig fag som krever gode praktiske evner. Kvalifiserte fanger kan bruke det de lærer her, til å lage verdifulle ting av tre på høvelbenken.
+reformprogram_kitcheninduction_text     Kvaliteten på maten er viktig når man skal servere hundrevis av mennesker. De innsatte må bestå dette kurset før de kan jobbe på kjøkkenet.
+reformprogram_therapy_text              De innsatte sliter ofte med å kontrollere sin voldelige natur. Disse øktene med fengselspsykologen gir dem verktøyene de trenger for å roe ned potensielt voldelige situasjoner før de utarter seg.
+reformprogram_methadone_text            Med fem farmakologiske substitutter kan fangene bekjempe narkotikaavhengigheten. Hver behandling hjelper fangen med avhengigheten, og dersom programmet er vellykket, kan de bli helt nyktre.
+reformprogram_alcoholicsmeeting_text    Et gruppeterapimøte for alkoholikere. Hjelper dem med å redusere alkoholsuget, men kan aldri fjerne avhengigheten helt.
+reformprogram_parolehearing_text        En høring for å fastslå om fangen kan prøveløslates. En vellykket løslatelse hvor fangen ikke får tilbakefall, gir deg en pen bonus.
+reformprogram_spiritualguidance_text    Noen fanger er religiøse eller trenger en form for åndelighet i livet. Ta inn en åndelig leder fra lokalsamfunnet som kan lede fangene i bønn og gi dem en indre ro.
+
+reformerror_unscheduled                 IKKE PLANLAGT
+reformerror_noroom                      INGEN ROM FUNNET
+reformerror_nofreetimeslot              ALLE ROM OPPTATT
+reformerror_staffonly                   ALLE ROM KUN FOR ANSATTE
+reformerror_noobjects                   INTET UTSTYR
+reformerror_noregimetime                INTET TIDSPUNKT FOR REGIME
+reformerror_noteachers                  INGEN LÆRER
+
+reform_interested                       *X interessert
+reform_interested_qualified             *X interessert/kvalifisert
+reform_queued                           *X i kø
+reform_completion                       - *X fullført - *Y bestått (*P%)
+reform_locked                           LÅST
+reform_start                            START
+reform_costpersession                   *X per økt
+reform_placespersession                 *X plasser / *Y økter
+reform_program_starting                 Start
+reform_program_active                   AKTIV
+reform_program_paused                   På pause
+reform_program_stop                     STOPP
+reform_program_ledby                     - Ledes av en *P i en *Z
+reform_program_ledwith                   - Assistert av en *S
+reform_program_length                    - Øktens lengde: *X timer
+reform_program_requirements              - Hver fange krever en *X
+reform_program_requirements_alt          - Hver fange krever en *X eller en *Y
+reform_program_prereqs                  Fangene må ha fullført:
+reform_program_research_required        Kreves: *X
+
+reform_program_intake_none                      Ingen
+reform_program_intake_mandatory                 Obligatorisk
+reform_program_intake_voluntary                 Frivillig
+reform_program_intake_referralviolence          Henvisning: Vold
+reform_program_intake_referraldrugaddiction     Henvisning: Narkotikamisbruk
+reform_program_intake_referralalcoholism        Henvisning: Alkoholisme
+reform_program_intake_guards                    Bare for vakter
+reform_program_intake_parole                    Etter at 50 eller 75 % av dommen er sonet
+reform_program_intake_needrequired              Alle fanger må ha et bestemt behov før de kan bli med
+reform_program_intake_deathrow                  Fangen er dødsdømt
+
+reform_program_properties_canhireexternally     Kan hyres inn eksternt
+reform_program_properties_studentssit           Deltakerne trenger sitteplasser
+reform_program_properties_academic              Akademisk
+reform_program_properties_practical             Praktisk
+reform_program_properties_repeatable            Gjentakende
+reform_program_properties_passive               Passivt
+reform_program_properties_staffonly             Bare ansatte
+reform_program_properties_outsideofwork         Kan legges utenfor arbeidstiden
+reform_program_properties_teacherssit           Lærerne trenger sitteplasser
+reform_program_properties_canescortstudent      Deltakerne kan eskorteres av vakter
+
+reform_program_waittime                         Kan bare gjøres en gang hver *T. dag
+
+reform_program_difficulty_easy           - Lett
+reform_program_difficulty_intermediate   - Middels
+reform_program_difficulty_advanced       - Avansert
+reform_program_difficulty_expert         - Ekspert
+
+regime_nothing                          Innlåst
+regime_sleep                            Søvn
+regime_eat                              Mat
+regime_shower                           Dusj
+regime_yard                             Luftegård
+regime_work                             Arbeid
+regime_lockdown                         Avsperring
+regime_freetime                         Fritid
+regime_currenttime                      Nåtid
+regime_unspecified                      Uspesifisert
+
+regimetooltip_nothing                   Fangene er innlåst på cellen. De har ikke annet å gjøre enn å tenke over valgene de tok som førte dem hit.\n\nLange perioder med innlåsing kan være en avgjørende straff for selv de mest hardbarkede kriminelle.
+regimetooltip_sleep                     Fangene er innlåst på cellen, og lyset er slått av. Alle sover.\n\nUnntatt dem som graver flukttunneler ...
+regimetooltip_eat                       Fangene går til det nærmeste spiserommet.\n\nDe har lov til å bruke alle fasilitetene på spiserommet, men de kan ikke gå herfra før måltidet er over.
+regimetooltip_shower                    Fangene kler av seg og dusjer. Den daglige dusjen er viktig for fangenes hygiene, men noen fanger gidder simpelthen ikke å dusje med mindre de blir tvunget til det.
+regimetooltip_yard                      Fangene får gå ut i luftegården og få seg litt etterlengtet frisk luft, sol og trening.\n\nDe kan bruke alle fasilitetene i luftegården mens de er der, som vektbenkene, telefonboksene, dusjene osv.
+regimetooltip_work                      Fangene blir satt i arbeid rundt om i fengselet. Alle ledige jobber blir besatt, og fangene møter opp der de skal jobbe. (Du kan styre dette via utplasseringsskjermen.)\n\nAlle reformprogrammer finner også sted i arbeidstiden. Fanger som verken har jobb eller er med i et reformprogram, kan bevege seg fritt rundt i fengselet slik som under "Fritid".
+regimetooltip_freetime                  Fangene slipper ut av cellen og kan bruke fasilitetene rundt om i fengselet. Dette er den beste tiden fangene har, og de vil sosialisere og gjøre det de vil, så langt det lar seg gjøre.\n\nLange perioder med fritid kan redusere stresset og trykket i fengselet, men mange mener det er en for mild straff.
+
+regime_clear                            Tøm regimet for denne fangekategorien, og bruk regimet for middels sikkerhet i stedet.
+
+schedule_editor_students                Deltakere: *X/*Y
+schedule_editor_error_staffonly         Målrommet er merket "Kun for ansatte"
+schedule_editor_error_noregimetime      Programmet er utenfor et gyldig arbeidsregime
+schedule_editor_error_noteachers        Det finnes ingen lærere til dette programmet
+schedule_editor_error_noobjects         Finner ikke det som trengs for dette programmet, i et gyldig rom
+schedule_editor_pin                     Angi dette programmet
+schedule_editor_unpin                   Fjern dette programmet
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         Styring for dørtidsbryter
+doortimer_connected_servos              *X tilkoblet dørmotor
+doortimer_state_open                    Åpne
+doortimer_state_closed                  Lukket
+
+doortimer_security_none                 Ingen sikkerhet
+doortimer_security_minsec               Lavsikkerhet
+doortimer_security_normal               Middels sikkerhet
+doortimer_security_maxsec               Høysikkerhet
+doortimer_security_Protected            Forvaring
+doortimer_security_SuperMax             Superhøy
+doortimer_security_DeathRow             Dødsdømte
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   Henrettelse igangsatt
+execution_stage_Lockdown                Starte avsperring av fengselet
+execution_stage_Testing                 Teste anlegget
+execution_stage_Assemble                Gjøre klart til henrettelse
+execution_stage_Witnesses               Eskortere vitner til anlegget
+execution_stage_Escort                  Eskortere fangen til anlegget
+execution_stage_Execution               HENRETTELSE
+execution_stage_Dismissed               Sende ut ansatte og vitner
+execution_stage_FinalReport             Sluttrapport
+
+execution_stagetooltip_start            Du har tidfestet henrettelse av denne fangen og må nå følge den offisielle prosedyren.
+execution_stagetooltip_lockdown         Alle fanger sendes tilbake på cellen, og fengselet avsperres.
+execution_stagetooltip_testing          Den siste testen for å kontrollere at alt virker som det skal. Strømforsyningen til stolen testes under last. I tillegg planlegges fangens endelige rute – han må kunne gå til henrettelsesrommet på egne ben.
+execution_stagetooltip_assemble         Fengselsdirektøren og sikkerhetssjefen tar turen innom den dødsdømte fangens celle. I tillegg får han besøk av en prest eller en åndelig leder etter eget ønske.
+execution_stagetooltip_witnesses        De som skal bevitne henrettelsen, ankommer fengselet og føres til henrettelsesanlegget. Dette kan være alt fra den dødsdømtes familie til offerets familie.\n\nNb! Vitnene bør få tilbud om stoler.
+execution_stagetooltip_escort           Den dødsdømte eskorteres fra cellen og til henrettelsesanlegget. Fengselsdirektøren, sikkerhetssjefen og presten ledsager ham.
+execution_stagetooltip_execution        Når alle er på plass og alle prosedyrer har blitt fulgt, gis den endelige autorisasjonen til henrettelsen.
+execution_stagetooltip_dismissed        Ansatte og vitner blir sendt ut og kan forlate anlegget.
+execution_stagetooltip_finalreport      Når henrettelsen er fullført, utstedes det en rapport, og du får en vurdering på gjennomførelsen.
+
+execution_underway                      HENRETTELSE PÅGÅR
+execution_result_ok                     Henrettelsen av *N ble utført som planlagt ved *T med den elektriske stolen og med vitner til stede. Standardkompensasjonen på $10.000 bevilges til institusjonen for sin rolle i gjennomføringen.
+execution_result_appealed               Henrettelsen av *N ble utført som planlagt på *T med den elektriske stolen og med vitner til stede. Dessverre har det i ettertid dukket opp nye opplysninger som ville hatt betydning for hans anke av dommen, men det blir ikke tatt noen rettslige skritt mot institusjonen, som bevilges standardkompensasjonen på $10.000 for sin rolle i gjennomføringen.
+execution_result_innocent               Henrettelsen av *N ble utført som planlagt på *T med den elektriske stolen og med vitner til stede. Dessverre har det i ettertid dukket opp nye beviser som viser at *N var uskyldig, men det blir ikke tatt noen rettslige skritt mot institusjonen, som bevilges standardkompensasjonen på $10.000 for sin rolle i gjennomføringen.
+execution_result_illegal                Henrettelsen av *N ble utført som planlagt på *T med den elektriske stolen og med vitner til stede. På grunn av at den lovpålagte ankeprosessen ikke ble fulgt, og ettersom det har dukket opp nye opplysninger som ville ha ført til at den dømtes anke ville ha blitt tatt til følge, ilegges institusjonen en bot på $50.000. Som følge av at den riktige prosedyren ikke ble fulgt, blir alle henrettelser i fengselet avlyst, og eventuelle sittende dødsdømte fanger blir overført til et annet fengsel.
+execution_result_illegalinnocent        Den ulovlige henrettelsen av *N ble utført som planlagt på *T med den elektriske stolen og med vitner til stede. På grunn av at den lovpålagte ankeprosessen ikke ble fulgt, og *N var uskyldig dømt, er administratoren for fengselet sagt opp fra sin stilling med umiddelbar virkning.
+execution_warning_one                   Dersom den neste henrettelsen her ikke skjer i henhold til den riktige prosedyren, vil du få sparken.
+execution_warning_two                   På grunn av at du tidligere ikke har fulgt den riktige prosedyren, vil ett slikt mislighold til føre til at du blir sparket fra stillingen.
+
+execution_error_MissingEquipment        FEIL: MANGLENDE UTSTYR\nDu trenger et henrettelsesrom med en elektrisk stol.
+execution_error_ElectricalSupply        FEIL: STRØMFEIL\nDet er ikke nok strøm til stolen.
+execution_error_NavigationPrisoner      FEIL: FANGEFRAKT\nDen dødsdømte kan ikke gå fra cellen og til henrettelsesrommet.
+execution_error_NoRouteFromRoad         FEIL: INGEN TILGANG\nUtenforstående som skal bevitne henrettelsen, kommer seg ikke frem til henrettelsesrommet.
+execution_error_NoSpaceInRoom           FEIL: IKKE NOK PLASS\nDet er ikke nok ledig plass i henrettelsesrommet til alle vitnene.
+execution_error_NoRoom                  Du trenger et henrettelsesrom før du kan gjennomføre en henrettelse.
+
+roomerror_nokitchen                     Det finnes ingen kjøkken som kan sende mat til dette spiserommet.
+roomerror_noprisoners                   Det er ingen fanger som er satt til å spise i dette spiserommet.
+roomerror_nocanteen_cells               Det er ingen spiserom tilgjengelige fra denne cellen. Fanger i denne cellen vil ikke ha noe sted å spise.
+roomerror_nocanteen_kitchen             Det er ingen spiserom tilgjengelige fra dette kjøkkenet. Det vil derfor ikke få laget noe mat til måltidene.
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             Innhold: *X
+stack_contents                           Innhold: *X x *Y
+mail_contents                            Innhold: *X brev
+mail_opened_from                         Brev fra *X sin *F
+mail_closed_from                         Brev til *X
+
+object_dump                             Søppel
+object_todo                             Gjøreliste: *X
+object_sale_price                       Salgspris: *X
+
+object_door_cyclepermissions            Klikk for å se tilgangstillatelser
+object_door_cyclepermissions_1          (åpen, kun ansatte, lukket)
+
+object_firemen_hosehelp_intro           Brannmenn sikter på alle flammer i nærheten med brannslangen
+object_firemen_hosehelp                 Trykk på H for å sikte med slangen manuelt
+
+interface_clone_help_copy               Hold inne høyre museknapp og dra for å velge område for kloning
+interface_clone_help_paste              Klikk på venstre museknapp for å kopiere det valgte området
+
+object_inactive                         INAKTIV
+object_cctv_moremonitors                Bygg flere overvåkningsskjermer
+object_cctvmonitor_needsguards          Det kreves en vakt for å betjene skjermen
+object_processor_blocked                Arbeidsstedet kan ikke nås
+
+administrator_requiresoffice            Krever kontor
+administrator_requiresoffice_2          *X krever kontor
+office_ownership                        *X sitt kontor
+
+teacher_teaching                        Underviser
+teacher_preparing                       Forbereder
+
+prisoner_assignedto                     Krever: *X
+prisoner_roomquality                    Cellekvalitet: *X (*Y)
+prisoner_roomquality_average            Gjennomsnittlig
+prisoner_roomquality_aboveaverage       Over gjennomsnittet
+prisoner_roomquality_wayaboveaverage    Langt over gjennomsnittet
+prisoner_roomquality_belowaverage       Under gjennomsnittet
+prisoner_roomquality_waybelowaverage    Langt under gjennomsnittet
+prisoner_attendance                     Deltakelse
+prisoner_concentration                  Konsentrasjon
+prisoner_understanding                  Forståelse
+prisoner_concentration_0                Forferdelig
+prisoner_concentration_1                Dårlig
+prisoner_concentration_2                Ok
+prisoner_concentration_3                Bra
+prisoner_concentration_4                Glimrende
+prisoner_passchance                     Suksessjanse: *X %
+prisoner_informant                      Informant
+
+prisoner_dayswithoutincident            *X dager uten hendelser
+prisoner_availablemoney                 Penger: $*X
+
+informant_suspicion                     Mistanke
+informant_title                         INFORMANTER
+informant_none                          Du har ingen informanter engasjert
+informant_hint                          (Rekrutter fanger under press, f.eks. når de sitter på isolat)
+informant_recruitable                   (Potensiell informant)
+informant_target                        Mål
+
+contraband_owner                        Eier: *X
+contraband_ownerunknown                 Eier ukjent
+contraband_stolenfrom                   Stjålet fra *X for *Y timer siden
+contraband_smuggledthrough              Smuglet gjennom *X for *Y timer siden
+contraband_smuggledin                   Smuglet inn av fange for *Y timer siden
+contraband_type                         Type: *X
+contraband_tradevalue_title             Pris
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         Utmattet
+staff_tired                             Sliten
+staff_needsrest                         Ansatte foretrekker å hvile på et personalrom.
+
+dog_needskennel                         Hunder trenger en kennel å sove i.
+
+doctor_requireinfirmary                 Krever en sykestue
+
+entity_carryingequipment                Bærer på *X
+entity_carryingkeys                     Bærer på fengselsnøkler
+entity_carryingstaffkeys                Bærer på personalnøkkel
+entity_wearingarmour                    Går med en *X
+
+reports_schedule                        Legg om alle programmer
+reports_edit                            Rediger plan
+reports_bankloan                        Banklån
+reports_increaseloan                    Økning
+reports_decreaseloan                    Reduksjon
+reports_unlockbankloans                 Låses opp av regnskapsfører
+
+drugs_heroin                            Heroin
+drugs_cocaine                           Kokain
+
+#                                       F.eks. "Bob sin mor"
+visitor_relationship                    *X sin *Y
+visitor_age                             Alder: *S
+
+family_wife                             kone
+family_exwife                           eks-kone
+family_girlfriend                       kjæreste
+family_son                              sønn
+family_daughter                         datter
+family_mother                           mor
+family_father                           far
+family_brother                          bror
+family_sister                           søster
+family_lawyer                           Advokat
+family_priest                           prest
+family_victims                          offerets familie
+family_caption                          Familie:
+family_none                             Ingen
+
+damage_dead                             Død
+damage_unconscious                      Bevisstløs
+damage_serious                          Alvorlig skadet
+damage_injured                          Skadet
+damage_amount                           *X % skadet
+
+message_autosaving                      Autolagrer ...
+
+buildtoolbar_entersearchterm            Skriv inn nytt søkeord ...
+
+deploymentscheduler_title               UTPLASSERINGSPLANLEGGER
+supplyanddemand_supplyheader            TILBUD
+supplyanddemand_demandheader            ETTERSPØRSEL
+
+tooltip_multipleobjects                 Trykk på TAB for å bla gjennom gjenstander
+remotedoor_noservo                      Fjernstyrte dører kan ikke åpnes uten at en dørmotor er koblet til.
+
+roomgrading                             Romgradering
+roomgrading_roomsize                    Romstørrelse på minst *X ruter
+roomgrading_cleanliness                 Renhet over *X %
+roomgrading_outsidewindow               Utendørs vindu
+roomgrading_item                        Gjenstand: *X
+roomgrading_result                      Grad *X
+roomgrading_currentoccupant             Fange har rett på grad *X
+roomgrading_unoccupied                  Ledig
+
+roomerror_nokitchen                     Det finnes ingen kjøkken som kan sende mat til dette spiserommet.
+roomerror_noprisoners                   Det er ingen fanger som er satt til å spise i dette spiserommet.
+roomerror_nocanteen_cells               Det er ingen spiserom tilgjengelige fra denne cellen. Fanger i denne cellen vil ikke ha noe sted å spise.
+roomerror_nocanteen_kitchen             Det er ingen spiserom tilgjengelige fra dette kjøkkenet. Det vil derfor ikke få laget noe mat til måltidene.
+
+ceos_letter                             Kjære sir/madam\n\n\nGratulerer med å ha fullført utdanningen – du er nå en kvalifisert Prison Architect! Snart kan du designe, bygge og drive dine egne fengsler etter å ha begynt med ingenting annet enn en ledig tomt og noen paller med murstein. Men før du setter i gang, ville jeg bare dele noen nyttige tips med deg.\n\n1. Alle fengsler trenger en fengselsdirektør – han bør være din første ansatte. Bygg et fint, lite kontor til ham, så gir han deg tilgang til en rekke avanserte fasiliteter via Byråkrati-systemet.\n\n2. Enkeltstående fengselsceller er dyre, særlig når du har lite penger. Du kan spare penger ved å begynne med en stor varetektscelle, som kan huse flere fanger av gangen.\n\n3. Få på plass kjøkkenet og matsalen før de første fangene kommer, og husk å ansette noen kokker, for ingenting gjør fanger mer irritable enn en tom mage!\n\n4. Det er dyrt å bygge et fengsel, så det gjelder å bli flink til å skaffe penger via tilskudd og kontrakter. Dette finner du via "Rapporter"-skjermen.\n\nDet skulle være alt – lykke til!\n\nAdm.dir.\nPrison Architects Corp.
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			Kapittel *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Dødsdømte
+
+campaignchapter_deathrow_description    Vi har fått en henvendelse om å bygge et henrettelsesrom i dette fengselet. Det må stå ferdig til den planlagte henrettelsen av en av deres innsatte.
+
+campaigncutscene_deathrowmurder         Dobbeltmordet
+campaigncutscene_deathrowconfession     Tilståelse
+
+adviser_deathrow_murder1                Jeg visste jeg ville finne dere to her.
+adviser_deathrow_murder2                Edward! Jeg ...
+adviser_deathrow_murder25               Ikke ...
+adviser_deathrow_murder3                Hva skal du gjøre?
+
+adviser_deathrow_church1                Kan jeg hjelpe deg?
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                Er du ute etter tilgivelse?
+adviser_deathrow_church3                Jeg vet ikke. Jeg må gjøre noe. Jeg kan ikke leve med det jeg har gjort.
+adviser_deathrow_church4                Du må melde deg. Uansett hva du har gjort, kommer du deg ikke unna konsekvensene.
+adviser_deathrow_church5                Du vil ikke kunne leve med deg selv før du tar et oppgjør med fortiden.
+adviser_deathrow_church6                Jeg vil reise tilbake. Jeg vil tilgi henne. Jeg vil at hun skal tilgi meg.
+adviser_deathrow_church7                Gud vil tilgi deg, uansett hva du har gjort, bare du ber ham om det.
+adviser_deathrow_church8                Men du må stå til rette for det du har gjort, og ta straffen. Det er den eneste måten.
+
+adviser_deathrowintro_1                 Dette er litt av en nøtt.
+adviser_deathrowintro_2                 Det er en fange i dette fengselet som er dømt til dødsstraff for dobbeltmord.
+adviser_deathrowintro_3                 Det er her vi kommer inn i bildet. Vi er leid inn for å bygge et henrettelsesrom innen den store dagen.
+adviser_deathrowintrob_1                Det er her jeg vil ha det bygd.
+adviser_deathrowintrob_2                Første trinn i prosjekter som dette er å sette opp selve bygget – med nok plass til et henrettelsesrom og en varetektscelle.
+adviser_deathrowintrob_3                Så la oss komme i gang. Sett opp en ny bygning her.
+
+adviser_deathrow_explain1               Bygningsarbeiderne dine er ansvarlige for å sette opp bygninger.
+adviser_deathrow_explain2               De henter stål og betong fra lagerrommet og tar det med til byggestedet.
+adviser_deathrow_explain3               Så bruker de disse materialene til å sette opp grunnen og reisverket til den nye bygningen.
+adviser_deathrow_explain4               Dette er den delen av byggeprosessen som tar lengst tid, så det gjelder å planlegge i god tid når man skal bygge noe nytt.
+adviser_deathrow_explain5               Mens vi venter, kan vi se oss litt rundt. Bruk WASD eller piltastene for å bevege deg rundt og musehjulet for å zoome inn og ut.
+
+objective_deathrow_building             Sett opp en bygning som kan huse henrettelsesanlegget.
+
+adviser_deathrow_buildinside1           Vi trenger også en inngang til henrettelsesanlegget.
+adviser_deathrow_buildinside2           Bygg en stor fengselsdør i den søndre veggen.
+
+objective_deathrow_buildouterdoor       Bygg en stor fengselsdør
+
+adviser_deathrow_internalwalls1          Inne i bygningen trenger vi en celle og et henrettelsesrom.
+adviser_deathrow_internalwalls2          Del av rommet med noen mursteinsvegger.
+
+objective_deathrow_buildinternalwalls   Bygg skillevegger
+
+adviser_deathrow_internaldoors1          Så setter du store fengselsdører i skilleveggene.
+adviser_deathrow_internaldoors2          Du kan rotere gjenstander før du plasserer dem, ved å klikke på den midtre museknappen (eller trykke på R).
+
+objective_deathrow_buildinternaldoors   Bygg skillevegger (klikk på den midtre museknappen eller trykk på R for å rotere en gjenstand)
+
+adviser_deathrow_designation1           Det ser bra ut. Nå må vi spesifisere rommene der inne.
+adviser_deathrow_designation2           Spesifiser en celle i den minste delen. Det er her den dødsdømte skal bo.
+adviser_deathrow_designation3           Så spesifiserer du henrettelsesrommet i den største delen.
+
+objective_deathrow_designatecell        Spesifiser en celle
+objective_deathrow_designateexecution   Spesifiser et henrettelsesrom
+
+adviser_deathrow_roomrequirements1      De nye rommene må oppfylle visse krav før de blir funksjonelle.
+adviser_deathrow_roomrequirements2      Cellen trenger en seng og et toalett.
+adviser_deathrow_roomrequirements3      Henrettelsesrommet trenger en elektrisk stol.
+
+objective_deathrow_cellobjects1         Bygg en seng
+objective_deathrow_cellobjects2         Bygg et toalett
+objective_deathrow_executionobjects     Bygg en elektrisk stol
+
+adviser_deathrow_optional1              Nå er det viktigste på plass. Men det er fremdeles noen utbedringer du kan gjøre.
+adviser_deathrow_optional2              Det er opp til deg, ettersom dette ikke er påkrevde saker. Det kommer an på hvor mye du bryr deg om fangene og omgivelsene deres.
+adviser_deathrow_optional3              Selve cellen kan forbedres med et vindu mot utsiden og en liten bokhylle.
+adviser_deathrow_optional4              Og anlegget ville sett bedre ut med et litt finere gulv, som tregulv eller mosaikkfliser.
+adviser_deathrow_optional5              På utsiden kan du sette opp noen lys og lage en gangvei hvis du synes det er nødvendig.
+
+adviser_deathrow_transfer05             Her har vi mannen: Edward Romsey. Han var faktisk lærer, tro det eller ei.
+adviser_deathrow_transfer06             Det er ikke opp til oss å avgjøre om han fortjener dette. Domstolen har tatt en beslutning. Vi er bare her for å gjøre jobben vår.
+adviser_deathrow_transfer1              Når du er fornøyd med anlegget, kan du sette i gang og overføre fangen til hans nye celle.
+adviser_deathrow_transfer2              Bare klikk på fotoet i cellen hans for å starte overføringen.
+
+objective_deathrow_path                 (VALGFRITT) Bygg en gangvei til det nye anlegget
+objective_deathrow_window               (VALGFRITT) Sett inn et vindu i cellen
+objective_deathrow_bookshelf            (VALGFRITT) Sett inn en bokhylle i cellen
+objective_deathrow_flooring             (VALGFRITT) Legg nytt gulv med materialer av høyere kvalitet
+objective_deathrow_outerlights          (VALGFRITT) Sett opp noen utelys rundt anlegget
+objective_deathrow_transferinmate       Når du er ferdig, begynner du overføringen av fangen ved å klikke på fotoet i Edwards celle.
+
+adviser_deathrow_setupmurder1           Ikke fell en eneste tåre for denne karen. Han er en iskald morder som er skyldig i tiltalen.
+adviser_deathrow_setupmurder2           Han har til og med innrømmet. Skal jeg lese opp hva han gjorde?
+adviser_deathrow_setupmurder3           Det er heftige saker. "Klokken var rundt 23.00, og lysene var allerede på. Jeg visste at hun var hjemme ..."
+adviser_deathrow_postmurder1            Som jeg sa – iskald morder.
+adviser_deathrow_postmurder2            Det er klart som vann, spør du meg. Han fortjener hver eneste volt han får i seg.
+adviser_deathrow_postmurder3            Alle fortjener tilgivelse, selv han. Er du så sikker at du kan gi en så endelig straff?
+adviser_deathrow_postmurder4            Å ta kona på fersken med en annen mann er ingen unnskyldning for det han gjorde.
+adviser_deathrow_postmurder5            Og han gikk inn dit med et ladd våpen i visshet om at han ville finne dem der. Det er overlagt dobbeltdrap.
+adviser_deathrow_postmurder6            Han har samarbeidet med myndighetene hele veien. Staten gjør et eksempel av ham.
+adviser_deathrow_postmurder7            Hadde han begått denne forbrytelse 15 mil lenger nord, ville han fått livstid i stedet. Er det rettferdig?
+adviser_deathrow_postmurder8            Vil du at en sånn fyr skal gå fri? Jeg kommer til å sove helt greit i visshet om at han er borte.
+           
+
+adviser_deathrowelectricity_1           Bra jobbet så langt.
+adviser_deathrowelectricity_2           Men det er et problem: Henrettelsesrommet virker ikke ennå, for det mangler strøm.
+adviser_deathrowelectricity_3           Vi må koble til strømmen.
+
+adviser_deathrowelectricityb_1          Vi ser nå fengselet i anleggsmodus, som viser det elektriske ledningssystemet for hele fengselet.
+adviser_deathrowelectricityb_2          Hver bygning i fengselet er koblet til strømnettet via disse tykke, underjordiske strømledningene.
+adviser_deathrowelectricityb_3          Strømmen forsynes fra denne understasjonen, som igjen henter strøm fra det nasjonale strømnettet.
+adviser_deathrowelectricityb_4          Som du ser, er hele denne fløyen av fengselet uten strøm. Alle lamper er slukket.
+adviser_deathrowelectricityb_4b         For å fikse dette må vi først åpne anleggsmodus for å se hvorfor lampene ikke virker.
+adviser_deathrowelectricityb_5          De nærmeste strømledningene er for langt unna – ingeniørene våre kan ikke fullføre ledningsnettet for dette området.
+adviser_deathrowelectricityb_6          Trekk ledningen i nærheten for å dekke denne fløyen av fengselet.
+
+objective_deathrow_cellpower            Koble rommene til strømforsyningen.
+
+adviser_deathrow_connectchair_1         Lampene er ikke det eneste som strenger strøm – det gjør også den nye elektriske stolen.
+adviser_deathrow_connectchair_2         Koble henrettelsesanlegget til strømnettet med strømledningene.
+adviser_deathrow_connectchair_3         Selve den elektriske stolen er et spesialutstyr. Den krever en helt egen strømlinje. Du må koble den til direkte til hovedledningen.
+
+objective_deathrow_chairpower           Koble den elektriske stolen til strømmen
+objective_deathrow_condemnedcellpower   Koble cellen til strømmen
+
+adviser_deathrow_testchair_1            Nå tror jeg vi er nesten ferdige, men vi må teste henrettelsesrommet minst én gang før vi bruker det.
+adviser_deathrow_testchair_2            Jeg slår det på i noen sekunder for å undersøke at alt er som det skal være.
+adviser_deathrow_testchair_3            Det virket jo ikke. Det ser ut til at vi har trukket for mye strøm og utløst en automatsikring på kraftstasjonen. Hele fengselet gikk i svart.
+adviser_deathrow_testchair_4            Vi trenger mer kraft for å kunne håndtere spenningstoppen fra den elektriske stolen.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   Først må vi slå på strømmen igjen. Det gjøres i to trinn:
+adviser_deathrow_testchair_5b           Slå på kraftstasjonen ved å klikke på den og velge "Slå på" i menyen som dukker opp.
+adviser_deathrow_testchair_6            Så bygger du tre ekstra kondensatorer så vi har nok kapasitet til å drive den elektriske stolen.
+adviser_deathrow_testchair_7            Når det er gjort, tester du den elektriske stolen igjen ved å klikke på den og velge "Slå på" i menyen.
+
+objective_deathrow_poweron              Slå på kraftstasjonen igjen (klikk på den og velg "Slå på" i menyen)
+objective_deathrow_expandpower          Bytt ut kraftstasjonen med tre nye kondensatorer
+objective_deathrow_chairworking         Test stolen på nytt (klikk på den og velg "Slå på")
+
+adviser_deathrow_execution_1            Bra jobbet. Nå tror jeg vi er ferdige.
+adviser_deathrow_execution_2            Det som skjer heretter, får ikke vi gjort noe med. Vi har vært profesjonelle, og det er viktig i vår bransje.
+adviser_deathrow_execution_3            Prøv å ikke tenke på det som skal skje her.
+
+adviser_deathrow_setupexecution1        Tiden er inne, Edward.
+adviser_deathrow_setupexecution2        Du har gjort det rette, selv om du ikke får tilgivelse i denne verdenen.
+adviser_deathrow_setupexecution3        Snart vil du være hos Gud, og Han skal dømme deg til slutt.
+
+adviser_deathrow_setupexecution4        Edward Romsey. Du er funnet skyldig i to tilfeller av overlagt drap.
+adviser_deathrow_setupexecution5        Straffen er døden.
+adviser_deathrow_setupexecution6        Har du noe du vil si?
+adviser_deathrow_setupexecution7        Susan ...
+adviser_deathrow_setupexecution8        Jeg er lei for det.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 Salg av tidligere fengsel
+finance_cost_equiptazer                 Utstyr: Elektrosjokkvåpen
+finance_cost_equipbodyarmour            Utstyr: Skuddsikker vest
+finance_cost_exports                    Eksport
+finance_cost_foundations                Grunnmur
+finance_cost_cashflow                   Kontantstrøm
+finance_cost_bankloan                   Banklån
+finance_cost_bankloan_repayment         Avdrag
+finance_cost_sharesale                  Aksjesalg
+finance_cost_sharepurchase              Aksjekjøp
+finance_cost_grantadvance               Forskudd på tilskudd
+finance_cost_grantcompletion            Komplett tilskudd
+finance_cost_reformprogram              Reformprogramøkt
+finance_cost_repair                     Reparer
+finance_cost_sellobject                 Selg ting
+finance_cost_landpurchase               Kjøp av tomt
+finance_cost_prisonerintake             Inntak av fanger
+finance_cost_grantcancellation          Avbrytelseskostnader
+finance_cost_grantrefund                 - Tilbakebetaling: *X
+finance_cost_grantfine                   - Bot: *X
+finance_cost_executionfine              Bot for feil henrettelse
+finance_cost_executioncompensation      Godtgjørelse for henrettelse
+finance_cost_shopintake                 Butikksalg
+finance_cost_prisonerwages              Lønn til fanger
+finance_cost_fine                       Bot
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ...
+clock_add_hour                           +
+clock_am                                am
+clock_pm                                pm
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  En spenningssvingning førte til at generatoren ble overbelastet og tok fyr!
+event_powerstationfire_x                En spenningssvingning førte til en katastrofal overbelastning i generatoren, slik at hele greia eksploderte!
+event_powerstationfirelarge             En spenningssvingning førte til at generatoren ble overbelastet og tok fyr!
+event_powerstationfirelarge_x           En spenningssvingning førte til en katastrofal overbelastning i generatoren, slik at hele greia eksploderte!
+event_kitchenfire                       Det har brutt ut brann på kjøkkenet!
+event_waterpipeburst                    Et vannrør har sprukket og forårsaket lekkasje. Fiks det før skaden blir for stor.
+event_bulkintake                        Det har vært en katastrofe på et fengsel i nærheten som har satt en hel fløy ut av spill. Vi har ikke annet valg enn å overføre fangene til fengselet ditt, for det er ingen andre egnede fengsler i nærheten. De kommer snart.
+event_workshopaccident                  En av fangene har blitt alvorlig skadet i en ulykke på verkstedet, og han kan ikke flyttes! Send en lege, og det fort!
+event_subsidence                        Setninger i grunnen har ødelagt en seksjon av ytterveggen. Du må få reparert dette snarest!
+event_earthquake                        Et lokalt jordskjelv har ført til at en hel seksjon av fengselet har kollapset!
+event_virus                             Vi har fått inn flere rapporter om sykdom blant fangene. Det kan være lurt å kartlegge og isolere de smittede så dette ikke sprer seg ytterligere.
+event_virus_x                           Vi har fått inn flere rapporter om sykdom blant fangene, og symptomene er ganske kraftige. Det bør vurdere å isolere og behandle de syke før dette sprer seg for mye.
+
+event_massassassination_1               Identiteten til en rekke vitner i føderale rettssaker er lekket, og noen av dem er innsatte hos oss.
+event_massassassination_2               Det er bestilt leiemord på dem, men vi trenger dem i live. Du må finne disse fangene og holde dem hele til rettssaken har vært.
+event_massassassination_3_x             Vi fikk nyss om dette i seneste laget, så du har ikke mye tid på deg.
+
+event_tvremovaldemand_1                 Media har rettet søkelyset mot alle godene fangene har i fengselet, og det har ført til mye press mot mitt kontor.
+event_tvremovaldemand_2                 Jeg har vedtatt en lov som forbyr TV-er i fengselets fellesområder, så du må fjerne alle slike, ellers blir du bøtelagt. Du har 6 timer på deg.
+event_tvremovaldemand_fine              Du har ikke fjernet alle TV-ene fra fellesrommene, noe som nå er lovpålagt. Du har blitt bøtelagt og vil fortsette å bli det til du etterkommer kravet.
+event_tvremovaldemand_complete          Media har nå rettet søkelyset mot noe annet, og loven som forbyr TV-er i fellesrom, er opphevet. Du står fritt til å sette dem inn igjen hvis du vil.
+
+event_weightsremovaldemand_1            Media har rettet søkelyset mot alle godene fangene har i fengselet, og det har ført til mye press mot mitt kontor.
+event_weightsremovaldemand_2            Jeg har vedtatt en lov som forbyr treningsutstyr i luftegården, så du må fjerne alle vektbenker, ellers blir du bøtelagt. Du har 6 timer på deg.
+event_weightsremovaldemand_fine         Du har ikke fjernet alle vektbenkene fra luftegården, noe som nå er lovpålagt. Du har blitt bøtelagt og vil fortsette å bli det til du etterkommer kravet.
+event_weightsremovaldemand_complete     Media har nå rettet søkelyset mot noe annet, og loven som forbyr vektbenker i luftegården, er opphevet. Du står fritt til å sette dem inn igjen hvis du vil.
+
+event_lessfooddemand_1                  Styret har besluttet å eksperimentere med en rekke kostnadsbesparende tiltak i sine fengsler, deriblant ditt.
+event_lessfooddemand_2                  Du må redusere antallet måltider og variasjonen i dem til det laveste nivået for å se hvilken effekt dette har på regnskapet.
+event_lessfooddemand_fine               Siden du ikke har implementert det nye måltidsregimet vi ba om, ser vi oss nødt til å trekke de forventede besparelsene rett fra dine disponible midler. Dette vil fortsette til du gjør som vi har gitt beskjed om.
+event_lessfooddemand_complete           Matbudsjettseksperimentet er over, og konklusjonen var uklar. Du står fritt til å endre tilbake til det opprinnelige matregimet.
+
+event_removevisitationdemand_1          En hendelse på et annet fengsel har belyst noen mulige problemer med sikkerhetskontrollene ved besøk i fengselet.
+event_removevisitationdemand_2          Inntil dette er grundig evaluert, er alle besøk utsatt. Du har 12 timer på deg til å fjerne alle fengselets besøksrom.
+event_removevisitationdemand_fine       Du har ikke fjernet besøksrommene fra fengselet, til tross for de aktuelle sikkerhetsproblemene. Du har blitt bøtelagt og vil fortsette å bli det til du etterkommer kravet.
+event_removevisitationdemand_complete   Vi har fullført sikkerhetsevalueringen av besøksprosessen, og besøksrommene kan nå settes inn i fengselet igjen hvis du ønsker det.
+
+event_lessworkdemand_1                  Jeg har nettopp fått vite at fangene er misfornøyd med hvor mye de må jobbe i løpet av dagen, og de planlegger opprør hvis dette ikke reduseres.
+event_lessworkdemand_2                  Det var en vakt som overhørte noen si at hvis de måtte jobbe mer enn to timer daglig, kom de til å "rasere stedet".
+event_lessworkdemand_ignore             Det ser ut til at fangene har gitt opp og roet seg. De er fremdeles ikke fornøyde, men det er bra du viser dem hvem som er sjefen her.
+event_lessworkdemand_complete                Fangene har innfunnet seg med arbeidstiden nå – jeg tror de anså de siste par dagene som en slags ferie. Vi kan sette dem i arbeid igjen uten problemer.
+
+event_moresleepdemand_1                 Vi har fått klager på at fangene ikke får nok søvn, og det gjør dem svært irritable.
+event_moresleepdemand_2                 De har sagt at hvis de ikke får minst 7 timers søvn per natt, skal de gjøre opprør.
+event_moresleepdemand_ignore            Det ser ut til at fangene endelig har gitt opp protestene om mangel på søvn. De ble vel rett og slett for trøtte.
+event_moresleepdemand_complete          Hele situasjonen rundt fangenes søvnmangel har noe roet seg, så du kan endre tidspunktene igjen hvis du vil.
+
+event_morefreetimedemand_1              Fangene er visstnok misfornøyd med mengden fritid de har i løpet av dagen.
+event_morefreetimedemand_2              Vaktene har hørt dem si at hvis ikke dette endrer seg snart, kommer de til å gjøre opprør.
+event_morefreetimedemand_ignore         Fangene har roet seg ned og sluttet å klage over mangelen på fritid. Kanskje de innså at det ville bli ennå mindre fritid hvis de alltid befant seg på isolat.
+event_morefreetimedemand_complete       Fangene har nå fått ekstra fritid lenge nok, så du står fritt til å gå tilbake til den opprinnelige ordningen hvis du vil.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Innkommende fanger
+objective_tvremovaldemand               Fjern TV-er fra fellesrommene
+objective_tvremovaldemand_child         Sørg for at det ikke er noen TV-er i fellesrommene
+objective_weightsremovaldemand          Fjern vektbenker fra luftegården
+objective_weightsremovaldemand_child    Sørg for at det ikke er noen vektbenker i luftegården
+objective_lessfooddemand                Reduser antall måltider og variasjonen i måltidene til lav
+objective_lessfooddemand_child          Endre fangenes antall måltider og variasjonen i måltidene til lav
+objective_removevisitationdemand        Fjern alle besøksrom
+objective_removevisitationdemand_child  Sørg for at det ikke er noen besøksrom i fengselet før sikkerhetsevalueringen er fullført
+objective_virus                         Virusutbrudd
+objective_virus_child                   Smittede fanger totalt:
+objective_massassassination             Føderalt vitne\nDato for rettssak
+objective_massassassination_child       Overlevende vitner:
+objective_lessworkdemand                Fangene krever mindre arbeid
+objective_lessworkdemand_child          Reduser arbeidstiden til 2 timer om dagen eller mindre
+objective_moresleepdemand               Gi fangene mer søvn
+objective_moresleepdemand_child         Øk sovetiden til minst 7 timer om dagen
+objective_morefreetimedemand            Gi fangene mer fritid
+objective_morefreetimedemand_child      Øk fritiden til minst 6 timer om dagen
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     Fengselsdirektøren
+warden_default_desc                     Klodens mest balanserte person. Han gjør jobben sin og ikke noe annet. Folk kaller ham bare "direktøren".
+warden_lobbyist_name                    Lobbyisten
+warden_lobbyist_desc                    Lobbyisten har venner i høye stillinger og kan sørge for at vi får tilsendt fanger som er lettere å ha med å gjøre.\n\n - Halverer sannsynligheten for å motta fanger som er voldelige, dødelige, ustabile, farlige eller slåssete.
+warden_lobbyist_desc_short              - Halverer sannsynligheten for å motta fanger som er voldelige, dødelige, ustabile, farlige eller slåssete.
+warden_fear_name                        Rita
+warden_fear_desc                        Rita er hensynsløs og fryktinngytende og er kjent for å bruke frykt som virkemiddel. Ryktene om at hun går med pisk, kan være noe overdrevet.\n\nHalverer sannsynligheten for å motta fanger som er stoiske eller fryktløse\n - Fangene blir nedtrykt dobbelt så fort
+warden_fear_desc_short                  - Halverer sannsynligheten for å motta fanger som er stoiske eller fryktløse\n - Fangene blir nedtrykt dobbelt så fort
+warden_tunnels_name                     J.W. Periwinkle
+warden_tunnels_desc                     Direktør Periwinkle sier han var sappør under krigen. Han sier aldri hvilken krig, men han vet sannelig det meste om å grave tunneler.\n\n - Vakthunder har 50 % sjanse for å avdekke tunneler de snuser opp
+warden_tunnels_desc_short               - Vakthunder har 50 % sjanse for å avdekke tunneler de snuser opp
+warden_calming_name                     Fredsmegleren
+warden_calming_desc                     Fredsmegleren har en uvanlig evne til å roe ned selv de mest voldelige individene. Bare det å være i samme rom som ham gjør folk myke og føyelige.\n\n - Reduserer det totale temperamentet i fengselet og gjør at fangene lager mindre bråk
+warden_calming_desc_short               - Reduserer det totale temperamentet i fengselet og gjør at fangene lager mindre bråk
+warden_contraband_name                  Saphara Acknova
+warden_contraband_desc                  Saphara Acknova har et plettfritt omdømme og en knirkefri CV. Men hun går ikke av veien for lyssky avtaler og tilbud under bordet.\n\n - Sørger for en liten andel av videresalgsprisen for alt som blir funnet av smuglergods\n - Fanger som blir tatt med smuglergods, blir bøtelagt direkte av sparepengene sine
+warden_contraband_desc_short            - Sørger for en liten andel av videresalgsprisen for alt som blir funnet av smuglergods\n - Fanger som blir tatt med smuglergods, blir bøtelagt direkte av sparepengene sine
+buildtoolbar_wardenlobbyist             Lobbyisten
+buildtoolbar_tooltip_wardenlobbyist     Sørger for færre voldelige forbrytere i fengselet
+interfacetopbar_tension_calmingwarden   - Fengselsdirektøren har en beroligende effekt på fangene
+warden_consultingfee                    Konsulenthonorar
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Bestikkelser
+crime_aggravatedburglary          Grovt innbrudd
+crime_burglary                    Innbrudd
+crime_arson                       Ildspåsettelse
+crime_criminaldamage              Skadeverk
+crime_vandalism                   Hærverk
+crime_violentdisorder             Voldelig adferd
+crime_possession                  Besittelse
+crime_possessionintenttosupply    Besittelse for salg
+crime_forgery                     Falskneri
+crime_fraud                       Bedrageri
+crime_counterfeightingcurrency    Myntfalsk
+crime_falseaccounting             Forfalskning av regnskap
+crime_insidertrading              Innsidehandel
+crime_moneylaundering             Hvitvasking av penger
+crime_aggravatedvehicletheft      Grovt biltyveri
+crime_joyriding                   Biltyveri
+crime_dangerousdriving            Uforsvarlig kjøring
+crime_deathbydangerousdriving     Uforsvarlig kjøring med døden til følge
+crime_drivingunderinfluence       Kjøring i påvirket tilstand
+crime_kidnapping                  Kidnapping
+crime_falseimprisonment           Urettmessig frihetsberøvelse
+crime_torture                     Tortur
+crime_assault                     Vold
+crime_aggravatedassault           Grov vold
+crime_assaultinganofficer         Vold mot politimann
+crime_greviousbodilyharm          Grov legemsbeskadigelse
+crime_murder                      Drap
+crime_attemptedmurder             Drapsforsøk
+crime_manslaughter                Uaktsomt drap
+crime_pervertingcourseofjustice   Hindre etterforskning
+crime_contemptofcourt             Forakt for retten
+crime_drunkdisorderlybehaviour    Bråk i alkoholpåvirket tilstand
+crime_escapingfromlawfulcustody   Flukt fra varetekt
+crime_perjury                     Mened
+crime_rioting                     Opprør
+crime_espionage                   Spionasje
+crime_violentdisorder             Voldelig opptreden
+crime_trafficking                 Smugling
+crime_armedrobbery                Væpnet ran
+crime_robbery                     Ran
+crime_carjacking                  Bilinnbrudd
+crime_blackmail                   Utpressing
+crime_handlingstolengoods         Heleri
+crime_videogamepiracy             Ulovlig spillkopiering
+crime_indievideogamepiracy        Ulovlig kopiering av indiespill
+crime_shoplifting                 Butikktyveri
+crime_pickpocketing               Lommetyveri
+crime_cartheft                    Biltyveri
+crime_rape                        Voldtekt
+crime_grossindecency              Grov uanstendighet
+crime_voyeurism                   Voyeurisme

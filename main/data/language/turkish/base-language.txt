@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              Yeni
+dialog_load                             Yükle
+dialog_save                             Kaydet
+dialog_saveas                           Farklı Kaydet
+dialog_delete                           Sil
+dialog_width                            Genişlik
+dialog_height                           Yükseklik
+dialog_name                             İsim
+dialog_type                             Tür
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                W
+dialog_h                                H
+dialog_exit                             Çıkış
+dialog_cancel                           İptal
+dialog_ok                               Tamam
+dialog_open                             Aç
+dialog_close                            Kapat
+dialog_closed                           Kapalı
+dialog_add                              Ekle
+dialog_up                               Yukarı
+dialog_down                             Aşağı
+dialog_yes                              Evet
+dialog_no                               Hayır
+dialog_loading                          Yükleniyor...
+dialog_low                              Düşük
+dialog_medium                           Orta
+dialog_high                             Yüksek
+dialog_none                             Hiçbiri
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Diyalog Editörü
+dialogeditor_back                       Arkaya
+dialogeditor_front                      Öne
+dialogeditor_reloadlanguage             Dili Yeniden Yükle
+dialogeditor_test                       Test
+dialogeditor_window                     Pencere
+dialogeditor_grid                       Izgara
+dialogeditor_caption                    Başlık
+dialogeditor_component                  İçerik
+dialogeditor_select						Seç
+dialogeditor_create						Oluştur
+dialogeditor_background                 Arkaplan Resmi
+dialogeditor_panel                      Panel
+
+dialogcomponent_custom                  Özel
+dialogcomponent_button                  Düğme
+dialogcomponent_container               Kapsayıcı
+dialogcomponent_caption                 Başlık
+dialogcomponent_titlecaption            Başlık Yazısı
+dialogcomponent_checkbox                Onay Kutusu
+dialogcomponent_inputfield              Girdi Alanı
+dialogcomponent_inputslider             Girdi Kaydırıcı
+dialogcomponent_dropdownmenu            Açılır Menü
+dialogcomponent_selectionlist           Seçim Listesi
+dialogcomponent_selectionlistitem       Seçim Listesi Öğesi
+dialogcomponent_scrollbar               Kaydırma Çubuğu
+dialogcomponent_progressbar             İlerleme Çubuğu
+dialogcomponent_canvas                  Tuval
+dialogcomponent_iconbox					Simge Kutusu
+
+dialogposition_absolute                 Kesin
+dialogposition_relative                 Göreceli
+dialogposition_scaled                   Ölçeklenmiş
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Profil Oluşturucu
+profiler_name                           İsim
+profiler_timings                        Zamanlama
+profiler_totaltime                      Toplam
+profiler_glfinishcaption                glFinish
+profiler_reset                          Sıfırla
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Ses Kanalları
+soundeditor_title                       Ses Editörü
+soundinstanceeditor_title				Ses Örneği Editörü
+
+soundeditor_positiontitle		Konum Türü
+soundeditor_instancetitle		Örnek Türü
+soundeditor_looptitle			Döngü Türü
+soundeditor_sourcetypetitle		Ses Türü
+soundeditor_soundnametitle		Ses Adı
+
+soundeditor_volumetitle			Ses
+soundeditor_frequencytitle              Frekans
+soundeditor_mindistancetitle            Minimum Mesafe
+soundeditor_attacktitle                 Saldırı
+soundeditor_sustaintitle                Uzunluk
+soundeditor_releasetitle                Dağılma
+soundeditor_loopdelaytitle              Döngü Gecikmesi
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              Sonraki Olay
+
+soundeditor_play                        Çal
+soundeditor_stop                        Durdur
+
+soundparametereditor_title              Ses Parametresi
+soundparametereditor_typetitle          Tür
+soundparametereditor_linktitle          Şuna Bağlı:
+soundparametereditor_updatetitle        Güncelleme Türü
+soundparametereditor_smoothing          Yumuşatma
+soundparametereditor_chaintitle         Zincir
+
+soundeditor_newdsp                      DSP Ekle
+sounddspeditor_title                    DSP Editörü
+samplebankeditor_title                  Örnek Banka Editörü
+samplebankeditor_addsample              Ses Ekle
+samplebank                              (Örnek Banka)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Bitti
+interfacemode_destroy                         Kaldır
+interfacemode_foundations				Temeller
+interfacemode_construction                    Malzemeler
+interfacemode_planning                        Planlama
+interfacemode_objects                         Nesneler
+interfacemode_designation                     Odalar
+interfacemode_utilities                       Yardımcı Birimler
+interfacemode_staff                           Personel
+interfacemode_deployment                      Yerleştirme
+interfacemode_logistics                       Lojistik
+interfacemode_prisoners                       Mahkumlar
+interfacemode_needs                           İhtiyaçlar
+interfacemode_threats                         Tehditler
+interfacemode_overlays                        Kaplamalar
+interfacemode_research                        Bürokrasi
+interfacemode_emergencies                     Acil Durumlar
+interfacemode_clone                           Klon
+interfacemode_contraband                      İstihbarat
+interfacemode_grading                         Derecelendirme
+interfacemode_spawn                           (Türeme)
+interfacemode_properties                      (Özellikler)
+interfacemode_cutscenes                       (Ara Sahneler)
+interfacemode_selection                       Seç
+
+interfaceoverlay_security                       Güvenlik
+interfaceoverlay_patrols                        Devriyeler
+interfaceoverlay_decay                          Bozulma
+interfaceoverlay_territory                      Bölge
+interfaceoverlay_contraband                     Kaçak Mal
+
+interfaceproperty_indoor                        İçerisi
+interfaceproperty_visible                       Görünebilir
+interfaceproperty_territoryprisoner             Çeteler
+interfaceproperty_territoryguard                Gardiyanlar
+interfaceproperty_sectorprisoner                İsyan
+interfaceproperty_tunnel                        Tünel
+
+interfacedeployment_guards                      Gardiyanlar
+interfacedeployment_patrols                     Gardiyan Devriyeler
+interfacedeployment_dogpatrols                  Köpek Devriyeler
+interfacedeployment_armedpatrols                Silahlı Devriyeler
+interfacedeployment_removeguards                Gardiyanları Kaldır
+interfacedeployment_clearpatrols                Devriyeleri Temizle
+interfacedeployment_targetting                  Lojistik
+interfacedeployment_targettingfood              Gıda Lojistiği
+interfacedeployment_targettinglaundry           Çamaşırhane Lojistiği
+interfacedeployment_securearea                  Güvenli Alan
+interfacedeployment_sharedzone                  Ortak
+interfacedeployment_staffonlyzone               Sadece Personel
+interfacedeployment_maxseczone                  Sadece Maks Güv
+interfacedeployment_medseczone                  Sadece Orta Güv
+interfacedeployment_minseczone                  Sadece Min Güv
+interfacedeployment_protectedzone               Sadece Korumalılar
+interfacedeployment_supermaxzone                Sadece Süper Maks
+interfacedeployment_deathrowzone                Sadece Ölüm Hücresi
+interfacedeployment_unlockedzone                Kilidi Açık
+interfacedeployment_zonered                     Kırmızı Koğuş
+interfacedeployment_zonegreen                   Yeşil Koğuş
+interfacedeployment_zoneblue                    Mavi Koğuş
+interfacedeployment_zoneyellow                  Sarı Koğuş
+
+interfacelogistics_jobs                         Hapishane İşçiliği
+interfacelogistics_removejobs                   İşçiliği Kaldır
+interfacelogistics_targettingfood               Gıda Dağıtımı
+interfacelogistics_targettinglaundry            Çamaşırhane Dağıtımı
+interfacelogistics_roomquality                  Oda Kalitesi
+
+interfaceplanning_wall							Duvarlar
+interfaceplanning_object						Nesneler
+interfaceplanning_route							Yollar
+interfaceplanning_clear							Temizle
+interfaceplanning_zone1							Bölge 1
+interfaceplanning_zone2							Bölge 2
+interfaceplanning_zone3							Bölge 3
+interfaceplanning_zone4							Bölge 4
+interfaceplanning_zone5							Bölge 5
+interfaceplanning_zone6							Bölge 6
+interfaceplanning_zone7							Bölge 7
+interfaceplanning_zone8							Bölge 8
+interfaceplanning_zone9							Bölge 9
+
+interfacecontraband_source                      Tehlikeler
+interfacecontraband_day                          -24 Saat
+interfacecontraband_week                         -7 Gün
+interfacecontraband_alltime                      -30 Gün
+interfacecontraband_informants                  Muhbirler
+interfacecontraband_gangs                       Çeteler
+
+interfaceclone_copy                             Kopyala
+interfaceclone_paste                            Yapıştır
+
+interfacetopbar_todo							Yapılacaklar
+interfacetopbar_balance							Banka *B
+interfacetopbar_budget							Nakit Akışı *C
+interfacetopbar_income							Gelir *I
+interfacetopbar_expenses						Masraflar *C
+interfacetopbar_day								GÜN *D
+
+interfacetopbar_title_balance					Banka Bakiyesi
+interfacetopbar_title_budget					Günlük Nakit Akışı
+interfacetopbar_title_cctv						CCTV
+interfacetopbar_title_day						Gün
+interfacetopbar_title_prisoners					Mahkumlar
+interfacetopbar_title_guards					Gardiyanlar
+interfacetopbar_title_tension                   Tehlike
+
+interfacetopbar_tooltip_balance					Bankadaki para miktarın.\n\nHibe listesi ile daha fazla fon toplamak için tıkla.
+interfacetopbar_tooltip_budget					Mevcut gelir ve giderine göre her gün alacağın para miktarı.\n\nAyrıntılı gelir gider dökümüne erişmek için tıkla. 
+interfacetopbar_tooltip_cctv					Şu anda sahip olduğun CCTV kameralarının ve monitörlerin sayısı.
+interfacetopbar_tooltip_day						Hapishaneyi ne kadar zamandır idare ettiğin.
+interfacetopbar_tooltip_prisoners				Şu anda hapishanende sahip olduğun ve tutabileceğin mahkum sayısı.
+interfacetopbar_tooltip_guards					Hapishanende çalışmak için hazır kaç tane gardiyan olduğu.
+interfacetopbar_tooltip_tension                 Güvenlik şefine göre hapishanenin toplam tehlike seviyesi.
+
+interfacetopbar_tooltip_recenttransactions      Son İşlemler
+
+interfacetopbar_tooltip_gametime                Toplam oynama süresi : *X saat, *Y dakika, *Z saniye
+
+interfacetopbar_tooltip_totalguards             Toplam *X gardiyan
+interfacetopbar_tooltip_guardincapacitated      *X Görevlendirilmemiş
+interfacetopbar_tooltip_guardstationed          *X Atanmış 
+interfacetopbar_tooltip_guardpatrolling         *X Devriyede
+interfacetopbar_tooltip_guardavailable          *X Müsait
+interfacetopbar_tooltip_guardresting            *X Dinleniyor
+interfacetopbar_tooltip_guardactive             (*X Olaylara Karşılık Veriyor)
+interfacetopbar_tooltip_guarddoingjob           *X Görev Başında
+interfacetopbar_tooltip_idle                    (*X Boşta)
+interfacetopbar_tooltip_armedguards              + *X Silahlı Gardiyan
+interfacetopbar_tooltip_dogs                     + *X Köpek Eğiticisi
+
+interfacetopbar_unlimitedfunds                  SINIRSIZ FON
+
+interfacetopbar_budget_moneyin					Giren Para: $*M/gün
+interfacetopbar_budget_moneyout					Çıkan Para: $*M/gün
+interfacetopbar_budget_cantgonegative           Mali durumu yönetmek için bir Muhasebeci bulana kadar nakit akışın negatif (yani masraflar, gelirden fazla) olamaz.
+
+interfacetopbar_prisoners_types					Şu anda tutulan Mahkum sayısı: *X
+interfacetopbar_prisoners_capacity              Maksimum güvenlik kapasitesi: *X
+interfacetopbar_prisonercells_shared            Ortak kapasite: *X
+interfacetopbar_prisonercells_unlocked          Kilidi açılmış kapasite: *X
+interfacetopbar_prisonercells_minseconly        Minimum kapasite: *X
+interfacetopbar_prisonercells_medseconly        Orta kapasite: *X
+interfacetopbar_prisonercells_maxseconly        Maksimum kapasite: *X
+interfacetopbar_prisonercells_protectedonly     Korumalı kapasite: *X
+interfacetopbar_prisonercells_supermaxonly      Süper Maks kapasitesi: *X
+interfacetopbar_prisonercells_deathrowonly      Ölüm Hücresi kapasitesi: *X
+interfacetopbar_prisonercells_staffonly         Müsait olmayan: *X
+interfacetopbar_prisoners_nocells               *X Mahkuma hücre atanamıyor
+
+interfacetopbar_cctv_current					Şu an *C kamera çalışıyor
+interfacetopbar_cctv_cap						*C kamera için alan
+
+interfacetopbar_tension_currentlevel            Tehlike seviyesi *X
+interfacetopbar_tension_increasing              ve artıyor
+interfacetopbar_tension_decreasing              ve azalıyor
+interfacetopbar_tension_description             ETKENLER:
+interfacetopbar_tension_happyprisoners           - *X mahkum kendilerine iyi davranıldığını söylüyor
+interfacetopbar_tension_unhappyprisoners         + *X mahkumun ciddi şikayetleri var
+interfacetopbar_tension_lockedupprisoners        + *X mahkum hücrelerinde veya hücre hapsinde tutsak
+interfacetopbar_tension_riotingprisoners         + *X mahkum isyanda
+interfacetopbar_tension_wellfedprisoners         - *X mahkum iyi beslenmiş
+interfacetopbar_tension_suppressedprisoners      = *X mahkum baskı altında (itaatkar)
+interfacetopbar_tension_activeriotguards         + *X isyan polisi alanda
+interfacetopbar_tension_activearmedguards        + *X silahlı gardiyan hizmette
+interfacetopbar_tension_recentdeaths             + *X kişi son zamanlarda öldürüldü
+interfacetopbar_tension_recentsearches           + *X mahkum son zamanlarda gereksiz yere arandı
+interfacetopbar_tension_angrygangmembers         + *X ÇETE ÜYESİ ÖFKELİ (liderleri cezalandırıldı)
+interfacetopbar_tension_recentpunishments        = (CAYDIRICI) Son zamanlarda *X ceza verildi
+interfacetopbar_tension_recentcalmed             - *X mahkum son zamanlarda sakinleştirildi
+
+interfacecontrol_mainmenu                       Ana Menü (Esc)
+interfacecontrol_mainmenu_tooltip               Ana Menüye Git (Yeni/Yükle/Kaydet/Çık vb)
+interfacecontrol_todo                           Yapılacaklar Listesi
+interfacecontrol_todo_tooltip                   Yapılacaklar listesine git
+interfacecontrol_research                       Bürokrasi
+interfacecontrol_research_tooltip               Bürokrasi ekranında yeni öğelerin, personel türlerinin ve tesislerin kilidini açmak için yöneticilerini atayabilirsin.
+interfacecontrol_grading                        Hapishane Derecelendirmesi
+interfacecontrol_grading_tooltip                Hapishane Derecelendirmesi ekranı ne kadar başarılı olduğunu görebileceğin genel puanları gösterir.
+
+interface_confirmlandbuy                        $*X karşılığında bu arazi parçasını satın almak istiyor musun?
+interface_loadconfirm                           Bu haritayı yüklemek istediğinden emin misin? Kaydedilmemiş tüm ilerleme kaybolacak.
+interface_saveconfirm                           Bu dosya adı ile kaydetmek istediğinden emin misin? Mevcut verinin üzerine yazılacak.
+
+interface_landbuylabel                          *Xm x *Ym Toplam alan *A metre kare *C
+
+interface_action_dismantle                      Sök
+interface_action_dump                           Çöpe At
+interface_action_repair                         Tamir Et
+interface_action_medicalbay                     Sağlık Bölümü
+interface_action_search                         Ara
+interface_action_searchcell                     Hücreyi Ara
+interface_action_searchcellblock                Hücre Bloğunu Ara
+interface_action_sack                           Kov
+interface_action_doormodenormal                 Kapı Modu: Normal
+interface_action_doormodelockedshut             Kapı Modu: Kilitli
+interface_action_doormodelockedopen             Kapı Modu: Açık
+interface_action_switchon                       Aç
+interface_action_switchoff                      Kapat
+interface_action_sellobject                     Nesneyi Sat
+interface_action_dismiss                        İşten Çıkar
+interface_action_connect                        Bağla
+interface_action_clearconnections               Bağlantıları Temizle
+interface_action_servoopen                      Harekete Geçtiğinde Açıl
+interface_action_servoclose                     Harekete Geçtiğinde Kapan
+
+interface_contents_container                    İçerik: *X 
+interface_contents_stack                        İçerik: *X x *Y 
+
+interface_skip                                  ATLA
+
+interface_error_riotmove                        Girilemiyor: İsyan
+
+interface_foundationsinprogress                 Temel atılıyor
+riot_underway                                   İSYAN SÜRÜYOR
+riot_status_prisoners                           *X mahkum isyan ediyor
+shakedown_underway                              HÜCRE ARAMASI SÜRÜYOR
+shakedown_found                                 Bulunan:
+
+gameover_caption                                Devam etmek için ESC'ye bas
+
+sector_jobs_max                                 Maks İş *X
+sector_jobs_qualified                           Vasıflı Mahkumlar: *X
+sector_jobs_required                            Gereken: *X
+sector_noaccess                                 ERİŞİM YOK
+sector_insecure                                 EMNİYETSİZ
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Donanım Uyumluluğu Testi
+hardware_compat_message					İzninle bilgisayarın donanımı hakkında bilgi toplamak istiyoruz.\n\nBu bilgiler tamamıyla gizli tutulacak ve Prison Architect'in çeşitli bilgisayar donanımlarında desteklenmesini sağlamamız için bize yardımcı olacak.
+hardware_compat_accept					Kabul Et
+hardware_compat_decline					Reddet
+
+connectionmenu_connect                  Bağla
+connectionmenu_disconnect               Bağlantıyı Kes
+connectionmenu_clear                    Temizle
+connectionmenu_done                     Tamam
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      İnşa Et
+buildtoolbar_reports                    Raporlar
+buildtoolbar_bangup                     Hücreye Tık
+buildtoolbar_lockdown                   Tecrit Hücresine Tık
+buildtoolbar_shakedown                  Hücre Araması
+buildtoolbar_weaponsfree                Atış Serbest
+
+buildtoolbar_tooltip_reports			Mahkumların, personelin, gelirin, hibelerin ve daha fazlası hakkında bilgiyi görmek için raporlar penceresini aç.
+buildtoolbar_tooltip_bangup				İstekli olan tüm mahkumları hücrelerine geri gönder. Eğer çok uzun süre mahkumları burada kilitli tutarsan çok kızgın olacaklardır.
+buildtoolbar_tooltip_lockdown			Hapishanedeki tüm kapıları hemen kapat.
+buildtoolbar_tooltip_shakedown          Tüm Hücreleri derhal arama emri ver. Bu biraz zaman alacak ve mahkumları çok rahatsız edecek.
+buildtoolbar_tooltip_weaponsfree        Ölümcül güç kullanmaları için silahlı gardiyanlarına yetki verir.
+
+buildtoolbar_cost						Maliyet: $*C
+buildtoolbar_cost_sqrft					Maliyet: $*C /kare
+buildtoolbar_wages						Maaş: $*W /gün
+buildtoolbar_outdoor					Sadece dışarısı
+buildtoolbar_indoor						Sadece içerisi
+buildtoolbar_walk_speed					Yürüme Hızı: *S
+buildtoolbar_walk_speed_slow			Yavaş
+buildtoolbar_walk_speed_norm			Normal
+buildtoolbar_walk_speed_fast			Hızlı
+buildtoolbar_locked                     KİLİTLİ
+buildtoolbar_locked_research			KİLİTLİ (*B ihtiyacın var)
+buildtoolbar_locked_administrator		KİLİTLİ (*B gerekli)
+buildtoolbar_room						Oda
+
+buildtoolbar_electrical                  - Elektrik
+buildtoolbar_highpower                   - Yüksek Güç
+buildtoolbar_water                       - Su Bağlantısı Gerektirir
+buildtoolbar_wired                       - Telli (diğer Telli nesnelere bağlanır)
+buildtoolbar_modcontent                  Mod İçeriği
+
+buildtoolbar_popup_foundations			Hapishaneni şekillendirmek için binaları Oluştur/Yık.
+buildtoolbar_popup_construction			Farklı türden zemin ve duvarlar.
+buildtoolbar_popup_planning				Çalışanlar plan dışına çıkacak korkusu olmadan planlama yap.
+buildtoolbar_popup_designation			Hapishane alanlarını belirli işlevler için belirle.
+buildtoolbar_popup_objects				Hapishanene kullanışlı öğeler yerleştir.
+buildtoolbar_popup_overlays				Hapishane yerleşimindeki zayıflıkları görsel olarak tespit et.
+buildtoolbar_popup_utilities			Sıhhi tesisat ve elektrik sistemleri.
+buildtoolbar_popup_staff				Hapishaneyi işler vaziyette tutmak için gerekli kişileri işe al.
+buildtoolbar_popup_deployment			Hapishanenin alanlarına personel ata.
+buildtoolbar_popup_logistics            Mahkumları hapishanede çalışmak üzere görevlendir. Ayrıca kantin ve çamaşır atamalarını elle kontrol etme.
+buildtoolbar_popup_research				Hapishanen için yeni imkanların kilidini aç
+buildtoolbar_popup_emergencies			Eğer işler daha kötüye gidiyorsa acil servisi ara.
+buildtoolbar_popup_spawn				Türemek mi? Bu da ne işe yarar ki?
+buildtoolbar_popup_clone				Mevcut yapılarını kopyala ve yapıştır.
+buildtoolbar_popup_properties			Bu lanet şeyi öğren.
+buildtoolbar_popup_contraband           Hapishanedeki kaçak malların kaynaklarını ve son ele geçirilen tüm kaçak malları gösterir. Ayrıca Gizli Muhbirlerini ve onların bilgilerini gösterir.
+buildtoolbar_popup_grading              Dört temel ölçütle hapishanenin genel derecelendirmesine bak - Cezalandırma, Düzen, Güvenlik ve Sağlık. Ayrıca hapishanendeki yeniden suç işleme oranını da gösterir.
+buildtoolbar_popup_room_cell			Mahkumların yaşayacağı yer.
+buildtoolbar_popup_room_holdingcell		Mahkumlar için hücre bulunana kadar bu odaya yerleştirilirler.
+buildtoolbar_popup_room_solitary		En kötünün en kötüsü için bir izole hapis biçimi.
+buildtoolbar_popup_room_canteen			Mahkumlarının öğleden sonra çay içebilecekleri bir yer.
+buildtoolbar_popup_room_kitchen			Mahkumlarına yemek hazırlayan aşçıların alanı.
+buildtoolbar_popup_room_shower			Mahkumlarının bitlerden arınmış ve tertemiz tutulması için kullanılır.
+buildtoolbar_popup_room_yard			Mahkumlarının günde birkaç saat keskin nişancı kulelerin gözetimi altında güneşlenmelerine izin ver.
+buildtoolbar_popup_room_storage			Hapishane personelinin ihtiyacı olan malzemeyi tutmak için belirlenmiş alan.
+buildtoolbar_popup_room_deliveries		Malların, malzemelerin ve mahkumların indirildiği yer.
+buildtoolbar_popup_room_garbage			Atığının toplandığı yer.
+buildtoolbar_popup_room_execution		Mahkumlarını ölüme gönderdiğin yer.
+buildtoolbar_popup_room_workshop		Sana iskele levhaları yaparken can sıkıntısından ölmeleri için mahkumlarını gönderdiğin yer.
+buildtoolbar_popup_room_security		Memurların için ofis.
+buildtoolbar_popup_room_office			İdari personelinin çalışma alanı.
+buildtoolbar_popup_room_medicalward		Tıbbi personelinin çalışma alanı.
+buildtoolbar_popup_room_morgue			Ölen mahkumları ve personeli gönderdiğin yer.
+buildtoolbar_popup_room_commonroom		Mahkumlarının biraz dinlenmelerine izin vereceğin yer.
+buildtoolbar_popup_room_kennel          Köpeklerinin yaşadığı yer.
+buildtoolbar_popup_room_chapel          Bürokratik heyetin bir araya gelip mahkumların dini ihtiyaçlarına çözüm bulduğunda ne olur? Bir 'Çoklu İnanç Dua Odası' olur. Biz bunu Şapel olarak adlandırıyoruz.
+buildtoolbar_popup_room_paroleroom      Mahkumların, cezalarının %50 ve %75'ini çektikten sonra şartlı tahliye edilmeyi hak ederler. Onların kaderlerine bu odada Hapishane Müdürü ve Şef karar verecek.\n\nNb Ek güvenlik tavsiye edilir. Şartlı tahliyeleri reddedildiğinde mahkumların çok sinirlendikleri bilinmektedir.
+buildtoolbar_popup_room_library         Hapishanene ülke çapından kutularca atılmış ve kullanılmış kitap gönderilecek. Mahkumlar bu kitapları raflara dizmeli.
+buildtoolbar_popup_room_intake          Mahkumların ilk geldiklerinde götürüldükleri yer.
+
+buildtoolbar_popup_obj_bed				Çok yumuşak değil, çok sert de değil, sadece doğru olanı. Peki, aslında, çok sert ve çok küçük.
+buildtoolbar_popup_obj_toilet			Eğer tüm bu kaçık şeylere inanıyorsan, bu temel bir insan hakkı.
+buildtoolbar_popup_obj_table			Bir sandalye ile mükemmel gider.
+buildtoolbar_popup_obj_chair			Bir masa ile ışıl ışıl gider.
+buildtoolbar_popup_obj_bench			Üzerine oturmak için.
+buildtoolbar_popup_obj_electricchair	Adaletin 2000V'sini vermek için.
+buildtoolbar_popup_obj_jaildoor			Mahkumlarını olmaları gereken yerde tutar.
+buildtoolbar_popup_obj_jaildoorlarge	Çok sayıda mahkumunu olmaları gereken yerde tutar.
+buildtoolbar_popup_obj_door				Basit bir kapı.
+buildtoolbar_popup_obj_solitarydoor		En güçlü mahkumların bile kaçmalarını önleyecek sağlam bir kapı.
+buildtoolbar_popup_obj_staffdoor		Kilitli bir kapıyı sadece Gardiyanlar değil, herhangi bir personel de açabilir.
+buildtoolbar_popup_obj_window			Güneşi görebilmek için.
+buildtoolbar_popup_obj_windowlarge		Daha fazla güneş görebilmek için.
+buildtoolbar_popup_obj_tree				Küresel ısınmaya karşı atılacak adımlar bizim sorumluluğumuzda.
+buildtoolbar_popup_obj_light			Mahkumları gün boyu görebilmeni sağlar.
+buildtoolbar_popup_obj_cooker			Mahkumlarına sıcak yemek ile lüks hayatı yaşat.
+buildtoolbar_popup_obj_fridge			Gıda stokunu çürümekten korur..
+buildtoolbar_popup_obj_bin				Kaçak mallar söz konusu olduğunda düzenlilik önemlidir.
+buildtoolbar_popup_obj_sink				Tüm çalışanların ellerini yıkamaları gerekli.
+buildtoolbar_popup_obj_servingtable		Mahkumlarına yemek servisi yap.
+buildtoolbar_popup_obj_showerhead		Duş başlığı. Duş için.
+buildtoolbar_popup_obj_bookshelf		Kitapların konulduğu bir raf. 
+buildtoolbar_popup_obj_officedesk		Personelinin çok not tutması gerekli. Bunun için onlara parlak bir masa ver.
+buildtoolbar_popup_obj_filingcabinet	Personelinin yazdığı şeyleri derli toplu tutabilmesi gerekli.
+buildtoolbar_popup_obj_medicalbed		Mahkumlar çalana kadar uyuşturucuları tutmak için bir yer.
+buildtoolbar_popup_obj_morgueslab		Mezara göndermeden önce ölülerin huzurlu bir yerde kalmasını sağla.
+buildtoolbar_popup_obj_drain			Zeminden suyu temizle.
+buildtoolbar_popup_obj_sprinkler		Bir yangın çıkınca o alana otomatik olarak su püskürtür.
+buildtoolbar_popup_obj_metaldetector	Bu cihazdan geçen mahkumlarda kaçak malları bulur. Kaçak malı almak için yakınlarında bir gardiyan gerekir.
+buildtoolbar_popup_obj_weightsbench		Mahkumlarının egzersiz yapmalarına izin vererek onları mutlu tut.
+buildtoolbar_popup_obj_phonebooth		Mahkumlar aileleriyle konuşmak isteyebilirler. Bu telefon kabinleri ile konuşabilirler.
+buildtoolbar_popup_obj_tv				Zihin uyuşturan bir sıradanlık ile mahkumlarını sakinleştir.
+buildtoolbar_popup_obj_largetv			Çoğu mahkumunun beyin çürümesi deneyimlerini paylaşmalarına izin ver.
+buildtoolbar_popup_obj_pooltable		Bilardo ile hapishanenin monotonluğuna son ver. 
+buildtoolbar_popup_obj_dismantleobject	Hapishanenden bir nesneyi kaldır.
+buildtoolbar_popup_obj_altar            Dualarını doğrudan yüksek seçim gücüne gönderir.
+buildtoolbar_popup_obj_pews             İnançlı olana uygun. En sert, doldurulmamış tahtadan yapılmış.
+buildtoolbar_popup_obj_prayermat        Mahkumların dua ederken onları kirli zeminden korur. 
+
+buildtoolbar_popup_staff_workman		Planlarına uygun olarak hapishaneyi senin için inşa edecekler.
+buildtoolbar_popup_staff_guard			Mahkumlarını kontrol altında ve beladan uzak tutmak için kullanılır.
+buildtoolbar_popup_staff_armedguard     Pompalı taşıyan bu arkadaşa mahkumlar saldırmadan önce iki kez düşünecek.\n\nNot: Her silahlı gardiyanın Cephanelik'te kendine has bir dolabı olması gerekir.
+buildtoolbar_popup_staff_doctor			Gardiyan da olsa mahkum da olsa yakınındaki tüm yaralı kişileri otomatik olarak iyileştirir.
+buildtoolbar_popup_staff_cook			Hazırladığı yemeklerle mahkumlarının karnını doyurur.
+buildtoolbar_popup_staff_gardener		Hapishanenin zeminini güzel ve düzenli tutar.
+buildtoolbar_popup_staff_janitor		Hapishanenin içini güzel ve düzenli tutar. Ayrıca çamaşırhaneye yardım edebilir.
+buildtoolbar_popup_staff_warden			Hapishanenin büyük yöneticisi. Gelişmiş personeli araştırıp işe almadan önce gereklidir.
+buildtoolbar_popup_staff_chief			Yerleştirmeye, CCTV'ye ve isyan gardiyanları araştırma öğelerine erişim sağlayan gelişmiş bir personel.
+buildtoolbar_popup_staff_foreman		Hademe ve Bahçıvana erişebilmek için sana imkan sağlayan gelişmiş bir personel.
+buildtoolbar_popup_staff_psychologist	Mahkumlarının zihnini anlamana imkan sağlayan gelişmiş bir personel. 
+buildtoolbar_popup_staff_accountant		Finansal raporlarına erişim sağlayan gelişmiş bir personel.
+buildtoolbar_popup_staff_lawyer			Hapishanenin üzerinde muhteşem kontrol sağlamak için kuralları esnetmene yardımcı olan gelişmiş bir personel.
+
+buildtoolbar_popup_uts_powerstation		Hapishanende kullanılacak elektriği üretir.
+buildtoolbar_popup_uts_capacitor		Bir elektrik santrali yanına yerleştirilince üretilen elektrik miktarını artırır.
+buildtoolbar_popup_uts_electricalcable	Elektriği hapishane çevresine dağıtır.
+buildtoolbar_popup_uts_powerswitch		Bağlı olan herhangi bir kabloya elektriği iletir.\n\nAçık/kapalı konuma getirmek için sağ tuşa tıkla.
+buildtoolbar_popup_uts_waterpumpstation	Hapishanene su kaynağı sağlar.
+buildtoolbar_popup_uts_pipevalve		Bağlı olan herhangi bir boruya su iletir.
+buildtoolbar_popup_uts_pipelarge		Büyük miktarda suyu hapishane çevresine dağıtır. Muhtemelen bok kokusu içinde 500 m boyunca emeklenebilecek kadar büyük.\n\nNbEviye, duş başlığı vs. bağlamak için genelde kullanılmaz. Basınç çok yüksektir, bunun için bir küçük boru kullan.
+buildtoolbar_popup_uts_pipesmall		Tuvalet, duş, eviye v.b. Öğelerini büyük boru ağına bağlamak için kullanılır. Basınç çok düşük, bu yüzden sınırlı bir uzunluk var ve basınç çok düşük olmadan kısa borunun kaldırabileceği sınırlı bir uzunluk var.
+buildtoolbar_popup_uts_cctv				Gardiyanların her an her yerde olmasına gerek kalmadan hapishaneyi gözetle.\n\nCCTV Monitörünün çalışması için ona bir kamera bağlamalısın.
+buildtoolbar_popup_uts_cctvmonitor		Bir Güvenlik Odasına inşa edilmek ve bir Gardiyan tarafından çalıştırılmak üzere tasarlanmıştır. Hapishanendeki CCTV kameralarını uzaktan izler.\n\nBağlantı aracını kullanarak bu monitörü CCTV kameralarına bağla.\n\nNot: Aynı anda en fazla sekiz kamera görüntülenebilir. Eğer sekiz kameradan fazlasını bağlarsan, monitör kameralar arası geçiş yaparak sadece kısmi kapsama verir.
+buildtoolbar_popup_uts_DoorControlSystem  Bir Güvenlik Odasına inşa edilmek ve bir Gardiyan tarafından çalıştırılmak üzere tasarlanmıştır. Hapishanendeki kapıları uzaktan açmak için kullanılabilir\n\nBağlantı aracını kullanarak bu sistemi Kapı Servolarına bağla.. Kapı Servoları, uzaktan kontrol etmek istediğin kapılara yerleştirilmelidir.\n\nNot: Bunu istediğin kadar Servoya bağlayabilirsin, ancak sistemi çalıştıran Gardiyan saniyede en fazla iki kapı açabilir.
+buildtoolbar_popup_uts_phonemonitor     Bir Güvenlik Odasına inşa edilmek ve bir Gardiyan tarafından çalıştırılmak üzere tasarlanmıştır Mahkumların tüm telefon aramalarını izlemeni sağlar, böylece planlanan yasadışı faaliyetleri öğrenebilirsin.\n\nBağlantı aracını kullanarak bu sistemi Telefon Kulübelerine bağla.
+buildtoolbar_popup_uts_Servo            Uzaktan kontrol etmek istediğin bir kapıya servo yerleştir. Motor dişlilerinin kapının üstünde olduğundan emin ol.\n\nYerleştirildiğinde, bir Kapı Kontrol Sistemi veya bir Kapı Zamanlayıcısı ile Servo çalıştığında kapı açılacaktır.\n\nServolar birbiriyle zincirleme bağlanabilir, böylece ilk kapı açıldığında sonrakileri de çalıştıracaktır.
+buildtoolbar_popup_uts_LogicCircuit     Sadece gelişmiş mimarlar.\n\nGirdilere göre mantıksal işlemi uygulayan ve buna göre çıktıyı ayarlayan basit bir devre kutusu.\n\nKullanılabilen işlemler: Ve / Veya / Yok / Ve Değil / Ne De / Xor\nMantıksal işlemler arasında geçiş yapmak için sağ tıkla.
+buildtoolbar_popup_uts_LogicBridge      Sadece gelişmiş mimarlar.\n\nGelen sinyali alır ve aynı kareye yerleştirilmiş Elektrik Kablosuna köprü yapar. Bu Elektrik Kablosu, aynı Elektrik Kablosuna yerleştirilmiş diğer bir Mantıksal Devreye sinyali iletecektir.\n\nSıradan bir sinyali tüm hapishaneye 'yaymak' için kullanılabilir, örn. sıradan bir Saat sinyalini iletmek için kullanışlıdır.
+buildtoolbar_popup_uts_DoorTimer        Günün belirli saatlerinde kapıları otomatik olarak açmak için kullanılabilir.\n\nBağlantı aracını kullanarak bu zamanlayıcıyı Kapı Servolarına bağla.
+buildtoolbar_popup_uts_Wire             Uzaktan erişim sistemlerini birbirine bağla.
+buildtoolbar_popup_uts_showallwires		Hapishanendeki tüm bağlanmış kabloları gösterir.
+buildtoolbar_popup_uts_remotedoor       Bir anahtar ile açılabilen güçlü bir metal kapı (Sadece uzaktan açılabilir). Bir Mahkum, Hapis Anahtarlarını eline geçirdiğinde toplu firar olaylarını önlemek için bu kullanılır.
+buildtoolbar_popup_uts_dismantleutility	Hapishanenden bir araç nesnesini kaldır.
+buildtoolbar_popup_uts_pressurepad      Bir şeyler pedin üzerinde olduğunda bağlantılı nesnelere bir sinyal gönderir.
+buildtoolbar_popup_uts_statuslight      Sinyale bağlı olarak kırmızı veya yeşil yanar. 
+
+buildtoolbar_popup_autolights_name      Otomatik Işıklar
+buildtoolbar_popup_autolights           Otomatik Işık Yerleştirme
+buildtoolbar_popup_autolights_desc      Işıklar seçildiğinde, yeni oluşturulan binalara otomatik olarak yerleştirilir.
+
+buildtoolbar_contraband_source          Hapishanende kaçak malların çalınabileceği yerleri gösterir.
+buildtoolbar_contraband_day             24 saat içinde el koyulan tüm kaçak malları gösterir.
+buildtoolbar_contraband_week            7 gün içinde el koyulan kaçak malları gösterir.
+buildtoolbar_contraband_alltime         Hapishanenin geçmişinde el koyulan tüm kaçak malları gösterir.
+buildtoolbar_contraband_informants      Gizli muhbir tarafından toplanılan bilgileri gösterir.
+
+buildtoolbar_deployment_Guards          Mahkumları hapishanenin bölgelerine ata.
+buildtoolbar_deployment_Patrols         Devriye güzergahları oluşturmak için tıkla ve sürükle\n\nBir gardiyanı devriye güzergahına atamak için mevcut bir devriye karesine tekrar tıkla.\nGardiyan devriyelerini temizlemek için sağ tuş tıkla ve sürükle.
+buildtoolbar_deployment_DogPatrols      Devriye güzergahları oluşturmak için tıkla ve sürükle\n\nBir bekçi köpeğini devriye güzergahına atamak için mevcut bir devriye karesine tekrar tıkla.\nBekçi Köpeği devriyelerini temizlemek için sağ tuş tıkla ve sürükle.
+buildtoolbar_deployment_ArmedPatrols    Devriye güzergahları oluşturmak için tıkla ve sürükle\n\nBir silahlı gardiyanı devriye güzergahına atamak için mevcut bir devriye karesine tekrar tıkla.\nSilahlı Gardiyan devriyelerini temizlemek için sağ tuş tıkla ve sürükle.
+buildtoolbar_deployment_SharedZone      Tüm mahkumlar için bu bölgeye izin verilecek.
+buildtoolbar_deployment_MinSecZone      Bu bölgeye sadece minimum güvenlikli mahkumların girmesine izin verilecek.
+buildtoolbar_deployment_MedSecZone      Bu bölgeye sadece orta güvenlikli mahkumların girmesine izin verilecek.
+buildtoolbar_deployment_MaxSecZone      Bu bölgeye sadece maksimum güvenlikli mahkumların girmesine izin verilecek.
+buildtoolbar_deployment_ProtectedZone   Bu bölgeye sadece 'korumalı gözaltı' mahkumlarının girmesine izin verilecek.
+buildtoolbar_deployment_SuperMaxZone    Bu bölgeye sadece 'Süper Güv' mahkumların girmesine izin verilecek.
+buildtoolbar_deployment_DeathRowZone    Bu bölgeye sadece 'ölüm hücresi' mahkumlarının girmesine izin verilecek.
+buildtoolbar_deployment_StaffOnlyZone   Bu bölgeye sadece personelin girmesine izin verilecek.
+buildtoolbar_deployment_UnlockedZone    Bu bölgeye herkesin girmesine izin verilecek ve tüm kapılar kilitlenecek.
+
+job_matsassigned                        Atanan Malzemeler
+job_matsavailable                       Mevcut Malzemeler
+job_awaitingmaterials                   Bekleyen Malzemeler
+job_inprogress                          Görev İşlemde
+job_blocked                             Görev (Engellenmiş)
+job_queued                              Görev (Sırada)
+
+job_failed_noroute                      Yol Yok
+job_failed_nomaterials                  Malzeme Yok
+job_failed_toodangerous                 Çok Tehlikeli
+job_failed_materialsbeingcarried        Yoldaki Malzemeler
+
+job_rightclicktocancel                  İptal Etmek İçin Sağ Tıkla
+job_refundamount                        İade Tutarı: *X
+
+failuremessage_blocked                  Engellenmiş
+failuremessage_cantafford               Yetersiz Para
+failuremessage_cantaffordupkeep         Günlük Bütçeyi Aşıyor
+failuremessage_maximumcountreached      Maks Sayıda İşe Alınmış
+failuremessage_maxstaff                 Çok Fazla Personel
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Teslimatlar
+statustoolbar_finances                  Mali Durum
+statustoolbar_regime                    Rejim
+statustoolbar_escapemap                 Güvenlik
+statustoolbar_electricity               Elektrik
+statustoolbar_stats                     İstatistik
+statustoolbar_danger                    Tehlike
+statustoolbar_jobs                      Görevler
+statustoolbar_gangs                     Çeteler
+statustoolbar_staff                     Personel
+statustoolbar_research                  Araştırma
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Hareketli Banka Editörü
+spritebankeditor_create                 Oluştur
+spritebankeditor_rotate                 Rotasyon
+spritebankeditor_sort                   Sırala
+spritebankeditor_markermodetitle        İşaretçi Modu
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Ana Menü
+codex_campaign                          Mücadele
+codex_cutscenes                         Ara Sahneler
+codex_qualifications                    Nitelikler
+codex_load                              Hapishane Yükle
+codex_loadcampaign                      Mücadele Yükle
+codex_save                              Hapishaneyi Kaydet
+codex_savecampaign                      Mücadeleyi Kaydet
+codex_performance						Performans Testi
+codex_developer_load                    (Geliştirici) Harita Yükle
+codex_developer_save                    (Geliştirici) Harita Kaydet
+codex_developer_clearach                (Geliştirici) Başarıları Temizle
+codex_contacts                          Kişiler
+codex_materials                         Malzemeler
+codex_play                              Çal
+codex_polaroids                         Polaroidler
+codex_introduction                      Giriş
+codex_restartintroduction               Girişi Yeniden Başlat
+codex_restartchapter                    Bölümü Yeniden Başlat
+codex_help                              Yardım (viki)
+codex_opensavefolder                    Kayıt Klasörünü Aç
+codex_options							Seçenekler
+codex_nitgs								Oyundaki İsimler
+codex_workshop							Hapishane Paylaşımı (Steam Workshop)
+codex_checkforupdates                   Güncellemeleri kontrol et
+codex_preorder                          Şimdi ön sipariş ver
+codex_termsconditions                   Şartlar ve Koşullar
+codex_twitter                           Twitter
+codex_extras                            Ekstralar
+codex_unlocked                          *X/*Y açık
+
+codex_new                               Yeni Hapishane Oluştur
+codex_new_worldsize                     Yer Büyüklüğü
+codex_new_small                         Küçük
+codex_new_medium                        Orta
+codex_new_large                         Büyük
+codex_new_selectwarden                  Müdürünü Seç
+
+codex_options_graphics					Grafik
+codex_options_resolution				Çözünürlük
+codex_options_resolutionauto			Otomatik
+codex_options_windowed					Pencere modu
+codex_options_highdpi					Yüksek DPI
+codex_options_filtering					Filtreleme
+codex_options_nofiltering				Kapalı
+codex_options_multisampled				Çoklu örnekleme
+codex_options_supersampled				Süper örnekleme
+
+codex_options_audio						Ses
+codex_options_volume					Ana Ses
+codex_options_frequency					Karışık Frekans
+codex_options_swapstero					Stereo Değiştir
+codex_options_dspenabled				DSP'yi Etkinleştir
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
+
+codex_options_clocktype                 Saat Tipi
+codex_options_clocktype_analogue        Analog
+codex_options_clocktype_12h             12 Saat
+codex_options_clocktype_24h             24 Saat
+
+codex_options_gameplay					Oyun
+codex_options_autosave					Otomatik Kayıt Zamanlayıcısı
+codex_options_renderrooms				Oda Kontrolcüsü
+codex_options_apply						Uygula
+
+codex_options_language					Dil
+
+codex_enabled                           Etkin
+codex_disabled                          Devre dışı
+
+codex_option_intake                     Sürekli Alım
+codex_tooltip_intake                    Eğer etkinse her gün rastgele sayıda yeni mahkum getirilir. Sonsuza dek.\n\nEğer devre dışı ise, raporlara gidip mahkum sekmesine tıklayarak mahkumları almaya ne zaman hazır olacağını seçebilirsin.
+codex_option_fogofwar                   Savaş Sisi
+codex_tooltip_fogofwar                  Hapishane binaları içinin görünürlüğünü kaybedeceksin. Eğer o bölgede devriye atan Gardiyan veya bölgeyi gözleyen CCTV kamera mevcutsa görünürlük sağlarsın.
+codex_option_lakes                      Göl Oluştur
+codex_tooltip_lakes                     Rastgele konumlandırılmış göller arazinin bölümlerini engeller. UYARI: Deney amaçlı.
+codex_option_forests                    Orman Oluştur.
+codex_tooltip_forests                   Arazinde ağaç kümeleri görünecek.
+codex_option_buildings                  Bina Oluştur
+codex_tooltip_buildings                 Arazinde geriye rastgele kullanılmayan binalar kalacak, bunları istediğin gibi kullanabilirsin.
+codex_option_failure                    Başarısızlık Koşulları
+codex_tooltip_failure                   Ekstra bir meydan okuma! Eğer işlerin çok daha kötüye gitmesine müsaade edersen talan edileceksin ve oyun sona erecek. (İsyanlar, İflas, çok sayıda Ölüm veya Firar, v.b.)
+codex_option_unlimitedfunds             Sınırsız Fon
+codex_tooltip_unlimitedfunds            Saf Kum Havuzu Modu! Başlangıçtan itibaren istediğin kadar para harcayabilirsin, endişelenmeye veya daha fazla beklemeye gerek olmadan.
+codex_option_gangs                      Çeteler
+codex_tooltip_gangs                     Mahkumlardan bazıları çete üyesi olarak gelecek ve sahada rakip çete üyelerine saldıracaklar. Ekstra meydan okuma.
+codex_option_events                     Olaylar
+codex_tooltip_events                    Bütün dikkatini toplaman için oyun esnasında bazı olayların meydana gelmesine sebep olur. Ekstra zorluk ve öngörülemezlik ekler.
+
+codex_option_funds                      Fonlar
+codex_tooltip_funds                     Banka hesabında bu kadar para ile başlayacaksın. Daha fazla fon ile başlamak için Değerleme ekranından kurduğun hapishaneleri sat.
+
+codex_transfer							Transfer Et
+codex_transferring						Transfer Ediliyor
+codex_in_prison							Şu Anda Hapsedilmiş
+codex_useravatar                        Bu benim
+codex_tooltip_useravatar                Bu mahkumu kendi girişin olarak işaretle. Eğer bir şekilde hapsi boylarsan, seni temsil edecek olan mahkum bu.
+codex_tooltip_flagbio                   Bu biyografiyi sakıncalı ve saldırgan olarak raporla.
+
+codex_workshop_current					Şu Anki Hapishane
+codex_workshop_publish					Bu hapishaneyi yayımla
+codex_workshop_update					Güncelle
+codex_workshop_play						Çal
+codex_workshop_downloading				İndiriliyor
+codex_workshop_download_failed			İndirme Başarısız
+codex_workshop_publishing				Yayımlanıyor...
+codex_workshop_new						YENİ
+codex_workshop_title					Başlık
+codex_workshop_desc						Açıklama
+codex_workshop_view_in_workshop			Steam Workshop'te Görüntüle
+codex_workshop_heading_pubed			Yayımlanmış hapishanelerin
+codex_workshop_heading_subed			Abone olunmuş hapishaneler
+codex_workshop_published_by				Yayımlayan: *P
+codex_workshop_published_by_you			Sen yayımladın
+codex_workshop_published_good			Hapishane Yayımlandı
+codex_workshop_published_good_msg		Hapishanen başarıyla yayımlandı.
+codex_workshop_published_bad			Hapishaneyi Yayımlama Başarısız
+codex_workshop_published_bad_msg		Hapishanen yayımlanamadı.
+codex_workshop_published_bad_msg_new	Yeni hapishanen yayımlanamadı. Lütfen tekrar dene.
+codex_workshop_busy						Bazı sihirler zaten Steam'de olmakta. Lütfen önce bunun bitmesini bekle ve tekrar dene.
+codex_workshop_file_exists				Bu isimle bir hapishane zaten yayımladın. Lütfen farklı bir isim seç.
+codex_workshop_generic_fail				Hapishanen yayımlanamadı. Lütfen tekrar dene.
+codex_workshop_download_bad				Hapishane İndirme Başarısız
+codex_workshop_pa_workshop				Prison Architect Workshop'u Aç
+codex_workshop_agreement				Bu öğeyi göndererek, [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop hizmet kullanım şartlarını[/url] kabul etmiş sayılırsın.
+
+codex_options_timelapse					Geçen Süre
+codex_timelapse_record					Geçen Süreyi Kaydet
+codex_timelapse_stop					Geçen Süreyi Durdur
+codex_timelapse_camera					Kamera Modu
+codex_timelapse_resolution				Çözünürlük
+codex_timelapse_customresw				Özel Çözünürlük En
+codex_timelapse_customresh				Özel Çözünürlük Yükseklik
+codex_timelapse_resolution				Çözünürlük
+codex_timelapse_fps						Oynatma Oranı
+codex_timelapse_interval				Çekim Sıklığı
+codex_timelapse_quality					Kalite
+codex_timelapse_unsupported				Bu özellik donanımında mevcut değil.
+codex_timelapse_savesettings			Ayarları Kaydet
+
+codex_timelapse_cam_zoom                Kamerayı Yaklaştır
+codex_timelapse_cam_fitmap              Haritaya Sığdır
+codex_timelapse_cam_fitheight           Harita Yüksekliğine Sığdır
+codex_timelapse_cam_fitwidth            Harita Enine Sığdır
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            Yüksek
+codex_timelapse_quality_med             Orta
+codex_timelapse_quality_low             Düşük
+codex_timelapse_interval_value          *X Oyun Dakikası
+
+codex_performance_running				Performans Testi Çalışıyor
+codex_performance_time					Kalan Süre: *Ts
+codex_performance_current				Şu Anki Çerçeve Süresi: *Tms
+codex_performance_min					En Düşük Çerçeve Süresi: *Tms
+codex_performance_avg					Ortalama Çerçeve Süresi: *Tms
+codex_performance_max					En Yüksek Çerçeve Süresi: *Tms
+codex_performance_numframes				Çerçeve Sayısı: *T
+
+codex_last_modified						Son Düzenleme: *T
+codex_sortbydesc						Tarihe Göre Sırala
+codex_sortname							İsim
+codex_sortdate							Tarih
+codex_apply								Uygula
+codex_select                            Seç
+
+codex_mods								Modlar
+codex_mod_activetitle					Etkin Modlar
+codex_mod_inactivetitle					Mevcut Modlar
+codex_mod_deactivate					Tüm modları devre dışı bırak
+codex_mod_wiki							Daha fazla mod bul (Wiki)
+codex_mod_openmodsfolder				Mod Klasörünü Aç
+codex_mod_moresteammods					Daha fazla mod bul (Steam Workshop)
+codex_mod_findsteamtranslations         Daha fazla çeviri bul (Steam Workshop)
+codex_authortitle                       Yazar
+codex_versiontitle                      Sürüm
+codex_datetitle                         Tarih
+codex_urltitle                          URL
+codex_typetitle							Tür
+codex_mod_graphicsandsound				Grafik ve Ses
+codex_mod_translation					Çeviri
+codex_mod_scenario						Senaryo
+codex_mod_content						İçerik
+codex_mod_load_scenario					Senaryo Oyna
+codex_publishmod						Bu Modu Yayımla
+
+codex_mod_update						Bu Modu Güncelle
+codex_mod_published_good				Mod Yayımlandı
+codex_mod_published_good_msg			Modun başarıyla yayımlandı.
+codex_mod_published_bad					Mod Yayımlama Başarısız
+codex_mod_published_bad_msg				Modun yayımlanamadı.
+codex_mod_modsupdated					Modlar Güncellendi
+codex_mod_modsupdated_msg				Bazı etkin modların güncellendi. Yeni değişiklikleri uygulamak için TAMAM'a tıkla. Oyunun otomatik olarak kaydedilecek.
+codex_mod_translationcaption            Bu bir başka dile çeviri modu mu?
+
+codex_language                          Dil
+codex_language_englishdefault           İngilizce (Varsayılan)
+codex_language_default                  Varsayılan Dil
+codex_language_download                 İndir
+codex_language_failed_download          Çeviri İndirme Başarısız
+codex_language_failed_download_msg      Seçtiğin çeviri indirilemedi.
+codex_language_searching_workshop       Steam Workshop'ta Aranıyor
+codex_language_community                Bu çeviri paketleri topluluk tarafından oluşturulup düzenlenmektedir. Teşekkürler!
+
+codex_save_confirm                      *X'i şu anki hapishanenin üzerine yazmak istediğinden emin misin?
+codex_researtchapter_confirm            Şu anki bölümü yeniden başlatmak istediğinden emin misin? Kaydedilmemiş yerler kaybolacak.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Bu grafik seçeneklerini saklamak istiyor musun? Bu değişiklikler
+graphicschange_time						saniye içinde eski haline geri alınacak.
+graphicschange_accept					Kabul Et
+graphicschange_revert					Geri Al
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    Hata Ayıklayıcısı (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   Mod Farklılıkları Bulundu
+modnotification_info                    Bu modlar, şu anki hapishane kaydedildiğinde kullanıldı. Bu hapishaneyi oynamadan önce bu modları indirip etkinleştirmeni şiddetle öneririz.
+modnotification_playnow                 Şimdi Oyna
+modnotification_active                  Etkin
+modnotification_inactive                Etkin Değil
+modnotification_new                     Yeni
+modnotification_unknown                 Bilinmeyen
+modnotification_popup_title             Mod farklılığı
+modnotification_popup_active            Bu mod şu anda etkin. Devre dışı bırakmak için tıkla.
+modnotification_popup_inactive          Bu mod şu anda etkin değil. Etkinleştirmek için tıkla.
+modnotification_popup_new_url           Bu yeni bir mod. Bu modun linkini yeni bir tarayıcıda açmak için tıkla.
+modnotification_popup_new_steam         Bu yeni bir steam modu. Bu moda şimdi abone olup indirmek için tıkla.
+modnotification_popup_unknown           Bu modun nereden geldiğini belirleyemiyoruz. Bu modu lütfen kendin bulup yükle.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Durdur ve Ara
+biography_selected                      SEÇİLİ
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               Mahkum #*X
+biography_prisoner_age                  Yaş: *X
+biography_prisoner_traits               Özellikler:
+biography_prisoner_convicted            *C ile hükümlü (Savunma: *P)
+biography_prisoner_sentenced            Cezaevinde *X yıla mahkum edildi
+biography_parole_now                    Şimdi şartlı tahliye olabilir
+biography_parole_later                  *X yıl sonra şartlı tahliye olabilir
+biography_prisoner_served               *X yıl yattı
+biography_prisoner_priors               Önceki Cezalar: 
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Yaş:
+rapsheet_category						Kategori:
+rapsheet_traits							Bilinen Özellikler:
+rapsheet_conviction_text				*C - *Y yıl
+rapsheet_found_text						(Savunma: *P)
+rapsheet_convictions					Mahkumiyet
+rapsheet_misconductstitle				Son Kötü Davranış
+rapsheet_biography                      Biyografi
+rapsheet_guilty							Suçlu
+rapsheet_notguilty						Suçlu değil
+rapsheet_served							Hapis yattı
+rapsheet_served_time					*Y yıl hapis yattı
+rapsheet_time							*Y yıl
+rapsheet_bio							*A yüzünden *Y yıl hüküm giydi.
+rapsheet_bio_med						*A ve *B dahil olmak üzere çoklu suçlardan *Y yıl hüküm giydi.
+rapsheet_bio_long						*A, *B ve *C dahil olmak üzere çoklu suçlardan *Y yıl hüküm giydi.
+rapsheet_category_minsec				Minimum Güvenlik
+rapsheet_category_normal				Normal Güvenlik
+rapsheet_category_maxsec				Maksimum Güvenlik
+rapsheet_category_protected             Korumalı Gözaltı
+rapsheet_category_supermax              SüperMaks
+rapsheet_category_deathrow              Ölüm Hücresi
+rapsheet_tab_biography                  Biyografi
+rapsheet_tab_experience                 Deneyim
+rapsheet_tab_grading                    Derecelendirme
+rapsheet_tab_character                  Karakter
+rapsheet_punish                         Cezalandır
+rapsheet_recruit                        Muhbir İşe Al
+
+rapsheet_timeinside                     Hapishanende *X gün
+rapsheet_timeinside_hours               Hapishanende *X saat
+rapsheet_mood                           Ruh Hali
+rapsheet_activity                       Eylem
+rapsheet_condition                      Durum
+rapsheet_program                        Program
+rapsheet_passchance                     Başarı Şansı
+rapsheet_reformhistory                  Islahat Programı Geçmişi
+
+rapsheet_reform_success                 Başarılı
+rapsheet_reform_successcount            *X defa tamamlandı
+rapsheet_reform_failed                  Başarısız
+rapsheet_reform_failcount               *X defa başarısız oldu
+
+rapsheet_grading_punishment             Ceza
+rapsheet_grading_health                 Sağlık
+rapsheet_grading_security               Güvenlik
+rapsheet_grading_reform                 Islahat
+rapsheet_grading_points                 *X puan : 
+rapsheet_grading_penalties              *X ceza :
+
+rapsheet_scheduleexecution              İnfazı Planla
+
+
+punish_lockdown_6                       Tecrit (6sa)
+punish_lockdown_12                      Tecrit (12sa)
+punish_lockdown_24                      Tecrit (24sa)
+punish_solitary_6                       Hücre Hapsi (6sa)
+punish_solitary_12                      Hücre Hapsi (12sa)
+punish_solitary_24                      Hücre Hapsi (24sa)
+punish_solitary_perm                    Hücre Hapsi (Daimi)
+punish_lockdown_perm                    Tecrit (Daimi)
+punish_solitary                         Hücre Hapsi
+punish_lockdown                         Tecrit Hücresine Tık
+punish_none                             Hiçbiri
+punish_timer                            *Xsa *Ydk
+punish_timer_minutes                    *Xdk
+punish_active                           ETKİN
+punish_permanent                        (Daimi)
+punish_end                              Cezayı Sonlandır
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  Hiçbiri
+misconduct_reporttype_complaint             Şikayet
+misconduct_reporttype_destruction           Tahribat
+misconduct_reporttype_escapeattempt         Firar Girişimi
+misconduct_reporttype_injuredprisoner       Saldırılan Mahkumlar
+misconduct_reporttype_injuredstaff          Saldırılan Personel
+misconduct_reporttype_seriousinjury         Ciddi Yaralanma
+misconduct_reporttype_murder                Cinayet
+misconduct_reporttype_contrabandweapons     Bulunan Silahlar
+misconduct_reporttype_contrabandtools       Bulunan Araçlar
+misconduct_reporttype_contrabandnarcotics   Bulunan Uyuşturucular
+misconduct_reporttype_contrabandluxuries    Bulunan Lüks Mallar
+misconduct_reporttype_intoxicated           Zehirlenme
+misconduct_title                             =[Kötü Davranış]=
+
+misconduct_report_addiction                 *X bağımlısı
+misconduct_report_recoving                  *X bağımlılığından kurtuluyor
+misconduct_report_alcoholic                 Alkolik
+misconduct_report_recovingalcoholic         Alkolikten kurtuluyor
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       Bu raporu hazırlamak için bir *X ihtiyacın var.
+research_requireunlock                  Bu raporu açmak için "X" araştırman gerekli.
+research_approved                       ONAYLI
+research_cost                           Masraf: *X
+research_costperitem                    Öğe başına + *X
+research_timetounlock                   Açma Zamanı: *X saat
+research_movementpenalty                Hareket Cezası: %*X
+research_protectionbonus                Koruma: %*X
+research_tap_to_authorise               YETKİLENDİRMEK İÇİN DOKUN
+
+research_none                           Hiçbiri
+research_warden                         Müdür
+research_maintainance                   Bakım
+research_security                       Güvenlik
+research_legal                          Yasal
+research_mentalhealth                   Psikoloji
+research_finance                        Finans
+research_landexpansion                  Arazi Genişletme
+research_cctv                           Gözetleme
+research_riotguards                     İsyan Gardiyanları
+research_health                         Sağlık
+research_cleaning                       Temizlik
+research_groundskeeping                 Saha Bakımı
+research_clone                          Klon
+research_deployment                     Yerleştirme
+research_patrols                        Devriyeler
+research_dogs                           Köpekler
+research_prisonlabour                   Hapishane İşçiliği
+research_education                      Eğitim
+research_contraband                     İstihbarat
+research_policy                         Hapishane İlkeleri
+research_armoury                        Cephanelik
+research_bodyarmour                     Çelik Yelek
+research_tazers                         Tazer
+research_tazersforeveryone              Tazer Rollout
+research_bankloans                      Banka Kredisi
+research_lowertaxes1                    Vergi Muafiyeti
+research_lowertaxes2                    Off-Shore Vergi Cenneti
+research_remoteaccess                   Uzaktan Erişim
+research_extragrant                     Ekstra Hibe
+research_advancedmanagement             Mikro Yönetim
+research_deathrow                       Ölüm Hücresi
+research_permanentpunishment            Kalıcı Cezalar
+research_removemincellsize              Küçük Hücreler
+research_reduceexecutionliability       İnfaz Borcunu Azalt
+research_legalprep                      Yasal Hazırlık
+research_legaldefense                   Yasal Hazırlık
+
+researchtooltip_warden                  Müdürün ve tüm Bürokrasi sisteminin kilidini açar. Ustabaşını Personel araç çubuğundan işe al.\n\nTüm Yöneticiler gibi, ustabaşının da çalışmak için bir ofise ihtiyacı var. 
+researchtooltip_security                Güvenlik Şefinin kilidini açar. Güvenlik Şefi personel araç çubuğundan işe alınabilir. Şef, Yerleştirme ekranına erişimini sağlar ve hapishanenin tehlike seviyesi üzerine gerçek zamanlı rapor sunar, genelde gelecekteki sıkıntıyı tahmin eder.\n\nTüm Yöneticiler gibi, Şefin de çalışmak için bir ofise ihtiyacı var. 
+researchtooltip_maintenance             Ustabaşı'nın kilidini aç. Ustabaşını Personel araç çubuğundan işe al.\n\nTüm Yöneticiler gibi, ustabaşının da çalışmak için bir ofise ihtiyacı var. 
+researchtooltip_legal                   Avukatın kilidini açar. Avukat, Personel araç çubuğundan işe alınabilir. Hapishanen üzerinde daha fazla kontrol sağlamak için birkaç araştırma seçeneğinin kilidini açar.\n\nTüm Yöneticiler gibi, Avukatın da çalışmak için bir ofise ihtiyacı var. 
+researchtooltip_deployment              Gardiyanları Hapishanenin bölümlerine kalıcı olarak görevlendirmeni sağlar.
+researchtooltip_patrols                 Hapishanenin çok önemli yerlerine (örn. çeper) devriye atamanı sağlar ve gardiyanları bu devriyeleri atmak üzere görevlendirir.
+researchtooltip_dogs                    Köpek Eğiticisi ve Bekçi Köpeğinin kilidini açar. Hapishanendeki kaçak malları koklayarak bulma ve kaçış tünellerini tespit etme özellikleriyle sivrilirler.\n\nKöpekler aynı zamanda çok hızlıdır, böylece kaçan mahkumları kolaylıkla kovalayabilirler. 
+researchtooltip_cctv                    CCtv kameraları ve güvenlik monitörlerinin kilidini açar. Hapishanenin gardiyansız bölümlerini izlemek için bunları kullan.\n\nAyrıca Telefon Dinleme sisteminin kilidini açar, böylece mahkumların telefon görüşmelerini dinleyerek çok önemli istihbarat kazanabilirsin.
+researchtooltip_remoteaccess            Uzaktan kontrol ve kapıların otomasyonu için yüksek teknoloji ekipmanın kilidini açar. Kapı, bir Kapı Kontrol Sistemi (Gardiyanın çalıştırdığı) kullanılarak veya günün belirli zamanlarında bir Kapı Zamanlayıcısı ile uzaktan açılabilir.
+researchtooltip_riotguards              (ŞU ANDA BİR AMACA HİZMET ETMİYOR)\nİsyan Gardiyanının kilidini açar. Bu adamlar zırhlıdır ve şiddet olaylarıyla baş etmede daha iyidir.
+researchtooltip_maintainance            Ustabaşı'nın kilidini aç. Hapishane İşçiliği veya Bahçıvan gibi ek personel üzerine daha fazla araştırma yapmanı sağlar.\n\nTüm Yöneticiler gibi, Ustabaşı'nın da çalışmak için bir ofise ihtiyacı var. 
+researchtooltip_clone                   Ana araç çubuğunda klon aracının kilidini açar. Bu aracı kullanarak Hücre gibi hapishane alanlarını çabucak ikiye katla. Kullanmak için, sağ tuşla sürükleyerek kopyalanacak bir alan seç ve kopyayı yapıştırmak için sol tuş tıkla.
+researchtooltip_groundskeeping          Bahçıvanın kilidini açar. Dış mekanı düzenli tutar.
+researchtooltip_cleaning                Hademenin kilidini açar. Hademe hapishane içi tüm alanları temizler ve hapishane çamaşırhane servisine yardımcı olabilir.
+researchtooltip_health                  Doktorun kilidini açar, bununla birlikte Revir ve Morgun da kilidini açar. Yaralı mahkumlar ve personel Revire götürülecek ve Doktorlar onları tedavi edecek..
+researchtooltip_MentalHealth            Psikoloğun kilidini açar. Psikolog, her an Mahkumun iç psikolojik durumu hakkında değerli görüşlerini sana bildirir. 
+researchtooltip_finance                 Muhasebecinin kilidini açar. Muhasebeci, Hapishanen için mali rapora erişimini sağlar.\n\nAyrıca rezerv fonlarını göz önünde bulundurarak, her gün gelirinin normalde sağlayacağından daha fazlasını harcamana olanak sunar.\n\nTüm Yöneticiler gibi, Muhasebecinin de çalışmak için bir ofise ihtiyacı var. 
+researchtooltip_landexpansion           Komşu arazileri satın alma yetkisi verir. Böylece hapishanenin başlangıçtaki sınırlarını genişletebilirsin.
+researchtooltip_prisonlabour            Mahkumlarını hapishanede çalıştırmana olanak sağlar (Yemek pişirme, Temizlik v.b.). Böylece personel maaşından tasarruf ederek para kazandırır ve aynı zamanda mahkumlarına yeni beceriler öğretir.\n\nAyrıca Atölye ve Çamaşırhane'nin kilidini açar.
+researchtooltip_education               Harici işe alınan öğretmenleri kullanarak mahkumlarına eğitici ıslah programları verme yeteneğinin kilidini açar. 
+researchtooltip_contraband              Gardiyanlarının kaçak malların takibi ve bulunmasında daha iyi hale gelmesi için eğitim. Kaçak mal Arz ve Talep raporu, Kaçak mal yer paylaşımının kilidini açar (hapishanendeki tüm olası hırsızlık yerlerini gösterir) ve kaçak malların, sokulduğu veya çalındığı yere geri götürülmesini takip eder.\n\nAyrıca mahkumları Gizli Muhbir olarak işe alma yeteneğinin kilidini açar.\n\nAyrıca çete istihbarat görünümünün kilidini açar.
+researchtooltip_policy                  Politika Raporunun kilidini açar. Böylece her türden yanlış davranışın cezasını artırabilir veya azaltabilirsin, aynı zamanda uygunsuz davranan mahkumun ve hücresinin aranmasını otomatik olarak başlatabilirsin.\n\nAyrıca mahkumlara sunulan gıda miktarı ve çeşitliliğini değiştirerek beslenme politikasını da kontrol etmene imkan tanır. 
+researchtooltip_armoury                 Cephanelik odasının kilidini açarak hapishanende silahlı gardiyanları yerleştirmene imkan tanır.
+researchtooltip_bodyarmour              Tüm Gardiyan, Silahlı Gardiyan ve Köpek Eğiticilerini çelik yelek ile donatır. Bu bir kavga esnasında hasarın absorbe edilmesini sağlar, ancak gardiyanların daha yavaş hareket eder.\n\nBu ekipmanı almak için gardiyanlarının cephaneliği ziyaret etmeleri gerekmektedir ve bu şekilde alınan her çelik yelek sana ücretlendirilecektir.
+researchtooltip_tazers                  Silahlı Gardiyanlarının, tek atışta etkili olan ve çoğu hedefi anında bayıltan bir silah olan Tazer'i taşımasına imkan tanır. Tazer bir kez kullanıldığında, yeniden kullanabilmek için bir saatlik şarj süresi vardır.\n\nBu ekipmanı almak için gardiyanlarının cephaneliği ziyaret etmeleri gerekmektedir ve bu şekilde alınan her bir tazer sana ücretlendirilecektir.
+researchtooltip_tazersforeveryone       Tazer programını genişletir, böylece normal Gardiyanlar da savunmak için Tazer taşıyabilir.\n\nBu ekipmanı almak için Cephaneliği ziyaret etmeleri gerekmektedir ve bu şekilde alınan her bir tazer sana ücretlendirilecektir.
+researchtooltip_bankloans               Günlük faiz ödemesi karşılığında, bankadan büyük miktarda para borç almana imkan tanır. Kredilerini ödemek kredi dereceni artıracaktır, böylece ileride daha büyük miktarda kredi çekebilirsin.
+researchtooltip_lowertaxes1             Resmi vergi teşvikleri avantajı sağlar ve efektif Kurumlar Vergisi oranını %15'e indirir.\nGünlük her 10.000$'lık kardan 1.500$ vergi tasarruf edeceksin.
+researchtooltip_lowertaxes2             Muhasebecin kuralları kırılma noktasına kadar esnetti ve tüm resmi hesaplarını ve iş sürecini, son derece ayrıcalıklı vergi oranları olan yabancı bir ülkeye taşıdı Efektif Kurumlar vergisi yaklaşık %1'lere düşecek.\n\nGünlük her 10.000$'lık kardan 3.000$ vergi tasarruf edeceksin.
+researchtooltip_extragrant              Aynı anda iki yerine üç hibeyi kabul edebilmenizi sağlar.
+researchtooltip_advancedmanagement      Hapishanenin görünüşünü mikro yönetmek için size araç sağlar ve böylece gereksinimlerini tam olarak yerine getirir.\n\nGıda lojistiğinin kilidini açarak hangi mutfağın hangi kantine yemek pişireceğini ve mahkumların hangi kantinde yemek yiyeceğini belirlemeni sağlar. Benzer şekilde, Çamaşırhane lojistiği, hangi hücre bloğunun hangi çamaşırhaneye ait olacağına karar vermeni sağlar.\n\nAyrıca Yerleştirme Planlayıcısının kilidini açarak gardiyan yerleştirmeni günün farklı saatlerinde ayarlamana imkan tanır.\n\nIslah Programı Planlayıcısının kilidini açarak günlük planlanan programların manuel olarak üzerinden geçmene imkan tanır.
+researchtooltip_permanentpunishment     Bazen Hapishanede olmak yeterince kilit altında olmak değildir. Avukatın, mahkumları bir hücreye kalıcı olarak kapatmanı sağlamak için gerekli belgeleri hazırlayabilir. 
+researchtooltip_removemincellsize       Yasal gereksinimleri sağlamak için hapishanendeki hücrelerin için belirli bir alan gereklidir. Ancak hayal et, böyle olmasaydı daha kaç tane hücre sığdırabilirdin! Standart hücreler için minimum ölçü gereksinimini kaldırır.
+researchtooltip_reduceexecutionliability Ölüm hücresi işlemlerinin düzgünce başlatılmasından önce avukatın mahkumiyet sertliğini düşürmek için görüşmeler yapıyor. Mahkumların infazını, yükümlülüğü bulunmaksızın planlamadan önce mahkumların alacağı temyiz sayısını önemli oranda azaltır.
+researchtooltip_legalprep               Her hapishanede her an sorun yaşanabilir ve bazıları oldukça büyük hukuki sonuçlar doğurur. Avukatın bir şeyler ters gittiğinde baskıyı azaltmak için evrak işlerine başlar ancak bunun şimdiden yapılması gerekli.
+researchtooltip_legaldefense            Kötü durumdasın. Bir şeyler çok ters gitti ve uyarı aldın. Eğer durumla başa çıkamayacak gibiysen, avukatın seni oltadan kurtarabilir. Bu araştırmayı tamamlayınca şu anki tüm uyarılar kaldırılacak, aksi halde bu uyarılar işten kovulmana sebep olabilir.
+
+research_legaldefense_adviser1          Görünüşe göre avukatın seni bu karışıklığın sonuçlarından koruyan bazı evrak işleri hazırladı. Sanırım bu, sana ateş açamayacağım anlamına geliyor. Bu sefer.
+research_legaldefense_adviser2          Hapishaneni hızlıca düzene koy ve kurallara bağlı bir şekilde işlemesini sağla. Bu kurnazlık tekrar işe yaramayacak ve seni sonsuza dek korumayacak.
+
+research_missingadministrator           GEREKENLER:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                GEREKENLER:
+roomrequirement_recommended             Önerilen: 
+roomrequirement_minimumsize             Minimum Ölçü *W x *H
+roomrequirement_minimumsize_short	Ölçü *W x *H
+roomrequirement_indoor                  İçerisi
+roomrequirement_outdoor                 Dışarısı
+roomrequirement_solidground             Sağlam Zemin
+roomrequirement_secure                  Güvenli (en az bir Kapı arkasında)
+roomrequirement_secure_short		Güvenli
+roomrequirement_enclosed                Etrafı Çevrili (Duvar ve kapılarla çevrelenmiş)
+roomrequirement_enclosed_short		Etrafı Çevrili
+requirement_entrance                    Giriş Gerekli
+roomrequirement_title                   =[Oda Gereksinimleri]=
+roomrequirement_passed                  [GEÇTİ] 
+roomrequirement_failed                  [BAŞARISIZ] 
+roomrequirement_adjacentobject          Odaya Bitişik: 
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            KİLİDİ AÇIK
+
+unlock_special_electricity              Elektrik Sistemleri
+unlock_special_food                     Yemek Hazırlama
+unlock_special_officersafety            Memur Güvenliği
+unlock_special_misbehavior              Kötü Davranış
+unlock_special_accounting               Muhasebe
+unlock_special_gangs                    Çeteler
+
+unlock_electricity_caption              Elektrik santrali ve elektrik kablolarına ihtiyaç duyan tüm cihazlara elektrik sağlayan bu elektrik santrali ve kablolarının yerleştirilmesine imkan tanır.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Devam Etmek İçin Tıkla...
+incoming_call                           Gelen Çağrı...
+
+adviser_name_unknown                    Bilinmeyen
+adviser_name_ceo                        CEO
+adviser_name_warden                     Müdür
+adviser_name_governer                   Vali
+adviser_name_chief                      Şef
+adviser_name_doctor                     Doktor
+adviser_name_kingpin                    The KingPin
+adviser_name_edwardshooter              Edward
+adviser_name_edwardsinner               Edward
+adviser_name_edwardinmate               Edward
+adviser_name_edwardswife                Edward'ın Eşi Susan
+adviser_name_priest                     Rahip
+adviser_name_newsreader                 CNDC Haber
+adviser_name_mayor 						Başkan Calvin Heller
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Personel
+report_prisoners                        Mahkumlar
+report_jobs                             İşler
+report_needs                            İhtiyaçlar
+report_threats                          Tehditler
+report_regime                           Rejim
+report_policy                           Politika
+report_grants                           Hibeler
+report_finance                          Finans
+report_valuation                        Değerleme
+report_contraband                       Kaçak Mal
+report_programs                         Programlar
+report_schedule                         Planlayıcı
+report_intake                           Alım
+
+report_grants_bankloan                  Banka Kredisi
+report_grants_bankloan_text             Bankadan büyük miktarda borç para alabilirsin. Karşılığında banka sana günlük faiz kesecek, bunu nakit akışından ödemelisin.\n\nÖdemeleri düzenli yaptığında kredi oranları artacak ve banka sana daha fazla borç para verebilecek. Ancak eğer ödemeleri kaçırırsan kredi derecen önemli ölçüde azalacak ve banka ihtiyacın olduğunda daha fazla borç para vermeyi reddedecek.\n\nNot: Kredilerin asla sadece günlük faiz ödemeleriyle kapatılamaz. 
+report_grants_max1                      Aynı anda sadece bir hibe kabul edebilirsin.\nBu limiti yükseltmek için muhasebecini kullan.
+report_grants_max2                      Aynı anda sadece bir hibe kabul edebilirsin.\nBu limiti yükseltmek için muhasebecini kullan.
+report_grants_max3                      Aynı anda üç hibeden fazlasını kabul edemezsin.
+report_grants_bankloan_amount           Şu Anki Banka Kredisi: *X
+report_grants_bankloan_interest         Faiz: Günlük *X
+report_grants_bankloan_max              Maksimum Kredi: *X
+report_grants_creditrating              Kredi Derecen: *X
+report_grants_inprogress_tt             (DEVAM EDİYOR)
+report_grants_completed_tt              (TAMAMLANDI)
+report_grants_locked_tt                 (KİLİTLİ)
+report_grants_advancepayment            *X Avans ödemesi
+report_grants_completionbonus           *X Tamamlama bonusu
+report_grants_objectives                [Hedefler]
+report_grants_prereqs                   [Ön Gereksinimler]
+report_grants_completed                 TAMAMLANMIŞ
+report_grants_locked                    Kilitli
+report_grants_inprogress                Devam Ediyor
+report_grants_hidden                    (*X daha fazlası gizli)
+report_grants_taptoaccept               KABUL ETMEK İÇİN DOKUN
+report_grants_cancelfee                 İptal maliyeti: *X
+
+report_staff_title                      Toplam Personel: *X
+report_prisoners_title                  Toplam Mahkum: *X
+report_staff_group_builders             İşçiler
+report_staff_group_guards               Gardiyanlar
+report_staff_group_staff                Personel
+report_staff_group_administrators       Yöneticiler
+report_staff_group_prisoners            Mahkumlar
+report_staff_group_prisoners_high       Yüksek Risk
+report_staff_group_prisoners_normal     Normal Risk
+report_staff_group_prisoners_low        Düşük Risk
+report_staff_group_prisoners_protected  Korumalı Gözaltı
+report_staff_group_prisoners_supermax   SüperMaks
+report_staff_group_prisoners_deathrow   Ölüm Hücresi
+
+report_staff_fire                       YANGIN
+
+report_intake_title                     Alım
+report_intake_catheader_cat             Kategori
+report_intake_catheader_pay             Ödeme
+report_intake_catheader_available       Mevcut
+report_intake_catheader_amount          Oran
+report_intake_next_header               Sonraki Alım: *X
+report_intake_cat_minsec                Min Güv
+report_intake_cat_normal                Ort Güv
+report_intake_cat_maxsec                Maks Güv
+report_intake_cat_deathrow              Ölüm Hücresi
+report_intake_slider_minsec             Min Güv alım oranını ayarla
+report_intake_slider_normal             Ort Güv alım oranını ayarla
+report_intake_slider_maxsec             Maks Güv alım oranını ayarla
+report_intake_slider_deathrow           Ölüm Hücresi alım oranını ayarla
+report_intake_closed                    KAPALI
+report_intake_locked                    KİLİTLİ
+report_intakemaxperdaydesc              Günlük Alım
+report_intakemaxperdaydesc_tooltip      Bir sonraki alımda teslim edilmesini istediğin toplam mahkum sayısı
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              Hiçbiri
+report_intakemaxperdayall               Tümü
+reports_intakedelivernow                Şimdi Teslim Et
+report_intakepayment                    Ödeme
+report_intakeall                        TÜMÜ
+report_intake_list_tooltip_title        Alım Kategorileri
+report_intake_list_tooltip              Hapishanene teslim edilebilecek tüm kategorilerin bir listesi.\n\nHavuzun büyüklüğü, her bir kategoride teslim edilmeye hazır toplam mahkum sayısını gösterir. Bu sayı, kaydırıcıların oranına bağlı olarak zamanla artar.\n\nBir sonraki alımda teslim alacağın mahkum kategorileri oranını değiştirmek için kaydırıcıları ayarlayabilirsin.
+report_intake_list_tooltip_dr           \n\nÖlüm Hücresi mahkumlarının hapishanene aktarılmaları için özel tasarlanmış Ölüm hücreleri gerekir. Ölüm Hücresine alım da ayrıca normal alımdan çok daha yavaştır ve Ölüm hücresi havuzunda daima bir artış elde edemezsin. Bu mahkumların sayısı çok azdır ve seyrektir.
+report_intake_buttons_tooltip_title     Sonraki Alım
+report_intake_buttons_tooltip           Bu bölümü kullanarak bir sonraki alımda teslim almak istediğin mahkum sayısını artırabilir veya azaltabilirsin.\n\n"Hiçbiri"ni seçince, hapishanen yeni mahkumlara kapanacaktır, "Tümü" nü seçince de toplam mevcut mahkum sayısı alınacaktır.\n\nHer bir kategoriden mahkum sayısı, yukarıdaki kaydırıcı ile ayarlanır.
+report_intake_overview_tooltip_title    Alıma Genel Bakış
+report_intake_overview_tooltip          Burada, bir sonraki mahkum teslimatını ve teslim alacağın ödemeyi görüntüleyebilirsin. Teslim edilen mahkum sayısı ve kategorileri, yukarıdaki kaydırıcı ve düğmelerle değiştirilebilir. Ödeme, her bir kategorideki mahkum sayısına göre yapılır.
+
+valuation_categoryprison                Hapishane Değeri
+valuation_construction                  Tuğla ve Harç
+valuation_objects                       Demirbaşlar
+valuation_stock                         Stok ve Malzemeler
+valuation_staff                         Personel
+valuation_startupgrant                  Başlangıç Hibesi
+valuation_capacity                      Mahkum Kapasitesi
+valuation_cash                          Nakit
+valuation_debt                          Banka Kredisi
+valuation_categoryperformance           Emniyet ve Güvenlik
+valuation_bonustimewithoutincident      [Bonus] Olaysız zaman
+valuation_finedeath                     [Ceza] Son 24 saatteki ölümler
+valuation_fineescape                    [Ceza] Son 24 saatteki firarlar
+valuation_total                         TOPLAM
+valuation_sell                          SAT
+valuation_sellprison                    HAPİSHANEYİ SAT
+valuation_sell_tooltip                  Hapishaneni satarak bu hapishanedeki karları alabilir ve çok daha yüksek başlangıç banka bakiyesi ile yeni bir hapishaneye başlayabilirsin.\n\nBu hapishaneyi hala işletmeye devam edebileceksin, ancak bir seferde sadece bir hapishane satabilirsin. Satıştan elde edilecek tüm kar yeni alanına aktarılacak.
+valuation_sold                          Bu hapishane şu fiyata satıldı: *X
+valuation_donotown                      Bu hapishanenin sahibi olmadığın için satamazsın.
+valuation_sellsome                      Hisse sat
+valuation_buysome                       Hisse satın al
+valuation_shares                        Hisse al ve sat
+valuation_shares_tooltip                Hapishanenin %50'ye kadarı için, dış yatırımcılara hisse satabilirsin. Ödeme hemen nakit olarak yapılacaktır. Yatırımları karşılığında hissedarların, hapishaneni sattığında, toplam satış fiyatından hisse miktarı kadarını alır.\n\nÖrn. eğer hapishanenin %30 hissesini satarsan, ilk satış değerinin sadece %70'ini alacaksın. Son sattığın hisseleri her an geri satın alabilirsin. Ancak maliyeti teslim aldığın satış fiyatından daha yüksek olacaktır. 
+valuation_ownership                     Hapishanenin %*X oranına sahipsin.
+valuation_saleprice                     Satış Fiyatı: *X
+valuation_title                         =[DEĞERLEME]=
+valuation_totalprisonvalue              Toplam Hapishane Değeri: *X
+valuation_subcashreserves               Eksi Nakit Değerler: *X
+valuation_tenpercentprice               %10'u için fiyat: *X
+valuation_profit                        Karın: *X
+valuation_tap_to_authorise              YETKİLENDİRMEK İÇİN DOKUN
+
+salecondition_title                     SATIŞ GEREKSİNİMLERİ
+salecondition_cannotsell                Aşağıdaki koşullar sağlanana kadar hapishaneni satamazsın veya hisselerini alım-satım yapamazsın.
+salecondition_minimumvalue              En az değer 50.000$
+salecondition_cashflow                  Pozitif nakit akışı
+salecondition_accountant                Muhasebeci alanda
+salecondition_minprisoners              En az 20 mahkum
+salecondition_recentdeaths              Yakın zamanlarda ölüm yok
+salecondition_recentescapes             Yakın zamanlarda firar yok
+salecondition_passed                    [GEÇTİ] 
+salecondition_failed                    [BAŞARISIZ] 
+
+policy_title                            OLAY
+policy_search                           - ARANIYOR -
+policy_prisoner                         ONU
+policy_cell                             HÜCRE
+policy_punishment                       CEZA
+policy_quantity                         ZAMAN
+policy_punishmenttime                   *X saat
+policy_mealcost                         *X$ / gün
+policy_totalmealcost                    (TOPLAM: *X$ / gün)
+
+job_construct                           *X İnşa Et
+job_installobject                       *X Yerleştir
+job_installobjectinroom                 *Y içinde *X Yerleştir
+job_moveobject                          *X'i Taşı
+job_moveobjecttoroom                    *X'i *Y'e Taşı
+job_loadobjectinto                      *X'i *Y'ye Yükle
+job_storeobject                         *X'i *Y'de Depola
+job_dismantleobject                     *X'i Parçala
+job_dumpobject                          *X'i At
+job_repairobject                        *X'i Tamir Et
+job_operateequipment                    *X'i Çalıştır
+job_escortprisoner                      Mahkuma *X'na kadar eşlik et
+job_punishprisoner                      Mahkuma İşlem Uygula
+job_searchobject                        *X'i Ara 
+job_searchentity                        Mahkumu Ara
+job_searchingentity						Mahkum Aranıyor
+job_searchcell                          Hücreyi Ara
+job_searchcellblock                     Hücre Bloğunu Ara
+job_improvecellindoor                   İç bölgeyi temizle
+job_improvecelloutdoor                  Dış bölgeyi bahçıvana ver
+job_opendoor                            Kilitli Kapıyı Aç
+job_giveuniform                         Mahkum Kıyafeti Ver
+job_failurecount                        *X defa başarısız oldu
+job_feedprisoner                        Mahkumu Besle
+job_healprisoner                        Mahkumu İyileştir
+job_delivermail                         Postayı Teslim Et
+       
+finances_title                          Mali Durum
+finances_income                         Gelir
+finances_expenses                       Masraflar
+finances_total                          Toplam
+finances_profit                         Net
+finances_timewithoutincident            (*X gün)
+finances_dailyincome                    *X / gün
+
+finances_category_federalgrant          Devlet Hibesi
+finances_category_minsecprisoners       Min Güv Mahkum Hibesi
+finances_category_medsecprisoners       Standart Mahkum Hibesi
+finances_category_maxsecprisoners       Maks Güv Mahkum Hibesi
+finances_category_prisoners             Mahkum Hibesi
+finances_category_workmen               İşçi Maaşları
+finances_category_guards                Gardiyan Maaşları
+finances_category_admin                 Yönetici Maaşları
+finances_category_staff                 Personel Maaşları
+finances_category_food                  Yiyecek
+finances_category_electricity           Elektrik
+finances_category_workshops             Atölyeler
+finances_category_loaninterest          Kredi Faizi
+finances_category_reformprogs           Islah Programları
+finances_category_noincident            Olaysız Gün
+finances_category_exports               Dışsatımlar (dün)
+finances_category_corptax               Kurumsal Vergiler
+finances_category_prisonerwages         Mahkum Maaşları (dün)
+finances_category_shoprevenue           Mağaza Geliri (dün)
+
+reports_foodtitle                       Beslenme Politikası
+meal_quantity                           Yemek Kalitesi
+meal_variety                            Yemek Çeşitliliği
+meal_cost                               Mahkum Başına Maliyet
+
+reports_paroletitle                     Şartlı Tahliye Politikası
+parole_title                            Şartlı Tahliye Oranı
+parole_info                             Şartlı Tahliye Kapanış Tarihi: *P%
+parole_desc                             Eğer bir mahkumun tekrar suç işleme oranı bu değerden daha düşükse, şartlı tahliye duruşmasının sonunda tahliye edilir.
+parole_fine                             Mahkum Tekrar Suç İşleme Cezası
+parole_reward                           Erken Tahliye Mahkum Ödülü
+
+victory_title                           BELGELEME
+
+victory_PrisonValue                     Hapishane Değeri
+victory_Income                          Günlük Karlar
+victory_Prisoners                       Kapasite
+victory_PrisonersReleased               Tahliye edilen mahkumlar
+victory_prisonersdied                   Gözaltındayken Ölüm
+victory_prisonersescaped                Firar Eden Mahkumlar
+victory_Bankrupt                        İflas
+victory_Riot                            Kontrolsüz\nİsyan
+victory_TooManyDeaths                   Cezai\nİhmal
+victory_TooManyEscapes                  Güvenlik\nFelaketi
+victory_failure                         BAŞARISIZ
+victory_warning                         UYARI
+victory_remaining                       kalan
+victory_death                           ÖLÜMLER
+victory_escapes                         FİRARLAR
+victory_counter                         (*X bugün)
+victory_executions                      Yasadışı İnfazlar
+victory_innocentsexecuted               İnfaz Edilen Masum Mahkum
+
+victory_warning_bankrupt                Mali felaketi önlemek için 24 saatin var.
+victory_warning_riot                    Bu isyanı kısa sürede bastıramazsan devletimiz kontrolü eline alacak.
+victory_warning_toomanydeaths           Eğer bugün daha fazla ölüm olursa hakkında adli takibat başlatılacak.
+victory_warning_toomanyescapes          Eğer bugün daha fazla firar olursa kovulacaksın.
+
+victory_prisoners_units                 Yerler
+victory_prisonersreleased_units         Tahliye Edilenler
+victory_toomanydeaths_units             Ölümler
+victory_toomanyescapes_units            Firarlar
+victory_prisonersparoled                Şartlı Tahliye Edilen Mahkumlar
+victory_prisonersreoffended             Tekrar Suç İşleyen Mahkumlar
+
+victory_adviserwarning_toomanydeaths1   Dün, bu hapishanenin çok karanlık bir günü olarak tarihe geçti. Birçok insan burada hayatını kaybetti.
+victory_adviserwarning_toomanydeaths2   Bugün başkalarının ölmesini önle, aksi halde cezai ihmal dolayısıyla hakkında adli takibat başlatılacak.
+victory_advisernotice_toomanydeaths1    Uyarmadı deme. Burada son yaşanan olaylarda cezai ihmal dolayısıyla suçlu bulundun.
+victory_advisernotice_toomanydeaths2    Suçunun cezası olarak önümüzdeki on yılı hapishanede geçireceksin. Kendi hapishanen. Boş şans.
+victory_adviserwarning_riot1            Hapishanen kontrolden çıktı. Bu isyanı şimdi bastır, aksi halde devlet zorla müdahale edecek ve hapishanede kontrolü sağlayacak.
+victory_advisernotice_riot1             Bu isyanı kontrol edemedin. Devlet hapishane sözleşmemizi feshetti ve şimdi hapishaneyi geri almak için milli muhafızları gönderiyor.
+victory_adviserwarning_toomanyescapes1  Burada bir Halkla İlişkiler felaketi yaşıyoruz. Son zamanlarda pek çok mahkum firar etti ve bu senin hatan.
+victory_adviserwarning_toomanyescapes2  Bu mekanı kilitle ve birilerinin kaçmasını önle, aksi halde basının manşetlerinde yer alacaksın.
+victory_advisernotice_toomanyescapes1   Başarısız oldun. Bu hapishane basında alay konusu oldu ve günah keçisi arıyorlar. 
+victory_advisernotice_toomanyescapes2   O günah keçisi de sensin. Kovuldun.
+victory_adviserwarning_bankrupt1        İflas ettik! Başarısız yönetimin, mali çöküşümüze yol açtı.
+victory_adviserwarning_bankrupt2        Bunu düzeltmek için kısa sürede bir yol bul, yoksa kovulacaksın.
+victory_advisernotice_bankrupt1         İflasımızı ilan edip hapishaneyi yönetime bırakmaktan başka seçeneğimiz yok. Başarısız oldun.
+victory_adviserwarning_wardendeaths1    Senin çalışman artık çok tehlikeli hale geldi. Hapishanede çalışmak isteyen müdürler bulmaya çabalıyoruz.
+victory_adviserwarning_wardendeaths2    Eğer bir müdürün daha ölmesine göz yumarsan, seni kovmaktan başka seçeneğimiz olmayacak.
+victory_advisernotice_wardendeaths1     Müdürlerin için güvenli bir çalışma ortamı sağlayamadın. Herkes seninle çalışmaktan korkuyor.
+victory_advisernotice_wardendeaths2     İşine son vermekten başka seçeneğimiz yok. Kovuldun.
+victory_adviserwarning_reoffenders1     Erken tahliye ettiğin pek çok mahkum yeni suç işlemeye devam etti. Durumu kontrol altına alamazsak bize pahalıya mal olacak.
+victory_adviserwarning_reoffenders2     Eğer tahliyenin ardından çok sayıda mahkum yeniden suç işlerse, suçlanacak tek kişi sen olacaksın.
+victory_advisernotice_reoffenders1      Pek çok tehlikeli suçluyu dünyaya salıverdin. İşine son vermekten başka seçeneğimiz yok. Başarısız oldun.
+victory_adviserwarning_executions1      İkinci kez bir masum mahkumu ölüme gönderdin. İnsanların öfkesi çok büyük.
+victory_adviserwarning_executions2      Eğer bir masum mahkum daha infaz edilirse, ondan sen sorumlu tutulacaksın.
+victory_advisernotice_executions1       Pek çok masum insanın infazına izin verdin. Bu hapishaneyi daha fazla işletmene izin veremeyiz. Başarısız oldun.
+victory_advisernotice_InnocentsExecuted1 İlgili prosedürleri takip etmeden birini infaz ettin ve onların masum oldukları ortaya çıktı. Bu büyük bir adli yanlış ve sorumlusu sensin. Kovuldun ve muhtemelen hapse sen gireceksin.
+
+score_title                             HAPİSHANE DERECELENDİRMESİ
+score_reoffendingrate                   TEKRAR SUÇ İŞLEME ORANI
+score_prisonersreleased                 *X mahkum tahliye edildi
+score_minimumprisonersreleased          Bu raporun düzenlenebilmesi için *X mahkum tahliye edilmeli
+score_deaths                            *X mahkum gözaltındayken öldü
+score_escapes                           *X mahkum firar etti
+score_reoffendingchance                 Tahmini Tekrar Suç İşleme Şansı
+score_startingreoffendingchance         Tahmini varış: %*X
+score_prisonersparoled                  Erken Şartlı Tahliye (Tekrar Suç İşledi)
+score_prisonersparoled_info             *P (%*E)
+score_clemencychance                    Merhamet İhtimali
+score_convictionstrength                Devlet Onaylı Mahkum Etme Gücü
+score_prisonersexecuted                 İnfaz Edilen Mahkumlar (Masum)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                Bu derecelendirme, mahkumların suçları için halk tarafından algılandığı üzere ne kadar iyi cezalandırıldığını gösterir. Hapishanede uzun süre yatmak güçlü bir cezalandırmanın temelidir. Ancak yalnız başına zor koşullarda hapsedilmek de bunun lehine sayılacaktır.\n\nAklında bulunsun, çok fazla ıslah veya çok fazla boş zaman "yumuşak davranma" olarak algılanacak ve ceza puanları aleyhine sayacaktır.\n\nGüçlü bir ceza puanı, serbest kaldıklarında mahkumları yeniden suç işlemekten caydıracaktır.
+score_tooltip_reform                    Islah programlarını kullanarak bu mahkumu ıslah ve rehabilite etmek için ne kadar çabaladığını gösteren bir derecelendirme.\nYüksek bir ıslah puanı, tahliyenin ardından mahkumun gerçek bir iş imkanı bulma ihtimalini çok daha fazla artıracaktır, böylece tekrar suç işleme ihtimalini azaltacaktır.\n\nNot: Mahkumlarını hapishanede çalıştırmak da buna sayılır.
+score_tooltip_health                    Hapishanende kaldığı süre boyunca mahkumun sağlık ve refah raporu. Dışarıda egzersiz ve iyi yemek buna sayılır. Tedavi edilmeyen yaralanmalar, uyuşturucular ve alkol kullanımının hepsi bunun aleyhine sayılır.\n\nBurada alınacak düşük bir puan, mahkumun tekrar suç işleme ihtimalini artıracaktır, özellikle eğer mahkum hapishaneden tedavi edilmemiş bir uyuşturucu veya alkol bağımlılığı ile ayrılıyorsa.
+score_tooltip_security                  Bu mahkumu ne kadar iyi hapiste tuttuğunu gösteren bir derecelendirme. Mahkumları hücrelerinde kilitli ve silahlı gardiyanların altında tutmak ciddi ölçüde buna sayılacaktır. Eğer mahkum kavgaya, cinayete katılırsa ya da firara kalkışırsa sen ceza alacaksın.\n\nDüşük puan, mahkumun hapishanede sabıkalı yaşam biçimine devam ettiğini gösterir ve bu yüzden tahliye olduğunda tekrar suç işleme ihtimali çok yüksek olacaktır.
+
+score_tooltip_reoffendingchance         Mahkumların tahliye olduktan sonra, tahmini bir tekrar suç işleme ihtimalini gösterir. Bu değeri oluşturmak için pek çok etken hesaba katılmaktadır:\n\n- AZALTIR Sert/güçlü cezalar\n- AZALTIR Başarılı ıslah programları\n- ARTIRIR Yetersiz sağlık ve güvenlik\n- ARTIRIR Tedavi edilmeyen uyuşturucu ve alkol bağımlılığı\n- ARTIRIR Çete üyeliği\n\n\n- Mahkumun yaşı büyük bir etkendir.\n- Önceki mahkumiyetinin sayısı güçlü bir göstergedir.\n- Destekleyen büyük bir ailenin yardımı dokunabilir.
+score_tooltip_clemencychance_title      Merhamet İhtimali
+score_tooltip_clemencychance            Temyiz Kurulunun merhamet gösterme ve mahkumların ölüm hücresi cezasını hafifletme ihtimalidir. Her bir başarısız temyiz, işlem için tam yetki verilen Devlet Onaylı Mahkum Etme Gücü altına gelene kadar bu değeri düşürür. Eğer sonradan mahkumun temyizi başarılı bulunursa, bu nokta öncesinde infazı planlamak son derece ağır cezalara yok açar.\n\nEğer merhamet gösterilirse, (masum bulunması durumunda) mahkum hemen tahliye edilir ya da (hala suçlu bulunması durumunda) Maksimum Güvenlikli yere aktarılır.
+score_tooltip_currentchance             Devlet Onaylı Mahkum Etme Gücü %*X
+score_tooltip_clemencywarning           Bu mahkuma merhamet gösterilme ihtimali şu anda Devlet Onaylı güvenlik seviyesinin üzerinde. Eğer bu infaza devam edersen, mahkuma ileride merhamet gösterilmesi durumunda, sorumlu sen tutulacaksın. 
+
+experiencefactor_FractionalLockedUp     %*X hapiste kalma
+experiencefactor_FractionalReform       %*X ıslah programlarında kalma
+experiencefactor_fractionalWorking      %*X çalışmada kalma
+experiencefactor_fractionalsuppressed   %*X baskı altında kalma
+experiencefactor_fractionalinjured      %*X tedavi edilmeyen yara ile kalma
+experiencefactor_fractionalintoxicated  %*X kendinden geçme (uyuşturucu/alkol/bırakma)
+experiencefactor_fractionalmisbehaving  %*X kötü davranışta kalma
+experiencefactor_fractionalarmedguard   %*X silahlı gardiyan veya baskı altında kalma
+experiencefactor_fractionalwellfed      %*X iyi beslenmiş kalma
+experiencefactor_fractionalexercising   %*X egzersizle kalma
+experiencefactor_fractionalfreetime     %*X boş zamanda kalma
+
+experiencefactor_passedeasyprograms             *X basit program geçildi
+experiencefactor_passedintermediateprograms     *X orta düzey program geçildi
+experiencefactor_passedadvancedprograms         *X gelişmiş program geçildi
+experiencefactor_passedexpertprograms           *X uzman program geçildi
+
+experiencefactor_YearsServed            *X yıl yattı
+experiencefactor_fights                 Şiddet olaylarına karıştı
+experiencefactor_murders                Hapishanende *X defa cinayet işledi
+experiencefactor_escapeattempts         *X defa firar etmeye çalıştı
+experiencefactor_addictions             *X etkin bağımlılık
+experiencefactor_gangmembership         Çete Üyesi
+
+legend_key                              Anahtar:
+
+needs_graphscale_title                  Mahkumlar:
+needs_key_critical                      Kritik
+needs_key_high                          Yüksek
+needs_key_med                           Orta
+needs_key_satisfied                     Memnun
+needs_key_active                        Etkin
+
+contraband_supplyanddemand              Arz ve Talep
+contraband_narcotics                    Uyuşturucular
+contraband_weapons                      Silahlar
+contraband_tools                        Araçlar
+contraband_luxuries                     Lüks Mallar
+contraband_metal                        Metal
+contraband_smelly                       Kokuşmuş
+contraband_rangedweapon                 Menzilli Silah
+contraband_improvised                   Hazırlıksız
+
+contraband_key_supply                   Arz
+contraband_key_demand                   Talep
+contraband_log_stolen                   ÇALINTI
+contraband_log_position                 KONUM
+contraband_log_smuggled                 KAÇAK
+contraband_log_traded                   TAKAS EDİLMİŞ
+contraband_log_thrown                   ATILMIŞ
+contraband_log_hidden                   GİZLENMİŞ
+contraband_log_detected                 YAKALANMIŞ
+contraband_log_dog                      KÖPEK
+contraband_log_found                    BULUNMUŞ
+contraband_log_owner                    SAHİBİ
+
+schedule_zone_shared                    Ortak
+schedule_zone_minseconly                Min Güv
+schedule_zone_medseconly                Ort Güv
+schedule_zone_maxseconly                Maks Güv
+schedule_zone_protectedonly             Korumalı Gözaltı
+schedule_zone_supermaxonly              Süper Maks
+schedule_zone_deathrowonly              Ölüm Hücresi
+schedule_zone_staffonly                 Sadece Personel
+schedule_zone_unlocked                  Kilidi Açık
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              Kaka Yapıyor
+action_wee                              Çiş Yapıyor
+action_wash                             Duş Alıyor
+action_relax                            Dinleniyor
+action_sleep                            Uyuyor
+action_nap                              Şekerliyor
+action_getmeal                          Yemek Alıyor
+action_sit                              Oturuyor
+action_exercise                         Egzersiz Yapıyor
+action_liftweights                      Ağırlık Kaldırıyor
+action_phonehome                        Ailesine Telefon Açıyor
+action_watchtv                          TV İzliyor
+action_playpool                         Bilardo Oynuyor
+action_stealknife                       Şüpheli Davranıyor
+action_stealspoon                       Şüpheli Davranıyor
+action_urinate                          İşiyor
+action_soilsuit                         Elbisesini Kirletiyor
+action_eat                              Yemek Yiyor
+action_complain                         Şikayet Ediyor
+action_work                             Çalışıyor
+action_visitation                       Görüş Gününde
+action_parole                           Şartlı Tahliye Duruşmasında
+action_none                             Hiçbiri
+action_misbehaving                      Kötü Davranıyor
+action_escaping                         Firar Ediyor
+action_destroying                       Tahrip Ediyor
+action_spoiling                         Bozuyor
+action_fighting                         Kavga Ediyor
+action_rioting                          İsyan Ediyor
+action_hostagetaking                    Rehin Alıyor
+action_reformprogram                    Islah Programı
+action_changeclothes                    Elbisesini Değiştiriyor
+action_getbook                          Kitap Alıyor
+action_pray                             Dua Ediyor
+action_shopping                         Alışveriş Yapıyor
+
+status_effect_title						=[Durum Etkileri]=
+status_effect_none						Hiçbiri
+status_effect_suppressed				Baskı Altında
+status_effect_goodfood					İyi Beslenmiş
+status_effect_drunk						Sarhoş
+status_effect_high                      Yüksek
+status_effect_withdrawal				Geri Çekilmiş
+status_effect_tazed                     Şokta
+status_effect_overdosed                 Aşırı Doz Almış
+status_effect_surrendered               Teslim Olmuş
+status_effect_calming                   Sakinleşiyor
+status_effect_angst                     Sinirli
+status_effect_wounded                   Kan Kaybediyor
+status_effect_virus                     Hasta
+status_effect_virusdeadly               Hasta
+
+condition_treated                       Tedavi Edilmiş
+condition_needstreating                 Tedaviye İhtiyacı Var
+
+experience_totaltime                    Toplam Süre
+experience_misconduct                   Kötü Davranış
+experience_lockeddown                   Tecrit
+experience_regime                       Rejim
+experience_sleep                        Uyku
+experience_work                         İş
+experience_class                        Sınıf
+experience_freetime                     Serbest Zaman
+experience_moodbad                      Kötü
+experience_moodnormal                   Normal
+experience_moodgood                     İyi
+experience_nocondition                  Hiçbiri
+experience_kod                          Öldü
+experience_hurt                         Yaralandı
+experience_suppressed                   Baskı Altında
+experience_intoxicated                  Kendinden Geçmiş
+experience_wellfed                      İyi Beslenmiş
+experience_exercise                     Egzersiz
+
+need_name_nothing                       Hiçbir şey
+need_name_bladder                       İdrar Kesesi
+need_name_bowels                        Kalın Bağırsak
+need_name_sleep                         Uyku
+need_name_food                          Yiyecek
+need_name_safety                        Güvenlik
+need_name_hygiene                       Hijyen
+need_name_exercise                      Egzersiz
+need_name_family                        Aile
+need_name_recreation                    Dinlenme
+need_name_comfort                       Konfor
+need_name_environment                   Çevre
+need_name_privacy                       Mahremiyet
+need_name_freedom                       Özgürlük
+need_name_clothing                      Giyim
+need_name_drugs                         Uyuşturucu
+need_name_alcohol                       Alkol
+need_name_starving                      Açlıktan Ölüyor
+need_name_spirituality                  Maneviyat
+need_name_literacy                      Okur Yazarlık
+needs_locked                            (İhtiyaçları Görmek İçin Psikolog Gerekli)
+needs_title                             =[İhtiyaçlar]=
+
+reputation_title                        İtibar
+reputation_hidden                       (İtibar Bilinmiyor)
+reputation_hidden_short                 ???
+
+reputation_legendary                    --EFSANEVİ--
+reputation_strong                       Güçlü
+reputation_tough                        Sert
+reputation_volatile                     Dengesiz
+reputation_snitch                       İspiyoncu
+reputation_deadly                       Ölümcül
+reputation_stoical                      Dayanıklı
+reputation_fearless                     Korkusuz
+reputation_exlaw                        Eski Yasa Uygulayıcısı
+reputation_copkiller                    Polis Katili
+reputation_quick                        Süratli
+reputation_instigator                   Fitneci
+reputation_fighter                      Yetenekli Dövüşçü
+reputation_gangmember                   Çete Üyesi
+reputation_federalwitness               Yasal Şahit
+
+reputation_strong_high                  Son Derece Güçlü
+reputation_tough_high                   Son Derece Sert
+reputation_volatile_high                Son Derece Dengesiz
+reputation_deadly_high                  Son Derece Ölümcül
+reputation_exlaw_high                   Eski Hapishane Gardiyanı
+reputation_quick_high                   Son Derece Hızlı
+reputation_fighter_high                 Uzman Dövüşçü
+
+reputation_legendary_high               --EFSANEVİ--
+reputation_snitch_high                  İspiyoncu
+reputation_stoical_high                 Dayanıklı
+reputation_fearless_high                Korkusuz
+reputation_copkiller_high               Polis Katili
+reputation_instigator_high              Fitneci
+reputation_gangmember_high              Çete Üyesi
+
+reputationtooltip_legendary             Bu mahkum yeraltı dünyasının efsanesi. Çok sayıda yeteneği var ve bu onu çok tehlikeli yapıyor.
+reputationtooltip_strong                Bu mahkum kavga esnasında her yumrukta daha sert vuruyor.
+reputationtooltip_tough                 Bu mahkum kavgada daha çok sertliğe katlanabilir. Ayrıca bazen bir Tazer ile vurulmaya bile dayanabilir.
+reputationtooltip_volatile              Bu mahkumun uyarmadan ve sebepsiz tekme atması muhtemel.
+reputationtooltip_stoical               Bu mahkum Hücre Hapsinde kilitliyken bastırılamaz. Gerçekten umurunda değil.
+reputationtooltip_snitch                Bu mahkumun muhbir olduğu biliniyor ve bu yüzden hayatı tehlikede olabilir. Onu diğer mahkumlarla uzun süre tek başına bırakma.
+reputationtooltip_deadly                Bu mahkum bir ölümcül dövüş hamleleri ustası ve bazılarını tek vuruşta öldürebilir.
+reputationtooltip_exlaw                 Bu mahkum bir zamanlar bir Polis Memuru veya başka bir yasa uygulayıcısıydı. Hayatı tehlikede olabilir.
+reputationtooltip_copkiller             Bu mahkum bir Polis Memurunu öldürmekten suçlu. Gardiyanların onları hizaya sokmaya çalışırken kendilerini zapt edemeyebilir.
+reputationtooltip_fearless              Bu mahkumun gözü Silahlı Gardiyanlardan korkmaz ve bir kavga esnasında teslim olma ihtimali çok düşüktür.
+reputationtooltip_quick                 Bu mahkum olağanüstü bir şekilde hızlı koşuyor.
+reputationtooltip_instigator            Bu mahkum etrafındakilere huzursuzluk veriyor. Bir soruna sebep olduğunda, yanındaki mahkumlar aynısını yapmaya mecbur hissediyor.
+reputationtooltip_fighter               Bu mahkum kavgada savunma hareketlerinde yetenekli. Rakiplerini silahsızlandırabilir, hatta onların silahını dahi alabilir.
+reputationtooltip_gangmember            Bu mahkum bir çete üyesi. Çete üyesi dostlarını savunur ve rakip çeteye kin besler.
+reputationtooltip_federalwitness        Bu mahkum önemli bir adli davada görgü tanığı ve bu yüzden bir çete veya mafya babasının hedefinde.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Çalışıyor
+nameplate_stationed                     Atanmış
+nameplate_patrolling                    Devriyede
+nameplate_resting                       Dinleniyor
+nameplate_tired                         Bitkin
+nameplate_injured                       Yaralı
+nameplate_unconscious                   Bilinci Kapalı
+nameplate_dead                          ÖLÜ
+nameplate_released                      TAHLİYE EDİLMİŞ
+nameplate_researching                   Araştırılıyor
+nameplate_overdose                      AŞIRI DOZ ALMIŞ
+nameplate_starving                      AÇLIKTAN ÖLÜYOR
+nameplate_wounded                       KAN KAYBEDİYOR
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Tüm Mahkumları Besle
+objective_caption_prisoners             Mahkumlar
+objective_caption_meals                 Yemekler
+objective_readceosletter                CEO'nun mektubunu oku
+objective_actionrequired                Olay Raporları
+
+objective_deathrowinmates               Ölüm Hücresi Mahkum Durumu
+
+objective_prisonerintake                Mahkum Alımı
+objective_intake_arrivals               *X mahkum sabah 8'de geliyor
+objective_intake_closed                 Hapishanen yeni mahkumlara kapalı
+objective_intake_closed2                (Mahkum Raporuna Gözat)
+objective_intake_closed3                (Alım Raporuna Gözat)
+objective_intake_specials				Özel Transferler:
+objective_intake_categories             Kategoriler: 
+objective_intake_minsec                 Min, 
+objective_intake_medsec                 Normal, 
+objective_intake_maxsec                 Maks
+objective_intake_deathrow               Ölüm Hücresi
+
+objective_builddeliveriesroom           Bir teslimat alanı belirle 
+
+objective_outgoing                      Tahliye için bekleyen mahkumlar
+objective_outgoing_count                *X mahkum yakında tahliye olmak için bekliyor
+objective_outgoing_timer                (*X saat)
+
+objective_visitors                      Ziyaretçiler (8 - 20)
+objective_visitors_waiting              *X aile görüş için bekliyor
+objective_visitors_onsite               *Y grupta *X ziyaretçi
+
+objective_staffexhausted                Yorgun Personel
+objective_reststaff_exhausted           *X personel yorgun.
+objective_reststaff_resting             (*X personel dinleniyor)
+objective_reststaff_needstaffroom       Personelin dinlenebilmesi için bir Personel Odası inşa et.
+
+objective_punishment_solitary           *X Hücre Hapsinde
+objective_punishment_solitary_queue     *X Hücre Hapsi bekliyor
+objective_punishment_solitary_mix       *X Hücre Hapsinde (+*Y bekliyor)
+objective_punishment_lockdown           *X Tecritte
+objective_incident_medical              *X için tıbbi müdahale gerekiyor
+objective_incident_dead                 *X ceset
+
+objective_prisonerparole                Mahkum Şartlı Tahliyesi
+objective_parole_count                  *X mahkum şartlı tahliye için hazır
+
+objective_payment_receivedfull          Ödeme: *X alındı
+objective_payment_receivedpart          Ödeme: *X alındı, toplam *Y
+
+objective_grant_bootstraps                  Kısa Gözaltı Merkezi
+objective_grant_bootstraps_description      Boş bir araziyi işleyen bir hapishaneye dönüştür. Bu devlet sözleşmesi, ilk Mahkum grubun için olmazsa olmaz binaları inşa etmen için gerekli fonu sana veriyor.
+objective_grant_bootstraps_holdingcell      Nezarethane İnşa Et
+objective_grant_bootstraps_shower           Duş İnşa Et
+objective_grant_bootstraps_yard             Avlu İnşa Et 
+objective_grant_bootstraps_kitchen          Mutfak İnşa Et
+objective_grant_bootstraps_canteen          Kantin İnşa Et
+objective_grant_bootstraps_guard            En az iki gardiyan işe al
+objective_grant_bootstraps_chef             En az iki aşçı işe al
+
+objective_grant_administration                          Yönetim Merkezi
+objective_grant_administration_description              İşlerin pürüzsüzce ilerlemesi ve projenin hesap verilebilir olması için her hapishane projesinde işleyen bir yönetim binası olmalıdır. Bu sözleşme, bir Müdür, bir Muhasebeci ve onların ofisleri için ödeme yapar; bundan sonra tam Devlet Hibesi sistemine erişim sağlanmış olacak.
+objective_grant_administration_offices                  İki ofis inşa et
+objective_grant_administration_warden                   Bir Müdür işe al 
+objective_grant_administration_accountant_research      Bürokrasi'den Finans'ın kilidini aç
+objective_grant_administration_accountant               Bir Muhasebeci işe al
+
+objective_grant_firstcellblock                  Hücre Bloğu A
+objective_grant_firstcellblock_description      Temel öğeler bitti ve işliyor. İlk hücreni inşa etme ve mevcut mahkumları kendi hücrelerine aktarma zamanı.
+objective_grant_firstcellblock_cells            Mahkum Kapasiteni 15'e çıkar
+
+objective_grant_health                      Mahkum Sağlık ve Refahı
+objective_grant_health_description          Mahkumlarımızın bedensel ve zihinsel sağlığı bizim için çok önemli. Bu hibe, en gelişmiş hastane koğuşunun inşasına yardım etmek ve mahkumların sağlık ihtiyaçlarıyla ilgilenecek doktor ve psikologları işe almak içindir.
+objective_grant_health_ward                 Bir hastane koğuşu inşa et
+objective_grant_health_doctors              En az iki doktor işe al
+objective_grant_health_psychologist         Bir psikolog işe al (Ofis gerektirir)
+
+objective_grant_bailout                     Devlet Kurtarma Paketi
+objective_grant_bailout_description         Devlet performansından çok keyifsiz ama hapishanenin başarısız olmak için çok büyük olduğuna karar verdi. Vergi ödeyenlerin paralarıyla hapishane iflastan kurtulmuş olacak. Ancak hesaplarını dengelemeli, hapishaneni pozitif nakit akışına çevirmeli (günlük gelir masraflardan fazla olmalı) ve bankaya olan borçlarını kapatmalısın.
+objective_grant_bailout_cashflow            Gelir giderden fazla
+objective_grant_bailout_debt                Borçlarını kapat
+
+
+objective_grant_maintenance                         Hapishane Bakımı
+objective_grant_maintenance_description             Hastanenin ve zemininin genel bakım ve onarımı, personel ve mahkumların güvenliği ve emniyeti için önemlidir. Hapishaneni temiz ve derli toplu tutmak için gerekli personeli işe al.
+objective_grant_maintenance_research_root           Bürokrasi'den Bakım'ın kilidini aç
+objective_grant_maintenance_research_cleaning       Bürokrasi'den Temizlik'in kilidini aç
+objective_grant_maintenance_research_groundskeeping Bürokrasi'den Saha Bakımı'nın kilidini aç
+objective_grant_maintenance_foreman                 Bir Ustabaşı işe al (Ofis gerektirir)
+objective_grant_maintenance_janitor                 En az iki hademe işe al
+objective_grant_maintenance_gardener                Bir bahçıvan işe al 
+
+objective_grant_visitation                          Görüş Hakları
+objective_grant_visitation_description              Bölgede diğer bir kaç tesis, mahkumları görüş haklarından mahrum bırakmaktan yasal işlemle karşı karşıya geliyor. Yatırımcılar bir skandal istemiyorlar ve yeterince tesisin mevcut olmasını sağlamak için bu hibeyi veriyorlar.
+objective_grant_visitation_room                     Bir görüş odası inşa et
+objective_grant_visitation_tables                   En az üç görüş masası ekle
+objective_grant_visitation_commonroom               Bir ortak oda inşa et
+objective_grant_visitation_pooltable                Bir bilardo masası ekle
+objective_grant_visitation_tv                       En az iki TV ekle
+objective_grant_visitation_phones                   En az beş telefon kulübesi ekle
+
+objective_grant_basicsecurity                       Güvenlik Prosedürü Sertifikasyonu
+objective_grant_basicsecurity_description           Personelin tesisle ilgili tecrübesizliği yüzünden oluşan güvenlik sorunu yeni hapishanelerde sıkça görülen bir tehlikedir. Güvenliği kabul edilebilir bir seviyeye çıkararak gelecekte sicilimize işleyecek bir aksiliği önle.
+objective_grant_basicsecurity_chief                 Bir Güvenlik Şefi İşe Al (Ofis Gerektirir)
+objective_grant_basicsecurity_guards                On gardiyan işe al
+objective_grant_basicsecurity_patrols               Devriye güzergahlarına üç gardiyan ata
+objective_grant_basicsecurity_research              Bürokrasi'den Güzergahlar'ın aç
+
+objective_grant_enhancedsecurity                    Resmi Güvenlik Oranları
+objective_grant_enhancedsecurity_description        Devletin belirli büyüklükteki hapishaneler için güvenlik konusunda bazı şartları var ve bu şartlara uymayanlara ağır cezalar uyguluyor. Bunun bir sorun olmadığından emin ol.
+objective_grant_enhancedsecurity_armoury            Cephanelik İnşa Et
+objective_grant_enhancedsecurity_kennel             Köpek Kulübesi İnşa Et
+objective_grant_enhancedsecurity_guards             İki Silahlı Gardiyan İşe Al
+objective_grant_enhancedsecurity_dogs               İki Köpek Eğiticisi İşe Al
+objective_grant_enhancedsecurity_patroldogs         İki Köpek Eğiticisini Bir Köpek Devriyesine Ata
+objective_grant_enhancedsecurity_patrolarmed        İki Silahlı Gardiyanı Bir Devriyeye Ata
+
+objective_grant_advancedsecurity                    Maks Güv Altyapı Uygulaması
+objective_grant_advancedsecurity_description        Büyük sayıda mahkum için güvenliği sağlamak zor olabilir, ancak bir ihlalin maliyeti, uygun güvenlik önlemlerini uygulamanın maliyetinden çok daha fazladır. Hapishanende gerekli ekipmanı yerleştir.
+objective_grant_advancedsecurity_guards             Güvenlik gücünün boyutunu artır
+objective_grant_advancedsecurity_researchcctv       Bürokrasi'den CCTV'nin kilidini aç
+objective_grant_advancedsecurity_researchbodyarmour Bürokrasi'den Çelik Yelek'in kilidini aç
+objective_grant_advancedsecurity_researchtazers     Bürokrasi'den Tazer'in kilidini aç
+objective_grant_advancedsecurity_office             Bir Güvenlik Ofisi İnşa Et
+objective_grant_advancedsecurity_cctvmonitor        Bir CCTV Monitörü İnşa Et
+objective_grant_advancedsecurity_cctvcameras        Hapishanende CCTV Kameraları yerleştir
+
+objective_grant_prisonerworkforce                   Mahkum Uyum ve Entegrasyonu 
+objective_grant_prisonerworkforce_description       Mahkumları hapishanende çalıştırmak, masrafları azaltırken onların çevreye entegrasyonu için güzel bir yoldur. Mahkumlarını çalıştırmak için gerekli eğitimi tamamla ve gerekli tesisleri inşa et.
+objective_grant_prisonerworkforce_research          Bürokrasi'den Mahkum İşçiliği'nin kilidini aç
+objective_grant_prisonerworkforce_cleaning          Bir Temizlik Dolabı İnşa Et
+objective_grant_prisonerworkforce_laundry           Bir Çamaşırhane İnşa Et
+objective_grant_prisonerworkforce_kitchenclass      Üç mahkumun Mutfak Güvenliği ve Hijyeni programını tamamlattır
+objective_grant_prisonerworkforce_laundryassigned   Üç mahkumu Çamaşırhane'de çalışması için ata
+objective_grant_prisonerworkforce_kitchenassigned   Üç mahkumu Mutfak'ta çalışması için ata
+objective_grant_prisonerworkforce_cleaningassigned  Üç mahkumu Temizlik Dolabı'nda çalışması için ata
+
+objective_grant_educationreformprogram              Eğitim Girişimiyle Islah
+objective_grant_educationreformprogram_description  Seçkin bir müdahale grubu, eğitimin, mahkum tekrar suç işleme oranına etkileri üzerine büyük çaplı bir sosyal deney yapıyor. Birkaç sınıf kur ve mahkumlarını eğitmeye başla.
+objective_grant_educationreformprogram_research     Bürokrasi'den Eğitim'in kilidini aç
+objective_grant_educationreformprogram_classroom    Bir Sınıf İnşa Et
+objective_grant_educationreformprogram_desks        Yirmi tane okul sırası yerleştir
+objective_grant_educationreformprogram_foundationed On mahkumun Temel Eğitim Kursunu geçmesini sağla.
+objective_grant_educationreformprogram_generaled    Bir mahkumun Genel Eğitim Kursunu geçmesini sağla
+
+objective_grant_prisonlabour                        Hapishane İmalat Tesisi
+objective_grant_prisonlabour_description            Finansçılar hapishanenin karlılığını artırmanı istiyorlar; atölye inşa etmen ve mahkumlarını işgücüne çevirmen için yatırımda bulunmaya hazırlar.
+objective_grant_prisonlabour_workshop               Bir Atölye İnşa Et
+objective_grant_prisonlabour_saw                    İki atölye testeresi yerleştir
+objective_grant_prisonlabour_press                  İki atölye presi yerleştir
+objective_grant_prisonlabour_reform                 Beş mahkumun Atölye Güvenlik Programını geçmesini sağla
+objective_grant_prisonlabour_plates                 30 plaka üret
+
+objective_grant_furnituremanufacturing              Marangoz Çıraklığı Programı
+objective_grant_furnituremanufacturing_description  Mahkumlarına marangozluk kursları sağlamak, onlara tahliye olduklarında kullanabilecekleri değerli bir yeteneği öğretebilir. Ayrıca atölyende yüksek kaliteli mobilya üretmelerini sağlar, bunlar satılarak gelir artırılabilir. 
+objective_grant_furnituremanufacturing_forestry     Bir Ormanlık İnşa Et
+objective_grant_furnituremanufacturing_table        İki marangoz masası yerleştir
+objective_grant_furnituremanufacturing_reform       İki mahkumun Marangozluk kursunu geçmesini sağla
+objective_grant_furnituremanufacturing_bed          On Tane Seçkin Yatak Üret
+
+objective_grant_reducestaffstress                   Personel Refah Girişimi
+objective_grant_reducestaffstress_description       Mahkum işçi sendikası, personelin aşırı stresli ve çok çalıştırılmış olduğuna ve bu yüzden hatalar yapılmakta olduğuna yönelik raporlar almaktalar. Aynı durumun senin hapishanende de yaşanmamasını sağla.
+objective_grant_reducestaffstress_staffroom         Bir Personel Odası İnşa Et
+objective_grant_reducestaffstress_freeguards        Görev atanmamış en az beş gardiyana sahip ol
+objective_grant_reducestaffstress_restedstaff       Hiçbir personelinin yorulmamasını sağla
+
+objective_grant_shortterminvestment                 Kısa Vadeli Yatırım
+objective_grant_shortterminvestment_description     Bir yatırım fonuna para öde; neticede başlangıçta ödediğinin üzerine makul oranda geri dönüş alacaksın.
+objective_grant_shortterminvestment_wait            Fon bekleniyor...
+
+objective_grant_longterminvestment                  Uzun Vadeli Yatırım
+objective_grant_longterminvestment_description      Uzun vadeli bir yatırım fonuna para öde; neticede başlangıçta ödediğinin üzerine makul oranda geri dönüş alacaksın.
+objective_grant_longterminvestment_wait             Fon bekleniyor...
+
+objective_grant_cellblock50                         Hücre Bloğu B
+objective_grant_cellblock50_description             Hapishaneni basit bir tutukevinin ötesine genişletme vakti geldi. 
+objective_grant_cellblock50_cells                   Mahkum Kapasiteni 50'ye çıkar
+
+objective_grant_cellblock100                        Hücre Bloğu C
+objective_grant_cellblock100_description            Hapishaneni genişletmeye devam ederek araziden yeterince faydalan.
+objective_grant_cellblock100_cells                  Mahkum Kapasiteni 100'e çıkar
+
+objective_grant_cellblock200                        Hücre Bloğu D
+objective_grant_cellblock200_description            Daha fazla mahkum, daha fazla fon demek. Kapasiteni artırarak bundan çıkar sağla.
+objective_grant_cellblock200_cells                  Mahkum Kapasiteni 200'e çıkar
+
+objective_grant_cellblock500                        Hücre Bloğu E
+objective_grant_cellblock500_description            Devlet en büyük hapishanelere pek çok büyük mali teşvik sunuyor. Bu hedef için çalışma vakti.
+objective_grant_cellblock500_cells                  Mahkum Kapasiteni 500'e çıkar
+
+objective_grant_nutritionresearch                   Mahkum Beslenme Araştırması
+objective_grant_nutritionresearch_description       Bağımsız bir araştırma grubu, çeşitli mahkum yemek alışkanlıklarının etkileri üzerine bir deneye katılmak için fon sağlıyor. 
+objective_grant_nutritionresearch_poor              İki gün boyunca, günde bir defa, düşük kaliteli, az çeşitlilikte yemek ver
+objective_grant_nutritionresearch_good              İki gün boyunca, günde üç defa, bol çeşitlilikte, yüksek kalitede yemek ver
+
+objective_grant_drugsearch                          Uyuşturucuya Sıkı Önlem
+objective_grant_drugsearch_description              Büyük hapishanelerde uyuşturucu kullanımı hakkında endişeler son zamanlarda gittikçe artıyor. Suçla mücadele duruşu al ve sorunun üstesinden geleceğini göster.
+objective_grant_drugsearch_find                     On yasadışı uyuşturucu bul
+
+objective_grant_contrabandsupply                    Kaçak Mal Temizliği
+objective_grant_contrabandsupply_description        Diğer hapishanelerde, kaçak mal gibi birkaç olayın ardından bir grup, hapishanelerde kaçak mal ve silah dağıtımı üzerine araştırma yapıyor. Deneyin bu parçası, tüm bu öğeleri hapishanedekilerden temizlemeye yönelik.
+objective_grant_contrabandsupply_tools              Çalıntı mal tedarikini yok et
+objective_grant_contrabandsupply_weapons            Çalıntı silah tedarikini yok et
+
+grant_category_completed                            Tamamlanan:
+grant_category_unlocked                             Kilidi Açılan:
+grant_category_cash                                 Nakit:
+grant_category_cashflow                             Nakit Akışı:
+grant_category_debt                                 Borç:
+grant_category_prisoners                            Mahkumlar:
+
+grant_property_atleast                              En Az *X
+grant_property_atmost                               En Fazla *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              Hiçbiri
+object_box                               Kutu
+object_stack                             Yığın
+object_bed                               Yatak
+object_toilet                            Tuvalet
+object_table                             Masa
+object_chair                             Sandalye
+object_bench                             Bank
+object_electricchair                     Elektrikli Sandalye
+object_jaildoor                          Hapis Kapısı
+object_jaildoorlarge                     Büyük Hapis Kapısı
+object_door                              Kapı
+object_solitarydoor                      Hücre Hapsi Kapısı
+object_staffdoor                         Personel Kapısı
+object_remotedoor                        Kumandalı Kapı
+object_roadgate                          Yol Kapısı
+object_jailbars                          Hapis Çubukları
+object_window                            Pencere
+object_windowlarge                       Büyük Pencere
+object_tree                              Ağaç
+object_light                             Işık
+object_cooker                            Ocak
+object_fridge                            Buzdolabı
+object_bin                               Çöp Kutusu
+object_sink                              Eviye
+object_servingtable                      Servis Masası
+object_showerhead                        Duş Başlığı
+object_brick                             Tuğla
+object_concrete                          Beton
+object_steel                             Çelik
+object_ingredients                       Malzemeler
+object_ingredientscooking                Malzemeler (Pişen)
+object_ingredientscooked                 Malzemeler (Pişmiş)
+object_ingredientsspoiled                Malzemeler (Bozuk)
+object_meal                              Yemek
+object_foodtray                          Yiyecek Tepsisi
+object_foodtraydirty                     Yiyecek Tepsisi (Kirli)
+object_grassturf                         Çimen
+object_prisoneruniform                   Mahkum Kıyafeti
+object_dirtyprisoneruniform              Mahkum Kıyafeti (Kirli)
+object_crumpledprisoneruniform           Mahkum Kıyafeti (Buruşuk)
+object_bleach                            Çamaşır Suyu
+object_sheetmetal                        Sac Levha
+object_licenseplateblank                 Plaka (Boş)
+object_licenseplate                      Plakalar
+object_log                               Kütük
+object_wood                              Tahta
+object_workman                           İşçi
+object_truckdriver                       Kamyoncu
+object_guard                             Gardiyan
+object_riotguard                         İsyan Gardiyanı
+object_armedguard                        Silahlı Gardiyan
+object_prisoner                          Mahkum
+object_doctor                            Doktor
+object_paramedic                         Paramedik
+object_cook                              Aşçı
+object_gardener                          Bahçıvan
+object_janitor                           Hademe
+object_fireman                           İtfaiyeci
+object_avatar                            Avatar
+object_actor                             Yapan
+object_visitor                           Ziyaretçi
+object_executionwitness                  İnfaz Şahidi
+object_doghandler                        Köpek Eğiticisi
+object_dog                               Bekçi Köpeği 
+object_dogcrate                          Köpek Kafesi
+object_teacher                           Öğretmen
+object_soldier                           Asker
+object_warden                            Müdür
+object_chief                             Şef
+object_foreman                           Ustabaşı
+object_psychologist                      Psikolog
+object_accountant                        Muhasebeci
+object_lawyer                            Avukat
+object_supplytruck                       Tedarik Kamyonu
+object_prisonerbus                       Mahkum Otobüsü
+object_fireengine                        İtfaiye Arabası
+object_riotvan                           Polis Panzeri
+object_ambulance                         Ambulans
+object_hearse                            Cenaze Arabası
+object_trooptruck                        Askeri Kamyon
+object_fire                              Yangın
+object_garbage                           Çöp
+object_rubble                            Moloz
+object_bookshelf                         Kitaplık
+object_officedesk                        Ofis Masası
+object_filingcabinet                     Dosya Dolabı
+object_medicalbed                        Tıbbi Yatak
+object_morgueslab                        Morg Levhası
+object_equipment                         Ekipman
+object_prop                              Pervane
+object_dummy                             Manken
+object_powerstation                      Elektrik Santrali
+object_capacitor                         Kapasitör
+object_electricalcable                   Elektrik Kablosu
+object_powerswitch                       Şalter
+object_logiccircuit                      Mantıksal Devre
+object_logicbridge                       Mantıksal Köprü
+object_waterpumpstation                  Su Pompalama İstasyonu
+object_pipevalve                         Vana
+object_pipelarge                         Büyük Boru
+object_pipesmall                         Küçük Boru
+object_drain                             Gider
+object_sprinkler                         Sprinkler
+object_metaldetector                     Metal Dedektörü
+object_weightsbench                      Ağırlık Tezgahı
+object_phonebooth                        Telefon Kulübesi
+object_tv                                TV
+object_largetv                           Geniş TV
+object_pooltable                         Bilardo Masası
+object_polaroid                          Polaroid
+object_cctv                              CCTV
+object_cctvmonitor                       CCTV Monitörü
+object_laundrymachine                    Çamaşır Makinesi
+object_laundrybasket                     Çamaşır Sepeti
+object_ironingboard                      Ütü Masası
+object_visitortable                      Ziyaretçi Masası
+object_workshopsaw                       Atölye Testeresi
+object_workshoppress                     Atölye Presi
+object_carpentertable                    Marangoz Masası
+object_boombox                           Seyyar Teyp
+object_guardlocker                       Gardiyan Dolabı
+object_sofachairsingle                   Kanepe
+object_sofachairdouble                   Geniş Kanepe
+object_drinkmachine                      İçecek Makinesi
+object_arcadecabinet                     Arcade Kabini
+object_radio                             Radyo
+object_bookshelflarge                    Kütüphane Kitaplığı
+object_weaponrack                        Silah Rafı 
+object_treestump                         Ağaç Kökü
+object_schooldesk                        Okul Sırası
+object_superiorbed                       Seçkin Yatak
+object_doorcontrolsystem                 Kapı Kontrol Sistemi
+object_phonemonitor                      Telefon Kutusu
+object_servo                             Kapı Servosu
+object_doortimer                         Kapı Zamanlayıcısı
+object_pressurepad                       Basınç Altlığı
+object_statuslight                       Durum Işığı
+object_wire                              Bağla
+object_dismantleobject                   Nesneyi Sök
+object_dismantleutility                  Aracı Sök
+object_sellobject                        Nesneyi Sat
+object_canceljobs                        İşleri İptal Et
+object_showallwires                      Kabloları Göster
+object_tidywires                         Düzenli Kablolar
+object_cutscenepolaroid                  Ara Sahne Polaroidi
+object_cutscenecamera                    Ara Sahne Kamerası
+object_cutscenecue                       Ara Sahne Başlama İşareti
+object_foodwaste                         Yemek Atığı
+object_altar                             Sunak
+object_pews                              Uzun Sıra
+object_prayermat                         İbadet Hasırı
+object_paroleofficer                     Şartlı Tahliye Memuru
+object_parolelawyer                      Şartlı Tahliye Avukatı
+object_spiritualleader                   Ruhani Lider
+object_librarybookshelf                  Kütüphane Etajeri
+object_librarybookunsorted               Kütüphane Kitabı (Sınıflandırılmamış)
+object_librarybooksorted                 Kütüphane Kitabı (Sınıflandırılmış)
+object_sortingtable                      Sınıflandırma Masası
+object_ruinedbook                        Mahvolmuş Kitap
+object_foodbowl                          Yiyecek
+object_appealslawyer                     Temyiz Avukatı
+object_appealsmagistrate                 Temyiz Yargıcı
+object_mailsatchel                       Posta Çantası
+object_mailunsorted                      Sınıflandırılmamış Posta
+object_mailsorted                        Sınıflandırılmış Posta
+object_prisonermail                      Posta
+object_prisonermailopened                Posta (Açılmış)
+object_shopfront                         Mağaza Önü
+object_shopgoods                         Mağaza Malları
+object_shopshelf                         Mağaza Rafı
+
+material_none                            Hiçbiri
+material_building                        Bina (Tuğla)
+material_buildingconcrete                Bina (Beton)
+material_demolish                        Buldozerle
+material_clearindoorarea                 İç Alanı Temizle
+material_demolishwalls                   Duvarları Yık
+material_removetunnels                   Tünelleri Kaldır
+material_canceljobs                      İşleri İptal Et
+material_dirt                            Kir
+material_sand                            Kum
+material_pavingstone                     Kaldırım Taşı
+material_grass                           Çim
+material_gravel                          Çakıl
+material_road                            Yol
+material_roadmarkings                    Yol İşaretleri
+material_roadmarkingsleft                Yol İşaretleri (Sol)
+material_roadmarkingsright               Yol İşaretleri (Sağ)
+material_stone                           Taş
+material_fence                           Çit
+material_concretetiles                   Beton Fayans
+material_concretefloor                   Beton Zemin
+material_woodenfloor                     Ahşap Zemin
+material_ceramicfloor                    Seramik Zemin
+material_mosaicfloor                     Mozaik Zemin
+material_metalfloor                      Metal Zemin
+material_marbletiles                     Mermer Fayans
+material_whitetiles                      Beyaz Fayans
+material_fancytiles                      Süslü Fayans
+material_concretewall                    Beton Duvar
+material_brickwall                       Tuğla Wall
+material_perimeterwall                   Çeper Duvarı
+material_burntfloor                      Yanmış Zemin
+material_burntwall                       Yanmış Duvar
+material_buildingframe                   Bina Çatkısı
+material_roof                            Çatı
+
+room_none                                Hiçbiri
+room_cell                                Hücre
+room_holdingcell                         Nezarethane
+room_solitary                            Hücre Hapsi
+room_superiorcell                        Seçkin Hücre
+room_canteen                             Kantin
+room_kitchen                             Mutfak
+room_shower                              Duş
+room_yard                                Avlu
+room_storage                             Depo
+room_deliveries                          Teslimatlar
+room_garbage                             Çöp
+room_execution                           İnfaz
+room_workshop                            Atölye
+room_security                            Güvenlik
+room_office                              Ofis
+room_medicalward                         Revir
+room_morgue                              Morg
+room_commonroom                          Ortak Oda
+room_laundry                             Çamaşırhane
+room_visitation                          Görüş
+room_cleaningcupboard                    Temizlik Dolabı
+room_kennel                              Köpek Kulübesi
+room_armoury                             Cephanelik
+room_staffroom                           Personel Odası
+room_library                             Kütüphane
+room_forestry                            Ormanlık
+room_classroom                           Sınıf
+room_exports                             Dışsatımlar
+room_chapel                              Şapel
+room_intake                              Resepsiyon
+room_clearrooms                          Boş Odalar
+room_paroleroom                          Şartlı Tahliye
+room_mailroom                            Posta Odası
+room_shop                                Dükkan
+
+equipment_none                           Hiçbiri
+equipment_fists                          Yumruk
+equipment_baton                          Cop
+equipment_club                           Sopa
+equipment_shank                          Tekme
+equipment_knife                          Bıçak
+equipment_fork                           Çatal
+equipment_gun                            Tabanca
+equipment_spoon                          Kaşık
+equipment_needle                         Şırınga
+equipment_booze                          İçki
+equipment_poison                         Zehir
+equipment_cigs                           Sigara
+equipment_saw                            Testere
+equipment_jailkeys                       Hapishane Anahtarları
+equipment_mobilephone                    Hücre Telefonu
+equipment_lighter                        Çakmak
+equipment_screwdriver                    Tornavida
+equipment_drugs                          Uyuşturucu
+equipment_sheers                         Büyük Makas
+equipment_mop                            Paspas
+equipment_rake                           Tırmık
+equipment_hose                           Hortum
+equipment_spatula                        Spatula
+equipment_woodenspoon                    Tahta Kaşık
+equipment_cleaningbrush                  Temizlik Fırçası
+equipment_hammer                         Çekiç
+equipment_clipboard                      Pano
+equipment_drill                          Matkap
+equipment_pianowire                      Piyano Teli
+equipment_scissors                       Makas
+equipment_medicine                       İlaç
+equipment_shotgun                       Av Tüfeği
+equipment_moneybag                      Para Çantası
+equipment_tazer                         Tazer
+equipment_guarduniform                  Gardiyan Kıyafeti
+equipment_stabvest                      Kesici Alet Yeleği
+equipment_rifle                         Tüfek
+equipment_dogleash                      Köpek Tasması
+equipment_assaultrifle                  Saldırı Tüfeği
+equipment_woodenpickaxe                 Ağaç Baltası
+equipment_cbradio                       Cb radyo
+equipment_axe                           Balta
+equipment_spade                         Kürek
+
+research_requires_short                 *X gerektiriyor
+
+reformprogram_workshopinduction         Atölye Güvenliğe Giriş
+reformprogram_foundationeducation       Temel Eğitim Programı
+reformprogram_generaleducation          Genel Eğitim Niteliği
+reformprogram_carpentry                 Marangoz Çıraklığı
+reformprogram_kitcheninduction          Mutfak Güvenliği ve Hijyeni
+reformprogram_therapy                   Davranış Tedavisi
+reformprogram_methadone                 Uyuşturucu Bağımlılığının İlaçla Tedavisi
+reformprogram_alcoholicsmeeting         Alkolikler grubu Terapisi
+reformprogram_tazertraining             Gardiyan Tazer Sertifikası
+reformprogram_spiritualguidance         Ruhani Rehber
+reformprogram_parolehearing             Şartlı Tahliye Duruşması
+reformprogram_deathrowappeal            Ölüm Hücresi Temyizi
+
+reformprogram_tazertrained              Sertifikalanmış: Tazer
+
+reformprogram_workshopinduction_text    Önce güvenlik! Mahkumlar Atölye'de çalışmaya izin almak için bu kursu geçmek zorundalar.
+reformprogram_foundationeducation_text  Pek çok mahkumun okuma, yazma ve matematik becerilerinde temelleri bile yok. Bu kurs mahkumları o seviyeye taşır. Bu kursları geçmek, mahkumlara Kütüphane'de çalışma izni verir.
+reformprogram_carpentry_text            İyi pratik becerisi gerektiren karmaşık bir ticaret becerisi. Koşulları sağlayan mahkumlar, bu beceriyi marangoz tezgahında değeri yüksek ahşap öğeler oluşturmak için kullanabilirler.
+reformprogram_kitcheninduction_text     Gıda standartları, yüzlerce kişiye aynı anda yemek tedarik etmede önemlidir. Mahkumlar Mutfak'ta çalışmaya izin almak için bu kursu geçmek zorundalar.
+reformprogram_therapy_text              Mahkumlar, şiddetli doğalarını kontrol altına almak için sıklıkla çabalarlar. Hapishane psikoloğuyla birlikte yapılan bire bir seanslar, mahkumların cesaret edebileceği herhangi bir durumu şiddete dönüşmeden azaltmak için gerekli araçları onlara sağlamayı hedeflemektedir.
+reformprogram_methadone_text            Bir mahkumun uyuşturucu bağımlılığı ile mücadelesi için 5 farmakolojik ikame kullanılır. Her tedavi mahkumun bağımlılık ihtiyacına yardım eder ve kursun tamamlanmasıyla bağımlılık tamamen ortadan kaldırılabilir.
+reformprogram_alcoholicsmeeting_text    Alkolikler için bir grup terapisi toplantısı. Alkol isteğini azaltmaya yardımcı olur. İhtiyacı asla tamamıyla ortadan kaldırmaz.
+reformprogram_parolehearing_text        Bir mahkumun erken tahliye için gerekli şartları yerine getirip getirmediğine karar veren bir duruşma. Bir mahkumun yeniden suç işlemediği başarılı bir tahliye güzel bir bonus ile ödüllendirilecektir. 
+reformprogram_spiritualguidance_text    Bazı mahkumlar dindardır veya hayatında biraz genel maneviyat ihtiyacı duyar. Bölge halkından bir ruhani lider getir ve onlara dua ettirerek mahkumlarına sakinlik hissi işle.
+
+reformerror_unscheduled                 PLANLANMAMIŞ
+reformerror_noroom                      BULUNAN BİR ODA YOK
+reformerror_nofreetimeslot              TÜM ODALAR AYIRTILMIŞ
+reformerror_staffonly                   SADECE ODA PERSONELİ
+reformerror_noobjects                   EKİPMAN YOK
+reformerror_noregimetime                REJİM ZAMAN DİLİMİ YOK
+reformerror_noteachers                  ÖĞRETMEN YOK
+
+reform_interested                       *X İlgili 
+reform_interested_qualified             *X İlgili/Nitelikli 
+reform_queued                           *X Sırada 
+reform_completion                       - *X Tamamlandı - *Y Geçti (*P%)
+reform_locked                           KİLİTLİ
+reform_start                            BAŞLA
+reform_costpersession                   *X / seans
+reform_placespersession                 *X yer / *Y seans
+reform_program_starting                 Başlanıyor
+reform_program_active                   ETKİN
+reform_program_paused                   Duraklatıldı
+reform_program_stop                     DURDUR
+reform_program_ledby                    - Bir *Z içinde *P liderliğinde
+reform_program_ledwith                  - *S ile desteklenmiş
+reform_program_length                   - Seans Uzunluğu: *X saat
+reform_program_requirements             - Her bir mahkum *X Gerektiriyor
+reform_program_requirements_alt         - Her bir mahkum *X veya *Y Gerektiriyor
+reform_program_prereqs                  Mahkumlar şunu tamamlamış olmalı:
+reform_program_research_required        Gereken: *X
+
+reform_program_intake_none                      Hiçbiri
+reform_program_intake_mandatory                 Zorunlu
+reform_program_intake_voluntary                 Gönüllü
+reform_program_intake_referralviolence          Sevk: Şiddet
+reform_program_intake_referraldrugaddiction     Sevk: Uyuşturucu Bağımlılığı
+reform_program_intake_referralalcoholism        Sevk: Alkolizm
+reform_program_intake_guards                    Sadece Gardiyanlar İçin
+reform_program_intake_parole                    Cezanın %50 veya %75'i çektikten sonra
+reform_program_intake_needrequired              Katılmadan önce her bir mahkumun belirli bir ihtiyacı vardır
+reform_program_intake_deathrow                  Mahkum Ölüm Hücresi'nde
+
+reform_program_properties_canhireexternally     Dışarıdan İşe Alınabilir
+reform_program_properties_studentssit           Öğrenci Oturağı
+reform_program_properties_academic              Akademik
+reform_program_properties_practical             Pratik
+reform_program_properties_repeatable            Tekrarlanabilir
+reform_program_properties_passive               Pasif
+reform_program_properties_staffonly             Sadece Personel
+reform_program_properties_outsideofwork         Çalışma saatleri dışında olabilir
+reform_program_properties_teacherssit           Öğretmen Oturağı
+reform_program_properties_canescortstudent      Öğrencilere gardiyanlar eşlik edebilir.
+
+reform_program_waittime                         Her *T günde bir yapılabilir
+
+reform_program_difficulty_easy          - Basit
+reform_program_difficulty_intermediate  - Orta
+reform_program_difficulty_advanced      - Gelişmiş
+reform_program_difficulty_expert        - Uzman
+
+regime_nothing                          Kilitle
+regime_sleep                            Uyku
+regime_eat                              Yemek
+regime_shower                           Duş
+regime_yard                             Avlu
+regime_work                             İş
+regime_lockdown                         Tecrit
+regime_freetime                         Baş Zaman
+regime_currenttime                      Şimdi
+regime_unspecified                      Belirtilmemiş
+
+regimetooltip_nothing                   Mahkumlar hücrelerinde kilitli. Onları bu yere sürükleyen seçimleri derinlemesine düşünmekten başka bir şeyleri yok.\n\nUzun süre kilitli bırakmak en zor mahkumlara bile sonuca götüren bir ceza olacaktır.
+regimetooltip_sleep                     Mahkumlar hücrelerinde kilitli ve ışıklar kapalı. Herkes uyuyor.\n\nKaçış tüneli kazanların haricinde...
+regimetooltip_eat                       Mahkumlar en yakın kantine gidip öğle yemeği için oturuyorlar.\n\nMahkumların Kantin içinde herhangi bir olanağı kullanmaya izni var ancak bu süre sona erene kadar ayrılmalarına izni yok. 
+regimetooltip_shower                    Mahkumlar kıyafetlerini çıkarıp duşlarını alıyorlar. Günlük duş saati, mahkumların hijyeni için önemlidir, ancak bazı mahkumlar zorlanmadığı takdirde zahmet edip de duş almazlar.
+regimetooltip_yard                      Mahkumlar, birkaç gerekli egzersiz, gün ışığı ve temiz hafa için tesisten avluya salıverildiler.\n\nBu süre boyunca mahkumlar, antrenman için ağırlık bench'leri, sevdiklerini aramak için telefon, duş v.b. avlu içindeki tüm olanaklardan faydalanırlar.
+regimetooltip_work                      Mahkumlar hapishanede çalıştırılıyor. Herhangi bir iş olanağı değerlendirilecek ve mahkumlar otomatik olarak iş yerlerini raporlayacaktır. (İş olanaklarını Yerleştirme ekranından ayarlayabilirsin.)\n\nTüm Islah Programları da Çalışma saatinde yapılır. İşi olmayan ve şu anda bir Islah Programına atanmamış mahkumlar, 'Serbest Zaman'mış gibi hapishanede dolaşmakta özgürdürler.
+regimetooltip_freetime                  Mahkumlar hücrelerinden bırakıldı ve hapishanedeki tüm olanakları kullanmalarına izin verildi. Mahkumlar bu kez en iyi zamanlarının keyfini sürecekler ve sosyalleşerek ihtiyaçlarını en iyi şekilde karşılayabilecekler.\n\nUzun süre boş zaman, hapishanendeki stresi ve tansiyonu azaltır, ancak pek çoğu bunu bir ceza olarak hesaba katar.
+
+regime_clear                            Bu kategoride mahkum için rejimi temizle ve bunun yerine varsayılan Normal Güvenlik rejimi kullan.
+
+schedule_editor_students                Öğrenciler: *X/*Y
+schedule_editor_error_staffonly         Hedef oda Sadece Personel olarak işaretli
+schedule_editor_error_noregimetime      Program, geçerli bir Çalışma rejiminin dışında
+schedule_editor_error_noteachers        Bu program için bir öğretmen yok
+schedule_editor_error_noobjects         Bu program için gerekli nesneler geçerli bir odada bulunamadı
+schedule_editor_pin                     Bu programı yerinde düzenle
+schedule_editor_unpin                   Bu programı dağıt
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         Kapı Zamanlayıcısı Kontrolü
+doortimer_connected_servos              *X Bağlı Servo
+doortimer_state_open                    Açık
+doortimer_state_closed                  Kapalı
+
+doortimer_security_none                 Herhangi Bir Güvenlik
+doortimer_security_minsec               Minimum Güvenlik
+doortimer_security_normal               Normal Güvenlik
+doortimer_security_maxsec               Maksimum Güvenlik
+doortimer_security_Protected            Korumalı Gözaltı
+doortimer_security_SuperMax             SüperMaks
+doortimer_security_DeathRow             Ölüm Hücresi
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   İnfaz başlatıldı
+execution_stage_Lockdown                Hapishane genelinde tecrit başlat
+execution_stage_Testing                 Test tesisi
+execution_stage_Assemble                İnfaz ayrıntılarını topla
+execution_stage_Witnesses               Şahitlere tesise kadar eşlik et
+execution_stage_Escort                  Mahkumlara tesise kadar eşlik et
+execution_stage_Execution               İNFAZ
+execution_stage_Dismissed               Personeli ve şahitleri çıkar
+execution_stage_FinalReport             Nihai rapor
+
+execution_stagetooltip_start            Bu mahkumun infazını planladın ve şimdi resmi prosedürü uygulaman gerek.
+execution_stagetooltip_lockdown         Tüm mahkumlar hücrelerine geri gönderildi ve hapishane kilitlendi.
+execution_stagetooltip_testing          Her şeyin yolunda olduğundan emin olmak için nihai testten geçildi. Sandalyeye verilen elektrik yük altında test edildi. Ayrıca, mahkumun nihai rotası planlandı. İnfaz odasına kendi yürüyebilmeli.
+execution_stagetooltip_assemble         Müdür ve Şef, suçu kanıtlanmış mahkumun hücresine gidiyor. Ayrıca, bir rahip veya mahkumun seçtiği bir ruhani lider alana geldi ve son dualarını etmek üzere hücresini ziyaret ediyor.
+execution_stagetooltip_witnesses        İnfaz şahitleri alana geldi ve infaz tesisine yöneldiler. Bu grupta, suçu kanıtlanmış mahkumun aile üyeleri ve kurbanın aile üyeleri de yer alabilir.\n\nNb. İnfaz şahitlerine sandalye verilmeli.
+execution_stagetooltip_escort           Suçu kanıtlanmış mahkuma, hücresinden infaz tesisine kadar eşlik edildi. Müdür, Şef ve Rahip ona eşlik ediyor.
+execution_stagetooltip_execution        Alandaki herkes ile ve tüm prosedürler uygulanarak, infaz için nihai yetki verildi.
+execution_stagetooltip_dismissed        Personel ve şahitler çıkarıldı ve tesisi terk ettiler.
+execution_stagetooltip_finalreport      İnfaz tamamlandığında bir rapor hazırlanır ve performansın derecelendirilir.
+
+execution_underway                      İNFAZ BAŞLIYOR
+execution_result_ok                     Emrolunan *N infazı, planlandığı üzere *T yerinde elektrikli sandalyede, şahitlerin huzurunda gerçekleştirildi. 10.000$'lık standart bir tazminat bu işlemdeki rolleri için enstitüye verildi.
+execution_result_appealed               Emrolunan *N infazı, planlandığı üzere *T yerinde elektrikli sandalyede, şahitlerin huzurunda gerçekleştirildi. Ne yazık ki yeni bilgi, af için temyizini etkileyecek olaydan sonra gün ışığına çıktı. Buna rağmen, enstitüye karşı hiçbir şey yapılmayacak ve bu işlemdeki rolleri için 10.000$'lık standart tazminat alacaklar.
+execution_result_innocent               Emrolunan *N infazı, planlandığı üzere *T yerinde elektrikli sandalyede, şahitlerin huzurunda gerçekleştirildi. Ne yazık ki yeni bilgi, *N'nin masumiyetini ortaya çıkaran kanıt daha sonradan deşifre edildi. Buna rağmen, enstitüye karşı hiçbir şey yapılmayacak ve bu işlemdeki rolleri için 10.000$'lık standart tazminat alacaklar.
+execution_result_illegal                *N infazı, planlandığı üzere *T yerinde elektrikli sandalyede, şahitlerin huzurunda gerçekleştirildi. Kanunen gerekli temyiz işlemini ve nihayetinde başarılı bir temyize yol açacak bilginin keşfini takip etmede ihmal dolayısıyla, enstitüye 50.000$'lık ceza kesildi. Uygun protokollerin takip edilmemesi dolayısıyla, infazlar sonraki bir tarihe ertelendi ve kalan Ölüm Hücresi mahkumları başka bir tesise aktarılacak. 
+execution_result_illegalinnocent        Yasadışı *N infazı, planlandığı üzere *T yerinde elektrikli sandalyede, şahitlerin huzurunda gerçekleştirildi. Kanunen gerekli temyiz sürecinin takip edilmemesi ve *N adlı kişinin suçlarından masum bulunması dolayısıyla, tesisin yöneticisinin görevine, derhal yürürlüğe girmek üzere son verildi. 
+execution_warning_one                   Eğer burada yapılacak bir sonraki infaz doğru prosedürü takip etmezse, görevinden atılacaksın.
+execution_warning_two                   Doğru prosedürlerin takip edilmesi konusundaki geçmiş başarısızlıkların dolayısıyla, bu konuda bir ihlal protokolü daha olması, görevinden atılmana sebep olacaktır.
+
+execution_error_MissingEquipment        HATA: EKSİK EKİPMAN\nElektrikli sandalyesi olan bir infaz odasına ihtiyacın var.
+execution_error_ElectricalSupply        HATA: ELEKTRİK ARIZASI\nElektrik için yetersiz elektrik gücü.
+execution_error_NavigationPrisoner      HATA: MAHKUMA YOL GÖSTERME\nSuçu kanıtlanmış mahkum, odasından infaz odasına yürüyemiyor.
+execution_error_NoRouteFromRoad         HATA: ERİŞİM YOK\nDışarıdan infaza katılan kişiler gideceği yere ulaşamıyor.
+execution_error_NoSpaceInRoom           HATA: YER YOK\nİnfaza katılan kişiler için yeterince sandalye yok.
+execution_error_NoRoom                  Bir İnfaza başlayabilmen için bir İnfaz Odasına ihtiyacın var
+
+roomerror_nokitchen                     Bu kantine yemek gönderebilecek bir mutfak yok
+roomerror_noprisoners                   Bu kantinde yemek yemeye atanmış bir mahkum yok
+roomerror_nocanteen_cells               Bu hücreden erişim sağlanabilecek bir kantin yok. Bu hücredeki mahkumların yemek yiyebilecek hiçbir yerleri yok
+roomerror_nocanteen_kitchen             Bu mutfaktan erişim sağlanabilecek bir kantin yok.. Yemek vakti için herhangi bir yemek pişirmeyecek
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             İçerik: *X
+stack_contents                           İçerik: *X x *Y
+mail_contents                            İçerik: *X Mektup
+mail_opened_from                         *X'in *F'inden mektup
+mail_closed_from                         *X'e mektup
+
+object_dump                             Çöp
+object_todo                             Yapılacak: *X
+object_sale_price                       Satış Fiyatı: *X
+
+object_door_cyclepermissions            Erişim İzinlerini değiştirmek için tıkla
+object_door_cyclepermissions_1          (Aç, Sadece Personel, Kapalı)
+
+object_firemen_hosehelp_intro           İtfaiyeciler, hortumları en yakın ateşe çevirirler
+object_firemen_hosehelp                 Hortumlarını manuel olarak çevirmek için H'ye bas
+
+interface_clone_help_copy               Klonlamak için farenin Sağ tuşuna basılı tut ve klonlanacak yere sürükle
+interface_clone_help_paste              Seçili alanı kopyalamak için farenin Sol tuşuna tıkla
+
+object_inactive                         ETKİN DEĞİL
+object_cctv_moremonitors                Daha fazla CCTV Monitörü yerleştir
+object_cctvmonitor_needsguards          Gardiyanın Monitörü Çalıştırabilmesi Gerekli
+object_processor_blocked                Çalışma Konumuna Ulaşılamadı
+
+administrator_requiresoffice            Ofis Gerektirir
+administrator_requiresoffice_2          *X Ofis Gerektirir
+office_ownership                        *X Ofisi
+
+teacher_teaching                        Eğitiliyor
+teacher_preparing                       Hazırlanıyor
+
+prisoner_assignedto                     Gereken: *X
+prisoner_roomquality                    Hücre kalitesi: *X (*Y)
+prisoner_roomquality_average            Ortalama
+prisoner_roomquality_aboveaverage       Ortalamanın üzerinde
+prisoner_roomquality_wayaboveaverage    Ortalamanın çok üzerinde
+prisoner_roomquality_belowaverage       Ortalamanın altında
+prisoner_roomquality_waybelowaverage    Ortalamanın çok altında
+prisoner_attendance                     Katılım
+prisoner_concentration                  Toplanma
+prisoner_understanding                  Anlayış
+prisoner_concentration_0                Korkunç
+prisoner_concentration_1                Kötü
+prisoner_concentration_2                Yeterli
+prisoner_concentration_3                İyi
+prisoner_concentration_4                Mükemmel
+prisoner_passchance                     Başarı Şansı: %*X
+prisoner_informant                      Gizli Muhbir
+
+prisoner_dayswithoutincident            Olaysız *X Gün
+prisoner_availablemoney                 Nakit: *X$
+
+informant_suspicion                     Şüphe
+informant_title                         GİZLİ MUHBİRLER
+informant_none                          Çalışan Bir Gizli Muhbirin Yok
+informant_hint                          (Baskı Altındaki Mahkumları İşe Al. Örn. Hücre Hapsindekileri)
+informant_recruitable                   (Potansiyel Gizli Muhbir)
+informant_target                        Hedef
+
+contraband_owner                        Sahibi: *X
+contraband_ownerunknown                 Sahibi Bilinmiyor
+contraband_stolenfrom                   *X'den çalındı, *Y saat önce
+contraband_smuggledthrough              *X ile kaçak sokuldu, *Y saat önce
+contraband_smuggledin                   Mahkum tarafından kaçak sokuldu, *Y saat önce
+contraband_type                         Tür: *X
+contraband_tradevalue_title             Ticari fiyatlar
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         Yorgun
+staff_tired                             Bitkin
+staff_needsrest                         Personel bir Personel Odasında dinlenmeyi tercih ediyor.
+
+dog_needskennel                         Köpeklerin uyuyabileceği bir Köpek Kulübesine ihtiyaçları var.
+
+doctor_requireinfirmary                 Bir Revir Gerektirir
+
+entity_carryingequipment                *X Taşıyor
+entity_carryingkeys                     Hapishane Anahtarlarını Taşıyor
+entity_carryingstaffkeys                Personel Anahtarını Taşıyor
+entity_wearingarmour                    Üstünde bir *X var
+
+reports_schedule                        Tüm Programları Yeniden Planla
+reports_edit                            Planı Düzenle
+reports_bankloan                        Banka Kredisi
+reports_increaseloan                    Artır
+reports_decreaseloan                    Azalt
+reports_unlockbankloans                 Kilidi Açan: Muhasebeci
+
+drugs_heroin                            Eroin
+drugs_cocaine                           Kokain
+
+#                                       Örn. "Bob'un Annesi"
+visitor_relationship                    *X'in *Y'si
+visitor_age                             Yaşı: *X
+
+family_wife                             Eş
+family_exwife                           Eski Eş
+family_girlfriend                       Kız arkadaş
+family_son                              Erkek çocuk
+family_daughter                         Kız çocuk
+family_mother                           Anne
+family_father                           Baba
+family_brother                          Erkek kardeş
+family_sister                           Kız kardeş
+family_lawyer                           Avukat
+family_priest                           Rahip
+family_victims                          Kurbanın ailesi
+family_caption                          Aile:
+family_none                             Hiçbiri
+
+damage_dead                             Ölü
+damage_unconscious                      Bilinci Kapalı
+damage_serious                          Ağır Yaralı
+damage_injured                          Yaralı
+damage_amount                           %*X Hasarlı
+
+message_autosaving                      Otomatik Kaydediliyor...
+
+buildtoolbar_entersearchterm            arama terimi gir...
+
+deploymentscheduler_title               YERLEŞTİRME PLANLAYICISI
+supplyanddemand_supplyheader            ARZ
+supplyanddemand_demandheader            TALEP
+
+tooltip_multipleobjects                 Nesneleri döndürmek için TAB tuşuna bas
+remotedoor_noservo                      Kumandalı Kapılar üzerinde çalışır bir servo olmadan açılmaz.
+
+roomgrading                             Oda Derecelendirme
+roomgrading_roomsize                    Oda büyüklüğü en az *X Kare
+roomgrading_cleanliness                 Temizlik %*X üzerinde
+roomgrading_outsidewindow               Dış Kapı Penceresi 
+roomgrading_item                        Öğe : *X
+roomgrading_result                      Derece *X
+roomgrading_currentoccupant             İşgalci *X derecesine yükseldi
+roomgrading_unoccupied                  İşgal edilmemiş
+
+roomerror_nokitchen                     Bu kantine yemek gönderebilecek bir mutfak yok
+roomerror_noprisoners                   Bu kantinde yemek yemeye atanmış bir mahkum yok
+roomerror_nocanteen_cells               Bu hücreden erişim sağlanabilecek bir kantin yok. Bu hücredeki mahkumların yemek yiyebilecek hiçbir yerleri yok
+roomerror_nocanteen_kitchen             Bu mutfaktan erişim sağlanabilecek bir kantin yok. Yemek vaktinde hiçbir yemek pişirmeyecek
+
+ceos_letter                             Sayın Bay/Bayan,\n\n\nTebrikler şimdi kalifiye bir Hapishane Mimarı (Prison Architect) oldunuz! Yakında sadece bir boş arazi parçası ve birkaç tuğla yığınından başlayarak kendi hapishanelerini tasarlamaya, inşa etmeye ve işletmeye başlayacaksın. Başlamadan önce, seninle bazı önemli konuları paylaşmayı düşünüyorum.\n\n1. Her hapishanenin bir Müdüre ihtiyacı var - o işe alacaklarından ilki olmalı. Ona güzel bir ofis inşa et. Bürokrasi sistemiyle çok çeşitli gelişmiş tesisleri açacak.\n\n2. Tek kişilik hücreler pahalıdır, özellikle paranın çok kısıtlı olduğu başlangıç zamanlarında. Bir tek büyük Nezarethane ile başlayarak paradan tasarruf et. Nezarethane aynı anda pek çok mahkum tarafından paylaşılabilir.\n\n3. İlk mahkumlar gelmeden, Mutfak ve Kantinini hizmete sok ve işlet. Aşçıyı da işe aldığından emin ol; bir mahkumu boş mideden başka hiçbir şey sinirlendiremez.\n\n4 Bir hapishane inşa etmek pahalı bir taahhüttür. Hibe ve sözleşmelerle büyük hacimde parayı toplama ustası olman gerekli. Bu hibelere 'Raporlar' ekranından erişebilirsin.\n\nHepsi bu kadar, bol şans!\n\nCEO,\nPrison Architects Corp.
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			Bölüm *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Ölüm Hücresi
+
+campaignchapter_deathrow_description    Bu hapishanede, mahkumlarından birinin planlı infazı zamanı için, bir İnfaz Odası inşa etmek üzere sözleşme yaptık.
+
+campaigncutscene_deathrowmurder         Çifte Katil
+campaigncutscene_deathrowconfession     Günah Çıkarma
+
+adviser_deathrow_murder1                İkinizi burada yakalayacağımı biliyordum.
+adviser_deathrow_murder2                Edward! I...
+adviser_deathrow_murder25               Yapma. Sakın... yapma.
+adviser_deathrow_murder3                Ne yapacaksın?
+
+adviser_deathrow_church1                Size yardımcı olabilir miyim?
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                Bağışlanmak mı istiyorsun?
+adviser_deathrow_church3                Bilmiyorum. Bir şeyler yapmalıyım, yaptığım şeylerle yaşayamam.
+adviser_deathrow_church4                Kendi içine dönmelisin. Her ne yaptıysan sonuçlarından kaçamazsın. 
+adviser_deathrow_church5                Geçmişinle yüzleşene kadar asla kendin için yaşayamazsın.
+adviser_deathrow_church6                Geri dönmek istiyorum. Onu bağışlamak istiyorum. Onun da beni bağışlamasını istiyorum.
+adviser_deathrow_church7                Her ne yapmış olsan da, eğer istersen Tanrı seni bağışlar. 
+adviser_deathrow_church8                Fakat kanun nezdinde cezanı çekmelisin. Başka yolu yok.
+
+adviser_deathrowintro_1                 Bu çok zorlu.
+adviser_deathrowintro_2                 Bu binada iki kez cinayetten hüküm giymiş ve ölüm cezasına çarptırılmış bir mahkum yatmakta. 
+adviser_deathrowintro_3                 İşte burası. Bu adamın büyük günü için bir infaz odası inşa etmek üzere sözleşme yaptık.
+adviser_deathrowintrob_1                Burası benim yeni tesisi inşa etmek istediğim yer.
+adviser_deathrowintrob_2                Bunun gibi herhangi bir projenin ilk adımı, infaz odası ve nezarethaneyi yerleştirmek için içinde yeterli alana sahip binayı inşa etmektir.
+adviser_deathrowintrob_3                Haydi, başlayalım. Buraya yeni bir bina inşa et.
+
+adviser_deathrow_explain1               İşçilerin bina inşa etmekten sorumludur.
+adviser_deathrow_explain2               Malzeme odasından çelik ve beton toplayacak ve onu inşaat alanına götürecekler.
+adviser_deathrow_explain3               Tüm bu hammaddeleri temel için kullanacaklar ve yeni binanın taslağını oluşturacak.
+adviser_deathrow_explain4               Bu inşaatın en yavaş ilerleyen kısmı, bu yüzden yeni tesisler inşa ederken önceden plan yapmalısın.
+adviser_deathrow_explain5               Biz beklerken etrafa bak. Etrafta dolaşmak için WASD veya yön tuşlarını kullan ve ekranı yakınlaştırıp uzaklaştırmak için farenin tekerleğini kullan.
+
+objective_deathrow_building             İnfaz Tesisini konumlandırmak için bir bina inşa et.
+
+adviser_deathrow_buildinside1           Aynı zamanda yeni İnfaz Tesisi için girişe ihtiyacımız olacak.
+adviser_deathrow_buildinside2           Güneydeki duvara bir Büyük Hapis Kapısı inşa et.
+
+objective_deathrow_buildouterdoor       Girişe bir Büyük Hapis Kapısı inşa et
+
+adviser_deathrow_internalwalls1          Binanın içine Hücre ve İnfaz Odası istiyorum.
+adviser_deathrow_internalwalls2          Alanı biraz Tuğla Duvar örerek bölümlere ayır.
+
+objective_deathrow_buildinternalwalls   İç duvarlar inşa et.
+
+adviser_deathrow_internaldoors1          Şimdi tüm bölünen duvarlara bir Büyük Hapis Kapısı ekle.
+adviser_deathrow_internaldoors2          Bir nesneyi yerleştirmeden önce farenin orta tuşunu tıklayarak döndürebilirsin (ya da R'ye bas).
+
+objective_deathrow_buildinternaldoors   İç duvarlar inşa et (Bir nesneyi döndürmek için orta tuşu Tıkla ya da R'ye bas).
+
+adviser_deathrow_designation1           Güzel görünüyor. Şimdi tüm bu boşluklara Odalar belirlememiz gerekiyor.
+adviser_deathrow_designation2           Daha küçük alanın içine hükümlülerin yaşayacağı bir Hücre belirle.
+adviser_deathrow_designation3           Ardından daha büyük alanda İnfaz Odası belirle.
+
+objective_deathrow_designatecell        Bir Hücre belirle
+objective_deathrow_designateexecution   Bir İnfaz Odası belirle
+
+adviser_deathrow_roomrequirements1      İşlevsel hale gelmeden önce bu yeni Odaların gereksinimleri var. 
+adviser_deathrow_roomrequirements2      Hücreye bir Yatak ve Tuvalet gerekli.
+adviser_deathrow_roomrequirements3      İnfaz Odasına Elektrikli Sandalye gerekli.
+
+objective_deathrow_cellobjects1         Bir Yatak yerleştir.
+objective_deathrow_cellobjects2         Bir Tuvalet yerleştir.
+objective_deathrow_executionobjects     Bir Elektrikli Sandalye yerleştir.
+
+adviser_deathrow_optional1              Bunlar ilgilenilmesi gereken önemli şeyler. Fakat hala yapman gereken bir kaç iyileştirme var.
+adviser_deathrow_optional2              Sana kalmış, ama bunlar kesinlikle gerekli değil. O senin mahkumlarını ve onların çevrelerini ne kadar düşündüğüne bağlı.
+adviser_deathrow_optional3              Hücre, dışa bakan bir Pencere ve küçük bir Kitaplıkla geliştirilmeli. 
+adviser_deathrow_optional4              Ve bina yüksek kaliteli bir zemin malzemesi ile daha iyi görünür - Ahşap Döşemelik Tahta ya da Mozaik Karo gibi.
+adviser_deathrow_optional5              Eğer gerekli olduğunu düşünüyorsan dışarıya biraz lamba ve bir asfalt yol ekle.
+
+adviser_deathrow_transfer05             İşte bahsi geçen adam bu, Edward Romsey. İnanabiliyor musun, bir zamanlar öğretmenmiş.
+adviser_deathrow_transfer06             O bunu hak ediyorsa bu bizim karar vereceğimiz bir şey değil. Bu kararı hukuk verdi. Biz burada göreve yeni başladık.
+adviser_deathrow_transfer1              Binanın hazır olduğuna kanaat getiriyorsan, yeni hücresine Mahkum Transferine başlayabilirsin.
+adviser_deathrow_transfer2              Hücresinde transferi başlatmak için sadece polaroide tıkla.
+
+objective_deathrow_path                 (İSTEĞE BAĞLI) Yeni binaya yol inşa et
+objective_deathrow_window               (İSTEĞE BAĞLI) Hücreye bir Pencere ekle
+objective_deathrow_bookshelf            (İSTEĞE BAĞLI) Hücreye bir Kitaplık ekle
+objective_deathrow_flooring             (İSTEĞE BAĞLI) Yüksek kaliteli malzemelerle zemini yeniden döşe
+objective_deathrow_outerlights          (İSTEĞE BAĞLI) Binanın etrafına bir kaç ışıklandırma yerleştir
+objective_deathrow_transferinmate       İşin bittiğinde, Edward'ın hücresindeki polaroide tıklayarak Mahkum transferine başla.
+
+adviser_deathrow_setupmurder1           Bu adam için tek bir gözyaşı dökme. O soğukkanlı bir katil, işlediği iddia edilen tüm suçlardan suçlu bulunmuştur. 
+adviser_deathrow_setupmurder2           Hatta itiraf etmiş. Ne yaptığını onun ağzından duymak ister misin? 
+adviser_deathrow_setupmurder3           Cıvık şey. "Öğleden sonra 11 gibiydi. Işıklar zaten açıktı. Onun evde olduğunu biliyordum..."
+adviser_deathrow_postmurder1            Söylediğim gibi, soğukkanlı bir katil.
+adviser_deathrow_postmurder2            Bana sorarsan gün gibi aşikar. Alacağı her bir voltu hak ediyor.
+adviser_deathrow_postmurder3            Herkes affedilmeyi hak eder, o bile. Böyle bir nihai karar verebilecek kadar kendinden emin misin?
+adviser_deathrow_postmurder4            Karını başka kadınla yakalamak, yaptıklarının bir mazereti değildir.
+adviser_deathrow_postmurder5            Ve elinde dolu tabancayla gitti, onları birlikte basacağını biliyordu. İşte önceden planlanmış çifte cinayet.
+adviser_deathrow_postmurder6            O yetkililerle işbirliği yapmaktan başka bir şey yapmadı. Bu eyalet için bir örnek oldu. 
+adviser_deathrow_postmurder7            Eğer cinayeti 160 km kuzeyde işleseydi, bunun yerine ömür boyu hapis cezasına çarptırılırdı. Bu nasıl bir adalet?
+adviser_deathrow_postmurder8            Böyle bir adamın boş boş dolaşmasını ister misin? Onun gittiğini bildiğimde gece rahat bir uyku çekeceğim.
+           
+
+adviser_deathrowelectricity_1           Şimdiye kadar iyi.
+adviser_deathrowelectricity_2           Fakat bir problem var. İnfaz odası henüz faal değil, çünkü elektrik yok.
+adviser_deathrowelectricity_3           Elektrik şebekesine bağlanmaya ihtiyacımız var.
+
+adviser_deathrowelectricityb_1          Biz şimdi hapishaneyi, tüm hapishanenin elektrik düzeneğini gösteren Yardımcı Birimler modunda görüntülüyoruz.
+adviser_deathrowelectricityb_2          Hapishanedeki her bina kalın yeraltı elektrik kabloları ile Güç Nakil Şebekesine bağlıdır. 
+adviser_deathrowelectricityb_3          Hapishaneye elektrik bu trafo merkezinden sağlanmaktadır, ulusal şebekeden gelen elektriği düzenler.
+adviser_deathrowelectricityb_4          Gördüğün gibi, hapishanenin tüm kanadındaki hücreler elektriksiz. Tüm ışıklar kapalı.
+adviser_deathrowelectricityb_4b         Bu problemi çözmek için öncelikle Yardımcı Birimler moduna geçerek lambalarda neden elektrik olmadığını anlamamız gerekli.
+adviser_deathrowelectricityb_5          En yakın elektrik kablosu buraya çok uzak. Mühendislerimiz bu bölgedeki elektrik tesisatını tamamlayamıyor.
+adviser_deathrowelectricityb_6          Hapishanenin bu kanadını kaplamak için yakındaki elektrik kablosunu uzat.
+
+objective_deathrow_cellpower            Odaları Elektrik Şebekesi'ne bağla.
+
+adviser_deathrow_connectchair_1         Elektriğe ihtiyaç duyan tek şey ışıklar değil. Senin yeni Elektrikli Sandalyen de elektriğe ihtiyaç duyuyor.
+adviser_deathrow_connectchair_2         İnfaz binasını elektrik şebekesine bağlamak için Güç Kablolarını kullan.
+adviser_deathrow_connectchair_3         Elektrikli Sandalyenin kendisi elektrikli eşyaların bir çeşididir. Kendine özel elektrik hattına ihtiyaç duyar. Onu doğrudan ana kablolara bağlamaya ihtiyacın olacak.
+
+objective_deathrow_chairpower           Elektrikli Sandalyeyi Elektrik Şebekesine bağla
+objective_deathrow_condemnedcellpower   Hücreyi Elektrik Şebekesine bağla
+
+adviser_deathrow_testchair_1            Bence işimiz bitti. Yeni İnfaz odasını kullanmadan önce en az bir defa test etmeliyiz.
+adviser_deathrow_testchair_2            Her şeyin tamam olduğuna emin olmak için, onu bir kaç saniyeliğine açacağım.
+adviser_deathrow_testchair_3            Çalışmadı. Görünüşe göre çok fazla güç çekip elektrik santralindeki şalteri attırdık. Tüm hapishane karanlık.
+adviser_deathrow_testchair_4            Elektrikli sandalyenin çektiği gücün aniden artmasını engelleyebilmek için daha fazla enerjiye ihtiyacımız olacak.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   Bu iki aşamalı bir işlemdir:
+adviser_deathrow_testchair_5b           Elektrik santralini tekrar açmak için üzerine tıkla ve çıkan menüde Aç'ı seç. 
+adviser_deathrow_testchair_6            Sonra üçten fazla kapasitör inşa et. Böylece elektrikli sandalyeyi çalıştırmak için yeterince Elektrik Kapasitemiz olacak.
+adviser_deathrow_testchair_7            Bunu yaptıktan sonra, Elektrikli sandalyeyi tekrar test etmek için üzerine tıkla ve çıkan menüde Aç'ı seç.
+
+objective_deathrow_poweron              Elektrik Santraline geri aç. (Elektrik santralini tıkla, sonra menüden Aç'ı seç)
+objective_deathrow_expandpower          Elektrik santralini üç yeni Kapasitörle genişlet.
+objective_deathrow_chairworking         Sandalyeyi tekrar test et (üzerine tıkla ve Aç'ı seç)
+
+adviser_deathrow_execution_1            Aferin. Bu işi bitirdiğimize inanıyorum.
+adviser_deathrow_execution_2            Şimdi olanlar kontrolümüz dışında. Profesyonel bir iş yaptık, ve işletmemizde önemli olan da bu.
+adviser_deathrow_execution_3            Daha sonra ne olacağı hakkında endişelenmemeye çalış. 
+
+adviser_deathrow_setupexecution1        Zamanı geldi, Edward. 
+adviser_deathrow_setupexecution2        Sen doğru olanı yaptın, dünya seni bunun için affetmeyecek olsa bile.
+adviser_deathrow_setupexecution3        Yakında Tanrı'na kavuşacaksın ve seni en son yargılayacak olan O.
+
+adviser_deathrow_setupexecution4        Edward Ramsey. İki kez kasten adam öldürmekten suçlanıyorsun.
+adviser_deathrow_setupexecution5        Cezası ölüm. 
+adviser_deathrow_setupexecution6        Söyleyeceğin bir şey var mı?
+adviser_deathrow_setupexecution7        Susan...
+adviser_deathrow_setupexecution8        Üzgünüm.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 Önceki hapishanenin satışı
+finance_cost_equiptazer                 Ekipman: Tazer
+finance_cost_equipbodyarmour            Ekipman: Çelik Yelek
+finance_cost_exports                    Dışsatımlar
+finance_cost_foundations                Bina Temelleri
+finance_cost_cashflow                   Nakit Akışı
+finance_cost_bankloan                   Banka Kredisi
+finance_cost_bankloan_repayment         Banka Kredisi Geri Ödemesi
+finance_cost_sharesale                  Hisse Satışı
+finance_cost_sharepurchase              Hisse Alımı
+finance_cost_grantadvance               Hibe Avansı
+finance_cost_grantcompletion            Hibe Kalan Ödeme
+finance_cost_reformprogram              Islah Programı Seansı
+finance_cost_repair                     Tamir Et
+finance_cost_sellobject                 Nesneyi Sat
+finance_cost_landpurchase               Arazi Al
+finance_cost_prisonerintake             Mahkum Alımı
+finance_cost_grantcancellation          İptal Masrafları
+finance_cost_grantrefund                - Geri ödeme: *X
+finance_cost_grantfine                  - Ceza: *X
+finance_cost_executionfine              Hatalı İnfaz Dosyası
+finance_cost_executioncompensation      İnfaz Tazminatı
+finance_cost_shopintake                 Mağaza Alımı
+finance_cost_prisonerwages              Mahkum Maaşı 
+finance_cost_fine                       Ceza
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ...
+clock_add_hour                          +
+clock_am                                Öğleden önce
+clock_pm                                Öğleden sonra
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  Bir güç dalgalanması jeneratörümüzün aşırı yüklenmesine ve alev almasına yol açtı.
+event_powerstationfire_x                Bir güç dalgalanması jeneratörümüzde yıkıcı aşırı yüklenmeye sebep oldu ve her şey patladı!
+event_powerstationfirelarge             Bir güç dalgalanması jeneratörümüzün aşırı yüklenmesine ve alev almasına yol açtı.
+event_powerstationfirelarge_x           Bir güç dalgalanması jeneratörümüzde yıkıcı aşırı yüklenmeye sebep oldu ve her şey patladı!
+event_kitchenfire                       Mutfakta yangın çıktı!
+event_waterpipeburst                    Su borusu patladı ve etrafa dağıldı. Hasar çok ağır olmadan onu tamir et.
+event_bulkintake                        Hapishanenin yakınındaki bir afet binaların tüm bölümlerini kullanılamaz hale getirdi. Yakında başka uygun bina olmadığı için mahkumları senin hapishane taşımaktan başka seçeneğimiz yok. Yakında geliyorlar.
+event_workshopaccident                  Bir mahkum atölye kazasında ağır yaralandı ve hareket edemiyor! Çabucak bir doktor çağır!
+event_subsidence                        Heyelan dış kapımızın bir bölümünü harap etti. Acilen, onu onarmalısın! 
+event_earthquake                        Yerel bir deprem hapishanenin bir bölümünün çökmesine neden oldu! 
+event_virus                             Birkaç mahkumun hastalığını rapor ettik. İltihabın yayılmasını engellemek için karantinaya alınması gerekebilir. 
+event_virus_x                           Birkaç mahkumun hastalığını rapor ettik ve belirtileri ağır görünüyor. Hastalık daha fazla yayılmadan karantinaya almayı ve hastaları tedavi etmeyi düşünmelisin. 
+
+event_massassassination_1               Federal kovuşturma davasındaki birkaç şahidin kimlikleri sızdırıldı ve bunlardan bazıları bizim hapishanemizde.
+event_massassassination_2               Onlardan hırslarını aldılar fakat onlar bize canlı lazım. Mahkumların kimliğini tespit etmelisin ve mahkeme günü gelene dek onları tek parça olarak tutmalısın.
+event_massassassination_3_x             Bundan geç haberimiz oldu, bu yüzden bu patırtı başlamadan önce pek zamanın yok. 
+
+event_tvremovaldemand_1                 Medya, mahkumların rahatlığıyla ilgili bir kampanya başlattı, bu da benim ofisimi çok hareketlendiriyor.
+event_tvremovaldemand_2                 TV'lerin hapishanedeki ortak yerlerde kullanımını yasaklayan bir dilekçe gönderiyorum. Artık tüm TV'leri ortak yerlerden kaldırman gerek, yoksa ceza alacaksın. 6 saatin var.
+event_tvremovaldemand_fine              Yasa gereği kaldırman gereken, ortak odalardaki TV'leri kaldıramadın. Cezalısın ve bu şarta uyana kadar da ceza alacaksın. 
+event_tvremovaldemand_complete          Medya dikkatini başka bir şeye yöneltti ve TV'leri ortak alanlardan yasaklayan dilekçe yürürlükten kaldırıldı. Dilersen ücretsiz olarak yeniden yerleştirebilirsin.
+
+event_weightsremovaldemand_1            Medya, mahkumların rahatlığıyla ilgili bir kampanya başlattı, bu da benim ofisimi çok hareketlendiriyor.
+event_weightsremovaldemand_2            Egzersiz Ekipmanların hapishane avlularında kullanımını yasaklayan bir dilekçe gönderiyorum. Artık tüm Ağırlık Bench'lerini Avlularından kaldırman gerek, yoksa ceza alacaksın. 6 saatin var.
+event_weightsremovaldemand_fine         Yasa gereği kaldırman gereken avlundaki tüm Ağırlık Bench'lerini kaldıramadın. Cezalısın ve bu şarta uyana kadar da ceza alacaksın. 
+event_weightsremovaldemand_complete     Medya dikkatini başka bir şeye yöneltti, avlulardaki ağırlık bench'lerini yasaklayan dilekçe yürürlükten kaldırıldı. Dilersen ücretsiz olarak yeniden yerleştirebilirsin.
+
+event_lessfooddemand_1                  Kurul, bir dizi maliyet tasarruf önlemini bizim binamızı ve senin hapishaneni kapsayacak şekilde denemeye karar verdi.
+event_lessfooddemand_2                  Hapishanendeki öğün miktarını ve yemek çeşitliği politikalarını azaltmana ihtiyacımız var, böylece tüm bütçeyi nasıl etkilediğini görebileceğiz.
+event_lessfooddemand_fine               Senden istenilen yeni yemek politikasını uygulamamaya karar verdiğinde, potansiyel tasarrufu doğrudan senin fonundan alacağız. Bu senden istenileni yapana kadar devam edecek.
+event_lessfooddemand_complete           Yemek bütçe denemesi bitti ve sonuçlar yetersiz. Gıda politikasını istediğin şekilde ayarlamakta özgürsün.
+
+event_removevisitationdemand_1          Bu hapishanede aile ziyaretleri sırasında başka bir binadaki güvenlik kontrolleri ile ilgili bir olay olası sorunları ön plana çıkarmıştır.
+event_removevisitationdemand_2          Dava incelenene kadar tüm görüşler askıya alındı. Hapishanenden tüm Görüş odalarını kaldırmak için 12 saatin var.
+event_removevisitationdemand_fine       Şu anki güvenlik durumlarına rağmen Görüş odalarını hapishanenden kaldıramadın. Cezalandırıldın ve bu şarta uyana kadar da cezalı olacaksın.
+event_removevisitationdemand_complete   Görüş süreci ile ilgili güvenlik incelememizi tamamladık ve seçerseniz Görüş odaları hapishanene yeniden eklenebilir. 
+
+event_lessworkdemand_1                  Mahkumların gün boyu çalışarak geçirdikleri zamanın çok fazla olduğu ve bunun azaltılmaması durumunda sorun çıkaracakları haberini aldım.
+event_lessworkdemand_2                  Bir gardiyan, birilerinin, eğer burada 2 saatten fazla çalışmaya mecbur bırakılırlarsa, buranın altını üstüne getireceklerini söylediklerini duymuş.
+event_lessworkdemand_ignore             Mahkumlar vazgeçmiş ve gevşemiş gibi görünüyorlar. Onlar bu konuda mutlu değiller ama burada patronun kim olduğunu göstermek için güzel.
+event_lessworkdemand_complete                Mahkumlar çalışma saatleri içinde gevşediler. Sanırım son bir kaç günü tatil gibi görüyorlardı. Onları sorunsuzca işe döndürebiliriz. 
+
+event_moresleepdemand_1                 Mahkumların yeterince uyumalarına izin verilmemesi ile ilgili şikayet aldık ve bu konuda çok sinirliler.
+event_moresleepdemand_2                 Mahkumlar, uyku saatleri 7 saatten az olursa sorun çıkaracaklarını söylediler. 
+event_moresleepdemand_ignore            Sonunda mahkumların öfkeleri bitmiş ve uykusuzlukla ilgili protestoyu bırakmışa benziyor. Sanırım önceden çok yorgunlardı.
+event_moresleepdemand_complete          Mahkumların uyku programı ile tüm sorun neredeyse bitti istersen yeniden sorunsuzca değiştirebilirsin.
+
+event_morefreetimedemand_1              Görünüşe göre mahkumlar günlük programlarındaki boş zamanların azlığı dolayısıyla mutsuzlar.
+event_morefreetimedemand_2              Güvenlik, eğer yakında vaziyet değişmezse mahkumların zarar vermeye başlayacağı hakkında dedikodular duydu.
+event_morefreetimedemand_ignore         Mahkumlar boş zaman yoksunluğu hakkında sorun çıkarmayı durdurdular ve durgunlaştılar. Belki de daima hücre hapsine kapatılsalar da bu cezanın az olduğunu düşünüyorlardır.
+event_morefreetimedemand_complete       Daha fazla serbest zaman isteyen mahkumlar uzun süredir şımartıldı, bu yüzden onların planlarını istediğin gibi tekrar değiştirebilirsin.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Yeni Gelen Mahkumlar
+objective_tvremovaldemand               Ortak Odalardan TV'leri Kaldır
+objective_tvremovaldemand_child         Ortak Odalarda TV'Lerin olmamasını Sağla
+objective_weightsremovaldemand          Avlulardan Ağırlık Bench'lerini Kaldır
+objective_weightsremovaldemand_child    Avlularda Odalarda Ağırlık Bench'lerinin olmamasını Sağla
+objective_lessfooddemand                Öğün Sayısı ve Çeşitliliğini Düşük'e Getir
+objective_lessfooddemand_child          Mahkumların öğün sayısını ve çeşitlilik politikalarını düşük'e getir
+objective_removevisitationdemand        Tüm Görüş Odalarını Kaldır
+objective_removevisitationdemand_child  Hapishanede güvenlik incelemesi tamamlanana kadar görüş odası olmamasını sağla
+objective_virus                         Virüs Salgını
+objective_virus_child                   Toplam Bulaşan Mahkum Sayısı: 
+objective_massassassination             Resmi Görgü Tanığı\nMahkeme Tarihi
+objective_massassassination_child       Sağ kalan görgü tanığı 
+objective_lessworkdemand                Daha az İş İsteyen Mahkumlar
+objective_lessworkdemand_child          İşi günde 2 saat ya da daha aza azalt
+objective_moresleepdemand               Mahkumlara Daha Fazla Uyku Sağla
+objective_moresleepdemand_child         Uyku zamanını en az günde 7 saat olarak artır
+objective_morefreetimedemand            Mahkumlara Daha fazla Boş Zaman Ver
+objective_morefreetimedemand_child      Uyku zamanını en az günde 6 saat olarak artır
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     Müdür
+warden_default_desc                     Gezegendeki en dengeli adam, işini yapar başka bir şey yapmaz. Ona insanlar sadece Müdür diye sesleniyorlar.
+warden_lobbyist_name                    Lobici
+warden_lobbyist_desc                    Lobicilerin yüksek yerlerde arkadaşları vardır ve daha fazla kontrollü mahkumun bu yola gelmesini sağlarlar.\n\n - Şiddet Uygulayan, Öldürücü, Dengesiz ve Dövüşçü mahkumların alınma olasılığını yarıya indirir.
+warden_lobbyist_desc_short              - Şiddet Uygulayan, Öldürücü, Dengesiz ve Dövüşçü mahkumların alınma olasılığını yarıya indirir.
+warden_fear_name                        Rita
+warden_fear_desc                        Merhametsiz ve korkunç Rita'nın, tesislerini adli korku uygulayarak çalıştırdığına dair şöhreti var. Kamçı taşıdığı dedikoduları abartılmış olabilir.\n\n- Mahkumların Acıya Dayanıklı veya Korkusuz olma ihtimalini yarıya indirir\n - Mahkumlar iki kat daha hızlı baskı altına alınır
+warden_fear_desc_short                  - Mahkumların Acıya Dayanıklı veya Korkusuz olma ihtimalini yarıya indirir\n - Mahkumlar iki kat daha hızlı baskı altına alınır
+warden_tunnels_name                     J.W. Periwinkle
+warden_tunnels_desc                     Müdür Periwinkle savaşta bir istihkam eri olduğunu söylüyor. Özellikle hangi savaş olduğunu hiç söylemiyor, ama tünel kazmakla ilgili her şeyi biliyor.\n\n - Bekçi Köpekleri, tespit ettikleri herhangi bir tüneli %50 şansla tamamıyla ortaya çıkarabilir
+warden_tunnels_desc_short               - Bekçi Köpekleri, tespit ettikleri herhangi bir tüneli %50 şansla tamamıyla ortaya çıkarabilir
+warden_calming_name                     Arabulucu
+warden_calming_desc                     Arabulucunun, en azılı bireyleri bile sakinleştirebilme üzerine olağandışı bir yeteneği var. Onunla aynı odada olmak bile insanları uysallaştırır ve itaatkar yapar.\n\n - Hapishanenin genel ısısını düşürerek mahkumlarının daha az soruna sebep olmasını sağlar
+warden_calming_desc_short               - Hapishanenin genel ısısını düşürerek mahkumlarının daha az soruna sebep olmasını sağlar
+warden_contraband_name                  Saphara Acknova
+warden_contraband_desc                  Saphara Acknova'nın lekesiz bir ünü ve tertemiz sicili var. Fakat perde arkasında, şaibeli işler ve el altından teklifler onun pek de uzak olduğu şeyler değil.\n\n - Yaptığı her parça kaçakçılıktan yeniden satış değerinden küçük bir parça alır\n - Kaçak mal ile yakalanan mahkumlar doğrudan tasarrufları üzerinden 'cezalandırılır'.
+warden_contraband_desc_short            - Yaptığı her parça kaçakçılıktan yeniden satış değerinden küçük bir parça alır\n - Mahkumlar kaçakçılıktan elde ettikleri kazançtan direkt cezalandırılır
+buildtoolbar_wardenlobbyist             Lobici
+buildtoolbar_tooltip_wardenlobbyist     Hapishanene daha az azılı suçlu al
+interfacetopbar_tension_calmingwarden   - Müdürün, mahkumlar üzerinde sakinleştirici etkiye sahip
+warden_consultingfee                    Danışmanlık Ücreti
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Rüşvetçilik
+crime_aggravatedburglary          Nitelikli Soygun
+crime_burglary                    Soygun
+crime_arson                       Kundaklama
+crime_criminaldamage              Cezai Hasar
+crime_vandalism                   Vandalizm
+crime_violentdisorder             Şiddet Karışıklığı
+crime_possession                  Yasaklı Madde Bulundurma
+crime_possessionintenttosupply    Tedarik Amacıyla Yasaklı Madde Bulundurma
+crime_forgery                     Sahtecilik
+crime_fraud                       Dolandırıcılık
+crime_counterfeightingcurrency    Sahte Para
+crime_falseaccounting             Yanlış Hesaplama
+crime_insidertrading              İçeriden Bilgi Ticareti
+crime_moneylaundering             Kara Para Aklama
+crime_aggravatedvehicletheft      Nitelikli Araç Hırsızlığı
+crime_joyriding                   Zevk İçin Sürme
+crime_dangerousdriving            Tehlikeli Sürüş
+crime_deathbydangerousdriving     Tehlikeli Sürüşten Ölüm
+crime_drivingunderinfluence       Tesir Altında Sürüş
+crime_kidnapping                  Çocuk Kaçırma
+crime_falseimprisonment           Haksız Tutuklanma
+crime_torture                     İşkence
+crime_assault                     Saldırı
+crime_aggravatedassault           Nitelikli Saldırı
+crime_assaultinganofficer         Bir Memura Saldırı
+crime_greviousbodilyharm          Ağır Yaralama
+crime_murder                      Cinayet
+crime_attemptedmurder             Cinayete Teşebbüs
+crime_manslaughter                Kazara Adam Öldürme
+crime_pervertingcourseofjustice   Adaleti Yanıltma
+crime_contemptofcourt             Mahkemeye Hakaret
+crime_drunkdisorderlybehaviour    Alkollü Düzen Bozucu Davranış
+crime_escapingfromlawfulcustody   Yasal Gözaltıdan Kaçma
+crime_perjury                     Yalancı Şahitlik
+crime_rioting                     İsyan Çıkarma
+crime_espionage                   Casusluk
+crime_violentdisorder             Şiddet Karışıklığı
+crime_trafficking                 Karaborsacılık
+crime_armedrobbery                Silahlı Soygun
+crime_robbery                     Soygunculuk
+crime_carjacking                  Araba Kaçırma
+crime_blackmail                   Şantaj Yapma
+crime_handlingstolengoods         Çalıntı Mal Ticareti
+crime_videogamepiracy             Bilgisayar Oyunu Korsanlığı
+crime_indievideogamepiracy        Bağımsız Bilgisayar Oyunu Korsanlığı
+crime_shoplifting                 Mağaza Hırsızlığı
+crime_pickpocketing               Yankesicilik
+crime_cartheft                    Araba Hırsızlığı
+crime_rape                        Tecavüz
+crime_grossindecency              Müstehcen Uygunsuzluk
+crime_voyeurism                   Röntgencilik

@@ -1,0 +1,5 @@
+Name        "Korean"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official Korean translation of Prison Architect"
+ThumbnailSprite korean

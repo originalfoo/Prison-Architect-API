@@ -1,0 +1,5 @@
+Name        "French"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official French translation of Prison Architect"
+ThumbnailSprite french

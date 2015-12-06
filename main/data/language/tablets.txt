@@ -1,0 +1,15 @@
+interfacecontrol_mainmenu               Main Menu
+interfacecontrol_mainmenu_tooltip       Toggle the main menu (New/Load/Save etc)
+
+object_firemen_hosehelp                 Press and hold to move. Press and hold on flames to aim the hoses manually.
+
+click_to_continue                       Tap to Continue...
+gameover_caption                        Open Menu to Continue
+
+adviser_deathrow_explain5               While we wait, take a look around. Drag the screen to move the view around, and pinch with two fingers to zoom in and out.
+
+adviser_deathrow_internaldoors2         You can rotate an object before placement by tapping the Rotate button on the right of the screen
+
+objective_deathrow_buildinternaldoors   Build internal doors
+
+objective_food_extinguishflames_description  When you have firemen selected you can press and hold on flames to aim their hoses, but the flames have to be less than 15 squares away.

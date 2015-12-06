@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              Новая игра
+dialog_load                             Загрузить
+dialog_save                             Сохранить
+dialog_saveas                           Сохранить как
+dialog_delete                           Удалить
+dialog_width                            Ширина
+dialog_height                           Высота
+dialog_name                             Имя
+dialog_type                             Тип
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                Шир.
+dialog_h                                Выс.
+dialog_exit                             Выход
+dialog_cancel                           Отмена
+dialog_ok                               Принять
+dialog_open                             Открыть
+dialog_close                            Закрыть
+dialog_closed                           Закрыто
+dialog_add                              Добавить
+dialog_up                               Вверх
+dialog_down                             Вниз
+dialog_yes                              Да
+dialog_no                               Нет
+dialog_loading                          Загрузка...
+dialog_low                              Низкое
+dialog_medium                           Среднее
+dialog_high                             Высокое
+dialog_none                             Отсутствует
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Редактор диалогов
+dialogeditor_back                       Назад
+dialogeditor_front                      Вперед
+dialogeditor_reloadlanguage             Обновить язык
+dialogeditor_test                       Проверить
+dialogeditor_window                     Окно
+dialogeditor_grid                       Сетка
+dialogeditor_caption                    Подпись
+dialogeditor_component                  Компонент
+dialogeditor_select						Выбрать
+dialogeditor_create						Создать
+dialogeditor_background                 Фон
+dialogeditor_panel                      Панель
+
+dialogcomponent_custom                  Пользовательский
+dialogcomponent_button                  Кнопка
+dialogcomponent_container               Контейнер
+dialogcomponent_caption                 Подпись
+dialogcomponent_titlecaption            ЗаголовокОкна
+dialogcomponent_checkbox                Окошко метки
+dialogcomponent_inputfield              ПолеВвода
+dialogcomponent_inputslider             ВставкаПолзунка
+dialogcomponent_dropdownmenu            ВыпадающееМеню
+dialogcomponent_selectionlist           СписокВыбора
+dialogcomponent_selectionlistitem       СписокВыбораПредметов
+dialogcomponent_scrollbar               ПолосаПрокрутки
+dialogcomponent_progressbar             ИндикаторВыполнения
+dialogcomponent_canvas                  Холст
+dialogcomponent_iconbox					ОкноИконок
+
+dialogposition_absolute                 Точное
+dialogposition_relative                 Относительное
+dialogposition_scaled                   Растянутое
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Редактор профиля
+profiler_name                           Имя
+profiler_timings                        Время
+profiler_totaltime                      Всего
+profiler_glfinishcaption                glFinish
+profiler_reset                          Сбросить
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Аудиоканалы
+soundeditor_title                       Редактор звука
+soundinstanceeditor_title				Редактор звуковых образцов
+
+soundeditor_positiontitle		Тип позиции
+soundeditor_instancetitle		Тип образца
+soundeditor_looptitle			Тип лупа
+soundeditor_sourcetypetitle		Тип звука
+soundeditor_soundnametitle		Название звука
+
+soundeditor_volumetitle			Громкость
+soundeditor_frequencytitle              Частота
+soundeditor_mindistancetitle            Мин. расстояние
+soundeditor_attacktitle                 Атака
+soundeditor_sustaintitle                Задержка
+soundeditor_releasetitle                Затухание
+soundeditor_loopdelaytitle              Спад лупа
+soundeditor_dsptitle                    Цифровая обработка сигнала
+soundeditor_nexteventtitle              Следующее событие
+
+soundeditor_play                        Проиграть
+soundeditor_stop                        Остановить
+
+soundparametereditor_title              Звуковые параметры
+soundparametereditor_typetitle          Тип
+soundparametereditor_linktitle          Привязать к
+soundparametereditor_updatetitle        Тип обновления
+soundparametereditor_smoothing          Сглаживание
+soundparametereditor_chaintitle         Цепь
+
+soundeditor_newdsp                      Добавить DSP
+sounddspeditor_title                    Редактор DSP
+samplebankeditor_title                  Редактор банка сэмплов
+samplebankeditor_addsample              Добавить звук
+samplebank                              (Банк сэмплов)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Завершено
+interfacemode_destroy                         Разрушить
+interfacemode_foundations				Здания
+interfacemode_construction                    Материалы
+interfacemode_planning                        Планировка
+interfacemode_objects                         Объекты
+interfacemode_designation                     Комнаты
+interfacemode_utilities                       Инженерные сети
+interfacemode_staff                           Персонал
+interfacemode_deployment                      Расстановка
+interfacemode_logistics                       Логистика
+interfacemode_prisoners                       Заключенные
+interfacemode_needs                           Нужды
+interfacemode_threats                         Угрозы
+interfacemode_overlays                        Слои
+interfacemode_research                        Бюрократия
+interfacemode_emergencies                     Экстренные службы
+interfacemode_clone                           Клонирование
+interfacemode_contraband                      Разведка
+interfacemode_grading                         Оценка
+interfacemode_spawn                           (Место появления)
+interfacemode_properties                      (Свойства)
+interfacemode_cutscenes                       (Кат-сцены)
+interfacemode_selection                       Выбрать
+
+interfaceoverlay_security                       Охрана
+interfaceoverlay_patrols                        Патрули
+interfaceoverlay_decay                          Грязь
+interfaceoverlay_territory                      Территория
+interfaceoverlay_contraband                     Контрабанда
+
+interfaceproperty_indoor                        Внутренние помещения
+interfaceproperty_visible                       Видимость
+interfaceproperty_territoryprisoner             Банды
+interfaceproperty_territoryguard                Охранники
+interfaceproperty_sectorprisoner                Бунт
+interfaceproperty_tunnel                        Туннель
+
+interfacedeployment_guards                      Охранники
+interfacedeployment_patrols                     Патруль охраны
+interfacedeployment_dogpatrols                  Патруль с собаками
+interfacedeployment_armedpatrols                Вооруженный патруль
+interfacedeployment_removeguards                Убрать охранников
+interfacedeployment_clearpatrols                Очистить патрули
+interfacedeployment_targetting                  Логистика
+interfacedeployment_targettingfood              Логистика - Питание
+interfacedeployment_targettinglaundry           Логистика - Прачечная
+interfacedeployment_securearea                  ОхраняемаяТерритория
+interfacedeployment_sharedzone                  Зона общего пользования
+interfacedeployment_staffonlyzone               Зона для персонала
+interfacedeployment_maxseczone                  Зона строгого режима
+interfacedeployment_medseczone                  Зона среднего режима
+interfacedeployment_minseczone                  Зона общего режима
+interfacedeployment_protectedzone               Зона защитной изоляции
+interfacedeployment_supermaxzone                Зона сверхстрогого режима
+interfacedeployment_deathrowzone                Зона для смертников
+interfacedeployment_unlockedzone                Незапертая зона
+interfacedeployment_zonered                     Красное крыло
+interfacedeployment_zonegreen                   Зеленное крыло
+interfacedeployment_zoneblue                    Синее крыло
+interfacedeployment_zoneyellow                  Желтое крыло
+
+interfacelogistics_jobs                         Трудоустройство заключенных
+interfacelogistics_removejobs                   Отменить назначение на работу
+interfacelogistics_targettingfood               Распределение - Питание
+interfacelogistics_targettinglaundry            Распределение - Прачечная
+interfacelogistics_roomquality                  Оценка качества камер
+
+interfaceplanning_wall							Стены
+interfaceplanning_object						Объекты
+interfaceplanning_route							Дорожки
+interfaceplanning_clear							Очистить
+interfaceplanning_zone1							Зона 1
+interfaceplanning_zone2							Зона 2
+interfaceplanning_zone3							Зона 3
+interfaceplanning_zone4							Зона 4
+interfaceplanning_zone5							Зона 5
+interfaceplanning_zone6							Зона 6
+interfaceplanning_zone7							Зона 7
+interfaceplanning_zone8							Зона 8
+interfaceplanning_zone9							Зона 9
+
+interfacecontraband_source                      Зоны риска
+interfacecontraband_day                          -24 часа
+interfacecontraband_week                         -7 дней
+interfacecontraband_alltime                      -30 дней
+interfacecontraband_informants                  Информаторы
+interfacecontraband_gangs                       Банды
+
+interfaceclone_copy                             Скопировать
+interfaceclone_paste                            Вставить
+
+interfacetopbar_todo							Список дел
+interfacetopbar_balance							Банк *B
+interfacetopbar_budget							Прибыль *C
+interfacetopbar_income							Доходы *I
+interfacetopbar_expenses						Расходы *C
+interfacetopbar_day								ДЕНЬ *D
+
+interfacetopbar_title_balance					Состояние банковского счета
+interfacetopbar_title_budget					Ежедневная прибыль
+interfacetopbar_title_cctv						Видеонаблюдение
+interfacetopbar_title_day						День
+interfacetopbar_title_prisoners					Заключенные
+interfacetopbar_title_guards					Охранники
+interfacetopbar_title_tension                   Опасность
+
+interfacetopbar_tooltip_balance					Состояние банковского счета.\n\nНажмите, чтобы получить деньги через список Грантов.
+interfacetopbar_tooltip_budget					Ежедневная прибыль исходя из текущих расходов и доходов.\n\nНажмите, чтобы получить подробную информацию о финансах. 
+interfacetopbar_tooltip_cctv					Количество установленных видеокамер и пультов наблюдения.
+interfacetopbar_tooltip_day						Общий срок управления этой тюрьмой.
+interfacetopbar_tooltip_prisoners				Текущее и максимальное количество заключенных в этой тюрьме.
+interfacetopbar_tooltip_guards					Доступное количество охранников в этой тюрьме.
+interfacetopbar_tooltip_tension                 Общий уровень опасности в тюрьме по данным начальника охраны.
+
+interfacetopbar_tooltip_recenttransactions      Недавние сделки
+
+interfacetopbar_tooltip_gametime                Игровое время: *X часов, *Y минут, *Z секунд
+
+interfacetopbar_tooltip_totalguards             Всего охранников: *X чел. 
+interfacetopbar_tooltip_guardincapacitated      Нетрудоспособных: *X чел.
+interfacetopbar_tooltip_guardstationed          На посту: *X чел. 
+interfacetopbar_tooltip_guardpatrolling         В патруле: *X чел.
+interfacetopbar_tooltip_guardavailable          Доступно: *X чел.
+interfacetopbar_tooltip_guardresting            Отдыхают: *X чел.
+interfacetopbar_tooltip_guardactive             (Урегулируют ситуацию: *X чел.)
+interfacetopbar_tooltip_guarddoingjob           (Работают: *X чел.)
+interfacetopbar_tooltip_idle                    (Без дела: *X чел.)
+interfacetopbar_tooltip_armedguards              + Вооруженных охранников: *X чел.
+interfacetopbar_tooltip_dogs                    + Кинологов: *X чел.
+
+interfacetopbar_unlimitedfunds                  НЕОГРАНИЧЕННЫЕ СРЕДСТВА
+
+interfacetopbar_budget_moneyin					Доходы: *M$ в день
+interfacetopbar_budget_moneyout					Расходы: *M$ в день
+interfacetopbar_budget_cantgonegative           Прибыль не может быть отрицательной (т.е. нельзя иметь больше расходов, чем доходов), пока вы не наняли Бухгалтера для управления финансами.
+
+interfacetopbar_prisoners_types					Количество Заключенных в настоящий момент: *X чел.
+interfacetopbar_prisoners_capacity              Рекомендуемая вместимость зоны строгого режима: *X чел.
+interfacetopbar_prisonercells_shared            Вместимость общих камер: *X чел.
+interfacetopbar_prisonercells_unlocked          Вместимость незапертой зоны: *X чел.
+interfacetopbar_prisonercells_minseconly        Вместимость зоны общего режима: *X чел.
+interfacetopbar_prisonercells_medseconly        Вместимость зоны среднего режима: *X чел.
+interfacetopbar_prisonercells_maxseconly        Вместимость зоны строгого режима: *X чел.
+interfacetopbar_prisonercells_protectedonly     Вместимость зоны защитной изоляции: *X чел.
+interfacetopbar_prisonercells_supermaxonly      Вместимость зоны сверхстрогого режима: *X чел.
+interfacetopbar_prisonercells_deathrowonly      Вместимость зоны для смертников: *X чел.
+interfacetopbar_prisonercells_staffonly         Недоступно: *X чел.
+interfacetopbar_prisoners_nocells               Не хватает камер для *X Заключенных
+
+interfacetopbar_cctv_current					Работающих камер наблюдения: *C
+interfacetopbar_cctv_cap						Можно установить *C камер наблюдения
+
+interfacetopbar_tension_currentlevel            Уровень опасности *X
+interfacetopbar_tension_increasing              и растет
+interfacetopbar_tension_decreasing              и уменьшается
+interfacetopbar_tension_description             ФАКТОРЫ:
+interfacetopbar_tension_happyprisoners           - довольных заключенных: *X чел.
+interfacetopbar_tension_unhappyprisoners         + заключенных с жалобами: *X чел.
+interfacetopbar_tension_lockedupprisoners        + заключенных заперто в камере/карцере: *X чел.
+interfacetopbar_tension_riotingprisoners         + бунтующих заключенных: *X чел.
+interfacetopbar_tension_wellfedprisoners         - сытых заключенных: *X чел.
+interfacetopbar_tension_suppressedprisoners      = послушных (подавленных) заключенных: *X чел.
+interfacetopbar_tension_activeriotguards         + омоновцев на территории: *X чел.
+interfacetopbar_tension_activearmedguards        + вооруженных охранников на службе: *X чел.
+interfacetopbar_tension_recentdeaths             + убито за последнее время: *X чел.
+interfacetopbar_tension_recentsearches           + проведен обыск без оснований у: *X чел.
+interfacetopbar_tension_angrygangmembers         + ЧЛЕНОВ БАНДЫ В ЯРОСТИ (лидер наказан): *X чел.
+interfacetopbar_tension_recentpunishments        = наказано последнее время (УСТРАШЕНИЕ): *X чел.
+interfacetopbar_tension_recentcalmed             - недавно усмиренных заключенных: *X чел.
+
+interfacecontrol_mainmenu                       Главное меню (Esc)
+interfacecontrol_mainmenu_tooltip               Перейти в главное меню (Новая игра/Загрузить/Сохранить/Выйти и пр.)
+interfacecontrol_todo                           Список дел
+interfacecontrol_todo_tooltip                   Открыть/скрыть список дел
+interfacecontrol_research                       Бюрократия
+interfacecontrol_research_tooltip               Открывает экран Бюрократия, где можно разблокировать новые элементы, сотрудников и объекты.
+interfacecontrol_grading                        Оценка тюрьмы
+interfacecontrol_grading_tooltip                Открывает экран Оценка тюрьмы с информацией о том, насколько вы успешны в роли управляющего тюрьмой.
+
+interface_confirmlandbuy                        Уверены, что хотите купить этот участок земли за *X$?
+interface_loadconfirm                           Уверены, что хотите загрузить эту карту? Все несохраненные данные будут потеряны.
+interface_saveconfirm                           Уверены, что хотите сохранить файл с таким же именем? Существующие данные будут перезаписаны.
+
+interface_landbuylabel                          *X м x *Y м. Общая площадь *A кв. м. *C
+
+interface_action_dismantle                      Демонтировать
+interface_action_dump                           Выбросить
+interface_action_repair                         Починить
+interface_action_medicalbay                     Медпункт
+interface_action_search                         Обыскать
+interface_action_searchcell                     Обыскать Камеру
+interface_action_searchcellblock                Обыскать Блок
+interface_action_sack                           Уволить
+interface_action_doormodenormal                 Режим двери: Обычный
+interface_action_doormodelockedshut             Режим двери: Заперто
+interface_action_doormodelockedopen             Режим двери: Открыто
+interface_action_switchon                       Включить
+interface_action_switchoff                      Выключить
+interface_action_sellobject                     Продать объект
+interface_action_dismiss                        Распустить
+interface_action_connect                        Соединить
+interface_action_clearconnections               Отменить Соединения
+interface_action_servoopen                      Привод двери: ВКЛ
+interface_action_servoclose                     Привод двери: ВЫКЛ
+
+interface_contents_container                    Содержимое: *X 
+interface_contents_stack                        Содержимое: *X x *Y 
+
+interface_skip                                  ПРОПУСТИТЬ
+
+interface_error_riotmove                        Вход невозможен: Бунт
+
+interface_foundationsinprogress                 Идет процесс строительства
+riot_underway                                   ИДЕТ БУНТ
+riot_status_prisoners                           Бунтующих заключенных: *X чел.
+shakedown_underway                              ИДЕТ ОБЫСК
+shakedown_found                                 Найдено: 
+
+gameover_caption                                Нажмите ESC для продолжения 
+
+sector_jobs_max                                 Рабочих мест: *X
+sector_jobs_qualified                           Квалифицированных Заключенных: *X чел.
+sector_jobs_required                            (Необходимо: *X чел.)
+sector_noaccess                                 НЕТ ДОСТУПА
+sector_insecure                                 НЕБЕЗОПАСНЫЙ
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Проверка совместимости с компьютером
+hardware_compat_message					С вашего позволения мы соберем данные о технических характеристиках вашего компьютера.\n\nЭта информация поможет обеспечить совместимость игры Prison Architect с компьютерами любой конфигурации. Конфиденциальность гарантируется.\n\nСпасибо!
+hardware_compat_accept					Принять
+hardware_compat_decline					Отклонить
+
+connectionmenu_connect                  Соединить
+connectionmenu_disconnect               Отключить
+connectionmenu_clear                    Очистить
+connectionmenu_done                     Завершено
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      Построить
+buildtoolbar_reports                    Отчеты
+buildtoolbar_bangup                     В камеры
+buildtoolbar_lockdown                   Блокировка дверей
+buildtoolbar_shakedown                  Обыск
+buildtoolbar_weaponsfree                Огонь на поражение
+
+buildtoolbar_tooltip_reports			Открывает окно с отчетами для просмотра информации о заключенных, персонале, доходах, грантах и прочем.
+buildtoolbar_tooltip_bangup				Отправляет всех (согласных) заключенных по камерам. Помните, что они сильно разозлятся, если продержать их там слишком долго.
+buildtoolbar_tooltip_lockdown			Немедленно запирает все двери в тюрьме.
+buildtoolbar_tooltip_shakedown          Внеплановый обыск всех Камер. Может занять продолжительное время и привести к недовольству среди заключенных.
+buildtoolbar_tooltip_weaponsfree        Разрешает вооруженным охранникам применять огнестрельное оружие.
+
+buildtoolbar_cost						Цена: *C$
+buildtoolbar_cost_sqrft					Цена: *C$ за кв. м.
+buildtoolbar_wages						Зарплата: *W$ в день
+buildtoolbar_outdoor					Только снаружи
+buildtoolbar_indoor						Только в помещении
+buildtoolbar_walk_speed					Скорость перемещения: *S
+buildtoolbar_walk_speed_slow			Медленная
+buildtoolbar_walk_speed_norm			Обычная
+buildtoolbar_walk_speed_fast			Быстрая
+buildtoolbar_locked                     ЗАКРЫТО
+buildtoolbar_locked_research			ЗАКРЫТО (вам требуется *B)
+buildtoolbar_locked_administrator		ЗАКРЫТО (требуется *B)
+buildtoolbar_room						Комната
+
+buildtoolbar_electrical                  - Питание от электросети
+buildtoolbar_highpower                   - Высокое потребление энергии
+buildtoolbar_water                       - Требуется Водоснабжение
+buildtoolbar_wired                       - Соединение с другими устройствами через провода
+buildtoolbar_modcontent                  - Мод-контент
+
+buildtoolbar_popup_foundations			Стройте и сносите здания, чтобы создать уникальную тюрьму.
+buildtoolbar_popup_construction			Различные типы пола и стен.
+buildtoolbar_popup_planning				Планировка тюрьмы возможна до начала строительства.
+buildtoolbar_popup_designation			Вы решаете, какую функцию выполняет та или иная зона.
+buildtoolbar_popup_objects				Размещайте полезные объекты на территории тюрьме.
+buildtoolbar_popup_overlays				Слабые места в планировке тюрьмы заметны визуально.
+buildtoolbar_popup_utilities			Водопровод и электроснабжение.
+buildtoolbar_popup_staff				Нанимайте персонал для поддержания тюрьмы в рабочем состоянии.
+buildtoolbar_popup_deployment			Назначайте сотрудников в выбранные зоны тюрьмы.
+buildtoolbar_popup_logistics            Устраивайте заключенных на работы в тюрьме. Управляйте столовой и прачечной.
+buildtoolbar_popup_research				Откройте новые возможности для вашей тюрьмы.
+buildtoolbar_popup_emergencies			Вызывайте экстренные службы, если ситуация выходит из-под контроля.
+buildtoolbar_popup_spawn				Спаун? А нафига?
+buildtoolbar_popup_clone				Копируйте и вставляйте готовые участки.
+buildtoolbar_popup_properties			Что-то не догоняешь? Здесь подробнее.
+buildtoolbar_popup_contraband           Показывает источники контрабанды, а также все запрещенные предметы, недавно обнаруженные на территории тюрьмы. 
+buildtoolbar_popup_grading              Узнать оценку тюрьмы по 4 главным параметрам — Наказание, Реформа, Безопасность и Здоровье. Также прогнозирует уровень рецидивной преступности для ваших заключенных.
+buildtoolbar_popup_room_cell			Здесь живут заключенные.
+buildtoolbar_popup_room_holdingcell		Здесь размещают недавно прибывших зэков, пока им не найдут камеру.
+buildtoolbar_popup_room_solitary		Изолятор для самых отъявленных негодяев.
+buildtoolbar_popup_room_canteen			Место для изысканной трапезы и "файв-о-клока".
+buildtoolbar_popup_room_kitchen			Здесь повара готовят баланду для заключенных.
+buildtoolbar_popup_room_shower			Здесь осужденные принимают душ и выводят вшей.
+buildtoolbar_popup_room_yard			Место, где можно по-быстрому принять солнечную ванну под бдительным взором охранников.
+buildtoolbar_popup_room_storage			Здесь хранятся материалы для нужд персонала тюрьмы. 
+buildtoolbar_popup_room_deliveries		Сюда привозят продукты, материалы и заключенных.
+buildtoolbar_popup_room_garbage			Отсюда забирают мусор.
+buildtoolbar_popup_room_execution		Место, откуда большинство осужденных не возвращается.
+buildtoolbar_popup_room_workshop		Здесь заключенные увлекательно проводят время за производством номерных знаков для автомобилей.
+buildtoolbar_popup_room_security		Кабинет охраны.
+buildtoolbar_popup_room_office			Офисное помещение для администрации.
+buildtoolbar_popup_room_medicalward		Здесь работает медицинский персонал.
+buildtoolbar_popup_room_morgue			Сюда отправляют всех, кто умер в тюрьме.
+buildtoolbar_popup_room_commonroom		Здесь заключенные могут немного отдохнуть.
+buildtoolbar_popup_room_kennel          Осторожно, злые собаки.
+buildtoolbar_popup_room_chapel          Что будет, если поручить бюрократическому комитету заботиться о религиозных нуждах заключенных? "Универсальный зал для молитвы", вот что. Мы называем его Часовней.
+buildtoolbar_popup_room_paroleroom      Заключенные имеют право на условно-досрочное освобождение по прошествии 50% и 75% срока заключения. Их судьба решается в этой комнате, в присутствии начальника тюрьмы и начальника охраны.\n\nРекомендуется привлечь дополнительную охрану. Когда осужденным отказывают в УДО, они нередко расстраиваются.
+buildtoolbar_popup_room_library         В тюрьму присылают коробки с подержанными книгами из разных уголков страны. Обязанность заключенных — расставить книги по полкам.
+buildtoolbar_popup_room_intake          Сюда приводят вновь прибывших заключенных.
+
+buildtoolbar_popup_obj_bed				Не слишком мягкая, не слишком твердая, в самый раз. Хотя, если честно, очень жесткая и крошечная. 
+buildtoolbar_popup_obj_toilet			Одно из основополагающих прав человека (по версии идиотов).
+buildtoolbar_popup_obj_table			Прекрасно сочетается со стулом.
+buildtoolbar_popup_obj_chair			Прекрасно сочетается со столом.
+buildtoolbar_popup_obj_bench			Чтобы сидеть.
+buildtoolbar_popup_obj_electricchair	2 000 вольт чистого правосудия.
+buildtoolbar_popup_obj_jaildoor			Мешает заключенным сбежать.
+buildtoolbar_popup_obj_jaildoorlarge	Мешает толпе заключенных сбежать.
+buildtoolbar_popup_obj_door				Просто дверь.
+buildtoolbar_popup_obj_solitarydoor		Самая мощная дверь, способная остановить даже опаснейших зэков.
+buildtoolbar_popup_obj_staffdoor		Эту дверь может открыть любой сотрудник, а не только охрана.
+buildtoolbar_popup_obj_window			Из него иногда видно солнце.
+buildtoolbar_popup_obj_windowlarge		Из него видно солнце немного чаще.
+buildtoolbar_popup_obj_tree				Бороться с глобальным потеплением — долг каждого из нас.
+buildtoolbar_popup_obj_light			Позволяет видеть заключенных в любое время дня и ночи.
+buildtoolbar_popup_obj_cooker			Обеспечивает заключенных горячей едой.
+buildtoolbar_popup_obj_fridge			Не дает продуктам испортиться.
+buildtoolbar_popup_obj_bin				Важно соблюдать порядок, когда речь заходит о контрабанде.
+buildtoolbar_popup_obj_sink				Все сотрудники обязаны мыть руки.
+buildtoolbar_popup_obj_servingtable		Здесь заключенные берут тарелки с едой.
+buildtoolbar_popup_obj_showerhead		Насадка для душа. Чтобы принимать душ.
+buildtoolbar_popup_obj_bookshelf		Полка, на которой стоят книги.
+buildtoolbar_popup_obj_officedesk		Вашим сотрудникам приходится много писать. Для этого им нужен новенький офисный стол.
+buildtoolbar_popup_obj_filingcabinet	Для аккуратного хранения всей писанины.
+buildtoolbar_popup_obj_medicalbed		Здесь хранятся наркотики, пока их не стащат заключенные. 
+buildtoolbar_popup_obj_morgueslab		Чтобы усопшие могли уйти с достоинством.
+buildtoolbar_popup_obj_drain			Чтобы вода не скапливалась на полу.
+buildtoolbar_popup_obj_sprinkler		Автоматически разбрызгивает воду в случае пожара.
+buildtoolbar_popup_obj_metaldetector	При проходе сквозь него заключенных сканируют на предмет контрабанды. Рядом должна быть охрана для изъятия запрещенных предметов.
+buildtoolbar_popup_obj_weightsbench		Спорт — залог счастливой отсидки.
+buildtoolbar_popup_obj_phonebooth		Иногда заключенным хочется пообщаться с родней, потому мы установили в тюрьме эти штуки.
+buildtoolbar_popup_obj_tv				Зомбоящик тоже делает заключенных счастливыми.
+buildtoolbar_popup_obj_largetv			Массовый сеанс зомбирования для зэков.
+buildtoolbar_popup_obj_pooltable		Разбавляет монотонную тюремную жизнь игрой в шары.
+buildtoolbar_popup_obj_dismantleobject	Убирает объект из тюрьмы.
+buildtoolbar_popup_obj_altar            Направляет молитву прямо в уши высшей силы (на ваш выбор).
+buildtoolbar_popup_obj_pews             Места для верующих из самого твердого и неудобного дерева.
+buildtoolbar_popup_obj_prayermat        Не всем заключенным нравится касаться грязного пола во время молитвы.
+
+buildtoolbar_popup_staff_workman		Построят тюрьму по индивидуальному проекту.
+buildtoolbar_popup_staff_guard			Следят за заключенными и обеспечивают порядок.
+buildtoolbar_popup_staff_armedguard     Любой зэк дважды подумает, прежде чем напасть на этого охранника с дробовиком.\n\nОбратите внимание, что каждому вооруженному охраннику требуется свой шкафчик в Оружейной комнате.
+buildtoolbar_popup_staff_doctor			Автоматически лечит всех раненых сотрудников и заключенных в зоне видимости.
+buildtoolbar_popup_staff_cook			Кормит заключенных едой, которую они же и приготовили.
+buildtoolbar_popup_staff_gardener		Ухаживает за газонами и растениями на территории тюрьмы.
+buildtoolbar_popup_staff_janitor		Следит за чистотой и порядком в тюрьме. Также может помочь в прачечной.
+buildtoolbar_popup_staff_warden			Главный управляющий тюрьмой. Нужен для найма персонала более высокого ранга и исследования новых возможностей.
+buildtoolbar_popup_staff_chief			Открывает доступ к расстановке, видеонаблюдению, ОМОНу и пр.
+buildtoolbar_popup_staff_foreman		Позволяет нанимать Уборщиков и Садовников.
+buildtoolbar_popup_staff_psychologist	Способен заглянуть в самые темные уголки сознания заключенных. 
+buildtoolbar_popup_staff_accountant		Открывает доступ к финансовой отчетности.
+buildtoolbar_popup_staff_lawyer			Помогает обойти некоторые правила для большего контроля над тюрьмой.
+
+buildtoolbar_popup_uts_powerstation		Вырабатывает электричество для вашей тюрьмы.
+buildtoolbar_popup_uts_capacitor		Увеличивает мощность генератора, рядом с которым находится.
+buildtoolbar_popup_uts_electricalcable	Распределяет электроэнергию по территории тюрьмы.
+buildtoolbar_popup_uts_powerswitch		Регулирует подачу питания на выбранный кабель.\n\nЩелкните правой кнопкой мыши для включения или выключения.
+buildtoolbar_popup_uts_waterpumpstation	Снабжает тюрьму водой.
+buildtoolbar_popup_uts_pipevalve		Включает или выключает подачу воды через любую подсоединенную трубу.
+buildtoolbar_popup_uts_pipelarge		Позволяет организовать подачу большого объема воды. Достаточно габаритна, чтобы вдохновить заключенных на побег по покилометровой реке дерьма.\n\nНапор воды в этой трубе слишком велик, чтобы напрямую подключать ее к туалетам, душевым насадкам и т.п. Для этих целей лучше подойдет малая труба.
+buildtoolbar_popup_uts_pipesmall		Нужна для подключения туалетов, душа, раковин и т.п. к основному трубопроводу. Напор воды в ней значительно ниже, к тому же он будет уменьшаться пропорционально длине малой трубы, пока не достигнет критической отметки. 
+buildtoolbar_popup_uts_cctv				Следите за порядком в тюрьме без постоянного присутствия охраны.\n\nВидеокамеры следует соединить с Пультом наблюдения.
+buildtoolbar_popup_uts_cctvmonitor		Предназначен для установки в Комнате охраны; управляется Охранником. Показывает изображение с камер наблюдения.\n\nВыберите инструмент Соединить для подключения видеокамер к Пульту наблюдения.\n\nОдновременно можно просматривать до 8 камер. Если их больше, изображение с камер будет появляться на пульте поочередно, что может негативно сказаться на безопасности.
+buildtoolbar_popup_uts_DoorControlSystem  Предназначен для установки в Комнате охраны; управляется Охранником. Автоматически открывает тюремные двери.\n\nВыберите инструмент Соединить для подключения Приводов дверей к системе управления. Привод следует установить прямо над выбранной дверью.\n\nСистема позволяет управлять неограниченным количеством Приводов, однако Охранник может открыть не более двух дверей в секунду.
+buildtoolbar_popup_uts_phonemonitor     Предназначен для установки в Комнате охраны; управляется Охранником. Прослушка исходящих звонков позволит собрать ценную информацию о том, что замышляют заключенные.\n\nВыберите инструмент Соединить для подключения системы к Телефонным будкам.
+buildtoolbar_popup_uts_Servo            Установите привод на дверь, которой вы хотите управлять удаленно. Редуктор должен быть точно над дверью.\n\nПосле установки дверь открывается при срабатывании привода — с помощью Системы управления дверями или Таймера двери.\n\nПриводы можно соединить друг с другом, чтобы после открытия первого срабатывали и остальные.
+buildtoolbar_popup_uts_LogicCircuit     Только для продвинутых архитекторов.\n\nПростая электросхема, выполняющая логические операции на основе введенных данных.\n\nДоступные функции: And / Or / Not / Nand / Nor / Xor\n\nЩелкните правой кнопкой мыши для переключения между доступными функциями.
+buildtoolbar_popup_uts_LogicBridge      Для продвинутых архитекторов.\n\nПринимает входящий сигнал и передает его на кабель в том же квадрате, где он распределаятся по другим мостам (на этом кабеле).\n\nМожно использовать для передачи общего сигнала по всей тюрьме, например, сигнала отбоя.
+buildtoolbar_popup_uts_DoorTimer        Можно использовать для автоматического открытия дверей в выбранное время.\n\nВыберите инструмент Соединить для подключения таймера к Приводам дверей.
+buildtoolbar_popup_uts_Wire             Соединяет системы удаленного доступа.
+buildtoolbar_popup_uts_showallwires		Показывает все проводные соединения.
+buildtoolbar_popup_uts_remotedoor       Крепкая металлическая дверь, которую нельзя открыть ключом (открывается удаленно). Способна предотвратить массовый побег заключенных, заполучивших Тюремные ключи. 
+buildtoolbar_popup_uts_dismantleutility	Убирает выбранные коммуникации из тюрьмы.
+buildtoolbar_popup_uts_pressurepad      При срабатывании датчика отправляет сигнал на подключенные устройства.
+buildtoolbar_popup_uts_statuslight      Загорается красным или зеленным, в зависимости от входящего сигнала.
+
+buildtoolbar_popup_autolights_name      Автоматическое освещение
+buildtoolbar_popup_autolights           Автоматическая установка ламп
+buildtoolbar_popup_autolights_desc      Эта функция позволяет автоматически устанавливать лампы в новых зданиях после окончания строительства.
+
+buildtoolbar_contraband_source          Показывает все зоны тюрьмы, где может быть украдена контрабанда.
+buildtoolbar_contraband_day             Показывает контрабанду, конфискованную за последние 24 часа.
+buildtoolbar_contraband_week            Показывает контрабанду, конфискованную за последние 7 дней.
+buildtoolbar_contraband_alltime         Показывает всю контрабанду, конфискованную за время существования вашей тюрьмы.
+buildtoolbar_contraband_informants      Показывает сведения, собранные Тайными информаторами.
+
+buildtoolbar_deployment_Guards          Позволяет расставлять охранников по территории тюрьмы.
+buildtoolbar_deployment_Patrols         Прочертите маршрут патруля с помощью зажатой кнопки мыши.\n\nЧтобы отправить охранников в патруль, еще раз щелкните мышью по любому квадрату в зоне патрулирования.\nДля очистки маршрута выберите его с помощью зажатой правой кнопки мыши.
+buildtoolbar_deployment_DogPatrols      Прочертите маршрут патруля с помощью зажатой кнопки мыши.\n\nЧтобы отправить охранников в патруль, еще раз щелкните мышью по любому квадрату в зоне патрулирования.\nДля очистки маршрута выберите его с помощью зажатой правой кнопки мыши.
+buildtoolbar_deployment_ArmedPatrols    Прочертите маршрут патруля с помощью зажатой кнопки мыши.\n\nЧтобы отправить охранников в патруль, еще раз щелкните мышью по любому квадрату в зоне патрулирования.\nДля очистки маршрута выберите его с помощью зажатой правой кнопки мыши.
+buildtoolbar_deployment_SharedZone      В этом секторе могут находиться все заключенные.
+buildtoolbar_deployment_MinSecZone      В этом секторе могут находиться только заключенные общего режима.
+buildtoolbar_deployment_MedSecZone      В этом секторе могут находиться только заключенные среднего режима.
+buildtoolbar_deployment_MaxSecZone      В этом секторе могут находиться только заключенные строгого режима.
+buildtoolbar_deployment_ProtectedZone   В этом секторе могут находиться только заключенные, которые содержатся с применением особых мер обеспечения безопасности ("защитная изоляция").
+buildtoolbar_deployment_SuperMaxZone    В этом секторе могут находиться только заключенные сверхстрогого режима.
+buildtoolbar_deployment_DeathRowZone    В этом секторе могут находиться только смертники.
+buildtoolbar_deployment_StaffOnlyZone   В этом секторе может находиться только персонал тюрьмы.
+buildtoolbar_deployment_UnlockedZone    Этот сектор открыт для всех. Двери в нем не запираются.
+
+job_matsassigned                        Необходимые материалы
+job_matsavailable                       Доступные материалы
+job_awaitingmaterials                   Ожидаются материалы
+job_inprogress                          Идет работа
+job_blocked                             Работа (недоступно)
+job_queued                              Работа (в очереди)
+
+job_failed_noroute                      Нет доступа
+job_failed_nomaterials                  Нет материалов
+job_failed_toodangerous                 Слишком опасно
+job_failed_materialsbeingcarried        Материалы в пути
+
+job_rightclicktocancel                  Щелкните правой кнопкой мыши для отмены
+job_refundamount                        Возмещается: *X
+
+failuremessage_blocked                  Недоступно
+failuremessage_cantafford               Недостаточно средств
+failuremessage_cantaffordupkeep         Превышает суточный бюджет
+failuremessage_maximumcountreached      Нет свободных вакансий
+failuremessage_maxstaff                 Слишком много сотрудников
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Доставка
+statustoolbar_finances                  Финансы
+statustoolbar_regime                    Режим
+statustoolbar_escapemap                 Охрана
+statustoolbar_electricity               Электричество
+statustoolbar_stats                     Статистика
+statustoolbar_danger                    Опасность
+statustoolbar_jobs                      Работы
+statustoolbar_gangs                     Банды
+statustoolbar_staff                     Персонал
+statustoolbar_research                  Исследования
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Редактор спрайтов
+spritebankeditor_create                 Создать
+spritebankeditor_rotate                 Вращение
+spritebankeditor_sort                   Сортировка
+spritebankeditor_markermodetitle        Режим маркера
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Главное меню
+codex_campaign                          Кампания
+codex_cutscenes                         Кат-сцены
+codex_qualifications                    Характеристики
+codex_load                              Загрузить тюрьму
+codex_loadcampaign                      Загрузить кампанию
+codex_save                              Сохранить тюрьму
+codex_savecampaign                      Сохранить кампанию
+codex_performance						Проверка производительности
+codex_developer_load                    (Разработчик) Загрузить карту
+codex_developer_save                    (Разработчик) Сохранить карту
+codex_developer_clearach                (Разработчик) Сброс достижений
+codex_contacts                          Контактные данные
+codex_materials                         Материалы
+codex_play                              Проиграть
+codex_polaroids                         Полароиды
+codex_introduction                      Вступление
+codex_restartintroduction               Повторить вступление
+codex_restartchapter                    Начать главу заново
+codex_help                              Помощь (wiki)
+codex_opensavefolder                    Открыть папку с сохранениями
+codex_options							Настройки
+codex_nitgs								Игровые персонажи
+codex_workshop							Поделиться тюрьмой (мастерская Steam)
+codex_checkforupdates                   Проверка обновлений
+codex_preorder                          Предзаказ игры
+codex_termsconditions                   Условия и ограничения
+codex_twitter                           Твиттер
+codex_extras                            Дополнительно
+codex_unlocked                          Открыто *X/*Y
+
+codex_new                               Создать новую тюрьму
+codex_new_worldsize                     Размер карты
+codex_new_small                         Маленькая
+codex_new_medium                        Средний
+codex_new_large                         Большая
+codex_new_selectwarden                  Выбрать начальника тюрьмы
+
+codex_options_graphics					Графика
+codex_options_resolution				Разрешение
+codex_options_resolutionauto			Авто
+codex_options_windowed					В окне
+codex_options_highdpi					Высокий DPI
+codex_options_filtering					Сглаживание
+codex_options_nofiltering				Выкл
+codex_options_multisampled				Множественная выборка
+codex_options_supersampled				Избыточная выборка
+
+codex_options_audio						Звук
+codex_options_volume					Общая громкость
+codex_options_frequency					Частота
+codex_options_swapstero					Поменять стереоканалы местами
+codex_options_dspenabled				Включить цифровую обработку сигнала
+codex_options_11khz						11025 Гц
+codex_options_22khz						22050 Гц
+codex_options_44khz						44100 Гц
+
+codex_options_clocktype                 Тип часов
+codex_options_clocktype_analogue        Аналоговые
+codex_options_clocktype_12h             12 часов
+codex_options_clocktype_24h             24 часа
+
+codex_options_gameplay					Игра
+codex_options_autosave					Таймер автосохранения
+codex_options_renderrooms				Разметка комнат ("шахматная доска")
+codex_options_apply						Применить
+
+codex_options_language					Язык
+
+codex_enabled                           Включено
+codex_disabled                          Выключено
+
+codex_option_intake                     Непрерывное пополнение
+codex_tooltip_intake                    Если выбрана эта опция, вы будете бесконечно получать случайное количество новых заключенных каждый день.\n\nВ противном случае игрок сам решает, когда принимать заключенных. Для этого нужно открыть "Отчеты" и выбрать вкладку "Прибытие".
+codex_option_fogofwar                   Туман войны
+codex_tooltip_fogofwar                  Вы не сможете видеть зоны тюрьмы, в которых нет Охранников или Камер наблюдения.
+codex_option_lakes                      Генератор озер
+codex_tooltip_lakes                     На карте появятся озера, которые перекрывают случайные участки. ВНИМАНИЕ: Экспериментальная функция.
+codex_option_forests                    Генератор лесов
+codex_tooltip_forests                   На карте появятся участки леса.
+codex_option_buildings                  Генератор зданий
+codex_tooltip_buildings                 На карте появятся случайные заброшенные здания, которые можно использовать по своему усмотрению.
+codex_option_failure                    Условия поражения
+codex_tooltip_failure                   Дополнительное испытание! Вы проиграете, если ситуация выйдет из-под контроля (бунты, пожары, высокая смертность, слишком много побегов и т.д.)
+codex_option_unlimitedfunds             Неограниченные средства
+codex_tooltip_unlimitedfunds            Для любителей режима "песочница". С самого начала можно тратить любое количество денег, не думая о прибыли.
+codex_option_gangs                      Банды
+codex_tooltip_gangs                     Некоторые заключенные состоят в банде. По прибытии они будут атаковать членов вражеских группировок. Дополнительное испытание.
+codex_option_events                     Происшествия
+codex_tooltip_events                    Во время игры будут случаться различные происшествия, чтобы вы ни на секунду не теряли бдительности. Привносит элемент неожиданности и добавляет дополнительные испытания.
+
+codex_option_funds                      Средства
+codex_tooltip_funds                     Это ваш стартовый капитал. Экран Оценка позволяет продать готовую тюрьму и начать игру с более крупной суммой.
+
+codex_transfer							Перевод
+codex_transferring						Идет перевод
+codex_in_prison							Находится под стражей
+codex_useravatar                        Это я
+codex_tooltip_useravatar                Выберите заключенного, который будут символизировать вас, если вы каким-то образом окажитесь за решеткой.
+codex_tooltip_flagbio                   Сообщить о том, что информация в биографии носит нежелательный или оскорбительный характер.
+
+codex_workshop_current					Текущая тюрьма
+codex_workshop_publish					Опубликовать тюрьму
+codex_workshop_update					Обновить
+codex_workshop_play						Проиграть
+codex_workshop_downloading				Загрузка
+codex_workshop_download_failed			Загрузка прервана
+codex_workshop_publishing				Публикация...
+codex_workshop_new						НОВАЯ
+codex_workshop_title					Название
+codex_workshop_desc						Описание
+codex_workshop_view_in_workshop			Просмотр в Мастерской Steam
+codex_workshop_heading_pubed			Ваши опубликованные тюрьмы
+codex_workshop_heading_subed			Тюрьмы из мастерской Steam
+codex_workshop_published_by				Автор: *P
+codex_workshop_published_by_you			Опубликовано вами
+codex_workshop_published_good			Тюрьма опубликована
+codex_workshop_published_good_msg		Ваша тюрьма успешно опубликована.
+codex_workshop_published_bad			При публикации тюрьмы произошла ошибка
+codex_workshop_published_bad_msg		Не удалось опубликовать тюрьму.
+codex_workshop_published_bad_msg_new	Вашу новую тюрьму не удалось опубликовать. Попробуйте снова.
+codex_workshop_busy						Над вашим запросом уже "колдуют" в Steam. Дождитесь окончания процесса, а затем попробуйте снова.
+codex_workshop_file_exists				Вы уже публиковали тюрьму с таким названием. Выберите другое имя.
+codex_workshop_generic_fail				Не удалось опубликовать тюрьму. Попробуйте снова.
+codex_workshop_download_bad				Не удалось загрузить тюрьму
+codex_workshop_pa_workshop				Открыть мастерскую Prison Architect
+codex_workshop_agreement				Отправляя это, вы соглашаетесь с [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]правилами и условиями мастерской[/url].
+
+codex_options_timelapse					Съемка
+codex_timelapse_record					Записать видео
+codex_timelapse_stop					Остановить запись
+codex_timelapse_camera					Режим камеры
+codex_timelapse_resolution				Разрешение
+codex_timelapse_customresw				Выбрать разрешение — Ширина
+codex_timelapse_customresh				Выбрать разрешение — Высота
+codex_timelapse_resolution				Разрешение
+codex_timelapse_fps						Частота кадров
+codex_timelapse_interval				Продолжительность записи
+codex_timelapse_quality					Качество
+codex_timelapse_unsupported				Эта функция недоступна на вашем компьютере.
+codex_timelapse_savesettings			Сохранить настройки
+
+codex_timelapse_cam_zoom                С приближением
+codex_timelapse_cam_fitmap              Вся карта
+codex_timelapse_cam_fitheight           По высоте карты
+codex_timelapse_cam_fitwidth            По ширине карты
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            Высокий
+codex_timelapse_quality_med             Средний
+codex_timelapse_quality_low             Низкий
+codex_timelapse_interval_value          *X мин.
+
+codex_performance_running				Запущена проверка производительности
+codex_performance_time					Осталось: *Tс
+codex_performance_current				Текущее время построения кадра: *Tмс: *Tмс
+codex_performance_min					Минимальное время построения кадра: *Tмс
+codex_performance_avg					Среднее время построения кадра: *Tмс
+codex_performance_max					Максимальное время построения кадра: *Tмс
+codex_performance_numframes				Количество кадров: *T
+
+codex_last_modified						Последние изменения: *T
+codex_sortbydesc						Сортировка по дате
+codex_sortname							Имя
+codex_sortdate							Дата
+codex_apply								Применить
+codex_select                            Выбрать
+
+codex_mods								Моды
+codex_mod_activetitle					Активные моды
+codex_mod_inactivetitle					Доступные моды
+codex_mod_deactivate					Отключить все моды
+codex_mod_wiki							Найти другие моды (Wiki)
+codex_mod_openmodsfolder				Открыть папку с модами
+codex_mod_moresteammods					Найти другие моды (Мастерская Steam)
+codex_mod_findsteamtranslations         Найти другие переводы (Мастерская Steam)
+codex_authortitle                       Автор
+codex_versiontitle                      Версия
+codex_datetitle                         Дата
+codex_urltitle                          Ссылка
+codex_typetitle							Тип
+codex_mod_graphicsandsound				Графика и звук
+codex_mod_translation					Перевод
+codex_mod_scenario						Сценарий
+codex_mod_content						Контент
+codex_mod_load_scenario					Играть сценарий
+codex_publishmod						Опубликовать мод
+
+codex_mod_update						Обновить мод
+codex_mod_published_good				Мод опубликован
+codex_mod_published_good_msg			Ваш мод успешно опубликован.
+codex_mod_published_bad					Не удалось опубликовать мод 
+codex_mod_published_bad_msg				Ошибка при публикации вашего мода.
+codex_mod_modsupdated					Мод обновлен
+codex_mod_modsupdated_msg				Некоторые активные моды обновлены. Нажмите ОК, чтобы принять изменения. Игра сохранится автоматически.
+codex_mod_translationcaption            Это перевод на другой язык?
+
+codex_language                          Язык
+codex_language_englishdefault           Английский (по умолчанию)
+codex_language_default                  Язык по умолчанию
+codex_language_download                 Загрузить
+codex_language_failed_download          Не удалось загрузить перевод.
+codex_language_failed_download_msg      Выбранный перевод не удалось загрузить.
+codex_language_searching_workshop       Поиск в Мастерской Steam
+codex_language_community                Эти переводы созданы и поддерживаются сообществом. Спасибо!!!
+
+codex_save_confirm                      Уверены, что хотите записать текущую тюрьму поверх *X?
+codex_researtchapter_confirm            Уверены, что хотите начать главу заново? Несохраненная игра будет потеряна.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Хотите сохранить эти настройки графики?  Отмена через 
+graphicschange_time						 секунд.
+graphicschange_accept					Принять
+graphicschange_revert					Отменить
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    Отладчик (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   Ошибка при загрузке модов
+modnotification_info                    Эти моды использовались во время сохранения текущей тюрьмы. Мы рекомендуем скачать и активировать их до загрузки этого сохранения.
+modnotification_playnow                 Играть сейчас
+modnotification_active                  Активен
+modnotification_inactive                Неактивен
+modnotification_new                     Новый
+modnotification_unknown                 Неизвестно
+modnotification_popup_title             Несоответствие модов
+modnotification_popup_active            В настоящее время этот мод активен. Щелкните, чтобы отключить его.
+modnotification_popup_inactive          В настоящее время этот мод неактивен. Щелкните, чтобы включить его.
+modnotification_popup_new_url           Это новый мод. Щелкните, чтобы перейти на страницу мода в веб-браузере.
+modnotification_popup_new_steam         Это новый мод из Steam. Нажмите, чтобы подписаться и скачать мод.
+modnotification_popup_unknown           Нам не удалось определить, откуда этот мод. Вы можете найти и самостоятельно установить его.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Остановить и обыскать
+biography_selected                      ВЫБРАНО
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               Заключенный №*X
+biography_prisoner_age                  Возраст: *X
+biography_prisoner_traits               Особые черты:
+biography_prisoner_convicted            Осужден за *C (признал себя *P)
+biography_prisoner_sentenced            Приговорен к *X годам заключения
+biography_parole_now                    Может подавать ходатайство об УДО
+biography_parole_later                  Может подавать ходатайство об УДО через *X лет
+biography_prisoner_served               Отсидел *X лет
+biography_prisoner_priors               Приводы:
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Возраст:
+rapsheet_category						Категория:
+rapsheet_traits							Особые черты:
+rapsheet_conviction_text				*C - *Y лет
+rapsheet_found_text						(Признал себя *P)
+rapsheet_convictions					Судимости
+rapsheet_misconductstitle				Последние нарушения
+rapsheet_biography                      Биография
+rapsheet_guilty							Виновным
+rapsheet_notguilty						Невиновным
+rapsheet_served							Отсидел
+rapsheet_served_time					Отсидел (лет): *Y
+rapsheet_time							из *Y
+rapsheet_bio							Приговорен к *Y годам лишения свободы за *A.
+rapsheet_bio_med						Приговорен к *Y годам лишения свободы за *A и *B.
+rapsheet_bio_long						Приговорен к *Y годам лишения свободы за многочисленные преступления, включая *A, *B и *C.
+rapsheet_category_minsec				Общий режим
+rapsheet_category_normal				Средний режим
+rapsheet_category_maxsec				Строгий режим
+rapsheet_category_protected             Режим защитной изоляции
+rapsheet_category_supermax              Сверхстрогий режим
+rapsheet_category_deathrow              Смертник
+rapsheet_tab_biography                  Биография
+rapsheet_tab_experience                 Опыт
+rapsheet_tab_grading                    Оценка
+rapsheet_tab_character                  Характер
+rapsheet_punish                         Наказать
+rapsheet_recruit                        Завербовать информатора
+
+rapsheet_timeinside                     *X дней в вашей тюрьме
+rapsheet_timeinside_hours               *X часов в вашей тюрьме
+rapsheet_mood                           Настроение
+rapsheet_activity                       Времяпровождение
+rapsheet_condition                      Состояние
+rapsheet_program                        Программа
+rapsheet_passchance                     Вероятность успеха
+rapsheet_reformhistory                  Участие в программах реформы
+
+rapsheet_reform_success                 Выполнено
+rapsheet_reform_successcount            Прошел обучение *X раз
+rapsheet_reform_failed                  Не выполнено
+rapsheet_reform_failcount               Провалил обучение *X раз
+
+rapsheet_grading_punishment             Наказание
+rapsheet_grading_health                 Здоровье
+rapsheet_grading_security               Охрана
+rapsheet_grading_reform                 Реформа
+rapsheet_grading_points                 *X очков: 
+rapsheet_grading_penalties              *X штрафов: 
+
+rapsheet_scheduleexecution              Назначить наказание
+
+
+punish_lockdown_6                       В камеру на 6 часов
+punish_lockdown_12                      В камеру на 12 часов
+punish_lockdown_24                      В камеру на 24 часа
+punish_solitary_6                       В карцер на 6 часов
+punish_solitary_12                      В карцер на 12 часов
+punish_solitary_24                      В карцер на 24 часа
+punish_solitary_perm                    В карцер (бессрочно)
+punish_lockdown_perm                    В камеру (бессрочно)
+punish_solitary                         Карцер 
+punish_lockdown                         Блокировка дверей
+punish_none                             Отсутствует
+punish_timer                            *X час. *Y мин.
+punish_timer_minutes                    *X мин.
+punish_active                           АКТИВНО
+punish_permanent                        (бессрочно)
+punish_end                              Прекратить исполнение наказания
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  Отсутствует
+misconduct_reporttype_complaint             Недовольство
+misconduct_reporttype_destruction           Погром
+misconduct_reporttype_escapeattempt         Попытка побега
+misconduct_reporttype_injuredprisoner       Нападение на заключенного
+misconduct_reporttype_injuredstaff          Нападение на персонал
+misconduct_reporttype_seriousinjury         Побои
+misconduct_reporttype_murder                Убийство
+misconduct_reporttype_contrabandweapons     Найдено оружие
+misconduct_reporttype_contrabandtools       Найдены инструменты
+misconduct_reporttype_contrabandnarcotics   Найдены наркотики
+misconduct_reporttype_contrabandluxuries    Найдены предметы роскоши
+misconduct_reporttype_intoxicated           Интоксикация
+misconduct_title                             =[Нарушение дисциплины]=
+
+misconduct_report_addiction                 Зависимость от *X
+misconduct_report_recoving                  Идет лечение зависимости от *X
+misconduct_report_alcoholic                 Алкоголик
+misconduct_report_recovingalcoholic         Лечится от алкоголизма
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       Требуется *X для подготовки этого отчета.
+research_requireunlock                  Необходимо изучить "*X", чтобы открыть этот отчет
+research_approved                       ОДОБРЕНО
+research_cost                           Стоимость: *X
+research_costperitem                     + *X за каждый комплект.
+research_timetounlock                   Время исследования: *X часов
+research_movementpenalty                Уменьшает подвижность на *X%
+research_protectionbonus                Увеличивает защиту на *X%
+research_tap_to_authorise               ЩЕЛКНИТЕ ДЛЯ ПРОДОЛЖЕНИЯ
+
+research_none                           Отсутствует
+research_warden                         Начальник тюрьмы
+research_maintainance                   Техническое обслуживание
+research_security                       Охрана
+research_legal                          Адвокат
+research_mentalhealth                   Психолог
+research_finance                        Финансы
+research_landexpansion                  Расширение
+research_cctv                           Наблюдение
+research_riotguards                     ОМОН
+research_health                         Здоровье
+research_cleaning                       Уборка
+research_groundskeeping                 Садоводство
+research_clone                          Клонирование
+research_deployment                     Расстановка
+research_patrols                        Патрули
+research_dogs                           Сторожевые псы
+research_prisonlabour                   Трудоустройство заключенных
+research_education                      Образование
+research_contraband                     Разведка
+research_policy                         Тюремные правила
+research_armoury                        Оружейная комната
+research_bodyarmour                     Бронежилеты
+research_tazers                         Шокеры
+research_tazersforeveryone              Шокеры для всех
+research_bankloans                      Займы
+research_lowertaxes1                    Налоговые льготы
+research_lowertaxes2                    Офшоры
+research_remoteaccess                   Удаленный доступ
+research_extragrant                     Дополнительный грант
+research_advancedmanagement             Микроменеджмент
+research_deathrow                       Смертник
+research_permanentpunishment            Бессрочное наказание
+research_removemincellsize              Маленькие камеры
+research_reduceexecutionliability       Уменьшение ответственности за казнь
+research_legalprep                      Правовая подготовка
+research_legaldefense                   Правовая защита
+
+researchtooltip_warden                  Открывает Начальника тюрьмы и всю систему Бюрократии. Его можно нанять в панели Персонала.\n\nКак и всем сотрудникам администрации, начальнику тюрьмы требуется кабинет для работы.
+researchtooltip_security                Открывает Начальника охраны. Его можно нанять в панели Персонала. Начальник охраны открывает доступ к экрану Расстановка, а также сообщает о текущем уровне опасности в тюрьме, часто предугадывая потенциальные проблемы.\n\nКак и всем сотрудникам администрации, ему требуется кабинет для работы.
+researchtooltip_maintenance             Открывает Прораба. Его можно нанять в панели Персонала.\n\nКак и всем сотрудникам администрации, прорабу требуется кабинет для работы.
+researchtooltip_legal                   Открывает Адвоката, которого можно нанять в панели Персонала. Дает доступ к ряду исследований для большей свободы в управлении тюрьмой.\n\nКак и всем сотрудникам администрации, адвокату требуется кабинет для работы.
+researchtooltip_deployment              Позволяет назначать Охранников на посты в определенных секторах тюрьмы.
+researchtooltip_patrols                 Позволяет прокладывать маршруты патрулирования в особо важных зонах тюрьмы (например, вдоль периметра) и назначать Охранников в патруль.
+researchtooltip_dogs                    Открывает Кинологов и Сторожевых псов. Благодаря отличному нюху собаки могут находить контрабанду и скрытые туннели.\n\nКроме того, они с легкостью догонят убегающего Заключенного. 
+researchtooltip_cctv                    Открывает Видеокамеры и Пульты наблюдения. С их помощью можно следить за неохраняемыми участками тюрьмы.\n\nТакже открывает Систему прослушки телефонов, которая позволит черпать важные сведения из телефонных звонков заключенных.
+researchtooltip_remoteaccess            Открывает высокотехнологичное оборудование для удаленного доступа и автоматизации дверей. Теперь можно отпирать двери с помощью Системы управления дверьми (нужен Охранник) или Таймера двери в установленное время.
+researchtooltip_riotguards              (В НАСТОЯЩЕЕ ВРЕМЯ НЕ ИСПОЛЬЗУЕТСЯ)\nОткрывает ОМОН. Эти парни хорошо вооружены и лучше справляются с чрезвычайными ситуациями.
+researchtooltip_maintainance            Открывает Прораба. Дает доступ к новым исследованиям (Трудоустройство заключенных и пр.) и персоналу (Садовник и др.)\n\nКак и всем сотрудникам администрации, прорабу требуется кабинет для работы.
+researchtooltip_clone                   Открывает инструмент клонирования на главной панели. С его помощью можно быстро скопировать участки тюрьмы, например камеры. Выберите зону для копирования, зажав правую кнопку мыши, а затем щелкните левой кнопкой мыши, чтобы создать копию.
+researchtooltip_groundskeeping          Открывает Садовника. Он будет ухаживать за растениями и деревьями.
+researchtooltip_cleaning                Открывает Уборщика. Он поддерживает чистоту во внутренних помещениях тюрьмы, а также помогает в тюремной прачечной.
+researchtooltip_health                  Открывает Доктора, а также Лазарет и Морг. Доктор лечат всех раненых сотрудников и заключенных, доставленных в Лазарет.
+researchtooltip_MentalHealth            Открывает Психолога. Он позволит отслеживать душевное состояние Заключенных.\n\nКак и всем сотрудникам администрации, психологу требуется кабинет для работы.
+researchtooltip_finance                 Открывает Бухгалтера, который будет заниматься финансовой отчетностью.\n\nТакже позволяет тратить больше денег, чем предусмотрено дневным бюджетом, при условии что у вас есть средства в запасе.\n\nКак и всем сотрудникам администрации, бухгалтеру требуется кабинет для работы.
+researchtooltip_landexpansion           Позволяет приобретать соседние участки земли, тем самым расширяя изначальную территорию тюрьмы. 
+researchtooltip_prisonlabour            Позволяет назначать заключенных на тюремные работы (приготовление пищи, уборка и прочее). Тем самым вы экономите средства на зарплате персонала и увеличиваете доход, а заключенные получают новые полезные навыки.\n\nТакже открывает Мастерскую и Прачечную.
+researchtooltip_education               Открывает возможность запуска образовательной программы для ваших заключенных. Учителей приглашают из-за пределов тюрьмы.
+researchtooltip_contraband              Обучение Охранников для лучшего противодействия контрабандистам. Открывает Отчет о спросе и предложении, экран с данными о контрабанде (показывает все возможные источники на территории тюрьмы), а также позволяет отследить весь путь движения запрещенных предметов до тайника/места хищения.\n\nТакже дает возможность вербовать Тайных информаторов среди заключенных.\n\nКроме того, открывает экран информации о бандах.
+researchtooltip_policy                  Открывает вкладку Правила на экране Отчеты. Здесь можно регулировать степень наказания за нарушение дисциплины, а также автоматически проводить обыск провинившегося заключенного и его камеры.\n\nПомимо этого, позволят вносить изменения в питание заключенных (количество и разнообразие пищи).
+researchtooltip_armoury                 Открывает Оружейную комнату и позволяет нанимать Вооруженных охранников.
+researchtooltip_bodyarmour              Оснащает всех Охранников, Вооруженных охранников и Кинологов бронежилетами. Они снижают урон во время драки, однако замедляют скорость передвижения охраны.\n\nОхранники могут получить бронежилет в Оружейной комнате. За каждый комплект взимается отдельная плата.
+researchtooltip_tazers                  Позволяет Вооруженным охранникам пользоваться Шокерами. Это мощное однозарядное оружие способно временно нейтрализовать почти любую цель. Между каждым выстрелом Шокеру необходима зарядка (1 час). \n\nВооруженные охранники могут получить шокер в Оружейной комнате. За каждый комплект взимается отдельная плата.
+researchtooltip_tazersforeveryone       Расширенная программа позволит обычным Охранникам применять Шокеры для самозащиты.\n\nОхранники могут получить шокер в Оружейной комнате. За каждый комплект взимается отдельная плата.
+researchtooltip_bankloans               Позволяет брать крупные суммы в кредит у банка в обмен на ежедневную выплату процентов. Своевременная выплата займа повышает кредитный рейтинг, что в будущем откроет путь к более крупным ссудам.
+researchtooltip_lowertaxes1             Открывает возможность использовать налоговые льготы для снижения эффективной ставки корпоративного налога до 15%.\n\nВы сэкономите $1 500 с каждых $10 000 ежедневной прибыли.
+researchtooltip_lowertaxes2             Используя налоговые лазейки, ваш бухгалтер переводит все счета заграницу, где можно рассчитывать на более щадящие условия налогообложения. Эффективная ставка корпоративного налога упадет до 1%.\n\nВы сэкономите $3 000 с каждых $10 000 ежедневной прибыли.
+researchtooltip_extragrant              Позволяет одновременно принимать три гранта вместо двух.
+researchtooltip_advancedmanagement      Дает инструменты для более полного контроля над всеми нюансами управления тюрьмой.\n\nОткрывает раздел Логистики для контроля над питанием, где вы можете назначить связки Кухня — Столовая и распределить заключенных по столовым. Аналогичным образом можно выбрать связку Прачечная — Тюремный блок.\n\nТакже открывает Расписание расстановки, которое позволит распределять охранников по зонам в выбранное время дня.\n\nОткрывает Расписание программ реформы, где можно вносить правки в ежедневный распорядок программ.
+researchtooltip_permanentpunishment     Иногда одних тюремных стен недостаточно. Ваш адвокат может подать необходимые документы, которые позволят бессрочно запирать заключенных в камере. 
+researchtooltip_removemincellsize       Размер тюремных камер должен соответствовать установленным стандартам. Но только представьте, сколько камер можно было бы построить, не будь этих правил! Это исследование отменяет ограничения на минимальный размер стандартной камеры.
+researchtooltip_reduceexecutionliability Ваш адвокат лоббирует принятие поправок для облегчения процедуры отправки заключенных на смертную казнь. Они существенно сокращают количество апелляций, на которые может рассчитывать осужденный до отправки на электрический стул, а также уменьшает вашу ответственность в случае ошибки.
+researchtooltip_legalprep               Время от времени в любой тюрьме возникают проблемы, и некоторые из них влекут за собой весьма неприятные юридические последствия. Ваш адвокат начнет готовить бумаги, чтобы в случае чего отвести от вас огонь. Займитесь изучением заранее.
+researchtooltip_legaldefense            Вы попали в очень неприятный переплет, который может стоить вам карьеры. Если справиться самостоятельно нельзя, адвокат поможет решить проблему. Это исследование аннулирует все текущие предупреждения. 
+
+research_legaldefense_adviser1          Похоже, адвокат успел прикрыть тебе зад своими бумагами. Значит, я не могу тебя уволить. На этот раз.
+research_legaldefense_adviser2          Быстро приведи тюрьму в порядок, и чтобы я больше не слышал о подобных проблемах. Твои бумажки не смогут защищать тебя вечно.
+
+research_missingadministrator           ТРЕБУЕТСЯ:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                ТРЕБУЕТСЯ:
+roomrequirement_recommended             Рекомендуется: 
+roomrequirement_minimumsize             Минимальный размер *W x *H
+roomrequirement_minimumsize_short	Размер *W x *H
+roomrequirement_indoor                  В помещении
+roomrequirement_outdoor                 На улице
+roomrequirement_solidground             Твердая поверхность
+roomrequirement_secure                  Безопасное (не менее одной двери)
+roomrequirement_secure_short		Безопасное
+roomrequirement_enclosed                Замкнутое пространство со стенами и дверями
+roomrequirement_enclosed_short		Замкнутое
+requirement_entrance                    Нужна дверь
+roomrequirement_title                    =[Требования к помещению]=
+roomrequirement_passed                  [ВЫПОЛНЕНО]
+roomrequirement_failed                  [НЕ ВЫПОЛНЕНО]
+roomrequirement_adjacentobject          Примыкает к комнате:
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            ОТКРЫТО
+
+unlock_special_electricity              Система электроснабжения
+unlock_special_food                     Приготовление еды
+unlock_special_officersafety            Безопасность службы охраны
+unlock_special_misbehavior              Нарушение порядка
+unlock_special_accounting               Бухгалтерия
+unlock_special_gangs                    Банды
+
+unlock_electricity_caption              Позволяет строить генераторы и прокладывать кабели для подключения необходимых электроприборов.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Щелкните для продолжения...
+incoming_call                           Входящий звонок...
+
+adviser_name_unknown                    Неизвестно
+adviser_name_ceo                        Директор
+adviser_name_warden                     Начальник тюрьмы
+adviser_name_governer                   Губернатор
+adviser_name_chief                      Начальник охраны
+adviser_name_doctor                     Доктор
+adviser_name_kingpin                    Авторитет
+adviser_name_edwardshooter              Эдвард
+adviser_name_edwardsinner               Эдвард
+adviser_name_edwardinmate               Эдвард
+adviser_name_edwardswife                Жена Эдварда, Сьюзан
+adviser_name_priest                     Священник
+adviser_name_newsreader                 Новости CNDC 
+adviser_name_mayor 						Мэр Кэлвин Хэллер
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Персонал
+report_prisoners                        Заключенные
+report_jobs                             Работы
+report_needs                            Нужды
+report_threats                          Угрозы
+report_regime                           Режим
+report_policy                           Правила
+report_grants                           Гранты
+report_finance                          Финансы
+report_valuation                        Оценка
+report_contraband                       Контрабанда
+report_programs                         Программы
+report_schedule                         Планировщик
+report_intake                           Прибытие
+
+report_grants_bankloan                  Займы
+report_grants_bankloan_text             Вы можете взять крупный заем в банке. Ежедневная сумма погашения кредита устанавливается банком. Ее необходимо платить из ежедневной прибыли.\n\nЕсли выплаты по кредиту происходят регулярно, ваш кредитный рейтинг будет расти, и банк позволит вам брать более крупные суммы. Однако в случае невыплаты кредитный рейтинг обнуляется, и при новом обращении банк откажется выдавать нужную ссуду.\n\nОбратите внимание, что кредит нельзя закрыть, ежедневно оплачивая только начисленные проценты.
+report_grants_max1                      Вы можете одновременно принять только один грант.\nНаймите бухгалтера, чтобы увеличить лимит.
+report_grants_max2                      Вы можете одновременно принять не более двух грантов.\nНаймите бухгалтера, чтобы увеличить лимит.
+report_grants_max3                      Вы можете одновременно принять не более трех грантов.
+report_grants_bankloan_amount           Текущий заем: *X
+report_grants_bankloan_interest         Выплата по процентам: *X в день
+report_grants_bankloan_max              Максимальный размер займа: *X
+report_grants_creditrating              Ваш кредитный рейтинг: *X
+report_grants_inprogress_tt             (В процессе)
+report_grants_completed_tt              (ЗАВЕРШЕН)
+report_grants_locked_tt                 (ЗАБЛОКИРОВАН)
+report_grants_advancepayment            *X$ Авансовый платеж
+report_grants_completionbonus           *X$ Премиальный бонус
+report_grants_objectives                [Задачи]
+report_grants_prereqs                   [Необходимые условия]
+report_grants_completed                 ЗАВЕРШЕНО
+report_grants_locked                    Заблокировано
+report_grants_inprogress                В процессе
+report_grants_hidden                    (еще *X скрыто)
+report_grants_taptoaccept               ЩЕЛКНИТЕ, ЧТОБЫ ПРИНЯТЬ
+report_grants_cancelfee                 Стоимость отмены: *X
+
+report_staff_title                      Всего сотрудников: *X
+report_prisoners_title                  Всего заключенных: *X
+report_staff_group_builders             Рабочие
+report_staff_group_guards               Охранники
+report_staff_group_staff                Персонал
+report_staff_group_administrators       Администрация
+report_staff_group_prisoners            Заключенные
+report_staff_group_prisoners_high       Опасные
+report_staff_group_prisoners_normal     Нормальные 
+report_staff_group_prisoners_low        Спокойные
+report_staff_group_prisoners_protected  Режим защитной изоляции
+report_staff_group_prisoners_supermax   Сверхстрогий режим
+report_staff_group_prisoners_deathrow   Смертник
+
+report_staff_fire                       УВОЛИТЬ
+
+report_intake_title                     Прибытие
+report_intake_catheader_cat             Категория
+report_intake_catheader_pay             Оплата
+report_intake_catheader_available       Доступно
+report_intake_catheader_amount          Соотношение
+report_intake_next_header               Следующее прибытие: *X чел.
+report_intake_cat_minsec                Общий режим
+report_intake_cat_normal                Средний режим
+report_intake_cat_maxsec                Строгий режим
+report_intake_cat_deathrow              Смертник
+report_intake_slider_minsec             Выберите соотношение прибывающих для содержания в зоне общего режима
+report_intake_slider_normal             Выберите соотношение прибывающих для содержания в зоне среднего режима
+report_intake_slider_maxsec             Выберите соотношение прибывающих для содержания в зоне строгого режима
+report_intake_slider_deathrow           Выберите соотношение прибывающих для содержания в зоне для смертников
+report_intake_closed                    ЗАКРЫТО
+report_intake_locked                    НЕДОСТУПНО
+report_intakemaxperdaydesc              Прибудет в день
+report_intakemaxperdaydesc_tooltip      Общее количество заключенных, которых привезут в следующий раз.
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              Отсутствует
+report_intakemaxperdayall               Все
+reports_intakedelivernow                Доставить сейчас
+report_intakepayment                    Оплата
+report_intakeall                        ВСЕ
+report_intake_list_tooltip_title        Категории прибывающих
+report_intake_list_tooltip              Список всех категорий, доступных в вашей тюрьме.\n\nВ каждой категории указано число доступных заключенных. Со временем число будет расти в зависимости от соотношения ползунков.\n\nВы можете настроить ползунки, чтобы отрегулировать соотношение заключенных в следующей партии.
+report_intake_list_tooltip_dr           \n\nДля смертников требуются специальные камеры. Только после этого их могут привезти в вашу тюрьму. На доставку смертников требуется значительно больше времени, чем на обычных заключенных, поэтому не стоит рассчитывать на прирост их числа. Эти заключенные — редкость.
+report_intake_buttons_tooltip_title     Следующее прибытие
+report_intake_buttons_tooltip           В этой части экрана можно увеличить или уменьшить количество заключенных, которые прибудут в следующий раз.\n\nВыберите "0", если вы не хотите получать заключенных или "Все", чтобы в тюрьму привезли всех доступных заключенных.\n\nЧисло заключенных в каждой категории можно настроить с помощью ползунков в верхней части этого экрана.
+report_intake_overview_tooltip_title    Информация о прибывающих
+report_intake_overview_tooltip          Здесь приведена информация о следующей партии заключенных и оплате за них. Число новых заключенных и их категорию можно изменить с помощью ползунков и кнопок выше. Оплата рассчитывается по числу заключенных в каждой категории.
+
+valuation_categoryprison                Стоимость тюрьмы
+valuation_construction                  Кирпичи и раствор
+valuation_objects                       Принадлежности и инвентарь
+valuation_stock                         Запасы и материалы
+valuation_staff                         Персонал
+valuation_startupgrant                  Начальный грант
+valuation_capacity                      Количество мест для заключенных
+valuation_cash                          Наличные
+valuation_debt                          Займы
+valuation_categoryperformance           Охрана и безопасность
+valuation_bonustimewithoutincident      [Бонус] Время без происшествий
+valuation_finedeath                     [Штраф] Смертей за сутки
+valuation_fineescape                    [Штраф] Побегов за сутки
+valuation_total                         ИТОГО
+valuation_sell                          ПРОДАТЬ
+valuation_sellprison                    ПРОДАТЬ ТЮРЬМУ
+valuation_sell_tooltip                  Продажа тюрьмы позволит начать новую игру с более крупным капиталом за счет вырученной суммы.\n\nВы сможете и дальше управлять тюрьмой, но продать ее можно лишь один раз. Прибыль от продажи поступит на счет новой тюрьмы.
+valuation_sold                          Эта тюрьма продана за: *X
+valuation_donotown                      Вы не можете продать эту тюрьму, так как вы ей не владеете.
+valuation_sellsome                      Продать акции
+valuation_buysome                       Купить акции
+valuation_shares                        Купить/продать акции
+valuation_shares_tooltip                До 50% тюрьмы можно продать в виде акций внешним инвесторам. Деньги вы получите незамедлительно. В обмен на инвестиции акционеры получают часть прибыли от продажи тюрьмы.\n\nНапример, при продаже 30% акций вы получите только 70% выручки от сделки по продаже тюрьмы. Проданные акции можно выкупить в любой момент, однако их цена может вырасти.
+valuation_ownership                     Вам принадлежит *X% тюрьмы.
+valuation_saleprice                     Цена продажи: *X
+valuation_title                          =[ОЦЕНКА]=
+valuation_totalprisonvalue              Общая стоимость тюрьмы: *X
+valuation_subcashreserves               Без учета наличных: *X
+valuation_tenpercentprice               Цена за 10%: *X
+valuation_profit                        Ваша прибыль: *X
+valuation_tap_to_authorise              ЩЕЛКНИТЕ ДЛЯ ПРОДОЛЖЕНИЯ
+
+salecondition_title                     УСЛОВИЯ ПРОДАЖИ
+salecondition_cannotsell                Нельзя продать тюрьму или торговать акциями до выполнения следующих условий.
+salecondition_minimumvalue              Cтоимость от 50 000$
+salecondition_cashflow                  Положительная прибыль
+salecondition_accountant                Наличие бухгалтера
+salecondition_minprisoners              Не менее 20 заключенных
+salecondition_recentdeaths              Нет недавних смертей
+salecondition_recentescapes             Нет недавних побегов
+salecondition_passed                    [ВЫПОЛНЕНО]
+salecondition_failed                    [НЕ ВЫПОЛНЕНО]
+
+policy_title                            ПРОИШЕСТВИЕ
+policy_search                           - ОБЫСКАТЬ -
+policy_prisoner                         ЕГО
+policy_cell                             КАМЕРУ
+policy_punishment                       НАКАЗАНИЕ
+policy_quantity                         ВРЕМЯ
+policy_punishmenttime                   *X ч.
+policy_mealcost                         *X$ в день
+policy_totalmealcost                    (ИТОГО: *X$ в день)
+
+job_construct                           Строит *X
+job_installobject                       Устанавливает *X
+job_installobjectinroom                 Устанавливает *X в *Y
+job_moveobject                          Несет *X
+job_moveobjecttoroom                    Несет *X в *Y
+job_loadobjectinto                      Грузит *X в *Y
+job_storeobject                         Помещает *X на *Y
+job_dismantleobject                     Разбирает *X
+job_dumpobject                          Выбрасывает *X
+job_repairobject                        Чинит *X
+job_operateequipment                    Использует *X
+job_escortprisoner                      Ведет заключенного в *X
+job_punishprisoner                      Наказать заключенного
+job_searchobject                        Обыск: *X 
+job_searchentity                        Обыск заключенного
+job_searchingentity						Поиск заключенного
+job_searchcell                          Обыскать Камеру
+job_searchcellblock                     Обыскать Блок
+job_improvecellindoor                   Убирает в помещениях
+job_improvecelloutdoor                  Занимается садом
+job_opendoor                            Открывает запертую дверь
+job_giveuniform                         Несет униформу
+job_failurecount                        Провалил обучение *X раз
+job_feedprisoner                        Раздает еду
+job_healprisoner                        Лечит заключенных
+job_delivermail                         Доставляет почту
+       
+finances_title                          Финансы
+finances_income                         Доход
+finances_expenses                       Расход
+finances_total                          Итого
+finances_profit                         Прибыль
+finances_timewithoutincident            (*X дней)
+finances_dailyincome                    *X в день
+
+finances_category_federalgrant          Федеральный грант
+finances_category_minsecprisoners       Грант — Заключенные общего режима
+finances_category_medsecprisoners       Грант — Заключенные среднего режима
+finances_category_maxsecprisoners       Грант — Заключенные строгого режима
+finances_category_prisoners             Грант — Заключенные
+finances_category_workmen               Зарплата рабочих
+finances_category_guards                Зарплата охраны
+finances_category_admin                 Зарплата администрации
+finances_category_staff                 Зарплата персонала
+finances_category_food                  Питание
+finances_category_electricity           Электричество
+finances_category_workshops             Мастерские
+finances_category_loaninterest          Проценты по договору займа
+finances_category_reformprogs           Программы реформы
+finances_category_noincident            Дней без происшествий
+finances_category_exports               Отправка товаров (вчера)
+finances_category_corptax               Корпоративные налоги
+finances_category_prisonerwages         З/п заключенного (вчера)
+finances_category_shoprevenue           Выручка магазина (вчера)
+
+reports_foodtitle                       Правила — Питание
+meal_quantity                           Количество пищи
+meal_variety                            Разнообразие пищи
+meal_cost                               Стоимость питания на заключенного
+
+reports_paroletitle                     Правила — УДО
+parole_title                            УДО и потенциальный рецидив
+parole_info                             Допустимый уровень рецидива: *P%
+parole_desc                             Заключенные с уровнем рецидива ниже выбранного значения будут выпущены после слушания комиссии по УДО.
+parole_fine                             Штраф за рецидив преступления
+parole_reward                           Вознаграждение за досрочное освобождение заключенного
+
+victory_title                           СЕРТИФИКАЦИЯ
+
+victory_PrisonValue                     Стоимость тюрьмы
+victory_Income                          Ежедневная прибыль
+victory_Prisoners                       Вместимость
+victory_PrisonersReleased               Освобождено
+victory_prisonersdied                   Умерло в тюрьме
+victory_prisonersescaped                Сбежало заключенных
+victory_Bankrupt                        Банкротство
+victory_Riot                            Неконтролируемый\nбунт
+victory_TooManyDeaths                   Преступная\nхалатность
+victory_TooManyEscapes                  Бесполезная\nохрана
+victory_failure                         ПОРАЖЕНИЕ
+victory_warning                         ВНИМАНИЕ
+victory_remaining                       осталось
+victory_death                           СМЕРТИ
+victory_escapes                         ПОБЕГИ
+victory_counter                         (*X сегодня)
+victory_executions                      Незаконные казни
+victory_innocentsexecuted               Казнено невиновных
+
+victory_warning_bankrupt                У тебя есть 24 часа на предотвращение финансовой катастрофы.
+victory_warning_riot                    Подави бунт в ближайшее время или правительству придется вмешаться.
+victory_warning_toomanydeaths           Если сегодня будет еще больше смертей, ты пойдешь под суд.
+victory_warning_toomanyescapes          Если сегодня будут еще побеги, ты потеряешь работу.
+
+victory_prisoners_units                 Места
+victory_prisonersreleased_units         Освобождено
+victory_toomanydeaths_units             Смерти
+victory_toomanyescapes_units            Побеги
+victory_prisonersparoled                Досрочно освобожденные 
+victory_prisonersreoffended             Осужденные за рецидив преступления
+
+victory_adviserwarning_toomanydeaths1   Вчерашние события ознаменовали новую, очень темную главу в истории этой тюрьмы. Здесь погибло слишком много людей.
+victory_adviserwarning_toomanydeaths2   Постарайся избежать дальнейших смертей сегодня или пойдешь под суд за преступную халатность.
+victory_advisernotice_toomanydeaths1    И не говори, что мы тебя не предупреждали. В связи с последними событиями ты признан виновным в преступной халатности.
+victory_advisernotice_toomanydeaths2    В наказание следующие 10 лет ты проведешь в собственной тюрьме. Удачи!
+victory_adviserwarning_riot1            Ситуация в тюрьмы вышла из-под контроля. Немедленно подави бунт или правительство привлечет вооруженные силы для захвата тюрьмы.
+victory_advisernotice_riot1             Ты не смог подавить бунт. Правительство разорвало контракт с тюрьмой. Сюда отправили военных для наведения порядка.
+victory_adviserwarning_toomanyescapes1  Из-за тебя образовалась колоссальная проблема с общественным мнением. Слишком много заключенных сбежало в последнее время.
+victory_adviserwarning_toomanyescapes2  Перекрой все входы и выходы и позаботься о том, чтобы больше никто не сбежал. Иначе пресса сожрет тебя заживо.
+victory_advisernotice_toomanyescapes1   Все напрасно. Тюрьма стала предметом насмешек для прессы, и они ищут козла отпущения.
+victory_advisernotice_toomanyescapes2   Ты-то им и станешь. Ты уволен.
+victory_adviserwarning_bankrupt1        Мы обанкротились! Твое бестолковое управление привело нас к краю финансовой пропасти.
+victory_adviserwarning_bankrupt2        Побыстрее разберись с этой проблемой или можешь собирать вещи.
+victory_advisernotice_bankrupt1         У тебя ничего не вышло. Мы объявляем банкротство и передаем бразды правления правительству.
+victory_adviserwarning_wardendeaths1    Условия работы в тюрьме стали слишком опасными. Мы с большим трудом находим новые управленческие кадры.
+victory_adviserwarning_wardendeaths2    Если еще хоть один начальник тюрьмы умрет, считай, что ты уволен.
+victory_advisernotice_wardendeaths1     Тебе не удалось создать безопасные условия работы для начальника тюрьмы. Больше нанимать нам попросту некого.
+victory_advisernotice_wardendeaths2     Поэтому просим тебя освободить рабочее место. Ты уволен.
+victory_adviserwarning_reoffenders1     Многие заключенные, вышедшие по УДО, снова совершили преступления. Возьми ситуацию под контроль или нам это дорого обойдется.
+victory_adviserwarning_reoffenders2     Если уровень рецидивной преступности после освобождения из тюрьмы продолжит расти, шишки полетят в тебя.
+victory_advisernotice_reoffenders1      Ты выпустил слишком много опасных преступников на свободу. У нас нет другого выбора, кроме как уволить тебя.
+victory_adviserwarning_executions1      Уже второй раз ты отправляешь невиновного на смерть. Это вызвало волну общественного возмущения.
+victory_adviserwarning_executions2      Еще один такой случай и ответственности не избежать.
+victory_advisernotice_executions1       Ты казнил слишком много невиновных. Мы не можем позволить тебе и дальше управлять этой тюрьмой.
+victory_advisernotice_InnocentsExecuted1 Ты только что казнил заключенного без соблюдения протокола. К тому же, он оказался невиновным. Это вопиющее нарушение закона, и ты за него ответишь. Ты уволен, и не удивлюсь, если скоро сам окажешься за решеткой.
+
+score_title                             ОЦЕНКА ТЮРЬМЫ
+score_reoffendingrate                   РЕЦИДИВНАЯ ПРЕСТУПНОСТЬ
+score_prisonersreleased                 *X заключенных освобождено 
+score_minimumprisonersreleased          *X заключенных до завершения отчета
+score_deaths                            *X заключенных умерло в тюрьме
+score_escapes                           *X заключенных  сбежало
+score_reoffendingchance                 Ожидаемая вероятность рецидива
+score_startingreoffendingchance         Оценка по прибытии: *X%
+score_prisonersparoled                  Досрочно освобожденные (Рецидив)
+score_prisonersparoled_info             *P (*E%)
+score_clemencychance                    Вероятность смягчения наказания
+score_convictionstrength                Согласие штата на казнь
+score_prisonersexecuted                 Казнено заключенных (невиновных)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                Эта оценка соответствия наказания совершенным преступлениям с точки зрения общественности. Ее основа — длительный срок лишения свободы и заключение в карцере.\n\nОбилие свободного времени и реформы снижают оценку эффективности наказания.\n\n Хороший уровень наказания уменьшит вероятность рецидива после освобождения.
+score_tooltip_reform                    Это оценка эффективности образовательных и реабилитационных программ.\n\nВысокая оценка значительно увеличивает шансы заключенных на получение нормальной работы после освобождения, а значит снижает вероятность рецидива.\n\nТрудоустройство осужденных на территории тюрьмы также увеличивает балл.
+score_tooltip_health                    Оценка уровня здоровья и благополучия заключенных во время пребывания в тюрьме. Учитываются прогулки на свежем воздухе и хорошее питание. Невылеченные раны, употребление наркотиков и алкоголя, напротив, снижают балл.\n\nНизкая оценка повышает вероятность рецидива, в особенности если во время освобождения заключенный страдал от наркозависимости или алкоголизма.
+score_tooltip_security                  Эта оценка показывает эффективность заключения под стражу. Содержание в камере под присмотром вооруженных охранников значительно повышает балл. Оценка может быть снижена за драки/убийства среди заключенных, а также попытки побега.\n\n Низкая оценка говорит о том, что тюрьма никак не изменила преступный образ жизни осужденного, поэтому на момент освобождения вероятность рецидива будет высокой.
+
+score_tooltip_reoffendingchance         Оценка вероятности рецидива среди заключенных после освобождения из тюрьмы. На нее влияет множество факторов:\n\n- УМЕНЬШАЕТ Жестокое наказание.\n- УМЕНЬШАЕТ Успешное  завершение программ реформы.\n- УВЕЛИЧИВАЕТ плохое состояние здоровья и неэффективная охрана.\n- УВЕЛИЧИВАЕТ невылеченная наркозависимость и алкоголизм\n- УВЕЛИЧИВАЕТ Членство в банде\n\n\n- Возраст заключенного играет решающую роль.\n- Число предыдущих судимостей также оказывает значительное влияние на балл.\n- Поддержка большой семьи может снизить вероятность рецидива.
+score_tooltip_clemencychance_title      Вероятность смягчения наказания
+score_tooltip_clemencychance            Вероятность того, что апелляционный комитет заменит смертный приговор более мягким наказанием. Каждый отказ в апелляции уменьшает вероятность смягчения наказания, пока оно не опустится ниже показателя Согласия штата на казнь. После достижения этой отметки вы получаете разрешение на проведение казни. Казнь возможна и до достижения показателя, но если в последствии апелляция заключенного будет удовлетворена, вас ждут большие штрафы.\n\nСмягчение наказания предполагает немедленное освобождение из-под стражи (если заключенный признан невиновным) или перевод в зону строгого режима (если заключенному по-прежнему вменяется вина в совершении преступления).
+score_tooltip_currentchance             Согласие штата на казнь: *X%
+score_tooltip_clemencywarning           В настоящий момент вероятность смягчения наказания этого заключенного выше показателя Согласия штата на казнь. Если после приведения приговора в исполнение выяснится, что наказание могли смягчить, вы лично понесете ответственность. 
+
+experiencefactor_FractionalLockedUp     *X% заперты в камере
+experiencefactor_FractionalReform       *X% посещают программы реформы
+experiencefactor_fractionalWorking      *X% работают
+experiencefactor_fractionalsuppressed   *X% подавлены
+experiencefactor_fractionalinjured      *X% с невылеченными ранами
+experiencefactor_fractionalintoxicated  *X% в состоянии интоксикации (наркотики/алкоголь/ломка)
+experiencefactor_fractionalmisbehaving  *X% нарушают порядок
+experiencefactor_fractionalarmedguard   *X% находятся под стражей или подавлены
+experiencefactor_fractionalwellfed      *X% сыты
+experiencefactor_fractionalexercising   *X% тренируются
+experiencefactor_fractionalfreetime     *X% проводят свободное время
+
+experiencefactor_passedeasyprograms             Завершено *X программ низкой сложности
+experiencefactor_passedintermediateprograms     Завершено *X программ средней сложности
+experiencefactor_passedadvancedprograms         Завершено *X программ высокой сложности
+experiencefactor_passedexpertprograms           Завершено *X программ максимальной сложности
+
+experiencefactor_YearsServed            Отсидел *X лет
+experiencefactor_fights                 Участие в происшествиях с применением насилия
+experiencefactor_murders                Совершил убийство *X раз в вашей тюрьме
+experiencefactor_escapeattempts         Предпринял *X попыток побега
+experiencefactor_addictions             Страдает от *X зависимостей
+experiencefactor_gangmembership         Член банды
+
+legend_key                              Значение:
+
+needs_graphscale_title                  Заключенные:
+needs_key_critical                      На грани
+needs_key_high                          Высокий
+needs_key_med                           Средний
+needs_key_satisfied                     Доволен
+needs_key_active                        В процессе
+
+contraband_supplyanddemand              Спрос и предложение
+contraband_narcotics                    Наркотики
+contraband_weapons                      Оружие
+contraband_tools                        Инструменты
+contraband_luxuries                     Предметы роскоши
+contraband_metal                        Из металла
+contraband_smelly                       Пахнет
+contraband_rangedweapon                 Стрелковое оружие
+contraband_improvised                   Самоделки
+
+contraband_key_supply                   Предложение
+contraband_key_demand                   Спрос
+contraband_log_stolen                   УКРАДЕНО
+contraband_log_position                 МЕСТО
+contraband_log_smuggled                 ТАЙНО ПРОНЕСЕНО
+contraband_log_traded                   ОБМЕНЯНО
+contraband_log_thrown                   СБРОШЕНО
+contraband_log_hidden                   СПРЯТАНО
+contraband_log_detected                 ЗАМЕЧЕНО
+contraband_log_dog                      УНЮХАЛА СОБАКА
+contraband_log_found                    НАЙДЕНО
+contraband_log_owner                    ВЛАДЕЛЕЦ
+
+schedule_zone_shared                    Зона общего пользования
+schedule_zone_minseconly                Общий режим
+schedule_zone_medseconly                Средний режим
+schedule_zone_maxseconly                Строгий режим
+schedule_zone_protectedonly             Режим защитной изоляции
+schedule_zone_supermaxonly              Сверхстрогий режим
+schedule_zone_deathrowonly              Смертник
+schedule_zone_staffonly                 Зона для персонала
+schedule_zone_unlocked                  Открыто
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              Нужно по-большому
+action_wee                              Нужно по-маленькому
+action_wash                             Принимает душ
+action_relax                            Отдыхает
+action_sleep                            Спит
+action_nap                              Дремлет
+action_getmeal                          Идет за едой
+action_sit                              Сидит
+action_exercise                         Упражняется
+action_liftweights                      Тренируется
+action_phonehome                        Звонит семье
+action_watchtv                          Смотрит телевизор
+action_playpool                         Играет в бильярд
+action_stealknife                       Ведет себя подозрительно
+action_stealspoon                       Ведет себя подозрительно
+action_urinate                          Мочится
+action_soilsuit                         Портит штаны
+action_eat                              Принимает пищу
+action_complain                         Жалуется
+action_work                             Работает
+action_visitation                       На свидании
+action_parole                           На слушание об УДО
+action_none                             Отсутствует
+action_misbehaving                      Нарушает порядок
+action_escaping                         Совершает побег
+action_destroying                       Ломает имущество
+action_spoiling                         Нарывается на драку
+action_fighting                         Дерется
+action_rioting                          Бунт
+action_hostagetaking                    Берет заложника
+action_reformprogram                    Посещает программу реформы
+action_changeclothes                    Переодевается
+action_getbook                          Берет книгу
+action_pray                             Молиться
+action_shopping                         Совершает покупки
+
+status_effect_title						=[Состояние]=
+status_effect_none						Отсутствует
+status_effect_suppressed				Подавлен
+status_effect_goodfood					Сыт
+status_effect_drunk						Пьян
+status_effect_high                      Высокий
+status_effect_withdrawal				Ломка
+status_effect_tazed                     Парализован
+status_effect_overdosed                 Передозировка
+status_effect_surrendered               Сдался
+status_effect_calming                   Спокойный
+status_effect_angst                     Злой
+status_effect_wounded                   Истекает кровью
+status_effect_virus                     Болеет
+status_effect_virusdeadly               Болеет
+
+condition_treated                       Вылечен
+condition_needstreating                 Нуждается в лечении
+
+experience_totaltime                    Общее время
+experience_misconduct                   Нарушение порядка
+experience_lockeddown                   Блокировка дверей
+experience_regime                       Режим
+experience_sleep                        Сон
+experience_work                         Работа
+experience_class                        Обучение
+experience_freetime                     Свободное время
+experience_moodbad                      Плохое
+experience_moodnormal                   Нормальное
+experience_moodgood                     Хорошее
+experience_nocondition                  Отсутствует
+experience_kod                          В нокауте
+experience_hurt                         Ранен
+experience_suppressed                   Подавлен
+experience_intoxicated                  Пьян/под кайфом
+experience_wellfed                      Сыт
+experience_exercise                     Занимается
+
+need_name_nothing                       Ничего
+need_name_bladder                       Отлить
+need_name_bowels                        Облегчиться
+need_name_sleep                         Сон
+need_name_food                          Питание
+need_name_safety                        Безопасность
+need_name_hygiene                       В душ
+need_name_exercise                      Занимается
+need_name_family                        Семью
+need_name_recreation                    Отдохнуть
+need_name_comfort                       Комфорт
+need_name_environment                   Хорошие условия
+need_name_privacy                       Уединение
+need_name_freedom                       На свободу
+need_name_clothing                      Одежду
+need_name_drugs                         Наркотики
+need_name_alcohol                       Алкоголь
+need_name_starving                      Не голодать
+need_name_spirituality                  Помолиться
+need_name_literacy                      Обучиться грамоте
+needs_locked                            (Для информации нужен Психолог)
+needs_title                             =[Хочет]=
+
+reputation_title                        Репутация
+reputation_hidden                       (Неизвестно)
+reputation_hidden_short                 ???
+
+reputation_legendary                    ЛЕГЕНДА
+reputation_strong                       Сильный
+reputation_tough                        Крепкий
+reputation_volatile                     Непредсказуемый
+reputation_snitch                       Стукач
+reputation_deadly                       Смертоносный
+reputation_stoical                      Выносливый
+reputation_fearless                     Бесстрашный
+reputation_exlaw                        Бывший мусор
+reputation_copkiller                    Гроза ментов
+reputation_quick                        Быстрый
+reputation_instigator                   Подстрекатель
+reputation_fighter                      Опытный боец
+reputation_gangmember                   Член банды
+reputation_federalwitness               Федеральный свидетель
+
+reputation_strong_high                  Крайне сильный
+reputation_tough_high                   Крайне крепкий
+reputation_volatile_high                Крайне непредсказуемый
+reputation_deadly_high                  Крайне смертоносный
+reputation_exlaw_high                   Бывший надзиратель
+reputation_quick_high                   Крайне быстрый
+reputation_fighter_high                 Мастерский боец
+
+reputation_legendary_high               ЛЕГЕНДА
+reputation_snitch_high                  Стукач
+reputation_stoical_high                 Выносливый
+reputation_fearless_high                Бесстрашный
+reputation_copkiller_high               Гроза ментов
+reputation_instigator_high              Подстрекатель
+reputation_gangmember_high              Член банды
+
+reputationtooltip_legendary             Легенда преступного мира. Владеет многочисленными навыками и способностями, которые делают его очень опасным.
+reputationtooltip_strong                С каждым ударом во время боя становится сильнее.
+reputationtooltip_tough                 Способен стоять до последнего в самой кровавой драке. Иногда может выдержать даже выстрел из Шокера.
+reputationtooltip_volatile              Готов "взорваться" без предупреждения и повода.
+reputationtooltip_stoical               Его не сломит даже карцер. Ему все равно.
+reputationtooltip_snitch                Завербованный информатор, поэтому может в любой момент проститься с жизнью. Не оставляйте его надолго наедине с другими заключенными.
+reputationtooltip_deadly                Мастер рукопашного боя. Иногда может убить одним ударом.
+reputationtooltip_exlaw                 В прежней жизни был полицейским или другим служителем закона. Его жизнь может находиться в опасности.
+reputationtooltip_copkiller             Виновен в убийстве сотрудника полиции. Есть риск, что охранники могут перегнуть палку, если он не будет повиноваться.
+reputationtooltip_fearless              Его не пугает вид Вооруженных охранников. Во время драки он сдается последним или не сдается совсем.
+reputationtooltip_quick                 Чрезвычайно быстрый бегун.
+reputationtooltip_instigator            Не только сам устраивает неприятности, но и умело призывает присутствующих заключенных смело выражать свое недовольство.
+reputationtooltip_fighter               Мастерски владеет приемами самозащиты. Может разоружить противника во время боя.
+reputationtooltip_gangmember            Состоит в банде. Будет защищать других членов банды и испытывать ненависть к соперничающим группировкам.
+reputationtooltip_federalwitness        Выступает в роли свидетеля по очень важному делу. Члены банды или криминальный авторитет желают его смерти.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Работает
+nameplate_stationed                     На посту
+nameplate_patrolling                    В патруле
+nameplate_resting                       Отдыхает
+nameplate_tired                         Устал
+nameplate_injured                       Ранен
+nameplate_unconscious                   Без сознания
+nameplate_dead                          МЕРТВ
+nameplate_released                      ОСВОБОЖДЕН
+nameplate_researching                   Исследует
+nameplate_overdose                      ПЕРЕДОЗИРОВКА
+nameplate_starving                      ОЧЕНЬ ГОЛОДЕН
+nameplate_wounded                       ИСТЕКАЕТ КРОВЬЮ
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Накормить всех заключенных
+objective_caption_prisoners             Заключенные
+objective_caption_meals                 Питание
+objective_readceosletter                Прочесть письмо директора
+objective_actionrequired                Отчеты о происшествиях
+
+objective_deathrowinmates               
+
+objective_prisonerintake                Прибытие заключенных
+objective_intake_arrivals               *X чел. доставят в 08:00
+objective_intake_closed                 Ваша тюрьма не принимает новых заключенных
+objective_intake_closed2                (См. Отчеты -> Заключенные)
+objective_intake_closed3                (См. Отчеты -> Прибытие)
+objective_intake_specials				Особый перевод:
+objective_intake_categories             Категория: 
+objective_intake_minsec                 Общий режим,
+objective_intake_medsec                 Средний режим,
+objective_intake_maxsec                 Строгий режим
+objective_intake_deathrow               Смертник
+
+objective_builddeliveriesroom           Выбрать зону доставки
+
+objective_outgoing                      Ждут освобождения
+objective_outgoing_count                Скоро освободятся *X чел.
+objective_outgoing_timer                (*X ч.)
+
+objective_visitors                      Посетители (08:00–20:00)
+objective_visitors_waiting              *X семей ждут свидания
+objective_visitors_onsite               В тюрьме *X посетителей в *Y группах
+
+objective_staffexhausted                Уставшие сотрудники
+objective_reststaff_exhausted           *X сотрудников устало.
+objective_reststaff_resting             (отдыхает *X чел.)
+objective_reststaff_needstaffroom       Постройте Комнату персонала.
+
+objective_punishment_solitary           *X чел. в Карцере
+objective_punishment_solitary_queue     *X чел. ожидают отправки в Карцер
+objective_punishment_solitary_mix       *X чел. в Карцере (+*Y ожидают)
+objective_punishment_lockdown            *X чел. заперты в камере
+objective_incident_medical               *X чел. нуждаются в медпомощи
+objective_incident_dead                  *X чел. мертвы
+
+objective_prisonerparole                Слушания об УДО
+objective_parole_count                  *X чел. ждут слушаний об УДО 
+
+objective_payment_receivedfull          Оплата: получено *X
+objective_payment_receivedpart          Оплата: всего получено *X из *Y 
+
+objective_grant_bootstraps                  Базовая тюрьма
+objective_grant_bootstraps_description      Постройте с нуля работающую тюрьму. Выделенных средств достаточно для постройки самых необходимых сооружений для содержания первых Заключенных.
+objective_grant_bootstraps_holdingcell      Построить общую камеру
+objective_grant_bootstraps_shower           Построить душевую
+objective_grant_bootstraps_yard             Построить двор
+objective_grant_bootstraps_kitchen          Построить кухню
+objective_grant_bootstraps_canteen          Построить столовую
+objective_grant_bootstraps_guard            Нанять не менее двух охранников
+objective_grant_bootstraps_chef             Нанять не менее двух поваров
+
+objective_grant_administration                          Административный центр
+objective_grant_administration_description              Каждой тюрьме требуется действующее административное здание, чтобы содержать управленческие кадры. Этот грант позволит нанять Начальника тюрьмы и Бухгалтера, а также построить кабинеты для них. Кроме того, вы получите доступ ко всей системе федеральных грантов.
+objective_grant_administration_offices                  Построить два кабинета
+objective_grant_administration_warden                   Нанять Начальника тюрьмы
+objective_grant_administration_accountant_research      Открыть Финансы в меню Бюрократия
+objective_grant_administration_accountant               Нанять Бухгалтера
+
+objective_grant_firstcellblock                  Тюремный блок A
+objective_grant_firstcellblock_description      Ваша тюрьма уже выполняет основные функции. Пришло время построить первый тюремный блок с одиночными камерами и перевести в них заключенных.
+objective_grant_firstcellblock_cells            Увеличить вместимость тюрьмы до 15 заключенных
+
+objective_grant_health                      Здоровье и благополучие заключенных
+objective_grant_health_description          Мы заботимся о физическом и душевном состоянии заключенных. Этот грант позволит построить современное медицинское отделение, нанять докторов и психолога для лечения осужденных.
+objective_grant_health_ward                 Построить лазарет
+objective_grant_health_doctors              Нанять не менее двух докторов
+objective_grant_health_psychologist         Нанять психолога (нужен Кабинет)
+
+objective_grant_bailout                     Правительственная дотация
+objective_grant_bailout_description         Правительство очень недовольно вашей работой, но не хочет терять тюрьму. Оно решило выделить средства налогоплательщиков, чтобы спасти тюрьму от банкротства. Вам следует навести порядок в финансах, обеспечить положительную прибыль (ежедневный доход выше расходов) и погасить банковские займы.
+objective_grant_bailout_cashflow            Ежедневный доход выше расходов
+objective_grant_bailout_debt                Погасить займы
+
+
+objective_grant_maintenance                         Обслуживание тюрьмы
+objective_grant_maintenance_description             Уход за территорией тюрьмы и техническое обслуживание важны как для охраны, так и для безопасности сотрудников и заключенных. Наймите нужный персонал для поддержания порядка и чистоты в тюрьме.
+objective_grant_maintenance_research_root           Открыть Техническое обслуживание в меню Бюрократия
+objective_grant_maintenance_research_cleaning       Открыть Уборку в меню Бюрократия
+objective_grant_maintenance_research_groundskeeping Открыть Садоводство в меню Бюрократия
+objective_grant_maintenance_foreman                 Нанять Прораба (нужен Кабинет)
+objective_grant_maintenance_janitor                 Нанять не менее двух уборщиков
+objective_grant_maintenance_gardener                Нанять садовника
+
+objective_grant_visitation                          Право на свидание
+objective_grant_visitation_description              К соседним тюрьмам уже предъявили иски в связи с нарушением прав заключенных на свидания. Инвесторы не хотят скандала и готовы выдать этот грант для обеспечения необходимых мер.
+objective_grant_visitation_room                     Построить комнату для свиданий
+objective_grant_visitation_tables                   Установить не менее трех столов для посетителей
+objective_grant_visitation_commonroom               Построить комнату отдыха
+objective_grant_visitation_pooltable                Установить бильярдный стол
+objective_grant_visitation_tv                       Установить не менее двух телевизоров
+objective_grant_visitation_phones                   Установить не менее пяти таксофонов
+
+objective_grant_basicsecurity                       Сертификация охранных мер
+objective_grant_basicsecurity_description           Распространенная проблема новых тюрем — низкий уровень безопасности из-за неопытности персонала. Постарайтесь избежать неприятностей на раннем этапе, которые чреваты самыми неприятными последствиями в будущем. Поднимите компетентность охраны до приемлемого уровня. 
+objective_grant_basicsecurity_chief                 Нанять Начальника охраны (нужен Кабинет)
+objective_grant_basicsecurity_guards                Нанять десять охранников
+objective_grant_basicsecurity_patrols               Отправить трех охранников в патруль
+objective_grant_basicsecurity_research              Открыть Патрули в меню Бюрократия
+
+objective_grant_enhancedsecurity                    Государственный рейтинг безопасности
+objective_grant_enhancedsecurity_description        Правительство предъявляет ряд требований к безопасности тюрем определенного размера и налагает штрафы за их несоблюдение. Пусть у нас не будет с этим проблем.
+objective_grant_enhancedsecurity_armoury            Построить Оружейную комнату
+objective_grant_enhancedsecurity_kennel             Построить Псарню
+objective_grant_enhancedsecurity_guards             Нанять двух Вооруженных охранников
+objective_grant_enhancedsecurity_dogs               Нанять двух Кинологов
+objective_grant_enhancedsecurity_patroldogs         Отправить двух Кинологов в Патруль с собаками
+objective_grant_enhancedsecurity_patrolarmed        Отправить двух Вооруженных охранников в патруль
+
+objective_grant_advancedsecurity                    Сверхстрогий режим
+objective_grant_advancedsecurity_description        Трудно поддерживать порядок в тюрьме с большим количеством заключенных, но ошибка может стоить гораздо дороже, чем соблюдение должных мер безопасности. Установите необходимое оборудование на территории тюрьмы.
+objective_grant_advancedsecurity_guards             Увеличить количество охранников
+objective_grant_advancedsecurity_researchcctv       Открыть Наблюдение в меню Бюрократия
+objective_grant_advancedsecurity_researchbodyarmour Открыть Бронежилет в меню Бюрократия
+objective_grant_advancedsecurity_researchtazers     Открыть Шокеры в меню Бюрократия
+objective_grant_advancedsecurity_office             Построить Пост охраны
+objective_grant_advancedsecurity_cctvmonitor        Установить Пульт наблюдения
+objective_grant_advancedsecurity_cctvcameras        Установить Видеокамеры в тюрьме
+
+objective_grant_prisonerworkforce                   Акклиматизация и занятость заключенных 
+objective_grant_prisonerworkforce_description       Устраивая заключенных на тюремные работы, вы помогаете им приспособиться к здешним условиям, а также экономите бюджет. Проведите курсы обучения и постройте необходимые объекты для трудоустройства заключенных.
+objective_grant_prisonerworkforce_research          Открыть Трудоустройство заключенных в меню Бюрократия
+objective_grant_prisonerworkforce_cleaning          Построить Кладовку
+objective_grant_prisonerworkforce_laundry           Построить Прачечную
+objective_grant_prisonerworkforce_kitchenclass      Трое заключенных должны пройти курс Безопасность и гигиена на кухне
+objective_grant_prisonerworkforce_laundryassigned   Устроить трех заключенных на работу в Прачечной
+objective_grant_prisonerworkforce_kitchenassigned   Устроить трех заключенных на работу на Кухне
+objective_grant_prisonerworkforce_cleaningassigned  Устроить трех заключенных на работу в Кладовке
+
+objective_grant_educationreformprogram              Реформа посредством образовательных программ
+objective_grant_educationreformprogram_description  Известная компания проводит масштабное социологическое исследование на тему влияния образования на уровень рецидивной преступности. Постройте классы для обучения наших заключенных.
+objective_grant_educationreformprogram_research     Открыть Образование в меню Бюрократия
+objective_grant_educationreformprogram_classroom    Построить Класс
+objective_grant_educationreformprogram_desks        Установить 20 школьных парт
+objective_grant_educationreformprogram_foundationed Десять заключенных должны пройти Базовый курс обучения
+objective_grant_educationreformprogram_generaled    Один заключенный должен пройти Основной курс обучения
+
+objective_grant_prisonlabour                        Тюремное производство
+objective_grant_prisonlabour_description            Инвесторы хотят увеличить прибыльность тюрьмы. Они готовы вложить средства в постройку мастерских, чтобы труд заключенных начал приносить доход.
+objective_grant_prisonlabour_workshop               Построить Мастерскую
+objective_grant_prisonlabour_saw                    Установить два циркулярных станка
+objective_grant_prisonlabour_press                  Установить два штамповочных пресса
+objective_grant_prisonlabour_reform                 Пятеро заключенных должны пройти курс Техника безопасности в мастерской
+objective_grant_prisonlabour_plates                 Сделать 30 номерных знаков
+
+objective_grant_furnituremanufacturing              Программа обучения плотницкому ремеслу
+objective_grant_furnituremanufacturing_description  На курсах плотницкого дела ваши заключенные не только получат ценные навыки, которые пригодятся на свободе, но и научатся делать современную мебель. Ее продажа принесет тюрьме прибыль.
+objective_grant_furnituremanufacturing_forestry     Построить Лесопилку
+objective_grant_furnituremanufacturing_table        Установить два верстака
+objective_grant_furnituremanufacturing_reform       Двое заключенных должны пройти курс Плотницкое дело
+objective_grant_furnituremanufacturing_bed          Сделать десять улучшенных кроватей
+
+objective_grant_reducestaffstress                   Программа повышения благополучия служащих
+objective_grant_reducestaffstress_description       Профсоюзы работников тюрем сообщают о перенапряжении и усталости персонала, из-за чего учащаются ошибки. Постарайтесь, чтобы этого не произошло в вашей тюрьме.
+objective_grant_reducestaffstress_staffroom         Построить Комнату персонала
+objective_grant_reducestaffstress_freeguards        Освободить от работы по крайней мере пять охранников
+objective_grant_reducestaffstress_restedstaff       Ни у одного из сотрудников не должно быть признаков усталости
+
+objective_grant_shortterminvestment                 Кратковременный вклад
+objective_grant_shortterminvestment_description     Кратковременный вклад в инвестиционный фонд принесет хорошую выручку в будущем.
+objective_grant_shortterminvestment_wait            Ждите деньги...
+
+objective_grant_longterminvestment                  Долгосрочный вклад
+objective_grant_longterminvestment_description      Долгосрочный вклад в инвестиционный фонд принесет солидную прибыль в будущем.
+objective_grant_longterminvestment_wait             Ждите деньги...
+
+objective_grant_cellblock50                         Тюремный блок Б
+objective_grant_cellblock50_description             Пришло время расширить тюрьму.
+objective_grant_cellblock50_cells                   Увеличить вместимость тюрьмы до 30 заключенных
+
+objective_grant_cellblock100                        Тюремный блок В
+objective_grant_cellblock100_description            Продолжайте расширять тюрьму, разумно используя землю.
+objective_grant_cellblock100_cells                  Увеличить вместимость тюрьмы до 100 заключенных
+
+objective_grant_cellblock200                        Тюремный блок Г
+objective_grant_cellblock200_description            Расширьте тюрьму, чтобы увеличить количество заключенных и привлечь дополнительное государственное финансирование. 
+objective_grant_cellblock200_cells                  Увеличить вместимость тюрьмы до 200 заключенных
+
+objective_grant_cellblock500                        Тюремный блок Д
+objective_grant_cellblock500_description            В законодательстве предусмотрено множество финансовых льгот для самых больших тюрем. Пора добиться и этой цели.
+objective_grant_cellblock500_cells                  Увеличить вместимость тюрьмы до 500 заключенных
+
+objective_grant_nutritionresearch                   Изучение питания заключенных
+objective_grant_nutritionresearch_description       Независимая исследовательская группа готова заплатить за участие в опыте по влиянию тюремного рациона на привычки заключенных. 
+objective_grant_nutritionresearch_poor              Два дня подавать малое количество и низкое разнообразие пищи один раз в сутки
+objective_grant_nutritionresearch_good              Два дня подавать большое количество и высокое разнообразие пищи три раза в сутки
+
+objective_grant_drugsearch                          Антинаркотическая операция
+objective_grant_drugsearch_description              В последнее время проблема наркомании в больших тюрьмах вызывает бурный резонанс. Займите активную позицию в этом вопросе и покажите, что вы боретесь с распространением наркотиков.
+objective_grant_drugsearch_find                     Изъять десять наркотиков
+
+objective_grant_contrabandsupply                    Разоружение
+objective_grant_contrabandsupply_description        Вслед за серией происшествий с применением украденных инструментов в других тюрьмах группа проводит изучение распространения инструментов и оружия в тюрьме. Эта часть исследования предусматривает изъятие у заключенных всех вышеуказанных предметов.
+objective_grant_contrabandsupply_tools              Изъять все украденные инструменты
+objective_grant_contrabandsupply_weapons            Изъять все украденное оружие
+
+grant_category_completed                            Завершено:
+grant_category_unlocked                             Открыто:
+grant_category_cash                                 Деньги:
+grant_category_cashflow                             Прибыль:
+grant_category_debt                                 Долг:
+grant_category_prisoners                            Заключенные:
+
+grant_property_atleast                              Не менее *X
+grant_property_atmost                               Не более *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              Отсутствует
+object_box                               Ящик
+object_stack                             Куча
+object_bed                               Кровать
+object_toilet                            Туалет
+object_table                             Стол
+object_chair                             Стул
+object_bench                             Лавка
+object_electricchair                     Электрический стул
+object_jaildoor                          Решетчатая дверь 
+object_jaildoorlarge                     Большая решетчатая дверь
+object_door                              Дверь
+object_solitarydoor                      Дверь карцера
+object_staffdoor                         Служебная дверь
+object_remotedoor                        Дверь с дистанционным управлением
+object_roadgate                          Тюремные ворота
+object_jailbars                          Тюремное окно
+object_window                            Окно
+object_windowlarge                       Большое окно
+object_tree                              Дерево
+object_light                             Свет
+object_cooker                            Плита
+object_fridge                            Холодильник
+object_bin                               Мусорный бак
+object_sink                              Мойка
+object_servingtable                      Раздаточный стол
+object_showerhead                        Насадка для душа
+object_brick                             Кирпич
+object_concrete                          Бетон
+object_steel                             Сталь
+object_ingredients                       Продукты
+object_ingredientscooking                Продукты (готовятся)
+object_ingredientscooked                 Продукты (приготовлены)
+object_ingredientsspoiled                Продукты (испорчены)
+object_meal                              Еда
+object_foodtray                          Поднос
+object_foodtraydirty                     Грязный поднос
+object_grassturf                         Трава
+object_prisoneruniform                   Тюремная роба
+object_dirtyprisoneruniform              Грязная роба
+object_crumpledprisoneruniform           Мятая роба
+object_bleach                            Отбеливатель
+object_sheetmetal                        Листовой металл
+object_licenseplateblank                 Заготовка для номерного знака
+object_licenseplate                      Номерной знак
+object_log                               Бревно
+object_wood                              Дерево
+object_workman                           Рабочий
+object_truckdriver                       Водитель грузовика
+object_guard                             Охранник
+object_riotguard                         ОМОН
+object_armedguard                        Вооруженный охранник
+object_prisoner                          Заключенный
+object_doctor                            Доктор
+object_paramedic                         Парамедик
+object_cook                              Повар
+object_gardener                          Садовник
+object_janitor                           Уборщик
+object_fireman                           Пожарный
+object_avatar                            Аватар
+object_actor                             Объект
+object_visitor                           Посетитель
+object_executionwitness                  Свидетель казни
+object_doghandler                        Кинолог
+object_dog                               Сторожевой пес 
+object_dogcrate                          Собачья клетка
+object_teacher                           Учитель
+object_soldier                           Солдат
+object_warden                            Начальник тюрьмы
+object_chief                             Начальник охраны
+object_foreman                           Прораб
+object_psychologist                      Психолог
+object_accountant                        Бухгалтер
+object_lawyer                            Адвокат
+object_supplytruck                       Грузовик с припасами
+object_prisonerbus                       Автобус с заключенными
+object_fireengine                        Пожарная машина
+object_riotvan                           Фургон ОМОНа
+object_ambulance                         Скорая помощь
+object_hearse                            Катафалк
+object_trooptruck                        Грузовик с военными
+object_fire                              Пожар
+object_garbage                           Мусор
+object_rubble                            Щебень
+object_bookshelf                         Книжная полка
+object_officedesk                        Офисный стол
+object_filingcabinet                     Картотека
+object_medicalbed                        Больничная койка
+object_morgueslab                        Анатомический стол
+object_equipment                         Инвентарь
+object_prop                              Принадлежности
+object_dummy                             Кукла
+object_powerstation                      Генератор
+object_capacitor                         Конденсатор
+object_electricalcable                   Кабель
+object_powerswitch                       Рубильник
+object_logiccircuit                      Логическая схема
+object_logicbridge                       Логический мост
+object_waterpumpstation                  Водонасосная станция
+object_pipevalve                         Вентиль
+object_pipelarge                         Большая труба
+object_pipesmall                         Малая труба
+object_drain                             Слив
+object_sprinkler                         Спринклер
+object_metaldetector                     Металлодетектор
+object_weightsbench                      Силовой тренажер
+object_phonebooth                        Таксофон
+object_tv                                Телевизор
+object_largetv                           Большой телевизор
+object_pooltable                         Бильярд
+object_polaroid                          Полароид
+object_cctv                              Видеонаблюдение
+object_cctvmonitor                       Пульт наблюдения
+object_laundrymachine                    Стиральная машина
+object_laundrybasket                     Корзина для белья
+object_ironingboard                      Гладильная доска
+object_visitortable                      Стол для посетителей
+object_workshopsaw                       Циркулярный станок
+object_workshoppress                     Штамповочный пресс
+object_carpentertable                    Верстак
+object_boombox                           Бумбокс
+object_guardlocker                       Шкафчик охранника
+object_sofachairsingle                   Кресло
+object_sofachairdouble                   Диван
+object_drinkmachine                      Автомат с напитками
+object_arcadecabinet                     Игровой автомат
+object_radio                             Радиоприемник
+object_bookshelflarge                    Книжная полка
+object_weaponrack                        Стойка для оружия
+object_treestump                         Пень
+object_schooldesk                        Школьная парта
+object_superiorbed                       Улучшенная кровать
+object_doorcontrolsystem                 Система управления дверьми
+object_phonemonitor                      Система прослушки
+object_servo                             Привод двери
+object_doortimer                         Таймер двери
+object_pressurepad                       Датчик давления
+object_statuslight                       Индикатор состояния
+object_wire                              Соединить
+object_dismantleobject                   Разобрать
+object_dismantleutility                  Демонтировать
+object_sellobject                        Продать объект
+object_canceljobs                        Отменить задание
+object_showallwires                      Показать провода
+object_tidywires                         Скрыть провода
+object_cutscenepolaroid                  Кат-сцена — Полароид
+object_cutscenecamera                    Кат-сцена — Камера
+object_cutscenecue                       Кат-сцена — Вставка
+object_foodwaste                         Пищевые отходы
+object_altar                             Алтарь
+object_pews                              Церковная скамья
+object_prayermat                         Молитвенный коврик
+object_paroleofficer                     Инспектор по УДО
+object_parolelawyer                      Адвокат по УДО
+object_spiritualleader                   Духовный наставник
+object_librarybookshelf                  Библиотечный шкаф
+object_librarybookunsorted               Книги (не рассортированы)
+object_librarybooksorted                 Книги (рассортированы)
+object_sortingtable                      Стол библиотекаря
+object_ruinedbook                        Испорченные книги
+object_foodbowl                          Питание
+object_appealslawyer                     Адвокат по апелляции
+object_appealsmagistrate                 Судья апелляционного суда
+object_mailsatchel                       Почтовая сумка
+object_mailunsorted                      Нерассортированная почта
+object_mailsorted                        Рассортированная почта
+object_prisonermail                      Посылка
+object_prisonermailopened                Посылка (открыта)
+object_shopfront                         Витрина
+object_shopgoods                         Товары
+object_shopshelf                         Полка
+
+material_none                            Отсутствует
+material_building                        Здание (кирпичное)
+material_buildingconcrete                Здание (бетонное)
+material_demolish                        Снос
+material_clearindoorarea                 Очистить помещение
+material_demolishwalls                   Снести стены
+material_removetunnels                   Засыпать туннель
+material_canceljobs                      Отменить задание
+material_dirt                            Земля
+material_sand                            Песок
+material_pavingstone                     Брусчатка
+material_grass                           Трава
+material_gravel                          Гравий
+material_road                            Дорога
+material_roadmarkings                    Дорожная разметка
+material_roadmarkingsleft                Дорожная разметка (слева)
+material_roadmarkingsright               Дорожная разметка (справа)
+material_stone                           Камень
+material_fence                           Ограда
+material_concretetiles                   Бетонная плита
+material_concretefloor                   Бетонный пол
+material_woodenfloor                     Деревянный пол
+material_ceramicfloor                    Керамическая плитка
+material_mosaicfloor                     Мозаичный пол
+material_metalfloor                      Металлический пол
+material_marbletiles                     Мраморная плитка
+material_whitetiles                      Белая плитка
+material_fancytiles                      Плитка с орнаментом
+material_concretewall                    Бетонная стена
+material_brickwall                       Кирпичная стена
+material_perimeterwall                   Укрепленная стена
+material_burntfloor                      Сгоревший пол
+material_burntwall                       Сгоревшая стена
+material_buildingframe                   Каркас здания
+material_roof                            Крыша
+
+room_none                                Отсутствует
+room_cell                                Камера
+room_holdingcell                         Общая камера
+room_solitary                            Карцер 
+room_superiorcell                        Улучшенная камера
+room_canteen                             Столовая
+room_kitchen                             Кухня
+room_shower                              Душ
+room_yard                                Двор
+room_storage                             Склад
+room_deliveries                          Доставка
+room_garbage                             Мусор
+room_execution                           Комната казни
+room_workshop                            Мастерская
+room_security                            Охрана
+room_office                              Кабинет
+room_medicalward                         Лазарет
+room_morgue                              Морг
+room_commonroom                          Комната отдыха
+room_laundry                             Прачечная
+room_visitation                          Комната для свиданий
+room_cleaningcupboard                    Кладовка
+room_kennel                              Псарня
+room_armoury                             Оружейная комната
+room_staffroom                           Комната персонала
+room_library                             Библиотека
+room_forestry                            Лесопилка
+room_classroom                           Класс
+room_exports                             Отправка товаров
+room_chapel                              Часовня
+room_intake                              Приемная
+room_clearrooms                          Свободные помещения
+room_paroleroom                          Комната УДО
+room_mailroom                            Почта
+room_shop                                Магазин
+
+equipment_none                           Отсутствует
+equipment_fists                          Кулаки
+equipment_baton                          Дубинка
+equipment_club                           Бита
+equipment_shank                          Заточка
+equipment_knife                          Нож
+equipment_fork                           Вилка
+equipment_gun                            Пистолет
+equipment_spoon                          Ложка
+equipment_needle                         Шприц
+equipment_booze                          Выпивка
+equipment_poison                         Яд
+equipment_cigs                           Сигареты
+equipment_saw                            Пила
+equipment_jailkeys                       Тюремные ключи
+equipment_mobilephone                    Мобильник
+equipment_lighter                        Зажигалка
+equipment_screwdriver                    Отвертка
+equipment_drugs                          Наркотики
+equipment_sheers                         Секатор
+equipment_mop                            Швабра
+equipment_rake                           Грабли
+equipment_hose                           Шланг
+equipment_spatula                        Шпатель
+equipment_woodenspoon                    Деревянная ложка
+equipment_cleaningbrush                  Щетка для чистки
+equipment_hammer                         Молоток
+equipment_clipboard                      Папка-планшет
+equipment_drill                          Дрель
+equipment_pianowire                      Рояльная струна
+equipment_scissors                       Ножницы
+equipment_medicine                       Лекарство
+equipment_shotgun                       Дробовик
+equipment_moneybag                      Мешок для денег
+equipment_tazer                         Шокер
+equipment_guarduniform                  Форма охранника
+equipment_stabvest                      Бронежилет
+equipment_rifle                         Винтовка
+equipment_dogleash                      Собачий поводок
+equipment_assaultrifle                  Штурмовая винтовка
+equipment_woodenpickaxe                 Деревянная кирка
+equipment_cbradio                       Радио
+equipment_axe                           Топор
+equipment_spade                         Лопата
+
+research_requires_short                 Требуется *X
+
+reformprogram_workshopinduction         Техника безопасности в мастерской
+reformprogram_foundationeducation       Базовый курс обучения
+reformprogram_generaleducation          Основной курс обучения
+reformprogram_carpentry                 Плотницкое ремесло
+reformprogram_kitcheninduction          Безопасность и гигиена на кухне
+reformprogram_therapy                   Поведенческая терапия
+reformprogram_methadone                 Медикаментозное лечение наркомании
+reformprogram_alcoholicsmeeting         Групповая терапия для алкоголиков
+reformprogram_tazertraining             Разрешение на ношение шокера
+reformprogram_spiritualguidance         Духовное наставление
+reformprogram_parolehearing             На слушание об УДО
+reformprogram_deathrowappeal            Обжалование смертного приговора
+
+reformprogram_tazertrained              Имеет разрешение на ношение Шокера
+
+reformprogram_workshopinduction_text    Безопасность превыше всего! Заключенные обязаны пройти этот курс, прежде чем им позволят работать в Мастерской.
+reformprogram_foundationeducation_text  Многие заключенные не умеют ни читать, ни писать, ни считать. Этот курс поможет им овладеть базовыми знаниями. После обучения заключенные могут работать в Библиотеке.
+reformprogram_carpentry_text            Для этого сложного дела нужны умелые руки. С помощью верстака обученные заключенные могут делать дорогостоящие предметы из дерева.
+reformprogram_kitcheninduction_text     Одновременное обслуживание сотен людей требует соблюдения определенных норм. Только заключенные, прошедшие этот курс обучения, допускаются к работе на кухне. 
+reformprogram_therapy_text              Заключенным бывает трудно справиться с внутренней агрессией. Индивидуальные сеансы терапии с психологом научат их как управлять собственным гневом.
+reformprogram_methadone_text            Курс состоит из пяти сеансов медикаментозного лечения наркозависимости заключенных. Каждое занятие уменьшает зависимость, а прохождение всего курса дает возможность полностью излечиться от наркомании.
+reformprogram_alcoholicsmeeting_text    Групповые встречи для алкоголиков. Уменьшают тягу к выпивке. Не могут полностью избавить от зависимости.
+reformprogram_parolehearing_text        Эти слушания призваны определить имеет ли заключенный право на досрочное освобождение. В случае положительного решения и при условии отсутствия рецидива вас ждет приятный бонус.
+reformprogram_spiritualguidance_text    Среди заключенных есть религиозные люди и те, кто просто ищет утешения в вере. Пригласите духовного наставника из местного сообщества, чтобы помочь осужденным обрести умиротворение с помощью молитвы.
+
+reformerror_unscheduled                 НЕЗАПЛАНИРОВАННО
+reformerror_noroom                      НЕ НАЙДЕНА КОМНАТА
+reformerror_nofreetimeslot              ВСЕ КОМНАТЫ ЗАНЯТЫ
+reformerror_staffonly                   ВСЕ КОМНАТЫ ТОЛЬКО ДЛЯ ПЕРСОНАЛА
+reformerror_noobjects                   НЕТ ОБОРУДОВАНИЯ
+reformerror_noregimetime                НЕ ВЫБРАНО ВРЕМЯ В РЕЖИМЕ ДНЯ
+reformerror_noteachers                  НЕТ УЧИТЕЛЯ
+
+reform_interested                       *X чел. интересуются
+reform_interested_qualified             *X чел. интересуются/подходят
+reform_queued                           *X чел. в очереди 
+reform_completion                        - *X чел. закончили - *Y чел. прошли курс успешно (*P%)
+reform_locked                           НЕДОСТУПНО
+reform_start                            НАЧАТЬ
+reform_costpersession                   *X за занятие
+reform_placespersession                 *X мест/*Y занятий
+reform_program_starting                 Начинается
+reform_program_active                   ИДЕТ
+reform_program_paused                   Пауза
+reform_program_stop                     ОСТАНОВИТЬ
+reform_program_ledby                     - Проводит *P в *Z
+reform_program_ledwith                   - Ассистент *S
+reform_program_length                    - Продолжительность занятия: *X ч.
+reform_program_requirements              - Каждому заключенному требуется *X
+reform_program_requirements_alt          - Каждому заключенному требуется *X или *Y
+reform_program_prereqs                  Заключенные должны пройти:
+reform_program_research_required        Требуется: *X
+
+reform_program_intake_none                      Отсутствует
+reform_program_intake_mandatory                 Обязательно
+reform_program_intake_voluntary                 По желанию
+reform_program_intake_referralviolence          Направление: жестокость
+reform_program_intake_referraldrugaddiction     Направление: алкоголизм
+reform_program_intake_referralalcoholism        Направление: наркозависимость
+reform_program_intake_guards                    Только для охранников
+reform_program_intake_parole                    По истечении 50% или 75% срок заключения
+reform_program_intake_needrequired              Для участия заключенный должен испытывать определенную нужду
+reform_program_intake_deathrow                  Заключенный в зоне для смертников
+
+reform_program_properties_canhireexternally     Можно нанять за пределами тюрьмы
+reform_program_properties_studentssit           Места для учащихся
+reform_program_properties_academic              Теория
+reform_program_properties_practical             Практика
+reform_program_properties_repeatable            Многократные
+reform_program_properties_passive               Пассивные
+reform_program_properties_staffonly             Зона для персонала
+reform_program_properties_outsideofwork         Необязательно в рабочее время
+reform_program_properties_teacherssit           Место для учителя
+reform_program_properties_canescortstudent      Заключенных могут сопровождать охранники
+
+reform_program_waittime                         Можно проводить один раз в *T дней
+
+reform_program_difficulty_easy           - Низкая сложность
+reform_program_difficulty_intermediate   - Средняя сложность
+reform_program_difficulty_advanced       - Высокая сложность
+reform_program_difficulty_expert         - Максимальная сложность
+
+regime_nothing                          Под замком
+regime_sleep                            Сон
+regime_eat                              Питание
+regime_shower                           Душ
+regime_yard                             Двор
+regime_work                             Работа
+regime_lockdown                         Блокировка дверей
+regime_freetime                         Свободное время
+regime_currenttime                      Сейчас
+regime_unspecified                      Не определено
+
+regimetooltip_nothing                   Заключенные заперты в камерах. У них есть масса времени, чтобы подумать о том, как они дожили до жизни такой.\n\Даже самые суровые зэки могут встать на путь исправления после долгой изоляции.
+regimetooltip_sleep                     Заключенные в камерах, свет выключен. Все ложатся спать.\n\nКроме тех, кто копает туннели...
+regimetooltip_eat                       Заключенные направляются в ближайшую столовую, чтобы утолить голод.\n\nИм разрешено пользоваться любыми удобствами на территории столовой, но запрещено покидать ее до конца обеденного времени.
+regimetooltip_shower                    Заключенные раздеваются и принимают душ. Ежедневные водные процедуры важны для гигиены, однако некоторым приходится объяснять это с помощью силы.
+regimetooltip_yard                      Заключенные выходят из здания во двор. Здесь можно заняться спортом, подышать свежим воздухом и принять солнечную ванну.\n\nЗаключенным разрешено пользоваться всем удобствами во дворе, например силовыми тренажерами, таксофонами, душем и т.д.
+regimetooltip_work                      Заключенных привлекают к тюремным работам. Все рабочие места заполняются, и осужденные отправляются в соответствующие комнаты (рабочие места можно выбрать на экране Расстановка).\n\nВсе программы реформы также проводятся во время тюремных работ. Если заключенный не трудоустроен и не принимает участие в занятиях, он переходит в режим "Свободное время".
+regimetooltip_freetime                  Заключенные покидают камеры и могут пользоваться любыми удобствами на территории тюрьмы. Это любимое время дня каждого зэка. Они могут пообщаться с нужными людьми или удовлетворить другие потребности.\n\nБольшое количество свободного времени уменьшает стресс и напряжение, но многие считают, что осужденные его не заслуживают.
+
+regime_clear                            Очистить режим для этой категории заключенных и использовать стандартный Средний режим.
+
+schedule_editor_students                Учащихся: *X/*Y
+schedule_editor_error_staffonly         Выбранное помещение предназначено только для персонала
+schedule_editor_error_noregimetime      Расписание занятий не вписывается во время, отведенное на работу
+schedule_editor_error_noteachers        Нет учителя для этой программы
+schedule_editor_error_noobjects         В комнате не хватает объектов, необходимых для проведения занятий
+schedule_editor_pin                     Закрепить программу
+schedule_editor_unpin                   Открепить программу
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         Управление таймером двери
+doortimer_connected_servos              Подключено приводов: *X
+doortimer_state_open                    Открыть
+doortimer_state_closed                  Закрыто
+
+doortimer_security_none                 Любой режим
+doortimer_security_minsec               Общий режим
+doortimer_security_normal               Средний режим
+doortimer_security_maxsec               Строгий режим
+doortimer_security_Protected            Режим защитной изоляции
+doortimer_security_SuperMax             Сверхстрогий режим
+doortimer_security_DeathRow             Смертник
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   Подготовка к казни
+execution_stage_Lockdown                Отправить всех заключенных в камеры
+execution_stage_Testing                 Проверочный запуск
+execution_stage_Assemble                Последние приготовления
+execution_stage_Witnesses               Привести свидетелей в комнату казни
+execution_stage_Escort                  Привести заключенного в комнату казни
+execution_stage_Execution               КАЗНЬ
+execution_stage_Dismissed               Отпустить персонал и свидетелей
+execution_stage_FinalReport             Итоговый отчет
+
+execution_stagetooltip_start            Вы запланировали казнить этого заключенного. Теперь необходимо следовать официальному протоколу.
+execution_stagetooltip_lockdown         Все заключенные возвращаются в камеры; все двери в тюрьме запираются.
+execution_stagetooltip_testing          Заключительная проверка позволит убедиться, что все работает. Питание электрического стула проверено под нагрузкой. Окончательный маршрут заключенного спланирован: он должен сам дойти до комнаты казни.
+execution_stagetooltip_assemble         Начальник тюрьмы и Начальник охраны идут в камеру приговоренного к смерти. Духовный наставник заключенного также посещает камеру для последней молитвы.
+execution_stagetooltip_witnesses        В тюрьму прибывают свидетели, они направляются в комнату казни. Среди них могут быть члены семьи приговоренного к смерти и потерпевших.\n\nПриготовьте стулья для свидетелей казни.
+execution_stagetooltip_escort           Начальник тюрьмы, Начальник охраны и Духовный наставник сопровождают приговоренного к смерти от камеры до комнаты казни.
+execution_stagetooltip_execution        Все на месте, протокол соблюден, можно начинать казнь.
+execution_stagetooltip_dismissed        Персонал и свидетели могут покинуть комнату казни.
+execution_stagetooltip_finalreport      После казни составляется отчет с оценкой ваших действий.
+
+execution_underway                      ИДЕТ КАЗНЬ
+execution_result_ok                     Санкционированная казнь *N на электрическом стуле проведена в *T согласно расписанию и в присутствии свидетелей. Стандартная компенсация за участие в процессе составляет 10 000$.
+execution_result_appealed               Санкционированная казнь *N на электрическом стуле проведена в *T согласно расписанию и в присутствии свидетелей. К сожалению, в свете новой информации приговор заключенного мог быть смягчен. Тем не менее, против тюрьмы не будет выдвинуто обвинений, а ее администрация получит стандартную компенсацию в размере 10 000$ за участие в процессе.
+execution_result_innocent               Санкционированная казнь *N на электрическом стуле проведена в *T согласно расписанию и в присутствии свидетелей. К сожалению, были обнаружены новые улики, которые доказывают невиновность *N. Тем не менее, против тюрьмы не будет выдвинуто обвинений, а ее администрация получит стандартную компенсацию в размере 10 000$ за участие в процессе.
+execution_result_illegal                Казнь *N на электрическом стуле проведена в *T согласно расписанию и в присутствии свидетелей. Администрация тюрьмы нарушила установленный законом порядок рассмотрения апелляции, которая, в свете новой информации, была бы удовлетворена. За это на тюрьму наложен штраф в размере 50 000$. В связи с грубым нарушением установленных процедур все казни отменяются до дальнейшего уведомления. Все оставшиеся заключенные-смертники будут переведены в другую тюрьму.
+execution_result_illegalinnocent        Незаконная казнь *N на электрическом стуле проведена в *T согласно расписанию и в присутствии свидетелей. В связи с нарушением установленного законом порядка рассмотрения апелляции, а также тем фактом, что *N был признан невиновным в совершенных преступлениях, было решено уволить администратора тюрьмы с занимаемой должности. Решение вступает в силу незамедлительно.
+execution_warning_one                   Если протокол не будет соблюден и во время следующей казни, вас уволят.
+execution_warning_two                   Вы не вынесли никаких уроков из прошлых ошибок и по-прежнему не соблюдаете установленный порядок. Еще одно нарушение протокола будет стоить вам должности.
+
+execution_error_MissingEquipment        ОШИБКА: ОТСУТСТВУЕТ ОБОРУДОВАНИЕ\nНеобходимо построить комнату казни с электрическим стулом.
+execution_error_ElectricalSupply        ОШИБКА: НЕДОСТАТОЧНО МОЩНОСТИ\nНе хватает электроэнергии для питания электрического стула.
+execution_error_NavigationPrisoner      ОШИБКА: ЛОГИСТИКА\nПриговоренный к смерти не может пройти из камеры в комнату казни.
+execution_error_NoRouteFromRoad         ОШИБКА: НЕТ ДОСТУПА\nСвидетели (не из числа сотрудников) не могут попасть в комнату казни.
+execution_error_NoSpaceInRoom           ОШИБКА: НЕТ МЕСТА\nНедостаточно свободного места для свидетелей в комнате казни.
+execution_error_NoRoom                  Необходимо построить комнату казни, прежде чем проводить саму казнь.
+
+roomerror_nokitchen                     Эту столовую не обслуживает ни одна кухня.
+roomerror_noprisoners                   Ни один из заключенных не пользуется этой столовой.
+roomerror_nocanteen_cells               Из этой камеры нельзя попасть в столовую. Заключенным в этой камере негде питаться.
+roomerror_nocanteen_kitchen             В радиусе обслуживания этой кухни нет столовых. Здесь не будут готовить пищу во время трапезы.
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             Содержимое: *X
+stack_contents                           Содержимое: *X x *Y
+mail_contents                            Содержит: *X писем
+mail_opened_from                         Письмо от *X к *F
+mail_closed_from                         Письмо к *X
+
+object_dump                             Мусор
+object_todo                             Список дел: *X
+object_sale_price                       Цена продажи: *X
+
+object_door_cyclepermissions            Щелкните для переключения между Правами доступа
+object_door_cyclepermissions_1          (Открыто, Только для персонала, Закрыто)
+
+object_firemen_hosehelp_intro           Пожарные шланги будут направлены на близлежащий источник возгорания
+object_firemen_hosehelp                 Нажмите [H], чтобы выбрать цель самостоятельно
+
+interface_clone_help_copy               Выберите зону для клонирования, удерживая правую кнопку мыши
+interface_clone_help_paste              Щелкните левой кнопкой мыши, чтобы создать копию выбранной зоны
+
+object_inactive                         НЕ РАБОТАЕТ
+object_cctv_moremonitors                Постройте больше Пультов наблюдения
+object_cctvmonitor_needsguards          Нужен Охранник для управления Пультом
+object_processor_blocked                Невозможно пройти к рабочему месту
+
+administrator_requiresoffice            Требуется Кабинет
+administrator_requiresoffice_2          *X требуется Кабинет
+office_ownership                        Кабинет *X
+
+teacher_teaching                        Ведет занятие
+teacher_preparing                       Готовится к занятию
+
+prisoner_assignedto                     Требуется: *X
+prisoner_roomquality                    Качество камеры: *X (*Y)
+prisoner_roomquality_average            Среднее
+prisoner_roomquality_aboveaverage       Выше среднего
+prisoner_roomquality_wayaboveaverage    Хорошее
+prisoner_roomquality_belowaverage       Ниже среднего
+prisoner_roomquality_waybelowaverage    Плохое
+prisoner_attendance                     Посещаемость
+prisoner_concentration                  Сосредоточенность
+prisoner_understanding                  Усвоение материала
+prisoner_concentration_0                Плохо
+prisoner_concentration_1                Плохое
+prisoner_concentration_2                Удовлетворительно
+prisoner_concentration_3                Хорошее
+prisoner_concentration_4                Отлично
+prisoner_passchance                     Вероятность успеха: *X%
+prisoner_informant                      Тайный информатор
+
+prisoner_dayswithoutincident            *X дней без происшествий
+prisoner_availablemoney                 Наличные : $*X
+
+informant_suspicion                     Подозрение
+informant_title                         ТАЙНЫЕ ИНФОРМАТОРЫ
+informant_none                          У вас нет информаторов
+informant_hint                          (Завербовать заключенных под давлением, например в карцере)
+informant_recruitable                   (Потенциальный информатор)
+informant_target                        Цель
+
+contraband_owner                        Владелец: *X
+contraband_ownerunknown                 Владелец неизвестен
+contraband_stolenfrom                   Украдено из *X, *Y часов назад
+contraband_smuggledthrough              Пронесено через *X, *Y часов назад
+contraband_smuggledin                   Незаконно пронесено Заключенными, *Y часов назад
+contraband_type                         Категория: *X
+contraband_tradevalue_title             Цены на контрабанду
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         Измотан
+staff_tired                             Устал
+staff_needsrest                         Хочет отдохнуть в Комнате персонала.
+
+dog_needskennel                         Собакам требуется Псарня для сна.
+
+doctor_requireinfirmary                 Требуется Лазарет
+
+entity_carryingequipment                Несет *X
+entity_carryingkeys                     Несет тюремные ключи
+entity_carryingstaffkeys                Несет ключ персонала
+entity_wearingarmour                    Одет в *X
+
+reports_schedule                        Обновить расписание всех программ
+reports_edit                            Изменить расписание
+reports_bankloan                        Займы
+reports_increaseloan                    Увеличить
+reports_decreaseloan                    Уменьшить
+reports_unlockbankloans                 Исследуется бухгалтером
+
+drugs_heroin                            Героин
+drugs_cocaine                           Кокаин
+
+#                                       Например "Мать Bob"
+visitor_relationship                    *Y *X
+visitor_age                             Возраст: *X
+
+family_wife                             Жена 
+family_exwife                           Бывшая жена 
+family_girlfriend                       Подружка 
+family_son                              Сын 
+family_daughter                         Дочь 
+family_mother                           Мать 
+family_father                           Отец 
+family_brother                          Брат 
+family_sister                           Сестра 
+family_lawyer                           Адвокат
+family_priest                           Священник
+family_victims                          Семья потерпевшего
+family_caption                          Семья: 
+family_none                             Отсутствует
+
+damage_dead                             Мертв
+damage_unconscious                      Без сознания
+damage_serious                          Серьезно ранен
+damage_injured                          Ранен
+damage_amount                           Повреждения: *X%
+
+message_autosaving                      Автосохранение...
+
+buildtoolbar_entersearchterm            введите слово для поиска...
+
+deploymentscheduler_title               ПЛАНИРОВЩИК РАССТАНОВКИ
+supplyanddemand_supplyheader            ПРЕДЛОЖЕНИЕ
+supplyanddemand_demandheader            СПРОС
+
+tooltip_multipleobjects                 Нажмите TAB для переключения между объектами
+remotedoor_noservo                      Радиоуправляемая дверь не открывается без установленного рабочего привода.
+
+roomgrading                             Оценка качества камеры
+roomgrading_roomsize                    Размер более *X клеток
+roomgrading_cleanliness                 Чистота более *X%
+roomgrading_outsidewindow               Окно на улицу
+roomgrading_item                        Инвентарь: *X
+roomgrading_result                      Оценка *X
+roomgrading_currentoccupant             Заключенный имеет право на уровень комфорта *X
+roomgrading_unoccupied                  Не занята
+
+roomerror_nokitchen                     Эту столовую не обслуживает ни одна кухня.
+roomerror_noprisoners                   Ни один из заключенных не пользуется этой столовой.
+roomerror_nocanteen_cells               Из этой камеры нельзя попасть в столовую. Заключенным в этой камере негде питаться.
+roomerror_nocanteen_kitchen             В радиусе обслуживания этой кухни нет столовых. Здесь не будут готовить пищу во время трапезы.
+
+ceos_letter                             Здравствуйте,\n\n\nпоздравляю с завершением обучения. Теперь вы настоящий квалифицированный Архитектор тюрем! Совсем скоро вы будете проектировать, строить и управлять собственными тюрьмами, имея лишь пустой клочок земли, да пару груд кирпичей. Но прежде чем браться за дело, послушайте мои советы.\n\n1. Каждой тюрьме нужен Начальник, его надо нанять в первую очередь. Постройте для него рабочий кабинет, и он откроет доступ к многочисленным улучшениям в меню Бюрократия.\n\n2. В самом начале, когда с финансированием туго, постройка индивидуальных камер может сильно ударить по бюджету. Большая общая камера может принять сразу несколько заключенных и позволит сэкономить средства.\n\n3. Кухня и Столовая должны начать работу до прибытия первых заключенных. И не забудьте нанять Поваров. Сытый заключенный — довольный заключенный!\n\n4. Постройка тюрьмы — удовольствие не из дешевых. Вы должны в совершенстве овладеть искусством привлечения финансирования через гранты и контракты. Ознакомиться со списком грантов можно на экране "Отчеты".\n\nНа этом я прощаюсь и желаю вам удачи!!\n\nДиректор,\nКорпорация Prison Architects.
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			Глава *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Смертник
+
+campaignchapter_deathrow_description    
+
+campaigncutscene_deathrowmurder         Двойное убийство
+campaigncutscene_deathrowconfession     Признание
+
+adviser_deathrow_murder1                Я знал, что застану вас обоих.
+adviser_deathrow_murder2                Эдвард! Я...
+adviser_deathrow_murder25               Не надо. Просто… не надо.
+adviser_deathrow_murder3                Что ты задумал?
+
+adviser_deathrow_church1                Чем могу помочь? 
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                Хотите покаяться?
+adviser_deathrow_church3                Не знаю. Я должен что-то с этим сделать. Нельзя жить с таким грузом на сердце.
+adviser_deathrow_church4                Вам придется сдаться. Что бы вы ни натворили, последствий не скрыться.
+adviser_deathrow_church5                И от прошлого не убежать.
+adviser_deathrow_church6                Я хочу вернуться. Хочу простить ее. Хочу, чтобы она простила меня.
+adviser_deathrow_church7                Что бы вы ни сделали, Бог вас простит, стоит только попросить.
+adviser_deathrow_church8                Но вам придется ответить за преступления перед лицом закона. Другого пути нет.
+
+adviser_deathrowintro_1                 Сложное дело.
+adviser_deathrowintro_2                 В тюрьме находится заключенный, осужденный за двойное убийство и приговоренный к смерти.
+adviser_deathrowintro_3                 Теперь дело за нами. Нам поручили построить комнату казни к большому событию.
+adviser_deathrowintrob_1                Построй новое здание здесь.
+adviser_deathrowintrob_2                В первую очередь надо возвести само здание, в котором будет достаточно места для комнаты казни и общей камеры.
+adviser_deathrowintrob_3                С этого и начнем. Построй новое здание здесь.
+
+adviser_deathrow_explain1               За строительство здания отвечают рабочие.
+adviser_deathrow_explain2               Они берут сталь и бетон с этого склада и относят их на стройплощадку.
+adviser_deathrow_explain3               Эти материалы используются для строительства фундамента и каркаса.
+adviser_deathrow_explain4               Эта часть занимает больше всего времени. Хорошенько все продумай, прежде чем строить новое здание.
+adviser_deathrow_explain5               Пока мы ждем можно оглядеться. Используй кнопки WASD или курсор для перемещения, а колесо мыши — для приближения и отдаления.
+
+objective_deathrow_building             Построить здание для комнаты казни.
+
+adviser_deathrow_buildinside1           Новому зданию нужен вход.
+adviser_deathrow_buildinside2           Установи большую решетчатую дверь в южной стене.
+
+objective_deathrow_buildouterdoor       Установить большую решетчатую дверь.
+
+adviser_deathrow_internalwalls1          В здании нужно построить камеру и комнату казни.
+adviser_deathrow_internalwalls2          Разграничь пространство с помощью кирпичных стен.
+
+objective_deathrow_buildinternalwalls   Построить внутренние стены.
+
+adviser_deathrow_internaldoors1          Теперь установи большую решетчатую дверь в образовавшихся проемах.
+adviser_deathrow_internaldoors2          Перед установкой объекты можно вращать щелчком средней кнопки мыши (или кнопкой R).
+
+objective_deathrow_buildinternaldoors   Установить внутренние двери (щелчок средней кнопки мыши или кнопка R для вращения объекта)
+
+adviser_deathrow_designation1           Неплохо. Теперь надо назначить комнаты.
+adviser_deathrow_designation2           Меньшую комнату сделай камерой. В ней мы разместим приговоренного к смерти.
+adviser_deathrow_designation3           Затем укажи, что в большом помещении будет комната казни.
+
+objective_deathrow_designatecell        Указать место для камеры
+objective_deathrow_designateexecution   Указать место для комнаты казни
+
+adviser_deathrow_roomrequirements1      Новые комнаты бесполезны, пока они не отвечают стандартным требованиям.
+adviser_deathrow_roomrequirements2      В камере надо установить кровать и туалет.
+adviser_deathrow_roomrequirements3      B комнате казни нужен электрический стул.
+
+objective_deathrow_cellobjects1         Установить кровать.
+objective_deathrow_cellobjects2         Установить туалет.
+objective_deathrow_executionobjects     Установить электрический стул.
+
+adviser_deathrow_optional1              О самом важном мы позаботились. Но можно сделать еще несколько улучшений.
+adviser_deathrow_optional2              Это совсем не обязательно, и больше зависит от того, насколько ты заботишься о заключенных и условиях содержания под стражей.
+adviser_deathrow_optional3              Окно на улицу и небольшая книжная полка сделают камеру намного уютнее.
+adviser_deathrow_optional4              А само здание можно улучшить с помощью более качественного напольного покрытия, например деревянных половиц или мозаичной плитки.
+adviser_deathrow_optional5              Снаружи можно установить освещение и проложить дорожку из брусчатки, если ты думаешь, что так нужно.
+
+adviser_deathrow_transfer05             Вот о ком я говорил — Эдвард Ромси. Представить только, бывший учитель.
+adviser_deathrow_transfer06             Не нам решать, заслужил ли он свое наказание. Суд вынес вердикт. Мы лишь выполняем свою работу.
+adviser_deathrow_transfer1              Когда закончишь улучшать здание, можно начать перевод заключенного в новую камеру.
+adviser_deathrow_transfer2              Для этого выбери его щелчком мыши, а затем нажми на любое место за пределами камеры правой кнопкой мыши.
+
+objective_deathrow_path                 (ДОПОЛНИТЕЛЬНО) Построить дорожку к новому зданию
+objective_deathrow_window               (ДОПОЛНИТЕЛЬНО) Установить окно в камере
+objective_deathrow_bookshelf            (ДОПОЛНИТЕЛЬНО) Установить книжную полку в камере
+objective_deathrow_flooring             (ДОПОЛНИТЕЛЬНО) Положить напольное покрытие более высокого качества
+objective_deathrow_outerlights          (ДОПОЛНИТЕЛЬНО) Установить освещение вокруг здания
+objective_deathrow_transferinmate       Закончив с улучшениями, начните перевод заключенного. Для этого щелкните на полароид в камере Эдварда.
+
+adviser_deathrow_setupmurder1           Этот парень не стоит и одной слезы. Он хладнокровный убийца, и ответит за свое преступление.
+adviser_deathrow_setupmurder2           У нас признание есть. Хотите ознакомиться?
+adviser_deathrow_setupmurder3           Та еще история. "Было около 11 ночи. Свет уже не горел. Но я знал, что она дома..."
+adviser_deathrow_postmurder1            Говорю же, хладнокровный убийца.
+adviser_deathrow_postmurder2            По мне, дело ясное. Именно для таких, как он, и придуман электрический стул.
+adviser_deathrow_postmurder3            Все люди заслуживают прощение, даже он. Не стоит столь бездумно выносить окончательный приговор.
+adviser_deathrow_postmurder4            То, что он застукал жену с любовником — не оправдание для убийства.
+adviser_deathrow_postmurder5            У него с собой было заряженное оружие: он знал, что застанет их вместе. Двойное предумышленное убийство.
+adviser_deathrow_postmurder6            Он сотрудничал с властями. Штат наказывает его в назидание другим.
+adviser_deathrow_postmurder7            Случись это преступление на 100 миль к северу, его бы ждало пожизненное заключение. Разве это справедливость?
+adviser_deathrow_postmurder8            И что вы предлагаете? Отпустить его? Я буду спать куда крепче, когда он сдохнет.
+           
+
+adviser_deathrowelectricity_1           Пока все идет как надо.
+adviser_deathrowelectricity_2           Но есть одна проблема: без электропитания комната казни не будет работать.
+adviser_deathrowelectricity_3           Нужно подключить ее к электросети.
+
+adviser_deathrowelectricityb_1          Так выглядит тюрьма в режиме Инженерные сети. Здесь хорошо видна вся электропроводка на территории.
+adviser_deathrowelectricityb_2          Каждое здание в тюрьме связано с генератором большими подземными кабелями питания.  
+adviser_deathrowelectricityb_3          Подстанция берет электричество из общей сети и распределяет его по территории тюрьмы.
+adviser_deathrowelectricityb_4          Сейчас целое крыло отключено от питания. Нигде не горит свет.
+adviser_deathrowelectricityb_4b         Перейди в режим Инженерные сети, чтобы понять как можно исправить эту проблему.
+adviser_deathrowelectricityb_5          Ближайший кабель электропитания слишком далеко. Наши инженеры не могут подсоединить этот сектор.
+adviser_deathrowelectricityb_6          Протяни электрический кабель, чтобы запитать это крыло.
+
+objective_deathrow_cellpower            Подключить комнаты к электросети.
+
+adviser_deathrow_connectchair_1         Не только лампам нужно питание. Электрическому стулу тоже.
+adviser_deathrow_connectchair_2         Проведи питание от генератора в комнату казни с помощью кабелей.
+adviser_deathrow_connectchair_3         Электрический стул относится к особой категории электроприборов. Ему требуется выделенная линия питания. Нужно соединить стул напрямую с главным кабелем.
+
+objective_deathrow_chairpower           Подключить электрический стул к электросети.
+objective_deathrow_condemnedcellpower   Подключить камеру к электросети.
+
+adviser_deathrow_testchair_1            Что ж, мы почти закончили. Нужно устроить хотя бы один контрольный запуск, прежде чем использовать комнату казни. 
+adviser_deathrow_testchair_2            Я включу стул на пару секунд, чтобы проверить, как он работает.
+adviser_deathrow_testchair_3            Дело дрянь. Похоже, из-за резкого скачка напряжения сработал автоматический выключатель генератора. Вся тюрьма осталась без света.
+adviser_deathrow_testchair_4            Для питания электрического стула потребуется куда больше мощности.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   Сперва надо включить питание. Это делается в два этапа.
+adviser_deathrow_testchair_5b           Шаг первый: перезапустить генератор щелчком мыши (в появившемся меню выбери Включить).
+adviser_deathrow_testchair_6            Шаг второй: построить 3 дополнительных конденсатора, чтобы хватило мощности для питания электрического стула.
+adviser_deathrow_testchair_7            Как закончишь, устрой еще одно испытание электрического стула. Для этого щелкни на нем и выбери Включить.
+
+objective_deathrow_poweron              Перезапустить генератор (для этого щелкни на нем и выбери Включить).
+objective_deathrow_expandpower          Установить три новых конденсатора рядом с генератором
+objective_deathrow_chairworking         Устроить повторное испытание стула (для этого щелкни на нем и выбери Включить).
+
+adviser_deathrow_execution_1            Отлично. Думаю, все готово к работе.
+adviser_deathrow_execution_2            Дальше от нас ничего не зависит. Мы сработали на самом высоком уровне, и это главное в нашем деле. 
+adviser_deathrow_execution_3            Советую не принимать близко к сердцу то, что произойдет дальше.
+
+adviser_deathrow_setupexecution1        Пора, Эдвард. 
+adviser_deathrow_setupexecution2        Ты все сделал правильно, даже если в этом мире тебя не готовы простить.
+adviser_deathrow_setupexecution3        Скоро ты предстанешь перед Богом. И последнее слово всегда за ним.
+
+adviser_deathrow_setupexecution4        Эдвард Ромси. Вы признаны виновным в двойном убийстве первой степени.
+adviser_deathrow_setupexecution5        Вы приговариваетесь к смерти.
+adviser_deathrow_setupexecution6        Последнее слово?
+adviser_deathrow_setupexecution7        Сьюзан...
+adviser_deathrow_setupexecution8        Мне жаль.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 Продажа предыдущей тюрьмы
+finance_cost_equiptazer                 Инвентарь: Шокер
+finance_cost_equipbodyarmour            Инвентарь: Бронежилет
+finance_cost_exports                    Отправка товаров
+finance_cost_foundations                Здания
+finance_cost_cashflow                   Прибыль
+finance_cost_bankloan                   Займы
+finance_cost_bankloan_repayment         Погашение займов
+finance_cost_sharesale                  Продажа акций
+finance_cost_sharepurchase              Покупка акций
+finance_cost_grantadvance               Авансовый платеж по гранту
+finance_cost_grantcompletion            Плата за завершение гранта
+finance_cost_reformprogram              Занятия по программам реформы
+finance_cost_repair                     Починить
+finance_cost_sellobject                 Продать объект
+finance_cost_landpurchase               Покупка земли
+finance_cost_prisonerintake             Прибытие заключенных
+finance_cost_grantcancellation          Стоимость отмены
+finance_cost_grantrefund                - Возмещение: *X
+finance_cost_grantfine                  - Штраф: *X
+finance_cost_executionfine              Штраф за неправомерную казнь
+finance_cost_executioncompensation      Компенсация за казнь
+finance_cost_shopintake                 Доход магазина
+finance_cost_prisonerwages              Зарплата заключенных
+finance_cost_fine                       Штраф
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ...
+clock_add_hour                          +
+clock_am                                am
+clock_pm                                pm
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  Из-за скачка напряжения произошла перегрузка генератора и начался пожар!
+event_powerstationfire_x                Мощный скачок напряжения вызвал колоссальную перегрузку генератора, что привело к взрыву!
+event_powerstationfirelarge             Из-за скачка напряжения произошла перегрузка генератора и начался пожар!
+event_powerstationfirelarge_x           Мощный скачок напряжения вызвал колоссальную перегрузку генератора, что привело к взрыву!
+event_kitchenfire                       На кухне начался пожар!
+event_waterpipeburst                    Водопроводная труба лопнула, вода затапливает помещение. Срочно отремонтируй ее или последствия будут самыми плачевными.
+event_bulkintake                        Часть соседней тюрьмы не пригодна для использования в связи с чрезвычайным происшествием. Нам придется принять их заключенных, так как других тюрем поблизости нет. Доставка состоится в скором времени.
+event_workshopaccident                  В мастерской произошел несчастный случай с заключенным! Срочно отправляй доктора!
+event_subsidence                        Из-за проседания грунта часть внешней стены разрушена. Почини ее как можно скорее!
+event_earthquake                        Землетрясение вызвало обрушение части тюрьмы!
+event_virus                             Многие заключенные жалуются на здоровье. Необходимо найти разносчика заболевания и поместить его в карантин, чтобы остановить распространение.
+event_virus_x                           Многие заключенные жалуются на серьезные проблемы со здоровьем. Необходимо поместить больных в карантин и вылечить их, пока зараза не начала распространяться дальше.
+
+event_massassassination_1               Мы узнали об утечке сведений о нескольких федеральных свидетелях. Некоторые из них сидят в нашей тюрьме.
+event_massassassination_2               На их жизнь уже совершали покушения, и мы не можем допустить их смерти. Найди этих заключенных и позаботься о том, чтобы они дожили до суда.
+event_massassassination_3_x             Мы слишком поздно узнали об этом, времени до покушения осталось очень мало.
+
+event_tvremovaldemand_1                 Пресса затеяла кампанию в отношении удобств, которыми пользуются заключенные. Давление на нас растет.
+event_tvremovaldemand_2                 Отныне телевизоры в зонах общего пользования находятся под запретом. Убери все телевизоры из общих зон или будешь оштрафован. Даю тебе 6 часов. 
+event_tvremovaldemand_fine              Ты нарушил закон, не убрав телевизоры из зон общего пользования, и вынужден оплатить штраф. Штрафы будут приходить и дальше, пока законное требование не будет выполнено.
+event_tvremovaldemand_complete          Пресса переключила внимание на другую проблему, и закон о запрете телевизоров в общих зонах утратил силу. Если хочешь, можешь установить их снова.
+
+event_weightsremovaldemand_1            Пресса затеяла кампанию на тему удобств, которыми пользуются заключенные. Давление на нас растет.
+event_weightsremovaldemand_2            С этого момента тренажеры в тюремном дворе находятся под запретом. Убери все Силовые тренажеры из Двора или будешь оштрафован. Даю тебе 6 часов. 
+event_weightsremovaldemand_fine         Ты нарушил закон, не убрав Силовые тренажеры из Двора, и вынужден оплатить штраф. Штрафы будут приходить и дальше, пока законное требование не будет выполнено.
+event_weightsremovaldemand_complete     Пресса переключила внимание на другую проблему, и закон о запрете силовых тренажеров в тюремных дворах утратил силу. Если хочешь, можешь установить их снова.
+
+event_lessfooddemand_1                  Совет директоров проводит эксперимент с целью сократить расходы на наши учреждения, в том числе и на твою тюрьму.
+event_lessfooddemand_2                  Мы хотим, чтобы питание заключенных состояло из малого количества и низкого разнообразия пищи. Это позволит оценить экономию бюджетных средств.
+event_lessfooddemand_fine               Ты решил не применять новые правила в отношении питания заключенных, поэтому потенциально сэкономленные средства будут взяты с твоего счета. Мы и дальше будем списывать средства с твоего счета, пока наши распоряжения не будут выполнены.
+event_lessfooddemand_complete           Эксперимент с сокращением бюджета на питание не показал убедительных результатов. Можешь изменить правила в отношении питания заключенных на свое усмотрение.
+
+event_removevisitationdemand_1          Происшествие в другой тюрьме обратило наше внимание на потенциальную проблему с безопасностью во время свидания заключенных с семьей.
+event_removevisitationdemand_2          Все свидания следует отменить, пока мы не найдем подходящее решение. У тебя есть 12 часов, чтобы убрать все Комнаты для свиданий с территории тюрьмы.
+event_removevisitationdemand_fine       Ты не убрал Комнаты для свиданий из тюрьмы, несмотря на угрозу безопасности. Пусть штраф будет тебе наказанием. Штрафы будут приходить, пока наши распоряжения не будут выполнены.
+event_removevisitationdemand_complete   Проверка безопасности во время свиданий закончена. Теперь ты можешь снова добавить комнаты для свиданий.
+
+event_lessworkdemand_1                  Мне доложили, что заключенные недовольны тем, сколько времени они тратят на работу. Если не пойти им на встречу, последуют беспорядки.
+event_lessworkdemand_2                  Охранник слышал как кто-то сказал, что если работать заставят больше 2 часов, они это место "разнесут к чертям".
+event_lessworkdemand_ignore             Похоже, заключенные сдались и успокоились. Они по-прежнему недовольны, но зато понимают, кто в тюрьме хозяин.
+event_lessworkdemand_complete                Заключенные успокоились и больше не жалуются на режим работы. Последние несколько дней были для них, как отпуск. Теперь можно снова отправлять их на работу.
+
+event_moresleepdemand_1                 К нам поступают жалобы на то, что заключенным не выделают достаточно времени на сон, и их это очень раздражает.
+event_moresleepdemand_2                 Они требуют по крайней мере 7 часов на сон, а в противном случае грозят беспорядками.
+event_moresleepdemand_ignore            Похоже, заключенные выпустили весь пар и больше не жалуются на недостаточное время для сна. Наверное, слишком устали.
+event_moresleepdemand_complete          Вопрос с режимом сна заключенных успешно решен. Теперь можно снова менять расписание на свое усмотрение.
+
+event_morefreetimedemand_1              Заключенным не нравится, что в их распорядке дня отведено слишком мало свободного времени.
+event_morefreetimedemand_2              Ходят слухи, что в тюрьме могут начаться беспорядки, если не решить эту проблему.
+event_morefreetimedemand_ignore         Заключенные успокоились и больше не жалуются на недостаток свободного времени. Скорее всего поняли, что в карцере у них бы его совсем не осталось.
+event_morefreetimedemand_complete       Мы выполнили просьбу заключенных и выделили больше свободного времени. Теперь можно снова менять расписание на свое усмотрение.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Новая партия заключенных
+objective_tvremovaldemand               Убрать Телевизоры из Общих зон
+objective_tvremovaldemand_child         Убедитесь, что в Общих зонах нет Телевизоров
+objective_weightsremovaldemand          Убрать Силовые тренажеры из Двора
+objective_weightsremovaldemand_child    Убедитесь, что во Дворе не осталось ни одного Силового тренажера
+objective_lessfooddemand                Снизить количество и разнообразие пищи
+objective_lessfooddemand_child          Назначить низкое количество и разнообразие пищи на экране Правила — Питание
+objective_removevisitationdemand        Убрать все Комнаты для свиданий
+objective_removevisitationdemand_child  Убедитесь, что в тюрьме нет комнат для свиданий до окончания проверки безопасности
+objective_virus                         Эпидемия
+objective_virus_child                   Всего зараженных заключенных:
+objective_massassassination             Федеральный свидетель\nДата суда
+objective_massassassination_child       Выжившие свидетели:
+objective_lessworkdemand                Заключенные требуют меньше работы
+objective_lessworkdemand_child          Сократить время на работу до 2 часов или менее
+objective_moresleepdemand               Выделить заключенным больше времени на сон
+objective_moresleepdemand_child         Увеличить время на сон до 7 часов или более
+objective_morefreetimedemand            Предоставить заключенным больше свободного времени
+objective_morefreetimedemand_child      Увеличить свободное время до 6 часов или более
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     Начальник тюрьмы
+warden_default_desc                     Самый уравновешенный человек на планете. Посвятил жизнь своей работе. Люди зовут его просто Начальник.
+warden_lobbyist_name                    Лоббист
+warden_lobbyist_desc                    У Лоббиста есть высокопоставленные друзья, и он позаботится о том, чтобы в вашу тюрьму присылали больше спокойных заключенных, которыми легко управлять.\n\n - Вполовину снижает вероятность получения Жестоких, Беспощадных, Непредсказуемых, Смертоносных заключенных и Бойцов.
+warden_lobbyist_desc_short              Вполовину снижает вероятность получения Жестоких, Беспощадных, Непредсказуемых, Смертоносных заключенных и Бойцов.
+warden_fear_name                        Рита
+warden_fear_desc                        Безжалостная Рита умело вселяет ужас и внушает страх, не нарушая при этом закон. Некоторые верят, что с собой она носит плетку.\n\n - Вполовину снижает вероятность появление Выносливых и Бесстрашных заключенных\n - Позволяет подавлять заключенных в два раза быстрее
+warden_fear_desc_short                  Вполовину снижает вероятность появление Выносливых и Бесстрашных заключенных\n - Позволяет подавлять заключенных в два раза быстрее
+warden_tunnels_name                     Джей Пэриуинкл
+warden_tunnels_desc                     Пэриуинкл говорит, что во время войны служил сапером. При этом не уточняет, какой именно войны, но однозначно знает толк в туннелях.\n\n - На 50% увеличивает вероятность полного раскрытия всех обнаруженных туннелей Сторожевыми псами.
+warden_tunnels_desc_short               На 50% увеличивает вероятность полного раскрытия всех обнаруженных туннелей Сторожевыми псами.
+warden_calming_name                     Миротворец
+warden_calming_desc                     Миротворец обладает уникальной способностью успокаивать даже самых буйных типов. Достаточно оказаться с ним в одной комнате — и человек становится кротким и послушным.\n\n - Снижает общую напряженность в вашей тюрьме, в результате чего заключенные реже устраивают беспорядки 
+warden_calming_desc_short               Снижает общую напряженность в вашей тюрьме, в результате чего заключенные реже устраивают беспорядки 
+warden_contraband_name                  Сафара Акнова
+warden_contraband_desc                  Сафара Акнова обладает незапятнанной репутацией и безупречным послужным списком. Однако она с легкостью проворачивает темные дела и подпольные аферы.\n\n - Позволяет получать небольшой процент с перепродажи любой найденной контрабанды.\n - Если у заключенных нашли контрабанду, их сбережения облагаются "штрафом"
+warden_contraband_desc_short            Позволяет получать небольшой процент с перепродажи любой найденной контрабанды\n - Если у заключенных нашли контрабанду, их сбережения облагаются "штрафом"
+buildtoolbar_wardenlobbyist             Лоббист
+buildtoolbar_tooltip_wardenlobbyist     В вашу тюрьму будут привозить меньше агрессивных заключенных
+interfacetopbar_tension_calmingwarden   Начальник тюрьмы умеет успокаивать заключенных
+warden_consultingfee                    Плата за консультацию
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Взяточничество
+crime_aggravatedburglary          Кража со взломом при отягчающих обстоятельствах
+crime_burglary                    Кража со взломом
+crime_arson                       Поджог
+crime_criminaldamage              Хулиганство
+crime_vandalism                   Вандализм
+crime_violentdisorder             Нарушение общественного порядка с применением насилия
+crime_possession                  Хранение наркотиков
+crime_possessionintenttosupply    Хранение наркотиков с целью продажи
+crime_forgery                     Подделка документов
+crime_fraud                       Мошенничество
+crime_counterfeightingcurrency    Фальшивомонетничество
+crime_falseaccounting             Составление ложных отчетов
+crime_insidertrading              Операции с ценными бумагами на основе конфиденциальной информации
+crime_moneylaundering             Легализация незаконных доходов 
+crime_aggravatedvehicletheft      Угон автомобиля при отягчающих обстоятельствах
+crime_joyriding                   Угон автомобиля с целью покататься
+crime_dangerousdriving            Опасное вождение
+crime_deathbydangerousdriving     Опасное вождение, повлекшее смерть
+crime_drivingunderinfluence       Управление автомобилем в состоянии алкогольного опьянения или под действием наркотиков
+crime_kidnapping                  Похищение человека
+crime_falseimprisonment           Неправомерное лишение свободы
+crime_torture                     Пытки
+crime_assault                     Нападение
+crime_aggravatedassault           Нападение при отягчающих обстоятельствах
+crime_assaultinganofficer         Нападение на сотрудника полиции
+crime_greviousbodilyharm          Нанесение тяжких телесных повреждений
+crime_murder                      Убийство
+crime_attemptedmurder             Покушение на убийство
+crime_manslaughter                Непредумышленное убийство
+crime_pervertingcourseofjustice   Воспрепятствование правосудию
+crime_contemptofcourt             Неуважение к суду
+crime_drunkdisorderlybehaviour    Нарушение общественного порядка в нетрезвом состоянии
+crime_escapingfromlawfulcustody   Побег из-под стражи
+crime_perjury                     Лжесвидетельство
+crime_rioting                     Учинение массовых беспорядков
+crime_espionage                   Шпионаж
+crime_violentdisorder             Нарушение общественного порядка с применением насилия
+crime_trafficking                 Незаконное распространение
+crime_armedrobbery                Вооруженное ограбление
+crime_robbery                     Ограбление
+crime_carjacking                  Угон автомобиля с пассажирами
+crime_blackmail                   Шантаж
+crime_handlingstolengoods         Хранение краденого имущества
+crime_videogamepiracy             Пиратство (видеоигры)
+crime_indievideogamepiracy        Пиратство (инди-игры)
+crime_shoplifting                 Кража в магазине
+crime_pickpocketing               Карманная кража
+crime_cartheft                    Угон автомобиля
+crime_rape                        Изнасилование
+crime_grossindecency              Грубая непристойность
+crime_voyeurism                   Вуайеризм

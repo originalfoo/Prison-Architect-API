@@ -1,0 +1,5 @@
+Name        "German"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official German translation of Prison Architect"
+ThumbnailSprite german

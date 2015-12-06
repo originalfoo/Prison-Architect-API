@@ -1,0 +1,5 @@
+Name        "Romanian"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official Romanian translation of Prison Architect"
+ThumbnailSprite romanian

@@ -1,0 +1,883 @@
+﻿
+campaigncutscene_tooltip 				(Hikayenin bir sonraki bölümünü başlatmak için tıkla)
+campaignchapter_locked                  (Kilitli)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        Devasa bir yangın bu hapishanenin mutfağını ve kantinini tahrip etti. Mahkumları beslemenin hızlıca bir yolunu bulamazsak büyük çaplı bir kargaşayla karşı karşıya kalacağız.\nGıda krizini çöz, ardından Mutfağı ve Kantini yeniden inşa et.
+
+adviser_food_fire_1                     Diğer binalarımızın birinde büyüyen bir kriz var.
+adviser_food_fire_2                     Birisi hapishane mutfağında yangın çıkarmış. Öncelik ateşi söndürmek. Zayiatı durdur ve daha fazla hasarın oluşmasına engel ol. 
+adviser_food_fire_3                     İtfaiyeyi çağırmak için araç çubuğundan Acil Hizmetler düğmesini kullan. 
+adviser_food_fire_4                     Hapishanenin tamamını yerle bir etmeden bu yangını kontrol altına al!
+
+objective_food_callfirebrigade          İtfaiyeyi ara
+objective_food_extinguishflames         Alevleri söndür
+
+objective_food_callfirebrigade_description 	İtfaiye'yi çağırmak için araç çubuğundan Acil Durumlar'a ve ardından İtfaiyeci'ye tıkla.
+objective_food_extinguishflames_description  İtfaiyeci'yi seçtikten sonra, H tuşuna basılı tutarak hortumunu manuel olarak hedefleyebilirsin. Bunu kullanarak hortumları alevlerin merkezinde topla.\n\nİtfaiyecileri ateşe olabildiğince yakın tut; böylece daha etkili olacaklar.
+
+adviser_food_savedon1                   Aman Tanrım. enkazdan sağ kurtulan biri var.
+adviser_food_savedon2					Hayatta olmaz! Bu Don Palermo. Tüm bu mahkumların arasında...bu bizim Çete Lideri olmalı. 
+adviser_food_donintro2					Onun için kötü haber, bütçe kesintileri dolayısıyla tüm kadrolu doktorlarımızın işine son vermek zorunda kaldık. 
+adviser_food_donintro3				 	İyi haber ise, Revirimiz hala kullanılabilir durumda. Biz bu karışıklığı düzeltene kadar Don Palermo ile ilgilenmeleri için birkaç Doktor işe al. 
+
+adviser_food_afterfire3                 Bu karışıklığı düzeltmemiz gerek.
+adviser_food_afterfire4                 Buldozer aracını kullanarak harabe olmuş kantin ve mutfağı yık. Bütün molozu temizlemen gerek. 
+adviser_food_afterfire6                 Yol kenarında bir Çöplük Alanı belirle. İşçilerimiz kalıntıları çöp kamyonunun götürmesi için buraya bırakacaklar.
+adviser_food_dismissfiremen1			Son olarak, işlerini tamamladıklarında itfaiyecileri evlerine gönderebilirsin.
+adviser_food_gamespeed                  Bu binaları kaldırmak biraz zaman alacak. Saatin altındaki düğmeleri kullanarak zamanı daha hızlı geçirebilirsin.
+
+adviser_food_todolist1					Yapılacaklar listene bu hedeflerin her biri için daha fazla bilgi ekledim.
+adviser_food_todolist2					Ne yapacağından emin olamadığında, nesneyi vurgulayarak ek talimatlara göz atabilirsin.
+
+objective_food_buildmedicalward_doctors Revirde kadro oluşturmak için birkaç Doktor işe al
+
+objective_food_DismissAllFiremen		İtfaiyecileri Kov
+objective_food_cleararea                Yanık kalıntısını temizle 
+objective_food_buildgarbagearea         Bir Çöplük Alanı belirle
+objective_food_clearcanteen             Kantin kalıntısını temizle
+objective_food_clearkitchen             Mutfak kalıntısını temizle
+objective_food_hiremoreworkmen			(İSTEĞE BAĞLI) Yıkımı hızlandırmak için daha fazla işçi işe al
+
+objective_food_dismissallfiremen_description 	Bir Acil Durum çağrısına son vermek için, ekranın sağ tarafındaki simgesini bul ve kırmızı X daireli düğmeye tıklayarak onu yok et. 
+objective_food_cleararea_description 	Buldozer aracını kullanarak binaları yık. Buldozer aracını, ana araç çubuğunda 'Temeller' altında bulabilirsin.
+
+adviser_food_familyvisit1				Aferin.
+adviser_food_familyvisit2 				Haydi, kazazedemize bir göz atalm.
+
+adviser_food_troublesoon1				Yemek olmadan bu mahkumlar birkaç gün içinde duvarı yerle bir eder.
+adviser_food_troublesoon2 				Bir isyanla karşı karşıya gelmeden hapishane güvenliğini sağlamalıyız. 
+adviser_food_troublesoon3 				Bu Yerleştirme ekranı. Buradan tüm gardiyanların taktiksel yerleştirmesini kontrol edebilirsin.
+adviser_food_troublesoon4 				Tüm hücre blokları ve odalarına yayılacak şekilde gardiyan yerleştir. Hapishane etrafındaki görev yerlerine 10 gardiyan ata. Bu kadar güç gösterisi şimdilik yeterli.
+adviser_food_troublesoon5				Ayrıca yeni binaları inşa edeceğimiz iç avlu etrafında devriye istiyorum. 
+adviser_food_troublesoon6				Son bir şey. Kullanılmayan kantinde bazı gıda kasaları bozulmuş. Böcek istilası olmadan onları çöpe at.
+
+objective_food_deployguards				Hapishane etrafına 10 gardiyan yerleştir.
+objective_food_deploypatrol				İç avluda devriye atmak üzere 2 gardiyan ata 
+
+objective_food_deployguards_description		Gardiyanları yerleştirmek için Yerleştirme ekranını aç, ardından Görev Yeri belirlemek için bir bölgeye tıkla. Bir gardiyan otomatik olarak o görev yerine atanacaktır.
+objective_food_deploypatrol_description		Yerleştirme ekranını aç, ardından Devriyeler'i seç. Devriye güzergahını çizmek için tıkla ve sürükle.\n\nGardiyanları devriye yerine atamak için, devriye yeri içinde herhangi bir kareye tekrar tıkla.
+
+objective_food_dumpfood 				Bozulmuş gıda ürünlerini çöpe at
+objective_food_dumpfood_description		Bozulmuş gıda ürünleri, hapishanenin Kuzey Doğu kadranında Erzak dolabında bulunabilir.\n\nHerhangi bir eşyayı çöpe atmak için ona tıkla ve ardından açılır menüde 'Çöpe At'a tıkla.
+
+adviser_food_doncantspeak1				....
+adviser_food_doncantspeak2				öğk .... ...
+
+adviser_food_doninfirmary0              Sanırım bir şeyler söylemek istiyor.
+adviser_food_doninfirmary1				Hangi saksocu, ibne tokmakçısı, fare dölü orospu çocuğu bunu yaptı?
+adviser_food_doninfirmary2 				Bunu sana kimse yapmadı babalık. Bu bir kazaydı.
+adviser_food_doninfirmary3 				Siz ikiniz, şu pis kokulu ağzınızı kapatın ve beni iyi dinleyin.
+adviser_food_doninfirmary4 				Bu ateşi siz piçlerden hanginizin çıkardığını bilseydim, kokuşmuş ensenize şaplağı atardım!
+adviser_food_doninfirmary5 				Ama benim vaktim doldu. Bu kahrolası yatakta öleceğim.
+adviser_food_doninfirmary6 				Ve halledilmesi gereken bir aile meselesi var. Elimizdeki tek şey Palermo ismi. Bu yüzden siz bok parçaları gerekeni yapın. Kapiş?
+adviser_food_doninfirmary7				Ne yapılacağını biliyoruz babalık.
+adviser_food_donchat13					Bu iş burada bitmedi Nico.
+adviser_food_donchat14					Arkanı kolla.
+
+adviser_food_founddrugs1				Neler duyduğuma inanamazsın.
+adviser_food_founddrugs2				Adamlarımız bazı eski gıda malzemelerini çöpe atıyordu. Kutularda gizlenmiş şekilde paketlerce uyuşturucu madde ve alkol şişesi buldular.
+adviser_food_founddrugs3				Bir süredir Palermo ailesinin binaya gizlice girmesinden şüpheleniyorduk ancak nasıl girdiklerini henüz belirleyemedik.
+adviser_food_founddrugs4 				Bazen aksilikler hep üst üste gelir.
+
+adviser_food_rebuild1                   Yapılacak hayli işimiz var hala. Mutfağın ve kantinin yerini değiştirmeye odaklanmalıyız.
+adviser_food_rebuild2                   Öncelikle mutfağı yeniden inşa etmeliyiz. Birkaç parça malzeme yerleştirmeli ve birkaç şef işe almalısın.
+adviser_food_rebuild3					Bunlar bittiğinde, bir kantin inşa et.
+adviser_food_rebuild4					Bunların hepsini tamamladığında, şefler otomatik olarak bütün hapishane için yemek hazırlamaya başlayacaklar.
+adviser_food_rebuild5                   Ne yapacağından emin olamadığında, yapılacaklar listesindeki nesneyi vurgulayarak ipuçlarına göz atabilirsin.
+
+adviser_food_fightoutro1  				Harika. Görünüşe göre Palermo ailesi üyeleri tükeniyor.
+
+adviser_food_sprinklerintro1 			Çok ciddi bir uyuşturucu sorunu ile karşı karşıya gelebilirdik. Ancak henüz üstesinden gelmiş değiliz.
+adviser_food_sprinklerintro2 			Mutfağımız ve kantinimiz mevcut ve çalışıyor. Şeflerimiz herkes için yemek hazırlayacak, böylece işler rahatlayacak.
+adviser_food_sprinklers1                Yangının kasten çıkarıldığından endişeleniyorum, umarım bu tekrar yaşanmaz.
+adviser_food_sprinklers2 				Yeni mutfağın ve kantinin üzerine bir sprinkler sistemi yerleştir ve bunları ana su borularına bağla.
+
+adviser_food_explainneeds1 				Tüm mahkumların ihtiyaçları vardır. Bu ihtiyaçlar doğrudan mahkumlarının davranışlarını etkiler. Şu an herkes açlıktan ölüyor, tüm bu bağrış çağrışın sebebi bu.
+adviser_food_explainneeds2 				Gıda en öncelikli ihtiyaçlarından biri, sen de bunu görmezden geldin, günahı senin boynuna. Hapishanede duvardan duvara bir kargaşa çıkması sadece birkaç başarısız yemek ötede.
+adviser_food_explainneeds3 				Mahkumlarının ihtiyaçlarını İhtiyaçlar Raporu'ndan takip edebilirsin. İhtiyaçlar Raporu'nu açmak için sağ altta Raporlar simgesine tıkla.
+adviser_food_explainneeds4				Bu rapor tüm mahkumlarının ihtiyaçlarını bir arada gösterir. Kırmızı, pek çok mahkumun ilgili ihtiyacının karşılanmamasından kızgın olduğu anlamına gelir.
+adviser_food_explainneeds5 				Doğal olarak, hemen hemen herkes için Gıda kırmızı renktir. Ancak bu mahkumlar ayrıca çok sıkılmışlar (İstirahat ihtiyacı) ve hapishane öylesine kötü bir bölgede yer alıyor ki bu da onların Çevre ve Giyim ihtiyaçlarına yansıyor.
+adviser_food_explainneeds6				Hangi ihtiyaçlara öncelikle karşılık vereceğin, yerleşik hapis mimarı olarak senin kararın. Onları meşgul etmek için hücrelerine televizyon yerleştirebilirsin ve yerleri temizlemesi için birkaç Hademe işe alabilirsin.
+adviser_food_explainneeds7				Ya da mahkumlarının tüm ihtiyaçlarını görmezden gelip hapishaneni kontrol altında tutmak için güç kullanabilirsin.
+adviser_food_explainneeds8 				Bunu sana bırakıyorum.
+
+objective_food_needs 					(İSTEĞE BAĞLI) Mahkumlarının ihtiyaçlarıyla ilgilen
+objective_food_handlefoodneed 			(İSTEĞE BAĞLI) Mahkumlarının Gıda ihtiyaçlarıyla ilgilen 
+objective_food_handleboredomneed		(İSTEĞE BAĞLI) Mahkumlarının İstirahat ihtiyaçlarıyla ilgilen 
+objective_food_handleenvironmentneed	(İSTEĞE BAĞLI) Mahkumlarının Çevre ihtiyaçlarıyla ilgilen
+
+objective_food_needs_description 					Tüm mahkumlarının genel ihtiyaçlarını Raporlar'a (ekranın sağ alt tarafında), ardından İhtiyaçlar'a tıklayarak görebilirsin.\nAyrıca bir mahkumu vurgulayarak onu hangi ihtiyaçların etkilediğini görebilirsin.\n\nİhtiyaçların temelli olarak üstesinden gelemezsin; sürekli devam eden bir savaş gibidir.
+objective_food_handlefoodneed_description 			Şeflerimiz herkes için yemek hazırlar ve tüm mahkumlar bir sonraki yemek zamanının sonunda doyurulmuş olmalıdır.
+objective_food_handleboredomneed_description 		Can sıkıntısını etkili bir şekilde gidermek için, her bir kişinin hücresine televizyon yerleştirilebilir. Ya da ortak bir oda inşa edip içine tv ve bilardo masası yerleştirebilirsin.\n\nAyrıca Kantin gibi ortak odalara TV yerleştirebilirsin.
+objective_food_handleenvironmentneed_description 	Birkaç hademe işe al; bunlar yavaş yavaş yeri temizlerler.
+
+adviser_food_needssuccess1 				Mahkumlarının ihtiyaçlarıyla ilgilenmeye kendini çok iyi adadın. Tebrikler.
+adviser_food_needssuccess2 				Muhtemelen şu andan itibaren fark edeceksin, mahkumların en önemli sorunu temiz eşyalarının olmaması. 
+adviser_food_needssuccess3 				Ayrıca bu sorunla ilgilenmek istiyorsan, tüm mahkumlarına yavaş yavaş temiz kıyafet sağlamak için bir çamaşırhane hizmeti başlatmalısın.
+adviser_food_needssuccess4 				Mahkumlarımıza temiz çamaşır sağlamak için bir çamaşırhane inşa et ve daha fazla hademe işe al.
+
+objective_food_laundry 					(İSTEĞE BAĞLI) Temiz Kıyafet
+objective_food_buildlaundry 			(İSTEĞE BAĞLI) Bir çamaşırhane inşa et
+objective_food_hirejanitors             (İSTEĞE BAĞLI) Çamaşırhaneni işletmek için yeteri kadar hademe işe al
+objective_food_handleclothingneed 		(İSTEĞE BAĞLI) Mahkumlarının Kıyafet ihtiyaçlarıyla ilgilen
+
+objective_food_buildkitchen             Bir Mutfak İnşa Et (yaklaşık 12m kare)
+objective_food_buildkitchencookers      En az dört Ocak yerleştir
+objective_food_buildkitchenfridges      En az dört buzdolabı yerleştir
+objective_food_buildkitchensink         Bir eviye yerleştir
+objective_food_buildkitchenbin	 		Mutfağa bir çöp kutusu yerleştir
+objective_food_buildkitchenwatermains 	Eviyeyi ana su hattına bağla
+objective_food_buildkitchenfloor 		(İSTEĞE BAĞLI) Mutfak zeminini geliştir
+
+objective_food_buildkitchen_description		Önce Temelleri inşa etmen gerekli.
+objective_food_buildcanteen_description		Önce Temelleri inşa etmen gerekli.
+
+objective_Food_HireChefs				En az 8 aşçı işe al
+objective_food_CookMeals				(Otomatik) Tüm mahkumlar için yemek hazırla
+
+objective_food_buildcanteen             Bir Kantin inşa et (yaklaşık 20m kare)
+objective_food_buildservingtables       İki servis masası yerleştir
+objective_food_buildcanteentables       En az altı masa yerleştir
+objective_food_buildcanteenchairs       Her masa etrafına iki bank yerleştir
+objective_food_buildcanteenbin	 		Kantine bir çöp kutusu yerleştir
+objective_food_buildcanteenfloor 		(İSTEĞE BAĞLI) Kantin zeminini geliştir
+
+
+objective_food_buildsprinklers          Yeni bir sprinkler sistemi yerleştir
+objective_food_buildsprinklers1         Mutfağa birkaç sprinkler yerleştir
+objective_food_buildsprinklers2         Kantine birkaç sprinkler yerleştir
+objective_food_connectwater             Mutfak sprinklerlerini ana su hattına bağla
+objective_food_connectwater2			Kantin sprinklerlerini ana su hattına bağla
+objective_food_feedprisoners            Tüm mahkumları doyurarak bir yemek servisini tamamla
+
+objective_food_buildkitchenwatermains_description   Büyük borular, yüksek basınç altında, büyük hacimde suyu taşımak için kullanılır. Küçük borular, tek tek öğeleri su şebekesine bağlamak için kullanılır.\n\nBinalarına büyük borular yerleştirmek için YARDIMCI ARAÇLAR'ı kullan. Ardından, küçük boruları kullanarak büyük boruları yakınında su ihtiyacı olan nesnelere bağla.
+objective_food_connectwater_description             Büyük borular, yüksek basınç altında, büyük hacimde suyu taşımak için kullanılır. Küçük borular, tek tek öğeleri su şebekesine bağlamak için kullanılır.\n\nBinalarına büyük borular yerleştirmek için YARDIMCI ARAÇLAR'ı kullan. Ardından, küçük boruları kullanarak büyük boruları yakınında su ihtiyacı olan öğelere bağla.
+objective_food_connectwater2_description            Büyük borular, yüksek basınç altında, büyük hacimde suyu taşımak için kullanılır. Küçük borular, tek tek öğeleri su şebekesine bağlamak için kullanılır.\n\nBinalarına büyük borular yerleştirmek için YARDIMCI ARAÇLAR'ı kullan. Ardından, küçük boruları kullanarak büyük boruları yakınında su ihtiyacı olan nesnelere bağla.
+
+campaigncutscene_foodinfirmary			Revir
+campaigncutscene_foodfamily             Aile
+campaigncutscene_foodfeud               Kavga
+campaigncutscene_foodregret				Pişmanlık
+campaigncutscene_foodsuccession 		Veraset
+
+campaigncutscene_foodfamily_description		Palermo ailesi bir zamanlar Amerika'nın tüm batı sahili boyunca narkotik işiyle uğraştı. Don Palermo ve çocuklarının geçmişini keşfet.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti 
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo 
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermo
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Doğu yakasının en çok korkulan çete ailelerinden birinin patronu.
+cutscene_foodfamily_palermo1			Palermo onlarca yıl FBI'ı atlattı.
+cutscene_foodfamily_palermo02			Don'ın en büyük oğlu ve doğal mirasçısı Anthony Palermo günlük operasyonları yürüttü. 
+cutscene_foodfamily_palermo03			Nico Tamoretti mafya üyesi değildi ama Don'ın tek kızı Vitalia ile evlendikten sonra aile şirketine dahil oldu.
+cutscene_foodfamily_palermo04			Ve Sonny Palermo. Don'ın ikinci oğlu. Ailenin en küçüğü. Bir pitbull gibi asabi ve yarısı kadar akıllı.
+
+cutscene_foodfamily_palermo2 			İmparatorlukları Maine'den Florida'ya uyuşturucu ticaretini yönetti. 
+cutscene_foodfamily_palermo3			Tüm bunlar Anthony suçüstü yakalanana kadar sürdü.
+cutscene_foodfamily_palermo3b           Kıskanç bir koca tarafından vurularak öldürüldü.
+cutscene_foodfamily_palermo4			Aile için ne yazık ki polis, olay yerinde Anthony'nin spor çantasında on iki kilo işlenmemiş kokain buldu. 
+cutscene_foodfamily_palermo5			Ve kanıt doğrudan yukarıya iletildi.
+cutscene_foodfamily_palermo6			Geceleyin Palermo ailesinin inşa ettiği her şey yerle bir oldu. FBI onları hapse tıkmak için her şeye sahipti.
+cutscene_foodfamily_palermo7			Ailenin yaşayan üyelerinden demir parmaklıklar ardında olmayan geride bir tek Don'ın kızı Vitalia kaldı.
+cutscene_foodfamily_palermo8			Onun hakkında pek bir bilgiye sahip değiliz, tek bildiğimiz aile işiyle uğraşması için daima dışarıda tutulduğu. 
+cutscene_foodfamily_palermo9 			Ancak dışarıdan biri bu uyuşturucuları içeriye gönderiyor olmalı.
+
+adviser_food_findalldrugs1				Ticareti yapılan gıda istasyonu bu. Mahkumlar tekrar beslendiklerinde daha çok mutlu olacaklar.
+
+adviser_food_findalldrugs2				Bahse varım, buradaki tüm mahkumlara bu uyuşturucuları satan Palermo'lardı. 
+adviser_food_findalldrugs3				Gardiyanların bana söylediklerine göre yangından beri pek çok mahkum geri çekilme belirtisi gösteriyor. 
+adviser_food_findalldrugs4				Her bir mahkumu ve her bir hücreyi aramanı istiyorum. Bahse varım hapishanenin her yerinde Palermo'nun uyuşturucularını buluruz.
+
+objective_food_findalldrugs					Hapishanedeki tüm uyuşturucuları bul
+objective_food_findalldrugs_description 	Hücre bloğundaki mahkumlara ve ardından 'Hücre Bloğunu Ara'ya tıklayarak her bir hücre bloğunu ara. Veya ekranın alt tarafındaki araç çubuğunda Hücre Aramasını kullan.
+
+objective_food_hiremoreguards 			(İSTEĞE BAĞLI) Aramayı hızlandırmak için daha fazla gardiyan işe al
+
+adviser_food_drugsfound1				Olumlu tarafı daha kötüsü de olmaması, ama uyuşturucu ve alkol bağımlılığıyla ilgili bazı sorunlar var.
+adviser_food_drugsfound2				Bu adamlara yardımcı olmalıyız. Yapılacak tek şey, faaliyetlerini kontrol altına almak ve belirtileriyle ilgilenmektir. 
+adviser_food_drugsfound2b 				Revirde bir uyuşturucu tedavi programını başlat Doktorlarımız, bağımlılarımızın uyuşturucu isteğini hafifletmeye yardımcı olacak bir kimyasal ikame verecekler.
+adviser_food_drugsfound3				Alkolikler için kimyasal bir ikame yok, bu yüzden grup terapisi oturumlarını başlatmamızı öneriyorum. 
+adviser_food_drugsfound4				Bu toplantıları yapmak için yeni bir Ortak Oda inşa etmen gerekecek.
+adviser_food_drugsfound5				Yeni Programları başlatmak için, ekranın sağ alt tarafında 'Raporlar'a ve ardından 'Programlar'a tıkla.
+
+objective_food_drugtreatment			Bir uyuşturucu tedavi programını başlat
+objective_food_cureaddictions			(İSTEĞE BAĞLI) Uyuşturucu müptelası mahkumları tedavi etmeye başla
+objective_food_alcoholprogram			Alkolikler için bir grup terapisi programı başlat
+objective_Food_HelpAlcoholics			(İSTEĞE BAĞLI) Alkoliklere tedaviyle yardım etmeye başla
+objective_food_buildcommonroom 			Bir ortak oda inşa et 
+objective_food_buildcommonroomchairs	8 sandalyelik bir toplantı yeri oluştur
+
+objective_food_drugtreatment_description 	Ekranın sağ alt tarafında 'Raporlar'a tıkla ve ardından 'Programlar' sekmesini seç. Programın adı 'Farmakolojik Uyuşturucu Bağımlılığı Tedavisi'dir ve Revir'de gerçekleştirilir.\n\nMahkumların bu tedaviye katılımlarına izin vermek için Rejim'den en az iki saatlik İş vakti ayarlaman gerekir.
+objective_food_alcoholprogram_description 	Ekranın sağ alt tarafında 'Raporlar'a tıkla ve ardından 'Programlar' sekmesini seç.\n\nMahkumların bu tedaviye katılımlarına izin vermek için Rejim'den en az iki saatlik İş vakti ayarlaman gerekir.
+
+cutscene_food_feudintro1 				Duşta bir olay yaşandı. Bir ceset var. 
+cutscene_food_feudintro2 				Aslında iki ceset var. Şansımıza orada kameralarımız var. 
+cutscene_food_feudintro3 				Müsait olduğunda Duştaki Polaroid'e tıkla ve ne olduğuna bir bakalım.
+
+objective_food_triggerfightscene		Hazır olduğunda Duştaki polaroide tıkla.
+objective_food_triggerfightscene_description 	Duş, binanın Kuzey Batı köşesinde.
+
+cutscene_food_feud1b                    Yalnız. Mükemmel.
+cutscene_food_feud1                     Acele etme.
+cutscene_food_feud2                     Kes saçmalığı. Şu fahişe kız kardeşimin sende ne bulduğunu hiç anlamadım.
+cutscene_food_feud2b 					Bu onun fikri miydi? Yaşlı adamı öldürmek?
+cutscene_food_feud3                     Düşündüğün şey bu muydu seni yağlı yavşak? Onun zarar görmesini istemedim. Onu kendi babam gibi seviyorum.
+cutscene_food_feud3b 					Senin aptallığın yüzünden bu ailenin çökertilmesini görmek beni hasta ediyor.
+cutscene_food_feud4                     Bu ateş senin için yakıldı.
+cutscene_food_feud5                     Öyleyse iyiliğin karşılığını ödemeyi düşün.
+cutscene_food_feud6                     Evliyalık taslama. İkimiz de beni bir gün çıkarmayı planladığını biliyoruz.
+cutscene_food_feud7                     Evet, sen hep ukalaydın Nico. Bak seni ne hale getirdi. Endişelenme, hiçbir şey hissetmeyeceksin.
+cutscene_food_feud8                     Sana dedim. Arkanı kolla.
+cutscene_food_feud8b                    ööööğğğkkkkk!!!!!.....
+cutscene_food_feud8c                    EEEEEEEEHHHHHHHH!!!!
+cutscene_food_feud8d                    Franky ile daha önce tanışmış mıydınız? Piyano teli ile benzersiz bir yeteneği var.
+cutscene_food_feud8e                    Gerçekten, işini bitirdiğinde, intihar olduğunu düşünecekler.
+cutscene_food_feud9                     Bu iş burada bitmedi Nico.
+cutscene_food_feud9b                    Şaka yapıyor olmalısın.
+
+cutscene_food_successionintro			Çok iyi. Burada gerçek bir fark yarattık ve sanırım hapishane tekrar kontrol altında.
+cutscene_food_successionintro2 			Burada kalıp hapishaneyi geliştirebilirsin, ya da diğer binaya geçebiliriz.
+cutscene_food_successionintro3 			Devam etmek için hazır olduğunda Revir'deki Polaroid'e tıkla.
+
+objective_food_runending 				Hazır olduğunda Revir'deki polaroide tıkla.
+objective_food_runending_description	Revir, hapishane binasının güney doğu yakasında.
+
+cutscene_food_succession1				Vitalia! 
+cutscene_food_succession1b				...?
+cutscene_food_succession2				Tatlı yanaklar!
+cutscene_food_succession3				Üzgünüm. İşleri bok ettim.
+cutscene_food_succession4				Sakinleş şimdi.
+cutscene_food_succession5				Babalığın haftayı geçiremeyeceğini söylüyorlar.
+cutscene_food_succession6				Biliyorum. Elveda demeye geldim.
+cutscene_food_succession7				Biliyorsun, şimdi yürüyüp gidebiliriz. Sen ve ben. Bu kahrolası hayat. Her şeyi alıp götürdü.
+cutscene_food_succession8				Bunu sevdim.
+cutscene_food_succession9				Ama ben sevmedim. Ben bir Palermo'yum Nico.
+cutscene_food_succession10				Ve pederin gitmesiyle sen bu yerde grup dışından gelen biri gibi olacaksın. Düşmanlarımız bu aileyi kolayca alt edebilirler. 
+cutscene_food_succession11 				Buna katlanamam. Onlara hala bir Palermo'nun tahtta oturduğunu göstermeliyim.
+cutscene_food_succession12				Ne, buraya beni dövmeye mi geldin? Tüm bu yaşadıklarımızdan sonra mı?
+cutscene_food_succession13				Nico, Nico, Nico. Sen buralarda çok eskisin. 
+cutscene_food_succession14 				Hayır, tatlım. Seni boşuyorum.
+cutscene_food_succession15				O da ne? Şaka mı yapıyorsun? Yanımda ailem olmadan ben burada ölü bir adamım.
+cutscene_food_succession16				Biliyorum tatlım. Artık bu beni ilgilendirmiyor.
+cutscene_food_succession17				Umarım daha iyi bir yer bulursun, babalık.
+cutscene_food_succession18				Elveda Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    Bu işte sempatiye yer yok.
+campaignchapter_riot_description		Alchemico Eyalet Hapishanesinde devam eden bir isyan var. Oraya git ve binanın güvenliğini yeniden sağla.
+
+campaigncutscene_riotintro              Flaş Haber
+
+adviser_riot_newsintro_01				Flaş Haber! 
+adviser_riot_newsintro_02				Alchemico Eyalet Hapishanesinde İsyan - personel ve güvenlik askeri desteği beklemek için alandan geri çekildi.
+adviser_riot_newsintro_1				Birkaç personelden hala haber alınamıyor, bunlardan biri de şirket CEO'su Charles Wallace.
+adviser_riot_newsintro_2				İsyan, bazı üst düzey yargıçların tutuklanması sonrası patladı ...
+adviser_riot_newsintro_3				... bu yargıçların daha sert hapis cezaları vermek karşılığına parasal teşvik aldıkları iddia ediliyordu.
+adviser_riot_newsintro_4				Yangına körükle giderek kaynakların belirttiğine göre yeraltı suç dünyası son zamanlarda bir dizi üst düzey cinayet ile sarsıldı ...
+adviser_riot_newsintro_5				... geçen ay çete lideri Victor Palermo'ya düzenlenen suikast girişimi de bunlardan biri.
+adviser_riot_newsintro_6				Makama nispeten yeni getirilen CEO Charles Wallace'ın vekili, düzeni yeniden sağlamakla görevlendirildi.
+adviser_riot_newsintro_7				Bu zorlu kriz döneminde tecrübe eksikliğinin masraflı olup olmayacağı yeni yeni görülmeye başlandı.
+adviser_riot_newsintro_8                Şu anda yaşam mücadelesi veren Douglas Benedict'in, bu şiddetin ortaya çıkmasında parmağı olan bir elebaşı olduğuna inanılıyor.
+
+adviser_riot_newsintroheller_1 			Belediye Başkanı Calvin Heller bir süre önce yeni bir demeçte bulundu.
+adviser_riot_newsintroheller_2 			Cezalandırıcı devrim ilkelerimizi sorgulayanlar için bu sert bir anımsatıcı olacaktır. 
+adviser_riot_newsintroheller_3 			Bu adamlara barınak ve gıda sağlandı. Paralı işin ayrıcalığı. 
+adviser_riot_newsintroheller_4 			Onların konforunu sağlayan vergi ödeyen halkı bu şekilde ödüllendiriyorlar.
+
+campaigncutscene_riothostages			Rehineler
+adviser_name_riotceo					CEO 
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Dinle. CEO'nuz bizim elimizde. 
+adviser_riot_hostages1b 				Öfffff.... ...
+adviser_riot_hostages2 					İşler böyle yürür. Ben isterim. Siz verirsiniz. 
+adviser_riot_hostages3					Sorun olursa, içeri birini gönderin; eğer bir polis kokusu alırsam kafatasına kurşunu yerleştiririm.
+adviser_riot_hostages4 					Takip edilmeyen bir araç istiyoruz. Pencereleri filmli, deposu dolu olacak. Bir saat içinde. Görüşürüz. 
+adviser_riot_hostages5 					Şimdi, nerede kaldık.
+adviser_riot_hostages5b					O ofiste ne yapıyordun?
+adviser_riot_hostages6					Yemin ederim, hiçbir şey bilmiyorum.
+adviser_riot_hostages7					Birinin yanlış yaptığını anlayacak kadar içgüdüye sahibim.
+adviser_riot_hostages8					Ne saklıyordun?
+adviser_riot_hostages9					Böyle bir yere aitim. Ama çocuk...kime ne faydası oldu ki, o çocuğun cezası daha çok mu?
+adviser_riot_hostages10					Sen bir şeyler biliyorsun ve bana buradan canlı çıkmanın bir yolu olduğunu söylüyorsun.
+
+adviser_riot_hostageheller1 			Bu hiç kabul edilemez. Neler olup bittiğini görmek için o kantinden gözümüzü ayırmamalıyız.
+adviser_riot_hostageheller2 			Kantinin kuzeyinde küçük bir güvenlik odası var. Onu korumamız gerek.
+adviser_riot_hostageheller3 			CCTV konsolunu kurması için birkaç Gardiyan yerleştir. Böylece tüm hücre bloklarının görüntüsünü alabileceğiz.
+
+objective_Riot_MaxSecCameras			Güvenlik odasını tekrar ele geçir
+
+campaigncutscene_riotroulette			Rulet
+
+adviser_riot_rouletteintro1             Güvenlik odasında bir gardiyanımız var. Böylece CCTV kamera sisteminden canlı fotoğraflar alabiliyoruz.
+adviser_riot_rouletteintro2             Haydi, rehine durumunda bir göz atalım.
+adviser_riot_click 						<tıkla>
+adviser_riot_roulette1					Buradan yürüyüp gitmek için son şans patron. Hiç two-ball tag oynadın mı?
+adviser_riot_roulette2 					İki kurşun. Dört boş oda. 
+adviser_riot_roulette2b 				Bunu eskiden Kır Tavşanları ile oynardık. Onların kafasını uçurabiliriz. 
+adviser_riot_roulette3 					Ama sen aynısını yapacaksın.
+adviser_riot_roulette4 					Haydi, basit bir soruyla başlayalım. O ofiste ne yapıyordun.
+adviser_riot_roulette5 					Yemin ederim, hiçbir şey bilmiyorum.
+adviser_riot_roulette5b 				Gerçekten.
+adviser_riot_roulette6 					Peki öyleyse. İlk kim gidiyor? Sen? Ben? Ya bu çocuk?
+adviser_riot_roulette7					Ne biliyorsun. Tıpkı bir Kır Tavşanı gibi.
+adviser_riot_roulette8 					BU DOSYALARDA NE VARDI?
+adviser_riot_roulette9 					Yemin ederim! Bilmiyorum...
+adviser_riot_roulette10 				Şans tükenmek üzere. Oralarda bir yerde hala bir mermi var. Ve ben gördüğüm şeyin ne olduğunu biliyorum.
+adviser_riot_roulette11b 				Kendi gözlerime inanamadım.
+adviser_riot_roulette11c 				Büyük şirketin adamı benim hapishanemde. Çok suçlu görünüyor. 
+adviser_riot_roulette11d 				Sanırım bu dosyalarda, günlük kaydımdan daha fazlası vardı.
+adviser_riot_roulette11					Lütfen. Lütfen yapma. 
+adviser_riot_roulette11e 				Olasılıklar azalıyor, Wallace.
+adviser_riot_roulette12 				Sana ne söyleyeceğim biliyor musun, senin için bu işi kolaylaştıracağım.
+adviser_riot_roulette12b	 			Pekala, bu saçmalık yeter.
+adviser_riot_roulette13 				Senin sıran orospu çocuğu. Eğer bana senden söylemeni istediğim şeyi şimdi söylemezsen.
+adviser_riot_roulette14 				Söyleyemem. Lütfen.
+adviser_riot_roulette15 				Tamam. Lütfen. Lütfen. Ateş etme. Bu paraydı. Hepsi paraydı.
+adviser_riot_roulette16 				Bu kadar mı?
+adviser_riot_roulette17 				Siz değerli varlıklarsınız. Burada ne kadar uzun kalırsanız, o kadar çok kar ederiz. Biz sadece kuralları esnetiyoruz. 
+adviser_riot_roulette17b				Bu dosya kanıttı.
+adviser_riot_roulette18 				Öyleyse bizim değerimiz nedir? Bizi içeride tutmak için siz ne alıyorsunuz?
+adviser_riot_roulette19 				Yıllık yetmiş üç bin dolar.
+adviser_riot_roulette20					Kişi başı mı? Hassiktir. Geri ödeme vaktin geldi.
+
+campaigncutscene_riotassault 			İhlal
+
+adviser_riot_assault01					İşte bu. Bu durumu sonlandırmanın zamanı geldi. 
+adviser_riot_assault02 					Ekibin hepsi bitkin düşmüş konumda
+adviser_riot_assault03					Tekerlekli aracımı istiyorum. Wallace bize katılıyor. Ve eğer beni birinin takip ettiğini yakalarsam, yolda onun parçalarını topluyor olursunuz.
+adviser_riot_assault2 					Tamam öyleyse büyük adam. Bizimle geliyorsun. Sana refakat etmek gibi aptalca bir şey yaparak kendilerini riske atmazlar.
+adviser_riot_assault3 					Hiçbirimiz buradan çıkmıyoruz. İstedikleri sen değilsin.
+adviser_riot_assault4 					Sen neden bahsediyorsun?
+adviser_riot_assault5					Ben bunu para için yaptım. Ama O siyasi kazanımlar için yaptı. Cümleler ne kadar uzun olursa o kadar fazla oy alır.
+adviser_riot_assault6					Sen kiminle konuşuyorsun lan?
+adviser_riot_assault7					Belediye Başkanı Heller Bu onun projesiydi. Ben sadece tekerlekleri yağladım. 
+adviser_riot_assault7b 					Bu dosyalarda onun kariyerini yok edebilecek kadar yeterli delil var.
+adviser_riot_assault8					Dalga geçiyorsun.
+adviser_riot_assault9 					O da ne...
+adviser_riot_assault9b					Geliyorlar, hazırlan!
+adviser_riot_assault10					SENİ UYARMIŞTIM!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				Arabulucu
+
+adviser_riot_negotiator1 				Burada işler kontrolden çıktı. Sorumlu kimse yok.
+adviser_riot_negotiator2 				Çok sayıda acil durumumuz var ve geriye kalan gardiyanlar isyan olan hücre bloklarına girmeyecekler. Alandan geri çekilmek zorunda kaldık.
+adviser_riot_negotiator3 				Ne yapılması gerektiğini hesapla ve işler çığırından çıkmadan buna bir son ver.
+adviser_riot_negotiator4 				İsyan Polisi birkaç dakika içinde burada olur.
+
+adviser_riot_firstreinforcements1 		İlk müdahale ekibi geldi. 
+adviser_riot_firstreinforcements2 	 	Bunlar İsyan Gardiyanları ve daha fazla zırhla donanmışlar. Bu adamları kullanarak, ele geçirilen koğuşları geri almaya başla. 
+adviser_riot_firstreinforcements3 		Ayrıca yakındaki eyalet hapishanesinden birkaç sağlık çavuşumuz var. 
+adviser_riot_firstreinforcements4 		Hapishaneyi geri alırken, İsyan Gardiyanlarına acil tıbbi bakım vermek için bu sağlık çavuşu kullanmanı tavsiye ederim.
+
+objective_Riot_StopTheRiot 				İsyanı bastır
+objective_Riot_StopTheRiot_description  Hiç kimse iş başında değil. Neler olup bittiğini öğrenmen gerek.
+
+adviser_riot_helleradvice1				Sanırım konuştuğum kişi CEO'nun vekiliydi. 
+adviser_riot_helleradvice2 				Bunun çok zor bir zaman olduğunu anlıyorum ve biz hepimiz yoğun bir denetim altındayız. İçin rahat olsun, tüm kaynakları kullanmak için sana tam destek sunuyorum. 
+adviser_riot_deployguards1				Bir tutunma noktamız oldu ve hapishanenin bir kısmını geri aldık. Ve şimdiye kadarki can kaybı tamamıyla hukuken uygun.
+adviser_riot_deployguards2				Ancak öncesinde hapishanenin geri kalanını almak için hızlı hareket et, ele geçirdiğin koğuşların tekrar güvenliğini sağlaman gerek.
+adviser_riot_deployguards3				Birkaç gardiyan işe al ve onları Yerleştirme ekranında tekrar ele geçirilen bölümlere ata. Gardiyanlar, ele geçirilen koğuşların elde kalmasını sağlayacaklar.
+adviser_riot_deployguards4 				Bunu hallettikten sonra, geri kalan alanlara baskı kur ve bu canavarları indir. Bu hayvanlar iyileştirilemez. Ve bunlarla anlaşma yapılamaz.
+adviser_riot_deployguards5 				Buna hızlıca son verecek bir Silahlı Müdahale ekibine izin vermek için çalışıyorum.
+
+adviser_riot_infirmary1 				Hapishanenin her yerinde yara aldın ve şüphesiz daha fazlası olacak. Onları öylece kan kaybından ölmeye bırakamazsın. 
+adviser_riot_infirmary2 				Alanda bir yere Revir inşa et ve yaralıları tedavi etmesi için Doktor işe al.
+adviser_riot_infirmary3 				Ayrıca pek çok ceset gördük. Onlara saygı olarak, bir Morg inşa etmeli ve onları toplamaya başlamalıyız.
+adviser_riot_infirmary4					İnşaat işleri için daha fazla işçi alman gerek. Onların güvenliğini sağla.
+
+objective_Riot_ResecureWings 			Gardiyanları işe al ve onları tekrar ele geçirilen bölgelere yerleştir
+objective_riot_medicalneeds				(İSTEĞE BAĞLI) Hapishanenin tıbbi ihtiyaçlarıyla ilgilen
+objective_Riot_Infirmary				(İsteğe Bağlı) Bir Revir inşa ederek yaralıları tedavi et
+objective_Riot_Morgue 					(İsteğe Bağlı) Bir Morg inşa et ve cesetleri topla
+objective_Riot_SecureGenPop				Gen-Pop koğuşunu ele geçir (merkez)
+objective_Riot_SecureSpecialWing		Özel koğuşu ele geçir (batı)
+objective_Riot_SecureMaxSec				Maks Güv koğuşunu ele geçir (güney)
+objective_riot_putoutfires				Ateşi kontrol altına al
+
+adviser_riot_secondreinforcements1		Daha fazla İsyan Gardiyanı geldi.
+
+adviser_riot_armedreinforcements1		Belediye Başkanı yakındaki bir polis merkezinden birkaç silahlı polis getirdi.
+adviser_riot_armedreinforcements2		Bu heriflere dikkat et. Eğer onları serbest bırakırsan, elinde kan banyosu ile sonuçlanabilir.
+adviser_riot_armedreinforcements3		Diğer taraftan mahkumlar, bu adamların geldiğini görünce isyanı bırakmayı tercih edebilirler.
+
+adviser_riot_reinforcementsunlocked1 	Ana takviye birliği geldi.
+adviser_riot_reinforcementsunlocked2 	Şimdi Acil Durumlar araç çubuğundan ihtiyacın olduğu kadar Çevik Kuvvet ve Sağlık Çavuşu çağırabilirsin.
+
+adviser_riot_cleanup1                   Bina kontrol altında ve isyancılar bastırıldı. Kolayca daha kötüye gidebilirdi.
+adviser_riot_cleanup2                   Önümüzde çok fazla temizlik operasyonu var. Eğer vaktin varsa yardımın beni memnun eder.
+adviser_riot_cleanup2b 					Alanda herhangi bir inşaat yüklenicimiz yok, bu yüzden bu yerin tamir edilmesi işinde çalışması için öncelikle birkaç yeni işçi almamız gerek.
+adviser_riot_cleanup3                   Buradaki güvenliğin hep savsak olduğunu düşünüyordum. Bu mahkumlara uzun süre çok özgürce saltanat verilmiş. Bu bugün sona eriyor.
+adviser_riot_cleanup4                   Bize yeni bir Cephanelik inşa etmeni istiyorum, ardından hapishane etrafındaki önemli noktalara silahlı gardiyanlar yerleştir. Bunun görüş alanı, bu mahkumları hizaya getirecek ve mahkumlar bir daha böyle sorun çıkarmadan önce iki kez düşüneceklerdir.
+adviser_riot_cleanup5                   Ayrıca alandaki tüm gardiyanlara çelik yelek ve tazer sağlamak için gerekli fonu onaylıyorum. Adamlarımız kendilerini savunabilmeliler.
+adviser_riot_cleanup6                   Bu mahkumların disipline ihtiyaçları var. Yaşamlarında düzene. Yaptıkları kirliliği kendileri temizlemeleri için onları çalıştırmayı öneriyorum.
+adviser_riot_cleanup7                   Haydi, mahkumlarımız için bir çalışma programı düzenleyelim ve onlara hapishaneyi temizleme ve çamaşırları yıkama işini verelim.
+adviser_riot_cleanup7b                  Araç çubuğundan Lojistik altında mahkumlara iş atayabilirsin. Bunun nasıl yapılacağı konusunda ayrıntılı bir yardım almak için hedeflere göz at.
+adviser_riot_cleanup8                   Birkaç gereksinimimiz daha var. Hata yaptıklarının öğretilmesi gereken pek çok mahkum var. Yeni bir Tecrit binası inşa et
+adviser_riot_cleanup8b                  Gardiyanlarımız, istenildiği üzere mahkumları Tecrit hücresine taşıyacaklar. Tecrit ile mahkumlar yaptıkları şeyleri düşünüp taşınacaklar ve burayı kimin idare ettiğini hatırlayacaklar.
+adviser_riot_cleanup9                   Personeli unutmayalım; onlar bu zorlu işin üstesinden geldiler. Yoruldular.
+adviser_riot_cleanup9b 					Dinlenebilecekleri bir yer sağlamak için onlara bir personel odası yap.
+adviser_riot_cleanup10                  Nihayetinde, tüm bunları bütçemize uygun yapmalıyız. Banka bakiyemizin ve nakit akışımızın pozitif olduğundan emin ol.
+adviser_riot_cleanup10b 				Hapishane işçiliği temizlik, bakım işi, çamaşırhane ve benzeri işler konusunda müteahhitten önemli ölçüde daha ucuzdur.
+adviser_riot_cleanup11                  Burada yapılacak çok iş var. Gerçekten yardımına müteşekkiriz.
+adviser_riot_cleanup12                  Yeterince yaptığından emin olduğunda ve devam etmek için hazır olduğunda ön kapıdaki polaroide tıkla.
+
+adviser_riot_cleanup13 					Mükemmel. Sanırım bu tesisin güvenliği çok daha güçlü görünüyor.
+
+objective_riot_solitary 				(İSTEĞE BAĞLI) Bir Tecrit binası inşa et ve isyancıları cezalandırmaya başla
+objective_riot_armoury 					(İSTEĞE BAĞLI) Yeni güvenlik protokolleri uygula
+objective_riot_armoury_research			Bürokrasi'den Cephanelik'in Kilidini Aç
+objective_riot_armoury_build 			Bir Cephanelik İnşa Et (güvenli bir yere)
+objective_riot_armoury_deploy			Silahlı gardiyanları Maks Güv'e yerleştir:
+objective_riot_armoury_armour 			Tüm güvenlik personeli için çelik yelek kilidini aç
+objective_riot_armoury_tazers 			Silahlı gardiyanların için Tazer kilidini aç 
+objective_riot_staffroom 				(İSTEĞE BAĞLI) Yorgun personelin için Personel Odası inşa et 
+objective_riot_balancebooks 			(İSTEĞE BAĞLI) Hesapları dengele 
+objective_riot_balancebooks_balance 	Pozitif Banka Bakiyesi 
+objective_riot_balancebooks_cashflow 	Pozitif Nakit Akışı
+objective_riot_prisonerwork				(İSTEĞE BAĞLI) Cezalandırıcı bir çalışma programı düzenle 
+
+objective_riot_cleaningcupboard			Bir Temizlik Dolabı İnşa Et 
+objective_riot_laundry					Bir Çamaşırhane İnşa Et 
+objective_riot_inmatesincleaning 		Mahkumları Temizlik işine ata
+objective_riot_inmatesinlaundry			Mahkumları Çamaşırhane işine ata
+objective_riot_cleanprison 				Hapishaneyi temizle 
+objective_riot_providelaundry			Temiz çamaşır sağla
+
+objective_riot_armoury_research_description		Bürokrasi simgesi, yapılacaklar listesinin hemen üzerinde. 'Cephanelik'te çalışmaya başlamak için tıkla. Şefin evrak işlerini halledecek.
+objective_riot_armoury_deploy_description       Silahlı gardiyanları yerleştirmek için Yerleştirme'ye oradan da 'Silahlı Devriyeler'e tıkla. Devriyeleri istediğin yere tıkla ve sürükle, ardından buralara silahlı gardiyan atamak için tekrar devriyelere tıkla.
+objective_riot_armoury_guardtazers_description  Raporlar / Programlar'a göz at. Burada 'Gardiyan Tazer Eğitimi'ni göreceksin.\n\nGardiyanların Tazer kullanmadan önce eğitime ihtiyaçları var. Bu eğitimi gerçekleştirmek için bir Sınıf inşa etmen gerekecek.
+objective_riot_prisonerwork_description         Mahkumları işe atamak için, Lojistik'e ve ardından 'Hapishane İşçiliği'ne git. Yeşil renkle vurgulanmış herhangi bir odaya tıklayarak görev ekleyebilirsin.\n\nAyrıca mahkumların ne zaman çalışacaklarını belirlemelisin. Raporlar / Rejim'e git ve gündüz birkaç saatlik 'Çalışma' saati ekle. Bu süre boyunca eğer bir iş olursa mahkumlar çalışacaklardır.
+
+objective_Riot_PlayerExitsMap			İşini bitirdiğinde ana girişin dış tarafındaki polaroide tıkla.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Soygun
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   Görüş
+campaigncutscene_convictionsuicide      İntihar
+
+campaignchapter_conviction              Mahkumiyet
+campaignchapter_conviction_description  Mahkumlarımızdan birine intihar gözetimi konuldu. Henry Morgan, Benedict'in suç ortağı. Beş yılın on üç ayını yatmış. Bu adamlarla ilgilenmemize yardımcı ol.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senatör Walter Hurst
+adviser_name_detective                  Dedektif
+adviser_name_kerry 						Kerry Morgan 
+adviser_name_hurst 						Doktor Walter Hurst 
+adviser_name_keane 						Memur Keane 
+
+adviser_conviction_heist1               Parayı al, moron.
+adviser_conviction_heist2               Silahlarınızı bırakın, hemen!
+adviser_conviction_heist2b				Hadi be!
+adviser_conviction_heist3               Vur, lanet olası!
+adviser_conviction_heist4               Neyi bekliyorsun, vursana seni ödlek amcık!
+adviser_conviction_heist6               Orospu çocukları!
+adviser_conviction_heist7               Vurma! Vurma!
+adviser_conviction_heist8               ELLER YUKARI OROSPU ÇOCUKLARI!
+adviser_conviction_heist9               Ben ne yapıyorsam aynısını yap, anladın mı?
+adviser_conviction_heist10              Hassiktir, OLAMAZ!
+adviser_conviction_heist11              Vurma! VURMA!
+
+conviction_intro_1                      Alchemico Eyalet Hapishanesindeki son trajedinin ardından biz yoğun bir politik denetim altındayız.
+conviction_intro_2                      CEO'nun yerine kalıcı biri bulunana kadar kontrolü elinde tutmanı istiyorum.
+conviction_intro_3                      Son zamanlarda bu tesiste pek çok intihar oldu, bunun sebebini anlamak zor değil. Ancak bizim daha acil bir sorunumuz var.
+conviction_intro_4                      Bize çok sayıda yeni mahkum göndermeye karar veren güçler. İlk parti yarın geliyor ve onları barındıracağımız bir yerimiz yok.
+conviction_intro_5                      Yeni alımlarla baş etmek için yeterli alana sahip yepyeni bir hücre bloğu inşa etmeni istiyoruz.
+conviction_intro_5b 					Buradaki yeni hücre bloğu için olası bir tasarım hazırladım. Alımlarla baş etmek için yeterli sayıda yeni hücremiz olacak ve tasarım kendi duş olanağına sahip.
+conviction_intro_5c 					Ancak bu tasarımı uygulamak veya tamamen farklı bir şeyler yapmak sana kalmış.
+conviction_intro_6                      Benim görevim öncelikle bu adamların refahını sağlamak. Bu yeni hücre bloğunu inşa ettir, ardından onun nasıl başarılacağını konuşuruz.
+
+unused_conviction_intro_4                      Yeni gelenlerden birine intihar gözetimi uygulanmış. Henry Morgan. Beş yıllık hapis cezasının on üç ayı.
+unused_conviction_intro_7						Gidip onunla konuşmak istiyorum. Başka bir intiharı kaldıramayız.
+
+conviction_workintro1                   Bu adamlara uzun bir süre pislik gibi davrandık. Bu şimdi bitiyor.
+conviction_workintro2                   Önceki CEO hapishane ıslahına pek inanmayan biriydi. Ancak benim anladığım kadarıyla, bu adamlara gelecek için biraz umut hissi vermeliyiz.
+conviction_workintro3                   Tahliye edildiklerinde başarılı olacakları becerileri vermeliyiz; değerli ticaret becerileri, basit bir eğitim.
+conviction_workintro4                   Bir çıraklık tasarısına başlamalıyız. Bu adamları biraz gerçek dünya becerileriyle eğit, böylece en azından dört gözle bekleyecekleri bir gelecekleri olacak.
+
+Bu adamlar boşta. Bunlara biraz değer hissi verilmeli.
+conviction_hurst1 						Bu binada görev olmaması şaşırtıcı. Adamlar insanlıktan mahrum.
+conviction_hurst2 						Bunlara kısıtlı merhamet veya saygı gösteriliyor. Son derece dargınlık haricinde, bunların hiçbir şekilde tepki vermesi beklenmez.
+conviction_hurst3 						Bu adamlar bunu hak etmiyor. 
+conviction_hurst4 						Öyle Kaptan. Bir insanoğluna bu şekilde davranılmaz. Adamlar insanlıktan mahrum.
+conviction_hurst4b 						Neden kurallarımıza uysunlar ki? Aşırı alınganlık haricinde herhangi bir şekilde tepki vermelerini bekleyemezsin.
+conviction_hurst4c						Bu adamlara yardımcı olmalıyız. Sınıflara, uyuşturucu rehabilitasyon programlarına ihtiyacımız var. Bir atölye çalışmasına; böylece becerileriyle iftihar edebilirler.
+conviction_hurst6 						Beni yanlış anladın Doktor. Bu adamlar insan değil. Kendin gör.
+conviction_hurst6b 						Mahkum Morgan! Uyan!
+conviction_hurst7 						Kalk ayağa Morgan. Bir ziyaretçin var.
+conviction_hurst8 						Rehabilitasyon mu? Oldu olacak maymunlara banjo oynamayı öğret.
+
+conviction_hurst10 						Senin adın ne evladım?
+conviction_hurst10b                     Adam sana bir soru sordu.
+conviction_hurst11 						Henry efendim.
+conviction_hurst12 						Orası soğuk olmalı Henry.
+conviction_hurst13 						Yataktaki bitler efendim. Beni canlı canlı yiyorlar. Fareler gömlekten içeri giremiyor. Gördüklerimin en büyükleri.
+conviction_hurst14 						Bana Walter diyebilirsin.
+conviction_hurst15 						Uykun nasıl?
+conviction_hurst16 						Uyumuyorum. Burada yaptığım tek şey düşünmek. Düşünecek çok zaman var.
+conviction_hurst16b                     Ne düşünüyorsun?
+conviction_hurst16c                     Çoğunlukla ölümü. Ve küçük kızımı.
+conviction_hurst17 						Kızının senin güçlü olmana ihtiyacı var Henry. Bu onun için de zor olacak.
+conviction_hurst18 						Hayatının her bir günü o da bu demir çubukların arkasında. O benim varlığımdan bile habersiz.
+conviction_hurst19 						Bir hayatı değiştirmek için asla geç değil Henry. 
+conviction_hurst19b 					Eğer izin verirsen gelip seni tekrar görmek istiyorum.
+conviction_hurst20 						Evet efendim. Teşekkür ederim efendim.
+conviction_hurst21 						Bu fareler konusunda bir şey yapabilir miyiz? Burası üçüncü dünya değil.
+conviction_hurst22 						Buraya biraz fare zehri getireceğim.
+
+conviction_visitationintro_1            Morgan'ın aile ziyaretine bir istisna yapmak için şefi ikna etmeyi başardım.
+
+conviction_visitation_0					Merhaba Bayım. Kerry Morgan, buraya Henry Morgan'ı görmeye geldim.
+conviction_visitation_1					Çizginin gerisine.
+conviction_visitation_2 				Affedersiniz. Buraya Henry'i görmeye geldim. Henry Morgan. Benim kocam olur efendim.
+conviction_visitation_3 				Sana tekrar söylemeyeceğim. Çizginin gerisine. Şimdi.
+conviction_visitation_4 				Evet efendim. Affedersiniz efendim.
+conviction_visitation_5 				Tamam. İleri gel. Tüm gün bekleyemem.
+conviction_visitation_6					İsim.
+conviction_visitation_7					Kerry Morgan efendim. Buraya Henry Morgan'ı görmeye geldim. Ve bu bebek de onun kızı.
+conviction_visitation_8					Ona söyleyeceğin şey de bu değil mi? Devam et.
+conviction_visitation_8a                Kerry!
+conviction_visitation_9					Üzgünüm, bir hata olmuş. Morgan ziyaretçi hakkını kaybetmiş.
+conviction_visitation_9b 				Ne? 
+conviction_visitation_9c 				Üzgünüm. Bu sabah onun hücresinde likör bulduk. Yapabileceğim bir şey yok.
+conviction_visitation_10				Buraya iki saate gelebildim. Kızım ağlıyor. Bu adil değil.
+conviction_visitation_11				Adalet istiyorsan AIHM'ye git. Adalet hakkın, hukukun olduğu bir şeydir. Burada bulamazsın.
+conviction_visitation_12				Lütfen, bunu ona verin.
+conviction_visitation_13                Peki olur. Uzunca bir süre ziyaretçi hakkı olmayacak. Ona iletilecek bir mesajın var mı?
+conviction_visitation_14                Hayır. Mesajım yok.
+
+conviction_visitation_angrymorgan0		Hayır!
+conviction_visitation_angrymorgan1		Bekle!
+conviction_visitation_angrymorgan2		Bunu yapamazsınız!
+conviction_visitation_angrymorgan3		Onunla görüşmeme izin verin!
+conviction_visitation_angrymorgan4		Sizi piç kuruları!
+
+conviction_helpinmates_1                Bu çok moral bozucu.
+conviction_helpinmates_2                Bu adamlara gerçekten yardımcı olmak için bir yol bulmak çok zor. Kendi kendilerine yardım etmeleri öğretilmeli.
+conviction_helpinmates_3                Sanırım görüş binasıyla uğraşmamız gerekiyor. Aileler kapının dışında sıra bekliyor. Şu ziyaretçi kalabalığıyla uğraşamayız.
+conviction_helpinmates_4                Yepyeni bir görüş binası inşa et. Morgan'a olanlara rağmen sanırım olumlu sonuç alacağız. Ve o da burada ailesi olan tek mahkum değil.
+conviction_helpinmates_5                Biraz araştırma yapıyorum ve yaptığım araştırmada beni şaşırtan şey, bu mahkumların pek çoğunun sadece en temel matematik ve okuma becerilerine sahip olmasıydı. Buna bir çare bulmalıyız.
+conviction_helpinmates_6                Yeni bir sınıf binası aç ve temel bilgileri öğretmesi için dışarıdan öğretmen getirmeye başlayalım. Eğitim olmadan, bu mahkumların suç hayatından başka bir umudu yok.
+conviction_helpinmates_7                Ve mahkum akınına özellikle dikkat etmeliyiz. Kapasitemizi genişletmeye devam et, böylece her bir mahkumun makul kalitede hücresi olacak.
+
+conviction_outro1                       Sanırım burada büyük bir farklılık yaptık. Bu mahkumlara çalışabilecekleri bir şeyler ve hayata devam etmek için bir sebep verdik.
+conviction_outro2                       Eğer istersen burada kalıp kurduğumuz eğitim ve iş programlarıyla ilk mahkumları görmemize yardımcı olabilirsin.
+conviction_outro3                       Ancak sanırım onu buradan halledebiliriz. Ayrılmak için hazır olduğunda Morgan'ın hücresinde palaroid'e tıkla.
+
+conviction_secondvisit_1                Seni seanslarımın birinde görmeyi umuyordum.
+conviction_secondvisit_2                Yapamıyorum. Bu delikte daha fazla kalamıyorum.
+conviction_secondvisit_3                Şunu günde bir kere al.
+conviction_secondvisit_4                Yani şu kokan yerde. Ben buradayım. Onlar orada. Ailemi görmeme izin vermeyecekler. Berbat durumdayım efendim ve bu da değişmeyecek.
+conviction_secondvisit_5                Henry, her şey yoluna girecek. Ben senin yanındayım.
+conviction_secondvisit_6                Bu komik. Tam olarak aynı şeyi söyledi.
+conviction_secondvisit_7                Kim, Henry? Bana söyleyebilirsin.
+conviction_secondvisit_8                Bana sahip çıktı.
+conviction_secondvisit_9                Çocukluğumuzdan beri.
+conviction_secondvisit_10               O lanet şeyini yanında tut. Ne olursa olsun, velet.
+conviction_secondvisit_11               Ben hemen yanındayım.
+conviction_secondvisit_11b 				Hemen yanımda mı?
+conviction_secondvisit_12               O artık burada değil.
+conviction_secondvisit_13               Seninle bir anlaşma yapacağım. Benim bir sonraki grubuma gel, ziyaretçi haklarını iyileştirebilir miyiz bir bakayım.
+conviction_secondvisit_14               Bunu benim için yapar mısınız efendim?
+conviction_secondvisit_15               Sadece senin için değil Henry.
+
+conviction_suicide_1 					Üzgünüm efendim, bilmeniz gerektiğini düşündüm. Başka bir intihar olayı daha oldu. 
+conviction_suicide_2					Görünüşe göre mahkumlardan biri fare zehri içmiş.
+conviction_suicide_3					Doktor Hurst bunu teyit etmek için oraya gidiyor.
+conviction_suicide_4					Gördüğün en güzel şey bu değil mi?
+conviction_suicide_5					Sanırım öyle.
+conviction_suicide_6					Bir hayatı değiştirmek için asla çok geç değil efendim.
+
+objective_conviction_expandcapacity50			Yeni mahkum alımının üstesinden gel
+objective_conviction_expandcapacity50_description	Ana araç çubuğundan 'Planlama' moduna girerek yeni hücre bloğu için potansiyel bir tasarım bulabilirsin.
+objective_conviction_expandcapacity_cells	 	40 mahkum için hücre sağla
+objective_conviction_expandcapacity_shower		Bir duş yeri sağla
+objective_conviction_expandcapacity_yard		Bir avlu sağla
+objective_conviction_expandcapacity_intake		Bir sonraki alımın ulaşmasını bekle
+
+objective_conviction_workprogram 				Bir çalışma becerileri eğitim programı düzenle
+objective_conviction_unlocklabour				Bürokrasi'den 'Hapishane İşçiliği'ne izin ver
+objective_conviction_work_trainkitchen			(İSTEĞE BAĞLI) Mutfak Güvenliği ve Hijyen'de 5 mahkumu eğit
+objective_conviction_work_kitchen				Mahkumları mutfakta çalışmaya ata
+objective_conviction_work_workshop				Bir atölye inşa et
+objective_conviction_work_trainworkshop			(İSTEĞE BAĞLI) 10 mahkumu Atölye Güvenliğine Girişten geçir
+objective_conviction_work_assignworkshop		Mahkumları atölyede çalışmaya ata
+objective_conviction_work_produceplates			(SEÇMELİ) 100 plaka üret
+objective_conviction_work_exportszone			Yolun yanına bir dışsatım alanı belirle
+objective_conviction_work_setintake             Mahkum Alım seviyesini 10'a ayarla
+
+objective_conviction_unlocklabour_description	Yapılacaklar listesinin üzerindeki simgeye tıklayarak bürokrasi ekranına ulaşabilirsin.
+objective_conviction_work_kitchen_description	 To assign prisoners to the kitchen, go to 'Logistics' then 'Prison Labour'.\n\nNb. Your prisoners must have passed the 'Kitchen Safety and Hygiene' training course before they can work in the kitchen.				Mahkumları mutfakta görevlendirmek için, 'Lojistik'e ardından 'Hapishane İşçiliği'ne git.\n\nNb. Mahkumların, mutfakta çalışmaya başlamadan önce, 'Mutfak Güvenliği ve Hijyeni' eğitim kursunu tamamlamalılar.
+objective_conviction_work_assignworkshop_description 	Mahkumları atölyede görevlendirmek için, 'Lojistik'e ardından 'Hapishane İşçiliği'ne git.\n\nNb. Mahkumların, atölyede çalışmaya başlamadan önce, 'Atölye Güvenliği ve Hijyeni' eğitim kursunu tamamlamalılar.
+objective_conviction_work_trainkitchen_description 		Eğitim ve ıslah programlarını başlatmak için, 'Raporlar'a (alt sağda) ve ardından 'Programlar'a git. Mahkumlar, görevlendirildikleri iş zamanı boyunca bu programa katılacaklar.\n\nNb Rejim planlama ekranında iki saatlik 'Çalışma' saati belirlemelisin. Aksi halde, mahkumların eğitim programlarına katılmaya vakti olmayacak.
+objective_conviction_work_trainworkshop_description 	Eğitim ve ıslah programlarını başlatmak için, 'Raporlar'a (alt sağda) ve ardından 'Programlar'a git. Mahkumlar, görevlendirildikleri iş zamanı boyunca bu programa katılacaklar.\n\nNb Rejim planlama ekranında iki saatlik 'Çalışma' saati belirlemelisin. Aksi halde, mahkumların eğitim programlarına katılmaya vakti olmayacak.
+objective_conviction_work_setintake_description         Hapishanenin çok kalabalıklaşmaması için, 'Raporlar'a (sağ altta) ve ardından 'Alım'a giderek, << düğmesiyle alım seviyesini 10'a düşür.
+
+objective_conviction_visitation				Daha iyi bir görüş hizmeti ayarla
+objective_conviction_visitationroom	Yeni bir görüş merkezi inşa et
+objective_conviction_visitationcount		20 mahkum ailesi görüşüne olanak sağla
+objective_conviction_telephones	 			Tüm Avlulara telefon ekle
+objective_conviction_mailroom				Bir Posta Odası İnşa Et
+objective_conviction_mailroomwork			Mahkumları posta odasında çalışmaya ata
+
+objective_conviction_mailroomwork_description           Mahkumları posta odasında çalışmaya atamak için 'Lojistik'e ardından 'Hapishane İşçiliği'ne git.
+
+objective_conviction_education				Mahkumları eğitmeye başla
+objective_conviction_unlockeducation		Bürokrasi'den 'Eğitim'e izin ver
+objective_conviction_education_classroom	Bir sınıf inşa et
+objective_conviction_education_class 		Bir Temel Eğitim sınıfı başlat
+objective_conviction_education_learn		(İSTEĞE BAĞLI) 5 mahkumun Temel Eğitim sınıfını geçmesini sağla
+objective_conviction_education_library		Bir kütüphane inşa et
+objective_conviction_education_librarywork	Mahkumları kütüphanede çalışmaya ata
+objective_conviction_education_chapel		Bir şapel inşa et
+objective_conviction_education_spiritual	Bir Ruhani Rehber sınıfı çalıştır
+
+objective_conviction_expandcapacity100			Hapishanenin kapasitesini genişlet
+objective_conviction_expandcapacity_cells100	Kapasiteyi 80 hücreye arttır
+objective_conviction_expandcapacity_cells200	(İSTEĞE BAĞLI) Kapasiteyi 120 hücreye arttır
+
+objective_Conviction_PlayerExitsMap         İşin bittiğinde Morgan'ın hücresindeki polaroide tıkla.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Çizme Atkısı
+campaigncutscene_epilogueintro          Tekrar Ziyaret Et
+campaigncutscene_epilogueoutro          Son Söz
+
+campaignchapter_epilogue_description    Tarihi bir hapishanenin yıkılıp yenilenmesi planlanıyor. Üst düzey bir tesis oluşturmak için öğrendiğin tüm becerileri kullan.
+
+adviser_name_reporter 					Muhabir
+
+epilogue_newsintro1 					Bugün CNDC haberde hapishanelerimizin durumu üzerine özel bir haberimiz var.
+epilogue_newsintro2 					Genel Müdür Charles Wallace da dahil pek çok hayatına mal olmuş utanç verici 'Alchemico Kuşatması'nın üzerinden iki yıl geçti.
+epilogue_newsintro4 					Bugün alanında uzman kişileri dinledik ve bu trajik olaylardan beri nelerin değiştiğini sorduk.
+epilogue_newsintro5 					Öncelikle, son zamanlarda yıkımı planlanan, eyaletin en uzun süre işletilen hapishanelerinin birinden canlı yayın yapıyoruz.
+epilogue_newsintro6						Şimdi canlı, sadece CNDC haberde.
+
+epilogue_reporter1						Teşekkürler Sarah. Bu hapishane ülkenin en azılı suçlularına ev sahipliği yaptı.
+epilogue_reporter2 						Ama şimdi duvarları yıkılıyor, yeni bir hapishane kompleksi ile değiştirilmeye hazır.
+epilogue_reporter3 						Arkamda inşaat ekibinin buraya gelmiş olduğunu görebilirsiniz ve yıkım başladı.
+epilogue_reporter4 						Belediye başkanı Calvin Heller hatta. Bugün vaktinizi ayırıp bize katıldığınız için teşekkür ederiz Bay Heller.
+epilogue_reporter5 						Benim için bir zevk.
+
+epilogue_reporter6 						Eskiden hapishane yönetimine sıkı, daha disiplinli yaklaşımın güçlü bir destekçisiydiniz.
+epilogue_reporter6b 					Cezalandırıcı yaklaşımı bunca süre tanımlayan bir tesisi neden yıkıyorsunuz?
+epilogue_reporter7 						Hapishane de uygulamaları da çağ dışı kalmıştı.
+epilogue_reporter8 						Bu hapishaneyi tamamıyla yeni bir tesise dönüştürme kararı aldık. Daha modern ilkeleri olan bir hapishane ile.
+epilogue_reporter9						Bu hapishane birkaç yıl önce son kalan eyalet infaz yerlerinden biri olarak haber olmuştu.
+epilogue_reporter10 					İnsan hakları savunucuları burada ölüm cezası yasalarını kaldırmak için uzun süre çabaladı. Onların isteklerini şereflendirmek ister misiniz ya da infaz tesisini yeniden mi inşa edeceksiniz?
+epilogue_reporter12 					Bu hala değerlendiriliyor. Ancak bu hafife alacağımız bir karar değil.
+
+epilogue_reporterend1 					Teşekkürler Başkan Heller. Sizdeyiz stüdyo.
+epilogue_newstransition1 				CNDC haber, hapishane sistemimizin durumu üzerine canlı yayın yapıyor.
+epilogue_newstransition2 				Reklamlardan sonra, mahkum psikolojisi ve rehabilitasyonu uzmanı Doktor Walter Hurst bizimle olacak.
+
+epilogue_parole1 						Hala bir şey yok mu? Bu ne kadar uzun?
+epilogue_parole2						Saymayı bıraktım. Arayan yok, yazan yok.
+epilogue_parole3 						Üzgünüm Morgan. Bu acıtıyor olmalı. Ancak burada bir şansın var. Bunu batırma.
+epilogue_parole4 						Henry. Bol şans.
+epilogue_parole5 						Onlara duymak istediklerini düşündüğün şeyi söylemeye çalışma.
+epilogue_parole6 						Gitmem gerek. Bir dakika içinde canlı yayında olacağım.
+epilogue_parole7                        Başkan Heller, sizin fikriniz nedir?
+epilogue_parole10 						Bu hızlıydı!
+epilogue_parole11 						Peki?
+epilogue_parole12                       …
+
+epilogue_outro_1 						CNDC haberin, konuğumuz belediye başkanı Calvin Heller ile bu özel yayınına tekrar hoş geldiniz. 
+epilogue_outro_2 						Şimdi Doktor Walter Hurst bizimle. Doktor Hurst hapishane islahı üzerinden büyük miktarda para israfıyla suçlanıyor.
+epilogue_outro_2b 						Dr. Hurst, başarı sağladığınızı düşünüyor musunuz?
+epilogue_outro_3						Başarı mı? Hayır. Genel olarak sağlayamadık.
+epilogue_outro_4						Herkesin gelişime potansiyeli olduğuna inanırım. Biz de bu kişilere şans tanımalıyız.
+epilogue_outro_4b 						Kanımca burada hapsedilenlerin çoğunun tavır ve umutlarında gerçek bir gelişme olduğunu söyleyebilirim.
+epilogue_outro_5						Mahkumiyet caydırıcı olmalı. Bir gelişme veya değişim için fırsat olmamalıdır.
+epilogue_outro_6 						Deneyimleri boyunca onları cezalandırıp insanlıktan çıkarmak sadece onların büyüyen suçluluğuna hizmet eder.
+
+epilogue_outro_7						Bu adamlara değerli beceriler, daha da önemlisi umut sağlıyoruz.
+epilogue_outro_7b  						Buradan ayrıldıklarında onların topluma tekrar entegre olmalarına yardımcı oluyoruz ve katkıda bulunuyoruz.
+epilogue_outro_8						Sıradan vatandaşlarımız ücretsiz eğitim almaz. Ücretsiz eğitim. Garantili ücretli iş.
+epilogue_outro_8b 						Suç mağdurlarını ihmal ediyoruz ve failleri ödüllendiriyoruz.
+epilogue_outro_8c 						Büyük meblağlarda para harcamak, bu suçluların kendilerini iyi hissetmelerine sebep olacaktır.
+epilogue_outro_9						Tek seferde yapmamız gerekse bile bir değişiklik yapabiliriz.
+epilogue_outro_10						Bu adamlar özgürlüklerini kazanmamışlar. Hürriyetlerini.
+epilogue_outro_11						Bir erkek kediye arka avlundaki kuşları bırakmasını yüz kere söyleyebilirsin. Ama her seferinde geri gelir.
+epilogue_outro_12 						Bu onun doğasında var.
+
+epilogue_sandbox_1                      CEO pozisyonuna atanmanı tebrik ederim. Bu bir fırsat, temiz bir başlangıç.
+epilogue_sandbox_2                      Eksik ya da fazla tüm otonomiye sahip olacaksın. Daha fazla mahkum. Daha fazla tekrar suç işleme oranları. Önünde pek çok zorluk var.
+epilogue_sandbox_3						Ölüm hücresi yerine gelince, onu yık. Veya onu değerlendirmek için yıkma. Gerçekten sana kalmış. Eğer sen yapmazsan biri bu işi yapacak.
+epilogue_sandbox_4						Hedeflere gelince, atalarına ne verdiysem sana da aynısını veriyorum. Karlar, tekrar suç işleme oranları, kapasite.
+epilogue_sandbox_5 						Bunları nasıl başaracağın tamamen sana bağlı.
+epilogue_sandbox_5b                     Son bir şey daha. Önceki CEO Charles Wallace, firmaya yeni katılan hapishane mimarlarına verdiği mektup gibi bir mektup bıraktı sana.
+epilogue_sandbox_5c                     Biraz iyi tavsiyeleri var. Senin için faydalı olabilir, bir göz at.
+epilogue_sandbox_6						Bol şans!
+
+objective_epilogue_grants				Hibe sistemiyle para topla
+objective_epilogue_grants_description   Hibeler, bir hapishane inşa etmek için gerekli büyük miktarda nakit parayı toplamak için en önemli yöntemlerden biridir.\n\n'Hibeler' altında Raporlar kısmında (ekranın sağ alt tarafında) pek çok hibe bulabilirsin. Çeşitli ajanslar, hapishanenin belirli parçalarını en başından itibaren fonlamak için sana teklifler sunacak.
+
+objective_epilogue_certifiedprison		Bir hapishane inşa et
+objective_epilogue_capacity				En az 100 mahkum
+objective_epilogue_bankbalance			En az 100.000$ banka bakiyesi
+objective_epilogue_cashflow				Net pozitif nakit akışı
+
+epilogue_outrointro_1                   Çok güzel bir başlangıç için yola koyulduğunu görüyorum.
+epilogue_outrointro_2                   Eğer bir TV yanındaysan, onu şimdi açmalısın. Sana bir şey göstermek istiyorum.
+
+epilogue_basiccompletion_1 				Bir eyalet hapishanesi için minimum gereksinimleri yerine getirdin. Buradan sonra nereye gideceğin sana bağlı.
+epilogue_basiccompletion_2 				Bu noktada nasıl hareket edeceğin tamamen sana ve şirketine bağlı.
+epilogue_basiccompletion_3 				Başkan'ın ofisinde bizi ilgilendiren sadece bir sayı var ve o da tekrar suç işleme oranı.
+epilogue_basiccompletion_4	 			Eğer mahkumların tekrar suç işleme oranlarını düşürebilirsen buna başarı derim.
+epilogue_basiccompletion_5 				Doktor Hurst gibi insanlar bunu sadece eğitim, ıslah, beceri, çalıştırma v.b. ile başarabileceğine inanıyor.
+epilogue_basiccompletion_6 				Bana göre, ceza etkili bir yöntem olabilir.
+epilogue_basiccompletion_8 				Sana bağlı. Sana bol şans diliyorum!
+
+objective_epilogue_reoffending			(İSTEĞE BAĞLI) Hapishane tekrar suç işleme oranını düşür
+objective_epilogue_reoffending_description	Tekrar suç işleme oranını 'Hapishane Derecelendirme' ekranında görebilirsin. Ekranın sol üst tarafındaki simgeye tıkla.
+
+objective_epilogue_reoffending_rate		Tekrar suç işleme oranını en fazla %30'a indir
+objective_epilogue_reoffending_released	En az 10 mahkumunu tahliye ettir
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Minecraft İçin Hapishaneyi Dışa Aktar
+codex_mcexportname						Minecraft Dışa Aktarıcı
+codex_worldnametitle					Dünya Adı
+codex_seedtitle							Tohum
+codex_gamemodetitle						Oyun Modu
+codex_mapfeattitle						Harita Özellikleri
+codex_cheatstitle						Hileler
+codex_timeofdaytitle					Sistem Saati
+codex_rainingtitle						Yağmurlu
+codex_thunderingtitle					Gök Gürültülü
+codex_generatortitle					Jeneratör
+codex_scaletitle						Ölçek
+codex_exporttomc						Dışa Aktar
+codex_mcexport_default					Varsayılan
+codex_mcexport_flat						Düz
+codex_mcexport_largebiomes				Büyük Canlı Toplulukları
+codex_mcexport_survival					Hayatta Kalma
+codex_mcexport_creative					Yaratıcılık
+codex_mcexport_adventure				Macera
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Firar - Seçin tek kaçış yolun bu
+escapemode_help                         Adım Bir: Şöhret - Şöhretin burada her şey demek\n\n• Dövüşleri başlatarak şöhretini artır. İnsanlara zarar vererek gerçekten dikkat çekebilirsin ancak bir şeyler kırmak iyi bir başlangıçtır. Bir dövüşte ne kadar fazla hasar verirsen o kadar iyidir.\n• Hiçbir kanıt bırakma. Eğer bir gardiyan etrafta dolaşırken senin dövüştüğünü fark ederse, bunun için cezalandırılırsın.\n• Şuurunu kaybetmek kötü görünüyor. Kendi tercihlerine göre dövüşü bitirsen iyi olur.\n\nAdım İki: Ekip - Firar girişimine katılmaları için diğerlerini topla\n\n• Onları yanına çağırmak için ıslık çal ve onlar nereye gidersen seninle birlikte gelecekler. (Sol üst tarafta onların isimlerine tıkla)\n• Sana dövüşlerde bile katılırlar, böylece şöhretini daha hızlı artırabilirsin.\n• Ekibine alıştırma yaptır. Becerikli bir dövüşçünün veya rekabetçi bir yarışçının sana ne fayda sağlayacağını asla bilemezsin.\n\nAdım Üç: Kaçal Mallar - Silah ve araçlara ihtiyacın olacak\n\n• İstediğin bir şeyler olan bir oda bul. Etrafa bir göz at, çalabileceğin bir şeyi hızlıca bulabilirsin.\n• Metal dedektörlere ve seni aramaya çalışan gardiyanlardan uzak dur. Eğer üzerinde herhangi bir şey bulurlarsa el koyarlar ve seni hücre hapsine atarlar. \n• Ekipmanını sakla. Bulduklarını hücrende veya başkalarının hücresinde saklayabilirsin; sadece bunları nereye bıraktığını unutma.\n\nAdım Dört: Tüneller - Sessiz çıkış\n\n• Bir kazı aracı al ve hücrendeki tuvaletten bir tünel kazmaya başla.\n• Kazmak yavaş sürer. Ekip üyelerini sana kazıda yardım etmeye çağır.\n• Sakın yakalanma. Eğer bir gardiyan bir tünele girip çıktığını görürse çuvallarsın.\n\nBol şans. Sana bol bol lazım olacak.
+
+codex_escapemode                        Firar Modu
+codex_escapemode_developer              (Geliştirici) Firar Modu
+codex_escapemode_new                    Yeni Firar Girişimi
+codex_escapemode_load                   Firar Girişimi Yükle
+codex_escapemode_save                   Firar Girişimini Kaydet
+codex_escapemode_workshop               Firar Modu (Steam Atölye Çalışması)
+codex_escapemode_workshop_star_rating   *S Yıldız veya üzeri
+
+escapemode_combat_attack                Saldır
+escapemode_combat_attack_button         Sol Tık
+escapemode_combat_lunge                 Hücum
+escapemode_combat_lunge_button          Shift
+escapemode_dig_button                   Sol Tuşu Basılı Tut
+escapemode_dig                          Kaz
+escapemode_surrender                    Teslim Ol
+escapemode_surrender_safe               Dövüşü Bitir
+escapemode_surrender_button             Boşluk
+
+escapemode_gameover                     Oyun Bitti
+
+escapemode_reputation_points            Şöhret Puanları:
+escapemode_reputations_cost             *C Şöhret Puanı
+escapemode_reputations_max              MAKS
+
+escapesquad_squad_member                Ekip Üyesi
+escapesquad_recruitment                 İşe almak için sağ tuşu basılı tut
+escapesquad_recruitment_cost            Şöhret Puanı Masrafı: *C
+escapesquad_toggle_follow               Takibi Değiştir
+escapesquad_nameplate_following         Takip ediliyor
+escapesquad_skip_punishments            Cezaları Atla
+escapesquad_skip_punishments_tooltip    Tüm ekip üyelerini cezaları boyunca uyutup hücrelerinde uyandırmak için şöhret puanı harca.
+escapesquad_sleep                       Uyku
+escapesquad_sleep_tooltip               Gece boyu uyumak için tıkla.
+escapesquad_reputations                 Şöhretler
+escapesquad_reputations_tooltip         Ekibinin dövüş yeteneğini geliştirmek için şöhret puanı harca. 
+escapesquad_follow_mode                 Takip Modu
+escapesquad_follow_mode_tooltip         Takip modundaki mahkumlar seni takip edecek ve yanlış davranışlarını kopyalayacak.\n\nR tuşunu kullanarak takip moduna geçiş yap ve tüm mahkumları tek seferde takip et.
+escapesquad_remove_member               Ekip Üyesini Kaldır
+escapesquad_remove_member_tooltip       Bu mahkumu ekibinden çıkarmak için tıkla.
+escapesquad_escaped                     Firar Etti
+
+escapemode_info_right_click             Sağ tıkla
+escapemode_info_hold_right_click        Sağ tuşu basılı tutarak
+escapemode_info_stash                   kaçak malları gizle
+escapemode_info_pick_up                 kaçak malları al
+escapemode_info_start_tunnel            bir tünele başla
+escapemode_info_enter_tunnel            tünele gir
+escapemode_info_exit_tunnel             tünelden çık
+escapemode_info_dig_up                  araştır
+escapemode_info_steal                   çal
+
+escapemode_info_tool                    [Kazı Gereci]
+escapemode_info_damage                  Hasar: *D
+escapemode_info_recharge                Tekrar Dolma Süresi: *T
+
+escapemode_gameover                     Oyun Bitti
+escapemode_gameover_squad_title         Ekip
+escapemode_gameover_casualties_title    Kurbanlar
+escapemode_gameover_totalscore_title    Toplam Puan
+escapemode_gameover_totaltime_title     Harcanan Zaman
+escapemode_gameover_time_days           *D Gün, *H Saat ve *M
+escapemode_gameover_time                *H Saat ve *M Dakika
+
+codex_workshop_select_random_prison     Rastgele Atölye Çalışması Hapishanesi
+codex_workshop_searching                Aranıyor
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         İncil Oyunu
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              Sayfa *X
+codex_gamebible_doublepage              Sayfa *X-*Y
+object_collectable                      Not Sayfası

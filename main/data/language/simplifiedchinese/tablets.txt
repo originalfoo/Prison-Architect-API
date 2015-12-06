@@ -1,0 +1,19 @@
+interfacecontrol_mainmenu               simplifiedchineseMain Menu
+interfacecontrol_mainmenu_tooltip       simplifiedchineseToggle the main menu (New/Load/Save etc)
+
+object_firemen_hosehelp                 simplifiedchinesePress and hold to move. Press and hold on flames to aim the hoses manually.
+
+click_to_continue                       simplifiedchineseTap to Continue...
+gameover_caption                        simplifiedchineseOpen Menu to Continue
+
+adviser_deathrow_explain5               simplifiedchineseWhile we wait, take a look around. Drag the screen to move the view around, and pinch with two fingers to zoom in and out.
+
+adviser_deathrow_internaldoors2         simplifiedchineseYou can rotate an object before placement by tapping the Rotate button on the right of the screen
+
+objective_deathrow_buildinternaldoors   simplifiedchineseBuild internal doors
+
+adviser_deathrow_transfer2              simplifiedchineseSimply tap on him to select him, then tap-hold just outside his Cell to initiate the transfer.
+
+objective_deathrow_transferinmate       simplifiedchineseWhen you are done, begin the Prisoner Transfer.  Tap on him to select him, then Tap-hold in the zone outside his cell.
+
+objective_food_extinguishflames_description  simplifiedchineseWhen you have firemen selected you can press and hold on flames to aim their hoses, but the flames have to be less than 15 squares away.

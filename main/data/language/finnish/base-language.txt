@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              Uusi
+dialog_load                             Avaa
+dialog_save                             Tallenna
+dialog_saveas                           Tallenna nimellä
+dialog_delete                           Poista
+dialog_width                            Leveys
+dialog_height                           Pituus
+dialog_name                             Nimi
+dialog_type                             Tyyppi
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                L
+dialog_h                                P
+dialog_exit                             Poistu
+dialog_cancel                           Peruuta
+dialog_ok                               OK
+dialog_open                             Avaa
+dialog_close                            Sulje
+dialog_closed                           Suljettu
+dialog_add                              Lisää
+dialog_up                               Ylös
+dialog_down                             Alas
+dialog_yes                              Kyllä
+dialog_no                               Ei
+dialog_loading                          Ladataan...
+dialog_low                              Alin
+dialog_medium                           Keskitaso
+dialog_high                             Ylin
+dialog_none                             Ei mitään
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Dialogin muokkain
+dialogeditor_back                       Taakse
+dialogeditor_front                      Eteen
+dialogeditor_reloadlanguage             Lataa kieli
+dialogeditor_test                       Testi
+dialogeditor_window                     Ikkuna
+dialogeditor_grid                       Ruudukko
+dialogeditor_caption                    Kuvateksti
+dialogeditor_component                  Komponentti
+dialogeditor_select						Valitse
+dialogeditor_create						Luo
+dialogeditor_background                 Taustakuva
+dialogeditor_panel                      Paneeli
+
+dialogcomponent_custom                  Mukautettu
+dialogcomponent_button                  Painike
+dialogcomponent_container               Laatikko
+dialogcomponent_caption                 Kuvateksti
+dialogcomponent_titlecaption            Otsikko
+dialogcomponent_checkbox                Rasti
+dialogcomponent_inputfield              Tekstilaatikko
+dialogcomponent_inputslider             Liukusäädin
+dialogcomponent_dropdownmenu            Pudotusvalikko
+dialogcomponent_selectionlist           Valintalista
+dialogcomponent_selectionlistitem       Valintalistaosa
+dialogcomponent_scrollbar               Vierityspalkki
+dialogcomponent_progressbar             Suorituspalkki
+dialogcomponent_canvas                  Canvas
+dialogcomponent_iconbox					Kuvakelaatikko
+
+dialogposition_absolute                 Absoluuttinen
+dialogposition_relative                 Suhteellinen
+dialogposition_scaled                   Skaalattu
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Profiloija
+profiler_name                           Nimi
+profiler_timings                        Ajastukset
+profiler_totaltime                      Yhteensä
+profiler_glfinishcaption                glFinish
+profiler_reset                          Nollaa
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Äänikanavat
+soundeditor_title                       Äänieditori
+soundinstanceeditor_title				Ääni-instanssieditori
+
+soundeditor_positiontitle		Sijainnin tyyppi
+soundeditor_instancetitle		Instanssin tyyppi
+soundeditor_looptitle			Luupin tyyppi
+soundeditor_sourcetypetitle		Äänen tyyppi
+soundeditor_soundnametitle		Äänen nimi
+
+soundeditor_volumetitle			Äänenvoimakkuus
+soundeditor_frequencytitle              Frekvenssi
+soundeditor_mindistancetitle            Minimietäisyys
+soundeditor_attacktitle                 Aloitus
+soundeditor_sustaintitle                Pito
+soundeditor_releasetitle                Vapautus
+soundeditor_loopdelaytitle              Luuppiviive
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              Seuraava
+
+soundeditor_play                        Toista
+soundeditor_stop                        Pysäytä
+
+soundparametereditor_title              Ääniparametri
+soundparametereditor_typetitle          Tyyppi
+soundparametereditor_linktitle          Linkattu
+soundparametereditor_updatetitle        Päivitystyyppi
+soundparametereditor_smoothing          Tasoitus
+soundparametereditor_chaintitle         Ketju
+
+soundeditor_newdsp                      Lisää DSP
+sounddspeditor_title                    DSP-muokkain
+samplebankeditor_title                  Näytemuokkain
+samplebankeditor_addsample              Lisää ääni
+samplebank                              (Näytepankki)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Valmis
+interfacemode_destroy                         Tuhoa
+interfacemode_foundations				Perustukset
+interfacemode_construction                    Materiaalit
+interfacemode_planning                        Suunnittelu
+interfacemode_objects                         Tavarat
+interfacemode_designation                     Huoneet
+interfacemode_utilities                       LVI
+interfacemode_staff                           Henkilöstö
+interfacemode_deployment                      Asemointi
+interfacemode_logistics                       Logistiikka
+interfacemode_prisoners                       Vangit
+interfacemode_needs                           Tarpeet
+interfacemode_threats                         Uhkat
+interfacemode_overlays                        Tietokartat
+interfacemode_research                        Byrokratia
+interfacemode_emergencies                     Hätätilat
+interfacemode_clone                           Monista
+interfacemode_contraband                      Tiedustelu
+interfacemode_grading                         Arvosana
+interfacemode_spawn                           (Aloituspiste)
+interfacemode_properties                      (Ominaisuudet)
+interfacemode_cutscenes                       (Välikohtaukset)
+interfacemode_selection                       Valitse
+
+interfaceoverlay_security                       Turvallisuus
+interfaceoverlay_patrols                        Partiot
+interfaceoverlay_decay                          Rappio
+interfaceoverlay_territory                      Alue
+interfaceoverlay_contraband                     Kieltotavarat
+
+interfaceproperty_indoor                        Sisätilat
+interfaceproperty_visible                       Näkyvä
+interfaceproperty_territoryprisoner             Jengit
+interfaceproperty_territoryguard                Vartijat
+interfaceproperty_sectorprisoner                Mellakka
+interfaceproperty_tunnel                        Tunneli
+
+interfacedeployment_guards                      Vartijat
+interfacedeployment_patrols                     Vartijapartiot
+interfacedeployment_dogpatrols                  Koirapartiot
+interfacedeployment_armedpatrols                Aseistetut partiot
+interfacedeployment_removeguards                Poista vartijat
+interfacedeployment_clearpatrols                Tyhjennä partiot
+interfacedeployment_targetting                  Logistiikka
+interfacedeployment_targettingfood              Ruokalogistiikka
+interfacedeployment_targettinglaundry           Pyykkilogistiikka
+interfacedeployment_securearea                  Turvattu alue
+interfacedeployment_sharedzone                  Yhteinen
+interfacedeployment_staffonlyzone               Vain henkilöstö
+interfacedeployment_maxseczone                  Vain huip.vart.
+interfacedeployment_medseczone                  Vain norm.vart.
+interfacedeployment_minseczone                  Vain min.vart.
+interfacedeployment_protectedzone               Vain säilötyt
+interfacedeployment_supermaxzone                Vain supermax
+interfacedeployment_deathrowzone                Vain kuolemaantuomitut
+interfacedeployment_unlockedzone                Lukitsematon
+interfacedeployment_zonered                     Pun. siipi
+interfacedeployment_zonegreen                   Vihr. siipi
+interfacedeployment_zoneblue                    Sin. siipi
+interfacedeployment_zoneyellow                  Kelt. siipi
+
+interfacelogistics_jobs                         Vankityövoima
+interfacelogistics_removejobs                   Poista työvoima
+interfacelogistics_targettingfood               Ruoanjakelu
+interfacelogistics_targettinglaundry            Pyykinjakelu
+interfacelogistics_roomquality                  Huoneen laatu
+
+interfaceplanning_wall							Seinät
+interfaceplanning_object						Tavarat
+interfaceplanning_route							Käytävät
+interfaceplanning_clear							Tyhjennä
+interfaceplanning_zone1							Alue 1
+interfaceplanning_zone2							Alue 2
+interfaceplanning_zone3							Alue 3
+interfaceplanning_zone4							Alue 4
+interfaceplanning_zone5							Alue 5
+interfaceplanning_zone6							Alue 6
+interfaceplanning_zone7							Alue 7
+interfaceplanning_zone8							Alue 8
+interfaceplanning_zone9							Alue 9
+
+interfacecontraband_source                      Vaarat
+interfacecontraband_day                         -24 tuntia
+interfacecontraband_week                        -7 päivää
+interfacecontraband_alltime                     -30 päivää
+interfacecontraband_informants                  Ilmiantajat
+interfacecontraband_gangs                       Jengit
+
+interfaceclone_copy                             Kopioi
+interfaceclone_paste                            Liitä
+
+interfacetopbar_todo							Tehtävälista
+interfacetopbar_balance							Pankki *B
+interfacetopbar_budget							Rahavirta *C
+interfacetopbar_income							Tulot *I
+interfacetopbar_expenses						Menot *C
+interfacetopbar_day								PÄIVÄ *D
+
+interfacetopbar_title_balance					Tilin saldo
+interfacetopbar_title_budget					Päivittäinen rahavirta
+interfacetopbar_title_cctv						Turvakamerat
+interfacetopbar_title_day						Päivä
+interfacetopbar_title_prisoners					Vangit
+interfacetopbar_title_guards					Vartijat
+interfacetopbar_title_tension                   Vaara
+
+interfacetopbar_tooltip_balance					Paljonko sinulla on rahaa jäljellä pankissa.\n\nKlikkaa hakeaksesi valtiolta lisää varoja Apurahat-listan kautta.
+interfacetopbar_tooltip_budget					Paljonko rahaa ansaitset päivittäin. Perustuu nykyisiin tuloihisi ja menoihisi.\n\nKlikkaa nähdäksesi tulojesi ja menojesi yksityiskohtaiset tiedot.
+interfacetopbar_tooltip_cctv					Montako turvakameraa ja -monitoria sinulla on tällä hetkellä.
+interfacetopbar_tooltip_day						Montako päivää olet johtanut vankilaa.
+interfacetopbar_tooltip_prisoners				Montako vankia sinulla on tällä hetkellä, ja montako vankilaasi mahtuu.
+interfacetopbar_tooltip_guards					Montako vartijaa vankilassasi on töissä.
+interfacetopbar_tooltip_tension                 Vankilasi yleinen vaarataso turvallisuuspäällikkösi mielestä.
+
+interfacetopbar_tooltip_recenttransactions      Viimeaikaiset ostot
+
+interfacetopbar_tooltip_gametime                Peliaika yhteensä: *X tuntia, *Y minuuttia, *Z sekuntia
+
+interfacetopbar_tooltip_totalguards             *X vartijaa yhteensä
+interfacetopbar_tooltip_guardincapacitated      *X loukkaantunutta
+interfacetopbar_tooltip_guardstationed          *X asemissa 
+interfacetopbar_tooltip_guardpatrolling         *X partioimassa
+interfacetopbar_tooltip_guardavailable          *X vapaana
+interfacetopbar_tooltip_guardresting            *X lepäämässä
+interfacetopbar_tooltip_guardactive             (*X vastaamassa välikohtauksiin)
+interfacetopbar_tooltip_guarddoingjob           *X suorittamassa tehtäviä
+interfacetopbar_tooltip_idle                    (*X ei tee mitään)
+interfacetopbar_tooltip_armedguards             + *X aseistettua vartijaa
+interfacetopbar_tooltip_dogs                    + *X koirankäsittelijää
+
+interfacetopbar_unlimitedfunds                  RAJATTOMAT VARAT
+
+interfacetopbar_budget_moneyin					Rahaa sisään: $*M /päivä
+interfacetopbar_budget_moneyout					Rahaa ulos: $*M /päivä
+interfacetopbar_budget_cantgonegative           Rahavirtasi ei voi olla negatiivinen (enemmän menoja kuin tuloja), jos et ole palkannut kirjanpitäjää.
+
+interfacetopbar_prisoners_types					Tällä hetkellä *X vankia:
+interfacetopbar_prisoners_capacity              Korkein turvallinen kapasiteetti: *X
+interfacetopbar_prisonercells_shared            Jaettu kapasiteetti: *X
+interfacetopbar_prisonercells_unlocked          Lukitsematon kapasiteetti: *X
+interfacetopbar_prisonercells_minseconly        Minimikapasiteetti: *X
+interfacetopbar_prisonercells_medseconly        Normaali kapasiteetti: *X
+interfacetopbar_prisonercells_maxseconly        Maksimikapasiteetti: *X
+interfacetopbar_prisonercells_protectedonly     Säilöttyjen kapasiteetti: *X
+interfacetopbar_prisonercells_supermaxonly      SuperMax-kapasiteetti: *X
+interfacetopbar_prisonercells_deathrowonly      Kuolemanjonon kapasiteetti: *X
+interfacetopbar_prisonercells_staffonly         Ei saatavilla: *X
+interfacetopbar_prisoners_nocells               *X vangille ei ole vapaata selliä
+
+interfacetopbar_cctv_current					Tällä hetkellä *C kameraa
+interfacetopbar_cctv_cap						Tilaa on *C kameralle
+
+interfacetopbar_tension_currentlevel            Vaarataso on *X
+interfacetopbar_tension_increasing              ja se nousee
+interfacetopbar_tension_decreasing              ja se laskee
+interfacetopbar_tension_description             TEKIJÄT:
+interfacetopbar_tension_happyprisoners          - *X vankia sanoo kokevansa hyvää kohtelua
+interfacetopbar_tension_unhappyprisoners        + *X vangilla on vakavia valituksia
+interfacetopbar_tension_lockedupprisoners       + *X vankia on lukkojen takana ilman syytä
+interfacetopbar_tension_riotingprisoners        + *X vankia mellakoi
+interfacetopbar_tension_wellfedprisoners        - *X vankia on hyvin ruokittu
+interfacetopbar_tension_suppressedprisoners     = *X vankia on nujerrettu
+interfacetopbar_tension_activeriotguards        + *X mellakkapoliisia on paikan päällä
+interfacetopbar_tension_activearmedguards       + *X aseistettua vartijaa on palveluksessa
+interfacetopbar_tension_recentdeaths            + *X ihmistä on kuollut hiljattain
+interfacetopbar_tension_recentsearches          + *X vankia on tarpeettomasti tarkastettu hiljattain
+interfacetopbar_tension_angrygangmembers        + *X JENGILÄISTÄ ON RAIVOISSAAN (johtajaa rangaistu)
+interfacetopbar_tension_recentpunishments         = (PELOTE) *X rangaistusta annettu hiljattain
+interfacetopbar_tension_recentcalmed             - *X vankia rauhoitettu hiljattain
+
+interfacecontrol_mainmenu                       Päävalikko (Esc)
+interfacecontrol_mainmenu_tooltip               Avaa tai sulje päävalikko (Uusi/Lataa/Tallenna/Poistu, jne.)
+interfacecontrol_todo                           Tehtävälista
+interfacecontrol_todo_tooltip                   Avaa tai sulje tehtävälista
+interfacecontrol_research                       Byrokratia
+interfacecontrol_research_tooltip               Avaa Byrokratia-ruudun, jossa voit käskeä hallinnon työntekijöitä avaamaan uusia tavaroita, henkilöstötyyppejä ja paikkoja.
+interfacecontrol_grading                        Vankilan arvosana
+interfacecontrol_grading_tooltip                Avaa Vankilan arvosana -ruudun, josta näet yhteenvedon siitä miten hyvin olet pärjännyt.
+
+interface_confirmlandbuy                        Haluatko varmasti ostaa tämän tontin hintaan $*X?
+interface_loadconfirm                           Haluatko varmasti ladata tämän kartan? Kaikki tallentamattomat muutokset hylätään.
+interface_saveconfirm                           Haluatko varmasti tallentaa tiedoston tällä nimellä? Olemassa olevat tiedot korvataan.
+
+interface_landbuylabel                          *Xm x *Ym. Alue yhteensä *A neliömetriä. *C
+
+interface_action_dismantle                      Pura
+interface_action_dump                           Hävitä
+interface_action_repair                         Korjaa
+interface_action_medicalbay                     Sairastupa
+interface_action_search                         Tutki
+interface_action_searchcell                     Tutki selli
+interface_action_searchcellblock                Tutki selliosasto
+interface_action_sack                           Erota
+interface_action_doormodenormal                 Ovitila: Normaali
+interface_action_doormodelockedshut             Ovitila: Lukittu kiinni
+interface_action_doormodelockedopen             Ovitila: Lukittu auki
+interface_action_switchon                       Kytke päälle
+interface_action_switchoff                      Kytke pois
+interface_action_sellobject                     Myy esine
+interface_action_dismiss                        Lähetä pois
+interface_action_connect                        Yhdistä
+interface_action_clearconnections               Pura yhteydet
+interface_action_servoopen                      Avaa laukaistaessa
+interface_action_servoclose                     Sulje laukaistaessa
+
+interface_contents_container                    Sisältö: *X 
+interface_contents_stack                        Sisältö: *X x *Y 
+
+interface_skip                                  OHITA
+
+interface_error_riotmove                        Ei voi mennä: Mellakka
+
+interface_foundationsinprogress                 Perustustyö käynnissä
+riot_underway                                   MELLAKKA KÄYNNISSÄ
+riot_status_prisoners                           *X vankia mellakoi
+shakedown_underway                              PENKOMINEN KÄYNNISSÄ
+shakedown_found                                 Löytyi:
+
+gameover_caption                                Jatka painamalla ESC
+
+sector_jobs_max                                 Maks. työt *X
+sector_jobs_qualified                           Päteviä vankeja: *X
+sector_jobs_required                            (Tarvitaan: *X)
+sector_noaccess                                 EI PÄÄSYÄ
+sector_insecure                                 TURVATON
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Laitteiston soveltuvuustesti
+hardware_compat_message					Haluamme kerätä luvallasi seuravaat laitteistotiedot tietokoneestasi.\n\nTiedot ovat täysin nimettömiä ja auttavat meitä varmistamaan, että Prison Architect toimii kaikilla mahdollisilla laitteistokokoonpanoilla.\n\nKiitos!
+hardware_compat_accept					OK
+hardware_compat_decline					Ei kiitos
+
+connectionmenu_connect                  Yhdistä
+connectionmenu_disconnect               Katkaise yhteys
+connectionmenu_clear                    Tyhjennä
+connectionmenu_done                     Valmis
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      Rakenna
+buildtoolbar_reports                    Raportit
+buildtoolbar_bangup                     Sellitys
+buildtoolbar_lockdown                   Lukkotila
+buildtoolbar_shakedown                  Penkominen
+buildtoolbar_weaponsfree                Tuli vapaa
+
+buildtoolbar_tooltip_reports			Avaa Raportit-ikkuna, josta näet tietoja vangeistasi, henkilöstöstä, tuloista, apurahoista, ym.
+buildtoolbar_tooltip_bangup				Lähetä kaikki (tottelevat) vangit takaisin selleihinsä. Vangit suuttuvat hyvin nopeasti, jos he ovat liian pitkään lukittuina selleihinsä.
+buildtoolbar_tooltip_lockdown			Lukitse kaikki vankilan ovet välittömästi.
+buildtoolbar_tooltip_shakedown          Määrää kaikkien sellien välitön tarkastus. Tämä kestää kauan ja ärsyttää hemmetisti kaikkia vankeja.
+buildtoolbar_tooltip_weaponsfree        Antaa aseistetuille vartijoille luvan käyttää kuolettavaa voimaa.
+
+buildtoolbar_cost						Hinta: $*C
+buildtoolbar_cost_sqrft					Hinta: $*C / ruutu
+buildtoolbar_wages						Palkka: $*W per päivä
+buildtoolbar_outdoor					Vain ulkotiloissa
+buildtoolbar_indoor						Vain sisätiloissa
+buildtoolbar_walk_speed					Kävelyvauhti: *S
+buildtoolbar_walk_speed_slow			Hidas
+buildtoolbar_walk_speed_norm			Normaali
+buildtoolbar_walk_speed_fast			Nopea
+buildtoolbar_locked                     LUKITTU
+buildtoolbar_locked_research			LUKITTU (Vaatimus: *B)
+buildtoolbar_locked_administrator		LUKITTU (*B on pakollinen)
+buildtoolbar_room						Huone
+
+buildtoolbar_electrical                  - Sähkötyöt
+buildtoolbar_highpower                   - Korkeatehoinen
+buildtoolbar_water                       - Vaatii vesiliitännän
+buildtoolbar_wired                       - Johdollinen (yhdistyy muihin johd. laitteisiin)
+buildtoolbar_modcontent                  - Mod-sisältöä
+
+buildtoolbar_popup_foundations			Rakenna/pura rakennuksia vankilasi kehittämiseksi.
+buildtoolbar_popup_construction			Erilaisia lattioita ja seiniä.
+buildtoolbar_popup_planning				Suunnittele vankilasi ilman pelkoa siitä, että työmiehesi ryhtyisivät töihin.
+buildtoolbar_popup_designation			Määritä vankilan eri alueita tiettyjä toimintoja varten.
+buildtoolbar_popup_objects				Sijoita hyödyllisiä tavaroita ympäri vankilaasi.
+buildtoolbar_popup_overlays				Havaitse vankilasi pohjakaavan heikkoja kohtia.
+buildtoolbar_popup_utilities			Vesi- ja sähköjärjestelmät.
+buildtoolbar_popup_staff				Palkkaa tarvittavat henkilöt vankilaasi pyörittämään.
+buildtoolbar_popup_deployment			Määrää henkilöstöä vankilan tietyille alueille.
+buildtoolbar_popup_logistics            Määrää vankeja töihin eri puolille vankilaa. Sisältää myös ruokalan ja pyykkihuoneen manuaalisen ohjauksen.
+buildtoolbar_popup_research				Avaa uusia mahdollisuuksia vankilaasi.
+buildtoolbar_popup_emergencies			Soita hätäpalveluihin, jos asiat menevät pieleen.
+buildtoolbar_popup_spawn				Luo? Mitä vittua tämä tekee?
+buildtoolbar_popup_clone				Kopioi ja liitä olemassa olevia rakennuksiasi.
+buildtoolbar_popup_properties			Lue tietoja jutuista.
+buildtoolbar_popup_contraband           Näytä kieltotavaroiden lähteet, sekä kaikki viime aikoina vankilastasi löydetyt kieltotavarat. Näyttää myös luottovasikat ja heidän tietonsa.
+buildtoolbar_popup_grading              Näyttää vankilasi arvosanat neljällä eri osa-alueella - Rankaisu, Sopeuttaminen, Turvallisuus ja Terveys. Näyttää myös miten paljon vankilastasi tulee rikoksen uusijoita.
+buildtoolbar_popup_room_cell			Missä vankisi asuvat.
+buildtoolbar_popup_room_holdingcell		Paikka, johon uudet tulokkaat sijoitetaan, kunnes heille löytyy selli.
+buildtoolbar_popup_room_solitary		Täysin eristetty tila kaikkein pahimmille vangeille.
+buildtoolbar_popup_room_canteen			Missä vangeille tarjoillaan kello viiden tee.
+buildtoolbar_popup_room_kitchen			Alue, jossa kokit tekevät ruokaa vangeille.
+buildtoolbar_popup_room_shower			Tämän avulla vangit pidetään puhtaina, jotta täit pysyvät poissa.
+buildtoolbar_popup_room_yard			Anna vankiesi nähdä aurinkoa pari tuntia päivässä tarkka-ampujien valvovan silmän alla.
+buildtoolbar_popup_room_storage			Varastoalue kaikille henkilöstön tarvitsemille materiaaleille.
+buildtoolbar_popup_room_deliveries		Minne tarvikkeet, materiaalit ja vangit tuodaan.
+buildtoolbar_popup_room_garbage			Mistä jätteesi haetaan.
+buildtoolbar_popup_room_execution		Minne lähetät vankeja kuolemaan.
+buildtoolbar_popup_room_workshop		Minne lähetät vangit kuolemaan tylsyyteen, kun he tekevät rekisterikilpiä.
+buildtoolbar_popup_room_security		Vartijoidesi toimistotilat.
+buildtoolbar_popup_room_office			Hallinnollisen henkilöstön työalue.
+buildtoolbar_popup_room_medicalward		Terveydenhuoltohenkilöstön työpaikka.
+buildtoolbar_popup_room_morgue			Tänne lähetetään kuolleet vangit ja henkilöstön jäsenet.
+buildtoolbar_popup_room_commonroom		Täällä vangit voivat rentoutua vapaa-ajalla.
+buildtoolbar_popup_room_kennel          Täällä koirasi asuvat.
+buildtoolbar_popup_room_chapel          Mitä tapahtuu, kun byrokraattinen komitea kokoontuu suunnittelemaan ratkaisua vankien uskonnollisiin tarpeisiin? Luodaan "Moniuskontoinen rukoushuone". Me sanomme sitä kappeliksi.
+buildtoolbar_popup_room_paroleroom      Vankisi voivat päästä ehdonalaiseen istuttuaan 50 % ja 75 % tuomioistaan. Heidän kohtalonsa päätetään tässä huoneessa, vankilanjohtajan ja turvallisuuspäällikön kanssa.\n\nHuomaa: lisävartiointia suositellaan. Vangit saattavat suutahtaa, kun heiltä evätään ehdonalainen.
+buildtoolbar_popup_room_library         Vankilaasi lähetetään laatikoittain hylättyjä ja käytettyjä kirjoja kaikkialta maasta. Vankien on lajiteltava kirjat hyllyihin.
+buildtoolbar_popup_room_intake          Tänne vankisi viedään, kun he saapuvat ensi kertaa.
+
+buildtoolbar_popup_obj_bed				Ei liian pehmeä, eikä liian kova, vaan juuri sopiva. Tai no, oikeastaan tosi kova ja aivan liian pieni.
+buildtoolbar_popup_obj_toilet			Ihmisen perusoikeus, jos uskoo hihhuleita.
+buildtoolbar_popup_obj_table			Sopii hyvin tuolin pariksi.
+buildtoolbar_popup_obj_chair			Loistava pari pöydän kanssa.
+buildtoolbar_popup_obj_bench			Istumiseen.
+buildtoolbar_popup_obj_electricchair	Täräyttää 2 000 volttia oikeutta.
+buildtoolbar_popup_obj_jaildoor			Pitää vankisi siellä, mihin he kuuluvat.
+buildtoolbar_popup_obj_jaildoorlarge	Pitää kokonaisen kasan vankeja siellä, mihin he kuuluvat.
+buildtoolbar_popup_obj_door				Yksinkertainen ovi.
+buildtoolbar_popup_obj_solitarydoor		Raskas ovi, joka estää vahvimpiakin vankeja karkaamasta.
+buildtoolbar_popup_obj_staffdoor		Lukittu ovi, jonka voi avata kuka tahansa henkilöstön jäsen, eivät vain vartijat.
+buildtoolbar_popup_obj_window			Tästä näkee auringon.
+buildtoolbar_popup_obj_windowlarge		Tästä näkee paljon aurinkoa.
+buildtoolbar_popup_obj_tree				Taistelu ilmastonmuutosta vastaan on meidän kaikkien vastuulla.
+buildtoolbar_popup_obj_light			Tämä varmistaa, että vangit näkyvät kaikkina päivänaikoina.
+buildtoolbar_popup_obj_cooker			Tarjoa vangeillesi lämpimän ruoan tuomaa luksusta.
+buildtoolbar_popup_obj_fridge			Estää ruokatarvikkeita mätänemästä.
+buildtoolbar_popup_obj_bin				Siisteys on tärkeää, mitä tulee kieltotavaroihin.
+buildtoolbar_popup_obj_sink				Kaikkien työtekijöiden on pestävä kädet.
+buildtoolbar_popup_obj_servingtable		Mätä ruokaa vankien lautasille.
+buildtoolbar_popup_obj_showerhead		Suihkun pää. Suihkuttamiseen.
+buildtoolbar_popup_obj_bookshelf		Hylly, jossa on kirjoja. 
+buildtoolbar_popup_obj_officedesk		Henkilöstösi kirjoittelee kaikenlaista. Anna heille sitä varten kiiltävä kirjoituspötä.
+buildtoolbar_popup_obj_filingcabinet	Henkilökuntasi täytyy pitää kirjoitukset järjestyksessä.
+buildtoolbar_popup_obj_medicalbed		Paikka huumeiden säilyttämiseen, kunnes vangit varastavat ne.
+buildtoolbar_popup_obj_morgueslab		Varmistaa, että kuolleilla on kunniallinen paikka levätä ennen siirtoa.
+buildtoolbar_popup_obj_drain			Poistaa vettä lattialta.
+buildtoolbar_popup_obj_sprinkler		Suihkuttaa vettä automaattisesti lähiympäristöön, jos se palaa.
+buildtoolbar_popup_obj_metaldetector	Tunnistaa tämän läpi kävelevien vankien taskuissa olevat kieltotavarat. Lähistöllä tulee olla vartija, joka korjaa tavarat talteen.
+buildtoolbar_popup_obj_weightsbench		Anna vankiesi treenata vapaa-ajalla, se pitää heidät tyytyväisinä.
+buildtoolbar_popup_obj_phonebooth		Vangit saattavat joskus haluta jutella perheilleen, ja nämä puhelinkopit auttavat siinä.
+buildtoolbar_popup_obj_tv				Rauhoita vankisi tylsistyttävällä keskinkertaisuudella.
+buildtoolbar_popup_obj_largetv			Anna usean vangin nauttia mielen rapistumisesta yhdessä.
+buildtoolbar_popup_obj_pooltable		Poista monotonisuus vankilaelämästä biljardipelillä.
+buildtoolbar_popup_obj_dismantleobject	Poista esine vankilastasi.
+buildtoolbar_popup_obj_altar            Välittää rukouksesi suoraan valitsemallesi korkeammalle voimalle.
+buildtoolbar_popup_obj_pews             Uskovaisten istuimet. Tehty kaikkein kovimmasta ja vähiten pehmustetusta puusta.
+buildtoolbar_popup_obj_prayermat        Suojelee vankejasi likaiselta lattialta, kun nämä mumisevat rukouksiaan.
+
+buildtoolbar_popup_staff_workman		Rakentaa vankilasi laatimasi suunnitelman pohjalta.
+buildtoolbar_popup_staff_guard			Pitää vankisi kurissa ja nuhteessa.
+buildtoolbar_popup_staff_armedguard     Vangit eivät välttämättä rupea tämän haulikkosankarin kanssa tappelemaan.\n\nHuomaa: Jokainen aseistettu vartija tarvitsee oman lokerikkonsa asevarastossa.
+buildtoolbar_popup_staff_doctor			Parantaa automaattisesti kaikki lähialueen ihmiset, olivatpa he sitten vartijoita tai vankeja.
+buildtoolbar_popup_staff_cook			Ruokkii vankisi valmistamillaan aterioilla.
+buildtoolbar_popup_staff_gardener		Pitää vankilasi ulkotilat siistinä.
+buildtoolbar_popup_staff_janitor		Pitää vankilasi sisätilat siistinä. Voi myös auttaa vankilan pyykin kanssa.
+buildtoolbar_popup_staff_warden			Vankilasi päällysmies. Tarvitset hänet, ennen kuin voit tutkia ja palkata edistyneempää henkilöstöä.
+buildtoolbar_popup_staff_chief			Edistyneempi henkilöstön jäsen, joka voi kehittää sinulle asemointityökaluja, turvakameroita ja mellakkapoliiseja.
+buildtoolbar_popup_staff_foreman		Edistyneempi henkilöstön jäsen, joka johtaa siivoojia ja puutarhureita.
+buildtoolbar_popup_staff_psychologist	Edistyneempi henkilöstön jäsen, joka auttaa sinua ymmärtämään vankien tarpeita ja mielentiloja.
+buildtoolbar_popup_staff_accountant		Edistyneempi henkilöstön jäsen, joka esittelee sinulle talousraportit.
+buildtoolbar_popup_staff_lawyer			Edistyneempi henkilöstön jäsen, joka auttaa kiertämään sääntöjä, jotta voit hallita vankilaa paremmin.
+
+buildtoolbar_popup_uts_powerstation		Tuottaa vankilasi tarvitsemaa sähköä.
+buildtoolbar_popup_uts_capacitor		Lisää sähköntuotantoa virtalähteen viereen sijoitettuna.
+buildtoolbar_popup_uts_electricalcable	Jakaa virtaa ympäri vankilaasi.
+buildtoolbar_popup_uts_powerswitch		Vaihtelee kytkimeen yhdistetyn kaapelin virransaantia.\n\nLaita päälle/pois hiiren oikealla napilla klikkaamalla.
+buildtoolbar_popup_uts_waterpumpstation	Toimii vedenlähteenä vankilassasi.
+buildtoolbar_popup_uts_pipevalve		Vaihtelee venttiiliin yhdistetyn putken vedensaantia.
+buildtoolbar_popup_uts_pipelarge		Jakaa suuren määrän vettä ympäri vankilaasi, kovalla paineella. Luultavasti tarpeeksi iso, jotta joku pystyisi rämpimään 500 metriä paskan ja saastan seassa vapauteen.\n\nHuomaa: ei yleensä liitetä pesualtaisiin, suihkuihin, jne. Vedenpaine on liian kova. Käytä niihin pientä putkea.
+buildtoolbar_popup_uts_pipesmall		Tällä liitetään vessanpöntöt, suihkut, pesualtaat, jne. isompien putkien verkostoon. Vedenpaine on paljon matalampi, joten pieni putki ei voi olla kovin pitkä, ettei paine laske liikaa.
+buildtoolbar_popup_uts_cctv				Pidä vankilaasi silmällä ilman että vartijoita on kaikkialla.\n\nSinun täytyy yhdistää monitori tähän kameraan, jotta se toimisi.
+buildtoolbar_popup_uts_cctvmonitor		Suunniteltu rakennettavaksi turvahuoneeseen vartijan käytettäväksi. Seuraa vankilasi turvakameroita etänä.\n\nYhdistä tämä monitori turvakameroihisi kytkentätyökalulla.\n\nHuomaa: Kerrallaan voidaan katsoa enintään kahdeksaa kameraa. Jos yhdistät enemmän kuin 8 kameraa, monitori selaa niitä, näyttäen vain osan kerrallaan.
+buildtoolbar_popup_uts_DoorControlSystem  Suunniteltu rakennettavaksi turvahuoneeseen vartijan käytettäväksi. Avaa vankilasi ovia etänä.\n\nYhdistä tämä järjestelmä oviservoihisi kytkentätyökalulla. Oviservot tulee rakentaa etänä avattavien ovien yläpuolelle.\n\nHuomaa: Voit yhdistää tämän niin moneen servoon kuin haluat, mutta järjestelmää ohjaava vartija voi avata enintään kaksi ovea sekunnissa.
+buildtoolbar_popup_uts_phonemonitor     Suunniteltu rakennettavaksi turvahuoneeseen vartijan käytettäväksi. Antaa sinun kuunnella vankien soittamia puheluita, joista saat tärkeitä tietoja suunnitelluista laittomuuksista.\n\nYhdistä tämä järjestelmä puhelinkoppeihisi kytkentätyökalulla.
+buildtoolbar_popup_uts_Servo            Sijoita servo etäohjattavan oven päälle. Varmista, että hammaspyörä on suoraan oven päällä.\n\nAsennuksen jälkeen ovi avautuu aina kun servo aktivoituu - yleensä oviohjausjärjestelmän tai oviajastimen toimesta.\n\nServoja voi myös yhdistää toisiinsa siten, että ensimmäisen avautuessa muutkin aktivoituvat.
+buildtoolbar_popup_uts_LogicCircuit     Vain edistyneimmille arkkitehdeille.\n\nYksinkertainen piirilaatikko, joka toimittaa loogisen operaation perustuen sen sisääntuloihin, ja asettaa ulostulon vastaavasti.\n\nKäytettävät operaatiot: And / Or / Not / Nand / Nor / Xor\n\nKlikkaa hiiren oikealla napilla selataksesi loogisia operaatioita.
+buildtoolbar_popup_uts_LogicBridge      Vain edistyneimmille arkkitehdeille.\n\nOttaa vastaan sisääntulevan signaalin, ja ohjaa sen samalle ruudulle rakennetulle virtakaapelille. Virtakaapeli johtaa signaalin kaikille muille saman kaapelin päälle rakennetuille logiikkapiireille.\n\nVoidaan käyttää yhteisen signaalin "lähettämiseksi" koko vankilaan. Hyödyllinen esim. yhteisen kellosignaalin lähettämiseen.
+buildtoolbar_popup_uts_DoorTimer        Voi avata ovia tiettyihin kellonaikoihin.\n\nKäytä kytkentätyökalua yhdistääksesi tämän ajastimen oviservoihisi.
+buildtoolbar_popup_uts_Wire             Yhdistä etäohjauslaitteistosi toisiinsa.
+buildtoolbar_popup_uts_showallwires		Näytä vankilasi kaikki yhdistetyt johdot.
+buildtoolbar_popup_uts_remotedoor       Paksu metalliovi, jota ei voi avata avaimilla (toimii ainoastaan etäohjauksen kautta). Estä tällä joukkopaot, jos vankisi saavat vankilan avaimet.
+buildtoolbar_popup_uts_dismantleutility	Poista LVI-esine vankilastasi.
+buildtoolbar_popup_uts_pressurepad      Lähettää signaalin yhdistettyihin laitteisiin aina jos jokin on laatan päällä.
+buildtoolbar_popup_uts_statuslight      Valon väri on joko punainen tai vihreä, riippuen vastaanotetusta signaalista. 
+
+buildtoolbar_popup_autolights_name      Automaattivalot
+buildtoolbar_popup_autolights           Automaattinen valojen sijoittaminen
+buildtoolbar_popup_autolights_desc      Kun tämä on valittuna, uusiin rakennuksiin sijoitetaan automaattisesti valot heti kun ne valmistuvat.
+
+buildtoolbar_contraband_source          Näyttää kaikki sijainnit ympäri vankilaasi, mistä kieltotavaroita voisi varastaa.
+buildtoolbar_contraband_day             Näyttää kaikki viimeisen 24 tunnin aikana takavarikoidut kieltotavarat.
+buildtoolbar_contraband_week            Näyttää kaikki viimeisen 7 päivän aikana takavarikoidut kieltotavarat.
+buildtoolbar_contraband_alltime         Näyttää kaikki koko vankilan historian aikana takavarikoidut kieltotavarat.
+buildtoolbar_contraband_informants      Näyttää ilmiantajiltasi kerätyt tiedot.
+
+buildtoolbar_deployment_Guards          Sijoita vartijoita vankilasi eri alueille.
+buildtoolbar_deployment_Patrols         Luo partioreittejä klikkaamalla ja vetämällä.\n\nVoit määrätä vartijan partioreitille klikkaamalla valmiille partioreitille kuuluvaa ruutua.\nVoit poistaa partioita kilkkaamalla hiiren oikealla napilla ja vetämällä.
+buildtoolbar_deployment_DogPatrols      Luo partioreittejä klikkaamalla ja vetämällä.\n\nVoit määrätä vartijan partioreitille klikkaamalla valmiille partioreitille kuuluvaa ruutua.\nVoit poistaa partioita kilkkaamalla hiiren oikealla napilla ja vetämällä.
+buildtoolbar_deployment_ArmedPatrols    Luo partioreittejä klikkaamalla ja vetämällä.\n\nVoit määrätä vartijan partioreitille klikkaamalla valmiille partioreitille kuuluvaa ruutua.\nVoit poistaa partioita kilkkaamalla hiiren oikealla napilla ja vetämällä.
+buildtoolbar_deployment_SharedZone      Tämä alue on sallittu kaikille vangeille.
+buildtoolbar_deployment_MinSecZone      Tälle alueelle saa tulla vain minimivartiointia tarvitsevia vankeja.
+buildtoolbar_deployment_MedSecZone      Tälle alueelle saa tulla vain normaalivartiointia tarvitsevia vankeja.
+buildtoolbar_deployment_MaxSecZone      Tälle alueelle saa tulla vain huippuvartiointia tarvitsevia vankeja.
+buildtoolbar_deployment_ProtectedZone   Tälle alueelle saa tulla vain suojeluvartioinnissa olevia vankeja.
+buildtoolbar_deployment_SuperMaxZone    Tälle alueelle saa tulla vain äärimmäistä huippuvartiointia tarvitsevia vankeja.
+buildtoolbar_deployment_DeathRowZone    Tälle alueelle saa tulla vain kuolemaantuomittuja vankeja.
+buildtoolbar_deployment_StaffOnlyZone   Tälle alueelle saa tulla vain henkilökuntaa.
+buildtoolbar_deployment_UnlockedZone    Tämä alue on sallittu kaikille ja kaikki ovet ovat lukitsemattomia.
+
+job_matsassigned                        Materiaalit määritetty
+job_matsavailable                       Materiaalit saatavilla
+job_awaitingmaterials                   Odottaa materiaaleja
+job_inprogress                          Työ kesken
+job_blocked                             Työ (estynyt)
+job_queued                              Työ (jonossa)
+
+job_failed_noroute                      Ei reittiä
+job_failed_nomaterials                  Ei materiaaleja
+job_failed_toodangerous                 Liian vaarallista
+job_failed_materialsbeingcarried        Materiaalit tulossa
+
+job_rightclicktocancel                  Peru klikkaamalla oikealla painikkeella
+job_refundamount                        Hyvitys: *X
+
+failuremessage_blocked                  Jotain tiellä
+failuremessage_cantafford               Varat eivät riitä
+failuremessage_cantaffordupkeep         Ylittää päiväbudjetin
+failuremessage_maximumcountreached      Yläraja saavutettu
+failuremessage_maxstaff                 Liikaa henkilöstöä
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Lastausalue
+statustoolbar_finances                  Talous
+statustoolbar_regime                    Aikataulu
+statustoolbar_escapemap                 Turvallisuus
+statustoolbar_electricity               Sähkö
+statustoolbar_stats                     Tilastot
+statustoolbar_danger                    Vaara
+statustoolbar_jobs                      Työt
+statustoolbar_gangs                     Jengit
+statustoolbar_staff                     Henkilöstö
+statustoolbar_research                  Tutkimukset
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Sprite-muokkain
+spritebankeditor_create                 Luo
+spritebankeditor_rotate                 Pyöritä
+spritebankeditor_sort                   Järjestä
+spritebankeditor_markermodetitle        Merkintätila
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Päävalikko
+codex_campaign                          Kampanja
+codex_cutscenes                         Välikohtaukset
+codex_qualifications                    Pätevyydet
+codex_load                              Lataa vankila
+codex_loadcampaign                      Lataa kampanja
+codex_save                              Tallenna vankila
+codex_savecampaign                      Tallenna kampanja
+codex_performance						Suorituskykytesti
+codex_developer_load                    (Kehittäjä) Lataa kartta
+codex_developer_save                    (Kehittäjä) Tallenna kartta
+codex_developer_clearach                (Kehittäjä) Tyhjennä saavutukset
+codex_contacts                          Kontaktit
+codex_materials                         Materiaalit
+codex_play                              Toista
+codex_polaroids                         Valokuvat
+codex_introduction                      Esittely
+codex_restartintroduction               Aloita esittely alusta
+codex_restartchapter                    Aloita luku alusta
+codex_help                              Apua (wiki)
+codex_opensavefolder                    Avaa tallennuskansio
+codex_options							Asetukset
+codex_nitgs								Nimet pelissä
+codex_workshop							Vankilan jakaminen (Steam Workshop)
+codex_checkforupdates                   Tarkista päivitykset
+codex_preorder                          Ennakkotilaa nyt
+codex_termsconditions                   Käyttöehdot
+codex_twitter                           Twitter
+codex_extras                            Ekstrat
+codex_unlocked                          Avattu *X/*Y
+
+codex_new                               Luo uusi vankila
+codex_new_worldsize                     Maailman koko
+codex_new_small                         Pieni
+codex_new_medium                        Keskitaso
+codex_new_large                         Suuri
+codex_new_selectwarden                  Valitse vankilanjohtajasi
+
+codex_options_graphics					Grafiikka
+codex_options_resolution				Tarkkuus
+codex_options_resolutionauto			Automaattinen
+codex_options_windowed					Ikkunallinen
+codex_options_highdpi					Korkea DPI
+codex_options_filtering					Suodatus
+codex_options_nofiltering				Pois
+codex_options_multisampled				Multisamplattu
+codex_options_supersampled				Supersamplattu
+
+codex_options_audio						Ääni
+codex_options_volume					Äänenvoimakkuus
+codex_options_frequency					Taajuus
+codex_options_swapstero					Käännä stereo
+codex_options_dspenabled				Ota DSP käyttöön
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
+
+codex_options_clocktype                 Kellon tyyppi
+codex_options_clocktype_analogue        Analoginen
+codex_options_clocktype_12h             12 tuntia
+codex_options_clocktype_24h             24 tuntia
+
+codex_options_gameplay					Peli
+codex_options_autosave					Autom. tallennusväli
+codex_options_renderrooms				Huoneiden shakkikuvio
+codex_options_apply						Käytä
+
+codex_options_language					Kieli
+
+codex_enabled                           Päällä
+codex_disabled                          Pois
+
+codex_option_intake                     Jatkuva vastaanotto
+codex_tooltip_intake                    Jos päällä, tulet saamaan satunnaisen määrän vankeja joka ikinen päivä, iankaikkisesti.\n\nJos pois päältä, voit itse valita milloin olet valmis vastaanottamaan vankeja menemällä Raportteihin ja klikkaamalla Sisäänotto-välilehteä.
+codex_option_fogofwar                   Peittoalue
+codex_tooltip_fogofwar                  Et näe huoneiden sisälle, ellei sinulla ole alueella vartijoita partiossa tai turvakameroita toiminnassa.
+codex_option_lakes                      Luo järviä
+codex_tooltip_lakes                     Satunnaiset järvet valtaavat osan tontistasi. VAROITUS: Kokeilussa.
+codex_option_forests                    Luo metsiä
+codex_tooltip_forests                   Maallasi esintyy puuryppäitä
+codex_option_buildings                  Luo rakennuksia
+codex_tooltip_buildings                 Tontillasi tulee olemaan satunnaisia hylättyjä rakennuksia, joita voit käyttää mielesi mukaan
+codex_option_failure                    Epäonnistumisen ehdot
+codex_tooltip_failure                   Lisähaaste! Sinut erotetaan ja peli on ohi, jos asiat menevät liian paljon päin mäntyä (mellakat, konkurssi, liian paljon kuolemia tai pakenemisia)
+codex_option_unlimitedfunds             Rajattomat varat
+codex_tooltip_unlimitedfunds            Puhdas hiekkalaatikkotila! Voit käyttää niin paljon rahaa kuin huvittaa, ilman huolia tai tylsää odottelua.
+codex_option_gangs                      Jengit
+codex_tooltip_gangs                     Jotkin vangit ovat jengiläisiä, jotka hyökkäävät kilpailevien jengien jäsenten kimppuun. Lisähaaste.
+codex_option_events                     Tapahtumat
+codex_tooltip_events                    Mahdollistaa pelin aikaiset satunnaiset tapahtumat, jotka pitävät sinut varpaillasi. Lisää haastetta ja arvaamattomuutta.
+
+codex_option_funds                      Varat
+codex_tooltip_funds                     Aloittaessasi käytössäsi on tämän verran rahaa. Voit myydä aiempia vankiloitasi Arviointi-ruudun kautta aloittaaksesi suuremmalla summalla.
+
+codex_transfer							Siirrä
+codex_transferring						Siirretään
+codex_in_prison							Tällä hetkellä vankilassa
+codex_useravatar                        Tämä olen minä
+codex_tooltip_useravatar                Merkitse vanki omaksi itseksesi. Jos jostain syystä joudut itse kiven sisään, tämä vanki edustaa sinua.
+codex_tooltip_flagbio                   Ilmoita tämä elämäkerta paheksuttavaksi tai loukkaavaksi.
+
+codex_workshop_current					Nykyinen vankila
+codex_workshop_publish					Julkaise vankila
+codex_workshop_update					Päivitä
+codex_workshop_play						Toista
+codex_workshop_downloading				Ladataan
+codex_workshop_download_failed			Lataus epäonnistui
+codex_workshop_publishing				Julkaistaan...
+codex_workshop_new						UUSI
+codex_workshop_title					Otsikko
+codex_workshop_desc						Kuvaus
+codex_workshop_view_in_workshop			Katsele Steam Workshopissa
+codex_workshop_heading_pubed			Julkaistut vankilasi
+codex_workshop_heading_subed			Tilatut vankilat
+codex_workshop_published_by				Julkaisija: *P
+codex_workshop_published_by_you			Sinun julkaisemasi
+codex_workshop_published_good			Vankila julkaistu
+codex_workshop_published_good_msg		Vankilasi on julkaistu onnistuneesti.
+codex_workshop_published_bad			Julkaisu epäonnistui
+codex_workshop_published_bad_msg		Vankilasi julkaiseminen epäonnistui.
+codex_workshop_published_bad_msg_new	Uuden vankilasi julkaiseminen epäonnistui. Yritä uudelleen.
+codex_workshop_busy						Steamin kanssa on jo jotain meneillään. Odota, että se saadaan ensin valmiiksi ja yritä sitten uudelleen.
+codex_workshop_file_exists				Olet jo julkaissut vankilan tällä nimellä. Valitse toinen nimi.
+codex_workshop_generic_fail				Vankilasi julkaiseminen epäonnistui. Yritä uudelleen.
+codex_workshop_download_bad				Vankilan lataaminen epäonnistui
+codex_workshop_pa_workshop				Avaa Prison Architect Workshop
+codex_workshop_agreement				Luomuksen lähettämäellä hyväksyt [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]Workshopin käyttöehdot[/url].
+
+codex_options_timelapse					Intervallikuvaus
+codex_timelapse_record					Aloita intervallikuvaus
+codex_timelapse_stop					Lopeta intervallikuvaus
+codex_timelapse_camera					Kameratila
+codex_timelapse_resolution				Tarkkuus
+codex_timelapse_customresw				Muokattu resoluution leveys
+codex_timelapse_customresh				Muokattu resoluution korkeus
+codex_timelapse_resolution				Tarkkuus
+codex_timelapse_fps						Toistonopeus
+codex_timelapse_interval				Kuvaa intervalli
+codex_timelapse_quality					Kuvan laatu
+codex_timelapse_unsupported				Laitteistosi ei tue tätä toimintoa.
+codex_timelapse_savesettings			Tallenna asetukset
+
+codex_timelapse_cam_zoom                Zoomaa kameraa
+codex_timelapse_cam_fitmap              Sovita koko karttaan
+codex_timelapse_cam_fitheight           Sovita kartan korkeuteen
+codex_timelapse_cam_fitwidth            Sovita kartan leveyteen
+codex_timelapse_fps_value               *X fps
+codex_timelapse_quality_high            Ylin
+codex_timelapse_quality_med             Keskitaso
+codex_timelapse_quality_low             Alin
+codex_timelapse_interval_value          *X peliminuuttia
+
+codex_performance_running				Suorituskykytesti menossa
+codex_performance_time					Aikaa jäljellä: *Ts
+codex_performance_current				Nykyinen kehysaika: *Tms
+codex_performance_min					Min. kehysaika: *Tms
+codex_performance_avg					Keskiverto kehysaika: *Tms
+codex_performance_max					Maks. kehysaika: *Tms
+codex_performance_numframes				Kehyksien määrä: *T
+
+codex_last_modified						Viimeksi muokattu: *T
+codex_sortbydesc						Järjestä päivämäärällä
+codex_sortname							Nimi
+codex_sortdate							Päivämäärä
+codex_apply								Käytä
+codex_select                            Valitse
+
+codex_mods								Modit
+codex_mod_activetitle					Aktiiviset modit
+codex_mod_inactivetitle					Saatavilla olevat modit
+codex_mod_deactivate					Poista kaikki modit käytöstä
+codex_mod_wiki							Etsi lisää modeja (Wiki)
+codex_mod_openmodsfolder				Avaa modikansio
+codex_mod_moresteammods					Etsi lisää modeja (Steam Workshop)
+codex_mod_findsteamtranslations         Etsi lisää kieliä (Steam Workshop)
+codex_authortitle                       Tekijä
+codex_versiontitle                      Versio
+codex_datetitle                         Päivämäärä
+codex_urltitle                          URL
+codex_typetitle							Tyyppi
+codex_mod_graphicsandsound				Grafiikka ja äänet
+codex_mod_translation					Käännökset
+codex_mod_scenario						Skenaario
+codex_mod_content						Sisältö
+codex_mod_load_scenario					Pelaa skenaario
+codex_publishmod						Julkaise tämä modi
+
+codex_mod_update						Päivitä tämä modi
+codex_mod_published_good				Modi julkaistu
+codex_mod_published_good_msg			Modisi on julkaistu onnistuneesti.
+codex_mod_published_bad					Modin julkaiseminen epäonnistui
+codex_mod_published_bad_msg				Modisi julkaiseminen epäonnistui.
+codex_mod_modsupdated					Modit päivitetty
+codex_mod_modsupdated_msg				Jotkin aktiivisista modeistasi on päivitetty. Napsauta OK asentaaksesi päivitykset. Pelisi tallennetaan automaattisesti.
+codex_mod_translationcaption            Onko tämä käännös toiselle kielelle?
+
+codex_language                          Kieli
+codex_language_englishdefault           Englanti (Oletus)
+codex_language_default                  Oletuskieli
+codex_language_download                 Lataa
+codex_language_failed_download          Käännöksen lataus epäonnistui
+codex_language_failed_download_msg      Valitsemasi käännöksen lataus epäonnistui.
+codex_language_searching_workshop       Etsitään Steam Workshopista
+codex_language_community                Nämä käännökset ovat yhteisön luomia ja ylläpitämiä - kiitos!
+
+codex_save_confirm                      Haluatko varmasti, että *X korvataan nykyisellä vankilalla?
+codex_researtchapter_confirm            Haluatko varmasti aloittaa tämän luvun alusta? Tallentamattomat tiedot menetetään.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Haluatko tallentaa nämä grafiikka-asetukset? Muutokset kumotaan
+graphicschange_time						sekunnin kuluttua.
+graphicschange_accept					OK
+graphicschange_revert					Kumoa
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    Script Debugger (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   Modieroja havaittu
+modnotification_info                    Nämä modit olivat käytössä, kun nykyinen vankila tallennettiin. Suosittelemme, että lataat ja aktivoit ne ennen kuin pelaat tätä vankilaa.
+modnotification_playnow                 Pelaa nyt
+modnotification_active                  Aktiivinen
+modnotification_inactive                Passiivinen
+modnotification_new                     Uusi
+modnotification_unknown                 Tuntematon
+modnotification_popup_title             Modiero
+modnotification_popup_active            Tämä modi on nyt aktiivinen. Deaktivoi se klikkaamalla.
+modnotification_popup_inactive          Tämä modi on nyt passiivinen. Aktivoi se klikkaamalla.
+modnotification_popup_new_url           Tämä on uusi modi. Avaa sen linkki selaimeen klikkaamalla.
+modnotification_popup_new_steam         Tämä on uusi Steam-modi. Tilaa ja lataa modi nyt heti klikkaamalla.
+modnotification_popup_unknown           Emme onnistuneet selvittämään mistä tämä modi on. Etsi ja asenna tämä modi itse.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Ruumiintarkastus
+biography_selected                      VALITTU
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               Vanki #*X
+biography_prisoner_age                  Ikä : *X
+biography_prisoner_traits               Piirteet  :
+biography_prisoner_convicted            Rikos: *C (vastaus: *P)
+biography_prisoner_sentenced            Tuomittu *X vuodeksi vankilaan
+biography_parole_now                    Mahdollisuus ehdonalaiseen nyt
+biography_parole_later                  Mahdollisuus ehdonalaiseen *X vuoden jälkeen
+biography_prisoner_served               Istunut *X vuotta
+biography_prisoner_priors               Aiemmat: 
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Ikä:
+rapsheet_category						Kategoria:
+rapsheet_traits							Tiedetyt piirteet:
+rapsheet_conviction_text				*C - *Y vuotta
+rapsheet_found_text						(Vastaus: *P)
+rapsheet_convictions					Tuomiot
+rapsheet_misconductstitle				Viim.aik. huono käytös
+rapsheet_biography                      Elämäkerta
+rapsheet_guilty							Syyllinen
+rapsheet_notguilty						Syytön
+rapsheet_served							Istuttu
+rapsheet_served_time					Istunut *Y vuotta
+rapsheet_time							*Y vuotta
+rapsheet_bio							Tuomittu *Y vuotta, rikos: *A.
+rapsheet_bio_med						Tuomittu *Y vuotta useasta rikoksesta, mukaan lukien *A ja *B.
+rapsheet_bio_long						Tuomittu *Y vuotta useasta rikoksesta, mukaan lukien *A, *B ja *C.
+rapsheet_category_minsec				Minimivartiointi
+rapsheet_category_normal				Normaali vartiointi
+rapsheet_category_maxsec				Huippuvartiointi
+rapsheet_category_protected             Säilöönotettu
+rapsheet_category_supermax              Supermax
+rapsheet_category_deathrow              Kuolemanjono
+rapsheet_tab_biography                  Elämäkerta
+rapsheet_tab_experience                 Kokemus
+rapsheet_tab_grading                    Arvosana
+rapsheet_tab_character                  Luonne
+rapsheet_punish                         Rankaise
+rapsheet_recruit                        Värvää ilmiantajaksi
+
+rapsheet_timeinside                     *X päivää vankilassasi
+rapsheet_timeinside_hours               *X tuntia vankilassasi
+rapsheet_mood                           Mielentila
+rapsheet_activity                       Toiminta
+rapsheet_condition                      Tila
+rapsheet_program                        Ohjelma
+rapsheet_passchance                     Läpipääsyn tod.näk.
+rapsheet_reformhistory                  Sopeutumisohjelmien historia
+
+rapsheet_reform_success                 Läpäisty
+rapsheet_reform_successcount            Suoritettu *X kertaa
+rapsheet_reform_failed                  Epäonnistui
+rapsheet_reform_failcount               Epäonnistunut *X kertaa
+
+rapsheet_grading_punishment             Rangaistus
+rapsheet_grading_health                 Terveys
+rapsheet_grading_security               Turvallisuus
+rapsheet_grading_reform                 Sopeutuminen
+rapsheet_grading_points                 *X pistettä: 
+rapsheet_grading_penalties              *X sakkoa: 
+
+rapsheet_scheduleexecution              Aikataulun toteuttaminen
+
+
+punish_lockdown_6                       Lukitus (6t)
+punish_lockdown_12                      Lukitus (12t)
+punish_lockdown_24                      Lukitus (24t)
+punish_solitary_6                       Eristys (6t)
+punish_solitary_12                      Eristys (12t)
+punish_solitary_24                      Eristys (24t)
+punish_solitary_perm                    Eristys (pysyvä)
+punish_lockdown_perm                    Lukitus (pysyvä)
+punish_solitary                         Eristys
+punish_lockdown                         Lukkotila
+punish_none                             Ei mitään
+punish_timer                            *Xt *Ym
+punish_timer_minutes                    *Xm
+punish_active                           AKTIIVINEN
+punish_permanent                        (Pysyvä)
+punish_end                              Päätä rangaistus
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  Ei mitään
+misconduct_reporttype_complaint             Valitus
+misconduct_reporttype_destruction           Omaisuuden tuhoaminen
+misconduct_reporttype_escapeattempt         Pakoyritys
+misconduct_reporttype_injuredprisoner       Vangin pahoinpitely
+misconduct_reporttype_injuredstaff          Henkilöstön pahoinpitely
+misconduct_reporttype_seriousinjury         Vakava vamma
+misconduct_reporttype_murder                Murha
+misconduct_reporttype_contrabandweapons     Löytyi aseita
+misconduct_reporttype_contrabandtools       Löytyi työkaluja
+misconduct_reporttype_contrabandnarcotics   Löytyi huumeita
+misconduct_reporttype_contrabandluxuries    Löytyi ylellisyystavaroita
+misconduct_reporttype_intoxicated           Päihtynyt
+misconduct_title                            =[Huono käytös]=
+
+misconduct_report_addiction                 Addiktoitunut: *X
+misconduct_report_recoving                  Toipuu *X-addiktiosta
+misconduct_report_alcoholic                 Alkoholisti
+misconduct_report_recovingalcoholic         Toipuva alkoholisti
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       *X tarvitaan tätä raporttia varten.
+research_requireunlock                  Tutkimus aiheesta *X tarvitaan tätä raporttia varten.
+research_approved                       HYVÄKSYTTY
+research_cost                           Hinta: *X
+research_costperitem                    + *X per esine.
+research_timetounlock                   Avaamiseen kestää: *X t
+research_movementpenalty                Liikkumishidaste: *X%
+research_protectionbonus                Suojausaste: *X%
+research_tap_to_authorise               ANNA LUPA NAPAUTTAMALLA
+
+research_none                           Ei mitään
+research_warden                         Vankilanjohtaja
+research_maintainance                   Kiinteistönhoito
+research_security                       Turvallisuus
+research_legal                          Lakiasiat
+research_mentalhealth                   Mielenterveys
+research_finance                        Taloudenhoito
+research_landexpansion                  Tontin laajennus
+research_cctv                           Turvakamerat
+research_riotguards                     Mellakkapoliisi
+research_health                         Terveys
+research_cleaning                       Siivous
+research_groundskeeping                 Pihanhoito
+research_clone                          Monista
+research_deployment                     Asemointi
+research_patrols                        Partiot
+research_dogs                           Koirat
+research_prisonlabour                   Vankityövoima
+research_education                      Opetus
+research_contraband                     Tiedustelu
+research_policy                         Vankilan käytännöt
+research_armoury                        Asevarasto
+research_bodyarmour                     Suojukset
+research_tazers                         Sähkölamautin
+research_tazersforeveryone              Sähkölamautin kaikille
+research_bankloans                      Pankkilaina
+research_lowertaxes1                    Verohelpotus
+research_lowertaxes2                    Veroparatiisi
+research_remoteaccess                   Etäohjaus
+research_extragrant                     Lisäapuraha
+research_advancedmanagement             Mikromanagerointi
+research_deathrow                       Kuolemanjono
+research_permanentpunishment            Pysyvät rangaistukset
+research_removemincellsize              Pienet sellit
+research_reduceexecutionliability       Vähennä teloitusvastuuta
+research_legalprep                      Lakipreppaus
+research_legaldefense                   Puolustusasianajo
+
+researchtooltip_warden                  Avaa vankilanjohtajan, ja koko byrokratiajärjestelmän. Palkkaa hänet henkilöstövalikosta.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.  
+researchtooltip_security                Avaa turvallisuuspäällikön. Palkkaa hänet henkilöstövalikosta. Päällikön kautta voit käyttää Asemointi-ruutua ja hän antaa sinulle reaaliaikaista tietoa vankilasi vaaratasosta, ennakoiden usein tulevia ongelmia.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.
+researchtooltip_maintenance             Avaa työnjohtajan. Palkkaa hänet henkilöstövalikosta.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.
+researchtooltip_legal                   Avaa asianajajan. Palkkaa hänet henkilöstövalikosta. Avaa useita tutkimusvaihtoehtoja, joiden avulla voit hallita vankilaasi paremmin.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.
+researchtooltip_deployment              Mahdollistaa vartijoiden pysyvän asemoinnin tiettyihin vankilasi osiin.
+researchtooltip_patrols                 Mahdollistaa partioreittien määrittämisen kriittisimpiin alueisiin (esim. ulkoseinä), ja vartijoiden passittamisen partioon.
+researchtooltip_dogs                    Avaa koirankäsittelijän ja vahtikoiran. He ovat taitavia löytämään kieltotavarat ja pakotunnelit vankilasta.\n\nKoirat ovat myös nopeita, joten ne ottavat karkurit helposti kiinni.
+researchtooltip_cctv                    Avaa turvakamerat ja kameramonitorit. Näiden avulla voit pitää miehittämättömiäkin vankilasi alueita silmällä. \n\nAvaa myös puhelinkuuntelujärjestelmän, jolla voit kuunnella vankien puheluita ja kerätä tärkeitä tietoja.
+researchtooltip_remoteaccess            Avaa korkeatasoisen laitteiston ovien etäohjausta ja automatioita varten. Ovia voidaan avata etäohjauksella vartijan käyttämällä ohjausjärjestelmällä, tai ajastimella tiettyinä kellonaikoina.
+researchtooltip_riotguards              (EI TEE TÄLLÄ HETKELLÄ MITÄÄN)\nAvaa mellakkapoliisin. Nämä tyypit ovat paremmin varustettuja väkivaltaisten tilanteiden hoitamiseen.
+researchtooltip_maintainance            Avaa työnjohtajan. Hänen ansiosta voit tutkia esim. Vankityövoimaa tai uusia henkilöstön jäseniä, kuten puutarhureita.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.
+researchtooltip_clone                   Avaa monistustyökalun alareunan valikosta.  Tämän työkalun avulla voit nopeasti monistaa vankilasi osia, kuten sellejä.  Vedä hiiren oikealla napilla suorakaide kopioitavan alueen ylle, ja klikkaa vasemmalla napilla sijoittaaksesi kopion.
+researchtooltip_groundskeeping          Avaa puutarhurin.  Hän huolehtii ulkotilojesi siisteydestä.
+researchtooltip_cleaning                Avaa siivoojan.  Hän vastaa sisätilojesi siisteydestä, ja voi myös auttaa vankilan pyykkipalvelussa.
+researchtooltip_health                  Avaa lääkärin, sairaalan ja ruumishuoneen.  Loukkaantuneet vangit ja työntekijät lähetetään sairaalaan, ja lääkärit parantavat heidät.
+researchtooltip_MentalHealth            Avaa psykologin.  Hän tarjoaa sinulle jatkuvaa tietoa kaikkien vankien sisäisistä mielentiloista ja haluista.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.
+researchtooltip_finance                 Avaa kirjanpitäjän, jonka avulla voit tarkastella vankilasi talousraporttia.\n\nHän myös antaa sinun käyttää päivittäisiin menoihin enemmän rahaa kuin tulosi normaalisti soisivat, olettaen että sinulla on varoja säästössä.\n\nKuten kaikki hallinnolliset työntekijät, hän tarvitsee toimiston työskennelläkseen.
+researchtooltip_landexpansion           Antaa sinulle luvan ostaa naapuritontteja, jotta voit laajentaa vankilaasi alkuperäisestä koostaan.
+researchtooltip_prisonlabour            Voit pistää vankisi töihin ympäri vankilaasi (ruoanlaittoon, siivoamaan, jne.) - sinulta säästyy palkanmaksu, tulot kasvavat ja vankisi oppivat samalla uusia taitoja.\n\nAvaa myös työpajan ja pyykkihuoneen.
+researchtooltip_education               Avaa mahdollisuuden tarjota vangeillesi koulutusohjelmia ulkopuolisila opettajilla.
+researchtooltip_contraband              Kouluttaa vartijasi seuraamaan ja löytämään kieltotavaroita tehokkaammin. Avaa kysynnän ja tarjonnan raportin, kieltotavaran tietokartan (joka näyttää kaikki vankilasi mahdolliset anastuspaikat), ja seuraa löydettyjä kieltotavaroita paikkaan, josta ne salakuljetettiin tai varastettiin.\n\nAvaa myös mahdollisuuden värvätä vankeja ilmiantajiksi.\n\nAvaa myös jengitietonäkymän.
+researchtooltip_policy                  Avaa käytäntöraportin, jonka avulla voit nostaa ja laskea huonosta käytöksestä annettujen rankaistusten tasoa, sekä automaattisesti suorittaa huonosti käyttäytyvien vankien ja heidän selliensä tarkastuksia.\n\nAntaa sinun myös mukauttaa ruokailukäytäntöjä, muuttaen vangeille tarjotun ruoan määrää ja monipuolisuutta.
+researchtooltip_armoury                 Avaa asevaraston ja antaa sinun sijoittaa aseistettuja vartijoita ympäri vankilaasi.
+researchtooltip_bodyarmour              Varustaa kaikki vartijasi, aseistetut vartijasi sekä koirankäsittelijät suojuksilla. Suojuksien ansiosta he pärjäävät tappeluissa paremmin, mutta liikkuvat yleisesti hitaammin.\n\nHeidän tulee käydä asevarastossa hakemassa tämä varuste, ja sinun pitää maksaa jokaisesta näin hankitusta suojuksesta.
+researchtooltip_tazers                  Jokaiselle aseistetulle vartijallesi annetaan sähkölamautin, tehokkaan kertalaukevan aseen, jolla voi lamauttaa lähes kenet tahansa. Sähkölamauttimen akku riittää vain yhteen laukaisuun, minkä jälkeen tainnutinta pitää ladata tunti.\n\nAseistettujen vartijoiden tulee käydä asevarastossa hakemassa tämä varuste, ja sinun pitää maksaa jokaisesta näin hankitusta lamauttimesta.
+researchtooltip_tazersforeveryone       Laajentaa sähkölamautinohjelmaa, jotta myös normaalit vartijasi voivat kantaa sähkölamauttimia puolustuksekseen.\n\nHeidän tulee käydä asevarastossa hakemassa tämä varuste, ja sinun pitää maksaa jokaisesta näin hankitusta lamauttimesta.
+researchtooltip_bankloans               Mahdollistaa suurien könttäsummien lainaamisen pankista, päivittäistä korkomaksua vastaan. Lainojen takaisinmaksu kohottaa luottoluokitustasi, jotta voit lainata aina vain suurempia summia tulevaisuudessa.
+researchtooltip_lowertaxes1             Kaikki mahdollinen hyöty irti valtion verokannusteista, joiden avulla yritysverosi laskee vain 15 %:iin.\n\nSäästät 1 500 $ veroja päivässä jokaista ansaittua 10 000 $ kohti.
+researchtooltip_lowertaxes2             Kirjanpitäjäsi venyttää kaikki säännöt murtumispisteeseen ja siirtää kaikki viralliset tilisi ja liiketoimesi ulkomaille, missä veroista ei juuri ole kuultukaan. Käytännössä maksamasi yritysvero putoaa noin prosenttiin.\n\nSäästät yhteensä 3 000 $ veroissa päivässä jokaista ansaittua 10 000 $ kohti.
+researchtooltip_extragrant              Antaa sinun hakea jopa kolmea eri apurahaa samanaikaisesti kahden sijaan.
+researchtooltip_advancedmanagement      Antaa sinulle työkalut vankilasi mikromanagerointiin, jotta se vastaa täysin vaatimuksiasi.\n\nAvaa ruokalogistiikan, josta voit määrittää mikä keittiö kokkaa millekin ruokalalle, ja missä ruokaloissa vangit syövät. Pyykkilogistiikan puolella voit päättää mitkä pyykkihuoneet palvelevat mitäkin selliosastoa.\n\nAvaa myös Asemointiaikatauluttajan, jolla voit määrittää vartijoiden sijoittumisen eri aikoina.\n\nAvaa vieroitusohjelmien aikatauluttajan, jolla voit muokata itse eri ohjelmien aiktauluja.
+researchtooltip_permanentpunishment     Joskus vankilassa oleminen ei ole riittävän rajoittavaa. Asianajajasi voit hoitaa tarvittavan paperityön, jotta voit määrätä vankeja selleihinsä pysyvästi.
+researchtooltip_removemincellsize       Vankilasi sellit tarvitsevat tietyn määrän tilaa täyttääksen lain vaatimukset. Ajattele miten paljon enemmän sellejä mahtuisi vankilaan, jos näin ei olisi! Poistaa perussellien minimikokovaatimuksen.
+researchtooltip_reduceexecutionliability Asianajajasi lobbaa sen puolesta, että heikommallakin pohjalla olevat tuomiot voivat johtaa kuolemanjonotoimenpiteiden aloittamiseen. Käytännössä vähentää vankien saamien valituskertojen määrää ennen kuin teloitus voidaan panna toimeen vastuuvapaasti.
+researchtooltip_legalprep               Jokaisessa vankilassa on ongelmia aina välillä, ja joillakin on melko vakavia lailisia seuraamuksia. Asianajaja voi hoitaa paperityön, jotta sinä et joudu vastuuseen, jos jokin menee pieleen, mutta tämä on tehtävä etukäteen.
+researchtooltip_legaldefense            Olet pahassa pulassa - jotain meni pahasti pieleen ja olet irtisanomisuhan alla. Jos vaikuttaa siltä, ettet selviä tilanteesta, asianajajasi voi auttaa. Suorittamalla tämän tutkimuksen poistat kaikki varoitukset, jotka voisivat muuten johtaa irtisanomiseesi.
+
+research_legaldefense_adviser1          Näytää siltä, että asianajajasi on hoitanut paperityöt siihen malliin, etteivät tämän sotkun seuraukset vaikuta sinuun. Ilmeisesti en siis voikaan erottaa sinua. Tällä kertaa.
+research_legaldefense_adviser2          Laita vankilasi ojennukseen ja äkkiä, ja katsokin, että se pysyy ojennuksessa! Tuo temppu ei auta toista kertaa, eikä se suojele sinua ikuisesti.
+
+research_missingadministrator           VAATII:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                VAATII:
+roomrequirement_recommended             Suositellaan: 
+roomrequirement_minimumsize             Minimikoko *W x *H
+roomrequirement_minimumsize_short	Koko *W x *H
+roomrequirement_indoor                  Sisätiloissa
+roomrequirement_outdoor                 Ulkotiloissa
+roomrequirement_solidground             Kiinteällä maalla
+roomrequirement_secure                  Turvattu (ainakin yhden oven takana)
+roomrequirement_secure_short		Turvattu
+roomrequirement_enclosed                Ympäröity (seinien ja ovien takana)
+roomrequirement_enclosed_short		Ympäröity
+requirement_entrance                    Vaatii sisäänkäynnin
+roomrequirement_title                   =[Huoneen vaatimukset]=
+roomrequirement_passed                  [OK] 
+roomrequirement_failed                  [PUUTTUU] 
+roomrequirement_adjacentobject          Vieressä on:
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            AVATTU
+
+unlock_special_electricity              Sähköjärjestelmät
+unlock_special_food                     Ruoanvalmistus
+unlock_special_officersafety            Vartijoiden turvallisuus
+unlock_special_misbehavior              Huono käytös
+unlock_special_accounting               Kirjanpito
+unlock_special_gangs                    Jengit
+
+unlock_electricity_caption              Antaa sinun rakentaa virtalähteitä ja sähkökaapeleita, jotka tuottavat sähköä kaikille sitä tarvitseville laitteille.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Jatka klikkaamalla...
+incoming_call                           Saapuva puhelu...
+
+adviser_name_unknown                    Tuntematon
+adviser_name_ceo                        Toimitusjohtaja
+adviser_name_warden                     Vankilanjohtaja
+adviser_name_governer                   Kuvernööri
+adviser_name_chief                      Turvallisuuspäällikkö
+adviser_name_doctor                     Lääkäri
+adviser_name_kingpin                    Rikollispomo
+adviser_name_edwardshooter              Edward
+adviser_name_edwardsinner               Edward
+adviser_name_edwardinmate               Edward
+adviser_name_edwardswife                Edwardin vaimo Susan
+adviser_name_priest                     Pappi
+adviser_name_newsreader                 CNDC:n uutiset
+adviser_name_mayor 						Pormestari Calvin Heller
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Henkilöstö
+report_prisoners                        Vangit
+report_jobs                             Työt
+report_needs                            Tarpeet
+report_threats                          Uhkat
+report_regime                           Aikataulu
+report_policy                           Käytännöt
+report_grants                           Apurahat
+report_finance                          Taloudenhoito
+report_valuation                        Arviointi
+report_contraband                       Kieltotavarat
+report_programs                         Ohjelmat
+report_schedule                         Aikatauluttaja
+report_intake                           Sisäänotto
+
+report_grants_bankloan                  Pankkilaina
+report_grants_bankloan_text             Voit lainata ison könttäsumman rahaa pankista. Pankki veloittaa sinulta korkoa joka päivä, joka lasketaan päivittäiseen rahavirtaasi.\n\nJos maksat lainaa takaisin säännöllisesti, luottoluokituksesi kohoaa, ja voit lainata enemmän. Jos kuitenkin jätät lainaeriä maksamatta, luottoluokituksesi laskee, eikä pankki enää anna sinulle enempää lainaa, kun sitä tarvitsisit.\n\nHuomaa: Et saa ikinä maksettua lainaasi pelkillä päivittäisillä korkomaksuilla.
+report_grants_max1                      Voit hakea vain yhtä apurahaa kerrallaan.\nKäytä kirjanpitäjääsi nostaaksesi tätä rajaa.
+report_grants_max2                      Voit hakea vain kahta apurahaa kerrallaan.\nKäytä kirjanpitäjääsi nostaaksesi tätä rajaa.
+report_grants_max3                      Voit hakea vain kolmea apurahaa kerrallaan.
+report_grants_bankloan_amount           Nykyinen laina: *X
+report_grants_bankloan_interest         Korko: *X per päivä
+report_grants_bankloan_max              Enimmäislaina: *X
+report_grants_creditrating              Luottoluokitus: *X
+report_grants_inprogress_tt             (KESKEN)
+report_grants_completed_tt              (VALMIS)
+report_grants_locked_tt                 (LUKITTU)
+report_grants_advancepayment            *X etumaksu
+report_grants_completionbonus           *X palkkio
+report_grants_objectives                [Tehtävät]
+report_grants_prereqs                   [Vaatimukset]
+report_grants_completed                 VALMIS
+report_grants_locked                    Lukittu
+report_grants_inprogress                Kesken
+report_grants_hidden                    (*X piilotettu)
+report_grants_taptoaccept               HYVÄKSY NAPAUTTAMALLA
+report_grants_cancelfee                 Peruutuskulut: *X
+
+report_staff_title                      Henkilöstöä: *X
+report_prisoners_title                  Vankeja: *X
+report_staff_group_builders             Työmiehet
+report_staff_group_guards               Vartijat
+report_staff_group_staff                Henkilöstö
+report_staff_group_administrators       Hallinnolliset työntekijät
+report_staff_group_prisoners            Vangit
+report_staff_group_prisoners_high       Korkea riski
+report_staff_group_prisoners_normal     Normaali riski
+report_staff_group_prisoners_low        Matala riski
+report_staff_group_prisoners_protected  Säilöönotettu
+report_staff_group_prisoners_supermax   Supermax
+report_staff_group_prisoners_deathrow   Kuolemanjono
+
+report_staff_fire                       EROTA
+
+report_intake_title                     Sisäänotto
+report_intake_catheader_cat             Kategoria
+report_intake_catheader_pay             Maksu
+report_intake_catheader_available       Saatavilla
+report_intake_catheader_amount          Suhde
+report_intake_next_header               Seuraava sisäänotto : *X
+report_intake_cat_minsec                Min.vart.
+report_intake_cat_normal                Norm.vart.
+report_intake_cat_maxsec                Huip.vart.
+report_intake_cat_deathrow              Kuolemanjono
+report_intake_slider_minsec             Säädä minimivartioinnin sisäänottosuhdetta
+report_intake_slider_normal             Säädä normaalivartioinnin sisäänottosuhdetta
+report_intake_slider_maxsec             Säädä huippuvartioinnin sisäänottosuhdetta
+report_intake_slider_deathrow           Säädä kuolemanjonon sisäänottosuhdetta
+report_intake_closed                    SULJETTU
+report_intake_locked                    LUKITTU
+report_intakemaxperdaydesc              Päivittäinen sisäänotto
+report_intakemaxperdaydesc_tooltip      Seuraavassa sisäänotossa haluamiesi vankien yhteismäärä
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              Ei mitään
+report_intakemaxperdayall               Kaikki
+reports_intakedelivernow                Toimita nyt
+report_intakepayment                    Maksu
+report_intakeall                        KAIKKI
+report_intake_list_tooltip_title        Sisäänottokategoriat
+report_intake_list_tooltip              Luetteo kategorioista, joita voit tilata vankilaasi.\n\nAltaan koko näyttää saatavilla olevien vankien kokonaismäärän kussakin kategoriassa. Tämä luku kasvaa liukuvalitsinten suhteesta riippuen.\n\nVoit säätää liukuvalitsimia muuttaaksesi seuraavassa sisäänotossa vastaanottamiesi vankikategorioiden suhdetta.
+report_intake_list_tooltip_dr           \n\nKuolemaantuomitut vangit vaativat erityisen kuolemanjonosellin ennen kuin heitä voidaan siirtää vankilaasi. Kuolemaantuomittujen sisäänotto on paljon hitaampaa kuin tavallinen sisäänotto, etä saa joka kerta lisää kuolemaantuomittuja. Näitä vankeja on vain harvakseltaan.
+report_intake_buttons_tooltip_title     Seuraava sisäänotto
+report_intake_buttons_tooltip           Tässä osiossa voit lisätä tai vähentää seuraavassa sisäänotossa vastaanottamiesi vankien määrää.\n\nJos valitset kohdan "Ei yhtään", suljet vankilasi uusilta vangeilta, mutta jos valitset "Kaikki", otat kaikki saatavilla olevat vangit.\n\nKuhunkin kategoriaan kuuluvien vankien määrää säädetään yllä olevilla liukuvalitsimilla.
+report_intake_overview_tooltip_title    Sisäänoton yhteenveto
+report_intake_overview_tooltip          Tästä voit tarkastella seuraavaa vankitoimitusta ja siitä saamaasi maksua. Voit muuttaa toimitettavien vankien määrää ja kategoriaa yllä olevilla liukuvalitsimilla ja painikkeilla. Maksu perustuu vankien määrään ja kategoriaan.
+
+valuation_categoryprison                Vankilan arvo
+valuation_construction                  Tiilet ja laasti
+valuation_objects                       Kalut ja kapistukset
+valuation_stock                         Varaston materiaalit
+valuation_staff                         Henkilöstö
+valuation_startupgrant                  Aloitusraha
+valuation_capacity                      Vankikapasiteetti
+valuation_cash                          Käteinen
+valuation_debt                          Lainat
+valuation_categoryperformance           Turvallisuus
+valuation_bonustimewithoutincident      [Bonus] Aika ilman välikohtausta
+valuation_finedeath                     [Sakko] Kuolemat 24t sisällä
+valuation_fineescape                    [Sakko] Paot 24t sisällä
+valuation_total                         YHTEENSÄ
+valuation_sell                          MYY
+valuation_sellprison                    MYY VANKILA
+valuation_sell_tooltip                  Voit myydä nykyisen vankilasi, ja käyttää siitä ansaitut tuotot uuden vankilan perustamiseen.\n\nVoit silti jatkaa tämän vankilan hoitamista, mutta voit myydä sen vain kerran. Kaikki tuotot siirretään suoraan uuteen vankilaan.
+valuation_sold                          Tämä vankila myytiin hintaan *X
+valuation_donotown                      Et voi myydä tätä vankilaa, koska et omista sitä.
+valuation_sellsome                      Myy osakkeita
+valuation_buysome                       Osta osakkeita
+valuation_shares                        Osta ja myy osakkeita
+valuation_shares_tooltip                Voit myydä enintään 50% vankilastasi osakkeina ulkopuolisille sijoittajille. Sinulle maksetaan käteistä saman tein. Sijoitustaan vastaan osakkeenomistajat ottavat osan myyntihinnasta kun myyt vankilasi.\n\nJos esimerkiksi myyt 30% vankilastasi osakkeina, saat vain 70 % lopullisesta myyntihinnasta. Voit ostaa myymiäsi osakkeita takaisin milloin vain - hinta tosin saattaa olla korkeampi kuin se, jonka itse sait myydessäsi.
+valuation_ownership                     Omistat *X% vankilastasi
+valuation_saleprice                     Myyntihinta: *X
+valuation_title                          =[ARVIO]=
+valuation_totalprisonvalue              Vankilan yhteisarvo: *X
+valuation_subcashreserves               Miinus käteinen: *X
+valuation_tenpercentprice               10 %:n hinta: *X
+valuation_profit                        Tuottosi: *X
+valuation_tap_to_authorise              ANNA LUPA NAPAUTTAMALLA
+
+salecondition_title                     MYYNTIVAATIMUKSET
+salecondition_cannotsell                Et voi myydä vankilaasi tai osakkeita ennen kuin seuraavat vaatimukset täyttyvät.
+salecondition_minimumvalue              Minimiarvo 50 000 $
+salecondition_cashflow                  Positiivinen rahavirta
+salecondition_accountant                Kirjanpitäjä palkkalistoilla
+salecondition_minprisoners              Ainakin 20 vankia
+salecondition_recentdeaths              Ei viimeaikaisia kuolemia
+salecondition_recentescapes             Ei viimeaikaisia pakoja
+salecondition_passed                    [OK] 
+salecondition_failed                    [PUUTTUU] 
+
+policy_title                            VÄLIKOHTAUS
+policy_search                           - ETSI -
+policy_prisoner                         HÄN
+policy_cell                             SELLI
+policy_punishment                       RANGAISTUS
+policy_quantity                         AIKA
+policy_punishmenttime                   *X t
+policy_mealcost                         $*X / päivä
+policy_totalmealcost                    (YHTEENSÄ $*X / päivä)
+
+job_construct                           Rakenna *X
+job_installobject                       Asenna *X
+job_installobjectinroom                 Asenna *X huoneeseen *Y
+job_moveobject                          Siirrä *X
+job_moveobjecttoroom                    Siirrä *X huoneeseen *Y
+job_loadobjectinto                      Nosta *X kohteeseen *Y
+job_storeobject                         Varastoi *X kohteeseen *Y
+job_dismantleobject                     Pura *X
+job_dumpobject                          Hävitä *X
+job_repairobject                        Korjaa *X
+job_operateequipment                    Käytä *X
+job_escortprisoner                      Ohjaa vanki huoneeseen *X
+job_punishprisoner                      Käsittele vanki
+job_searchobject                        Tutki *X 
+job_searchentity                        Tutki vanki
+job_searchingentity						Tutkii vankia
+job_searchcell                          Tutki selli
+job_searchcellblock                     Tutki selliosasto
+job_improvecellindoor                   Siivoa sisätiloja
+job_improvecelloutdoor                  Siisti ulkotiloja
+job_opendoor                            Avaa lukittu ovi
+job_giveuniform                         Anna vangille univormu
+job_failurecount                        Epäonnistunut *X kertaa
+job_feedprisoner                        Ruoki vanki
+job_healprisoner                        Paranna vanki
+job_delivermail                         Toimita posti
+       
+finances_title                          Talous
+finances_income                         Tulot
+finances_expenses                       Menot
+finances_total                          Yhteensä
+finances_profit                         Netto
+finances_timewithoutincident            (*X päivää)
+finances_dailyincome                    *X / päivä
+
+finances_category_federalgrant          Liittovaltion apuraha
+finances_category_minsecprisoners       Min.vart. vankien korvaus
+finances_category_medsecprisoners       Norm. vankien korvaus
+finances_category_maxsecprisoners       Huip.vart. vankien korvaus
+finances_category_prisoners             Vankiapuraha
+finances_category_workmen               Työmiesten palkat
+finances_category_guards                Vartijoiden palkat
+finances_category_admin                 Hallinnon palkat
+finances_category_staff                 Henkilöstön palkat
+finances_category_food                  Ruoka
+finances_category_electricity           Sähkö
+finances_category_workshops             Työpajat
+finances_category_loaninterest          Lainakorko
+finances_category_reformprogs           Vieroitusohjelmat
+finances_category_noincident            Päiviä ilman välikohtausta
+finances_category_exports               Viennit (eilen)
+finances_category_corptax               Yritysverot
+finances_category_prisonerwages         Vankien palkat (eilen)
+finances_category_shoprevenue           Kaupan tuotto (eilen)
+
+reports_foodtitle                       Ravintokäytäntö
+meal_quantity                           Aterioiden runsaus
+meal_variety                            Aterioiden vaihtelu
+meal_cost                               Hinta per vanki
+
+reports_paroletitle                     Ehdonalaiskäytäntö
+parole_title                            Ehdonalaiseen pääsevien määrä
+parole_info                             Ehdonalaissulku: *P%
+parole_desc                             Jos vangin rikoksenuusinta-arvo on pienempi kuin hänen arvonsa, hänet vapautetaan seuraavan ehdonalaiskuulustelun päätteeksi.
+parole_fine                             Vangin rikoksenuusintasakko
+parole_reward                           Palkkio varhain vapautetusta vangista
+
+victory_title                           DIPLOMI
+
+victory_PrisonValue                     Vankilan arvo
+victory_Income                          Päivittäiset tuotot
+victory_Prisoners                       Kapasiteetti
+victory_PrisonersReleased               Vankeja vapautettu
+victory_prisonersdied                   Vankeja kuollut
+victory_prisonersescaped                Vankeja paennut
+victory_Bankrupt                        Konkurssi
+victory_Riot                            Kontrolloimaton\nmellakka
+victory_TooManyDeaths                   Törkeä\nhuolimattomuus
+victory_TooManyEscapes                  Turvallisuus-\nkatastrofi
+victory_failure                         HÄVIÖ
+victory_warning                         VAROITUS
+victory_remaining                       jäljellä
+victory_death                           KUOLEMAT
+victory_escapes                         PAOT
+victory_counter                         (*X tänään)
+victory_executions                      Laittomat teloitukset
+victory_innocentsexecuted               Syytön vanki teloitettu
+
+victory_warning_bankrupt                Sinulla on 24 tuntia aikaa estää konkurssi.
+victory_warning_riot                    Rauhoita mellakka pian, tai valtion on pakko astua väliin.
+victory_warning_toomanydeaths           Sinut asetetaan syytteeseen, jos liian monta vankia kuolee vielä tänään.
+victory_warning_toomanyescapes          Sinut erotetaan, jos liian monta vankia vielä karkaa tänään.
+
+victory_prisoners_units                 Paikkoja
+victory_prisonersreleased_units         Vapautettu
+victory_toomanydeaths_units             Kuolemat
+victory_toomanyescapes_units            Paot
+victory_prisonersparoled                Ehdonalaiseen päässeet
+victory_prisonersreoffended             Rikoksenuusijat
+
+victory_adviserwarning_toomanydeaths1   Eilinen oli erittäin synkkä luku vankilamme historiassa. Aivan liian moni menetti henkensä tiloissamme.
+victory_adviserwarning_toomanydeaths2   Varmista, ettei kukaan muu enää kuole tänään, tai joudut syytteeseen törkeästä huolimattomuudesta.
+victory_advisernotice_toomanydeaths1    Älä sano, ettemme varoittaneet sinua. Sinut tuomittiin syylliseksi törkeään huolimattomuuteen viimeaikaisten tapahtumien takia.
+victory_advisernotice_toomanydeaths2    Tulet nyt viettämään seuraavat kymmenen vuotta vankilassa rikoksistasi. Omassa vankilassasi. Lykkyä tykö.
+victory_adviserwarning_riot1            Vankilasi on täysin mellakan vallassa. Rauhoita tilanne heti tai valtion täytyy puuttua peliin ja vallata vankila väkivalloin.
+victory_advisernotice_riot1             Olet menettänyt vankilasi kontrollin täysin. Valtio on perunut vankeinhoitosopimuksemme, ja lähettää nyt kansalliskaartin taltuttamaan mellakoitsijat.
+victory_adviserwarning_toomanyescapes1  Tässä muhii nyt PR-katastrofi. Liian moni vanki on päässyt karkuun, ja syy on sinun.
+victory_adviserwarning_toomanyescapes2  Pistä paikka lukitukseen ja varmista, ettei kukaan enää karkaa, muuten tiedotusvälineet vaativat päätäsi vadille.
+victory_advisernotice_toomanyescapes1   Epäonnistuit. Tämän vankila on koko kansan naurunaihe mediassa, ja he haluavat syntipukin.
+victory_advisernotice_toomanyescapes2   Se olet sinä.  Olet erotettu.
+victory_adviserwarning_bankrupt1        Olemme konkurssissa! Surkea johtajuutesi on tuhonnut meidät taloudellisesti.
+victory_adviserwarning_bankrupt2        Keksi jokin tapa korjata asia tai olet erotettu.
+victory_advisernotice_bankrupt1         Meillä ei ole enää muuta mahdollisuutta kuin julistaa konkurssi. Epäonnistuit.
+victory_adviserwarning_wardendeaths1    Sinun palveluksessasi olemisesta on tullut liian vaarallista. Meillä on vaikeuksia löytää vankilanjohtajia, jotka haluavat töihin vankilaan.
+victory_adviserwarning_wardendeaths2    Jos annat vielä yhdenkin vankilanjohtajan kuolla, meidän on pakko irtisanoa sinut.
+victory_advisernotice_wardendeaths1     Et onnistunut tarjoamaan turvallista työympäristöä vankilanjohtajillesi. Kaikki pelkäävät tulla sinulle töihin.
+victory_advisernotice_wardendeaths2     Meidän on pakko luopua sinusta. Saat potkut.
+victory_adviserwarning_reoffenders1     Moni varhain vapauttamasi vanki on tehnyt uusia rikoksia. Tämä tulee meille kalliiksi, ellemme ota tilannetta haltuun.
+victory_adviserwarning_reoffenders2     Jos liian moni vapautettu vanki uusii rikoksensa, sinä saat syyt niskoillesi.
+victory_advisernotice_reoffenders1      Olet vapauttanut liian monta vaarallista rikollista. Meidän on pakko irtisanoa sinut. Sinä epäonnistuit.
+victory_adviserwarning_executions1      Tämä oli jo toinen kerta, kun tapatit syyttömän vangin. Ihmiset ovat raivoissaan.
+victory_adviserwarning_executions2      Jos teloitat vielä yhdenkin syyttömän, joudut vastuuseen.
+victory_advisernotice_executions1       Olet sallinut liian monen viattoman teloituksen. Emme voi enää antaa sinun johtaa tätä vankilaa. Sinä epäonnistuit.
+victory_advisernotice_InnocentsExecuted1 Teloitutit juuri jonkun seuraamatta oikeaa protokollaa, ja kaiken lisäksi hän osoittautui syyttömäksi. Tämä oli törkeää epäoikeudenmukaisuutta ja sinä olet syypää. Saat potkut, ja joudut luultavasti vankilaan itsekin.
+
+score_title                             VANKILAN ARVOSANA
+score_reoffendingrate                   RIKOKSEN UUSIMINEN
+score_prisonersreleased                 *X vankia on vapautettu
+score_minimumprisonersreleased          *X vankia pitää vielä vapauttaa ennen tämän raportin kirjoittamista
+score_deaths                            *X vankia kuoli vankeudessa
+score_escapes                           *X vankia pakeni
+score_reoffendingchance                 Arvioitu uusimistodennäköisyys
+score_startingreoffendingchance         Arvio tulessa: *X%
+score_prisonersparoled                  Varhain ehdonalaiseen (uusi rikoksen)
+score_prisonersparoled_info             *P (*E%)
+score_clemencychance                    Armahduksen todennäköisyys
+score_convictionstrength                Osavaltion hyväksymä tuomion vahvuus
+score_prisonersexecuted                 Teloitetut vangit (syyttömät)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                Tämä arvosana kertoo kuinka hyvin vankia on rangaistu teoistaan kansan silmissä. Pitkä vankeusrangaistus on jo itsessään kova rangaistus, mutta kovat ajat eristyssellissä myös nostavat tätä arvoa.\n\nMuista että liiallinen sopeuttaminen tai vapaa-aika nähdään "lepsuiluna" ja vähentää rangaistusarvosanaa.\n\nVahva rangaistusarvosana ehkäisee rikosten uusimista vapautuksen jälkeen.
+score_tooltip_reform                    Tämä arvosana kertoo kuinka hyvin olet yrittänyt sopeuttaa tätä vankia yhteiskuntaan sopeuttamisohjelmien kautta.\n\nKorkea sopeuttamisarvosana antaa vangeille paljon paremmat mahdollisuudet löytää oikeita töitä vapautumisen jälkeen ja näin ollen se vähentää rikoksen uusimista.\n\nHuomaa: vankien työllistäminen vankilassa myös nostaa tätä arvoa.
+score_tooltip_health                    Tämä arvosana perustuu vangin terveyteen ja hyvinvointiin vankilassasi. Ulkoliikunta ja hyvä ruoka nostavat tätä arvoa. Hoitamattomat vammat, päihteet ja alkoholin käyttö laskevat tätä arvoa.\n\nHuono arvosana tarkoittaa, että vanki todennäköisesti uusi rikoksensa, etenkin jos vanki lähtee vankilasta huumeisiin tai viinaan koukkuun jääneenä.
+score_tooltip_security                  Tämä arvosana kertoo kuinka hyvin olet pitänyt vankia lukkojen takana. Vankien pitäminen selleissään aseistettujen vartijoiden valvonnan alla nostaa tätä arvoa runsaasti. Arvosana laskee, jos vanki on ollut mukana tappeluissa, murhissa tai pakoyrityksissä.\n\nHuono arvosana kertoo, että vanki jatkoi rikollista elämäänsä vankilassasi ja hänen rikoksenuusimisen todennäköisyytensä on lähtiessä hyvin korkea.
+
+score_tooltip_reoffendingchance         Arvio siitä, kuinka todennäköisesti vangit tekevät uusia rikoksia vankilasta päästyään. Monet eri tekijät vaikuttavat tämän arvon laskentaan:\n\n- VÄHENTÄÄ Kovat rangaistukset\n- VÄHENTÄÄ Onnistuneet sopeuttamisohjelmat\n- NOSTAA Huono terveys ja turvallisuus\n- NOSTAA Hoitamattomat huume- ja alkoholiriippuvuudet\n- NOSTAA Jengin jäsenyys\n\n\n- Vangin ikä on tärkeä tekijä.\n- Aiempien tuomioiden määrä on vahva indikaattori.\n- Suuren suvun tuki voi auttaa.
+score_tooltip_clemencychance_title      Armahduksen todennäköisyys
+score_tooltip_clemencychance            Todennäköisyys sille, että vetoomuslautakunta armahtaa kuolemaantuomitun vangin ja muuttaa tuomion elinkautiseksi. Jokainen epäonnistunut vetoomus laskee tätä arvoa, kunnes se on alle osavaltion hyväksymän tuomion vahvuuden, missä vaiheessa teloitukselle annetaan lupa. Teloituksen toimittaminen ennen tätä hetkeä johtaa äärimmäisiin rangaistuksiin, mikäli myöhemmin selviää, että vangin vetoomus olisi mennyt läpi.\n\nJos armahdus myönnetään, vanki vapautetaan heti (jos hänet todetaan syyttömäksi) tai siirretään huippuvartioidulle osastolle (jos häntä pidetään edelleen syyllisenä).
+score_tooltip_currentchance             Osavaltion hyväksymä tuomion vahvuus on *X%
+score_tooltip_clemencywarning           Vangin mahdollisuudet saada armahdus ovat tällä hetkellä osavaltion hyväksymän turvarajan yläpuolella. Jos jatkat teloittamista, joudut henkilökohtaisesti vastuuseen, mikäli myöhemmin selviää, että vanki olisi armahdettu. 
+
+experiencefactor_FractionalLockedUp     *X% ajasta lukkojen takana
+experiencefactor_FractionalReform       *X% ajasta sopeuttamisohjelmissa
+experiencefactor_fractionalWorking      *X% ajasta töissä
+experiencefactor_fractionalsuppressed   *X% ajasta nujerrettuna
+experiencefactor_fractionalinjured      *X% ajasta loukkaantuneena
+experiencefactor_fractionalintoxicated  *X% ajasta päihtyneenä (huumeet/alkoholi/vieroitus)
+experiencefactor_fractionalmisbehaving  *X% ajasta pahanteossa
+experiencefactor_fractionalarmedguard   *X% ajasta aseistettujen vartijoiden vahtimana tai nujerrettuna
+experiencefactor_fractionalwellfed      *X% ajasta hyvinruokittuna
+experiencefactor_fractionalexercising   *X% ajasta kuntoilemassa
+experiencefactor_fractionalfreetime     *X% vapaa-aikaa
+
+experiencefactor_passedeasyprograms             Läpäisi *X helppoa ohjelmaa
+experiencefactor_passedintermediateprograms     Läpäisi *X keskivaikeaa ohjelmaa
+experiencefactor_passedadvancedprograms         Läpäisi *X vaikeaa ohjelmaa
+experiencefactor_passedexpertprograms           Läpäisi *X äärimmäisen vaikeaa ohjelmaa
+
+experiencefactor_YearsServed            *X vuotta istuttu
+experiencefactor_fights                 Mukana väkivaltaisissa välikohtauksissa
+experiencefactor_murders                Murhasi *X ihmistä vankilassasi
+experiencefactor_escapeattempts         Yritti paeta *X kertaa
+experiencefactor_addictions             *X aktiivista addiktiota
+experiencefactor_gangmembership         Jengiläinen
+
+legend_key                              Selite:
+
+needs_graphscale_title                  Vangit:
+needs_key_critical                      Kriittiset
+needs_key_high                          Ylin
+needs_key_med                           Keskitaso
+needs_key_satisfied                     Tyytyväiset
+needs_key_active                        Aktiiviset
+
+contraband_supplyanddemand              Kysyntä ja tarjonta
+contraband_narcotics                    Päihteet
+contraband_weapons                      Aseet
+contraband_tools                        Työkalut
+contraband_luxuries                     Luksustavarat
+contraband_metal                        Metalli
+contraband_smelly                       Haiseva
+contraband_rangedweapon                 Etäase
+contraband_improvised                   Improvisoitu
+
+contraband_key_supply                   Tarjonta
+contraband_key_demand                   Kysyntä
+contraband_log_stolen                   VARASTETTU
+contraband_log_position                 SIJAINTI
+contraband_log_smuggled                 SALAKULJETETTU
+contraband_log_traded                   VAIHDETTU
+contraband_log_thrown                   HEITETTY
+contraband_log_hidden                   PIILOTETTU
+contraband_log_detected                 TUNNISTETTU
+contraband_log_dog                      KOIRA
+contraband_log_found                    LÖYDETTY
+contraband_log_owner                    OMISTAJA
+
+schedule_zone_shared                    Yhteinen
+schedule_zone_minseconly                Min.vart.
+schedule_zone_medseconly                Norm.vart.
+schedule_zone_maxseconly                Huip.vart.
+schedule_zone_protectedonly             Säilöönotettu
+schedule_zone_supermaxonly              Super Max
+schedule_zone_deathrowonly              Kuolemanjono
+schedule_zone_staffonly                 Vain henkilöstö
+schedule_zone_unlocked                  Avattu
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              Kakkahätä
+action_wee                              Pissahätä
+action_wash                             Suihkussa
+action_relax                            Rentoutumassa
+action_sleep                            Nukkumassa
+action_nap                              Torkkumassa
+action_getmeal                          Hakemassa ruokaa
+action_sit                              Istumassa
+action_exercise                         Kuntoilemassa
+action_liftweights                      Painoja nostamassa
+action_phonehome                        Perheelle soittamassa
+action_watchtv                          Telkkaria katsomassa
+action_playpool                         Biljardia pelaamassa
+action_stealknife                       Käyttäytymässä epäilyttävästi
+action_stealspoon                       Käyttäytymässä epäilyttävästi
+action_urinate                          Virtsaamassa
+action_soilsuit                         Vaatteitaan likaamassa
+action_eat                              Syömässä
+action_complain                         Valittamassa
+action_work                             Työnteossa
+action_visitation                       Perhettä tapaamassa
+action_parole                           Ehdonalaiskuulustelussa
+action_none                             Ei mitään
+action_misbehaving                      Riehumassa
+action_escaping                         Pakenemassa
+action_destroying                       Tuhoamassa
+action_spoiling                         Riitaa haastamassa
+action_fighting                         Tappelemassa
+action_rioting                          Mellakka
+action_hostagetaking                    Panttivankeja ottamassa
+action_reformprogram                    Opetusohjelmassa
+action_changeclothes                    Vaatteita vaihtamassa
+action_getbook                          Kirjaa hakemassa
+action_pray                             Rukoilemassa
+action_shopping                         Shoppailemassa
+
+status_effect_title						=[Tilavaikutukset]=
+status_effect_none						Ei mitään
+status_effect_suppressed				Nujerrettu
+status_effect_goodfood					Hyvinsyönyt
+status_effect_drunk						Kännissä
+status_effect_high                      Ylin
+status_effect_withdrawal				Vieroitusoireita
+status_effect_tazed                     Sähkölamautettu
+status_effect_overdosed                 Yliannostus
+status_effect_surrendered               Antautunut
+status_effect_calming                   Rauhoittunut
+status_effect_angst                     Vihainen
+status_effect_wounded                   Vuotaa verta
+status_effect_virus                     Sairas
+status_effect_virusdeadly               Sairas
+
+condition_treated                       Hoidettu
+condition_needstreating                 Kaipaa hoitamista
+
+experience_totaltime                    Yht. aika
+experience_misconduct                   Huono käytös
+experience_lockeddown                   Lukkotila
+experience_regime                       Aikataulu
+experience_sleep                        Nukkuminen
+experience_work                         Työ
+experience_class                        Opinnot
+experience_freetime                     Vapaa-aika
+experience_moodbad                      Huono
+experience_moodnormal                   Normaali
+experience_moodgood                     Hyvä
+experience_nocondition                  Ei mitään
+experience_kod                          Tyrmätty
+experience_hurt                         Loukkaantunut
+experience_suppressed                   Nujerrettu
+experience_intoxicated                  Päihtynyt
+experience_wellfed                      Hyvinsyönyt
+experience_exercise                     Liikunta
+
+need_name_nothing                       Ei mitään
+need_name_bladder                       Pissahätä
+need_name_bowels                        Kakkahätä
+need_name_sleep                         Nukkuminen
+need_name_food                          Ruoka
+need_name_safety                        Turvallisuus
+need_name_hygiene                       Hygienia
+need_name_exercise                      Liikunta
+need_name_family                        Perhe
+need_name_recreation                    Ajanviete
+need_name_comfort                       Mukavuus
+need_name_environment                   Ympäristö
+need_name_privacy                       Yksityisyys
+need_name_freedom                       Vapaus
+need_name_clothing                      Vaatetus
+need_name_drugs                         Huumeet
+need_name_alcohol                       Alkoholi
+need_name_starving                      Nääntyminen
+need_name_spirituality                  Henkisyys
+need_name_literacy                      Kirjallisuus
+needs_locked                            (Tarpeiden näkemiseen tarvitaan psykologi)
+needs_title                             =[Tarpeet]=
+
+reputation_title                        Maine
+reputation_hidden                       (Tuntematon maine)
+reputation_hidden_short                 ???
+
+reputation_legendary                    --LEGENDA--
+reputation_strong                       Vahva
+reputation_tough                        Kova
+reputation_volatile                     Epävakaa
+reputation_snitch                       Vasikka
+reputation_deadly                       Kuolettava
+reputation_stoical                      Stoalainen
+reputation_fearless                     Peloton
+reputation_exlaw                        Entinen poliisi
+reputation_copkiller                    Kytäntappaja
+reputation_quick                        Nopea
+reputation_instigator                   Yllyttäjä
+reputation_fighter                      Taitava tappelija
+reputation_gangmember                   Jengiläinen
+reputation_federalwitness               Liittovaltion todistaja
+
+reputation_strong_high                  Erittäin vahva
+reputation_tough_high                   Erittäin kova
+reputation_volatile_high                Erittäin epävakaa
+reputation_deadly_high                  Erittäin kuolettava
+reputation_exlaw_high                   Entinen vanginvartija
+reputation_quick_high                   Erittäin nopea
+reputation_fighter_high                 Kokenut tappelija
+
+reputation_legendary_high               --LEGENDA--
+reputation_snitch_high                  Vasikka
+reputation_stoical_high                 Stoalainen
+reputation_fearless_high                Peloton
+reputation_copkiller_high               Kytäntappaja
+reputation_instigator_high              Yllyttäjä
+reputation_gangmember_high              Jengiläinen
+
+reputationtooltip_legendary             Tämä vanki on rikollismaailman elävä legenda, ja omaa useita taitoja ja kykyjä, jotka tekevät hänestä erittäin vaarallisen.
+reputationtooltip_strong                Tämän vangin vasen koukku iskee kahta kovemmin nyrkkitappeluissa.
+reputationtooltip_tough                 Tämä vanki kestää paljon enemmän löylytystä tappelussa. Hän saattaa joskus myös jopa kestää sähkölamauttimen iskun.
+reputationtooltip_volatile              Tämä vanki voi usein kilahtaa ilman varoitusta tai syytä.
+reputationtooltip_stoical               Tämä vanki ei nujerru eristyssellissä makaamisesta. Hän ei välitä.
+reputationtooltip_snitch                Tämä vanki on tunnettu ilmiantaja, ja siksi hänen henkensä voi olla vaarassa. Älä jätä häntä yksin muiden vankien seuraan turhan pitkäksi aikaa.
+reputationtooltip_deadly                Tämä vanki hallitsee kuolettavia taisteluliikkeitä, ja voi joskus tappaa jopa yhdellä iskulla.
+reputationtooltip_exlaw                 Tämä vanki oli joskus poliisi tai muu lainvalvonnan ammattilainen. Hänen henkensä voi olla vaarassa.
+reputationtooltip_copkiller             Tämä vanki on syyllinen poliisin murhaan. Vartijasi saattavat vetää ylilyönneiksi häntä rauhoitellessa.
+reputationtooltip_fearless              Tätä vankia ei aseistetut vartijat paljon hetkauta. Hän ei myöskään hevillä antaudu tappelussa.
+reputationtooltip_quick                 Tämä vanki on epätavallisen nopea juoksija.
+reputationtooltip_instigator            Tämä vanki kylvää tyytymättömyyden siemeniä muihin lähellä oleviin. Kun hän rupeaa tekemään pahojaan, lähimaaston vangit mitä ilmeisemmin seuraavat esimerkkiä.
+reputationtooltip_fighter               Tämä vanki on taitava itsepuolustusliikkeissä. Hän osaa riisua vastustajan aseista, tai jopa ottaa aseen itselleen.
+reputationtooltip_gangmember            Tämä vanki kuuluu jengiin. Hän puolustaa jengitovereitaan ja vihaa kilpailevia jengejä.
+reputationtooltip_federalwitness        Tämä vanki on todistajana tärkeässä oikeusjutussa, ja sen takia hän on jonkin jengin tai rikollispomon tappolistalla.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Työnteossa
+nameplate_stationed                     Asemissa
+nameplate_patrolling                    Partiossa
+nameplate_resting                       Levossa
+nameplate_tired                         Väsynyt
+nameplate_injured                       Loukkaantunut
+nameplate_unconscious                   Tajuton
+nameplate_dead                          KUOLLUT
+nameplate_released                      VAPAUTETTU
+nameplate_researching                   Tutkimassa
+nameplate_overdose                      YLIANNOSTUS
+nameplate_starving                      NÄLKÄINEN
+nameplate_wounded                       VUOTAA VERTA
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Ruoki kaikki vangit
+objective_caption_prisoners             Vangit
+objective_caption_meals                 Aterioita
+objective_readceosletter                Lue toimitusjohtajan kirje
+objective_actionrequired                Välikohtauksen raportti
+
+objective_deathrowinmates               Kuolemanjonon vankien tila
+
+objective_prisonerintake                Vankien sisäänotto
+objective_intake_arrivals               *X vankia saapumassa klo 8.00
+objective_intake_closed                 Vankilasi ei huoli uusia vankeja
+objective_intake_closed2                (Tarkista Vankiraportti)
+objective_intake_closed3                (Lue Sisäänottoraportti)
+objective_intake_specials				Erityissiirrot:
+objective_intake_categories             Kategoriat: 
+objective_intake_minsec                 Min., 
+objective_intake_medsec                 Norm., 
+objective_intake_maxsec                 Huip.
+objective_intake_deathrow               Kuolemanjono
+
+objective_builddeliveriesroom           Määritä toimitusalue
+
+objective_outgoing                      Vankeja vapautumassa
+objective_outgoing_count                *X vankia vapautuu pian
+objective_outgoing_timer                (*X t)
+
+objective_visitors                      Vieraat (8.00 - 20.00)
+objective_visitors_waiting              *X perhettä odottaa vierailua
+objective_visitors_onsite               *X vierasta tiloissa *Y ryhmässä
+
+objective_staffexhausted                Väsynyt henkilöstö
+objective_reststaff_exhausted           *X henkilöstön jäsentä ovat väsyneitä.
+objective_reststaff_resting             (*X lepää)
+objective_reststaff_needstaffroom       Rakenna taukohuone, jotta he voivat levätä.
+
+objective_punishment_solitary           *X eristysselleissä
+objective_punishment_solitary_queue     *X odottaa eristysselliä
+objective_punishment_solitary_mix       *X eristyksessä (+*Y odottaa)
+objective_punishment_lockdown           *X lukkotilassa
+objective_incident_medical              *X tarvitsee lääkäriä
+objective_incident_dead                 *X ruumista
+
+objective_prisonerparole                Vankien ehdonalainen
+objective_parole_count                  *X vankia odottaa ehdonalaiskuulustelua
+
+objective_payment_receivedfull          Maksu: *X saatu
+objective_payment_receivedpart          Maksu: *X saatu kokonaissummasta *Y
+
+objective_grant_bootstraps                  Alustava vankeinhoitolaitos
+objective_grant_bootstraps_description      Muuta tyhjä tontti toimivaksi vankilaksi.  Tämä valtion sopimus antaa sinulle tarvittavat varat vain kaikista tarpeellisimpien rakennusten rakentamiseen, jotta voit vastaanottaa ensimmäiset vankisi.
+objective_grant_bootstraps_holdingcell      Rakenna odotusselli
+objective_grant_bootstraps_shower           Rakenna suihku
+objective_grant_bootstraps_yard             Rakenna piha
+objective_grant_bootstraps_kitchen          Rakenna keittiö
+objective_grant_bootstraps_canteen          Rakenna ruokala
+objective_grant_bootstraps_guard            Palkkaa ainakin 2 vartijaa
+objective_grant_bootstraps_chef             Palkkaa ainakin 2 kokkia
+
+objective_grant_administration                          Hallintokeskus
+objective_grant_administration_description              Joka vankila tarvitsee toimivan hallintokeskuksen, jotta asiat rullaavat sulavammin.  Tämä sopimus maksaa vankilanjohtajan ja kirjanpitäjän ja heidän toimistonsa, jonka avulla pääset käsiksi kaikkiin liittovaltion apurahoihin.
+objective_grant_administration_offices                  Rakenna kaksi toimistoa
+objective_grant_administration_warden                   Palkkaa vankilanjohtaja
+objective_grant_administration_accountant_research      Avaa Taloushallinto byrokratian kautta
+objective_grant_administration_accountant               Palkkaa kirjanpitäjä
+
+objective_grant_firstcellblock                  Selliosasto A
+objective_grant_firstcellblock_description      Perusteet ovat toiminnassa.  Nyt on aika rakentaa ensimmäinen selliosastosi, ja siirtää vieraamme ihka omiin selleihinsä.
+objective_grant_firstcellblock_cells            Nosta vankikapasiteettisi 15:een
+
+objective_grant_health                      Vankien terveys ja hyvinvointi
+objective_grant_health_description          Vankiemme fyysinen ja henkinen hyvinvointi on meille erittäin tarkeää.  Tämä apuraha mahdollistaa viimeisintä huutoa olevan sairaalahuoneen rakennuksen, sekä lääkäreiden ja psykologin palkkaamisen vankien hyvinvoinnista huolehtimaan.
+objective_grant_health_ward                 Rakenna sairaala
+objective_grant_health_doctors              Palkkaa ainakin 2 lääkäriä
+objective_grant_health_psychologist         Palkkaa psykologi (vaatii toimiston)
+
+objective_grant_bailout                     Valtion pelastuspaketti
+objective_grant_bailout_description         Valtio on erittäin tyytymätön toimintaasi, mutta on päättänyt että vankilasi on liian suuri kaatuakseen. Veronmaksajien rahoilla päästään konkurssista kuin koira veräjästä. Sinun pitää kuitenkin hoitaa talousasiat heti kuntoon - palauta positiivinen rahavirta (päivittäiset tulot suuremmat kuin kulut) ja maksa velkasi pankille.
+objective_grant_bailout_cashflow            Positiivinen rahavirta
+objective_grant_bailout_debt                Velkojen poismaksu
+
+
+objective_grant_maintenance                         Tilojen hoito
+objective_grant_maintenance_description             Vankilatiloista pitää pitää hyvää huolta, jo pelkästään turvallisuussyistä. Palkkaa vaadittava henkilöstö varmistamaan että vankilasi on tip-top-kunnossa.
+objective_grant_maintenance_research_root           Avaa Kiinteistönhoito byrokratiavalikosta
+objective_grant_maintenance_research_cleaning       Avaa Siivous byrokratiavalikosta
+objective_grant_maintenance_research_groundskeeping Avaa Pihanhoito byrokratiavalikosta
+objective_grant_maintenance_foreman                 Palkkaa työnjohtaja (vaatii toimiston)
+objective_grant_maintenance_janitor                 Palkkaa ainakin 2 siivoojaa
+objective_grant_maintenance_gardener                Palkkaa puutarhuri
+
+objective_grant_visitation                          Vierailuoikeudet
+objective_grant_visitation_description              Muutama muu vankila tällä alueella on tällä hetkellä käräjillä koska he eivät anna vangeilleen mahdollisuutta tavata perheitään. Sijoittajat eivät halua skandaalia, joten tämä apuraha on tarvittavien vierailutoimintojen perustamista varten.
+objective_grant_visitation_room                     Rakenna vierailuhuone
+objective_grant_visitation_tables                   Osta ainakin 3 vieraspöytää
+objective_grant_visitation_commonroom               Rakenna yleistila
+objective_grant_visitation_pooltable                Osta biljardipöytä
+objective_grant_visitation_tv                       Osta ainakin 2 telkkaria
+objective_grant_visitation_phones                   Rakenna ainakin 5 puhelinkoppia
+
+objective_grant_basicsecurity                       Turvallisuusprosessin sertifiointi
+objective_grant_basicsecurity_description           Usein uusissa vankiloissa on turva-aukkoja, koska henkilöstö on uutta ja kokematonta. Varmista ettei meille käy mitään mainettamme likaavia kommelluksia kohottamalla turvallisuutemme tason hyväksyttävälle asteelle.
+objective_grant_basicsecurity_chief                 Palkkaa turvallisuuspäällikkö (vaatii toimiston)
+objective_grant_basicsecurity_guards                Palkkaa kymmenen vartijaa
+objective_grant_basicsecurity_patrols               Määritä kolmelle vartijalle partioreitti
+objective_grant_basicsecurity_research              Avaa Partiot byrokratiavalikosta
+
+objective_grant_enhancedsecurity                    Valtion turvallisuusluokitus
+objective_grant_enhancedsecurity_description        Valtiolla on tietynkokoisille vankiloille erinnäisiä vaatimuksia turvallisuuteen nähden, ja hervottomat mätkyt odottavat vaatimuksista luistavia. Varmista ettei tästä tule meille ongelmaa.
+objective_grant_enhancedsecurity_armoury            Rakenna asevarasto
+objective_grant_enhancedsecurity_kennel             Rakenna kenneli
+objective_grant_enhancedsecurity_guards             Palkkaa 2 aseistettua vartijaa
+objective_grant_enhancedsecurity_dogs               Palkkaa 2 koirankäsittelijää
+objective_grant_enhancedsecurity_patroldogs         Määritä 2 koirankäsittelijälle partioreitti
+objective_grant_enhancedsecurity_patrolarmed        Määritä 2 aseistetulle vartijalle partioreitti
+
+objective_grant_advancedsecurity                    Huip.vart. Infrastruktuuri
+objective_grant_advancedsecurity_description        Turvallisuuden ylläpito suurien vankimäärien keskellä voi olla vaikeaa, mutta aukko kävisi paljon tyyriimmäksi kuin kunnon turvamenetelmien toteutus. Asenna tarvittava kalusto koko vankilaasi.
+objective_grant_advancedsecurity_guards             Lisää vartijoidesi määrää
+objective_grant_advancedsecurity_researchcctv       Avaa Turvakamerat byrokratiavalikosta
+objective_grant_advancedsecurity_researchbodyarmour Avaa Suojukset byrokratiavalikosta
+objective_grant_advancedsecurity_researchtazers     Avaa Sähkölamautin byrokratiavalikosta
+objective_grant_advancedsecurity_office             Rakenna Monitorihuone
+objective_grant_advancedsecurity_cctvmonitor        Asenna monitori
+objective_grant_advancedsecurity_cctvcameras        Sijoita turvakameroita ympäri vankilaa
+
+objective_grant_prisonerworkforce                   Vankien sopeuttaminen ja motivointi
+objective_grant_prisonerworkforce_description       Vankien pistäminen duuniin vankilassasi on hyvä tapa sopeuttaa heitä yhteiskuntaan (samalla leikaten hieman kuluja). Järjestä tarvittava koulutus ja kalusto jotta voit pistää vankien hihat heilumaan.
+objective_grant_prisonerworkforce_research          Avaa Vankityövoima byrokratiavalikosta
+objective_grant_prisonerworkforce_cleaning          Rakenna siivouskomero
+objective_grant_prisonerworkforce_laundry           Rakenna pyykkihuone
+objective_grant_prisonerworkforce_kitchenclass      Kouluta kolme vankia Keittiöhygieniaohjelmassa
+objective_grant_prisonerworkforce_laundryassigned   Määritä kolme vankia töihin pyykkihuoneeseen
+objective_grant_prisonerworkforce_kitchenassigned   Määritä kolme vankia töihin keittiöön
+objective_grant_prisonerworkforce_cleaningassigned  Määritä kolme vankia töihin siivouskomeroon
+
+objective_grant_educationreformprogram              Sopeuttava opetusohjelma
+objective_grant_educationreformprogram_description  Eräs merkittävä kampanjaryhmä suorittaa sosiaalista koetta koulutuksen vaikutuksesta rikosten uusimiseen. Järjestä muutama luokkahuone ja ala kouluttaa vankejasi.
+objective_grant_educationreformprogram_research     Avaa Koulutus byrokratiavalikosta
+objective_grant_educationreformprogram_classroom    Rakenna luokkahuone
+objective_grant_educationreformprogram_desks        Sijoita 20 pulpettia
+objective_grant_educationreformprogram_foundationed Anna 10 vangille onnistuneesti ala-astekoulutus
+objective_grant_educationreformprogram_generaled    Anna yhdelle vangille onnistuneesti yläastekoulutus
+
+objective_grant_prisonlabour                        Vankilan tuotantolaitos
+objective_grant_prisonlabour_description            Talousosaston kamreerit haluaisivat että vankila tuottaisi enemmän rahaa, ja siksi meidän tulisi sijoittaa työpajaan, joka muuttaisi vangit tuottaviksi työntekijöiksi.
+objective_grant_prisonlabour_workshop               Rakenna työpaja
+objective_grant_prisonlabour_saw                    Sijoita kaksi sahaa
+objective_grant_prisonlabour_press                  Sijoita kaksi puristinta
+objective_grant_prisonlabour_reform                 Anna 5 vangille työpajan turvallisuuskoulutus
+objective_grant_prisonlabour_plates                 Tuota 30 rekisterikilpeä
+
+objective_grant_furnituremanufacturing              Puusepäntyön koulutusohjelma
+objective_grant_furnituremanufacturing_description  Tarjoamalla puuseppäkursseja vangeille voit opettaa heille arvokkaita taitoja, joita he voivat hyödyntää vapainakin, ja joiden avulla he voivat valmistaa työpajassasi laadukkaita huonekaluja, joita voidaan myydä tulojen lisäämiseksi.
+objective_grant_furnituremanufacturing_forestry     Rakenna metsänhoitohuone
+objective_grant_furnituremanufacturing_table        Sijoita kaksi puusepän pöytää
+objective_grant_furnituremanufacturing_reform       Anna 2 vangille puutyökoulutus
+objective_grant_furnituremanufacturing_bed          Tuota 10 hienoa sänkyä
+
+objective_grant_reducestaffstress                   Henkilöstön hyvinvointiohjelma
+objective_grant_reducestaffstress_description       Vankilahenkilöstön liitto on kuullut, että vankiloiden työntekijät olisivat ylistressaantuneita ja ylityöllistettyjä, mikä johtaa virheisiin. Varmista, ettei vastaavaa tapahdu täällä.
+objective_grant_reducestaffstress_staffroom         Rakenna taukohuone
+objective_grant_reducestaffstress_freeguards        Anna ainakin 5 vartijan olla ilman määrättyjä tehtäviä
+objective_grant_reducestaffstress_restedstaff       Varmista, ettei kukaan ole uupunut
+
+objective_grant_shortterminvestment                 Lyhytaikainen sijoitus
+objective_grant_shortterminvestment_description     Maksa rahaa sijoitusrahastoon, joka lopulta maksaa kohtuullisen tuoton alkuperäiseen summaan nähden.
+objective_grant_shortterminvestment_wait            Odota tuottoa...
+
+objective_grant_longterminvestment                  Pitkäaikainen sijoitus
+objective_grant_longterminvestment_description      Maksa rahaa pitkäaikaiseen sijoitusrahastoon, joka lopulta maksaa suuren tuoton alkuperäiseen summaan nähden.
+objective_grant_longterminvestment_wait             Odota tuottoa...
+
+objective_grant_cellblock50                         Selliosasto B
+objective_grant_cellblock50_description             On aika laajentaa vankilaasi pienestä putkasta suuremmaksi. 
+objective_grant_cellblock50_cells                   Nosta vankikapasiteettisi 50:een
+
+objective_grant_cellblock100                        Selliosasto C
+objective_grant_cellblock100_description            Käytä koko tontti hyödyksi vankilan laajentamiseen.
+objective_grant_cellblock100_cells                  Nosta vankikapasiteettisi 100:aan
+
+objective_grant_cellblock200                        Selliosasto D
+objective_grant_cellblock200_description            Mitä enemmän vankeja, sitä enemmän valtion tukea. Nosta kapasiteettia, jotta kassa kilisisi.
+objective_grant_cellblock200_cells                  Nosta vankikapasiteettisi 200:aan
+
+objective_grant_cellblock500                        Selliosasto E
+objective_grant_cellblock500_description            Valtiolla on antaa rahaa kaikista suurimmille vankiloille. Hihat heilumaan siis.
+objective_grant_cellblock500_cells                  Nosta vankikapasiteettisi 500:aan
+
+objective_grant_nutritionresearch                   Vankien ravitsemustutkimus
+objective_grant_nutritionresearch_description       Yksityinen tutkimusryhmä tarjoaa rahaa, jos otat osaa tutkimukseen vankien erilaisten syömätottumusten vaikutuksista. 
+objective_grant_nutritionresearch_poor              Tarjoa yksi pieni ja yksipuolinen ateria kahtena päivänä
+objective_grant_nutritionresearch_good              Tarjoa kolme monipuolista ja isoa ateriaa kahtena päivänä
+
+objective_grant_drugsearch                          Huumesota
+objective_grant_drugsearch_description              Päihteiden käyttö suurimmissa vankiloissa on huolestuttanut viime aikoina. Näytä, että aiot tehdä ongelmalle jotain.
+objective_grant_drugsearch_find                     Etsi kymmenen laitonta päihdettä
+
+objective_grant_contrabandsupply                    Kalut pakkiin
+objective_grant_contrabandsupply_description        Hiljattain muissa vankiloissa sattuneiden tapausten johdosta eräs ryhmä haluaa tutkia työkalujen ja aseiden jakoa vankiloissa. Osana tutkimusta sinun tulisi yrittää poistaa vangeiltasi kaikki senkaltaiset esineet.
+objective_grant_contrabandsupply_tools              Eliminoi varastettujen työkalujen saanti
+objective_grant_contrabandsupply_weapons            Eliminoi varastettujen aseiden saanti
+
+grant_category_completed                            Suoritettu:
+grant_category_unlocked                             Avattu:
+grant_category_cash                                 Rahaa:
+grant_category_cashflow                             Rahavirta:
+grant_category_debt                                 Velka:
+grant_category_prisoners                            Vangit:
+
+grant_property_atleast                              Ainakin *X
+grant_property_atmost                               Enintään *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              Ei mitään
+object_box                               Laatikko
+object_stack                             Kasa
+object_bed                               Sänky
+object_toilet                            Vessa
+object_table                             Pöytä
+object_chair                             Tuoli
+object_bench                             Penkki
+object_electricchair                     Sähkötuoli
+object_jaildoor                          Vankilan ovi
+object_jaildoorlarge                     Suuri vankilan ovi
+object_door                              Ovi
+object_solitarydoor                      Eristysovi
+object_staffdoor                         Henkilöstön ovi
+object_remotedoor                        Etäovi
+object_roadgate                          Tieportti
+object_jailbars                          Kalterit
+object_window                            Ikkuna
+object_windowlarge                       Suuri ikkuna
+object_tree                              Puu
+object_light                             Valo
+object_cooker                            Liesi
+object_fridge                            Jääkaappi
+object_bin                               Roskakori
+object_sink                              Pesuallas
+object_servingtable                      Tarjoilupöytä
+object_showerhead                        Suihkunpää
+object_brick                             Tiili
+object_concrete                          Betoni
+object_steel                             Teräs
+object_ingredients                       Raaka-aineita
+object_ingredientscooking                Raaka-aineita (Valmistumassa)
+object_ingredientscooked                 Raaka-aineita (Valmistettu)
+object_ingredientsspoiled                Raaka-aineita (Pilaantunut)
+object_meal                              Annos
+object_foodtray                          Ruokatarjotin
+object_foodtraydirty                     Ruokatarjotin (Likainen)
+object_grassturf                         Ruoho
+object_prisoneruniform                   Vanginasu
+object_dirtyprisoneruniform              Vanginasu (Likainen)
+object_crumpledprisoneruniform           Vanginasu (Mytyssä)
+object_bleach                            Valkaisuaine
+object_sheetmetal                        Metallilevy
+object_licenseplateblank                 Rekisterikilpiä (Tyhjiä)
+object_licenseplate                      Rekisterikilpiä
+object_log                               Tukki
+object_wood                              Puuta
+object_workman                           Työmies
+object_truckdriver                       Rekkakuski
+object_guard                             Vartija
+object_riotguard                         Mellakkapoliisi
+object_armedguard                        Aseistettu vartija
+object_prisoner                          Vanki
+object_doctor                            Lääkäri
+object_paramedic                         Ensihoitaja
+object_cook                              Kokki
+object_gardener                          Puutarhuri
+object_janitor                           Siivooja
+object_fireman                           Palomies
+object_avatar                            Avatar
+object_actor                             Tekijä
+object_visitor                           Vieras
+object_executionwitness                  Teloituksen todistaja
+object_doghandler                        Koirankäsittelijä
+object_dog                               Vahtikoira
+object_dogcrate                          Koirankoppi
+object_teacher                           Opettaja
+object_soldier                           Sotilas
+object_warden                            Vankilanjohtaja
+object_chief                             Turvallisuuspäällikkö
+object_foreman                           Työnjohtaja
+object_psychologist                      Psykologi
+object_accountant                        Kirjanpitäjä
+object_lawyer                            Asianajaja
+object_supplytruck                       Rekka
+object_prisonerbus                       Vankilabussi
+object_fireengine                        Paloauto
+object_riotvan                           Mellakka-auto
+object_ambulance                         Ambulanssi
+object_hearse                            Ruumisauto
+object_trooptruck                        Joukkorekka
+object_fire                              Tuli
+object_garbage                           Roska
+object_rubble                            Raunio
+object_bookshelf                         Kirjahylly
+object_officedesk                        Toimistopöytä
+object_filingcabinet                     Arkistokaappi
+object_medicalbed                        Sairaalasänky
+object_morgueslab                        Ruumislevy
+object_equipment                         Väline
+object_prop                              Rekvisiitta
+object_dummy                             Nukke
+object_powerstation                      Virtalähde
+object_capacitor                         Kondensaattori
+object_electricalcable                   Sähkökaapeli
+object_powerswitch                       Sähkökytkin
+object_logiccircuit                      Logiikkapiiri
+object_logicbridge                       Logiikkasilta
+object_waterpumpstation                  Vesipumppu
+object_pipevalve                         Venttiili
+object_pipelarge                         Suuri putki
+object_pipesmall                         Pieni putki
+object_drain                             Viemäri
+object_sprinkler                         Sprinkleri
+object_metaldetector                     Metallinpaljastin
+object_weightsbench                      Painonnostopenkki
+object_phonebooth                        Puhelinkoppi
+object_tv                                Telkkari
+object_largetv                           Suuri telkkari
+object_pooltable                         Biljardipöytä
+object_polaroid                          Valokuva
+object_cctv                              Turvakamerat
+object_cctvmonitor                       Monitori
+object_laundrymachine                    Pesukone
+object_laundrybasket                     Pyykkikori
+object_ironingboard                      Silityslauta
+object_visitortable                      Vierailupöytä
+object_workshopsaw                       Työpajasaha
+object_workshoppress                     Puristin
+object_carpentertable                    Puusepän pöytä
+object_boombox                           Boombox
+object_guardlocker                       Lokerikko
+object_sofachairsingle                   Nojatuoli
+object_sofachairdouble                   Sohva
+object_drinkmachine                      Juoma-automaatti
+object_arcadecabinet                     Peliautomaatti
+object_radio                             Radio
+object_bookshelflarge                    Kirjaston kirjahylly
+object_weaponrack                        Aseteline
+object_treestump                         Kanto
+object_schooldesk                        Pulpetti
+object_superiorbed                       Hieno sänky
+object_doorcontrolsystem                 Ovien ohjaus
+object_phonemonitor                      Kuuntelulaite
+object_servo                             Oviservo
+object_doortimer                         Oviajastin
+object_pressurepad                       Painelaatta
+object_statuslight                       Tilavalo
+object_wire                              Yhdistä
+object_dismantleobject                   Pura esine
+object_dismantleutility                  Pura LVI
+object_sellobject                        Myy esine
+object_canceljobs                        Peruuta työt
+object_showallwires                      Näytä johdot
+object_tidywires                         Siisti johdot
+object_cutscenepolaroid                  Välikohtausvalokuva
+object_cutscenecamera                    Välikohtauskamera
+object_cutscenecue                       Välikohtausmerkki
+object_foodwaste                         Jätemylly
+object_altar                             Alttari
+object_pews                              Kirkonpenkit
+object_prayermat                         Rukousmatto
+object_paroleofficer                     Ehdonalaisvalvoja
+object_parolelawyer                      Ehdonalaisasianajaja
+object_spiritualleader                   Hengellinen johtaja
+object_librarybookshelf                  Kirjaston hylly
+object_librarybookunsorted               Kirjaston kirja (lajittelematta)
+object_librarybooksorted                 Kirjaston kirja (lajiteltu)
+object_sortingtable                      Lajittelupöytä
+object_ruinedbook                        Rikkinäinen kirja
+object_foodbowl                          Ruoka
+object_appealslawyer                     Vetoomusasianajaja
+object_appealsmagistrate                 Vetoomustuomari
+object_mailsatchel                       Postilaukku
+object_mailunsorted                      Lajittelematon posti
+object_mailsorted                        Lajiteltu posti
+object_prisonermail                      Posti
+object_prisonermailopened                Posti (avattu)
+object_shopfront                         Kaupan etuosa
+object_shopgoods                         Kaupan tuotteet
+object_shopshelf                         Kaupan hylly
+
+material_none                            Ei mitään
+material_building                        Rakennus (Tiili)
+material_buildingconcrete                Rakennus (Betoni)
+material_demolish                        Tuhoa
+material_clearindoorarea                 Tyhjennä sisätila
+material_demolishwalls                   Tuhoa seinät
+material_removetunnels                   Täytä tunnelit
+material_canceljobs                      Peruuta työt
+material_dirt                            Maaperä
+material_sand                            Hiekka
+material_pavingstone                     Jalkakäytävä
+material_grass                           Ruoho
+material_gravel                          Sora
+material_road                            Tie
+material_roadmarkings                    Tiemerkinnät
+material_roadmarkingsleft                Tiemerkinnät (vasen)
+material_roadmarkingsright               Tiemerkinnät (oikea)
+material_stone                           Kivi
+material_fence                           Aita
+material_concretetiles                   Betonilaatat
+material_concretefloor                   Betonilattia
+material_woodenfloor                     Puulattia
+material_ceramicfloor                    Kaakelilattia
+material_mosaicfloor                     Mosaiikkilattia
+material_metalfloor                      Metallilattia
+material_marbletiles                     Marmorilaatat
+material_whitetiles                      Valkoiset laatat
+material_fancytiles                      Hienot laatat
+material_concretewall                    Betoniseinä
+material_brickwall                       Tiiliseinä
+material_perimeterwall                   Ulkoreunaseinä
+material_burntfloor                      Palanut lattia
+material_burntwall                       Palanut seinä
+material_buildingframe                   Rakennuksen runko
+material_roof                            Katto
+
+room_none                                Ei mitään
+room_cell                                Selli
+room_holdingcell                         Odotusselli
+room_solitary                            Eristysselli
+room_superiorcell                        Luksusselli
+room_canteen                             Ruokala
+room_kitchen                             Keittiö
+room_shower                              Suihku
+room_yard                                Piha
+room_storage                             Varasto
+room_deliveries                          Toimitusalue
+room_garbage                             Roskahuone
+room_execution                           Teloitushuone
+room_workshop                            Työpaja
+room_security                            Turvallisuus
+room_office                              Toimisto
+room_medicalward                         Sairastupa
+room_morgue                              Ruumishuone
+room_commonroom                          Yleistila
+room_laundry                             Pyykkihuone
+room_visitation                          Tapaamishuone
+room_cleaningcupboard                    Siivouskomero
+room_kennel                              Kenneli
+room_armoury                             Asevarasto
+room_staffroom                           Taukohuone
+room_library                             Kirjasto
+room_forestry                            Metsänhoito
+room_classroom                           Luokkahuone
+room_exports                             Viennit
+room_chapel                              Kappeli
+room_intake                              Vastaanotto
+room_clearrooms                          Tyhjät huoneet
+room_paroleroom                          Ehdonalainen
+room_mailroom                            Postihuone
+room_shop                                Kauppa
+
+equipment_none                           Ei mitään
+equipment_fists                          Nyrkit
+equipment_baton                          Pamppu
+equipment_club                           Nuija
+equipment_shank                          Puukko
+equipment_knife                          Veitsi
+equipment_fork                           Haarukka
+equipment_gun                            Ase
+equipment_spoon                          Lusikka
+equipment_needle                         Neula
+equipment_booze                          Viina
+equipment_poison                         Myrkky
+equipment_cigs                           Tupakka
+equipment_saw                            Saha
+equipment_jailkeys                       Vankilan avaimet
+equipment_mobilephone                    Kännykkä
+equipment_lighter                        Sytkäri
+equipment_screwdriver                    Meisseli
+equipment_drugs                          Huumeet
+equipment_sheers                         Sakset
+equipment_mop                            Moppi
+equipment_rake                           Harava
+equipment_hose                           Letku
+equipment_spatula                        Lasta
+equipment_woodenspoon                    Puulusikka
+equipment_cleaningbrush                  Siivousharja
+equipment_hammer                         Vasara
+equipment_clipboard                      Kirjoituslevy
+equipment_drill                          Pora
+equipment_pianowire                      Pianon kieli
+equipment_scissors                       Sakset
+equipment_medicine                       Lääkkeitä
+equipment_shotgun                       Haulikko
+equipment_moneybag                      Rahasäkki
+equipment_tazer                         Sähkölamautin
+equipment_guarduniform                  Vartijanasu
+equipment_stabvest                      Liivi
+equipment_rifle                         Kivääri
+equipment_dogleash                      Koiran panta
+equipment_assaultrifle                  Rynnäkkökivääri
+equipment_woodenpickaxe                 Puinen hakku
+equipment_cbradio                       CB-puhelin
+equipment_axe                           Kirves
+equipment_spade                         Lapio
+
+research_requires_short                 Vaaditaan: *X
+
+reformprogram_workshopinduction         Työpajan turvallisuuskoulutus
+reformprogram_foundationeducation       Ala-astetason koulutus
+reformprogram_generaleducation          Ylä-astetason koulutus
+reformprogram_carpentry                 Puusepäntyön koulutusohjelma
+reformprogram_kitcheninduction          Keittiöhygenian koulutus
+reformprogram_therapy                   Käytösterapia
+reformprogram_methadone                 Huumeriippuvaisten lääkehoito-ohjelma
+reformprogram_alcoholicsmeeting         AA-tapaamiset
+reformprogram_tazertraining             Vartijoiden lamautinkoulutus
+reformprogram_spiritualguidance         Hengellinen neuvonta
+reformprogram_parolehearing             Ehdonalaiskuulustelussa
+reformprogram_deathrowappeal            Kuolemaantuomitun vetoomus
+
+reformprogram_tazertrained              Pätevyys: Lamautin
+
+reformprogram_workshopinduction_text    Turvallisuus ennen kaikkea! Vankien täytyy läpäistä tämä kurssi, ennen kuin he voivat työskennellä työpajassa.
+reformprogram_foundationeducation_text  Monelta vangilta puuttuvat jopa perustaidot lukemisessa, kirjoittamisessa ja matematiikassa. Tämä kurssi nostaa heidät perustasolle. Kurssin läpäisseet vangit voivat työskennellä kirjastossa.
+reformprogram_carpentry_text            Monimutkainen ammattitaito, joka vaatii hyvää käytännön osaamista. Pätevät vangit voivat käyttää tätä taitoa korkea-arvoisten puuesineiden luomiseen puusepän pöydän ääressä.
+reformprogram_kitcheninduction_text     Ruokastandardit ovat tärkeitä, kun satoja ihmisiä pitäisi ruokkia kerralla. Vankien tulee läpäistä tämä kurssi ennen kuin heidän on lupa työskennellä keittiössä.
+reformprogram_therapy_text              Vangeilla on usein ongelmia väkivaltaisuidensa kanssa. Nämä yksityiset sessiot vankilan psykologin seurassa toivottavasti antavat heille työkalut, joilla he voivat selvittää tilanteen kuin tilanteen ilman luuvitosia.
+reformprogram_methadone_text            Viiden metadonihoidon kuuri vankien huumeongelmien selvittämiseksi. Jokainen hoito lamauttaa vangin huumetarpeita, ja kuurin suoritus tuhoaa addiktion täysin.
+reformprogram_alcoholicsmeeting_text    Ryhmäterapiatapaaminen alkoholisteille. Auttaa vähentämään alkoholinhimoa. Ei koskaan täysin poista addiktiota.
+reformprogram_parolehearing_text        Kuuleminen, jossa ratkaistaan vangin soveltuvuus varhaiseen vapauttamiseen. Onnistunut vapauttaminen, joka ei johda rikoksen uusimiseen palkitaan mukavalla bonuksella.
+reformprogram_spiritualguidance_text    Jotkut vangit ovat uskonnollisia tai heillä voi olla jokin yleinen hengellinen tarve. Järjestä paikallisesta yhteisöstä hengellinen johtaja johtamaan vankeja rukouksissa ja lisäämään vankien sisäistä rauhaa.
+
+reformerror_unscheduled                 EI AIKOJA
+reformerror_noroom                      EI HUONETTA
+reformerror_nofreetimeslot              KAIKKI HUONEET TÄYNNÄ
+reformerror_staffonly                   KAIKKI HUONEET VAIN HENKILÖSTÖLLE
+reformerror_noobjects                   EI KALUSTOA
+reformerror_noregimetime                EI AIKATAULUPAIKKAA
+reformerror_noteachers                  EI OPETTAJAA
+
+reform_interested                       *X kiinnostunut 
+reform_interested_qualified             *X kiinnostunut/pätevä
+reform_queued                           *X jonossa
+reform_completion                        - *X päätti - *Y läpäisi (*P%)
+reform_locked                           LUKITTU
+reform_start                            ALOITA
+reform_costpersession                   *X per sessio
+reform_placespersession                 *X paikkaa / *Y sessiota
+reform_program_starting                 Alkaa
+reform_program_active                   AKTIIVINEN
+reform_program_paused                   Pysäytetty
+reform_program_stop                     STOP
+reform_program_ledby                     - Johtaa *P paikassa *Z
+reform_program_ledwith                   - Avustajana toimii *S
+reform_program_length                    - Session pituus on *X tuntia
+reform_program_requirements              - Jokaiselle vangille tulee olla *X
+reform_program_requirements_alt          - Jokaiselle vangille tulee olla *X tai *Y
+reform_program_prereqs                  Vankien on täytynyt suorittaa:
+reform_program_research_required        Vaaditaan: *X
+
+reform_program_intake_none                      Ei mitään
+reform_program_intake_mandatory                 Pakollinen
+reform_program_intake_voluntary                 Vapaaehtoinen
+reform_program_intake_referralviolence          Lähete: Väkivaltaisuus
+reform_program_intake_referraldrugaddiction     Lähete: Huumeongelma
+reform_program_intake_referralalcoholism        Lähete: Alkoholismi
+reform_program_intake_guards                    Vain vartijoille
+reform_program_intake_parole                    Kun joko 50 % tai 75 % tuomiosta on istuttu
+reform_program_intake_needrequired              Jokainen vanki tarvitsee erityisen terapiatarpeen liittyäkseen terapiaryhmään
+reform_program_intake_deathrow                  Vanki on kuolemanjonossa
+
+reform_program_properties_canhireexternally     Palkataan ulkopuolelta
+reform_program_properties_studentssit           Oppilaat istuvat
+reform_program_properties_academic              Akateeminen
+reform_program_properties_practical             Käytännönläheinen
+reform_program_properties_repeatable            Uusintamahdollisuus
+reform_program_properties_passive               Passiivinen
+reform_program_properties_staffonly             Vain henkilöstö
+reform_program_properties_outsideofwork         Voi olla työajan ulkopuolella
+reform_program_properties_teacherssit           Opettajat istuvat
+reform_program_properties_canescortstudent      Oppilaat voivat tulla vartijoiden saattamina
+
+reform_program_waittime                         Voi tehdä vain kerran *T päivän välein
+
+reform_program_difficulty_easy           - Helppo
+reform_program_difficulty_intermediate   - Keskitaso
+reform_program_difficulty_advanced       - Vaikea
+reform_program_difficulty_expert         - Vaativa
+
+regime_nothing                          Selleissä
+regime_sleep                            Nukkuminen
+regime_eat                              Ruokatunti
+regime_shower                           Suihku
+regime_yard                             Piha
+regime_work                             Työ
+regime_lockdown                         Lukkotila
+regime_freetime                         Vapaa-aika
+regime_currenttime                      Nyt
+regime_unspecified                      Ei määritelty
+
+regimetooltip_nothing                   Vangit lukitaan selleihinsä. Heillä ei ole muuta tekemistä kuin tänne heidät johtaineiden tekojensa pohtimista.\n\nLiian pitkään selleissä riutuminen voi olla kova kuri jopa kaikista paatuneimmille rikollisille.
+regimetooltip_sleep                     Vangit lukitaan selleihinsä, ja valot kytketään pois. Kaikki menevät nukkumaan.\n\nPaitsi tietenkin he jotka kaivavat pakotunneleita.
+regimetooltip_eat                       Vangit hakeutuvat lähimpään ruokalaan ja istuvat alas lounaalle.\n\nVangit voivat käyttää mitä tahansa kalusteita mitä ruokalasta löytyy, mutta eivät saa lähteä huoneesta ennen kuin ruoka-aika päättyy.
+regimetooltip_shower                    Vangit riisuutuvat ja menevät suihkuun. Päivittäinen suihkuaika on oleellista vankien hygienian kannalta - monet eivät itsekseen viitsisi, jos heitä ei pakotettaisi.
+regimetooltip_yard                      Vangit pääsevät ulkotiloihin kirmaamaan, nauttimaan liikunnasta, auringonpaisteesta ja raikkaasta ilmasta.\n\nVangit saavat tehdä mitä tahansa mitä piha-alue heille tarjoaa - esimerkiksi nostella painoja, soittaa kotiin perheillensä, käydä suihkussa, jne.
+regimetooltip_work                      Vangit pistetään töihin ympäri vankilaa. Kaikki saatavilla olevat työpaikat täytetään ja vangit automaattisesti saapuvat asemillensa. (Voit määritellä työpaikat Asemointityökalulla.)\n\nKaikki sopeuttamisohjelmat ajoitetaan myös työajalle.  Vangit, joilla ei ole töitä eikä heitä ole sijoitettu sopeuttamisohjelmaan voivat vaellella vapaasti vankilassa aivan kuin olisivat vapaa-ajalla.
+regimetooltip_freetime                  Vangit päästetään selleistänsä ja saavat tehdä mitä lystäävät ympäri vankilaa. Tämä on vankien mieleen, ja käyttävät tämän ajan sosialisoimiseen ja omien tarpeidensa tyydyttämiseen parhaansa mukaan.\n\nPitkät vapaa-ajan jaksot voivat vähentää stressiä ja jännitystä vankilassa, mutta monen mielestä se ei käy kunnon rangaistuksesta.
+
+regime_clear                            Tyhjennä tämän vankikategorian aikataulu, ja palauta tilalle normaalin turvatason vankien aikataulu
+
+schedule_editor_students                Oppilaita: *X/*Y
+schedule_editor_error_staffonly         Kohdehuone on merkitty vain henkilöstölle
+schedule_editor_error_noregimetime      Ohjelma ei kuulu työaikatauluun
+schedule_editor_error_noteachers        Tällä ohjelmalla ei ole opettajia
+schedule_editor_error_noobjects         Tämän ohjelman vaatimia tavaroita ei löydy kelvollisesta huoneesta
+schedule_editor_pin                     Kiinnitä tämä ohjelma paikoilleen
+schedule_editor_unpin                   Poista ohjelman kiinnitys
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         Oviajastin
+doortimer_connected_servos              *X yhdistettyä servoa
+doortimer_state_open                    Avaa
+doortimer_state_closed                  Kiinni
+
+doortimer_security_none                 Kaikki turvatasot
+doortimer_security_minsec               Minimivartiointi
+doortimer_security_normal               Normaali vartiointi
+doortimer_security_maxsec               Huippuvartiointi
+doortimer_security_Protected            Säilöönotettu
+doortimer_security_SuperMax             Supermax
+doortimer_security_DeathRow             Kuolemanjono
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   Teloitus aloitettu
+execution_stage_Lockdown                Käynnistä vankilan laajuinen lukitus
+execution_stage_Testing                 Testaa laitos
+execution_stage_Assemble                Kokoa teloitusryhmä
+execution_stage_Witnesses               Saata todistajat laitokseen
+execution_stage_Escort                  Saata vanki laitokseen
+execution_stage_Execution               TELOITUS
+execution_stage_Dismissed               Lähetä henkilökunta ja todistajat pois
+execution_stage_FinalReport             Päätösraportti
+
+execution_stagetooltip_start            Olet määrännyt tämän vangin teloitettavaksi ja nyt sinun on noudatettava virallista protokollaa.
+execution_stagetooltip_lockdown         Kaikki vangit lähetetään selleihinsä ja koko vankila lukitaan.
+execution_stagetooltip_testing          Suoritetaan viimeinen testi, jolla varmistetaan kaiken toimivuus. Sähkövirta tuoliin testataan kuormitettuna. Lisäksi vangin viimeinen matka suunnitellaan - hänen täytyy pystyä kävelemään teloitushuoneeseen itse.
+execution_stagetooltip_assemble         Vankilanjohtaja ja turvallisuuspäällikkö menevät tuomitun selliin. Lisäksi vangin valitsema pappi tai hengellinen johtaja saapuu paikalle ja käy vangin luona lausumassa viimeiset rukoukset.
+execution_stagetooltip_witnesses        Teloituksen todistajat saapuvat paikalle ja menevät teloitusrakennukseen. Ryhmään voi kuulua sekä tuomitun että uhrin perheenjäseniä.\n\nHuomaa: teloituksen todistajille tulee järjestää tuolit.
+execution_stagetooltip_escort           Tuomittu saatetaan sellistään teloitusrakennukseen. Vankilanjohtaja, turvallisuuspäällikkö ja pappi saattava häntä.
+execution_stagetooltip_execution        Kun kaikki ovat paikoillaan ja protokollaa on noudatettu, teloitukselle annetaan lopullinen lupa.
+execution_stagetooltip_dismissed        Henkilökunta ja todistajat lähetetään pois rakennuksesta.
+execution_stagetooltip_finalreport      Kun teloitus on suoritettu, siitä laaditaan raportti ja suorituksesi arvostellaan.
+
+execution_underway                      TELOITUS MENEILLÄÄN
+execution_result_ok                     *N teloitettiin laillisesti kello *T aikataulun mukaisesti sähkötuolilla todistajien läsnäollessa. Laitokselle annetaan tavanomainen 10 000 $ korvaus prosessin suorittamisesta.
+execution_result_appealed               *N teloitettiin laillisesti kello *T aikataulun mukaisesti sähkötuolilla todistajien läsnäollessa. Valitettavasti teloituksen jälkeen tuli ilmi uutta tietoa, joka olisi vaikuttanut hänen armahdusvetoomukseensa, mutta laitosta vastaan ei ryhdytä toimenpiteisiin ja sille annetaan tavanomainen 10 000 $ korvaus prosessin suorittamisesta.
+execution_result_innocent               *N teloitettiin laillisesti kello *T aikataulun mukaisesti sähkötuolilla todistajien läsnäollessa. Valitettavasti myöhemmin löytyi todisteita, jotka paljastivat, että *N oli syytön, mutta laitosta vastaan ei ryhdytä toimenpiteisiin ja sille annetaan tavanomainen 10 000 $ korvaus prosessin suorittamisesta.
+execution_result_illegal                *N teloitettiin kello *T aikataulun mukaisesti sähkötuolilla todistajien läsnäollessa. Koska lain edellyttämää vetoomusprosessia ei noudatettu ja myöhemmin löytyi tietoja, jotka olisivat johtaneet vetoomuksen läpimenoon, laitosta sakotetaan 50 000 $. Koska oikeaa protokollaa ei noudatettu, teloitukset keskeytetään toistaiseksi ja jäljellä olevat kuolemaantuomitut siirretään toiseen vankilaan.
+execution_result_illegalinnocent        *N teloitettiin laittomasti kello *T aikataulun mukaisesti sähkötuolilla todistajien läsnäollessa. Koska lain edellyttämää vetoomusprosessia ei noudatettu ja *N oli syytön rikoksiinsa, tämän laitoksen johtaja irtisanotaan välittömästi toimestaan. 
+execution_warning_one                   Mikäli seuraava täällä suoritettava teloitus ei mene protokollan mukaan, saat potkut.
+execution_warning_two                   Koska olet aimminkin rikkonut protokollaa, saat potkut, jos vielä kerrankin poikkeat protokollasta tällä tavoin.
+
+execution_error_MissingEquipment        VIRHE: PUUTTUVA LAITTEISTO\nTarvitset teloitushuoneen, jossa on sähkötuoli.
+execution_error_ElectricalSupply        VIRHE: SÄHKÖKATKOS\nTuoliin ei tullut riittävästi virtaa.
+execution_error_NavigationPrisoner      VIRHE: VANGIN REITTI\nTuomittu ei pysty kävelemään sellistään teloitushuoneeseen.
+execution_error_NoRouteFromRoad         VIRHE: EI PÄÄSYÄ\nTeloitukseen tulleet ulkopuoliset eivät pääse määränpäähänsä.
+execution_error_NoSpaceInRoom           VIRHE: EI TILAA\nTeloitushuoneessa ei ole riittävästi tyhjää tilaa vieraille.
+execution_error_NoRoom                  Sinulla on oltava teloitushuone ennen kuin aloitat teloituksen
+
+roomerror_nokitchen                     Yksikään keittiö ei pysty lähettämään ruokaa tähän ruokalaan
+roomerror_noprisoners                   Tähän ruokalaan ei ole sijoitettu ruokailevia vankeja
+roomerror_nocanteen_cells               Tästä sellistä ei pääse yhteenkään ruokalaan. Tämän sellin vangit eivät pääse minnekään syömään
+roomerror_nocanteen_kitchen             Tästä keittiöstä ei pääse yhteenkään ruokalaan. Täällä ei laiteta ruokaa ruoka-aikaan
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             Sisältö : *X
+stack_contents                           Sisältö : *X x *Y
+mail_contents                            Sisältö: *X kirjettä
+mail_opened_from                         Kirje, lähettäjä: vangin *X *F
+mail_closed_from                         Kirje, vastaanottaja: *X
+
+object_dump                             Roska
+object_todo                             Tehtävä: *X
+object_sale_price                       Myyntihinta: *X
+
+object_door_cyclepermissions            Klikkaa käydäksesi läpi pääsyluvat
+object_door_cyclepermissions_1          (Auki, Vain henkilöstö, Lukittu)
+
+object_firemen_hosehelp_intro           Palomiehet tähtäävät letkut läheisiin liekkeihin
+object_firemen_hosehelp                 Pidä H pohjassa tähdätäksesi letkulla
+
+interface_clone_help_copy               Pidä hiiren oikea nappi painettuna ja valitse kloonattava alue vetämällä
+interface_clone_help_paste              Kopioi valittu alue klikkaamalla vasemmalla napilla
+
+object_inactive                         TOIMETON
+object_cctv_moremonitors                Rakenna lisää monitoreja
+object_cctvmonitor_needsguards          Vartijoiden pitää olla katselualueella
+object_processor_blocked                Työpaikkaan ei ole pääsyä
+
+administrator_requiresoffice            Vaatii toimiston
+administrator_requiresoffice_2          *X vaatii toimiston
+office_ownership                        Toimisto: *X
+
+teacher_teaching                        Opettaa
+teacher_preparing                       Valmistelee
+
+prisoner_assignedto                     Tarvitsee: *X
+prisoner_roomquality                    Sellin laatu : *X (*Y)
+prisoner_roomquality_average            Normaali
+prisoner_roomquality_aboveaverage       Kohtalainen
+prisoner_roomquality_wayaboveaverage    Hyvä
+prisoner_roomquality_belowaverage       Kehno
+prisoner_roomquality_waybelowaverage    Surkea
+prisoner_attendance                     Läsnäolo
+prisoner_concentration                  Keskittyminen
+prisoner_understanding                  Ymmärrys
+prisoner_concentration_0                Ala-arvoinen
+prisoner_concentration_1                Huono
+prisoner_concentration_2                Keskiverto
+prisoner_concentration_3                Hyvä
+prisoner_concentration_4                Loistava
+prisoner_passchance                     Läpäisyn mahdollisuus: *X%
+prisoner_informant                      Ilmiantaja
+
+prisoner_dayswithoutincident            *X päivää ilman välikohtausta
+prisoner_availablemoney                 Käteinen : $*X
+
+informant_suspicion                     Epäluulo
+informant_title                         ILMIANTAJAT
+informant_none                          Sinulla ei ole ilmiantajia
+informant_hint                          (Värvää vankeja ahdingossa - esim. eristyksessä)
+informant_recruitable                   (Mahdollinen ilmiantaja)
+informant_target                        Kohde
+
+contraband_owner                        Omistaja: *X
+contraband_ownerunknown                 Omistaja tuntematon
+contraband_stolenfrom                   Varastettu kohteesta *X, *Y t sitten
+contraband_smuggledthrough              Salakuljetettu kohteesta *X, *Y t sitten
+contraband_smuggledin                   Vangin salakuljettama, *Y t sitten
+contraband_type                         Tyyppi: *X
+contraband_tradevalue_title             Kauppahinnat
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         Uupunut
+staff_tired                             Väsynyt
+staff_needsrest                         Henkilöstö tykkää levätä taukohuoneessa.
+
+dog_needskennel                         Koirat tarvitsevat kennelin nukkuakseen
+
+doctor_requireinfirmary                 Vaatii sairastuvan
+
+entity_carryingequipment                Mukanaan *X
+entity_carryingkeys                     Kantaa vankilan avaimia
+entity_carryingstaffkeys                Kantaa henkilöstön avaimia
+entity_wearingarmour                    Yllään *X
+
+reports_schedule                        Ajoita ohjelmat uudelleen
+reports_edit                            Muokkaa aikataulua
+reports_bankloan                        Pankkilaina
+reports_increaseloan                    Lisää
+reports_decreaseloan                    Vähennä
+reports_unlockbankloans                 Kirjanpitäjän avaama
+
+drugs_heroin                            Heroiini
+drugs_cocaine                           Kokaiini
+
+#                                       Esim. "vangin Bob äiti"
+visitor_relationship                    vangin *X *Y
+visitor_age                             Ikä : *X
+
+family_wife                             vaimo
+family_exwife                           ex-vaimo
+family_girlfriend                       tyttöystävä
+family_son                              poika
+family_daughter                         tytär
+family_mother                           äiti
+family_father                           isä
+family_brother                          veli
+family_sister                           sisko
+family_lawyer                           Asianajaja
+family_priest                           pappi
+family_victims                          uhrin perhe
+family_caption                          Perhe: 
+family_none                             Ei mitään
+
+damage_dead                             Kuollut
+damage_unconscious                      Tajuton
+damage_serious                          Vakavasti loukkaantunut
+damage_injured                          Loukkaantunut
+damage_amount                           *X% vaurioitunut
+
+message_autosaving                      Automaattinen tallennus...
+
+buildtoolbar_entersearchterm            kirjoita hakutermi...
+
+deploymentscheduler_title               ASEMOINNIN AIKATAULUTTAJA
+supplyanddemand_supplyheader            TARJONTA
+supplyanddemand_demandheader            KYSYNTÄ
+
+tooltip_multipleobjects                 Selaa kohteita painamalla TAB
+remotedoor_noservo                      Etäovet eivät avaudu ilman niihin kytkettyä toimivaa servoa.
+
+roomgrading                             Huoneen arviointi
+roomgrading_roomsize                    Huoneen koko vähintään *X ruutua
+roomgrading_cleanliness                 Puhtaus yli *X %
+roomgrading_outsidewindow               Ulkoikkuna
+roomgrading_item                        Esine : *X
+roomgrading_result                      Arvo *X
+roomgrading_currentoccupant             Asukas oikeutettu arvoon *X
+roomgrading_unoccupied                  Asumaton
+
+roomerror_nokitchen                     Yksikään keittiö ei pysty lähettämään ruokaa tähän ruokalaan
+roomerror_noprisoners                   Tähän ruokalaan ei ole sijoitettu ruokailevia vankeja
+roomerror_nocanteen_cells               Tästä sellistä ei pääse yhteenkään ruokalaan. Tämän sellin vangit eivät pääse minnekään syömään
+roomerror_nocanteen_kitchen             Tästä keittiöstä ei pääse yhteenkään ruokalaan. Täällä ei laiteta ruokaa ruoka-aikaan
+
+ceos_letter                             Hyvä herra/rouva,\n\n\nOnnittelut perusopastuksen suorittamisesta - olet nyt täysin pätevä vankila-arkkitehti! Pian voit suunnitella, rakentaa ja johtaa omia vankiloitasi aloittaen tyhjällä tontilla ja muutamalla tiilikasalla. Mutta ennen kuin aloitat, haluan kertoa sinulle pari tärkeää seikkaa.\n\n1. Jokaisella vankilalla on oltava vankilanjohtaja - sinun pitäisi palkata hänet ensimmäisten joukossa. Rakenna hänelle mukava toimisto niin hän avaa sinulle useita edistyneempiä tiloja byrokratian kautta.\n\n2. Yksittäiset sellit ovat kalliita, etenkin alussa, kun varat ovat vähissä. Säästä rahaa aloittamalla suurella odotussellillä, johon mahtuu useita vankeja yhtä aikaa.\n\n3. Huolehdi keittiö ja ruokala käyttökuntoon ennen kuin ensimmäiset vangit saapuvat, ja muista palkata kokkeja - mikään ei ärsytä vankeja enemmän kuin tyhjä vatsa!\n\n4. Vankilan rakentaminen on kallista, joten sinun on opittava keräämään paljon rahaa apurahoilla ja sopimuksilla. Apurahoja voit hakea Raportit-ruudun kautta.\n\nSiinä olikin aika lailla kaikki - onnea matkaan!\n\nToimitusjohtaja,\nPrison Architects Corp.
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			Kappale *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Kuolemanjono
+
+campaignchapter_deathrow_description    Olemme solmineet sopimuksen teloitushuoneen rakentamisesta tähän vankilaan, juuri ajoissa yhden heidän vankiensa teloitusta varten.
+
+campaigncutscene_deathrowmurder         Kaksoismurha
+campaigncutscene_deathrowconfession     Tunnustus
+
+adviser_deathrow_murder1                Tiesin, että löytäisin teidät täältä.
+adviser_deathrow_murder2                Edward! Minä...
+adviser_deathrow_murder25               Älä. Älä edes yritä.
+adviser_deathrow_murder3                Mitä aiot tehdä?
+
+adviser_deathrow_church1                Voinko auttaa?
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                Etsitkö anteeksiantoa?
+adviser_deathrow_church3                En tiedä. Minun täytyy tehdä jotakin. En pysty elämään tekojeni kanssa.
+adviser_deathrow_church4                Sinun täytyy tunnustaa. Mitä ikinä oletkaan tehnyt, et voi paeta seuraamuksia.
+adviser_deathrow_church5                Et voi ikinä elää itsesi kanssa ennen kuin kohtaat menneisyytesi.
+adviser_deathrow_church6                Haluan palata takaisin ajassa. Haluan antaa hänelle anteeksi. Haluan, että hän antaa minulle anteeksi.
+adviser_deathrow_church7                Jumala antaa sinulle anteeksi, teitpä mitä tahansa, jos vain pyydät.
+adviser_deathrow_church8                Mutta sinun täytyy vastata rikoksistasi lain edessä. Muuta keinoa ei ole.
+
+adviser_deathrowintro_1                 Tämä on vaikea tapaus.
+adviser_deathrowintro_2                 Tässä laitoksessa on vanki, joka on syyllinen kaksoismurhaan, ja tuomittu kuolemaan.
+adviser_deathrowintro_3                 Siksi me olemme täällä.  Meidät on palkattu rakentamaan teloitushuone ennen kaverin viimeistä päivää.
+adviser_deathrowintrob_1                Haluan, että uusi teloitushuoneemme rakennetaan tähän.
+adviser_deathrowintrob_2                Ensimmäinen askel näissä projekteissa on itse rakennuksen rakentaminen. Sen on oltava tarpeeksi tilava, jotta teloitushuone ja odotusselli mahtuvat sinne.
+adviser_deathrowintrob_3                Aloitetaanpa. Rakenna uusi rakennus tähän.
+
+adviser_deathrow_explain1               Työmiehiesi tehtävä on rakennuksien toteuttaminen.
+adviser_deathrow_explain2               He hakevat varastosta tarvitsemansa teräksen ja sementin, ja vievät sen rakennustyömaalle.
+adviser_deathrow_explain3               He käyttävät nuo raakamateriaalit uuden rakennuksesi perustusten ja rungon rakentamiseen.
+adviser_deathrow_explain4               Tämä on rakennuksen hitain vaihe, joten sinun tulisi aina suunnitella etukäteen mitä aiot rakentaa.
+adviser_deathrow_explain5               Odottaessamme voit katsella ympärillesi.  Voit käyttää WASD- tai nuolinäppäimiä siirtymiseen, ja hiiren rullaa tarkentamiseen.
+
+objective_deathrow_building             Rakenna rakennus teloitushuonetta varten
+
+adviser_deathrow_buildinside1           Tarvitsemme myös sisäänkäynnin uuteen rakennukseemme.
+adviser_deathrow_buildinside2           Sijoita suuri vankilan ovi eteläiselle seinälle.
+
+objective_deathrow_buildouterdoor       Sijoita suuri vankilan ovi
+
+adviser_deathrow_internalwalls1          Rakennuksen sisälle haluan sellin ja teloitushuoneen.
+adviser_deathrow_internalwalls2          Jaa tila rakentamalla tiiliseiniä.
+
+objective_deathrow_buildinternalwalls   Rakenna sisäseinät
+
+adviser_deathrow_internaldoors1          Lisää vielä suuret vankilaovet noille väliseinille.
+adviser_deathrow_internaldoors2          Voit kääntää esinettä ennen sen sijoitusta napsauttamalla hiiren keskipainiketta (tai painamalla R).
+
+objective_deathrow_buildinternaldoors   Sijoita sisätilojen ovet (hiiren keskipainike tai R kääntääksesi esinettä)
+
+adviser_deathrow_designation1           Näyttääpä hyvältä.  Nyt meidän tulee määritellä huoneet näihin tiloihin.
+adviser_deathrow_designation2           Määrittele selli pienempään tilaan.  Tuomittu vankimme tulee asumaan siellä.
+adviser_deathrow_designation3           Määrittele sitten itse teloitushuone isompaan tilaan.
+
+objective_deathrow_designatecell        Määritä selli
+objective_deathrow_designateexecution   Määritä teloitushuone
+
+adviser_deathrow_roomrequirements1      Näillä uusilla huoneilla on erinäisiä vaatimuksia ennen kuin ne voidaan ottaa käyttöön.
+adviser_deathrow_roomrequirements2      Sellissä tulee olla sänky ja vessa.
+adviser_deathrow_roomrequirements3      Teloitushuoneessa tulee olla sähkötuoli.
+
+objective_deathrow_cellobjects1         Sijoita sänky
+objective_deathrow_cellobjects2         Sijoita vessa
+objective_deathrow_executionobjects     Sijoita sähkötuoli
+
+adviser_deathrow_optional1              Siinäpä tärkeimmät.  Tosin vielä riittäisi paranneltavaa.
+adviser_deathrow_optional2              Sinusta se tosin on kiinni, ei mitään pakkoa.  Riippuu aivan siitä kuinka paljon sinua kiinnostaa vankiesi hyvinvointi ja ympäristö.
+adviser_deathrow_optional3              Selliin voisit rakentaa ikkunan sekä kirjahyllyn.
+adviser_deathrow_optional4              Ja rakennus näyttäisi paljon paremmalta, jos lattiat olisivat hienommat - esimerkiksi puulattia tai mosaiikkilaatoitus.
+adviser_deathrow_optional5              Ulkopuolelle voisit myös lisätä valaistusta ja päällystetyn käytävän, jos niin tahdot.
+
+adviser_deathrow_transfer05             Tämä on Edward Romsey, kyseinen kuolemaantuomittu.  Hän oli opettaja, jos voit uskoa.
+adviser_deathrow_transfer06             Ei ole meidän päätettävissä antaitseeko hän kuolla vai ei.  Laki ja tuomioistuimet ovat sen jo päättäneet.  Meidän tehtävänämme on vain toimeksipano.
+adviser_deathrow_transfer1              Kun olet tyytyväinen rakennuksen tilaan, voit aloittaa vangin siirron uuteen selliinsä.
+adviser_deathrow_transfer2              Napsauta hänen sellissään olevaa valokuvaa aloittaaksesi siirron.
+
+objective_deathrow_path                 (VALINNAINEN) Rakenna reitti uuteen rakennukseen
+objective_deathrow_window               (VALINNAINEN) Lisää selliin ikkuna
+objective_deathrow_bookshelf            (VALINNAINEN) Sijoita selliin kirjahylly
+objective_deathrow_flooring             (VALINNAINEN) Päällystä lattiat hienommin
+objective_deathrow_outerlights          (VALINNAINEN) Lisää valaistusta ulkotiloihin
+objective_deathrow_transferinmate       Kun olet valmis, aloita vangin siirto klikkaamalla valokuvaa Edwardin sellissä.
+
+adviser_deathrow_setupmurder1           Älä turhaan itke hänen takiaan.  Kivenkova tappaja, syyllinen ilman muuta.
+adviser_deathrow_setupmurder2           Hän jopa tunnusti.  Haluatko kuulla, mitä hän sanoi tehneensä?
+adviser_deathrow_setupmurder3           Mehevää kamaa.  "Se oli noin kello 23.  Valot olivat jo päällä.  Tiesin, että hän oli kotona..."
+adviser_deathrow_postmurder1            Kuten sanoin, kivenkova tappaja.
+adviser_deathrow_postmurder2            Päivänselvää minun mielestäni.  Ansaitsee jokaisen voltin, joka tuolista lähtee.
+adviser_deathrow_postmurder3            Kaikki ansaitsevat saada tekonsa anteeksi, jopa hän.  Oletko niin varma mielipiteistäsi, että voit langettaa näin pysyvän tuomion?
+adviser_deathrow_postmurder4            Vaimon käräyttäminen toisen miehen kanssa ei ole mikään syy.
+adviser_deathrow_postmurder5            Hän jopa meni sinne ladatun aseen kanssa, tietäen että löytäisi heidät. Harkittu kaksoismurha.
+adviser_deathrow_postmurder6            Hän on tehnyt yhteistyötä viranomaisten kanssa koko oikeusprosessin ajan.  Osavaltio aikoo vain tehdä hänestä esimerkin.
+adviser_deathrow_postmurder7            Jos hän olisi tehnyt saman 150 kilometriä pohjoisemmassa, hänellä olisi pelkkä elinkautinen edessä.  Millaista oikeutta tämä on olevinaan?
+adviser_deathrow_postmurder8            Haluatko tällaisen hirviön kadulle vapaaksi?  Minä ainakin aion nukkua yöni hyvin, tietäen että häntä ei enää ole.
+           
+
+adviser_deathrowelectricity_1           Hyvää työtä tähän mennessä.
+adviser_deathrowelectricity_2           Yksi ongelma meillä vielä on - teloitushuone ei ole vielä toiminnassa, koska sille ei ole virtaa.
+adviser_deathrowelectricity_3           Meidän täytyy kytkeä se virtalähteeseen.
+
+adviser_deathrowelectricityb_1          Nyt näemme vankilan LVI-tilassa, jossa koko vankilan sähkökaapelointi on esillä.
+adviser_deathrowelectricityb_2          Vankilan jokainen rakennus on yhdistetty virtalähteeseen näiden paksujen maanalaisten kaapeleiden kautta.
+adviser_deathrowelectricityb_3          Tämä kansalliseen verkkoon yhdistetty ala-asema tuo virtaa vankilaan.
+adviser_deathrowelectricityb_4          Kuten näet, tämä koko siipi on ilman sähköä.  Mikään valo ei pala.
+adviser_deathrowelectricityb_4b         Korjataksesi ongelman, meidän täytyy ensin vaihtaa LVI-tilaan, jotta voimme nähdä tilanteen.
+adviser_deathrowelectricityb_5          Lähimmät sähkökaapelit ovat liian kaukana - insinöörimme eivät voi viimeistellä kaapelointiaan tällä alueella.
+adviser_deathrowelectricityb_6          Jatka lähimaaston kaapeleita niin, että tämä siipi saa sähköä.
+
+objective_deathrow_cellpower            Liitä huone sähköverkkoon
+
+adviser_deathrow_connectchair_1         Valojen lisäksi uusi sähkötuolisikin tarvitsee virtaa toimiakseen.
+adviser_deathrow_connectchair_2         Yhdistä teloitushuone sähköverkkoon kaapeleilla.
+adviser_deathrow_connectchair_3         Sähkötuoli itsessään on erityinen sähkölaite.  Se tarvitsee oman linjansa.  Sinun täytyy yhdistää se suoraan pääkaapeleihin.
+
+objective_deathrow_chairpower           Yhdistä sähkötuoli verkkoon
+objective_deathrow_condemnedcellpower   Yhdistä selli sähköverkkoon
+
+adviser_deathrow_testchair_1            Siinäpä se sitten kai oli.  Meidän pitäisi kuitenkin testata teloitushuone ainakin kerran ennen käyttöä.
+adviser_deathrow_testchair_2            Kytken sen päälle muutamaksi sekunniksi, vain varmistaakseni että kaikki on OK.
+adviser_deathrow_testchair_3            No, sepäs sihahti.  Näyttää siltä että ylikuormitimme sähköverkon ja poltimme sulakkeen virtalähteessä.  Koko vankila on pimeänä.
+adviser_deathrow_testchair_4            Tarvitsemme lisää virtaa jotta järjestelmämme kestää sähkötuolin luoman virtapiikin.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   Ensin täytyy kytkeä virta takaisin päälle. Se tapahtuu kahdessa vaiheessa:
+adviser_deathrow_testchair_5b           Kytke virtalähde päälle klikkaamalla sitä ja valitsemalla avautuvasta valikosta Kytke päälle.
+adviser_deathrow_testchair_6            Rakenna sitten vielä kolme kondensaattoria, jotta kapasiteettimme kestää sähkötuolin käyttöä.
+adviser_deathrow_testchair_7            Kun olet tehnyt kaiken sen, testaa sähkötuolia vielä kerran klikkaamalla sitä ja valitsemalla avautuvasta valikosta Kytke päälle.
+
+objective_deathrow_poweron              Kytke sähköt päälle (Klikkaa virtalähettä ja valitse valikosta Kytke päälle)
+objective_deathrow_expandpower          Laajenna kapasiteettia 3 uudella kondensaattorilla
+objective_deathrow_chairworking         Testaa tuolia uudestaan (klikkaa sitä ja valitse Kytke päälle)
+
+adviser_deathrow_execution_1            Hyvää työtä.  Luulenpa että olemme työmme tehneet.
+adviser_deathrow_execution_2            Mitä tapahtuu seuraavaksi ei ole vaikutusvaltamme alla.  Teimme ammattimaista jälkeä, ja se on tärkeää alallamme.
+adviser_deathrow_execution_3            Yritä olla miettimättä tulevaa.
+
+adviser_deathrow_setupexecution1        On aika, Edward. 
+adviser_deathrow_setupexecution2        Teit oikein, vaikka tämä maailma ei siitä tule sinulle antamaan anteeksi.
+adviser_deathrow_setupexecution3        Olet kohta Jumalan luona, ja Hän tuomitsee sinut.
+
+adviser_deathrow_setupexecution4        Edward Romsey.  Olette syyllistynyt kahteen ensimmäisen asteen murhaan.
+adviser_deathrow_setupexecution5        Teidät on tuomittu kuolemaan.
+adviser_deathrow_setupexecution6        Onko teillä mitään sanottavaa?
+adviser_deathrow_setupexecution7        Susan...
+adviser_deathrow_setupexecution8        Olen pahoillani.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 Edellisen vankilan myynti
+finance_cost_equiptazer                 Varuste: Sähkölamautin
+finance_cost_equipbodyarmour            Varuste: Suojukset
+finance_cost_exports                    Viennit
+finance_cost_foundations                Rakennuksen perustukset
+finance_cost_cashflow                   Rahavirta
+finance_cost_bankloan                   Pankkilaina
+finance_cost_bankloan_repayment         Lainan takaisinmaksu
+finance_cost_sharesale                  Osakkeen myynti
+finance_cost_sharepurchase              Osakkeen osto
+finance_cost_grantadvance               Apurahan etumaksu
+finance_cost_grantcompletion            Apurahan palkkio
+finance_cost_reformprogram              Sopeuttamissessio
+finance_cost_repair                     Korjaa
+finance_cost_sellobject                 Myy esine
+finance_cost_landpurchase               Maan osto
+finance_cost_prisonerintake             Vankien sisäänotto
+finance_cost_grantcancellation          Perumiskulut
+finance_cost_grantrefund                 - Takaisinmaksu: *X
+finance_cost_grantfine                   - Sakko: *X
+finance_cost_executionfine              Teloituksen virhesakko
+finance_cost_executioncompensation      Teloituskorvaus
+finance_cost_shopintake                 Kaupan tulot
+finance_cost_prisonerwages              Vankien palkat
+finance_cost_fine                       Sakko
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ...
+clock_add_hour                          +
+clock_am                                am
+clock_pm                                pm
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  Virtapiikki ylikuumensi generaattorin ja se syttyi tuleen!
+event_powerstationfire_x                Virtapiikki ylikuormitti generaattoria ja se räjähti!
+event_powerstationfirelarge             Virtapiikki ylikuumensi generaattorin ja se syttyi tuleen!
+event_powerstationfirelarge_x           Virtapiikki ylikuormitti generaattoria ja se räjähti!
+event_kitchenfire                       Keittiössä on syttynyt tulipalo!
+event_waterpipeburst                    Vesiputki on haljennut ja alueelle tulvii vettä. Korjaa se ennen kuin tuhoista tulee liian laajoja.
+event_bulkintake                        Läheisessä vankilassa sattunut onnettomuus on tehnyt osasta laitosta käyttökelvottoman. Meidän on pakko siirtää vangit sieltä sinun vankilaasi, sillä lähellä ei ole muita sopivia paikkoja. Vangit saapuvat pian.
+event_workshopaccident                  Vanki on loukkaantunut vakavasti työpajaonnettomuudessa eikä häntä voi siirtää! Lähetä pian lääkäri paikalle!
+event_subsidence                        Maan vajoaminen on tuhonnut osan ulkomuuriamme. Sinun pitäisi korjauttaa se välittömästi!
+event_earthquake                        Paikallinen maanjäristys on romahduttanut osan vankilaa!
+event_virus                             Useat vangit ovat ilmoittautuneet sairaiksi. Kannattaa ehkä tunnistaa ja eristää sairastuneet, ettei tauti leviä.
+event_virus_x                           Useat vangit ovat ilmoittautuneet sairaiksi, ja oireet vaikuttavat melko vakavilta. Kannattaa ehkä eristää sairastuneet ja hoitaa heidät kuntoon ennen kuin tauti leviää liikaa.
+
+event_massassassination_1               Usean liittovaltion todistajan henkilöllisyys on paljastunut ja osa heistä on vankeina vankilassamme.
+event_massassassination_2               Heistä on luvattu tapporaha, mutta tarvitsemme heidät elävinä. Sinun on tunnistettava nämä vangit ja pidettävä heidät kunnossa oikeuteen asti.
+event_massassassination_3_x             Saimme tämän tiedon myöhään, joten sinulla ei ole kovin paljon aikaa ennen kuin tappajat iskevät.
+
+event_tvremovaldemand_1                 Media on aloittanut kampanjoinnin vangeille suotavista mukavuuksista ja se aiheuttaa paljon ongelmia minulle.
+event_tvremovaldemand_2                 Hyväksyn lain, joka kieltää televisiot vankiloiden yleistiloissa, joten sinun on poistettava kaikki televisiot yleistiloistasi tai saat sakon. Sinulla on 6 tuntia aikaa.
+event_tvremovaldemand_fine              Et poistanut televisioita yleistiloistasi, kuten laki vaatii. Sait sakon ja sakkoja tulee lisääkin, kunnes noudatat lakia.
+event_tvremovaldemand_complete          Media on siirtynyt muihin aiheisiin ja yleistilojen televisiot kieltävä laki on kumottu. Voit asentaa ne takaisin jos haluat.
+
+event_weightsremovaldemand_1            Media on aloittanut kampanjoinnin vangeille suotavista mukavuuksista ja se aiheuttaa paljon ongelmia minulle.
+event_weightsremovaldemand_2            Hyväksyn lain, joka kieltää kuntoilulaitteet vankiloiden pihoilla, joten sinun on poistettava kaikki painonnostopenkit pihoiltasi tai saat sakon. Sinulla on 6 tuntia aikaa.
+event_weightsremovaldemand_fine         Et poistanut painonnostopenkkejä pihoiltasi, kuten laki vaatii. Sait sakon ja sakkoja tulee lisääkin, kunnes noudatat lakia.
+event_weightsremovaldemand_complete     Media on siirtynyt muihin aiheisiin ja pihojen painonnostopenkit kieltävä laki on kumottu. Voit asentaa ne takaisin jos haluat.
+
+event_lessfooddemand_1                  Johtokunta on päättänyt kokeilla muutamaa kulunsäästökeinoa laitoksissamme, ja sinun vankilasi on yksi niistä.
+event_lessfooddemand_2                  Sinun on laskettava aterioidesi kokoa ja vaihtelevuutta alhaiseksi, jotta näemme miten se vaikuttaa kokonaisbudjettiin.
+event_lessfooddemand_fine               Koska päätit olla soveltamatta uusia ruokakäytäntöjä kuten pyysimme, otamme potentiaaliset säästöt suoraan varoistasi. Jatkamme tätä kunnes teet kuten pyysimme.
+event_lessfooddemand_complete           Ruokabudjettikokeilu on ohi mutta tulokset eivät ole ratkaisevia. Voit asettaa ruokakäytäntösi millaiseksi haluat.
+
+event_removevisitationdemand_1          Toisessa vankilassa sattunut tapaus toi esiin mahdolliset ongelmat perheenjäsenten vierailuihin liittyvissä turvatarkistuksissa.
+event_removevisitationdemand_2          Kaikki vierailut on keskeytettävä kunnes prosessit on kunnolla arvioitu. Sinulla on 12 tuntia aikaa poistaa kaikki vierailuhuoneet vankilastasi.
+event_removevisitationdemand_fine       Et poistanut vierailuhuoneita vankilastasi tämänhetkisistä turvallisuusongelmista huolimatta. Sait sakon ja sakkoja tulee lisääkin, kunnes noudatat kehotusta.
+event_removevisitationdemand_complete   Vierailuprosessin turvallisuusriskit on nyt arvioitu ja voit palauttaa vierailuhuoneet vankilaasi, jos haluat.
+
+event_lessworkdemand_1                  Sain juuri kuulla, että vangit eivät ole tyytyväisiä päivittäiseen työaikaansa ja aikovat ryhtyä hankaliksi, ellei työaikaa vähennetä.
+event_lessworkdemand_2                  Vartija kuuli jonkun sanovan, että jos vankien täytyy tehdä töitä yli 2 tuntia päivässä, he "repivät paikan palasiksi".
+event_lessworkdemand_ignore             Vaikuttaa siltä, että vangit ovat luovuttaneet ja rauhoittuneet. He eivät ole tyytyväisiä, mutta on hyvä näyttää heille kuka täällä on pomo.
+event_lessworkdemand_complete                Vangit ovat taas hyväksyneet työaikansa - ehkä he kokivat pari viimeistä päivää jonkinlaisena lomana. Voimme laittaa heidät taas töihin ilman ongelmia.
+
+event_moresleepdemand_1                 Saimme valituksia, että vangit eivät saa nukkua tarpeeksi ja alkavat olla hyvin ärtyneitä sen takia.
+event_moresleepdemand_2                 He sanoivat, että jos eivät saa nukkua vähintään 7 tuntia joka yö, he alkavat rettelöidä.
+event_moresleepdemand_ignore            Vaikuttaa siltä, että vangeilta on vihdoinkin puhti poissa eivätkä he enää jaksa protetoida unen vähyyttä. Taitavat olla liian väsyneitä.
+event_moresleepdemand_complete          Vankien unirytmistä syntynyt ongelma on lopultakin ohi, joten voit muuttaa aikataulua ongelmitta.
+
+event_morefreetimedemand_1              Vangit ovat ilmeisesti tyytymättömiä päivittäisen vapaa-aikansa vähyyteen.
+event_morefreetimedemand_2              Vartijat ovat kuulleet huhuja, että jos asiaan ei tule pian muutosta, vangit alkavat hajottaa paikkoja.
+event_morefreetimedemand_ignore         Vangit ovat rauhoittuneet ja lakanneet riehumasta vapaa-aikansa vähyyden takia. Ehkäpä he tajusivat, että vapaa-aikaa on entistä vähemmän, jos he ovat jatkuvasti eristyssellissä.
+event_morefreetimedemand_complete       Vankien vaatimuksiin vapaa-ajan lisäämisestä on suostuttu tarpeeksi kauan, joten voit taas muuttaa aikatauluja, jos haluat.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Vankeja tulossa
+objective_tvremovaldemand               Poista televisiot yleistiloista
+objective_tvremovaldemand_child         Varmista, ettei yleistiloissa ole televisioita
+objective_weightsremovaldemand          Poista painonnostopenkit pihoilta
+objective_weightsremovaldemand_child    Varmista, ettei pihoilla ole painonnostopenkkejä
+objective_lessfooddemand                Laske aterioiden koko ja vaihtelevuus alhaiseksi
+objective_lessfooddemand_child          Muuta vankien aterioiden koko- ja vaihtelevuuskäytännöt alhaisiksi
+objective_removevisitationdemand        Poista kaikki vierailuhuoneet
+objective_removevisitationdemand_child  Varmista, ettei vankilassa ole vierailuhuoneita, kunnes turvallisuusarviointi on suoritettu
+objective_virus                         Virusepidemia
+objective_virus_child                   Sairastuneita vankeja yhteensä:
+objective_massassassination             Liittovaltion todistaja\nOikeudenkäyntipäivä
+objective_massassassination_child       Elossa olevia todistajia:
+objective_lessworkdemand                Vangit vaativat vähemmän työtä
+objective_lessworkdemand_child          Laske työaika enintään 2 tuntiin päivässä
+objective_moresleepdemand               Anna vankien nukkua enemmän
+objective_moresleepdemand_child         Lisää nukkumisaikaa vähintään 7 tuntiin päivässä
+objective_morefreetimedemand            Anna vangeille enemmän vapaa-aikaa
+objective_morefreetimedemand_child      Lisää vapaa-aikaa vähintään 6 tuntiin päivässä
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     Vankilanjohtaja
+warden_default_desc                     Maailman tasapainoisin ihminen. Hän tekee työnsä eikä mitään muuta. Häntä sanotaan ihan vain Johtajaksi.
+warden_lobbyist_name                    Lobbari
+warden_lobbyist_desc                    Lobbarilla on kavereita korkeissa asemissa ja hän varmistaa, että saa helpoimmat vangit itselleen.\n\n - Puolittaa sen todennäköisyyden, että vanki on väkivaltainen, tappava, epävakaa, kuolettava tai tappelija.
+warden_lobbyist_desc_short              - Puolittaa sen todennäköisyyden, että vanki on väkivaltainen, tappava, epävakaa, kuolettava tai tappelija.E2790
+warden_fear_name                        Rita
+warden_fear_desc                        Rita on armoton ja pelottava. Maineensa mukaan hän johtaa vankiloitaan pelolla. Huhut mukana kulkevasta ruoskasta voivat olla liioittelua.\n\n - Puolittaa sen todennäköisyyden, että vanki on stoalainen tai peloton\n - Vangit nujerretaan kaksinkertaisella nopeudella
+warden_fear_desc_short                  - Puolittaa sen todennäköisyyden, että vanki on stoalainen tai peloton\n - Vangit nujerretaan kaksinkertaisella nopeudella
+warden_tunnels_name                     J.W. Periwinkle
+warden_tunnels_desc                     Johtaja Periwinkle sanoo olleensa pioneeri sodassa. Hän ei koskaan sano missä sodassa, mutta hän todellakin tietää kaiken tunneleiden kaivamisesta.\n\n - Vahtikoirilla on 50 % mahdollisuus kaivaa esiin löytämänsä tunnelit kokonaan
+warden_tunnels_desc_short               - Vahtikoirilla on 50 % mahdollisuus kaivaa esiin löytämänsä tunnelit kokonaan
+warden_calming_name                     Rauhoittaja
+warden_calming_desc                     Rauhoittajalla on harvinainen taito pystyä rauhoittamaan väkivaltaisimmatkin tyypit. Jo hänen kanssaan samassa huoneessa oleminen tekee ihmisistä rauhallisia ja yhteistyöhaluisia.\n\n - Laskee vankilasi yleistä lämpötilaa, jolloin vangit eivät rettelöi niin herkästi
+warden_calming_desc_short               - Laskee vankilasi yleistä lämpötilaa, jolloin vangit eivät rettelöi niin herkästi
+warden_contraband_name                  Saphara Acknova
+warden_contraband_desc                  Saphara Acknovalla on tahraton maine ja putipuhdas rekisteri. Mutta kulissien takana tehdyt hämärät diilit ja pöydän alta annetut lahjukset ovat peruskauraa hänelle.\n\n - Saa osansa kaikkien löydettyjen kieltotavaroiden jälleenmyyntiarvosta\n - Vangit, joilta kieltotavaraa löytyy, joutuvat maksamaan "sakkoa" suoraan säästöistään
+warden_contraband_desc_short            - Saa osansa kaikkien löydettyjen kieltotavaroiden jälleenmyyntiarvosta\n - Vangit, joilta kieltotavaraa löytyy, joutuvat maksamaan "sakkoa" suoraan säästöistään
+buildtoolbar_wardenlobbyist             Lobbari
+buildtoolbar_tooltip_wardenlobbyist     Saat vähemmän väkivaltaisia vankeja vankilaasi
+interfacetopbar_tension_calmingwarden   - Vankilanjohtajallasi on rauhoittava vaikutus vankeihin
+warden_consultingfee                    Konsultointipalkkio
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Lahjominen
+crime_aggravatedburglary          Törkeä murtovarkaus
+crime_burglary                    Murtovarkaus
+crime_arson                       Tuhopoltto
+crime_criminaldamage              Vahingon tuottamus
+crime_vandalism                   Vandalismi
+crime_violentdisorder             Väkivaltainen käytös
+crime_possession                  Hallussapito
+crime_possessionintenttosupply    Hallussapito myyntiaikein
+crime_forgery                     Väärentäminen
+crime_fraud                       Petos
+crime_counterfeightingcurrency    Rahan väärentäminen
+crime_falseaccounting             Kirjanpidon väärentäminen
+crime_insidertrading              Sisäpiirikauppojen tekeminen
+crime_moneylaundering             Rahanpesu
+crime_aggravatedvehicletheft      Törkeä ajoneuvovarkaus
+crime_joyriding                   Huviajelu
+crime_dangerousdriving            Liikenteen vaarantaminen
+crime_deathbydangerousdriving     Liikennekuoleman aiheuttaminen
+crime_drivingunderinfluence       Rattijuoppous
+crime_kidnapping                  Kidnappaus
+crime_falseimprisonment           Vapaudenriisto
+crime_torture                     Kiduttaminen
+crime_assault                     Pahoinpitely
+crime_aggravatedassault           Törkeä pahoinpitely
+crime_assaultinganofficer         Poliisin pahoinpitely
+crime_greviousbodilyharm          Vakavan ruumiinvamman tuottaminen
+crime_murder                      Murha
+crime_attemptedmurder             Murhayritys
+crime_manslaughter                Tappo
+crime_pervertingcourseofjustice   Oikeuden estäminen
+crime_contemptofcourt             Oikeuden halventaminen
+crime_drunkdisorderlybehaviour    Humalainen häiriökäytös
+crime_escapingfromlawfulcustody   Pidätyksestä pakeneminen
+crime_perjury                     Väärä vala
+crime_rioting                     Mellakointi
+crime_espionage                   Vakoilu
+crime_violentdisorder             Väkivaltainen käytös
+crime_trafficking                 Laiton kauppa
+crime_armedrobbery                Aseellinen ryöstö
+crime_robbery                     Ryöstö
+crime_carjacking                  Autosieppaus
+crime_blackmail                   Kiristäminen
+crime_handlingstolengoods         Varastetun tavaran hallussapito
+crime_videogamepiracy             Videopelipiratismi
+crime_indievideogamepiracy        Indie-videopelipiratismi
+crime_shoplifting                 Myymälävarkaus
+crime_pickpocketing               Taskuvarkaus
+crime_cartheft                    Autovarkaus
+crime_rape                        Raiskaus
+crime_grossindecency              Törkeä siveettömyys
+crime_voyeurism                   Tirkistely

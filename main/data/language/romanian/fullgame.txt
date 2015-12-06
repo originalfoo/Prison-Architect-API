@@ -1,0 +1,883 @@
+﻿
+campaigncutscene_tooltip 				(Dă click pentru a începe următorul capitol din poveste)
+campaignchapter_locked                  (Indisponibil)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        Un incendiu imens a distrus bucătăria și cantina închisorii. Dacă nu găsim o metodă să hrănim prizonierii rapid, o să avem o revoltă pe cap. \nRezolvă problema cu mâncarea și apoi reconstruiește bucătăria și cantina.Un incendiu imens a distrus bucătăria și cantina închisorii. Dacă nu găsim o metodă să hrănim prizonierii rapid, o să avem o revoltă pe cap. \nRezolvă problema cu mâncarea și apoi reconstruiește bucătăria și cantina.Un incendiu imens a distrus bucătăria și cantina închisorii. Dacă nu găsim o metodă să hrănim prizonierii rapid, o să avem o revoltă pe cap. \nRezolvă problema cu mâncarea și apoi reconstruiește bucătăria și cantina.
+
+adviser_food_fire_1                     E pe cale să aibă loc o criză la una din celelalte închisori.
+adviser_food_fire_2                     Cineva a pornit un incendiu la bucătăria închisorii. Este prioritar să stingi focul, pentru a preveni orice victime posibile sau alte pagube materiale.
+adviser_food_fire_3                     Folosește butonul de “Servicii de Urgență”, din bara utilitară, să chemi pompierii.
+adviser_food_fire_4                     Ocupă-te de incendiul ăsta înainte să facă toată închisoarea scrum!
+
+objective_food_callfirebrigade          Cheamă pompierii
+objective_food_extinguishflames         Stinge flăcările
+
+objective_food_callfirebrigade_description 	Pentru a chema pompierii, apasă pe butonul “Urgențe” din bara utilitară și apoi apasă pe “Pompieri”
+objective_food_extinguishflames_description  Când ai pompieri selectați, poți să le direcționezi furtunurile manual prin a ține apăsat pe tasta H. Folosește această metodă pentru a concentra furtunurile pe centrul flăcărilor. \n\nÎncearcă să ții pompierii cât mai aproape de foc – asta îi va face mai eficienți.
+
+adviser_food_savedon1                   Dumnezeule! Avem un supraviețuitor printre dărămături.
+adviser_food_savedon2					Iisuse pe cârje, e Don Palermo! Dintre toți prizonierii...tocmai șeful nostru mafiot a scăpat.
+adviser_food_donintro2					Vestea proastă pentru el este că în urma deducerilor de buget, a trebuit să dăm afară toți doctorii noștri permanenți.
+adviser_food_donintro3				 	Vestea bună e că infirmeria este încă utilizabilă. Angajează câțiva doctori și o să se ocupe ei de Don Palermo cât rezolvăm noi situația.
+
+adviser_food_afterfire3                 Trebuie să facem ordine pe aici.
+adviser_food_afterfire4                 Folosește buldozerul pentru a demola ce a mai rămas din cantină și bucătărie. Trebuie să elimini toate rămășițele.
+adviser_food_afterfire6                 Desemnează o Ghenă adiacentă cu strada. Muncitorii noștri o să arunce resturile acolo, pentru a fi ridicate de camioanele de gunoi.
+adviser_food_dismissfiremen1			În sfârșit! Acum ca și-au terminat treaba, poți să trimiți pompierii acasă.
+adviser_food_gamespeed                  Va dura ceva să demolăm acele clădiri. Poți accelera timpul folosind butoanele de sub ceas.
+
+adviser_food_todolist1					Am adăugat mai multe detalii la fiecare obiectiv în parte, din lista ta de treburi.
+adviser_food_todolist2					Oricând ești nesigur despre ce trebuie să faci, mișcă cursorul peste obiectivul respectiv și vei vedea instrucțiuni adiționale.
+
+objective_food_buildmedicalward_doctors Angajează câțiva doctori pentru infirmerie
+
+objective_food_DismissAllFiremen		Trimite pompierii acasă
+objective_food_cleararea                Scapă de ramășițele arse
+objective_food_buildgarbagearea         Desemnează o Ghenă
+objective_food_clearcanteen             Scapă de rămășițele cantinei
+objective_food_clearkitchen             Scapă de rămășițele bucătăriei
+objective_food_hiremoreworkmen			(OPȚIONAL) Angajează mai mulți muncitori pentru a accelera demolarea
+
+objective_food_dismissallfiremen_description 	Pentru a trimite un echipaj de urgență acasă, găsește iconița lor în colțul din dreapta-sus al ecranului și apasă pe X-ul roșu.
+objective_food_cleararea_description 	Folosește buldozerul pentru a demola clădiri. Buldozerul poate fi găsită la categoria “Fundații” în bara de unelte principală.
+
+adviser_food_familyvisit1				Bună treabă.
+adviser_food_familyvisit2 				Hai să vedem ce mai face victima.
+
+adviser_food_troublesoon1				Fară mâncare, acești prizonieri vor zdrobii zidurile astea în câteva zile.
+adviser_food_troublesoon2 				Trebuie să securizăm închisoarea înainte să ne trezim cu o răscoală pe cap.
+adviser_food_troublesoon3 				Acesta este ecranul de Mobilizări. De aici vei putea mobiliza toți paznicii tăi în mod tactic.
+adviser_food_troublesoon4 				Mobilizează un grup de paznici în fiecare bloc de celule și fiecare cameră. Asignează 10 paznici la obiective în jurul închisorii. Ar trebui să fie suficientă dovadă de foță pentru moment.
+adviser_food_troublesoon5				Vreau și o patrulă în curtea interioară, unde vom construi noile facilități.
+adviser_food_troublesoon6				Încă ceva. Datorită faptului că nu mai avem cantină, câteva lăzi de mâncare s-au stricat. Scapă de ele până nu ne alegem cu o infestație.
+
+objective_food_deployguards				Mobilizează 10 paznici prin închisoare
+objective_food_deploypatrol				Asignează 2 paznici să patruleze curtea interioară
+
+objective_food_deployguards_description		Pentru a mobiliza paznici, accesează ecranul de Mobilizări, apoi dă click  într-un sector pentru a crea un Obiectiv. Un paznic va fi desemnat automat la acel obiectiv.
+objective_food_deploypatrol_description		Accesează ecranul de Mobilizări, apoi alege Patrule. Dă click si trage cu mouseul pentru a desena rutele patrulelor. \n\nPentru a asigna paznici unei patrule, dă click din nou pe orice pătrat dintr-o patrulă.
+
+objective_food_dumpfood 				Scapă de mâncarea stricată
+objective_food_dumpfood_description		Mâncarea stricată poate fi găsită in dulapul de Depozitare, in secțiunea de Nord Est a închisorii.\n\nPentru a arunca un obiect, dă click pe el și apoi dă click pe 'Aruncă' în meniul afișat.
+
+adviser_food_doncantspeak1				...
+adviser_food_doncantspeak2				îch ... ...
+
+adviser_food_doninfirmary0              Cred că încearcă să spună ceva.
+adviser_food_doninfirmary1				Bă labagiilor! Care din voi a făcut asta?
+adviser_food_doninfirmary2 				Nimeni nu ți-a făcut asta, tati. A fost un accident.
+adviser_food_doninfirmary3 				Taci in pula mea și ascultați bine.
+adviser_food_doninfirmary4 				Dacă aș ști care din voi doi a pornit focul, v-aș rupe gâtul!
+adviser_food_doninfirmary5 				Dar mi-a sunat ceasul. Voi muri în patul ăsta jegos.
+adviser_food_doninfirmary6 				Iar cineva trebuie să se ocupe de afacerea familiei. Numele Palermo este tot ce ne-a rămas. Așa că făceți lucrul onorabil, căcănarilor. Capiche?
+adviser_food_doninfirmary7				Știm ce să facem, tati.
+adviser_food_donchat13					Nu s-a terminat, Nico.
+adviser_food_donchat14					Să-ți păzești, în pula mea, spatele.
+
+adviser_food_founddrugs1				Nu vei crede ce-am aflat.
+adviser_food_founddrugs2				Oamenii noștri aruncau niște mâncare veche, când au descoperit pachete de narcotice și sticle de alcool ascunse în lăzi.
+adviser_food_founddrugs3				I-am suspectat pe cei din familia Palermo de contrabandă, de ceva vreme, dar nu am reușit să determinăm cum o fac.
+adviser_food_founddrugs4 				Uneori nu plouă, ci curge cu găleata.
+
+adviser_food_rebuild1                   Încă avem multă treabă de făcut. Trebuie să ne concentrăm pe înlocuirea bucătăriei și a cantinei.
+adviser_food_rebuild2                   Mai întâi, trebuie să reconstruim bucătăria. Va trebui să instalezi ceva echipament nou și să angajezi niște bucătari.
+adviser_food_rebuild3					Apoi, contruiește o cantină nouă.
+adviser_food_rebuild4					După ce termini, bucătarii vor incepe automat să prepare mâncare pentru întreaga închisoare.
+adviser_food_rebuild5                   Dacă nu ești sigur ce trebuie să faci, dute pe obiectiv în lista de făcut pentru a vedea niște indicii.
+
+adviser_food_fightoutro1  				Fantastic! Se pare că familia Palermo rămâne fără membrii.
+
+adviser_food_sprinklerintro1 			Narcoticele ar putea să devină o problemă serioasă, dar nu avem timp să ne ocupăm de ele acum.
+adviser_food_sprinklerintro2 			Bucătăria și cantina au fost puse în funcțiune. Bucătarii noștri vor începe să prepare mâncare pentru toată lumea. Lucrurile ar trebui să se mai liniștească puțin.
+adviser_food_sprinklers1                Mă îngrijorează că incendiul a fost, în mod sigur, intenționat. Nu vrem să se repete.
+adviser_food_sprinklers2 				Instalează un sistem stropitor deasupra noii bucătării si cantine, iar apoi, conectează-l la conducta principală de apă.
+
+adviser_food_explainneeds1 				Toți prizonierii au nevoi. Acele nevoi vor avea un impact direct asupra comportamentului lor. Momentan, tot scandalul e provocat de faptul că toată lumea moare de foame.
+adviser_food_explainneeds2 				Nevoia de mâncare are cea mai înaltă prioritate, e foarte riscant să o ignori. Doar câteva mese lipsă şi ne vom trezi cu o revoltă.
+adviser_food_explainneeds3 				Poţi monitoriza toate nevoile prizonierilor din Raportul De Nevoi, care poate fi accesat prin iconiţa de Rapoarte din colţul dreapta-jos al ecranului.
+adviser_food_explainneeds4				Acest raport conţine toate nevoile prizonierilor tăi la un loc. Culoarea Roşu semnifică faptul că mulţi prizonieri sunt nervoşi deoarece acea nevoie nu este îndeplinită.
+adviser_food_explainneeds5 				După cum era şi de aşteptat, categoria Mâncare e practic roşie pentru toată lumea. Dar aceşti prizonieri sunt şi foarte plictisiţi (este nevoie de divertisment), iar închisoarea este într-o stare destul de nasoală, ceea ce este reflectat în nevoile de Mediu şi Haine.
+adviser_food_explainneeds6				Ca arhitect al închisorii, este sarcina ta să decizi ce nevoi vor fi îndeplinite mai întâi. Ai putea să instalezi televizoare în celule să îi ţină pe oameni ocupaţi şi să angajezi nişte Oameni De Serviciu să facă curăţenie.
+adviser_food_explainneeds7				Sau ai putea să ignori toate nevoile prizonierilor şi să te bazezi pe forţă brută să îi ţii sub control.
+adviser_food_explainneeds8 				Te las pe tine să alegi.
+
+objective_food_needs 					(OPŢIONAL) Îndeplineşte nevoile prizonierilor
+objective_food_handlefoodneed 			(OPŢIONAL) Ocupă-te de nevoile de hrană ale prizonierilor
+objective_food_handleboredomneed		(OPŢIONAL) Ocupă-te de nevoile de divertisment ale prizonierilor
+objective_food_handleenvironmentneed	(OPŢIONAL) Ocupă-te de nevoile de mediu ale prizonierilor
+
+objective_food_needs_description 					Poţi monitoriza toate nevoile prizonierilor prin a da click pe Rapoarte (colţul dreapta-jos al ecranului), iar apoi pe Nevoi.\nPoţi să şi mişti cursorul peste un prizonier, pentru a vedea ce nevoi îl afectează.\n\nNevoile nu pot fi satisfăcute permanent – e o bătălie constantă.
+objective_food_handlefoodneed_description 			Bucătarii noştri vor prepara mâncare pentru toată lumea. Până la finalul următoarei perioade de masă, toţi prizonieri ar trebui să fie sătuli.
+objective_food_handleboredomneed_description 		Plictiseala poate fi eliminată eficient prin instalarea unui televizor în fiecare celulă sau prin construcţia unei camere de zi, în care să pui câteva telvizoare şi mese de biliard.\n\nPoți pune televizoare și în camerele comune precum Cantina.
+objective_food_handleenvironmentneed_description 	Angajează câțiva Oameni De Serviciu, iar ei vor curăţa treptat închisoarea.
+
+adviser_food_needssuccess1 				Ai demonstrat că eşti foarte atent la nevoile prizonierilor. Admirabil.
+adviser_food_needssuccess2 				Probabil că ai observat că singura plângere majoră care a mai rămas printre prizonieri este lipsa de haine curate.
+adviser_food_needssuccess3 				Dacă doreşti să rezolvi această problemă va trebui să începi un serviciu de curăţare, care va asigura gradual haine curate pentru toţi prizonierii.
+adviser_food_needssuccess4 				Construiește o spălătorie și angajează mai mulți oameni de serviciu pentru a asigura rufe curate prizonierilor.
+
+objective_food_laundry 					(OPŢIONAL) Curăță Hainele
+objective_food_buildlaundry 			(OPŢIONAL) Construiește o Spălătorie
+objective_food_hirejanitors             (OPŢIONAL) Angajează oameni de serviciu suficienți pentru spălătorie
+objective_food_handleclothingneed 		(OPŢIONAL) Ocupă-te de nevoile de haine ale prizonierilor
+
+objective_food_buildkitchen             Construiește o Bucătărie (aprox. 12M²)Construiește o Bucătărie (aprox. 12M²)Construiește o Bucătărie (aprox. 12M²)
+objective_food_buildkitchencookers      Instalează cel puțin patru aragazuri
+objective_food_buildkitchenfridges      Instalează cel puțin patru frigidere
+objective_food_buildkitchensink         Instalează o chiuvetă
+objective_food_buildkitchenbin	 		Pune un coș în Bucătărie
+objective_food_buildkitchenwatermains 	Conectează chiuveta la conductele de apă
+objective_food_buildkitchenfloor 		(OPŢIONAL) Îmbunătățește podeaua bucătăriei
+
+objective_food_buildkitchen_description		Va trebui să construiești Fundațiile mai intâi.
+objective_food_buildcanteen_description		Va trebui să construiești Fundațiile mai intâi.
+
+objective_Food_HireChefs				Angajează cel puțin 8 bucătari
+objective_food_CookMeals				(Automat) Prepară mese pentru toți prizonierii
+
+objective_food_buildcanteen             Construiește o Cantină (aprox. 20M²)Construiește o Cantină (aprox. 20M²)Construiește o Cantină (aprox. 20M²)
+objective_food_buildservingtables        Instalează două mese de servire
+objective_food_buildcanteentables       Instalează cel puțin șase mese
+objective_food_buildcanteenchairs       Instalează două bănci la fiecare masă
+objective_food_buildcanteenbin	 		Pune un coș în Cantină
+objective_food_buildcanteenfloor 		(OPȚIONAL) Îmbunătățește podeaua cantinei
+
+
+objective_food_buildsprinklers          Instalează un nou sistem stropitor
+objective_food_buildsprinklers1         Instalează câteva stropitoare in Bucătărie
+objective_food_buildsprinklers2         Instalează câteva stropitoare în Cantină
+objective_food_connectwater             Conectează stropitoarele din bucătărie la conductele de apă
+objective_food_connectwater2			Conectează stropitoarele din cantină la conductele de apă
+objective_food_feedprisoners            Completează o servire de cină prin hrănirea tuturor prizonierilor
+
+objective_food_buildkitchenwatermains_description   Țevile mari sunt pentru a muta cantități mari de apă sub presiune mare. Țevile mici sunt pentru a conecta obiecte individuale la sursa de apă.\n\nFolosește modul de vizualizare al UTILITĂȚILOR pentru a plasa țevi mari în clădirile tale. Apoi folosește țevile mici pentru a conecta pe cele mari la toate obiectele din jur ce au nevoie de o sursă de apă.
+objective_food_connectwater_description             Țevile mari sunt pentru a muta cantități mari de apă sub presiune mare. Țevile mici sunt pentru a conecta obiecte individuale la sursa de apă.\n\nFolosește modul de vizualizare al UTILITĂȚILOR pentru a plasa țevi mari în clădirile tale. Apoi folosește țevile mici pentru a conecta pe cele mari la toate obiectele din jur ce au nevoie de o sursă de apă.
+objective_food_connectwater2_description            Țevile mari sunt pentru a muta cantități mari de apă sub presiune mare. Țevile mici sunt pentru a conecta obiecte individuale la sursa de apă.\n\nFolosește modul de vizualizare al UTILITĂȚILOR pentru a plasa țevi mari în clădirile tale. Apoi folosește țevile mici pentru a conecta pe cele mari la toate obiectele din jur ce au nevoie de o sursă de apă.
+
+campaigncutscene_foodinfirmary			Infirmerie
+campaigncutscene_foodfamily             Familie
+campaigncutscene_foodfeud               Dispută
+campaigncutscene_foodregret				Regret
+campaigncutscene_foodsuccession 		Succesiune
+
+campaigncutscene_foodfamily_description		Cândva, familia Palermo trafica narcotice pe toată coasta de est a Americii. Descoperă povestea lui Don Palermo și a copiilor lui.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermo
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Capul uneia dintre cele mai temute familii mafiote de pe coasta de est.
+cutscene_foodfamily_palermo1			De decenii, familia Palermo a evitat FBI-ul.
+cutscene_foodfamily_palermo02			Anthony Palermo, fiul cel mare și moștenitorul Don-ului, conducea operațiunile de zi cu zi.
+cutscene_foodfamily_palermo03			Nico Tamoretti nu era un om bazat, dar a fost primit în afacerea familiei după ce a luat-o de soție pe Vitalia, singura fiică a Don-ului.
+cutscene_foodfamily_palermo04			Și în sfârșit, Sonny Palermo. Cel de-al doilea fiu al Don-ului. Guma de sub pantof. Temperamentul unui pitbull și nici măcar la fel de deștept ca unul.
+
+cutscene_foodfamily_palermo2 			Imperiul lor trafica narcotice din Maine până în Florida.
+cutscene_foodfamily_palermo3			Asta până când Anthony a fost prins în flagrant cu nevasta altcuiva.
+cutscene_foodfamily_palermo3b           Împușcat de către un soț gelos.
+cutscene_foodfamily_palermo4			Din păcate pentru familia lui, poliția a descoperit 12 kg de cocaina pură la locul faptei, în ghiozdanul lui Anthony.
+cutscene_foodfamily_palermo5			Dovezile i-au condus până în vârf.
+cutscene_foodfamily_palermo6			Întreg imperiul construit de familia Palermo, s-a destrămat peste noapte. FBI-ul avea suficiente dovezi să se asigure că vor putrezi în pușcărie.
+cutscene_foodfamily_palermo7			Asta ne aduce la Vitalia, singura fiică a Don-ului, singurul membru al familiei care nu se află după gratii.
+cutscene_foodfamily_palermo8			Nu știm prea multe despre ea, cu excepția faptului că a fost mereu ținută departe de afacerile familiei.
+cutscene_foodfamily_palermo9 			Dar e clar că cineva din afară a trimis drogurile alea.
+
+adviser_food_findalldrugs1				Problema cu mâncarea a fost rezolvată. Acum că sunt hrăniți din nou, prizonierii sunt mult mai fericiți.
+
+adviser_food_findalldrugs2				Poți paria că familia Palermo vindea narcotice fiecărui deținut de aici.
+adviser_food_findalldrugs3				Paznicii mi-au zis că mulți prizonieri au intrat în sevraj de când a avut loc incendiul.
+adviser_food_findalldrugs4				Vreau să percheziționezi fiecare prizonier și fiecare celulă. Pariez că vom găsi droguri Palermo prin toată închisoarea.
+
+objective_food_findalldrugs					Găsește toate drogurile din închisoare
+objective_food_findalldrugs_description 	Pentru a căuta în fiecare bloc de celule, dă mai întâi click pe un prizonier din respectivul bloc, apoi pe 'Percheziționează Blocul'. Sau folosește opțiunea de Percheziție Generală de pe bara utilitară din partea de jos a ecranului.
+
+objective_food_hiremoreguards 			(OPȚIONAL) Angajează mai mulți paznici pentru a accelera căutările
+
+adviser_food_drugsfound1				Din fericire, nu e atât de rău pe cât ar putea fi, dar avem cazuri de dependență de droguri și alcool.
+adviser_food_drugsfound2				Trebuie să îi ajutăm pe oamenii aceștia. Este singura metodă prin care le putem limita activitățile și să le ameliorăm simptomele.
+adviser_food_drugsfound2b 				Pornește un program de dezintoxicare în infirmerie. Doctorii noștri le vor administra dependenților un substitut chimical care să le scadă nevoia de droguri.
+adviser_food_drugsfound3				Pentru alcoolici nu avem o astfel de substanță, așa că propun să pornim un program de terapie în grup.
+adviser_food_drugsfound4				Va fi necesară o nouă Cameră De Zi în care să ținem ședințele.
+adviser_food_drugsfound5				Pentru a începe Programe noi, du-te la 'Rapoarte' în dreapta jos a ecranului, și apoi la 'Programe'.
+
+objective_food_drugtreatment			Pornește un program de dezintoxicare
+objective_food_cureaddictions			(OPȚIONAL) Apucă-te să tratezi prizonierii de dependența de droguri
+objective_food_alcoholprogram			Pornește un program de terapie în grup pentru alcoolici
+objective_Food_HelpAlcoholics			(OPȚIONAL) Apucă-te să ajuți alcoolicii să scape de dependență
+objective_food_buildcommonroom 			Construiește o cameră de zi
+objective_food_buildcommonroomchairs	Creează un loc pentru ședințe compus din 8 scaune
+
+objective_food_drugtreatment_description 	Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. Programul se numește 'Tratament Farmacologic Pentru Dependenți De Droguri' și se desfășoară în infirmerie \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.
+objective_food_alcoholprogram_description 	Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.Dă click pe 'Rapoarte' în dreapta jos a ecranului, și apoi alege 'Programe'. \n\nNb va fi necesar măcar două ore de Muncă programată în Regim, pentru a permite prizonierilor să participe.
+
+cutscene_food_feudintro1 				A avut loc un incident la dușuri. Avem un cadavru.
+cutscene_food_feudintro2 				Defapt, sunt două cadavre. Norocul nostru că avem camere acolo.
+cutscene_food_feudintro3 				Când ai un moment liber, dă click pe Polaroidul din Dușuri și vom arunca o privire peste ce s-a întâmplat.
+
+objective_food_triggerfightscene		Când ești gata, dă click pe polaroidul din Dușuri pentru a continua.
+objective_food_triggerfightscene_description 	Dușurile sunt in colțul de Nord Vest al închisorii.
+
+cutscene_food_feud1b                    Singur. Perfect.
+cutscene_food_feud1                     Ți-a luat ceva.
+cutscene_food_feud2                     Termină cu balivernele. N-am înțeles niciodată ce a văzut curva de soră-mea la tine.
+cutscene_food_feud2b 					Era ideea ei? Să scape de boșorog?
+cutscene_food_feud3                     Asta crezi, mă umflatule? Nu am vrut să fie rănit. Îl iubesc ca pe un tată.
+cutscene_food_feud3b 					M-am săturat să tot văd familia asta târâtă prin noroi din cauza prostiei tale.
+cutscene_food_feud4                     Focul era menit pentru tine.
+cutscene_food_feud5                     Atunci consideră asta răsplata ta.
+cutscene_food_feud6                     Nu fă pe sfântul. Amândoi știm că plănuiai să scapi de mine într-o zi.
+cutscene_food_feud7                     Da, mereu ai fost isteț, Nico. Uite ce bine ți-a făcut. Nu-ți face griji, nu o să doară.
+cutscene_food_feud8                     Ți-am zis să-ți păzești spatele.
+cutscene_food_feud8b                    euuegggghhhh!!!!!.....
+cutscene_food_feud8c                    AAARRRGGRGGGGGG!!!!
+cutscene_food_feud8d                    Ai făcut cunoștință cu Franky până acum? Are un talent unic când vine vorba de corzi de pian.
+cutscene_food_feud8e                    Sincer, după ce termină el cu tine, o să creadă lumea că a fost o sinucidere.
+cutscene_food_feud9                     Nu s-a terminat, Nico.
+cutscene_food_feud9b                    Cred că glumești.
+
+cutscene_food_successionintro			Foarte bine. Am fost de mare ajutor aici, iar închisoarea e din nou sub control.
+cutscene_food_successionintro2 			Poți rămâne aici să îmbunătățești închisoarea sau putem merge spre următoarea închisoare.
+cutscene_food_successionintro3 			Când ești gata să continui, dă click pe Polaroidul din Infirmerie.
+
+objective_food_runending 				Când ești gata, dă click pe polaroidul din Infirmerie pentru a continua.
+objective_food_runending_description	Infirmeria este pe marginea din sud-estul închisorii.
+
+cutscene_food_succession1				Vitalia!
+cutscene_food_succession1b				...?
+cutscene_food_succession2				Obrăjori!
+cutscene_food_succession3				Îmi pare rău. Am dat-o-n bară.
+cutscene_food_succession4				Lasă acum.
+cutscene_food_succession5				Au zis că tata nu va mai rezista până la șfârșitul săptămânii.
+cutscene_food_succession6				Știu. Am venit să îmi iau rămas bun.
+cutscene_food_succession7				Știi, am putea lăsa totul baltă chiar acum. Tu și cu mine. Viața asta de căcat, ne-a luat totul.
+cutscene_food_succession8				Mi-ar plăcea asta.
+cutscene_food_succession9				Dar nu pot. Sunt o Palermo, Nico.
+cutscene_food_succession10				Acum că tata nu mai e, și un nimeni ca tine i-a luat locul, toți dușmanii noștri ar putea să ne calce în picioare.
+cutscene_food_succession11 				Nu pot permite asta. Trebuie să le arăt că încă se află o Palermo pe tron.
+cutscene_food_succession12				Păi și ce pula mea? Ai venit să mă omori? După ce am trecut prin atâtea?
+cutscene_food_succession13				Nico, Nico, Nico. Ești atât de demodat.
+cutscene_food_succession14 				Nu, iubitule. Divorțez.
+cutscene_food_succession15				Pula mea! Faci mișto de mine? Sunt un om mort în pușcărie, fără numele de familie în spate.
+cutscene_food_succession16				Știu, iubitule. Dar asta nu mai e problema mea.
+cutscene_food_succession17				Să ajungi într-un loc mai bun tati.
+cutscene_food_succession18				Cu bine, Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    G.A.B.O.S
+campaignchapter_riot_description		Avem o revoltă în desfășurare la Închisoarea De Stat Alchemico.  Apucă-te să securizezi clădirea.
+
+campaigncutscene_riotintro              Știri De Ultimă Oră
+
+adviser_riot_newsintro_01				Știri de ultimă oră!
+adviser_riot_newsintro_02				Revoltă la Închisoarea De Stat Alchemico – personalul și paza s-au retras către perimetru pentru a aștepta asistență militară.
+adviser_riot_newsintro_1				Mai este o parte din personal, despre care încă nu avem vești, inclusiv Directorul General Charles Wallace.
+adviser_riot_newsintro_2				Revolta a izbucnit în urma arestării unor judecători cunoscuți ...
+adviser_riot_newsintro_3				... acuzați că au acceptat stimulente financiare în schimbul înăspririi unor sentințe.
+adviser_riot_newsintro_4				De parcă asta nu ar fi suficient, diverse surse declara ca lumea interlopă a fost zguduită recent de o serie de crime ...
+adviser_riot_newsintro_5				... care includ și tentativa de asasinare a capului de mafie Victor Palermo, de luna trecută.
+adviser_riot_newsintro_6				Asistentul Directorului General Charles Wallace, un începător, a fost însărcinat cu restaurarea ordinii.
+adviser_riot_newsintro_7				Încă nu avem de unde să știm cât de mult o să coste lipsa de experiență, în timpul acestei crize dificile.
+adviser_riot_newsintro_8                Douglas Benedict, care a fost condamnat la închisoare pe viață, este bănuit că ar fi liderul din spatele acestei izbucniri violente.
+
+adviser_riot_newsintroheller_1 			Acum câteva momente, Primarul Calvin Heller a declarat următoarele:
+adviser_riot_newsintroheller_2 			Pentru cei care pun la îndoială pedepsele noastre, sper ca acest incident să vă trezească la realitate.
+adviser_riot_newsintroheller_3 			Acești oameni au cazare și masă asigurate. Un privilegiu al celor care muncesc.
+adviser_riot_newsintroheller_4 			Iar ei așa au decis să răsplătească contribuabilii care le asigură comfortul.
+
+campaigncutscene_riothostages			Ostatici
+adviser_name_riotceo					Directorul General
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Ascultă bine! Directorul General e la noi.
+adviser_riot_hostages1b 				Euugg.... ...
+adviser_riot_hostages2 					Uite cum o să meargă treaba. Eu cer ceva, iar tu îmi dai.
+adviser_riot_hostages3					Dacă trimiți pe cineva înăuntru sau măcar îmi miroase a gabor, Directorul se alege cu un glonț în cap.
+adviser_riot_hostages4 					Vrem o mașină nemarcată. Geamuri fumurii. Rezervorul plin. O oră. Voi ține legătura.
+adviser_riot_hostages5 					Așa, unde rămăsesem?
+adviser_riot_hostages5b					Ce căutai în birou?
+adviser_riot_hostages6					Jur că nu știu nimic.
+adviser_riot_hostages7					Mi-am văzut atât de des reflecția încât știu când un om face ceva greșit.
+adviser_riot_hostages8					Ce ascundeai?
+adviser_riot_hostages9					Locul meu e aici. Dar puștiul...pe cine ajută mărirea sentinței lui?
+adviser_riot_hostages10					Tu știi ceva, iar singurul mod în care vei ieși de aici în viață va fi să vorbești.
+
+adviser_riot_hostageheller1 			E complet inacceptabil. Avem nevoie de ochi în cantină, să vedem ce se petrece.
+adviser_riot_hostageheller2 			La nordul cantinei se află o cameră mică de pază. Trebuie să o securizăm.
+adviser_riot_hostageheller3 			Mobilizează câțiva Paznici în cameră, să preia controlul consolei CCTV. Așa vom putea urmări ce se întâmplă în tot blocul de celule.
+
+objective_Riot_MaxSecCameras			Capturează camera de pază
+
+campaigncutscene_riotroulette			Ruletă
+
+adviser_riot_rouletteintro1             Acum că avem un paznic în camera de pază, primim imagini live prin sistemul de camere CCTV.
+adviser_riot_rouletteintro2             Hai să aruncăm o privire peste situația ostaticilor.
+adviser_riot_click 						<click>
+adviser_riot_roulette1					E ultima ta ocazie să ieși de aici, boss. Ai jucat leapșa cu două mingi vreodată?
+adviser_riot_roulette2 					Două gloanțe. Patru camere goale.
+adviser_riot_roulette2b 				Obișnuiam să jucăm cu iepurii de câmp. Lor le zburam capetele.
+adviser_riot_roulette3 					Dar și tu ești o țintă bună.
+adviser_riot_roulette4 					Să începem cu ceva ușor. Ce căutai în birou?
+adviser_riot_roulette5 					Jur că nu știu nimic.
+adviser_riot_roulette5b 				Pe bune.
+adviser_riot_roulette6 					Bine atunci. Cine începe? Tu? Eu? Ce zici de tipul ăsta?
+adviser_riot_roulette7					Ca să vezi, face exact ca iepurii.
+adviser_riot_roulette8 					CE ERA ÎN FIȘIERELE ALEA?
+adviser_riot_roulette9 					Jur că nu știu!
+adviser_riot_roulette10 				Îți cam scad șansele. Mai e un glonț pe undeva în cilindru, iar eu știu ce-am văzut.
+adviser_riot_roulette11b 				Nu mi-a venit să cred ce văd.
+adviser_riot_roulette11c 				Chiar marele corporatist în persoană, la mine în pușcărie. Arătând vinovat ca dracu.
+adviser_riot_roulette11d 				Bănuiesc ca nu era doar cazierul meu în dosarele acelea.
+adviser_riot_roulette11					Te rog! Te rog nu!
+adviser_riot_roulette11e 				Șansele tale au scăzut, Wallace.
+adviser_riot_roulette12 				Uite ce, o să îți fac decizia mai ușoară.
+adviser_riot_roulette12b	 			Gata, ajunge cu căcaturile!
+adviser_riot_roulette13 				Tu urmezi, muistule. Asta, dacă nu îmi spui chiar acum ce vreau să știu.
+adviser_riot_roulette14 				Nu pot. Te rog.
+adviser_riot_roulette15 				Bine. Te rog. Te rog. Nu trage. A fost vorba de bani. Numai de bani.
+adviser_riot_roulette16 				Asta e tot?
+adviser_riot_roulette17 				Sunteți o comoditate valoroasă. Cu cât vă ținem aici mai mult, pe oricare dintre voi, cu atât mai mare e profitul nostru. Pur și simplu am îndoit puțin regulile.
+adviser_riot_roulette17b				Fișierul era dovada.
+adviser_riot_roulette18 				Păi și cât valorăm? Cât primești că ne ții încuiați?
+adviser_riot_roulette19 				Șaptezeci și trei de mii de dolari pe an.
+adviser_riot_roulette20					Pe fiecare? A venit timpul să mai dai și înapoi, găozarule.
+
+campaigncutscene_riotassault 			Breșă
+
+adviser_riot_assault01					Gata. A venit momentul să rezolvăm problema.
+adviser_riot_assault02 					Echipa e pregătită.
+adviser_riot_assault03					Îmi vreau mașina acum. Wallace ni se va alătura. Și dacă descopăr că suntem urmăriți, veți curăța bucați din el de pe asfalt.
+adviser_riot_assault2 					Așa boss. Vii cu noi. Nu vor risca să facă vreo prostie dacă ești cu noi pe bancheta din spate.
+adviser_riot_assault3 					Niciunul din noi nu va scăpa de aici. Nu tu ești cel pe care-l vor.
+adviser_riot_assault4 					Despre ce vorbești?
+adviser_riot_assault5					Eu am făcut-o pentru bani. Dar EL a făcut-o pentru câștig politic. Cu cât mai lungi sunt sentințele, cu atât mai multe voturi primește.
+adviser_riot_assault6					Despre cine-n căcat vorbești?
+adviser_riot_assault7					Primarul Heller. El a făcut schița, eu doar am uns roțile.
+adviser_riot_assault7b 					Fișierele alea erau dovada care i-ar fi putut distruge cariera.
+adviser_riot_assault8					Cred că-ți bați joc de mine.
+adviser_riot_assault9 					Ce pula mea...
+adviser_riot_assault9b					Intră, fiți pe fază!
+adviser_riot_assault10					V-AM AVERTIZAT!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				Negociatorul
+
+adviser_riot_negotiator1 				Situația a scăpat de sub control. Nimeni nu conduce aici.
+adviser_riot_negotiator2 				Avem victime multiple, iar paznicii care au mai rămas, nu vor să intre în blocurile de celule unde are loc revolta. Am fost nevoiți să ne retragem în perimetru.
+adviser_riot_negotiator3 				Gândește-te la o soluție și rezolvă problema înainte să fie prea târziu.
+adviser_riot_negotiator4 				Jandarmeria ar trebui să sosească în câteva minute.
+
+adviser_riot_firstreinforcements1 		A ajuns prima echipă de intervenție.
+adviser_riot_firstreinforcements2 	 	Ăștia sunt de la Jandarmerie și au armura mult mai dură. Folosește-i să recapturezi aripile din închisoare.
+adviser_riot_firstreinforcements3 		Avem și câțiva paramedici de la spitalul de stat din apropiere.
+adviser_riot_firstreinforcements4 		Îți sugerez să le oferi Jandarmilor îngrijire medicală de urgență, pe măsură ce recapturează închisoarea.
+
+objective_Riot_StopTheRiot 				Oprește Revolta
+objective_Riot_StopTheRiot_description  Nimeni nu e la conducere. Trebuie să te gândești ce vei face.
+
+adviser_riot_helleradvice1				Presupun că vorbesc cu asistentul Directorului General.
+adviser_riot_helleradvice2 				Înțeleg că e o situație dificilă și că suntem supravegheați cu atenție. Fiți fără grijă, aveți la dispoziție toate resursele mele.
+adviser_riot_deployguards1				Am stabilit un loc de sprijin și am recapturat o parte din închisoare. Până acum, numărul de vieți pierdute este justificabil.
+adviser_riot_deployguards2				Înainte să încercăm să recapturăm restul închisorii, ar trebuie să securizăm aripile capturate.
+adviser_riot_deployguards3				Angajează niște paznici și trimite-i în sectoarele recapturate, prin ecranul de Mobilizare. Ei se vor asigura că aripile capturate de noi, vor rămâne ale noastre.
+adviser_riot_deployguards4 				Odată ce te-ai ocupat de asta, întră în zonele rămase și doboară-i pe monștrii ăștia. Nu poți negocia cu animalele astea și nu vor putea fi reabilitați.
+adviser_riot_deployguards5 				Încerc să autorizez o echipă de intervenție care să pună repede capăt acestui incident.
+
+adviser_riot_infirmary1 				Avem oameni răniți prin toată închisoarea și poți să fii sigur că vor fi și mai mulți. Nu îi poți lăsa să sângereze până mor.
+adviser_riot_infirmary2 				Construiește o infirmerie la locul faptei și angajează Doctori să trateze răniții.
+adviser_riot_infirmary3 				Avem și câteva cadavre. De dragul demnității lor, trebuie să construim o Morgă și să începem să le strângem.
+adviser_riot_infirmary4					Va trebui să angajezi muncitori să facă şantierul de construcţie. Fii sigur să-i ții în siguranță.
+
+objective_Riot_ResecureWings 			Angajează niște paznici și trimite-i către zonele capturate
+objective_riot_medicalneeds				(OPȚIONAL) Ocupă-te de nevoile medicale ale închisorii
+objective_Riot_Infirmary				(OPȚIONAL) Construiește o Infirmerie și tratează răniții
+objective_Riot_Morgue 					(OPȚIONAL) Construiește o Morgă și strânge morții
+objective_Riot_SecureGenPop				Recapturează aripa de Populație Generală (centrală)
+objective_Riot_SecureSpecialWing		Recapturează aripa Specială (vest)
+objective_Riot_SecureMaxSec				Recapturează aripa de Maximă Securitate (sud)
+objective_riot_putoutfires				Ocupă-te de incendiu
+
+adviser_riot_secondreinforcements1		Au ajuns mai mulți Jandarmi.
+
+adviser_riot_armedreinforcements1		Primarul a adus câțiva polițiști înarmați de la secția din apropiere.
+adviser_riot_armedreinforcements2		Ai grijă cu tipii ăștia. S-ar putea să iasă un măcel dacă îi lași să își facă de cap.
+adviser_riot_armedreinforcements3		Pe de altă parte, dacă prizonierii îi văd că vin, s-ar putea să se predea.
+
+adviser_riot_reinforcementsunlocked1 	Majoritatea întăririlor au ajuns.
+adviser_riot_reinforcementsunlocked2 	Acum poți chema câte echipe de Jandarmi și Paramedici vrei, din bara utilitară de Urgențe.
+
+adviser_riot_cleanup1                   Închisoarea este sub controlul nostru și revolta a fost oprită. Ar fi putut ieși mult mai rău, cu ușurință.
+adviser_riot_cleanup2                   Ne așteaptă o operațiune de curățare de toată frumusețea. Dacă ai timp, aș aprecia ajutorul tău.
+adviser_riot_cleanup2b 					Nu avem nici un contractant pe șantier, așa că primul pas ar fi să angajezi niște muncitori să repare locul.
+adviser_riot_cleanup3                   Mereu am avut impresia că securitatea de aici e mult prea lejeră. Prizonieri au fost lăsați să își facă de cap pentru prea mult timp. De azi, asta va înceta.
+adviser_riot_cleanup4                   Vreau să construiești o Armurărie nouă, și apoi să mobilizezi paznici înarmați în jurul închisorii. Prizonierii se vor simți intimidați iar data viitoare se vor gândi de două ori înainte să cauzeze atâtea probleme.
+adviser_riot_cleanup5                   Apropo, aprob fondurile necesare pentru echiparea tuturor paznicilor cu armură. Oamenii noștri trebuie să se poată apăra.
+adviser_riot_cleanup6                   Prizonierii au nevoie de disciplină și ordine în viețile lor. Sugerez să îi punem la treabă. Pot începe prin a face curat în urma dezastrului pe care l-au provocat chiar ei.
+adviser_riot_cleanup7                   Să începem un program de muncă pentru prizonieri. Îi punem să curețe închisoarea și să spele rufele.
+adviser_riot_cleanup7b                  Poți să pui prizonieri la muncă folosind opțiunea de Logistică, din bara utilitară. Dute pe obiectiv pentru o explicație detaliată cum să faci asta.Poți să pui prizonieri la muncă folosind opțiunea de Logistică, din bara utilitară. Dute pe obiectiv pentru o explicație detaliată cum să faci asta.Poți să pui prizonieri la muncă folosind opțiunea de Logistică, din bara utilitară. Dute pe obiectiv pentru o explicație detaliată cum să faci asta.
+adviser_riot_cleanup8                   Mai avem câteva cerințe. Sunt mulți prizonieri care trebuie să fie puși la punct. Construiește o nouă Aripă De Izolare.
+adviser_riot_cleanup8b                  Paznicii noștri se vor ocupa de mutarea prizonierilor în Izolare, după cerință. Izolarea o să le dea prizonierilor timpul necesar să se gândească la ce au făcut și le va aminti cine e șeful pe aici.
+adviser_riot_cleanup9                   Și să nu uităm de angajații noștri, care au trecut prin incident cu noi. Sunt epuizați.
+adviser_riot_cleanup9b 					Construiește o cameră pentru personal să se poată odihni.
+adviser_riot_cleanup10                  În cele din urmă, trebuie să facem toate acestea cu un buget. Fii sigur că avem soldul pe plus și un flux de numerar pozitiv.
+adviser_riot_cleanup10b 				Munca prizonierilor este mult mai ieftină decât cea a unui contractant când vine vorba de curățenie, muncă de întreținere, spălătorie și altele asemenea.
+adviser_riot_cleanup11                  Sunt multe de făcut. Apreciem ajutorul tău.
+adviser_riot_cleanup12                  După ce simți că ai făcut destule și ești gata să mergi mai departe, dă click pe polaroidul de lângă porțile din față.
+
+adviser_riot_cleanup13 					Excelent. Securitatea acestei închisori este mult mai bună acum.
+
+objective_riot_solitary 				(OPȚIONAL) Construiește o Aripă De Izolare și apucă-te să pedepsești insurgenții
+objective_riot_armoury 					(OPȚIONAL) Implementează protocoale noi de securitate
+objective_riot_armoury_research			Deblochează Armurăria prin Birocrație
+objective_riot_armoury_build 			Construiește o Armurărie (într-o locație sigură)
+objective_riot_armoury_deploy			Mobilizează paznici înarmați în Maximă Securitate
+objective_riot_armoury_armour 			Deblochează armură pentru tot personalul de securitate
+objective_riot_armoury_tazers 			Deblochează pistoale cu electroșoc pentru paznicii înarmați
+objective_riot_staffroom 				(OPȚIONAL) Construiește o Cameră Pentru Personal
+objective_riot_balancebooks 			(OPȚIONAL) Echilibrează Soldul
+objective_riot_balancebooks_balance 	Sold Pozitiv
+objective_riot_balancebooks_cashflow 	Fluxul De Numerar Pozitiv
+objective_riot_prisonerwork				(OPȚIONAL) Înființează un program represiv de muncă
+
+objective_riot_cleaningcupboard			Construiește un dulap pentru produse de curățat
+objective_riot_laundry					Construiește o Spălătorie
+objective_riot_inmatesincleaning 		Desemnează prizonieri să lucreze la Curățenie
+objective_riot_inmatesinlaundry			Desemnează prizonieri să lucreze la Spălătorie
+objective_riot_cleanprison 				Curăță închisoarea
+objective_riot_providelaundry			Oferă haine curate
+
+objective_riot_armoury_research_description		Iconița de birocrație se află deasupra listei de făcut. Dă click pentru a începe lucrul la 'Armurărie' - șeful tău se va ocupa de munca de birou.
+objective_riot_armoury_deploy_description       Pentru a mobiliza paznici înarmați, dă click pe Mobilizare și apoi pe 'Patrule Înarmate'. Ține apăsat pe mouse pentru a trasa patrulele acolo unde ai nevoie de ele, apoi dă click din nou pe patrule pentru a desemna paznici înarmați pe ele.
+objective_riot_armoury_guardtazers_description  Uită-te în Rapoarte / Pograme – vei vedea 'Antrenament Pistol Cu Electroșoc Pentru Paznici'.\n\nGărzile tale au nevoie de antrenament înainte să poată folosi Pistoale cu Electroșoc. Va trebui să construiești o Sală De Clasă în care să aibă loc antrenamentul.
+objective_riot_prisonerwork_description         Pentru a trimite prizonierii la muncă, du-te la Logistică și apoi 'Muncă'. Dă click să adaugi sarcini într-o cameră marcată cu verde.\n\nTrebuie să și specifici când vor lucra prizonierii. Du-te în Rapoarte / Regim și adaugă câteva ore de 'Muncă'  pe zi. Prizonierii vor munci dacă sunt sarcini disponibile în această perioadă.
+
+objective_Riot_PlayerExitsMap			Când termini, dă click pe Polaroidul din afara intrării principale.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Jaf
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   În Vizită
+campaigncutscene_convictionsuicide      Sinucidere
+
+campaignchapter_conviction              Condamnare
+campaignchapter_conviction_description  Unul dintre prizonierii noștrii a fost pus sub observație pentru sinucidere. Henry Morgan, partenerul lui Benedict. Treisprezece luni într-o sentință de cinci ani. Ajută-ne să avem grijă de acești oameni.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senator Walter Hurst
+adviser_name_detective                  Detectiv
+adviser_name_kerry 						Kerry Morgan
+adviser_name_hurst 						Doctor Walter Hurst
+adviser_name_keane 						Ofițer Keane
+
+adviser_conviction_heist1               Apucă banii, dobitocule.
+adviser_conviction_heist2               Aruncați armele!
+adviser_conviction_heist2b				Căcat!
+adviser_conviction_heist3               Trage-n pula mea!
+adviser_conviction_heist4               Ce căcat aștepți?  Trage fătălăule!
+adviser_conviction_heist6               Morții voștri!
+adviser_conviction_heist7               Nu trage! Nu trage!
+adviser_conviction_heist8               MÂINILE SUS, GĂOZARILOR!
+adviser_conviction_heist9               Fă exact ce fac și eu, înțelegi?
+adviser_conviction_heist10              Căcat, căcat, CĂCAT!
+adviser_conviction_heist11              Nu trage! NU TRAGE!
+
+conviction_intro_1                      Ne aflăm sub o imensă atenție politică, în urma tragediei recente din Închisoarea De Stat Alchemico.
+conviction_intro_2                      Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.Până găsim un înlocuitor pentru poziția de Șef General, vreau să preiei tu conducerea.
+conviction_intro_3                      Au avut loc un număr mare de sinucideri la această închisoare și nu e greu de văzut de ce. Dar avem probleme mai grave.
+conviction_intro_4                      Cei de sus au decis să ne trimită un grup uriaș de prizonieri noi. Primii vor sosi mâine, și nu avem unde să-i cazăm.
+conviction_intro_5                      Trebuie să construim un bloc de celule nou, cu destul spațiu pentru noii veniți.
+conviction_intro_5b 					Am lăsat un plan potențial a noului bloc de celule aici. Ar trebui să ne dea destule celule noi pentru sosiri și conceptul include și sistenmul de duș.
+conviction_intro_5c 					Dar e decizia ta dacă vrei să urmezi planul sau să faci ceva complet diferit.
+conviction_intro_6                      Slujba mea e să prioritizez binele oamenilor aceștia. Construiește blocul nou de celule, apoi vorbim despre cum să realizezi asta.
+
+unused_conviction_intro_4                      Unul dintre prizonierii noștrii, Henry Morgan, a fost pus sub observație pentru sinucidere. Partenerul lui Benedict. Treisprezece luni într-o sentință de cinci ani.
+unused_conviction_intro_7						Vreau să vorbesc cu el. Nu putem să mai avem încă o sinucidere.
+
+conviction_workintro1                   I-am tratat pe oamenii aceștia ca și mizerie pentru prea mult timp. Asta se oprește acum.
+conviction_workintro2                   Șeful General precedent nu prea a crezut în reforma prizonierilor. Dar după părerea mea, trebuie să le dăm acestor oameni speranță pentru viitor.
+conviction_workintro3                   Trebuie să-i învățăm ce trebuie pentru a reuși în viață când vor fi eliberați - calificări folositoare, o educație de bază.
+conviction_workintro4                   Ar trebui să începem un sistem de ucenicie. Să-i antrenăm pe oamenii aceștia pentru viața reală, ca să se poată aștepta la un viitor.
+
+Oamenii aceștia sunt dezinteresați. Au nevoie să simtă că au o valoare și ei.
+conviction_hurst1 						Lipsa de implicare la această închisoare este șocantă. Oameni lipsiți de orice urmă de umanitate.
+conviction_hurst2 						Li s-a arătat prea puțină compasiune și respect. Nu te poți aștepta să răspundă în alt mod în afară de indignare.
+conviction_hurst3 						Nu merită asta.
+conviction_hurst4 						Într-adevăr Căpitane. Nu așa tratezi o ființă umană. Sunt lipsiți de orice urmă de umanitate.
+conviction_hurst4b 						De ce ar urma regulile noastre? Nu te poți aștepta să-ți răspundă altfel decât cu cel mai mare resentiment.
+conviction_hurst4c						Trebuie să ajutăm oamenii ăștia. Avem nevoie de săli de clasă, pentru programe de detoxifiere. Și un atelier, să poată fi mândri de abilitățile lor.
+conviction_hurst6 						M-ai înțeles greșit, Doctore. Bărbații ăștia nu sunt oameni. Hai să vezi la ce mă refer.
+conviction_hurst6b 						Deținut Morgan! Trezește-te!
+conviction_hurst7 						În picioare, Morgan. Ai un vizitator.
+conviction_hurst8 						Reabilitare? Ai putea la fel de bine să înveți o maimuță să cânte la banjo.
+
+conviction_hurst10 						Cum te numești, fiule?
+conviction_hurst10b                     Omul ți-a pus o întrebare.
+conviction_hurst11 						Henry, domnule.
+conviction_hurst12 						Trebuie să fie frig acolo jos, Henry.
+conviction_hurst13 						Sunt păduchi în pat, domnule. Mă mănâncă de viu. Bluza ține șobolanii afară. Cei mai mari pe care i-am văzut vreodată.
+conviction_hurst14 						Spune-mi Walter.
+conviction_hurst15 						Cum dormi?
+conviction_hurst16 						Nu dorm. Tot ce fac aici este să mă gândesc. Am mult timp să mă gândesc.
+conviction_hurst16b                     Despre ce te gândești?
+conviction_hurst16c                     Despre moarte, în mare parte. Și despre fetița mea.
+conviction_hurst17 						O să aibă nevoie ca tu să rămâi puternic, Henry. E greu și pentru ea.
+conviction_hurst18 						Am fost după gratii pentru toată viața ei. Nici nu știe că exist.
+conviction_hurst19 						Niciodată nu e prea târziu să îți schimbi viața, Henry.
+conviction_hurst19b 					Aș vrea să îți mai fac câteva vizite, dacă se poate.
+conviction_hurst20 						Da, domnule. Vă mulțumesc, domnule.
+conviction_hurst21 						Putem face ceva despre șobolani? Nu suntem în lumea a treia.
+conviction_hurst22 						O să aduc niște otravă de șobolani.
+
+conviction_visitationintro_1            Am reușit să conving șeful să facă o excepție pentru vizita familiei lui Morgan.
+
+conviction_visitation_0					Bună ziua, Domnule. Kerry Morgan, am venit să îl văd pe Henry Morgan.
+conviction_visitation_1					În spatele liniei.
+conviction_visitation_2 				Îmi pare rău. Am venit să îl văd pe Henry. Henry Morgan. Este soțul meu, domnule.
+conviction_visitation_3 				Nu vă mai repet. În spatele liniei. Acum. Nu vă mai repet. În spatele liniei. Acum. Nu vă mai repet. În spatele liniei. Acum. Nu vă mai repet. În spatele liniei. Acum.
+conviction_visitation_4 				Da, domnule. Îmi pare rău, domnule.
+conviction_visitation_5 				Bine. Veniți în față. Nu am toată ziua la dispoziție.
+conviction_visitation_6					Nume.
+conviction_visitation_7					Kerry Morgan, domnule. Am venit să îl văd pe Henry Morgan. Iar ea este fetița lui.
+conviction_visitation_8					Pentru asta ați venit? Puteți trece.
+conviction_visitation_8a                Kerry!
+conviction_visitation_9					Îmi pare rău, dar a fost comisă o eroare. Morgan și-a pierdut dreptul la vizite.
+conviction_visitation_9b 				Poftim?
+conviction_visitation_9c 				Îmi pare rău. Am găsit alcool în celula lui azi dimineață. Nu pot face nimic.
+conviction_visitation_10				Mi-a luat două ore să ajung. Fica mea plânge. Nu e corect.
+conviction_visitation_11				Vreți ”corect”, vă duceți la Disneyland. ”Corect” e acolo unde câștigi pești de aur și mănânci hot dog. Aici nu găsiți ”corect”.
+conviction_visitation_12				Vă rog să îi dați asta.
+conviction_visitation_13                Sigur. Nu va mai avea vizitatori pentru o vreme. Îi transmit vre-un mesaj?
+conviction_visitation_14                Nu. Nici un mesaj.
+
+conviction_visitation_angrymorgan0		Nu!
+conviction_visitation_angrymorgan1		Așteaptă!
+conviction_visitation_angrymorgan2		Nu poți face asta!
+conviction_visitation_angrymorgan3		Lăsați-mă să vorbesc cu ea!
+conviction_visitation_angrymorgan4		Nenorociților!
+
+conviction_helpinmates_1                E foarte îngrijorător.
+conviction_helpinmates_2                E așa dificil să găsești metode să-i ajuți pe oamenii aceștia cu adevărat. Trebuiesc învățați să se ajute singuri.
+conviction_helpinmates_3                Cred că e clar că trebuie să ne ocupăm de privilegiile de vizite. Familii stau la coadă la ușă, și nu putem să ne descurcăm cu numărul de vizitatori pe care-l avem.
+conviction_helpinmates_4                Construiește un nou edificiu de vizite. În ciuda a ceea ce s-a întâmplat cu Morgan, cred că vom vedea un beneficiu. Și nu este singurul prizonier cu o familie.
+conviction_helpinmates_5                Am făcut niște cercetări și sunt uimit să aflu că mulți dintre prizonieri au decât cunoștiințele cele mai de bază la matematică și citit. Trebuie să corectăm asta.
+conviction_helpinmates_6                Deschide o clasă nouă și hai să aducem profesori externi care să-i învețe lucrurile de bază. Fără educație, acești prizonieri nu au nici o speranță pentru altceva decât o viață de infractor.
+conviction_helpinmates_7                Și trebuie să rămânem informați de afluxul de prizonieri. Dezvoltă în continuare capacitatea pentru ca fiecare prizonier să aibe o celulă decentă.
+
+conviction_outro1                       Cred că am făcut mare schimbare. Le-am dat acestor prizonieri un scop și un motiv pentru a continua să muncească.
+conviction_outro2                       Poți rămâne să vezi primul grup de prizonieri cum trece prin prin programele de educație și muncă aprovizionate, dacă vrei.
+conviction_outro3                       Dar ne descurcăm de aici. Când ești gata să pleci, dă click pe polaroidul din celula lui Morgan.
+
+conviction_secondvisit_1                Speram să te văd la una din ședințele mele.
+conviction_secondvisit_2                Nu pot s-o fac. Nu pot să mai stau în gaura asta pentru nici un moment.
+conviction_secondvisit_3                Ia-o ușor, o zi pe rând.
+conviction_secondvisit_4                Vreau să zic tot locul ăsta. Înăuntru aici. Acolo afară. Nu mă lasă să-mi văd familia. Am greșit, domnule, și asta nu se va schimba.
+conviction_secondvisit_5                Henry, o să fie bine. Sunt aici cu tine.
+conviction_secondvisit_6                E amuzant. A zis exact același lucru.
+conviction_secondvisit_7                Cine, Henry? Poți să-mi spui.
+conviction_secondvisit_8                Avea grijă de mine.
+conviction_secondvisit_9                De când eram copii.
+conviction_secondvisit_10               Ține-te tare orice s-ar întâmpla, puștiule.
+conviction_secondvisit_11               Sunt mereu cu tine.
+conviction_secondvisit_11b 				Mereu cu mine?
+conviction_secondvisit_12               Nu mai e acum.
+conviction_secondvisit_13               O să-ți fac o înțelegere. Vino la următoarea ședință de grup și voi vedea dacă putem să facem ceva cu drepturile tale la vizită.
+conviction_secondvisit_14               Ați face asta pentru mine, domnule?
+conviction_secondvisit_15               Nu e doar pentru tine, Henry.
+
+conviction_suicide_1 					Îmi cer scuze, domnule, dar m-am gândit că ar trebui să stiți. A mai avut loc o sinucidere.
+conviction_suicide_2					Aparent, unul dintre prizonieri a inghițit otravă pentru șobolani.
+conviction_suicide_3					Doctor Hurst e pe drum, o să confirme el.
+conviction_suicide_4					Nu e cel mai minunat lucru pe care l-ai văzut?
+conviction_suicide_5					S-ar putea să fie.
+conviction_suicide_6					Niciodată nu e prea târziu să îți schimbi viața, domnule.
+
+objective_conviction_expandcapacity50			Ocupă-te de noile sosiri de prizonieri
+objective_conviction_expandcapacity50_description	Poți vedea un plan potențial pentru noul bloc de celule intrând in modul  'Planificare' din bara utilitară principală.
+objective_conviction_expandcapacity_cells	 	Asigură celule pentru 40 de prizonieri
+objective_conviction_expandcapacity_shower		Asigură o instalație de dușuri
+objective_conviction_expandcapacity_yard		Asigură o curte
+objective_conviction_expandcapacity_intake		Așteaptă să ajungă următoarele sosiri
+
+objective_conviction_workprogram 				Administrează un program de antrenament pentru muncă
+objective_conviction_unlocklabour				Autorizează 'Muncă' prin Birocrație
+objective_conviction_work_trainkitchen			(OPȚIONAL) Antrenează 5 prizonieri pentru Siguranță și Igienă în Bucătărie
+objective_conviction_work_kitchen				Desemnează prizonieri să lucreze în bucătărie
+objective_conviction_work_workshop				Construiește un atelier
+objective_conviction_work_trainworkshop			(OPȚIONAL) Pune 10 prizonieri în Cursul De Siguranță În Atelier
+objective_conviction_work_assignworkshop		Desemnează prizonieri să lucreze în atelier
+objective_conviction_work_produceplates			(OPȚIONAL) Produce 100 de plăcuțe de înmatriculare auto
+objective_conviction_work_exportszone			Desemnează o zonă de export lângă drum
+objective_conviction_work_setintake             Setează nivelul de Sosire Prizonieri la 10
+
+objective_conviction_unlocklabour_description	Poți găsi ecranul de birocrație prin a da click pe iconița deasupra acestei liste de făcut.
+objective_conviction_work_kitchen_description	 To assign prisoners to the kitchen, go to 'Logistics' then 'Prison Labour'.\n\nNb. Your prisoners must have passed the 'Kitchen Safety and Hygiene' training course before they can work in the kitchen.				Pentru a desemna prizonieri la bucătărie, dute la  'Logistică' apoi 'Muncă'.\n\nNb. Prizonierii tăi trebuie să fi trecut prin programul de 'Siguranță și Igienă în Bucătărie' pentru a putea lucra în bucătărie.
+objective_conviction_work_assignworkshop_description 	Pentru a desemna prizonieri la atelier, dute la  'Logistică' apoi 'Muncă'.\n\nNb. Prizonierii tăi trebuie să fi trecut prin 'Cursul De Siguranță În Atelier' să se califice pentru munca în atelier.
+objective_conviction_work_trainkitchen_description 		Pentru a administra antrenamente și programe de reformă, te duci la 'Rapoarte' (jos dreapta) apoi 'Programe'. Prizonierii vor participa la aceste programe în orele de muncă desemnate.\n\nNb vei avea nevoie să desemnezi două ore de 'Muncă' în ecranul de program de Regim, altfel prizonierii nu vor avea timp sa participe la antrenamente.
+objective_conviction_work_trainworkshop_description 	Pentru a administra antrenamente și programe de reformă, te duci la 'Rapoarte' (jos dreapta) apoi 'Programe'. Prizonierii vor participa la aceste programe în orele de muncă desemnate.\n\nNb vei avea nevoie să desemnezi două ore de 'Muncă' în ecranul de program de Regim, altfel prizonierii nu vor avea timp sa participe la antrenamente.
+objective_conviction_work_setintake_description         Pentru a fi sigur că în chisoarea ta nu devine supraîncărcată, dute la 'Rapoarte' (dreapta jos) apoi  'Sosiri ', și folosește butonul << pentru a reduce nivelul de sosiri la 10.
+
+objective_conviction_visitation				Pune la punct un serviciu mai bun pentru vizite
+objective_conviction_visitationroom	Construiește un centru nou de vizitare
+objective_conviction_visitationcount		Facilitează 20 de vizite pentru familiile pizonierilor
+objective_conviction_telephones	 			Adaugă telefoane în toate curțiile
+objective_conviction_mailroom				Construiește o Cameră De Poștă
+objective_conviction_mailroomwork			Desemnează prizonieri să lucreze în camera de poștă
+
+objective_conviction_mailroomwork_description           Pentru a desemna prizonieri în Camera De Poștă, dute la  'Logistică' apoi 'Muncă'.
+
+objective_conviction_education				Începe educarea prizonierilor tăi
+objective_conviction_unlockeducation		Autorizează 'Educație' prin Birocrație
+objective_conviction_education_classroom	Construiește o sală de clasă
+objective_conviction_education_class 		Administrează o clasă de Educație Fundamentală
+objective_conviction_education_learn		(OPȚIONAL) Să ai 5 prizonieri care absolvă clasa de Educație Fundamentală
+objective_conviction_education_library		Construiește o bibliotecă
+objective_conviction_education_librarywork	Desemnează prizonieri să lucreze în bibliotecă
+objective_conviction_education_chapel		Construiește o capelă
+objective_conviction_education_spiritual	Administrează o clasă de Ghidare Spirituală
+
+objective_conviction_expandcapacity100			Extinde capacitatea închisorii
+objective_conviction_expandcapacity_cells100	Extinde capacitatea până la 80 de celule
+objective_conviction_expandcapacity_cells200	(OPȚIONAL) Extinde capacitatea până la 120 de celule
+
+objective_Conviction_PlayerExitsMap         Dă click pe polaroidul din celula lui Morgan când ai terminat.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Ștaifuri
+campaigncutscene_epilogueintro          Revizită
+campaigncutscene_epilogueoutro          Epilog
+
+campaignchapter_epilogue_description    O închisoare istorică e programată pentru demolare și înlocuire. Folosește-te de tot ce ai învățat pentru a creea complexul suprem.
+
+adviser_name_reporter 					Reporter
+
+epilogue_newsintro1 					Azi la știrile CNDC, un raportaj special privind situația închisorilor.
+epilogue_newsintro2 					Sunt doi ani de la 'Atentatul la Alchemico' ce a luat atâtea vieți, incluzând pe cea a Șefului General Charles Wallace.
+epilogue_newsintro4 					Azi vom auzi de la experți și vom întreba ce, dacă e vorba pe-aşa, s-a schimbat de la acele evenimente tragice.
+epilogue_newsintro5 					Mai întâi vom merge în direct cu una din cele mai vechi închisori a statului, programată recent pentru demolare.
+epilogue_newsintro6						În direct acum, doar la știrile CNDC.
+
+epilogue_reporter1						Mulțumesc Sarah. Această închisoare a cazat printre cei mai faimoși criminali ai țării.
+epilogue_reporter2 						Dar acum, pereții ei vor fi dați jos, gata să fie înlocuită de un complex nou.
+epilogue_reporter3 						Dacă vă uitați în spatele meu, veți vedea că echipa de construcție e deja aici și demolarea a început.
+epilogue_reporter4 						Alăturându-mi este Primarul orașului, Calvin Heller. Vă mulțumesc Dle. Heller pentru că v-ați făcut timp să vorbiți cu noi azi.
+epilogue_reporter5 						Este plăcerea mea.
+
+epilogue_reporter6 						În trecut ați fost adept a unei abordări mai dure, disciplinată, în ceea ce privește conducerea închisorii.
+epilogue_reporter6b 					De ce demolați o faciliate ce a definiti, pentru atâta timp, o abordare represivă?
+epilogue_reporter7 						Atât închisoarea cât și operarea ei au devenit demodate.
+epilogue_reporter8 						Am luat decizia să o înlocuim cu o nouă faciliate. Una cu o politică mai modernă.
+epilogue_reporter9						Această închisoare a fost la știri acum cațiva ani ca una dintre ultimele edificii rămase de execuții omise de stat.
+epilogue_reporter10 					Agenții electorali au încercat de mult să retragă legile de condamnare la moarte. Le veți onora dorințele sau veți reconstrui sistemul de execuție?
+epilogue_reporter12 					Încă analizăm situația. Dar nu va fi o decizie ce o vom lua nechibzuiți.
+
+epilogue_reporterend1 					Mulțumim Primar Heller. Înapoi la studio.
+epilogue_newstransition1 				Acestea sunt știrile CNDC, raportând în direct despre situația sistemului de închisoare.
+epilogue_newstransition2 				Doctorul Walter Hurst, un specialist în psihologia și reabilitarea prizonierilor, ne va însoți dupa pauză.
+
+epilogue_parole1 						Tot nimic? Cât a trecut?
+epilogue_parole2						Am pierdut firul. Nici un telefon. Nici o scrisoare.
+epilogue_parole3 						Îmi pare rău Morgan. Trebuie să doară. Dar ai o șansă aici. Nu o da în bară.
+epilogue_parole4 						Henry. Mult noroc.
+epilogue_parole5 						Nu încerca să le spui ce crezi că vor să audă.
+epilogue_parole6 						Trebuie să plec. Sunt în direct într-un minut.
+epilogue_parole7                        Primar Heller, care este părerea ta?
+epilogue_parole10 						N-a durat mult.
+epilogue_parole11 						Deci?
+epilogue_parole12                       ...
+
+epilogue_outro_1 						Bine ați revenit la această ediție specială a știrilor CNDC, în direct cu Primarul Calvin Heller.
+epilogue_outro_2 						Alăturându-ne azi este Doctorul Walter Hurst, care a fost acuzat că a risipit o sumă mare de bani pe reforma închisorii.
+epilogue_outro_2b 						Dr. Hurst, credeți că ați dobândit succes?
+epilogue_outro_3						Succes? Nu. În general nu.
+epilogue_outro_4						Eu cred că toată lumea are posibilitatea pentru îmbunătăţire. Și trebuie să le oferim această șansă.
+epilogue_outro_4b 						Pot declara cu siguranță ca am văzut îmbunătățiri adevărate în atitudinea si speranța multor din cei încarcerați aici.
+epilogue_outro_5						Încarcerarea ar trebui să fie un mijloc de intimidare. Nu ar trebui să fie o oportunitate pentru dezvoltare sau schimbare.
+epilogue_outro_6 						Pedepsindu-i și dezumanizându-i în timpul experiențelor nu ajută decât la creșterea criminalității.
+
+epilogue_outro_7						Le dăm acestor oameni abilități valoroase, dar mai important, speranță.
+epilogue_outro_7b  						Îi ajutăm să se integreze înapoi în societate și să contribuie după ce vor pleca.
+epilogue_outro_8						Cetățenii obișnuiți nu primesc antrenament fără plată, educație gratis sau muncă plătită garantată.
+epilogue_outro_8b 						Neglijăm victimele crimelor și îi răsplătim pe făptași.
+epilogue_outro_8c 						Cheltuim sume mari, doar pentru a-i face pe acești criminali să se simtă bine.
+epilogue_outro_9						Putem face o diferență, chiar dacă trebuie să o facem la o persoană pe rând.
+epilogue_outro_10						Acești oameni nu și-au câștigat independența. Libertatea lor.
+epilogue_outro_11						Îi poți spune unui motan de o sută de ori să stea departe de pasările din curtea ta. Dar se va întoarce mereu.
+epilogue_outro_12 						Îi stă în fire.
+
+epilogue_sandbox_1                      Dă-mi voie să te felicit pentru postul de Director General. Este o oportunitate. Un nou început.
+epilogue_sandbox_2                      Vei avea autonomie completă, mai mult sau mai puțin. Mai mulți prizonieri. Rate de recidivă mai mari. Te așteaptă multe provocări.
+epilogue_sandbox_3						În ceea ce privește facilitatea pentru comdamnați la moarte, demoleaz-o. Sau poți să o păstrezi, să faci ceva folositor cu ea. E decizia ta. Altcineva se va ocupa dacă tu nu vrei.
+epilogue_sandbox_4						În ceea ce privește obiectivele, îți voi da aceleași ca predecesorul tău. Profit, rate de recidivă, capacitate.
+epilogue_sandbox_5 						E la alegerea ta cum le completezi.
+epilogue_sandbox_5b                     O ultimă chestie. Charles Wallace, Directorul General precedent, a lăsat în urmă o scrisoare ce obișnuia să o dea noilor arhitecți de închisoare care se alăturau firmei.
+epilogue_sandbox_5c                     Avea niște sfaturi bune. Ți-ar prinde bine să te uiți.
+epilogue_sandbox_6						Mult noroc!
+
+objective_epilogue_grants				Strânge bani prin sistemul de Subvenții.
+objective_epilogue_grants_description   Subvențiile sunt printre principalele metode de a strânge sume foarte mari de bani, necesare pentru a construi o închisoare.\n\nPoți găsi o listă de subvenții disponibile la Rapoarte(dreapta jos a ecranului) în 'Subvenții'. Diferite agenții îți vor oferi fonduri pentru a construi anumite părți a închisorii tale de la zero.
+
+objective_epilogue_certifiedprison		Construiește o închisoare
+objective_epilogue_capacity				Cel puțin 100 de prizonieri
+objective_epilogue_bankbalance			Soldul cel puțin $100,000
+objective_epilogue_cashflow				Flux de numerar pozitiv nou
+
+epilogue_outrointro_1                   Văd ca ai început bine.
+epilogue_outrointro_2                   Dacă ești în lângă un televizor, ar trebui să-l pornești. Vreau să vezi ceva.
+
+epilogue_basiccompletion_1 				Ai atins cerințele minime pentru o închisoare de stat. Ce faci de acum încolo e decizia ta.
+epilogue_basiccompletion_2 				Din acest moment e decizia ta și a firmei tale cum vrei să continui.
+epilogue_basiccompletion_3 				La biroul Primarului nu ne pasă decât de o singură cifra, și aceea e rata de recidivă.
+epilogue_basiccompletion_4	 			Dacă reduci ratele de recidivă printre prizonierii tăi, aș numi asta un succes.
+epilogue_basiccompletion_5 				Oamenii precum Doctor Hurst cred că nu poți obține asta decât prin educație,  reformă, antrenamente si cele de genul.
+epilogue_basiccompletion_6 				În opinia mea, pedeapsa poate fi la fel de eficientă.
+epilogue_basiccompletion_8 				E pe umerii tăi. Îți doresc noroc.
+
+objective_epilogue_reoffending			(Opțional) Scade rata de recidivă a închisorii
+objective_epilogue_reoffending_description	Îți poți vedea rata de recidivă în ecranul de 'Evaluare'. Dă click pe iconița din stânga sus a ecranului.
+
+objective_epilogue_reoffending_rate		Reduce rata de recidivă la cel mult 30%
+objective_epilogue_reoffending_released	Eliberează cel puțin 10 prizonieri
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Exportă Închisoarea Pentru Minecraft
+codex_mcexportname						Exportator Minecraft
+codex_worldnametitle					Numele LumiI
+codex_seedtitle							Seed
+codex_gamemodetitle						Mod De Joc
+codex_mapfeattitle						Caracteristici Hartă
+codex_cheatstitle						Coduri
+codex_timeofdaytitle					Timpul Zilei
+codex_rainingtitle						Ploaie
+codex_thunderingtitle					Fulgere
+codex_generatortitle					Generator
+codex_scaletitle						Scară
+codex_exporttomc						Export
+codex_mcexport_default					Implicit
+codex_mcexport_flat						Plat
+codex_mcexport_largebiomes				BiomuriMari
+codex_mcexport_survival					Supraviețuire
+codex_mcexport_creative					Creativ
+codex_mcexport_adventure				Aventură
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Evadare - E singura cale de scăpare
+escapemode_help                         Pasul Unu: Reputație – Reputația ta înseamnă totul aici\n\n•Înbunătățește-ți reputația prin a începe lupte. Vei fi observat daca rănești oamenii, dar un început bun ar fi să spargi lucruri. Cu cât provoci mai multe daune într-o luptă cu atât mai bine.\n•Nu lăsa martori. Dacă un paznic te vede, vei  fi pedepsit pentru asta, asta dacă mai sunt în viață.\n• Va arăta rău dacă vei fi lăsat inconștient. Mai bine să termini o luptă cum vrei tu.\n\nPasul Doi: Echipă – Recrutează alți oameni să se alăture tentativei de evadare\n\n•Fluieră să-i chemi și te vor urmări peste tot. (Dă Click pe numele lor in stânga sus) )\n• Ba chiar ți se vor alătura în lupte ceea ce îți va crește reputația mai repede. .\n• Antrenează-ți echipa. Nu poți știi când îți va fi de folos sa ai un luptător bun sau un sprinter competitiv prin preajmă.\n\nPasul Trei: Contrabandă – Vei avea nevoie de arme și unelte n\n• Găsește o camera unde să fie ceva ce-ți trebuie. Uită-te în jur și vei găsi imediat ceva folositor să furi.\n• Ai grijă la detectoarele de metal și paznici. Dacă vor găsi ceva în posesia ta, o vor lua și vei fi trimis în carceră.\n• Ascunde-ți echipamentul. Îți poți ascunde lucrurile în celula ta sau a altora, doar să-ți amintești unde le-ai pus.\n\nPasul Patru: Tuneluri – Ieșirea cea mai discretă\n\n• Ia o unealta de săpat și începe un tunel de la toaleta din celula ta.\n• Săpatul merge greu. Adu-ți membrii echipei să te ajute.\n• Nu te lăsa văzut. Dacă un paznic te vede intrând sau ieșiind dintr-un tunel, va face scandal.\n\nMult noroc. Vei avea nevoie.
+
+codex_escapemode                        Mod Evadare
+codex_escapemode_developer              (Dezvoltator) Mod Evadare
+codex_escapemode_new                    Nouă Tentativă De Evadare
+codex_escapemode_load                   Încarcă Tentativă De Evadare
+codex_escapemode_save                   Salvează Tentativă De Evadare
+codex_escapemode_workshop               Mod Evadare (Atelier Steam)
+codex_escapemode_workshop_star_rating   *S Stele sau peste
+
+escapemode_combat_attack                Atacă
+escapemode_combat_attack_button         Click Stânga
+escapemode_combat_lunge                 Azvârlește
+escapemode_combat_lunge_button          Shift
+escapemode_dig_button                   Ține Click Stânga
+escapemode_dig                          Sapă
+escapemode_surrender                    Predare
+escapemode_surrender_safe               Încheie Lupta
+escapemode_surrender_button             Space
+
+escapemode_gameover                     Jocul A Luat Sfârșit
+
+escapemode_reputation_points            Puncte Rep:
+escapemode_reputations_cost             *C Puncte Rep
+escapemode_reputations_max              MAXIM
+
+escapesquad_squad_member                Membru Echipă
+escapesquad_recruitment                 Ține apăsat click dreapta pentru a recruta
+escapesquad_recruitment_cost            Cost Puncte Rep: *C
+escapesquad_toggle_follow               Activează Urmărire
+escapesquad_nameplate_following         În Urmărire
+escapesquad_skip_punishments            Sari Peste Pedepse
+escapesquad_skip_punishments_tooltip    Cheltuie un punct rep pentru ca toți membrii de echipă să doarmă prin pedepse și să se trezească în celulele lor.
+escapesquad_sleep                       Somn
+escapesquad_sleep_tooltip               Dă click pentru a dormi toată noaptea.
+escapesquad_reputations                 Reputații
+escapesquad_reputations_tooltip         Cumpără reputații folosind puncte rep, pentru a îmbunătăți abilitățile de luptă ale echipei tale.
+escapesquad_follow_mode                 Mod Urmărire
+escapesquad_follow_mode_tooltip         Prizonierii aflați în modul de urmărire, te vor urmări și îți vor copia delictele.\n\nFolosește tasta R să activezi modul de urmărire pentru toți prizonierii simultan.
+escapesquad_remove_member               Elimină Membru Echipă
+escapesquad_remove_member_tooltip       Dă click pentru a elimina acest prizonier din echipa ta.
+escapesquad_escaped                     Evadat
+
+escapemode_info_right_click             Click dreapta
+escapemode_info_hold_right_click        Ține click dreapta
+escapemode_info_stash                   să ascunzi contrabandă
+escapemode_info_pick_up                 pentru a lua marfa de contrabandă
+escapemode_info_start_tunnel            să începi un tunel
+escapemode_info_enter_tunnel            să intri într-un tunel
+escapemode_info_exit_tunnel             să ieși dintr-un tunel
+escapemode_info_dig_up                  să dezgropi
+escapemode_info_steal                   să furi
+
+escapemode_info_tool                    [Unealta de Săpat]
+escapemode_info_damage                  Daune: *D
+escapemode_info_recharge                Timp De Reîncarcare: *T
+
+escapemode_gameover                     Joc Terminat
+escapemode_gameover_squad_title         Echipă
+escapemode_gameover_casualties_title    Victime
+escapemode_gameover_totalscore_title    Scor Total
+escapemode_gameover_totaltime_title     Durată Timp
+escapemode_gameover_time_days           *Z Zile, *H Ore și *M Minute
+escapemode_gameover_time                *H Ore și *M Minute
+
+codex_workshop_select_random_prison     Închisoare Aleatorie Din Atelier
+codex_workshop_searching                În Curs De Căutare
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         Biblie Joc
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              Pagina *X
+codex_gamebible_doublepage              Paginile *X-*Y
+object_collectable                      Pagină Caiet

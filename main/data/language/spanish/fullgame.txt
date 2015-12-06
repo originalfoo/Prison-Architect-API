@@ -1,0 +1,884 @@
+﻿
+campaigncutscene_tooltip 				(Pulsa para pasar al siguiente capítulo de la historia)
+campaignchapter_locked                  (Bloqueado)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        Un gran incendio ha destrozado las cocinas y el comedor de la prisión. Si no encontramos una forma de alimentar a los presos rápido, se formará un gran motín.\nResuelve la crisis de la comida y vuelve a construir las Cocinas y el Comedor.
+
+adviser_food_fire_1                     Hay una crisis creciendo en una de nuestras instalaciones.
+adviser_food_fire_2                     Alguien ha prendido fuego en las cocinas de la prisión. Nuestra prioridad es apagarlo, evitar cualquier víctima y prevenir daños.
+adviser_food_fire_3                     Utiliza el botón de Servicios de Emergencia de la barra de herramientas para llamar a los bomberos.
+adviser_food_fire_4                     ¡Sofoca este fuego antes de que se queme la prisión entera!
+
+objective_food_callfirebrigade          Llama al departamento de bomberos
+objective_food_extinguishflames         Extingue las llamas
+
+objective_food_callfirebrigade_description 	Para llamar a los bomberos, pulsa el botón de Emergencias en la barra de herramientas y luego pulsa en Bomberos.
+objective_food_extinguishflames_description  Cuando tengas a los bomberos seleccionados, puedes dirigir manualmente sus mangueras pulsando la letra H. Utiliza esta función para concentrar las mangueras en el centro de las llamas.\n\nIntenta mantener a los bomberos tan cerca del fuego como puedas, serán más efectivos.
+
+adviser_food_savedon1                   Dios mío, hay un superviviente entre los escombros.
+adviser_food_savedon2					¡Por el amor de Dios! Es Don Palermo. De todos los presos… tenía que ser el jefazo.
+adviser_food_donintro2					Lo malo para él es que por los recortes de presupuesto, tuvimos que echar a todos los médicos fijos.
+adviser_food_donintro3				 	Pero la buena noticia es que nuestra Enfermera sigue disponible. Contrata un par de Médicos para que cuiden de Don Palermo mientras solucionamos esto.
+
+adviser_food_afterfire3                 Tenemos que limpiar este desastre.
+adviser_food_afterfire4                 Utiliza la herramienta de demoler para demoler el comedor y las cocinas. Tendrás que retirar todos los escombros.
+adviser_food_afterfire6                 Establece un Basurero junto a la carretera. Nuestros trabajadores tirarán los escombros ahí para que los camiones de basura se los lleven.
+adviser_food_dismissfiremen1			Por fin, puedes enviar a los bomberos a casa, ya han hecho su trabajo.
+adviser_food_gamespeed                  Demoler estos edificios te llevará un rato. Puedes acelerar el tiempo utilizando los botones debajo del reloj.
+
+adviser_food_todolist1					He añadido más detalles en cada objetivo de tu lista de tareas pendientes.
+adviser_food_todolist2					Si no estás seguro de qué haces, selecciona el objetivo y verás instrucciones adicionales.
+
+objective_food_buildmedicalward_doctors Contrata un par de Médicos para trabajar en la Enfermería.
+
+objective_food_DismissAllFiremen		Despide a los bomberos
+objective_food_cleararea                Limpia los escombros del fuego
+objective_food_buildgarbagearea         Habilita un Basurero
+objective_food_clearcanteen             Limpia los escombros en el comedor
+objective_food_clearkitchen             Limpia los escombros de las cocinas
+objective_food_hiremoreworkmen			(OPCIONAL) Contrata a más trabajadores para acelerar la demolición
+
+objective_food_dismissallfiremen_description 	Para despedir al servicio de Emergencias, busca su icono a la derecha de la pantalla, pulsa el botón rojo redondo de la X para enviarlos a casa.
+objective_food_cleararea_description 	Utiliza la herramienta de la demoledora para demoler edificios. Puedes encontrar la demoledora en "Cimientos", en la barra de herramientas principal.
+
+adviser_food_familyvisit1				Buen trabajo.
+adviser_food_familyvisit2 				Vamos a evaluar los daños.
+
+adviser_food_troublesoon1				Sin comida, los presos echarán las paredes abajo en unos días.
+adviser_food_troublesoon2 				Tenemos que asegurar la prisión antes de que se forme un motín.
+adviser_food_troublesoon3 				Esta es la pantalla de Despliegue. Desde aquí puedes controlar el despliegue táctico de todos tus guardias.
+adviser_food_troublesoon4 				Despliega una patrulla de guardias en todos los bloques de celdas y dormitorios. Asigna 10 guardias a las estaciones de la prisión. Eso debería bastar por ahora para mostrar nuestra fuerza.
+adviser_food_troublesoon5				También quiero una patrulla por el patio interior mientras construimos las nuevas instalaciones.
+adviser_food_troublesoon6				Una última cosa. Con el comedor fuera de juego, se nos ha echado a perder parte de la comida. Tírala antes de provocar una infección.
+
+objective_food_deployguards				Despliega a 10 guardias por la prisión
+objective_food_deploypatrol				Asigna a 2 guardias para patrullar el patio interior
+
+objective_food_deployguards_description		Para desplegar a los guardias, abre la pantalla de Despliegue y pulsa en un sector para crear una Estación. Se asignará automáticamente a un guardia a esa estación.
+objective_food_deploypatrol_description		Abre la pantalla de Despliegue, luego selecciona Patrullas. Pulsa y arrastra para dibujar las rutas de la patrulla.\n\nPara asignar guardias a la patrulla, pulsa de nuevo
+
+objective_food_dumpfood 				Tira la comida echada a perder
+objective_food_dumpfood_description		La comida echada a perder la encontrarás en la Despensa, en el cuadrante noreste de la prisión.\n\nPara tirar cualquier objeto, pulsa en él y luego pulsa en la opción Tirar del menú desplegable.
+
+adviser_food_doncantspeak1				…
+adviser_food_doncantspeak2				Aggsss… …
+
+adviser_food_doninfirmary0              Creo que intenta decirnos algo.
+adviser_food_doninfirmary1				¿Quién de vosotros, ratas asquerosas, piojos peludos, abortos de monos ha hecho esto?
+adviser_food_doninfirmary2 				No ha sido nadie, papy, ha sido un accidente.
+adviser_food_doninfirmary3 				Cierra esa bocaza que tienes y escúchame. Escuchadme los dos.
+adviser_food_doninfirmary4 				Si me entero de quién de vosotros dos, tarugos, prendió el fuego, os parto la cara.
+adviser_food_doninfirmary5 				Se acabó mi tiempo, me voy a pudrir en esta maldita cama.
+adviser_food_doninfirmary6 				Y hay que mantener el negocio familiar. El apellido Palermo es todo lo que nos queda. Así que mantened su reputación, pedazo de idiotas. Capiche?
+adviser_food_doninfirmary7				Sabemos lo que hay que hacer, jefe.
+adviser_food_donchat13					Esto no acaba aquí, Nico.
+adviser_food_donchat14					Guarda tus espaldas.
+
+adviser_food_founddrugs1				No te vas a creer lo que me han dicho.
+adviser_food_founddrugs2				Nuestros chicos están tirando comida pasada. Han descubierto narcóticos y botellas de alcohol escondidas en los cajones.
+adviser_food_founddrugs3				Sospechamos que la familia Palermo trapichea dentro de la prisión pero nunca hemos podido saber cómo.
+adviser_food_founddrugs4 				Hay días que no llueve, sino que diluvia.
+
+adviser_food_rebuild1                   Tenemos un montón de trabajo que hacer. Tenemos que centrarnos en reconstruir las cocinas y el comedor.
+adviser_food_rebuild2                   Primero, tenemos que reconstruir las cocinas. Tendrás que instalar varias piezas de equipamiento y contratar a varios cocineros.
+adviser_food_rebuild3					Una vez que lo hagas, construye un comedor nuevo.
+adviser_food_rebuild4					Una vez que completes la tarea, los cocineros empezarán a preparar automáticamente la comida para todos los presos.
+adviser_food_rebuild5                   Si no estás seguro de qué hacer, prueba a seleccionar el objetivo en la lista de tareas pendientes para recibir pistas.
+
+adviser_food_fightoutro1  				Fantástico. Parece que la familia Palermo se está quedando sin miembros.
+
+adviser_food_sprinklerintro1 			Podríamos tener un problema serio con los narcóticos. Pero no podemos ocuparnos de eso aún.
+adviser_food_sprinklerintro2 			Las cocinas y el comedor están activos y nuestros cocineros preparan la comida, eso debería calmar los ánimos.
+adviser_food_sprinklers1                Me preocupa que el fuego haya sido intencionado, no queremos que se repita.
+adviser_food_sprinklers2 				Instala un sistema de irrigación en la nueva cocina y comedor y conéctalos a la toma de agua. 
+
+adviser_food_explainneeds1 				Todos los reclusos tienen necesidades. Esas necesidades afectan a su comportamiento. Ahora mismo, todos se mueren de hambre y por eso hay tanto jaleo.
+adviser_food_explainneeds2 				La comida es una de sus mayores prioridades y lo has ignorado. Unos cuantos malos platos más y se formará un motín.
+adviser_food_explainneeds3 				Puedes monitorizar las necesidades de todos tus reclusos en la pantalla de Informe de Necesidades, al que puedes acceder a través del icono de Informes en la esquina inferior derecha.
+adviser_food_explainneeds4				Este informe muestra las necesidades combinadas de todos nuestros presos. El rojo significa que muchos presos están enfadados por una necesidad no cubierta.
+adviser_food_explainneeds5 				Como puedes imaginar, Comida está en rojo en general. Pero estos reclusos también están aburridos (necesidad de Entretenimiento), y la prisión está un poco desgastada, lo que se refleja en sus necesidades de Ambiente y Ropa.
+adviser_food_explainneeds6				Es tu decisión como arquitecto de prisión determinar qué necesidades atenderás primero. Podrías instalar televisiones en sus celdas para mantenerlos ocupados y contratar conserjes para mantener la prisión.
+adviser_food_explainneeds7				O podrías ignorar todas las necesidades de tus reclusos y confiar en la fuerza para mantener tu prisión bajo control.
+adviser_food_explainneeds8 				Es tu decisión.
+
+objective_food_needs 					(OPCIONAL) Ocúpate de las necesidades de tus reclusos.
+objective_food_handlefoodneed 			(OPCIONAL) Ocúpate de la necesidad de Comida de tus reclusos.
+objective_food_handleboredomneed		(OPCIONAL) Ocúpate de la necesidad de Entretenimiento de tus reclusos.
+objective_food_handleenvironmentneed	(OPCIONAL) Ocúpate de la necesidad de Ambiente de tus reclusos.
+
+objective_food_needs_description 					Puedes ver las necesidades generales de tus presos pulsando en Informes (esquina inferior derecha) y luego, en Necesidades.\nTambién puedes seleccionar a un preso para ver qué necesidades lo están afectando.\n\nLas necesidades nunca se satisfacen de forma permanente, siempre estarás luchando contra ellas.
+objective_food_handlefoodneed_description 			Nuestros cocineros prepararán la comida para todos y todos los reclusos deberían comer antes de acabar del próximo turno de comidas.
+objective_food_handleboredomneed_description 		El aburrimiento puede satisfacerse de forma efectiva instalando una televisión en cada celda. O podrías construir una sala común y colocar varias televisiones y mesas de billar.\n\nTambién puedes colocar televisiones en zonas comunes como el Comedor.
+objective_food_handleenvironmentneed_description 	Contrata a algunos conserjes y limpiaran la prisión de forma gradual.
+
+adviser_food_needssuccess1 				Has demostrado una dedicación admirable al ocuparte de las necesidades de tus reclusos. Buen trabajo.
+adviser_food_needssuccess2 				Probablemente habrás notado que la mayor molestia entre los presos es la falta de ropa limpia.
+adviser_food_needssuccess3 				Si quieres ocuparte de esta necesidad, tendrás que poner a funcionar el sistema de lavandería gradualmente para proporcionar a todos tus reclusos ropa limpia.
+adviser_food_needssuccess4 				Construye una lavandería y contrata a más conserjes para proporcionarles ropa limpia a tus reclusos.
+
+objective_food_laundry 					(OPCIONAL) Limpia la ropa
+objective_food_buildlaundry 			(OPCIONAL) Construye una Lavandería
+objective_food_hirejanitors             (OPCIONA) Contrata suficientes conserjes para que la lavandería funcione.
+objective_food_handleclothingneed 		(OPCIONAL) Ocúpate de la necesidad de ropa limpia de tus reclusos.
+
+objective_food_buildkitchen             Construye una Cocina (12 m² aprox)
+objective_food_buildkitchencookers      Instala al menos cuatro Fogones
+objective_food_buildkitchenfridges      Instala al menos cuatro Neveras
+objective_food_buildkitchensink         Instala un Friegaplatos 
+objective_food_buildkitchenbin	 		Coloca una Papelera en la Cocina
+objective_food_buildkitchenwatermains 	Conecta el Friegaplatos  a la toma de agua
+objective_food_buildkitchenfloor 		(OPCIONAL) Mejora el suelo de la cocina
+
+objective_food_buildkitchen_description		Tendrás que construir Cimientos primero.
+objective_food_buildcanteen_description		Tendrás que construir Cimientos primero.
+
+objective_Food_HireChefs				Contrata al menos a 8 Cocineros
+objective_food_CookMeals				(Automático) Prepara la comida para todos los reclusos
+
+objective_food_buildcanteen             Construye un Comedor (20 m² aprox.)
+objective_food_buildservingtables       Instala dos Mesas de Servir
+objective_food_buildcanteentables       Instala al menos seis Mesas
+objective_food_buildcanteenchairs       Instala dos Bancos alrededor de cada Mesa
+objective_food_buildcanteenbin	 		Coloca una Papelera en el Comedor
+objective_food_buildcanteenfloor 		(OPCIONAL) Mejora el suelo del Comedor
+
+
+objective_food_buildsprinklers          Instala un nuevo sistema de irrigación
+objective_food_buildsprinklers1         Instala un per de irrigadores en la Cocina
+objective_food_buildsprinklers2         Instala un par de irrigadores en el Comedor
+objective_food_connectwater             Conecta los irrigadores de la Cocina a la toma de agua
+objective_food_connectwater2			Conecta los irrigadores del Comedor a la toma de agua
+objective_food_feedprisoners            Completa un servicio de cenas alimentando a todos los reclusos
+
+objective_food_buildkitchenwatermains_description   Las cañerías grandes son para mover grandes cantidades de agua bajo una gran presión. Las cañerías pequeñas son para conectar las diferentes piezas a la toma de agua.n\n\Utiliza la vista de SERVICIOS para colocar las cañerías grandes en tus edificios. Luego, utiliza cañerías pequeñas para conectar las grandes a todas las piezas cercanas que necesiten suministro de agua.
+objective_food_connectwater_description             Las cañerías grandes son para mover grandes cantidades de agua bajo una gran presión. Las cañerías pequeñas son para conectar las diferentes piezas a la toma de agua.n\n\Utiliza la vista de SERVICIOS para colocar las cañerías grandes en tus edificios. Luego, utiliza cañerías pequeñas para conectar las grandes a todas las piezas cercanas que necesiten suministro de agua.
+objective_food_connectwater2_description            Las cañerías grandes son para mover grandes cantidades de agua bajo una gran presión. Las cañerías pequeñas son para conectar las diferentes piezas a la toma de agua.n\n\Utiliza la vista de SERVICIOS para colocar las cañerías grandes en tus edificios. Luego, utiliza cañerías pequepas para conectar las grandes a todas las piezas cercanas que necesiten suministro de agua.
+
+campaigncutscene_foodinfirmary			Enfermería
+campaigncutscene_foodfamily             Familia
+campaigncutscene_foodfeud               Contienda
+campaigncutscene_foodregret				Arrepentimiento
+campaigncutscene_foodsuccession 		Sucesión
+
+campaigncutscene_foodfamily_description		Hubo un tiempo en el que la familia Palermo traficaba con narcóticos por toda la costa este de Estados Unidos. Descubre la historia de Don Palermo y sus hijos.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti 
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo 
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermo
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Jefe de una de las familias mafiosas más temidas de la costa este.
+cutscene_foodfamily_palermo1			Los Palermo eludieron al FBI durante décadas.
+cutscene_foodfamily_palermo02			Anthony Palermo, el hijo mayor de Don Palermo y heredero legítimo, efectúa las operaciones diarias.
+cutscene_foodfamily_palermo03			Nico Tamoretti no es familia de sangre pero lo acogieron en la familia cuando se casó con la única hija d Don Palermo, Vitalia.
+cutscene_foodfamily_palermo04			Y Sonny Palermo. El segundo hijo de Don Palermo. La oveja negra. Malhumorado como un pitbull pero la mitad de inteligente.
+
+cutscene_foodfamily_palermo2 			Su impero traficaba con narcóticos desde Maine hasta Florida.
+cutscene_foodfamily_palermo3			Eso fue hasta que pillaron a Anthony infraganti.
+cutscene_foodfamily_palermo3b           Muerto por los disparos de un marido celoso.
+cutscene_foodfamily_palermo4			Desafortunadamente para la familia, la policía encontró en la escena doce kilos de cocaína en la bolsa del gimnasio de Anthony.
+cutscene_foodfamily_palermo5			Esa prueba los condujo a destapar todo el pastel.
+cutscene_foodfamily_palermo6			Esa noche, todo lo que la Familia Palermo había construido voló por los aires. El FBI tenía todo lo que necesitaba para asegurarse de que se pudrirían en la cárcel.
+cutscene_foodfamily_palermo7			Lo que convirtió a Vitalia, la hija de Don Palermo, en la única de la familia que no está entre rejas.
+cutscene_foodfamily_palermo8			No sabemos mucho de ella, solo que siempre la mantuvieron fuera del negocio familiar.
+cutscene_foodfamily_palermo9 			Pero alguien debe de haberles enviado desde fuera estas drogas.
+
+adviser_food_findalldrugs1				Ya se ha superado la crisis de la comida. Los reclusos estarán mucho más contentos ahora que han podido comer.
+
+adviser_food_findalldrugs2				Apuesto a que los Palermo venden esos narcóticos a los reclusos.
+adviser_food_findalldrugs3				Los guardias me dicen que han visto a muchos presos con comportamientos extraños desde el incendio.
+adviser_food_findalldrugs4				Quiero que registres a cada recluso y cada celda. Seguro que encontramos drogas de los Palermo por toda la cárcel.
+
+objective_food_findalldrugs					Encuentra todas las drogas de la prisión
+objective_food_findalldrugs_description 	Registra cada bloque de celdas pulsando en un recluso dentro de ese bloque, luego pulsa en "Registrar Bloque de Celdas" o utiliza la opción de Extorsión de la barra de herramientas en la parte inferior de la pantalla.
+
+objective_food_hiremoreguards 			(OPCIONAL) Contrata a más guardias para acelerar la búsqueda.
+
+adviser_food_drugsfound1				Por suerte, no ha ido tan mal como pensábamos pero hay varios problemas de drogodependencia y alcoholismo.
+adviser_food_drugsfound2				Tenemos que ayudar a estos hombres. Es la única forma de cesar las actividades y solucionar sus problemas.
+adviser_food_drugsfound2b 				Empieza un programa de tratamiento antidrogas en la enfermería. Nuestros Médicos administrarán un sustituto químico a los reclusos para ayudarles a aliviar el mono.
+adviser_food_drugsfound3				Para los alcohólicos, no hay un sustituto químico así que sugiero crear un grupo de terapia.
+adviser_food_drugsfound4				Tienes que construir una Sala Común para llevar a cabo esas reuniones.
+adviser_food_drugsfound5				Para empezar un nuevo programa, pulsa en Informes en la esquina inferior derecha de la pantalla y luego, en Programas.
+
+objective_food_drugtreatment			Empieza el tratamiento antidrogas
+objective_food_cureaddictions			(OPCIONAL) Empieza a curar la drogadicción de los reclusos
+objective_food_alcoholprogram			Empieza un grupo de terapia para los alcohólicos
+objective_Food_HelpAlcoholics			(OPCIONAL) Empieza a ayudar a los alcohólicos en su recuperación
+objective_food_buildcommonroom 			Construye una sala común
+objective_food_buildcommonroomchairs	Crea un lugar de reunión con hasta 8 sillas
+
+objective_food_drugtreatment_description 	Pulsa en Informes en la esquina inferior derecha de la pantalla, luego, selecciona la casilla de Programas. El programa se llama "Tratamiento Farmacológico de Drogadicción" y se lleva a cabo en la Enfermería.\n\nNecesitarás al menos dos horas de trabajo en el régimen para permitir a los reclusos asistir.
+objective_food_alcoholprogram_description 	Pulsa en Informes en la esquina inferior derecha de la pantalla, luego, selecciona la casilla de Programas. El programa se llama "Tratamiento Farmacológico de Drogadicción" y se lleva a cabo en la Enfermería.\n\nNecesitarás al menos dos horas de trabajo en el régimen para permitir a los reclusos asistir.
+
+cutscene_food_feudintro1 				Hemos tenido un incidente en las duchas. Hay un cadáver.
+cutscene_food_feudintro2 				De hecho, hay dos cadáveres. Por suerte, tenemos cámaras.
+cutscene_food_feudintro3 				Cuando tengas un momento, pulsa en la Polaroid de las Duchas y echaremos un ojo a lo que ha pasado.
+
+objective_food_triggerfightscene		Cuando estés listo, pulsa en la Polaroid de las Duchas para continuar.
+objective_food_triggerfightscene_description 	Las Duchas están en la esquina noroeste de las instalaciones.
+
+cutscene_food_feud1b                    Solo. Perfecto.
+cutscene_food_feud1                     Has tardado.
+cutscene_food_feud2                     Basta ya. Nunca supe qué narices vio en ti la tonta de mi hermana.
+cutscene_food_feud2b 					¿Es idea suya? ¿Hacer desaparecer al vejestorio?
+cutscene_food_feud3                     ¿Eso es lo que piensas, gordo asqueroso? No pretendía hacerle daño. Yo le quería, es mi padre.
+cutscene_food_feud3b 					Estoy harto de ver a esta familia hundirse en la estupidez.
+cutscene_food_feud4                     El fuego iba para ti.
+cutscene_food_feud5                     Pues considera esto como un favor devuelto.
+cutscene_food_feud6                     No me vengas con esas. Los dos sabemos que planeas acabar conmigo un día de estos.
+cutscene_food_feud7                     Sí, siempre fuiste el listo, Nico. Y mira dónde has acabado. No te preocupes, no sentirás nada.
+cutscene_food_feud8                     Te lo he dicho. Guarda tus espaldas.
+cutscene_food_feud8b                    ¡Ahhhhhhhhhh!
+cutscene_food_feud8c                    ¡¡¡AAARRRGGRGGGGGG!!!!
+cutscene_food_feud8d                    ¿Conoces a Franky? Tiene un talento especial usando cuerdas de piano.
+cutscene_food_feud8e                    Sinceramente, para cuando acabe, creerán que fue un suicidio.
+cutscene_food_feud9                     Esto no acaba aquí, Nico.
+cutscene_food_feud9b                    Debes estar de broma.
+
+cutscene_food_successionintro			Muy bien. Hemos demostrado quién manda y la prisión vuelve a estar bajo control.
+cutscene_food_successionintro2 			Puedes quedarte y mejorar aún más la prisión o puedes pasar ya a las siguientes instalaciones.
+cutscene_food_successionintro3 			Cuando estés listo para continuar, pulsa en la Polaroid de la Enfermería.
+
+objective_food_runending 				Cuando estés listo, pulsa en la Polaroid de la Enfermería para continuar.
+objective_food_runending_description	La Enfermería está al suroeste de las instalaciones de prisión.
+
+cutscene_food_succession1				¡Vitalia!
+cutscene_food_succession1b				¿…?
+cutscene_food_succession2				¡Qué pivón!
+cutscene_food_succession3				Lo siento. He metido la pata.
+cutscene_food_succession4				Cállate.
+cutscene_food_succession5				Han dicho que papá no sobrevivirá ni una semana.
+cutscene_food_succession6				Lo sé. Vengo a despedirme.
+cutscene_food_succession7				Bueno, podríamos escaparnos. Tú y yo. Maldita vida, nos han quitado todo.
+cutscene_food_succession8				Me encantaría.
+cutscene_food_succession9				Pero no puedo. Soy una Palermo, Nico.
+cutscene_food_succession10				Y sin papá, siendo tú ajeno a la familia, nuestros enemigos nos pasarían por encima
+cutscene_food_succession11 				No puedo permitirlo. Tengo que demostrar que los Palermo seguimos sentados en nuestro trono.
+cutscene_food_succession12				¿Qué? ¿Has venido para darme la patada? ¿Después de todo lo que hemos pasado?
+cutscene_food_succession13				Nico, Nico, Nico, eres un anticuado.
+cutscene_food_succession14 				No, cielo. Quiero el divorcio.
+cutscene_food_succession15				¿Qué? ¿Estás de coña? Soy hombre muerto aquí dentro sin mi familia para protegerme.
+cutscene_food_succession16				Lo sé, cariño. Pero a mí eso ya no me importa.
+cutscene_food_succession17				Descansa en paz, papi.
+cutscene_food_succession18				Hasta luego, Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    G.A.B.O.S
+campaignchapter_riot_description		Hay un motín en la Prisión Estatal de Alchemico. Ve y devuelve la seguridad al edificio.
+
+campaigncutscene_riotintro              Última hora
+
+adviser_riot_newsintro_01				¡Última hora!
+adviser_riot_newsintro_02				Motín en la Prisión Estatal de Alchemico, trabajadores y guardias han acordonado el perímetro a la espera de asistencia militar.
+adviser_riot_newsintro_1				El número de personal sigue sin conocerse, incluyendo al Directo Ejecutivo, Charles Wallace.
+adviser_riot_newsintro_2				Han surgido motines seguidos del arresto de varios jueces de alto nivel…
+adviser_riot_newsintro_3				…acusados de haber aceptado sobornos por imponer sentencias de prisión reducidas.
+adviser_riot_newsintro_4				Para añadir mas leña al fuego, hay fuentes que afirman que el mundo criminal se está viendo afectado por una serie de asesinatos de grandes líderes…
+adviser_riot_newsintro_5				…incluyendo el intento de asesinato del jefe de la mafia Victor Palermo el pasado mes.
+adviser_riot_newsintro_6				Al sustituto del Director Ejecutivo Charles Wallace, un novato en el puesto, se le ha encomendado restaurar el orden.
+adviser_riot_newsintro_7				Ahora se verá si la falta de experiencia será un problema durante esta difícil crisis.
+adviser_riot_newsintro_8                Se cree que Douglas Benedict, que cumple cadena perpetua, es el cabecilla detrás de esta ola de violencia.
+
+adviser_riot_newsintroheller_1 			El alcalde Calvin Heller acaba de lanzar un comunicado.
+adviser_riot_newsintroheller_2 			Los que  cuestionen nuestras políticas reformas penales, deben tomarse esto como un recordatorio.
+adviser_riot_newsintroheller_3 			Estos hombres tienen techo y comida. Y el privilegio de un trabajo remunerado.
+adviser_riot_newsintroheller_4 			Así es como se recompensa a los contribuyentes que subsidian sus necesidades.
+
+campaigncutscene_riothostages			Rehenes
+adviser_name_riotceo					El Director Ejecutivo
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Escucha. Tenemos a tu Director Ejecutivo.
+adviser_riot_hostages1b 				Euugg… …
+adviser_riot_hostages2 					Así es como funciona. Yo, pido. Tú, das.
+adviser_riot_hostages3					Si surgen problemas, envías a alguien o huelo a un policía, le meto un tiro en la cabeza.
+adviser_riot_hostages4 					Queremos un coche sin matrícula. Con cristales tintados. Depósito lleno. Una hora. Estamos en contacto.
+adviser_riot_hostages5 					Bueno, ¿por dónde íbamos?
+adviser_riot_hostages5b					¿Qué hacías en esa oficina?
+adviser_riot_hostages6					Lo juro, yo no sé nada.
+adviser_riot_hostages7					He visto tantas veces mi reflejo que ya sé cuándo un hombre trama algo.
+adviser_riot_hostages8					¿Qué estabas escondiendo?
+adviser_riot_hostages9					Yo me merezco estar en un sitio así. Pero el chico… ¿qué ha hecho para merecer esto?
+adviser_riot_hostages10					Tú sabes algo y decírmelo es la única forma de salir de aquí con vida.
+
+adviser_riot_hostageheller1 			Esto es inaceptable. Necesitamos ojos en el Comedor para ver lo que está pasando.
+adviser_riot_hostageheller2 			Hay una pequeña habitación de seguridad al norte del comedor. Tenemos que asegurarla.
+adviser_riot_hostageheller3 			Despliega a algunos guardias allí para manejar las cámaras de seguridad y obtener visión sobre el bloque de celdas entero.
+
+objective_Riot_MaxSecCameras			Recupera la habitación de seguridad.
+
+campaigncutscene_riotroulette			Ruleta
+
+adviser_riot_rouletteintro1             Tenemos a un guardia en la habitación de seguridad así que obtendremos imágenes en directo del sistema de cámaras de seguridad.
+adviser_riot_rouletteintro2             Echemos un ojo a la situación.
+adviser_riot_click 						<click>
+adviser_riot_roulette1					Última oportunidad para salir de aquí, jefe. ¿Alguna vez has jugado a la ruleta rusa doble?
+adviser_riot_roulette2 					Dos balas. Cuatro cámaras vacías.
+adviser_riot_roulette2b 				Solía jugar con Jack-imbécil. Le volamos la cabeza.
+adviser_riot_roulette3 					Y contigo será igual.
+adviser_riot_roulette4 					Empecemos con una pregunta simple: ¿qué hacías en esa oficina?
+adviser_riot_roulette5 					Lo juro, no sé nada.
+adviser_riot_roulette5b 				En serio.
+adviser_riot_roulette6 					Bien. ¿Quién va primero? ¿Tú? ¿Yo? ¿Este tío?
+adviser_riot_roulette7					¿Qué sabes? Igual que Jack-imbécil.
+adviser_riot_roulette8 					¿Qué había en esos archivos?
+adviser_riot_roulette9 					¡Lo juro! No lo sé…
+adviser_riot_roulette10 				Se acaba la suerte… Sigue quedando una baja por aquí. Y yo sé lo que vi.
+adviser_riot_roulette11b 				No podía creerlo.
+adviser_riot_roulette11c 				El gran hombretón aquí, en mi cárcel. Con un aspecto de culpable que para qué.
+adviser_riot_roulette11d 				Supongo que en esos archivos había algo más que mi historial.
+adviser_riot_roulette11					Por favor… Por favor, no.
+adviser_riot_roulette11e 				Ya casi no hay probabilidades, Wallace.
+adviser_riot_roulette12 				Mira, te lo pondré más fácil.
+adviser_riot_roulette12b	 			Bueno, basta de tonterías.
+adviser_riot_roulette13 				Es tu turno, idiota. A menos que me digas lo que quiero saber.
+adviser_riot_roulette14 				No puedo, por favor.
+adviser_riot_roulette15 				¡Vale! ¡Por favor! ¡Por favor! No dispares. Era dinero. Era dinero.
+adviser_riot_roulette16 				¿Eso es todo?
+adviser_riot_roulette17 				Vosotros sois nuestros ingresos. Cuánto más estéis aquí, más beneficios sacamos. Estábamos llevándolo al límite.
+adviser_riot_roulette17b				Ese archivo era la prueba.
+adviser_riot_roulette18 				¿Y cuánto valemos? ¿Cuánto ganáis por mantenernos aquí dentro?
+adviser_riot_roulette19 				73 mil dólares al año.
+adviser_riot_roulette20					¿Cada uno? Joder. Ya es hora de que nos des nuestra parte.
+
+campaigncutscene_riotassault 			Infracción
+
+adviser_riot_assault01					Ya basta. Ya va siendo hora de acabar con esto.
+adviser_riot_assault02 					El equipo está preparado.
+adviser_riot_assault03					Quiero mi coche ahora mismo. Wallace viene con nosotros. Si veo cualquier cosa rara, os pasaréis el día recogiendo pedazos de su cuerpo.
+adviser_riot_assault2 					Muy bien, hombretón. Te vienes con nosotros. No se arriesgarán a hacer nada estúpido si vienes con nosotros.
+adviser_riot_assault3 					Ninguno de nosotros saldrá de aquí. No es a ti a quien quieren.
+adviser_riot_assault4 					¿De qué estás hablando?
+adviser_riot_assault5					Yo lo hice por el dinero. Pero ÉL lo hizo por política. Cuanto más largas fuesen las sentencias, más votos ganaría.
+adviser_riot_assault6					¿Qué narices estás diciendo?
+adviser_riot_assault7					El alcalde Heller. Fue su idea. Yo solo le di un empujón.
+adviser_riot_assault7b 					Esos archivos eran la prueba que podría destruir su carrera.
+adviser_riot_assault8					Estás de coña.
+adviser_riot_assault9 					¿Pero qué narices…?
+adviser_riot_assault9b					¡Van a entrar, preparaos!
+adviser_riot_assault10					¡YA TE HE AVISADO!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				El Negociador
+
+adviser_riot_negotiator1 				Esto está fuera de control. Nadie está al mando.
+adviser_riot_negotiator2 				Tenemos varios incidentes y los guardias que quedan no entrarán en los bloques de celdas amotinados. Tenemos que acordonar el perímetro.
+adviser_riot_negotiator3 				Piensa un plan y pon fin a esto antes de que se vaya de las manos.
+adviser_riot_negotiator4 				La policía llegará en cualquier momento.
+
+adviser_riot_firstreinforcements1 		Ha llegado el primer equipo de refuerzos.
+adviser_riot_firstreinforcements2 	 	Estos tíos son Guardias de motines y están bien armados. Utiliza a estos tíos para empezar a recuperar las partes de la prisión amotinadas.
+adviser_riot_firstreinforcements3 		Tenemos algunos paramedicamentos que nos ha dado el hospital cercano.
+adviser_riot_firstreinforcements4 		Te sugiero que los utilices para proporcionar asistencia médica a tus Guardias de motín y recuperar la prisión.
+
+objective_Riot_StopTheRiot 				Detén el motín
+objective_Riot_StopTheRiot_description  Nadie está al mando. Tienes que pensar en qué hacer.
+
+adviser_riot_helleradvice1				Supongo que hablo con el sustituto del Director Ejecutivo.
+adviser_riot_helleradvice2 				Muchas gracias, es un momento difícil, todos estamos pasando por una situación muy tensa. No te  preocupes, tienes todo mi apoyo y puedes utilizar todos los recursos a tu disposición.
+adviser_riot_deployguards1				Hemos obtenido comida y hemos recuperado parte de la prisión. La pérdida humana no ha sido en vano.
+adviser_riot_deployguards2				Pero antes de seguir y recuperar el resto de la prisión, refuerza la seguridad en las partes que has recuperado.
+adviser_riot_deployguards3				Contrata a algunos guardias y asígnalos a los sectores recuperados en la pantalla de Despliegue. Se asegurarán de que no volvamos a perder las partes recuperadas .
+adviser_riot_deployguards4 				Una vez que te hayas ocupado de eso, haz presión en el resto de zonas para someter a esos monstruos. Esos animales no pueden rehabilitarse y no se puede negociar con ellos.
+adviser_riot_deployguards5 				Estoy trabajando en la autorización del equipo de Respuesta Militar para poner fin a esto rápidamente.
+
+adviser_riot_infirmary1 				Hay heridos por toda la prisión y habrá aún más. No puedes dejar que mueran desangrados.
+adviser_riot_infirmary2 				Construye una Enfermería y contrata Médicos para tratar a los heridos.
+adviser_riot_infirmary3 				También hay varios cadáveres. En nombre de su dignidad, tenemos que construir una Morgue y recogerlos.
+adviser_riot_infirmary4					Tendrás que contratar trabajadores para que construyan. Mantenlos a salvo.
+
+objective_Riot_ResecureWings 			Contrata guardias y despliégalos para recuperar todas las zonas.
+objective_riot_medicalneeds				(OPCIONAL) Atiende las necesidades médicas de tu prisión
+objective_Riot_Infirmary				(Opcional) Construye una Enfermería y trata a los heridos.
+objective_Riot_Morgue 					(Opcional) Construye una Morgue y recoge los cadáveres.
+objective_Riot_SecureGenPop				Recupera el ala General (central)
+objective_Riot_SecureSpecialWing		Recupera el ala Especial (oeste)
+objective_Riot_SecureMaxSec				Recupera el ala de Máxima Seguridad (sur)
+objective_riot_putoutfires				Controla el incendio
+
+adviser_riot_secondreinforcements1		Han llegado más Guardias de Motín.
+
+adviser_riot_armedreinforcements1		El Alcalde ha enviado policía armada de una comisaría cercana.
+adviser_riot_armedreinforcements2		Ten cuidado con estos tíos. Podría acabar en un baño de sangre si los dejas sueltos.
+adviser_riot_armedreinforcements3		Aunque si los presos los ven entrar, quizás decidirían rendirse.
+
+adviser_riot_reinforcementsunlocked1 	Ha llegado el equipo principal de refuerzos.
+adviser_riot_reinforcementsunlocked2 	Ahora puedes desplegar a tantas patrullas de Policía de motín y Paramédicos como quieras en la barra de herramientas de Emergencias.
+
+adviser_riot_cleanup1                   Las instalaciones están bajo control. Los amotinados se han rendido. Podría haber sido mucho peor.
+adviser_riot_cleanup2                   Tenemos que limpiar esto en profundidad. Te agradecería que echases una mano, si tienes tiempo.
+adviser_riot_cleanup2b 					No tenemos operarios en la zona así que primero tenemos que contratar trabajadores para arreglar el desastre.
+adviser_riot_cleanup3                   Siempre pensé que la seguridad aquí era muy floja. Estos reclusos tienen demasiada libertad. Eso se acabó.
+adviser_riot_cleanup4                   Quiero construir una Armería y desplegar guardias armados en posiciones clave. Ese panorama someterá a los reclusos y se lo pensarán dos veces antes de volver a montar semejante jaleo.
+adviser_riot_cleanup5                   También voy a aprobar unos fondos para proporcionarles armas a nuestros guardias. Nuestros hombres deben poder defenderse.
+adviser_riot_cleanup6                   Continuemos. Estos presos necesitan disciplina. Orden en sus vidas. Sugiero que los pongamos a trabajar recogiendo el desastre que han provocado.
+adviser_riot_cleanup7                   Empieza un programa laboral para nuestros reclusos y ponlos a trabajar limpiando la prisión y haciendo la colada.
+adviser_riot_cleanup7b                  Puedes asignar presos a un trabajo en la barra de herramientas, debajo de Logística. Selecciona el objetivo para información más detallada.
+adviser_riot_cleanup8                   Tenemos otros requerimientos. Hay muchos presos que necesitan que se les enseñe los errores que han cometido. Construye un ala de Aislamiento.
+adviser_riot_cleanup8b                  Nuestros guardias se ocuparán de trasladar a los reclusos a Aislamiento si se necesita. El Aislamiento les da a los reclusos tiempo para reflexionar sobre lo que han hecho y les recuerda quién está al mando aquí.
+adviser_riot_cleanup9                   No olvidemos al personal que nos ha ayudado a restaurar el orden. Están exhaustos.
+adviser_riot_cleanup9b 					Construye una sala donde puedan descansar.
+adviser_riot_cleanup10                  Finalmente, tenemos que presupuestar todo esto. Asegúrate de que tenemos saldo positivo y efectivo.
+adviser_riot_cleanup10b 				La mano de obra prisionera es mucho más barata que contratar a personal externo para limpiar, hacer de conserjes y hacer la colada.
+adviser_riot_cleanup11                  Hay mucho que hacer. Te agradecemos tu ayuda.
+adviser_riot_cleanup12                  Cuando creas que ya has hecho suficiente y quieras continuar, pulsa en la polaroid al lado de la entrada principal.
+
+adviser_riot_cleanup13 					Excelente trabajo, creo que la seguridad de estas instalaciones es mucho mayor ahora.
+
+objective_riot_solitary 				(OPCIONAL) Construye un ala de Aislamiento y empieza a castigar a los amotinados
+objective_riot_armoury 					(OPCIONAL) Implementa nuevos protocolos de seguridad
+objective_riot_armoury_research			Desbloquea la Armería con Burocracia
+objective_riot_armoury_build 			Construye una Armería (en un lugar seguro)
+objective_riot_armoury_deploy			Contrata guardias en el ala de Máxima Seguridad
+objective_riot_armoury_armour 			Desbloquea armas para todo el personal
+objective_riot_armoury_tazers 			Desbloquea tasers para todos tus guardias armados
+objective_riot_staffroom 				(OPCIONAL) Construye una Sala de Personal para tus trabajadores exhaustos.
+objective_riot_balancebooks 			(OPCIONAL) Gestiona las cuentas
+objective_riot_balancebooks_balance 	Balance bancario positivo
+objective_riot_balancebooks_cashflow 	Efectivo positivo
+objective_riot_prisonerwork				(OPCIONAL) Establece un programa de trabajos forzosos
+
+objective_riot_cleaningcupboard			Construye una despensa de limpieza
+objective_riot_laundry					Construye una Lavandería
+objective_riot_inmatesincleaning 		Asigna reclusos al trabajo de Limpieza
+objective_riot_inmatesinlaundry			Asigna reclusos al trabajo de la Lavandería
+objective_riot_cleanprison 				Limpia la prisión
+objective_riot_providelaundry			Proporciona ropa limpia
+
+objective_riot_armoury_research_description		El icono de burocracia está justo encima de la lista de tareas pendientes. Pulsa para comenzar a trabajar en la Armería, tu Director hará el papeleo.
+objective_riot_armoury_deploy_description       Para desplegar guardias armados,  ve a la pantalla de Despliegue y luego a Patrullas Armadas. Pulsa y arrastra patrullas a los lugares que desees y luego pulsa de nuevo en las patrullas para asignar guardias armados.
+objective_riot_armoury_guardtazers_description  Mira en Informes/Programas, verás, Entrenamiento de Taser para Guardias.\n\nTus guardias necesitan entrenamiento antes de usar los tasers. Tienes que construir una Clase donde puedan entrenarse.
+objective_riot_prisonerwork_description         Para asignar presos a un trabajo, ve a la pantalla de Logística y luego, a Trabajos de presos. Pulsa para añadir trabajos a cualquier sala resaltada en verse.\n\nTienes que especificar cuándo trabajarán los presos. Ve a Informes/Régimen y añade varias horas de trabajo a lo largo del día. Los reclusos trabajarán si hay trabajos disponibles en esas horas.
+
+objective_Riot_PlayerExitsMap			Pulsa en la polaroid fuera de la entrada principal cuando hayas terminado.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Asalto
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   Visita
+campaigncutscene_convictionsuicide      Suicidio
+
+campaignchapter_conviction              Condena
+campaignchapter_conviction_description  Uno de nuestros reclusos está en vigilancia por suicidio, Henry Morgan, el compañero de fechorías de Benedict. Lleva cumplidos trece meses de una condena de cinco años. Ayúdanos a cuidar de estos hombres.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senador Walter Hurst
+adviser_name_detective                  Detective de Policía
+adviser_name_kerry 						Kerry Morgan
+adviser_name_hurst 						Doctor Walter Hurst
+adviser_name_keane 						Oficial Keane
+
+adviser_conviction_heist1               Coge el dinero, chico.
+adviser_conviction_heist2               Tirad vuestras armas, ¡ya!
+adviser_conviction_heist2b				¡Mierda!
+adviser_conviction_heist3               ¡Dispara, joder!
+adviser_conviction_heist4               ¿A qué narices estás esperando? ¡Dispara de una vez, nenaza!
+adviser_conviction_heist6               ¡Cabrones!
+adviser_conviction_heist7               ¡No dispares! ¡No dispares!
+adviser_conviction_heist8               ¡MANOS ARRIBA, IMBÉCILES!
+adviser_conviction_heist9               Haced exactamente lo que yo diga, ¿entendido?
+adviser_conviction_heist10              ¡Mierda, mierda! ¡MIERDA!
+adviser_conviction_heist11              ¡No dispares! ¡NO DISPARES!
+
+conviction_intro_1                      Tras la tragedia en la Prisión Estatal de Alchemico, nos sumimos en un escrutinio político.
+conviction_intro_2                      Hasta que se encuentre un sustituto permanente para el puesto de Director Ejecutivo, me gustaría que tú tomases las riendas.
+conviction_intro_3                      Ha habido varios suicidios en las instalaciones y no es difícil saber el por qué. Pero tenemos un problema más inmediato.
+conviction_intro_4                      Han decidido enviarnos un elevado número de nuevos reclusos. Los primeros llegarán mañana y no tenemos dónde alojarlos.
+conviction_intro_5                      Necesitamos que construyas un bloque de celdas nuevo con espacio suficiente para poder acoger a los nuevos reclusos.
+conviction_intro_5b 					He preparado un diseño potencial para el nuevo bloque de celdas. Nos dará suficientes celdas para acoger a los nuevos reclusos y el diseño incluye duchas propias.
+conviction_intro_5c 					Pero depende de ti utilizar este diseño o hacer algo diferente.
+conviction_intro_6                      Mi trabajo es priorizar el bienestar de estos hombres. Primero, construye el bloque de celdas y luego hablaremos de cómo conseguir su bienestar.
+
+unused_conviction_intro_4                      Uno de nuestros reclusos está bajo vigilancia por suicidio. Henry Morgan, el compañero de fechorías de Benedict. Lleva trece meses de una condena de cinco años.
+unused_conviction_intro_7						Quiero ir a hablar con él. No podemos tener otro suicidio.
+
+conviction_workintro1                   Llevamos tratando como a una mierda a estos hombres mucho tiempo. Se acabó.
+conviction_workintro2                   El Director Ejecutivo anterior nunca creyó en la reinserción de los presos. Pero desde mi punto de vista, tenemos que darles a estos hombres una esperanza de futuro.
+conviction_workintro3                   Tenemos que darles las habilidades que necesitan para triunfar cuando queden libres, habilidades válidas, una educación básica.
+conviction_workintro4                   Deberíamos empezar por un sistema de aprendizaje, entrenarlos con habilidades del mundo real para que al menos tengan un futuro esperanzador.
+
+
+conviction_hurst1 						La falta de compromiso en esta instalación es tremenda. Los hombres están privados de cualquier derecho.
+conviction_hurst2 						No se les muestra ni compasión ni respeto.
+conviction_hurst3 						No se merecen esto.
+conviction_hurst4 						Cierto, Capitán. No se puede tratar así a un sr humano. Les han privado de todos sus derechos.
+conviction_hurst4b 						¿Por qué iban a seguir las normas? No puedes esperar que respondan bien si los tratas así.
+conviction_hurst4c						Necesitamos clases, programas de rehabilitación. Un taller para que puedan empezar a desarrollar sus habilidades.
+conviction_hurst6 						Me ha malinterpretado, Doctor. Estos hombres no son humanos. Mire.
+conviction_hurst6b 						En pie, Morgan.
+conviction_hurst7 						Tienes visita.
+conviction_hurst8 						¿Rehabilitación? Mejor enseñe a monos a tocar el banjo.
+
+conviction_hurst10 						¿Cómo te llamas, hijo?
+conviction_hurst10b                     Te han hecho una pregunta.
+conviction_hurst11 						Henry, señor.
+conviction_hurst12 						Hace mucho frío aquí abajo, Henry. Ponte esto.
+conviction_hurst13 						Hay piojos en la cama, señor. Me comen vivo. La camiseta mantiene alejadas a las ratas. Son las más grandes que he visto nunca.
+conviction_hurst14 						Llámame Walter.
+conviction_hurst15 						¿Duermes bien?
+conviction_hurst16 						No duermo. Lo único que hago aquí es pensar. Mucho tiempo para pensar.
+conviction_hurst16b                     ¿Y en qué piensas?
+conviction_hurst16c                     En matarme, sobre todo. Y en mi hija.
+conviction_hurst17 						Necesitará que seas fuerte, Henry. Esto también es duro para ella.
+conviction_hurst18 						Entre rejas toda su vida. Ni si quiera sabe que existo.
+conviction_hurst19 						Nunca es tarde para cambiar de vida, Henry.
+conviction_hurst19b 					Me gustaría venir a verte de nuevo, si quieres.
+conviction_hurst20 						Sí, señor. Gracias, señor.
+conviction_hurst21 						¿Podemos hacer algo con lo de las ratas? Esto no es el tercer mundo.
+conviction_hurst22 						Conseguiré matarratas.
+
+conviction_visitationintro_1            He conseguido convencer al jefe para hacer una excepción con las visitas de la familia de Morgan.
+
+conviction_visitation_0					Hola, señor. Kerry Morgan, he venido a ver a Henry Morgan.
+conviction_visitation_1					Detrás de la línea.
+conviction_visitation_2 				Lo siento. He venido a ver a Henry. Henry Morgan. Es mi marido, señor.
+conviction_visitation_3 				No lo volveré a repetir. Detrás de la línea. Ya.
+conviction_visitation_4 				Sí, señor. Lo siento, señor.
+conviction_visitation_5 				Vale, avance, no tengo todo el día.
+conviction_visitation_6					Nombre.
+conviction_visitation_7					Kerry Morgan. Vengo a ver a Henry Morgan. Y esta es su hija.
+conviction_visitation_8					O eso dice usted, ¿no? Venga, avance.
+conviction_visitation_8a                ¡Kerry!
+conviction_visitation_9					Me temo que ha habido un error. Morgan ha perdido sus privilegios con las visitas.
+conviction_visitation_9b 				¿Qué?
+conviction_visitation_9c 				Lo siento. Encontramos alcohol en su celda esta mañana. No puedo hacer nada.
+conviction_visitation_10				He tardado dos horas en llegar. Mi hija está llorando. No es justo.
+conviction_visitation_11				Si quieres justicia, vete a Disneyland. La justicia solo existe en el mundo de la piruleta. Aquí no hay de eso.
+conviction_visitation_12				Por favor, dele esto.
+conviction_visitation_13                Claro. No tendrá visitas en bastante tiempo. ¿Algún mensaje?
+conviction_visitation_14                No. Ningún mensaje.
+
+conviction_visitation_angrymorgan0		¡No!
+conviction_visitation_angrymorgan1		¡Espere!
+conviction_visitation_angrymorgan2		¡No puede hacer esto!
+conviction_visitation_angrymorgan3		¡Déjeme hablar con ella!
+conviction_visitation_angrymorgan4		¡Malditos cabrones!
+
+conviction_helpinmates_1                Es una pena.
+conviction_helpinmates_2                Es muy difícil encontrar formas de ayudar a estos hombres. Necesitan que les enseñemos a ayudarse a sí mismos.
+conviction_helpinmates_3                Está caro que tenemos que solucionar lo de las visitas. Las familias hacen cola en la puerta y no podemos manejar el alto volumen de visitantes que tenemos.
+conviction_helpinmates_4                Construye una nueva instalación de visitas. A pesar de lo que ha pasado con Morgan, creo que sacaremos algo positivo. Y él no es el único recluso con familia que tenemos…
+conviction_helpinmates_5                He estado investigando y me he sorprendido al descubrir que muchos de estos reclusos solo tienen conocimientos de lectura y de matemáticas básicos. Tenemos que poner remedio a esto.
+conviction_helpinmates_6                Abre una instalación con clases. Empecemos a traer profesores externos para enseñar lo básico. Sin educación, estos reclusos no tienen esperanza de una vida sin crimen.
+conviction_helpinmates_7                Tenemos que mantener el flujo de reclusos elevado. Sigue expandiendo nuestras instalaciones para que cada recluso tenga una celda decente.
+
+conviction_outro1                       Creo que estamos marcando la diferencia. Les hemos dado a estos reclusos algo en lo que trabajar y una razón para seguir adelante.
+conviction_outro2                       Puedes quedarte a ver qué tal les va al primer grupo de reclusos en los programas de educación y trabajo que hemos preparado, si quieres.
+conviction_outro3                       Pero creo que podemos arreglárnoslas ya solos. Cuando estés listo para continuar, pulsa en la polaroid de la celda de Morgan
+
+conviction_secondvisit_1                Esperaba verte en una de mis sesiones.
+conviction_secondvisit_2                No puedo. No puedo quedarme en este agujero más tiempo.
+conviction_secondvisit_3                Vete día a día.
+conviction_secondvisit_4                Me refiero a este sitio, entero. Aquí dentro. Allí fuera. No me dejan ver a mi familia. Estoy muy mal, señor. No puedo hacer nada.
+conviction_secondvisit_5                Henry, todo irá bien. Yo estoy contigo.
+conviction_secondvisit_6                Es curioso. Él dijo lo mismo.
+conviction_secondvisit_7                ¿Quién, Henry? Puedes contármelo.
+conviction_secondvisit_8                Cuidaba de mí.
+conviction_secondvisit_9                Desde que éramos niños.
+conviction_secondvisit_10               Estamos juntos. Pase lo que pase, chico.
+conviction_secondvisit_11               Yo estoy contigo.
+conviction_secondvisit_11b 				¿Conmigo?
+conviction_secondvisit_12               Ya no está conmigo.
+conviction_secondvisit_13               Te propongo un trato. Ven a mi próxima sesión y veré lo que puedo hacer por devolverte los privilegios de las visitas.
+conviction_secondvisit_14               ¿Haría eso por mí, señor?
+conviction_secondvisit_15               No solo por ti, Henry.
+
+conviction_suicide_1 					Lo siento, señor, pensé que debería saberlo. Ha habido otro suicidio.
+conviction_suicide_2					Parece que uno de los reclusos ha bebido matarratas.
+conviction_suicide_3					El Doctor Hurst está viniendo para certificar la muerte.
+conviction_suicide_4					¿No es lo más hermoso que has visto?
+conviction_suicide_5					Sí, lo es.
+conviction_suicide_6					Nunca es tarde para cambiar, señor.
+
+objective_conviction_expandcapacity50			Gestiona la acogida de nuevos reclusos.
+objective_conviction_expandcapacity50_description	Puedes ver un diseño potencial para el nuevo bloque de celdas en la pantalla de Planificación de la barra de herramientas principal.
+objective_conviction_expandcapacity_cells	 	Construye celdas para 40 reclusos
+objective_conviction_expandcapacity_shower		Construye unas duchas
+objective_conviction_expandcapacity_yard		Construye un patio
+objective_conviction_expandcapacity_intake		Espera a que los nuevos reclusos lleguen
+
+objective_conviction_workprogram 				Elabora un programa de desarrollo de habilidades
+objective_conviction_unlocklabour				Autoriza el sistema de Trabajos de Presos a través de Burocracia
+objective_conviction_work_trainkitchen			(OPCIONAL) Entrena a 5 reclusos en Seguridad en la Cocina e Higiene
+objective_conviction_work_kitchen				Asigna reclusos para trabajar en la cocina
+objective_conviction_work_workshop				Construye un taller
+objective_conviction_work_trainworkshop			(OPCIONAL) Coloca a 10 reclusos en el programa de Introducción a la Seguridad
+objective_conviction_work_assignworkshop		Asigna reclusos para trabajar en el taller
+objective_conviction_work_produceplates			(OPCIONAL) Produce matrículas de coche
+objective_conviction_work_exportszone			Asigna una zona de exportación cerca de la carretera
+objective_conviction_work_setintake             Establece el nivel de acogida de presos en 10
+
+objective_conviction_unlocklabour_description	Puedes encontrar la pantalla de Burocracia pulsando en el icono encima de la lista de tareas pendientes.
+objective_conviction_work_kitchen_description	 Para asignar reclusos a la cocina, ve a Logística y luego, a Trabajos de presos.\n\nTus presos deben haber hecho el curso de Seguridad en la Cocina e Higiene antes de trabajar en la cocina.
+objective_conviction_work_assignworkshop_description 	Para asignar presos al taller, ve a Logística y luego, a Trabajos de presos.\n\nTus reclutas deben haber hecho el curso de Introducción a la Seguridad en el Taller antes de trabajar en el taller.
+objective_conviction_work_trainkitchen_description 		Para llevar a cabo cursos y programas de reformas, ve a Informes (esquina inferior derecha) y luego, a Programas. Los reclusos asistirán a estos programas durante sus horas de trabajo asignadas.\n\nTendrás que asignar dos horas de trabajo en la pantalla de Régimen, si no, los reclusos no tendrán tiempo de ir a los programas de entrenamiento.
+objective_conviction_work_trainworkshop_description 	Para llevar a cabo cursos y programas de reformas, ve a Informes (esquina inferior derecha) y luego, a Programas. Los reclusos asistirán a estos programas durante sus horas de trabajo asignadas.\n\nTendrás que asignar dos horas de trabajo en la pantalla de Régimen, si no, los reclusos no tendrán tiempo de ir a los programas de entrenamiento.
+objective_conviction_work_setintake_description         Para asegurarte de que tu prisión no esté saturada, ve a Informes (esquina inferior derecha) y luego a Entrada y utiliza el botón << para colocar el nivel de entrada en 10.
+
+objective_conviction_visitation				Establece un sistema de visitas mejor
+objective_conviction_visitationroom	Construye un nuevo centro de visitantes
+objective_conviction_visitationcount		Facilita a 20 reclusos visitas familiares
+objective_conviction_telephones	 			Añade teléfonos a todas las instalaciones
+objective_conviction_mailroom				Construye una Sala de Correos
+objective_conviction_mailroomwork			Asigna a reclusos para trabajar en la Sala de Correos
+
+objective_conviction_mailroomwork_description           Para asignar a reclusos  a la Sala de Correos, ve a Logística y luego, a Trabajos de presos
+
+objective_conviction_education				Empieza a educar reclusos
+objective_conviction_unlockeducation		Autoriza la Educación a través de la Burocracia
+objective_conviction_education_classroom	Construye una clase
+objective_conviction_education_class 		Lleva a cabo una clase de Educación para Cimentaciones
+objective_conviction_education_learn		(OPCIONAL) Haz que 5 reclusos aprueben la clase de Educación para Cimentaciones
+objective_conviction_education_library		Construye una biblioteca
+objective_conviction_education_librarywork	Asigna reclusos para que trabajen en la biblioteca
+objective_conviction_education_chapel		Construye una capilla
+objective_conviction_education_spiritual	Lleva a cabo una clase de Guía Espiritual
+
+objective_conviction_expandcapacity100			Expande la capacidad de la prisión
+objective_conviction_expandcapacity_cells100	Expande a 80 celdas la capacidad
+objective_conviction_expandcapacity_cells200	(OPCIONAL) Expande a 120 celdas la capacidad
+
+objective_Conviction_PlayerExitsMap         Pulsa en la polaroid de la celda de Morgan cuando termines.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Trabilla
+campaigncutscene_epilogueintro          Revisita
+campaigncutscene_epilogueoutro          Epílogo
+
+campaignchapter_epilogue_description    Una prisión histórica para demoler y recolocar. Utiliza todas las habilidades que has adquirido para crear las instalaciones definitivas.
+
+adviser_name_reporter 					Reportero
+
+epilogue_newsintro1 					Hoy en el informativo, un reportaje especial sobre nuestras prisiones.
+epilogue_newsintro2 					Hace dos años del horrible motín de Alchemico que se llevó tantas vidas, incluyendo la del Director Ejecutivo, Charles Wallace.
+epilogue_newsintro4 					Hoy hemos hablado con expertos y les hemos preguntado si algo ha cambiado desde ese trágico suceso.
+epilogue_newsintro5 					Primero, conectaremos en directo con una de nuestras prisiones más longevas, pendiente de demolición.
+epilogue_newsintro6						Ahora, en directo, en el informativo.
+
+epilogue_reporter1						Gracias, Sarah. Esta en prisión ha acogido a muchos de los más infames criminales del país.
+epilogue_reporter2 						Pero ahora, sus paredes serán demolidas, listas para sustituirse por un nuevo complejo.
+epilogue_reporter3 						Si miran detrás de mí, podrán ver que los trabajadores ya han llegado y la demolición ha empezado.
+epilogue_reporter4 						Conmigo se encuentra el alcalde de la ciudad, Calvin Heller. Gracias, señor Heller por aceptar a hablar con nosotros.
+epilogue_reporter5 						Un placer.
+
+epilogue_reporter6 						Usted siempre ha sido partidario de una gestión de la prisión más dura y disciplinada.
+epilogue_reporter6b 					¿Por qué demoler unas instalaciones que han definido durante tanto tiempo su visión de la prisión?
+epilogue_reporter7 						Tanto la prisión como las operaciones se han quedado anticuadas.
+epilogue_reporter8 						Tomamos la decisión de reemplazar todas las instalaciones por unas nuevas. Con una política más moderna.
+epilogue_reporter9						La prisión salió en los informativos hace unos años como la última en la que se llevaban a cabo ejecuciones en este estado.
+epilogue_reporter10 					Los votantes han pedido durante mucho tiempo que se elimine la pena de muerte aquí. ¿Satisfará sus deseos o reconstruirá las instalaciones de ejecución?
+epilogue_reporter12 					Eso está aún por decidir. No es una decisión fácil de tomar.
+
+epilogue_reporterend1 					Gracias, alcalde Heller. Devolvemos la conexión.
+epilogue_newstransition1 				Informativo en directo desde nuestro sistema penitenciario.
+epilogue_newstransition2 				Después de la pausa, hablaremos con el Doctor Walter Hurst, un especialista en psicología y rehabilitación de reclusos.
+
+epilogue_parole1 						¿Aún  nada? ¿Cuánto tiempo va ya?
+epilogue_parole2						He perdido la cuenta. Ni una llamada. Ni una carta.
+epilogue_parole3 						Lo siento, Morga. Debe ser duro. Pero tienes una oportunidad. No lo estropees.
+epilogue_parole4 						Henry. Buena suerte.
+epilogue_parole5 						No les digas lo que crees que quieren oír.
+epilogue_parole6 						Tengo que hacerlo. Estaré en directo en un minuto.
+epilogue_parole7                        Alcalde Heller, ¿cuál es su opinión?
+epilogue_parole10 						¡Ha sido rápido?
+epilogue_parole11 						¿Y bien?
+epilogue_parole12                       …
+
+epilogue_outro_1 						Bienvenidos de nuevo a esta edición especial del informativo, en directo con el alcalde Calvin Heller.
+epilogue_outro_2 						Estamos con el Doctor Walter Hurst, que ha sido acusado de derrochar grandes cantidades de dinero en reformas en la prisión.
+epilogue_outro_2b 						Doctor Hurst, ¿cree que ha conseguido en éxito?
+epilogue_outro_3						¿El éxito? En general, no.
+epilogue_outro_4						Creo que todo el mundo tiene potencial para mejorar. Tenemos que darles una oportunidad.
+epilogue_outro_4b 						Puedo afirmar con total convicción que he visto una gran mejora en la actitud y esperanzas de muchos de estos reclusos.
+epilogue_outro_5						La encarcelación debe ser una medida disuasoria. No debe ser una oportunidad para el desarrollo o cambio,.
+epilogue_outro_6 						Castigar y deshumanizarlos durante su experiencia solo sirve para nutrir la delincuencia.
+
+epilogue_outro_7						Les damos a estos hombres habilidades necesarias y lo que es más importante: esperanza.
+epilogue_outro_7b  						Los ayudamos a integrarse de nuevo en la sociedad y los ayudamos una vez que salen libres.
+epilogue_outro_8						Los ciudadanos de a pie no tienen entrenamiento gratuito. Educación gratuita. Trabajo remunerado garantizado.
+epilogue_outro_8b 						Estamos perjudicando a las víctimas del crimen y recompensando a los criminales.
+epilogue_outro_8c 						Gastando grandes sumas de dinero simplemente para hacer que estos delincuentes se sientan bien consigo mismos.
+epilogue_outro_9						Podemos marcar la diferencia, incluso con solo un individuo de cada vez.
+epilogue_outro_10						Estos hombres no se han ganado la libertad ni sus derechos.
+epilogue_outro_11						Puedes decirle cien veces a un gato que deje en paz a los periquitos de tu jardín. Pero siempre volverá.
+epilogue_outro_12 						Es su naturaleza.
+
+epilogue_sandbox_1                      Quiero felicitarte por tu nombramiento como Director Ejecutivo. Es una oportunidad. Es un nuevo comienzo.
+epilogue_sandbox_2                      Tendrás completa autonomía, más o menos. Más reclusos. Un índice de reincidentes mayor. Tendrás muchos retos por superar.
+epilogue_sandbox_3						Y en cuanto a las instalaciones de ejecución, derríbalas. O mantenlas y haz un buen uso con ellas. Depende de ti. Otra persona se ocupará de eso si tú no lo haces.
+epilogue_sandbox_4						En cuanto a los objetivos, te daré los mismos que a tu predecesor. Beneficios, índices de reincidencia, capacidad…
+epilogue_sandbox_5 						Depende totalmente de ti cómo conseguirlos.
+epilogue_sandbox_5b                     Una última cosa. El anterior Director Ejecutivo, Charles Wallace, dejó una carta que daba a cualquier nuevo arquitecto que se unía al equipo.
+epilogue_sandbox_5c                     Son buenos consejos. Puede que te sea útil.
+epilogue_sandbox_6						¡Buena suerte!
+
+objective_epilogue_grants				Consigue dinero a través del sistema de Subvenciones
+objective_epilogue_grants_description   Las Subvenciones son uno de los primeras formas de conseguir las grandes cantidades de dinero que necesitas para construir una prisión.\n\nPuedes encontrar todas las opciones de subvenciones en Informes (esquina inferior derecha) debajo de Subvenciones. Varias agencias ofrecerán fondos para construir partes específicas de tu prisión desde cero.
+
+objective_epilogue_certifiedprison		Construye una prisión
+objective_epilogue_capacity				Al menos, 100 reclusos
+objective_epilogue_bankbalance			Cuenta bancaria con al menos $100.000 
+objective_epilogue_cashflow				Efectivo positivo
+
+epilogue_outrointro_1                   Veo que has empezado bien.
+epilogue_outrointro_2                   Si estás cerca de una televisión, enciéndela. Quiero que veas algo.
+
+epilogue_basiccompletion_1 				Has conseguido los requerimientos mínimos para una prisión estatal. El rumbo que tomes ahora depende de ti.
+epilogue_basiccompletion_2 				En este punto, depende completamente de ti y de tu compañía cómo proceder.
+epilogue_basiccompletion_3 				En la oficina del alcalde solo hay un número que nos importa, y ese es el del índice de reincidentes.
+epilogue_basiccompletion_4	 			Si reduces el índice de reincidencia entre tus presos, sería todo un éxito.
+epilogue_basiccompletion_5 				Gente como el Doctor Hurst cree que solo puedes conseguirlo a través de educación, reformas, entrenamiento y cosas así.
+epilogue_basiccompletion_6 				En mi opinión, las penas son un método igual de eficaz.
+epilogue_basiccompletion_8 				Depende de ti. ¡Te deseo buena suerte!
+
+objective_epilogue_reoffending			(OPCIONAL) Reduce el índice de reincidencia de la prisión.
+objective_epilogue_reoffending_description	Puedes comprobar que disminuye el índice de reincidencia en la pantalla de Niveles de Prisión. Pulsa en el icono en la esquina superior izquierda de la pantalla.
+
+objective_epilogue_reoffending_rate		Reduce el índice de reincidencia a al menos el 30%.
+objective_epilogue_reoffending_released	Libera al menos a 10 presos.
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Exportar Prisión para Minecraft
+codex_mcexportname						Exportador de Minecraft
+codex_worldnametitle					Nombre del Mundo
+codex_seedtitle							Seed
+codex_gamemodetitle						Modo de juego
+codex_mapfeattitle						Características del mapa
+codex_cheatstitle						Trucos
+codex_timeofdaytitle					Tiempo del Día
+codex_rainingtitle						Lluvia
+codex_thunderingtitle					Tormenta
+codex_generatortitle					Generador
+codex_scaletitle						Escala
+codex_exporttomc						Exportar
+codex_mcexport_default					Por defecto
+codex_mcexport_flat						Plano
+codex_mcexport_largebiomes				BiomaGrande
+codex_mcexport_survival					Superviviente
+codex_mcexport_creative					Creativo
+codex_mcexport_adventure				Aventura
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Escapa - es tú única vía de salida
+escapemode_help                         Paso Uno: Reputación: Tu reputación lo es todo aquí\n\n• Aumenta tu reputación empezando peleas. Herir a la gente te dará importancia pero romper cosas es un buen comienzo. Cuánto más daño causes en una pelea, mejor.\n• No dejes testigos. Si un guardia te ve peleándote, te castigarán a menos que los elimines, claro.\n• Que te dejen KO no es bueno. Será mejor que acabes las peleas por tu propio pie.\n\nPaso dos: Pandilla: Recluta a otros presos para unirse a ti en tu intento de escape.\n\n• Silba para llamarlos y te seguirán adonde quiera que vayas. (Pulsa en su nombre en la esquina superior izquierda.)\n• Incluso se unirán a ti en las peleas, lo que ayudará a aumentar tu reputación más rápido.\n• Entrena a tu pandilla. Bueno, nunca sabes cúando te será útil tener de tu lado a un buen luchador o a un buen corredor.\n\nPaso tres: Contrabando: Necesitarás armas y herramientas\n\n• Busca una sala donde puedas encontrar lo que necesites. Echa un vistazo alrededor y encontrarás rápidamente algo útil que puedas robar.\n• Cuidado con los detectores de metal y guardias intentando localizarte. Si te descubren con algo, te lo requisarán y te llevarán a aislamiento.\n• Oculta tu equipamiento. Puedes esconder tus hallazgos en tu celda o en las celdas de otros, pero recuerda dónde dejas cada cosa.\n\nPaso cuatro: Túneles: La forma de salida silenciosa\n\n• Coge una herramienta para cavar y empieza un túnel desde el retrete de tu celda.\n• Cavar es una actividad lenta. Haz que los miembros de tu pandilla te ayuden a cavar.\n• Que no te descubran. Si un guardia te ve entrando o saliendo de un túnel, estás perdido.\n\nBuena suerte. La necesitarás.
+
+codex_escapemode                        Modo Escape
+codex_escapemode_developer              (Desarrollador) Modo Escape
+codex_escapemode_new                    Nuevo Intento de Escape
+codex_escapemode_load                   Cargar Intento de Escape
+codex_escapemode_save                   Guardar Intento de Escape
+codex_escapemode_workshop               Modo de Escape (Workshop de Steam)
+codex_escapemode_workshop_star_rating   *S Estrellas o más
+
+escapemode_combat_attack                Atacar
+escapemode_combat_attack_button         Ratón izquierdo
+escapemode_combat_lunge                 Embestir
+escapemode_combat_lunge_button          Shift
+escapemode_dig_button                   Mantener pulsado ratón izquierdo
+escapemode_dig                          Cavar
+escapemode_surrender                    Rendirse
+escapemode_surrender_safe               Terminar pelea
+escapemode_surrender_button             Espacio
+
+escapemode_gameover                     Fin del juego
+
+escapemode_reputation_points            Puntos de Rep.
+escapemode_reputations_cost             *C Puntos de Rep.
+escapemode_reputations_max              MAX
+
+escapesquad_squad_member                Miembros de la pandilla
+escapesquad_recruitment                 Mantén pulsado el ratón derecho para reclutar
+escapesquad_recruitment_cost            Coste de Puntos de Rep:*C
+escapesquad_toggle_follow               Alternar seguimiento
+escapesquad_nameplate_following         Siguiendo
+escapesquad_skip_punishments            Saltarse los castigos
+escapesquad_skip_punishments_tooltip    Gasta puntos de rep. para que todos los miembros de tu pandilla duerman durante sus castigos y se despierten en sus celdas.
+escapesquad_sleep                       Dormir
+escapesquad_sleep_tooltip               Pulsa para dormir durante la noche.
+escapesquad_reputations                 Reputaciones
+escapesquad_reputations_tooltip         Gasta puntos de rep. para mejorar las habilidades de lucha de tu pandilla.
+escapesquad_follow_mode                 Modo de seguimiento
+escapesquad_follow_mode_tooltip         Los presos en modo de seguimiento seguirán y copiarán tus malas conductas.\n\nUtiliza R para alternar el modo de todos los presos a la vez.
+escapesquad_remove_member               Eliminar miembro de la pandilla
+escapesquad_remove_member_tooltip       Pulsa para eliminar a este miembro de tu pandilla
+escapesquad_escaped                     Escapar
+
+escapemode_info_right_click             Ratón derecho
+escapemode_info_hold_right_click        Mantener pulsado el ratón derecho
+escapemode_info_stash                   para pasar contrabando
+escapemode_info_pick_up                 para recoger contrabando
+escapemode_info_start_tunnel            para empezar un túnel
+escapemode_info_enter_tunnel            para entrar en un túnel
+escapemode_info_exit_tunnel             para salir de un túnel
+escapemode_info_dig_up                  para cavar
+escapemode_info_steal                   para robar
+
+escapemode_info_tool                    [Herramienta para cavar]
+escapemode_info_damage                  Daño: *D
+escapemode_info_recharge                Tiempo de recarga: *T
+
+escapemode_gameover                     Fin del juego
+escapemode_gameover_squad_title         Pandilla
+escapemode_gameover_casualties_title    Víctimas
+escapemode_gameover_totalscore_title    Puntuación total
+escapemode_gameover_totaltime_title     Tiempo
+escapemode_gameover_time_days           *D Días, *H Horas y *M Minutos
+escapemode_gameover_time                *H Horas y *M Minutos
+
+codex_workshop_select_random_prison     Entrenamiento aleatorio
+codex_workshop_searching                Buscando
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         Biblia del juego
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              PÁGINA *X
+codex_gamebible_doublepage              PÁGINAS *X - *Y
+object_collectable                      Página de la libreta
+

@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              Nová hra
+dialog_load                             Načíst
+dialog_save                             Uložit
+dialog_saveas                           Uložit jako
+dialog_delete                           Smazat
+dialog_width                            Šířka
+dialog_height                           Výška
+dialog_name                             Název
+dialog_type                             Typ
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                Š
+dialog_h                                V
+dialog_exit                             Odejít
+dialog_cancel                           Zrušit
+dialog_ok                               OK
+dialog_open                             Otevřít
+dialog_close                            Zavřít
+dialog_closed                           Zavřeno
+dialog_add                              Přidat
+dialog_up                               Nahoru
+dialog_down                             Dolů
+dialog_yes                              Ano
+dialog_no                               Ne
+dialog_loading                          Načítání...
+dialog_low                              Nižší
+dialog_medium                           Střední
+dialog_high                             Vyšší
+dialog_none                             Nic
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Editor dialogů
+dialogeditor_back                       Dozadu
+dialogeditor_front                      Dopředu
+dialogeditor_reloadlanguage             Znovu načíst jazyk
+dialogeditor_test                       Test
+dialogeditor_window                     Okno
+dialogeditor_grid                       Mřížka
+dialogeditor_caption                    Titulek
+dialogeditor_component                  Položka
+dialogeditor_select						Vybrat
+dialogeditor_create						Vytvořit
+dialogeditor_background                 Obr. na pozadí
+dialogeditor_panel                      Panel
+
+dialogcomponent_custom                  Vlastní
+dialogcomponent_button                  Tlačítko
+dialogcomponent_container               Oblast
+dialogcomponent_caption                 Titulek
+dialogcomponent_titlecaption            Titulek
+dialogcomponent_checkbox                Zaškrtávací políčko
+dialogcomponent_inputfield              Vstupní pole
+dialogcomponent_inputslider             Vstupní posuvník
+dialogcomponent_dropdownmenu            Rozbalovací nabídka
+dialogcomponent_selectionlist           Seznam výběru
+dialogcomponent_selectionlistitem       Položka v seznamu
+dialogcomponent_scrollbar               Posuvník
+dialogcomponent_progressbar             Ukazatel postupu
+dialogcomponent_canvas                  Plátno
+dialogcomponent_iconbox					Sada ikon
+
+dialogposition_absolute                 Absolutní
+dialogposition_relative                 Relativní
+dialogposition_scaled                   V měřítku
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Tvorba profilů
+profiler_name                           Název
+profiler_timings                        Časování
+profiler_totaltime                      Celkem
+profiler_glfinishcaption                glDokončení
+profiler_reset                          Resetovat
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Zvukové kanály
+soundeditor_title                       Editor zvuku
+soundinstanceeditor_title				Editor zvukových entit
+
+soundeditor_positiontitle		Typ pozice
+soundeditor_instancetitle		Typ entity
+soundeditor_looptitle			Typ smyčky
+soundeditor_sourcetypetitle		Typ zvuku
+soundeditor_soundnametitle		Název zvuku
+
+soundeditor_volumetitle			Hlasitost
+soundeditor_frequencytitle              Frekvence
+soundeditor_mindistancetitle            Min. vzdálenost
+soundeditor_attacktitle                 Náběh
+soundeditor_sustaintitle                Tón
+soundeditor_releasetitle                Dozvuk
+soundeditor_loopdelaytitle              Prodleva smyčky
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              Další událost
+
+soundeditor_play                        Přehrát
+soundeditor_stop                        Zastavit
+
+soundparametereditor_title              Parametr zvuku
+soundparametereditor_typetitle          Typ
+soundparametereditor_linktitle          Propojeno s
+soundparametereditor_updatetitle        Typ aktualizace
+soundparametereditor_smoothing          Vyhlazení
+soundparametereditor_chaintitle         Zřetězení
+
+soundeditor_newdsp                      Přidat DSP
+sounddspeditor_title                    Editor DSP
+samplebankeditor_title                  Editor banky samplů
+samplebankeditor_addsample              Přidat zvuk
+samplebank                              (banka samplů)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Hotovo
+interfacemode_destroy                         Odstranit
+interfacemode_foundations				Základy
+interfacemode_construction                    Materiály
+interfacemode_planning                        Plánování
+interfacemode_objects                         Objekty
+interfacemode_designation                     Místnosti
+interfacemode_utilities                       Rozvody
+interfacemode_staff                           Zaměstnanci
+interfacemode_deployment                      Rozmístění
+interfacemode_logistics                       Logistika
+interfacemode_prisoners                       Vězni
+interfacemode_needs                           Potřeby
+interfacemode_threats                         Hrozby
+interfacemode_overlays                        Informační vrstvy
+interfacemode_research                        Správa věznice
+interfacemode_emergencies                     Tísňové složky
+interfacemode_clone                           Klonování
+interfacemode_contraband                      Prohledávání
+interfacemode_grading                         Hodnocení
+interfacemode_spawn                           (Zrození)
+interfacemode_properties                      (Vlastnosti)
+interfacemode_cutscenes                       (Animované sekvence)
+interfacemode_selection                       Vybrat
+
+interfaceoverlay_security                       Zabezpečení
+interfaceoverlay_patrols                        Hlídky
+interfaceoverlay_decay                          Rozklad
+interfaceoverlay_territory                      Území
+interfaceoverlay_contraband                     Kontraband
+
+interfaceproperty_indoor                        Pod střechou
+interfaceproperty_visible                       Lze spatřit
+interfaceproperty_territoryprisoner             Gangy
+interfaceproperty_territoryguard                Stráže
+interfaceproperty_sectorprisoner                Vzpoura
+interfaceproperty_tunnel                        Tunel
+
+interfacedeployment_guards                      Stráže
+interfacedeployment_patrols                     Běžné hlídky
+interfacedeployment_dogpatrols                  Hlídky se psy
+interfacedeployment_armedpatrols                Ozbrojené hlídky
+interfacedeployment_removeguards                Odstranit stráže
+interfacedeployment_clearpatrols                Smazat trasy
+interfacedeployment_targetting                  Logistika
+interfacedeployment_targettingfood              Logistika potravin
+interfacedeployment_targettinglaundry           Logistika prádla
+interfacedeployment_securearea                  Zabezpečená oblast
+interfacedeployment_sharedzone                  Sdíleno
+interfacedeployment_staffonlyzone               Pouze zaměstnanci
+interfacedeployment_maxseczone                  Pouze max. ostraha
+interfacedeployment_medseczone                  Pouze stř. ostraha
+interfacedeployment_minseczone                  Pouze min. ostraha
+interfacedeployment_protectedzone               Pouze ochr. vazba
+interfacedeployment_supermaxzone                Pouze supermax. ostraha
+interfacedeployment_deathrowzone                Pouze cela smrti
+interfacedeployment_unlockedzone                Odemčeno
+interfacedeployment_zonered                     Červené křídlo
+interfacedeployment_zonegreen                   Zelené křídlo
+interfacedeployment_zoneblue                    Modré křídlo
+interfacedeployment_zoneyellow                  Žluté křídlo
+
+interfacelogistics_jobs                         Práce vězňů
+interfacelogistics_removejobs                   Zrušit práci
+interfacelogistics_targettingfood               Distribuce potravin
+interfacelogistics_targettinglaundry            Distribuce prádla
+interfacelogistics_roomquality                  Kvalita místností
+
+interfaceplanning_wall							Zdi
+interfaceplanning_object						Objekty
+interfaceplanning_route							Cesty
+interfaceplanning_clear							Volné prostranství
+interfaceplanning_zone1							Zóna 1
+interfaceplanning_zone2							Zóna 2
+interfaceplanning_zone3							Zóna 3
+interfaceplanning_zone4							Zóna 4
+interfaceplanning_zone5							Zóna 5
+interfaceplanning_zone6							Zóna 6
+interfaceplanning_zone7							Zóna 7
+interfaceplanning_zone8							Zóna 8
+interfaceplanning_zone9							Zóna 9
+
+interfacecontraband_source                      Nebezpečí
+interfacecontraband_day                         -24 hodin
+interfacecontraband_week                        -7 dní
+interfacecontraband_alltime                     -30 dní
+interfacecontraband_informants                  Informátoři
+interfacecontraband_gangs                       Gangy
+
+interfaceclone_copy                             Kopírovat
+interfaceclone_paste                            Vložit
+
+interfacetopbar_todo							Úkoly
+interfacetopbar_balance							Banka *B
+interfacetopbar_budget							Cashflow *C
+interfacetopbar_income							Příjmy *I
+interfacetopbar_expenses						Náklady *C
+interfacetopbar_day								DEN *D
+
+interfacetopbar_title_balance					Zůstatek na účtu
+interfacetopbar_title_budget					Denní cashflow
+interfacetopbar_title_cctv						Bezpečnostní kamery
+interfacetopbar_title_day						Den
+interfacetopbar_title_prisoners					Vězni
+interfacetopbar_title_guards					Stráže
+interfacetopbar_title_tension                   Nebezpečí
+
+interfacetopbar_tooltip_balance					Kolik peněz máš na účtu.\n\nKliknutím můžeš získat další prostředky ze seznamu grantů.
+interfacetopbar_tooltip_budget					Množství peněz, které dostáváš každý den v závislosti na aktuální výši příjmů a výdajů.\n\nKliknutím si zobrazíš podrobný přehled příjmů a výdajů. 
+interfacetopbar_tooltip_cctv					Počet bezpečnostních kamer a monitorů, které momentálně vlastníš.
+interfacetopbar_tooltip_day						Jak dlouho řídíš svou věznici.
+interfacetopbar_tooltip_prisoners				Počet vězňů, kteří se ve tvé věznici momentálně nacházejí, a její maximální kapacita.
+interfacetopbar_tooltip_guards					Kolik strážných máš ve své věznici momentálně k dispozici.
+interfacetopbar_tooltip_tension                 Celková úroveň nebezpečí tvé věznice dle názoru šéfa ostrahy.
+
+interfacetopbar_tooltip_recenttransactions      Nedávné transakce
+
+interfacetopbar_tooltip_gametime                Celkový odehraný čas: *X hod. *Y min. *Z sek.
+
+interfacetopbar_tooltip_totalguards             *X strážných celkem
+interfacetopbar_tooltip_guardincapacitated      *X neschopných služby
+interfacetopbar_tooltip_guardstationed          *X na pozicích 
+interfacetopbar_tooltip_guardpatrolling         *X na hlídkách
+interfacetopbar_tooltip_guardavailable          *X k dispozici
+interfacetopbar_tooltip_guardresting            *X odpočívá
+interfacetopbar_tooltip_guardactive             (*X reaguje na incidenty)
+interfacetopbar_tooltip_guarddoingjob           *X vykonává práci
+interfacetopbar_tooltip_idle                    (*X bez úkolu)
+interfacetopbar_tooltip_armedguards             + *X ozbrojených stráží
+interfacetopbar_tooltip_dogs                    + *X psovodů
+
+interfacetopbar_unlimitedfunds                  NEOMEZENÉ PROSTŘEDKY
+
+interfacetopbar_budget_moneyin					Příjmy: $*M / denně
+interfacetopbar_budget_moneyout					Výdaje: $*M / denně
+interfacetopbar_budget_cantgonegative           Nemůžeš hospodařit s negativním cashflow (tj. mít vyšší výdaje než příjmy), dokud nenajmeš účetní, která se ti bude starat o finanční záležitosti.
+
+interfacetopbar_prisoners_types					Aktuálně *X vězňů:
+interfacetopbar_prisoners_capacity              Maximální bezpečná kapacita: *X
+interfacetopbar_prisonercells_shared            Kapacita společných cel: *X
+interfacetopbar_prisonercells_unlocked          Kapacita volných prostor: *X
+interfacetopbar_prisonercells_minseconly        Kapacita min. ostrahy: *X
+interfacetopbar_prisonercells_medseconly        Kapacita stř. ostrahy: *X
+interfacetopbar_prisonercells_maxseconly        Kapacita max. ostrahy: *X
+interfacetopbar_prisonercells_protectedonly     Kapacita och. vazby: *X
+interfacetopbar_prisonercells_supermaxonly      Kapacita supermax. ostrahy: *X
+interfacetopbar_prisonercells_deathrowonly      Kapacita cel smrti: *X
+interfacetopbar_prisonercells_staffonly         Nelze využít: *X
+interfacetopbar_prisoners_nocells               *X vězňům nelze přiřadit žádnou celu
+
+interfacetopbar_cctv_current					Aktuálně běží *C kamer(y)
+interfacetopbar_cctv_cap						Prostor pro *C kamer(y)
+
+interfacetopbar_tension_currentlevel            Úroveň nebezpečí je *X
+interfacetopbar_tension_increasing              a zvyšuje se
+interfacetopbar_tension_decreasing              a snižuje se
+interfacetopbar_tension_description             FAKTORY:
+interfacetopbar_tension_happyprisoners           - Vězňové, kteří jsou spokojeni se zacházením: *X
+interfacetopbar_tension_unhappyprisoners        + Vězňové s vážnými stížnostmi: *X
+interfacetopbar_tension_lockedupprisoners       + Vězňové na samotce nebo spoutaní na celách: *X
+interfacetopbar_tension_riotingprisoners        + Bouřící se vězňové: *X
+interfacetopbar_tension_wellfedprisoners         - Nasycení vězňové: *X
+interfacetopbar_tension_suppressedprisoners     = Vězňové pod kontrolou (poslušní): *X
+interfacetopbar_tension_activeriotguards        + Členové zásahové jednotky v areálu: *X
+interfacetopbar_tension_activearmedguards       + Ozbrojené stráže v aktivní službě: *X
+interfacetopbar_tension_recentdeaths            + Nedávno zabití lidé: *X
+interfacetopbar_tension_recentsearches          + Vězňové, kteří byli nedávno zbytečně prohledáváni: *X
+interfacetopbar_tension_angrygangmembers        + ZUŘÍCÍ ČLENOVÉ GANGŮ (vůdce si odpykává trest): *X
+interfacetopbar_tension_recentpunishments       = (ODSTRAŠUJÍCÍ EFEKT) Nedávno uvalené tresty: *X
+interfacetopbar_tension_recentcalmed             - Vězňové, kteří byli nedávno uklidněni: *X
+
+interfacecontrol_mainmenu                       Hlavní nabídka (Esc)
+interfacecontrol_mainmenu_tooltip               Zobrazit hlavní nabídku (spuštění nové hry, načtení nebo uložení pozice, vypnutí hry apod.)
+interfacecontrol_todo                           Seznam úkolů
+interfacecontrol_todo_tooltip                   Zobrazit seznam úkolů
+interfacecontrol_research                       Správa věznice
+interfacecontrol_research_tooltip               Otevřít obrazovku Správa věznice, kde si můžeš prostřednictvím administrativních pracovníků zpřístupňovat nové možnosti, typy zaměstnanců a budovy.
+interfacecontrol_grading                        Hodnocení věznice
+interfacecontrol_grading_tooltip                Otevřít obrazovku Hodnocení věznice, ze které se dozvíš celkové hodnocení svého dosavadního úsilí.
+
+interface_confirmlandbuy                        Opravdu chceš koupit tento pozemek za $*X?
+interface_loadconfirm                           Opravdu chceš načíst tuto mapu? Přijdeš tím o veškerý neuložený postup hrou.
+interface_saveconfirm                           Opravdu chceš uložit pozici s tímto názvem souboru? Přepíšeš tím stávající data.
+
+interface_landbuylabel                          *X m x *Y m. Celkem *A m čtverečních. *C
+
+interface_action_dismantle                      Rozebrat
+interface_action_dump                           Vyhodit
+interface_action_repair                         Opravit
+interface_action_medicalbay                     Ošetřovna
+interface_action_search                         Prohledat
+interface_action_searchcell                     Prohledat celu
+interface_action_searchcellblock                Prohledat blok
+interface_action_sack                           Propustit
+interface_action_doormodenormal                 Režim dveří: normální
+interface_action_doormodelockedshut             Režim dveří: zamčeno
+interface_action_doormodelockedopen             Režim dveří: odemčeno
+interface_action_switchon                       Zapnout
+interface_action_switchoff                      Vypnout
+interface_action_sellobject                     Prodat objekt
+interface_action_dismiss                        Propustit
+interface_action_connect                        Připojit
+interface_action_clearconnections               Odpojit
+interface_action_servoopen                      Při aktivaci otevřít
+interface_action_servoclose                     Při aktivaci zavřít
+
+interface_contents_container                    Obsah: *X 
+interface_contents_stack                        Obsah: *X x *Y 
+
+interface_skip                                  PŘESKOČIT
+
+interface_error_riotmove                        Nelze vstoupit: vzpoura
+
+interface_foundationsinprogress                 Probíhá pokládání základů
+riot_underway                                   PROBÍHÁ VZPOURA
+riot_status_prisoners                           Bouřící se vězňové: *X
+shakedown_underway                              PROBÍHÁ PROHLÍDKA CEL
+shakedown_found                                 Nalezeno:
+
+gameover_caption                                Pokračuj stiskem klávesy ESC
+
+sector_jobs_max                                 Max. pracovních pozic: *X
+sector_jobs_qualified                           Kvalifikovaní vězni: *X
+sector_jobs_required                            (Požadováno: *X)
+sector_noaccess                                 CHYBÍ PŘÍSTUP
+sector_insecure                                 NEZAJIŠTĚNO
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Test kompatibility hardwaru
+hardware_compat_message					Rádi bychom s tvým souhlasem získali z tvého počítače následující údaje o hardwaru.\n\nTyto informace jsou zcela anonymní a pomohou nám při snaze uzpůsobit hru Prison Architect co nejširší škále hardwarových konfigurací.\n\nDěkujeme!
+hardware_compat_accept					Přijmout
+hardware_compat_decline					Odmítnout
+
+connectionmenu_connect                  Připojit
+connectionmenu_disconnect               Odpojit
+connectionmenu_clear                    Volné prostranství
+connectionmenu_done                     Hotovo
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      Postavit
+buildtoolbar_reports                    Hlášení
+buildtoolbar_bangup                     Návrat do cel
+buildtoolbar_lockdown                   Nouzové uzamčení
+buildtoolbar_shakedown                  Prohlídka cel
+buildtoolbar_weaponsfree                Povolení ke střelbě
+
+buildtoolbar_tooltip_reports			Otevři hlášení s informacemi o svých vězních, zaměstnancích, příjmu, grantech a podobně.
+buildtoolbar_tooltip_bangup				Pošli všechny (spolupracující) vězně zpět do cel. Necháš-li je ovšem pod zámkem příliš dlouho, rozzuříš je.
+buildtoolbar_tooltip_lockdown			Všechny dveře ve věznici se okamžitě uzamknou.
+buildtoolbar_tooltip_shakedown          Bude vydán okamžitý příkaz k prohledání všech cel. Tato kontrola trvá poměrně dlouho a vězňové ji k smrti nenávidí.
+buildtoolbar_tooltip_weaponsfree        Tvoji ozbrojení strážní mají povoleno používat smrtící prostředky.
+
+buildtoolbar_cost						Cena: $*C
+buildtoolbar_cost_sqrft					Cena: $*C / m2
+buildtoolbar_wages						Plat: $*W denně
+buildtoolbar_outdoor					Pouze venku
+buildtoolbar_indoor						Pouze uvnitř
+buildtoolbar_walk_speed					Rychlost chůze: *S
+buildtoolbar_walk_speed_slow			pomalejší
+buildtoolbar_walk_speed_norm			normální
+buildtoolbar_walk_speed_fast			rychlejší
+buildtoolbar_locked                     ZAMČENO
+buildtoolbar_locked_research			ZAMČENO (zapotřebí: *B)
+buildtoolbar_locked_administrator		ZAMČENO (zapotřebí: *B)
+buildtoolbar_room						Místnost
+
+buildtoolbar_electrical                  - elektřina
+buildtoolbar_highpower                   - vysoké napětí
+buildtoolbar_water                       - vyžaduje přívod vody
+buildtoolbar_wired                       - zasíťování (připojí se k ostatním zasíťovaným objektům)
+buildtoolbar_modcontent                  - modifikace
+
+buildtoolbar_popup_foundations			Stavěj/bourej budovy a určuj tak podobu své věznice.
+buildtoolbar_popup_construction			Různé typy podlah a zdí.
+buildtoolbar_popup_planning				Rozvrhni si věznici bez obav, že by se dělníci hned pustili do práce.
+buildtoolbar_popup_designation			Přiřazuj jednotlivým částem věznice konkrétní funkce.
+buildtoolbar_popup_objects				Rozmisťuj po věznici různé užitečné předměty.
+buildtoolbar_popup_overlays				Zjisti, jaké má tvá věznice slabiny.
+buildtoolbar_popup_utilities			Rozvod vody a elektřiny.
+buildtoolbar_popup_staff				Najmi pracovníky, které potřebuješ k zajištění chodu své věznice.
+buildtoolbar_popup_deployment			Rozmisťuj své zaměstnance po věznici.
+buildtoolbar_popup_logistics            Přiřazuj vězňům různé pracovní činnosti. Zároveň zde můžeš ručně určit, které oblasti mají obsluhovat jednotlivé jídelny a prádelny.
+buildtoolbar_popup_research				Zpřístupňuj si pro svou věznici nové možnosti.
+buildtoolbar_popup_emergencies			Dojde-li do tuhého, přivolej si na pomoc nouzové složky.
+buildtoolbar_popup_spawn				Zrození? K čemu to sakra je?
+buildtoolbar_popup_clone				Kopíruj již hotové části věznice.
+buildtoolbar_popup_properties			Zjišťuj podrobnosti o všem kolem sebe.
+buildtoolbar_popup_contraband           Zobrazuje zdroje kontrabandu a veškerý kontraband, který byl v poslední době ve vězení odhalen. Také zde najdeš všechny své informátory a jejich hlášení.
+buildtoolbar_popup_grading              Prohlédni si celkové hodnocení věznice podle čtyř různých ukazatelů – trestu, nápravy, zabezpečení a zdraví. Také zde zjistíš, kolik z tvých propuštěných vězňů se dopustilo recidivity.
+buildtoolbar_popup_room_cell			Zde žijí tví vězni.
+buildtoolbar_popup_room_holdingcell		Místnost, do které jsou umisťováni noví vězňové, dokud se pro ně neuvolní cela.
+buildtoolbar_popup_room_solitary		Izolace pro uvěznění těch nejhorších provinilců.
+buildtoolbar_popup_room_canteen			Zde si tví vězni mohou dát odpolední svačinku.
+buildtoolbar_popup_room_kitchen			Místnost, ve které kuchaři připravují jídlo pro tvé vězně.
+buildtoolbar_popup_room_shower			Místnost, díky které budou tví vězni jako ze škatulky a bez vší.
+buildtoolbar_popup_room_yard			Nech své vězně několik hodin denně odpočívat na čerstvém vzduchu a pod ostřížím zrakem odstřelovačů na strážních věžích.
+buildtoolbar_popup_room_storage			Oblast pro uskladnění materiálu, který zaměstnanci tvé věznice potřebují ke své práci.
+buildtoolbar_popup_room_deliveries		Místo, na kterém probíhá vykládka zboží, materiálu a vězňů.
+buildtoolbar_popup_room_garbage			Místo, ze kterého je odvážen odpad.
+buildtoolbar_popup_room_execution		Místnost, do které chodí vězni umírat.
+buildtoolbar_popup_room_workshop		Místnost, do které chodí vězni umírat nudou, zatímco vyrábí registrační značky na auta.
+buildtoolbar_popup_room_security		Místnost pro pracovníky ostrahy.
+buildtoolbar_popup_room_office			Místnost vyhrazená administrativním pracovníkům.
+buildtoolbar_popup_room_medicalward		Oblast, ve které pracuje tvůj zdravotnický personál.
+buildtoolbar_popup_room_morgue			Sem můžeš ukládat své zesnulé vězně a zaměstnance.
+buildtoolbar_popup_room_commonroom		Zde se mohou tví vězni trochu pobavit a odpočinout si.
+buildtoolbar_popup_room_kennel          Zde žijí tvoji psi.
+buildtoolbar_popup_room_chapel          Co vznikne, když se správa věznice rozhodne vyhovět náboženským potřebám všech svých vězňů najednou? „Víceúčelová multireligiózní modlitebna“. My jí říkáme prostě „kaple“.
+buildtoolbar_popup_room_paroleroom      Po odčinění 50 % a 75 % svého trestu mohou vězni požádat o podmínečné propuštění. O jejich osudu rozhodnou v této místnosti správce věznice a šéf ostrahy.\n\nPozn.: Doporučuje se zajistit zvýšená bezpečností opatření. Pokud vězni se svou žádostí neuspějí, bývají velice... rozladění.
+buildtoolbar_popup_room_library         Do věznice ti budou mnohé organizace i jednotlivci z celé země posílat různé vyřazené či použité knihy. Vězni je budou muset roztřídit do polic.
+buildtoolbar_popup_room_intake          Toto je první místo, kam jsou vězni přivedeni ihned po svém příjezdu.
+
+buildtoolbar_popup_obj_bed				Ani příliš měkká, ani příliš tvrdá, zkrátka akorát. Tedy, vlastně je dost tvrdá. A úzká.
+buildtoolbar_popup_obj_toilet			Základní lidské právo, pokud tedy na tyhle tlachy věříš.
+buildtoolbar_popup_obj_table			Skvělý doplněk židle.
+buildtoolbar_popup_obj_chair			Skvělý doplněk stolu.
+buildtoolbar_popup_obj_bench			Určená k sezení.
+buildtoolbar_popup_obj_electricchair	Plných 2000 voltů spravedlnosti.
+buildtoolbar_popup_obj_jaildoor			Udrží vězně tam, kde by měli být.
+buildtoolbar_popup_obj_jaildoorlarge	Udrží spoustu vězňů tam, kde by měli být.
+buildtoolbar_popup_obj_door				Jednoduché dveře.
+buildtoolbar_popup_obj_solitarydoor		Odolné dveře, které znemožní útek i těm nejsilnějším vězňům.
+buildtoolbar_popup_obj_staffdoor		Zamčené dveře, které mohou otevřít nejen strážní, ale všichni zaměstnanci věznice.
+buildtoolbar_popup_obj_window			Vpouští do místnosti sluneční světlo.
+buildtoolbar_popup_obj_windowlarge		Vpouští do místnosti spoustu slunečního světla.
+buildtoolbar_popup_obj_tree				Zabraňovat globálnímu oteplování je povinností nás všech.
+buildtoolbar_popup_obj_light			Pomůcka, díky které na své vězně dobře uvidíš v kteroukoliv denní dobu.
+buildtoolbar_popup_obj_cooker			Dopřej svým vězňům požitek z teplého jídla.
+buildtoolbar_popup_obj_fridge			Zabraňuje kažení potravin.
+buildtoolbar_popup_obj_bin				Pořádek je důležitý, zabraňuje kšeftování s kontrabandem.
+buildtoolbar_popup_obj_sink				Všichni zaměstnanci jsou povinni si mýt ruce.
+buildtoolbar_popup_obj_servingtable		Místo, odkud si vězni vyzvedávají jídlo.
+buildtoolbar_popup_obj_showerhead		Sprchová hlavice. Slouží ke sprchování.
+buildtoolbar_popup_obj_bookshelf		Polička, na kterou se vejde mnoho knih. 
+buildtoolbar_popup_obj_officedesk		Tví zaměstnanci musí zapisovat spoustu věcí. Poskytni jim krásný stůl, u kterého to budu moci dělat.
+buildtoolbar_popup_obj_filingcabinet	Tví pracovníci budou muset zapsané věci náležitě archivovat.
+buildtoolbar_popup_obj_medicalbed		Místo pro úschovu narkotik do doby, než je vězni ukradnou.
+buildtoolbar_popup_obj_morgueslab		Zajisti mrtvým důstojné zacházení, než je odvezou jinam.
+buildtoolbar_popup_obj_drain			Zajišťuje odtok vody z podlahy.
+buildtoolbar_popup_obj_sprinkler		V případě požáru místnost automaticky kropí vodou.
+buildtoolbar_popup_obj_metaldetector	Odhaluje kontraband u vězňů, kteří jím projdou. V blízkosti se musí nacházet dozorce, který bude kontraband zabavovat.
+buildtoolbar_popup_obj_weightsbench		Umožňuje vězňům cvičit, což jim dělá radost.
+buildtoolbar_popup_obj_phonebooth		Vězňové si mohou chtít občas promluvit se svými blízkými, tyto telefonní automaty jim to umožňují.
+buildtoolbar_popup_obj_tv				Zklidni své vězně sledováním bezduchých otupujících pořadů.
+buildtoolbar_popup_obj_largetv			Zajišťuje odumírání mozkových buněk velkému množství vězňů najednou.
+buildtoolbar_popup_obj_pooltable		Dobrá partie kulečníku snižuje jednotvárnost vězeňského života. 
+buildtoolbar_popup_obj_dismantleobject	Odebere z věznice zvolený objekt.
+buildtoolbar_popup_obj_altar            Posílá modlitby přímo k uchu zvolené vyšší mocnosti.
+buildtoolbar_popup_obj_pews             Místa pro věřící. Nemají polstrování a jsou vyrobeny z toho nejtvrdšího dřeva.
+buildtoolbar_popup_obj_prayermat        Zajišťují, aby vězni při modlitbách nemuseli klečet na špinavé podlaze. 
+
+buildtoolbar_popup_staff_workman		Staví věznici dle plánů, které jim poskytneš.
+buildtoolbar_popup_staff_guard			Dohlíží na tvé vězně a dávají pozor, aby nedělali problémy.
+buildtoolbar_popup_staff_armedguard     Tito ostří hoši jsou vyzbrojeni brokovnicemi a vězni si dávají dobrý pozor, aby je nerozzlobili.\n\nPoznámka: Každý ozbrojený strážný potřebuje mít ve zbrojnici svou vlastní bezpečnostní skříňku.
+buildtoolbar_popup_staff_doctor			Automaticky léčí okolní zraněné, ať už to jsou strážní, nebo vězni.
+buildtoolbar_popup_staff_cook			Vaří jídlo pro vězně.
+buildtoolbar_popup_staff_gardener		Stará se, aby bylo okolí budov hezké a uklizené.
+buildtoolbar_popup_staff_janitor		Udržuje čistotu a pořádek uvnitř budov. Může také vypomoci s prací v prádelně.
+buildtoolbar_popup_staff_warden			Vrchní správce celé věznice. Je zapotřebí ke zpřístupnění a najmutí různých administrativních pracovníků.
+buildtoolbar_popup_staff_chief			Administrativní pracovník, jehož prostřednictvím lze zpřístupnit rozmisťování hlídek, využívání bezpečnostních kamer a nasazení speciálních jednotek.
+buildtoolbar_popup_staff_foreman		Administrativní pracovník, jehož prostřednictvím lze zpřístupnit uklízeče a zahradníky.
+buildtoolbar_popup_staff_psychologist	Administrativní pracovník, jehož prostřednictvím lze nahlédnout do myslí tvých vězňů. 
+buildtoolbar_popup_staff_accountant		Administrativní pracovnice, která ti poskytuje hlášení o peněžních tocích.
+buildtoolbar_popup_staff_lawyer			Administrativní pracovník, který ti pomáhá obcházet různý pravidla a získat tak lepší kontrolu nad chodem věznice.
+
+buildtoolbar_popup_uts_powerstation		Zajišťuje věznici dodávky elektrického proudu.
+buildtoolbar_popup_uts_capacitor		Nachází-li se poblíž trafostanice, zvyšuje kapacitu dodávek elektřiny.
+buildtoolbar_popup_uts_electricalcable	Rozvádí elektřinu po věznici.
+buildtoolbar_popup_uts_powerswitch		Zapíná a vypíná proud v napojeném vedení.\n\nPravým kliknutím jej zapneš nebo vypneš.
+buildtoolbar_popup_uts_waterpumpstation	Zajišťuje věznici dodávky vody.
+buildtoolbar_popup_uts_pipevalve		Zapíná a vypíná tok vody v napojeném potrubí.
+buildtoolbar_popup_uts_pipelarge		Rozvádí po věznici velké množství vody pod vysokým tlakem. Průměr potrubí je dost velký na to, aby se jím mohl proplazit někdo, kdo je odhodlán dostat se na svobodu skrz pět set metrů břečky páchnoucí po výkalech.\n\nPozn.: Tento typ potrubí se nehodí pro napojování dřezů, sprch apod. – je v něm příliš velký tlak. Použij místo něj úzké trubky.
+buildtoolbar_popup_uts_pipesmall		Slouží k napojování záchodů, sprch, dřezů apod. k vysokotlaké rozvodné síti. Tlak v tomto potrubí je výrazně nižší, což omezuje jeho využitelnou délku.
+buildtoolbar_popup_uts_cctv				Sleduj dění v celé věznici, aniž by na každém rohu musel být jeden dozorce.\n\nAby bezpečnostní kamery fungovaly, musíš je napojit na monitor.
+buildtoolbar_popup_uts_cctvmonitor		Vybavení místnosti ostrahy, které musí obsluhovat nějaký strážný. Na dálku ovládá bezpečnostní kamery rozmístěné po věznici.\n\nK propojení monitoru s bezpečnostními kamerami slouží nástroj Připojit.\n\nPoznámka: V jeden okamžik lze sledovat maximálně osm kamer. Pokud jich připojíš víc, monitor mezi nimi bude postupně přepínat a bude tedy poskytovat jen částečný přehled o dění kolem kamer.
+buildtoolbar_popup_uts_DoorControlSystem  Vybavení místnosti ostrahy, které musí obsluhovat nějaký strážný. Slouží k dálkovému ovládání dveří ve věznici.\n\nK propojení servomotorů s tímto systémem slouží nástroj Připojit. Chceš-li nějaké dveře ovládat na dálku, musíš je vybavit servomotory.\n\nPoznámka: K systému můžeš připojit libovolný počet servomotorů, ovšem strážný u ovládacího pultu může otevřít maximálně dvoje dveře za sekundu.
+buildtoolbar_popup_uts_phonemonitor     Vybavení místnosti ostrahy, které musí obsluhovat nějaký strážný. Umožňuje monitorovat všechny telefonní hovory vězňů, čímž lze získat cenné informace o plánovaných nezákonných aktivitách.\n\nK připojení telefonních automatů k tomuto systému slouží nástroj Připojit.
+buildtoolbar_popup_uts_Servo            Vybaví servomotorem dveře, které chceš ovládat na dálku. Dej si pozor, ať je ozubené kolo motoru přímo nade dveřmi.\n\nPo nainstalování se budou dveře otevírat při spuštění servomotoru – typicky systémem pro ovládání dveří nebo časovým spínačem.\n\nServomotory lze propojit, takže když se jeden spustí, sepne tím nějaký jiný.
+buildtoolbar_popup_uts_LogicCircuit     Pouze pro zkušené stavitele.\n\nJednoduchý obvod, který provádí logické operace a vyhodnocováním vstupních podmínek vykonává příslušné akce.\n\nDostupné logické operátory: And / Or / Not / Nand / Nor / Xor\n\nPravým kliknutím změníš logickou operaci.
+buildtoolbar_popup_uts_LogicBridge      Pouze pro zkušené stavitele.\n\nPřijímá příchozí signál a převádí jej do elektrického kabelu nainstalovaného na témže čtverci. Elektrický kabel signál přenese do dalšího logického obvodu, který je k němu připojený.\n\nTímto způsobem lze „vysílat“ běžný signál po celém vězení, což se hodí například v případě nějakého všeobecného časového signálu apod.
+buildtoolbar_popup_uts_DoorTimer        Slouží k automatickému otevírání dveří v určitou denní dobu.\n\nK propojení časového spínače se servomotory slouží nástroj Připojit.
+buildtoolbar_popup_uts_Wire             Slouží ke vzájemnému propojení dálkově ovládaných přístupových systémů.
+buildtoolbar_popup_uts_showallwires		Zobrazuje všechny propojené obvody ve věznici.
+buildtoolbar_popup_uts_remotedoor       Pevné kovové dveře, které nelze otevřít klíčem (je možné je ovládat na dálku). Zabraňují hromadným útěkům v případě, kdy se vězni zmocní klíčů.
+buildtoolbar_popup_uts_dismantleutility	Odebere z věznice zvolenou součást rozvodů.
+buildtoolbar_popup_uts_pressurepad      Vyšle signál připojeným objektům pokaždé, kdy na spínač někdo vstoupí.
+buildtoolbar_popup_uts_statuslight      Svítí zeleně nebo červeně podle toho, jaký signál přijímá. 
+
+buildtoolbar_popup_autolights_name      Automatická světla
+buildtoolbar_popup_autolights           Automatické rozmístění osvětlení
+buildtoolbar_popup_autolights_desc      Vybereš-li tuto možnost, v nových budovách se po dokončení stavebních prací automaticky rozmístí světla.
+
+buildtoolbar_contraband_source          Zobrazuje všechna místa ve věznici, odkud lze ukrást kontraband.
+buildtoolbar_contraband_day             Zobrazuje veškerý kontraband zabavený za posledních 24 hodin.
+buildtoolbar_contraband_week            Zobrazuje veškerý kontraband zabavený za posledních 7 dní.
+buildtoolbar_contraband_alltime         Zobrazuje veškerý kontraband zabavený za celou historii věznice.
+buildtoolbar_contraband_informants      Zobrazuje informace získané od tvých informátorů.
+
+buildtoolbar_deployment_Guards          Přiděluj strážným jednotlivé sektory ve věznici.
+buildtoolbar_deployment_Patrols         Kliknutím a přetažením kurzoru vyznač hlídkové trasy.\n\nChceš-li k hlídkové trase přiřadit strážného, klikni na libovolný čtverec, jenž je její součástí.\nKliknutím pravým tlačítkem a přetažením kurzoru můžeš hlídkové trasy mazat.
+buildtoolbar_deployment_DogPatrols      Kliknutím a přetažením kurzoru vyznač hlídkové trasy.\n\nChceš-li k hlídkové trase přiřadit strážného, klikni na libovolný čtverec, jenž je její součástí.\nKliknutím pravým tlačítkem a přetažením kurzoru můžeš hlídkové trasy mazat.
+buildtoolbar_deployment_ArmedPatrols    Kliknutím a přetažením kurzoru vyznač hlídkové trasy.\n\nChceš-li k hlídkové trase přiřadit strážného, klikni na libovolný čtverec, jenž je její součástí.\nKliknutím pravým tlačítkem a přetažením kurzoru můžeš hlídkové trasy mazat.
+buildtoolbar_deployment_SharedZone      Do tohoto sektoru budou mít povolen vstup všichni vězni.
+buildtoolbar_deployment_MinSecZone      Do tohoto sektoru budou mít povolen vstup pouze vězni s minimální ostrahou.
+buildtoolbar_deployment_MedSecZone      Do tohoto sektoru budou mít povolen vstup pouze vězni se střední ostrahou.
+buildtoolbar_deployment_MaxSecZone      Do tohoto sektoru budou mít povolen vstup pouze vězni s maximální ostrahou.
+buildtoolbar_deployment_ProtectedZone   Do tohoto sektoru budou mít povolen vstup pouze vězni z ochranné vazby.
+buildtoolbar_deployment_SuperMaxZone    Do tohoto sektoru budou mít povolen vstup pouze vězni se supermaximální ostrahou.
+buildtoolbar_deployment_DeathRowZone    Do tohoto sektoru budou mít povolen vstup pouze vězni z cely smrti.
+buildtoolbar_deployment_StaffOnlyZone   Do tohoto sektoru budou mít povolen vstup pouze zaměstnanci.
+buildtoolbar_deployment_UnlockedZone    Do této zóny bude mít povolen vstup zcela každý a všechny dveře budou otevřené.
+
+job_matsassigned                        Vyčleněný materiál
+job_matsavailable                       Dostupný materiál
+job_awaitingmaterials                   Čeká na materiál
+job_inprogress                          Vykonává práci
+job_blocked                             Vykonává práci (blokováno)
+job_queued                              Vykonává práci (ve frontě)
+
+job_failed_noroute                      Chybí přístup
+job_failed_nomaterials                  Chybí materiál
+job_failed_toodangerous                 Příliš velké nebezpečí
+job_failed_materialsbeingcarried        Materiál na cestě
+
+job_rightclicktocancel                  Pravým kliknutím akci zrušíš
+job_refundamount                        Navrácená částka: *X
+
+failuremessage_blocked                  Blokováno
+failuremessage_cantafford               Nedostatek prostředků
+failuremessage_cantaffordupkeep         Překračuje denní rozpočet
+failuremessage_maximumcountreached      Již najato maximum
+failuremessage_maxstaff                 Příliš mnoho zaměstnanců
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Dodávky
+statustoolbar_finances                  Finance
+statustoolbar_regime                    Režim
+statustoolbar_escapemap                 Zabezpečení
+statustoolbar_electricity               Elektřina
+statustoolbar_stats                     Statistiky
+statustoolbar_danger                    Nebezpečí
+statustoolbar_jobs                      Práce
+statustoolbar_gangs                     Gangy
+statustoolbar_staff                     Zaměstnanci
+statustoolbar_research                  Výzkum
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Editor banky spritů
+spritebankeditor_create                 Vytvořit
+spritebankeditor_rotate                 Rotace
+spritebankeditor_sort                   Setřídit
+spritebankeditor_markermodetitle        Režim označení
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Hlavní nabídka
+codex_campaign                          Kampaň
+codex_cutscenes                         Animované sekvence
+codex_qualifications                    Kvalifikace
+codex_load                              Načíst věznici
+codex_loadcampaign                      Načíst kampaň
+codex_save                              Uložit věznici
+codex_savecampaign                      Uložit kampaň
+codex_performance						Test výkonu
+codex_developer_load                    (Pro vývojáře) Načíst mapu
+codex_developer_save                    (Pro vývojáře) Uložit mapu
+codex_developer_clearach                (Pro vývojáře) Smazat achievementy
+codex_contacts                          Kontakty
+codex_materials                         Materiály
+codex_play                              Přehrát
+codex_polaroids                         Fotografie
+codex_introduction                      Úvod
+codex_restartintroduction               Opakovat úvod
+codex_restartchapter                    Opakovat kapitolu
+codex_help                              Nápověda (wiki)
+codex_opensavefolder                    Otevřít složku s uloženými soubory
+codex_options							Nastavení
+codex_nitgs								Jména ve hře
+codex_workshop							Sdílení věznice (Steam Workshop)
+codex_checkforupdates                   Zkontrolovat aktualizace
+codex_preorder                          Předobjednat
+codex_termsconditions                   Obchodní podmínky
+codex_twitter                           Twitter
+codex_extras                            Bonusy
+codex_unlocked                          Zpřístupněno *X/*Y
+
+codex_new                               Vytvořit novou věznici
+codex_new_worldsize                     Velikost světa
+codex_new_small                         Menší
+codex_new_medium                        Střední
+codex_new_large                         Větší
+codex_new_selectwarden                  Vyber si správce
+
+codex_options_graphics					Grafika
+codex_options_resolution				Rozlišení
+codex_options_resolutionauto			Automaticky
+codex_options_windowed					V okně
+codex_options_highdpi					Vysoké DPI
+codex_options_filtering					Filtrování
+codex_options_nofiltering				Vypnuto
+codex_options_multisampled				Multisampling
+codex_options_supersampled				Supersampling
+
+codex_options_audio						Zvuk
+codex_options_volume					Celková hlasitost
+codex_options_frequency					Frekvence
+codex_options_swapstero					Otočit stereo
+codex_options_dspenabled				Aktivovat DSP
+codex_options_11khz						11 025 Hz
+codex_options_22khz						22 050 Hz
+codex_options_44khz						44 100 Hz
+
+codex_options_clocktype                 Typ hodin
+codex_options_clocktype_analogue        Ručičkové
+codex_options_clocktype_12h             12 hodin
+codex_options_clocktype_24h             24 hodin
+
+codex_options_gameplay					Hra
+codex_options_autosave					Automatické ukládání
+codex_options_renderrooms				Šachovnicová podlaha
+codex_options_apply						Použít
+
+codex_options_language					Jazyk
+
+codex_enabled                           Zapnuto
+codex_disabled                          Vypnuto
+
+codex_option_intake                     Soustavný příjem vězňů
+codex_tooltip_intake                    Pokud tuto funkci aktivuješ, bude ti každý den přijíždět náhodný počet vězňů... donekonečna.\n\nJestliže tuto možnost vypneš, budeš moci ovládat příjem vězňů ručně, příslušné tlačítko najdeš na obrazovce hlášení na záložce Příjem.
+codex_option_fogofwar                   Opar neznáma
+codex_tooltip_fogofwar                  Pokud někde nemáš strážného nebo bezpečnostní kameru, neuvidíš, co se tam děje.
+codex_option_lakes                      Vytvořit jezera
+codex_tooltip_lakes                     Různé části mapy budou blokovat náhodně rozmístěná jezera. VAROVÁNÍ: Tato funkce je teprve v testování.
+codex_option_forests                    Vytvořit lesy
+codex_tooltip_forests                   Na mapě se objeví skupinky stromů.
+codex_option_buildings                  Vytvořit budovy
+codex_tooltip_buildings                 Po mapě budou náhodně rozmístěny zbytky různých budov, které budeš moci případně využít.
+codex_option_failure                    Podmínky prohry
+codex_tooltip_failure                   Extra výzva! Pokud se ti situace vymkne z rukou, nadřízení tě vyhodí a hra skončí. (Např. v případě vzpoury, bankrotu, příliš velkého počtu úmrtí nebo útěků apod.)
+codex_option_unlimitedfunds             Neomezené prostředky
+codex_tooltip_unlimitedfunds            Ryzí sandboxový režim! Hned od začátku můžeš utrácet neomezené množství prostředků. Nemusíš si dělat žádné starosti ani čekat, až potřebnou částku vyděláš.
+codex_option_gangs                      Gangy
+codex_tooltip_gangs                     Někteří vězni jsou členy různých gangů a budou útočit na každého, kdo patří k jejich rivalům. Extra výzva.
+codex_option_events                     Výjimečné události
+codex_tooltip_events                    Během hry dochází k různým výjimečným událostem, jež ti nedopřejí chvíli klidu. Hra je díky tomu obtížnější a obsahuje prvek náhody. 
+
+codex_option_funds                      Prostředky
+codex_tooltip_funds                     Tento finanční obnos budeš mít na začátku hry k dispozici. Chceš-li mít k dispozici více peněz, prodej na obrazovce Odhad ceny některou ze svých hotových věznic.
+
+codex_transfer							Převést
+codex_transferring						Převádění
+codex_in_prison							Uvězněn
+codex_useravatar                        Toto jsem já
+codex_tooltip_useravatar                Označ tohoto vězně jako sebe. Pokud se z nějakého důvodu ocitneš ve vězení, tento vězeň tě bude představovat.
+codex_tooltip_flagbio                   Nahlásit tento životopis jako nevhodný a urážlivý.
+
+codex_workshop_current					Aktuální věznice
+codex_workshop_publish					Zveřejnit tuto věznici
+codex_workshop_update					Aktualizovat
+codex_workshop_play						Hrát
+codex_workshop_downloading				Stahování
+codex_workshop_download_failed			Stažení se nezdařilo
+codex_workshop_publishing				Zveřejňování...
+codex_workshop_new						NOVINKA
+codex_workshop_title					Název
+codex_workshop_desc						Popis
+codex_workshop_view_in_workshop			Zobrazit v rozhraní Steam Workshop
+codex_workshop_heading_pubed			Tvé zveřejněné věznice
+codex_workshop_heading_subed			Odebírané věznice
+codex_workshop_published_by				Autor: *P
+codex_workshop_published_by_you			Zveřejněno tebou
+codex_workshop_published_good			Věznice byla zveřejněna
+codex_workshop_published_good_msg		Zveřejnění tvé věznice se podařilo.
+codex_workshop_published_bad			Zveřejnění věznice se nezdařilo
+codex_workshop_published_bad_msg		Zveřejnění tvé věznice se nezdařilo.
+codex_workshop_published_bad_msg_new	Zveřejnění tvé nové věznice se nezdařilo. Zkus to prosím znovu.
+codex_workshop_busy						Na Steamu právě probíhají nějaká kouzla. Počkej, až skončí, a pak to zkus znovu.
+codex_workshop_file_exists				Věznice s tímto názvem již byla zveřejněna. Pojmenuj ji prosím nějak jinak.
+codex_workshop_generic_fail				Zveřejnění tvé věznice se nezdařilo. Zkus to prosím znovu.
+codex_workshop_download_bad				Stažení věznice se nezdařilo
+codex_workshop_pa_workshop				Otevřít rozhraní Prison Architect Workshop
+codex_workshop_agreement				Odesláním této položky vyjadřuješ souhlas se [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]smluvními podmínkami rozhraní Workshop[/url].
+
+codex_options_timelapse					Časosběrné snímky
+codex_timelapse_record					Zaznamenávat časosběrné snímky
+codex_timelapse_stop					Zastavit časosběrný záznam
+codex_timelapse_camera					Režim kamery
+codex_timelapse_resolution				Rozlišení
+codex_timelapse_customresw				Vlastní šířka rozlišení
+codex_timelapse_customresh				Vlastní výška rozlišení
+codex_timelapse_resolution				Rozlišení
+codex_timelapse_fps						Rychlost přehrávání
+codex_timelapse_interval				Interval záznamu
+codex_timelapse_quality					Kvalita
+codex_timelapse_unsupported				Tvůj hardware tuto funkci nepodporuje.
+codex_timelapse_savesettings			Uložit nastavení
+
+codex_timelapse_cam_zoom                Přiblížení obrazu
+codex_timelapse_cam_fitmap              Přizpůsobit mapě
+codex_timelapse_cam_fitheight           Přizpůsobit výšce mapy
+codex_timelapse_cam_fitwidth            Přizpůsobit šířce mapy
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            Vyšší
+codex_timelapse_quality_med             Střední
+codex_timelapse_quality_low             Nižší
+codex_timelapse_interval_value          *X min. herního času
+
+codex_performance_running				Probíhá test výkonu
+codex_performance_time					Zbývající čas: *T s
+codex_performance_current				Čas aktuálního snímku: *T ms
+codex_performance_min					Minimální čas snímku: *T ms
+codex_performance_avg					Průměrný čas snímku: *T ms
+codex_performance_max					Maximální čas snímku: *T ms
+codex_performance_numframes				Počet snímků: *T
+
+codex_last_modified						Poslední aktualizace: *T
+codex_sortbydesc						Seřadit podle data
+codex_sortname							Název
+codex_sortdate							Datum
+codex_apply								Použít
+codex_select                            Vybrat
+
+codex_mods								Modifikace
+codex_mod_activetitle					Aktivní modifikace
+codex_mod_inactivetitle					Dostupné modifikace
+codex_mod_deactivate					Deaktivovat všechny modifikace
+codex_mod_wiki							Najít další modifikace (Wiki)
+codex_mod_openmodsfolder				Otevřít složku s modifikacemi
+codex_mod_moresteammods					Najít další modifikace (Steam Workshop)
+codex_mod_findsteamtranslations         Najít další překlad (Steam Workshop)
+codex_authortitle                       Autor
+codex_versiontitle                      Verze
+codex_datetitle                         Datum
+codex_urltitle                          URL
+codex_typetitle							Typ
+codex_mod_graphicsandsound				Grafika a zvuk
+codex_mod_translation					Překlad
+codex_mod_scenario						Scénář
+codex_mod_content						Obsah
+codex_mod_load_scenario					Spustit scénář
+codex_publishmod						Zveřejnit tuto modifikaci
+
+codex_mod_update						Aktualizovat tuto modifikaci
+codex_mod_published_good				Modifikace byla zveřejněna
+codex_mod_published_good_msg			Zveřejnění tvé modifikace se podařilo.
+codex_mod_published_bad					Zveřejnění modifikace se nezdařilo
+codex_mod_published_bad_msg				Zveřejnění tvé modifikace se nezdařilo.
+codex_mod_modsupdated					Modifikace byly aktualizovány
+codex_mod_modsupdated_msg				Některé modifikace, které používáš, byly aktualizovány. Kliknutím na tlačítko OK tyto změny použiješ. Hra se automaticky uloží.
+codex_mod_translationcaption            Jedná se o překlad hry do jiného jazyka?
+
+codex_language                          Jazyk
+codex_language_englishdefault           Angličtina (výchozí)
+codex_language_default                  Výchozí jazyk
+codex_language_download                 Stáhnout
+codex_language_failed_download          Stažení překladu se nezdařilo
+codex_language_failed_download_msg      Stažení zvoleného překladu se nezdařilo.
+codex_language_searching_workshop       Prohledávání sekce Steam Workshop
+codex_language_community                Tento překlad vytvořila a spravuje komunita – patří vám náš dík!
+
+codex_save_confirm                      Opravdu se má *X přepsat aktuální věznicí?
+codex_researtchapter_confirm            Opravdu chceš spustit aktuální kapitolu od začátku? Přijdeš tím o veškerý neuložený postup hrou.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Chceš uložit tato grafická nastavení? Původní nastavení se obnoví za
+graphicschange_time						sek.
+graphicschange_accept					Přijmout
+graphicschange_revert					Zrušit
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    Debug skriptů (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   Byly nalezeny rozdíly v modifikacích
+modnotification_info                    Tyto modifikace byly při ukládání aktuální věznice aktivní. Než si tuto věznici spustíš, důrazně doporučujeme zmíněné modifikace stáhnout a aktivovat.
+modnotification_playnow                 Spustit
+modnotification_active                  Aktivní
+modnotification_inactive                Neaktivní
+modnotification_new                     Nová
+modnotification_unknown                 Neznámá
+modnotification_popup_title             Rozdíl v modifikaci
+modnotification_popup_active            Tato modifikace je momentálně aktivní. Kliknutím ji deaktivuješ.
+modnotification_popup_inactive          Tato modifikace je momentálně neaktivní. Kliknutím ji aktivuješ.
+modnotification_popup_new_url           Tato modifikace je nová. Kliknutím otevřeš její odkaz ve webovém prohlížeči.
+modnotification_popup_new_steam         Tato modifikace je nová modifikace ze Steamu. Kliknutím tuto novinku stáhneš a přihlásíš se k jejímu odběru.
+modnotification_popup_unknown           Nedokázali jsme zjistit, odkud tato modifikace pochází. Budeš ji muset vyhledat a nainstalovat bez naší pomoci.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Zastavit a prohledat
+biography_selected                      ZVOLENO
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               Vězeň č. *X
+biography_prisoner_age                  Věk: *X
+biography_prisoner_traits               Vlastnosti:
+biography_prisoner_convicted            Zločin: *C (*P)
+biography_prisoner_sentenced            Odsouzen k *X letům vězení
+biography_parole_now                    Může požádat o podmínečné propuštění
+biography_parole_later                  Může požádat o podmínečné propuštění po *X letech
+biography_prisoner_served               Let ve vězení: *X
+biography_prisoner_priors               Záznamy: 
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Věk:
+rapsheet_category						Kategorie:
+rapsheet_traits							Známé vlastnosti:
+rapsheet_conviction_text				*C – *Y let
+rapsheet_found_text						(přiznání: *P)
+rapsheet_convictions					Obvinění
+rapsheet_misconductstitle				Nedávná provinění
+rapsheet_biography                      Životopis
+rapsheet_guilty							vinu přiznal
+rapsheet_notguilty						vinu odmítá
+rapsheet_served							Pobyt ve vězení
+rapsheet_served_time					Let ve vězení: *Y
+rapsheet_time							*Y let
+rapsheet_bio							Odsouzen k *Y letům (*A).
+rapsheet_bio_med						Odsouzen k *Y letům za různé zločiny jako *A a *B.
+rapsheet_bio_long						Odsouzen k *Y letům za různé zločiny jako *A, *B a *C.
+rapsheet_category_minsec				Minimální ostraha
+rapsheet_category_normal				Střední ostraha
+rapsheet_category_maxsec				Maximální ostraha
+rapsheet_category_protected             Ochranná vazba
+rapsheet_category_supermax              Supermax. ostraha
+rapsheet_category_deathrow              Cela smrti
+rapsheet_tab_biography                  Životopis
+rapsheet_tab_experience                 Pobyt
+rapsheet_tab_grading                    Hodnocení
+rapsheet_tab_character                  Charakter
+rapsheet_punish                         Potrestat
+rapsheet_recruit                        Najmout informátora
+
+rapsheet_timeinside                     *X dní ve tvé věznici
+rapsheet_timeinside_hours               *X hodin ve tvé věznici
+rapsheet_mood                           Nálada
+rapsheet_activity                       Aktivita
+rapsheet_condition                      Stav
+rapsheet_program                        Program
+rapsheet_passchance                     Šance na úspěch
+rapsheet_reformhistory                  Historie nápravných programů
+
+rapsheet_reform_success                 Úspěch
+rapsheet_reform_successcount            Dokončeno *Xkrát
+rapsheet_reform_failed                  Neúspěch
+rapsheet_reform_failcount               Bez úspěchu *Xkrát
+
+rapsheet_grading_punishment             Trest
+rapsheet_grading_health                 Zdraví
+rapsheet_grading_security               Zabezpečení
+rapsheet_grading_reform                 Náprava
+rapsheet_grading_points                 *X bodů: 
+rapsheet_grading_penalties              *X trestných bodů: 
+
+rapsheet_scheduleexecution              Naplánovat popravu
+
+
+punish_lockdown_6                       Pobyt na cele (6 hod.)
+punish_lockdown_12                      Pobyt na cele (12 hod.)
+punish_lockdown_24                      Pobyt na cele (24 hod.)
+punish_solitary_6                       Samotka (6 hod.)
+punish_solitary_12                      Samotka (12 hod.)
+punish_solitary_24                      Samotka (24 hod.)
+punish_solitary_perm                    Samotka (trvalá)
+punish_lockdown_perm                    Pobyt na cele (trvalý)
+punish_solitary                         Samotka
+punish_lockdown                         Pobyt na cele
+punish_none                             Nic
+punish_timer                            *X hod. *Y min.
+punish_timer_minutes                    *X min.
+punish_active                           AKTIVNÍ
+punish_permanent                        (trvale)
+punish_end                              Ukončit trest
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  Nic
+misconduct_reporttype_complaint             Stížnost
+misconduct_reporttype_destruction           Ničení zařízení
+misconduct_reporttype_escapeattempt         Pokus o útěk
+misconduct_reporttype_injuredprisoner       Napadení vězně
+misconduct_reporttype_injuredstaff          Napadení zaměstnance
+misconduct_reporttype_seriousinjury         Vážné ublížení na zdraví
+misconduct_reporttype_murder                Vražda
+misconduct_reporttype_contrabandweapons     Přechovávání zbraní
+misconduct_reporttype_contrabandtools       Přechovávání nástrojů
+misconduct_reporttype_contrabandnarcotics   Přechovávání drog
+misconduct_reporttype_contrabandluxuries    Přechovávání luxusního zboží
+misconduct_reporttype_intoxicated           Intoxikace
+misconduct_title                            =[Provinění]=
+
+misconduct_report_addiction                 Závislý (*X)
+misconduct_report_recoving                  Léčí se ze závislosti (*X)
+misconduct_report_alcoholic                 Alkoholik
+misconduct_report_recovingalcoholic         Léčí se ze závislosti na alkoholu
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       Toto hlášení ti může připravit pouze *X.
+research_requireunlock                  K sestavení tohoto hlášení musíš provést výzkum „*X“.
+research_approved                       SCHVÁLENO
+research_cost                           Cena: *X
+research_costperitem                    + *X za položku
+research_timetounlock                   Čas do zpřístupnění: *X hod.
+research_movementpenalty                Postih k pohyblivosti: *X %
+research_protectionbonus                Ochrana: *X %
+research_tap_to_authorise               KLEPNUTÍM VYDEJ POVOLENÍ
+
+research_none                           Nic
+research_warden                         Správce
+research_maintainance                   Údržba
+research_security                       Zabezpečení
+research_legal                          Právní služby
+research_mentalhealth                   Psychologie
+research_finance                        Finance
+research_landexpansion                  Rozšíření území
+research_cctv                           Sledování
+research_riotguards                     Speciální jednotky
+research_health                         Zdraví
+research_cleaning                       Úklid
+research_groundskeeping                 Venkovní úklid
+research_clone                          Klonování
+research_deployment                     Rozmístění
+research_patrols                        Hlídky
+research_dogs                           Psi
+research_prisonlabour                   Práce vězňů
+research_education                      Vzdělávání
+research_contraband                     Prohledávání
+research_policy                         Pravidla věznice
+research_armoury                        Zbrojnice
+research_bodyarmour                     Neprůstřelné vesty
+research_tazers                         Tazery
+research_tazersforeveryone              Vydávání tazerů
+research_bankloans                      Úvěr
+research_lowertaxes1                    Daňová úleva
+research_lowertaxes2                    Daňový ráj
+research_remoteaccess                   Dálkové ovládání
+research_extragrant                     Další grant
+research_advancedmanagement             Detailní správa
+research_deathrow                       Cela smrti
+research_permanentpunishment            Trvalé tresty
+research_removemincellsize              Menší cely
+research_reduceexecutionliability       Zjednodušení poprav
+research_legalprep                      Právní příprava
+research_legaldefense                   Právní obrana
+
+researchtooltip_warden                  Zpřístupňuje správce věznice a s ním celý systém Správa věznice.  Můžeš jej najmout na liště nástrojů v sekci Zaměstnanci.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_security                Zpřístupňuje šéfa ostrahy, kterého lze najmout na liště nástrojů v sekci Zaměstnanci.  Jeho prostřednictvím získáš přístup k obrazovce Rozmístění, bude ti poskytovat okamžitá hlášení o úrovni nebezpečí ve tvé věznici a navíc dokáže často předpovědět blížící se potíže.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_maintenance             Zpřístupňuje předáka.  Můžeš jej najmout na liště nástrojů v sekci Zaměstnanci.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_legal                   Zpřístupňuje právníka, kterého lze najmout na liště nástrojů v sekci Zaměstnanci. Ten poskytuje přístup k dalším možnostem výzkumu, díky kterým získáš lepší kontrolu nad svou věznicí.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_deployment              Umožňuje ti trvale rozmístit stráže do vybraných sektorů věznice.
+researchtooltip_patrols                 Umožňuje ti vytvářet hlídkové trasy klíčovými oblastmi tvé věznice (např. kolem zdi) a přiřazovat k nim strážné.
+researchtooltip_dogs                    Zpřístupňuje psovoda a služebního psa.  Vynikají ve vyhledávání kontrabandu poschovávaného ve věznici a objevování únikových tunelů.\n\nPsi jsou navíc velice rychlí, takže mohou snadno pronásledovat vězně. 
+researchtooltip_cctv                    Zpřístupňuje bezpečnostní kamery a monitory.  Jejich prostřednictvím můžeš dohlížet i na ty oblasti věznice, v nichž se nenachází žádný tvůj pracovník.\n\nNavíc zpřístupňuje možnost odposlouchávání, díky níž můžeš nahrávat telefonáty vězňů a získávat tak cenné informace.
+researchtooltip_remoteaccess            Zpřístupňuje dálkové a automatické ovládání dveří. Dveře lze otevírat na dálku pomocí systému pro ovládání dveří (spravovaném nějakým dozorcem) nebo časovým spínačem v určenou denní dobu.
+researchtooltip_riotguards              (MOMENTÁLNĚ BEZ UPLATNĚNÍ)\nZpřístupňuje členy speciálních jednotek.  Tito drsní hoši jsou lépe vybavení a vycvičení pro zvládání krizových situací.
+researchtooltip_maintainance            Zpřístupňuje předáka.  Ten umožňuje provádět další výzkum (například Práci vězňů) nebo najímat různé zaměstnance, jako třeba zahradníka.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_clone                   Zpřístupňuje na hlavní liště nástrojů možnost klonování.  Díky této pomůcce můžeš rychle vytvářet kopie různých částí věznice, například cel.  Chceš-li tento nástroj použít, podrž stisknuté pravé tlačítko, označ kopírovanou oblast a kliknutím levého tlačítka ji umísti na požadovanou pozici.
+researchtooltip_groundskeeping          Zpřístupňuje zahradníka.  Ten bude udržovat pořádek kolem budov.
+researchtooltip_cleaning                Zpřístupňuje uklízeče.  Ten bude udržovat pořádek v budovách a navíc může pomáhat i v prádelně.
+researchtooltip_health                  Zpřístupňuje doktora a společně s ním i ošetřovnu a márnici.  Zranění vězni a zaměstnanci budou odnášeni na ošetřovnu, kde je doktoři postaví opět na nohy.
+researchtooltip_MentalHealth            Zpřístupňuje psychologa, který ti je připraven kdykoliv poskytnout cenné informace o pocitech a duševním rozpoložení tvých vězňů.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_finance                 Zpřístupňuje účetní, která ti zajišťuje přístup k finančním zprávám o stavu tvé věznice.\n\nNavíc díky ní můžeš za den utratit více než ti umožňují tvé příjmy, samozřejmě za předpokladu, že máš na účtu dostatečnou rezervu.\n\nStejně jako všichni administrativní pracovníci potřebuje ke své práci kancelář.  
+researchtooltip_landexpansion           Umožňuje ti zakoupit sousední pozemek a tím pádem rozšířit svou věznici za její původní hranice.
+researchtooltip_prisonlabour            Umožňuje ti využívat vězně na různé práce v areálu (vaření, uklízení apod.), díky čemuž ušetříš za výplaty zaměstnanců. Nejen, že budeš moci své peníze využít na něco jiného, ale tví vězni se tak navíc naučí novým dovednostem.\n\nSoučasně se ti zpřístupní také dílna a prádelna.
+researchtooltip_education               Umožňuje najmout učitele a spustit pro vězně různé nápravně-vzdělávací programy. 
+researchtooltip_contraband              Naučí tvé dozorce efektivněji odhalovat a zajišťovat kontraband. Zpřístupňuje hlášení o poptávce a nabídce kontrabandu, informační vrstvu Kontraband (zobrazuje všechny možné lokace ve vězení, kde lze provádět krádeže) a dokáže vystopovat kontraband až k místu, kde byl ukraden nebo propašován do vězení.\n\nNavíc přidává možnost najímat vězně jako informátory.\n\nDále zpřístupňuje přehled gangů.
+researchtooltip_policy                  Zpřístupňuje hlášení o stávajících pravidlech, umožňuje zvyšovat a snižovat tresty za všechny typy prohřešků, a pokud nějaký vězeň poruší pravidla, dojde automaticky k jeho osobní prohlídce a prohlídce jeho cely.\n\nNavíc ti poskytuje kontrolu nad jídelníčkem vězňů, můžeš tedy měnit četnost a rozmanitost podávaných jídel. 
+researchtooltip_armoury                 Zpřístupňuje zbrojnici a umožňuje rozmisťovat po věznici ozbrojené stráže.
+researchtooltip_bodyarmour              Vybaví všechny tvé stráže, ozbrojené stráže a psovody neprůstřelnými vestami. Díky nim jsou odolnější v boji, ovšem za cenu nižší rychlosti pohybu.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každou tímto způsobem zakoupenou vestu budeš muset zaplatit.
+researchtooltip_tazers                  Umožňuje vybavit ozbrojené stráže tazery – silnými jednorannými zbraněmi, po jejichž zásahu většina cílů okamžitě upadne do bezvědomí. Z tazeru lze vystřelit jen jednou, poté se musí hodinu nabíjet.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každý tímto způsobem zakoupený tazer budeš muset zaplatit.
+researchtooltip_tazersforeveryone       Rozšiřuje využití tazerů, takže je mohou nosit k obranným účelům i běžní strážní.\n\nStráže získají toto vybavení po návštěvě zbrojnice, za každý tímto způsobem zakoupený tazer budeš muset zaplatit.
+researchtooltip_bankloans               Umožňuje ti půjčit si od banky velkou částku peněz výměnou za každodenní splátky úroků. Splacením půjčky se zvýší tvůj úvěrový limit, později si tedy budeš moci půjčit větší částku.
+researchtooltip_lowertaxes1             Využívá vládní daňové pobídky a snižuje daň právnických osob na pouhých 15 %.\n\nZa každých $10 000 denního zisku ušetříš na daních $1500.
+researchtooltip_lowertaxes2             Tvá účetní se bude pohybovat na samotné hranici pravidel a převede všechny tvé oficiální účty a obchodní aktivity do země s velice výhodnou daňovou sazbou. Tvé efektivní daňové zatížení klesne zhruba na 1 %.\n\nZa každých $10 000 denního zisku ušetříš na daních $3000.
+researchtooltip_extragrant              Umožňuje ti přijmout až tři granty najednou místo dvou.
+researchtooltip_advancedmanagement      Poskytuje ti nástroje pro detailní správu věznice, aby všechny její prvky přesně odpovídaly tvým požadavkům.\n\nZpřístupňuje ti funkci Logistika potravin, pomocí níž můžeš určit, která kuchyň vaří pro kterou jídelnu a ve které jídelně se budou vězni stravovat. Logistika prádla ti obdobným způsobem umožňuje ovlivnit, kterým konkrétním blokům jsou vyhrazeny jednotlivé prádelny.\n\nZpřístupní se ti také časový rozpis služeb, jehož prostřednictvím lze upravit rozmístění strážných v různou denní dobu.\n\nDále zpřístupňuje harmonogram nápravného programu, pomocí kterého můžeš ručně změnit denní rozvržení programů.
+researchtooltip_permanentpunishment     Být ve vězení někdy není samo o sobě dostatečným trestem. Tvůj právník může zajistit potřebná povolení, aby vězni nemohli opouštět své cely. 
+researchtooltip_removemincellsize       Cely ve tvé věznici musí svými rozměry splňovat jisté zákonné normy. Představ si ovšem, kolik dalších cel by bylo možné postavit, kdyby tě tato pravidla nesvazovala! Odstraňuje požadavek na minimální velikost běžných cel.
+researchtooltip_reduceexecutionliability Tvůj právník lobbuje za snížení požadované míry usvědčení, jež je zapotřebí, aby bylo možné zahájit přípravu na vykonání trestu smrti. V zásadě se sníží počet odvolání, jež má vězeň k dispozici, než budeš moci bez žádných následků naplánovat jeho popravu.
+researchtooltip_legalprep               V každé věznici dojde tu a tam k nějakým problémům a některé z nich mají poměrně vážné právní důsledky. Tvůj právník začne vyřizovat různé dokumenty, díky nimž nebude případná pohroma tak hrozná, tuto práci je ovšem zapotřebí udělat v předstihu.
+researchtooltip_legaldefense            Máš velký problém – něco se šeredně zvrtlo a tobě hrozí propuštění. Pokud to bude vypadat, že si s nastalou situací nedokážeš poradit, tvůj právník tě z toho může vysekat. Dokončení tohoto výzkumu tě zbaví veškerých varování, jež by jinak mohla vyústit ve tvé propuštění.
+
+research_legaldefense_adviser1          Jak se zdá, tvůj právník předložil dokumenty, které tě chrání před následky této pohromy. Nemohu tě tedy vyhodit. Alespoň tentokrát ne.
+research_legaldefense_adviser2          Dej svou věznici rychle do pořádku a ať už se to neopakuje. Ten trik ti příště nepomůže a neochrání tě navěky.
+
+research_missingadministrator           ZAPOTŘEBÍ:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                ZAPOTŘEBÍ:
+roomrequirement_recommended             Doporučeno: 
+roomrequirement_minimumsize             Minimální velikost *W x *H
+roomrequirement_minimumsize_short	Velikost *W x *H
+roomrequirement_indoor                  Pod střechou
+roomrequirement_outdoor                 Venku
+roomrequirement_solidground             Pevný povrch
+roomrequirement_secure                  Zabezpečení (alespoň za jedněmi dveřmi)
+roomrequirement_secure_short		Zabezpečení
+roomrequirement_enclosed                Uzavřený prostor (ohraničeno zdmi a dveřmi)
+roomrequirement_enclosed_short		Uzavřený prostor
+requirement_entrance                    Vyžaduje vchod
+roomrequirement_title                   =[Požadavky místnosti]=
+roomrequirement_passed                  [SPLNĚNO] 
+roomrequirement_failed                  [NESPLNĚNO] 
+roomrequirement_adjacentobject          Sousedící místnost: 
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            ODEMČENO
+
+unlock_special_electricity              Elektrické systémy
+unlock_special_food                     Příprava jídel
+unlock_special_officersafety            Bezpečí stráží
+unlock_special_misbehavior              Přečin
+unlock_special_accounting               Účetnictví
+unlock_special_gangs                    Gangy
+
+unlock_electricity_caption              Umožňuje výstavbu trafostanic a elektrického vedení, jež dodává proud všem zařízením, jež jej potřebují.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Pokračuj kliknutím...
+incoming_call                           Příchozí hovor...
+
+adviser_name_unknown                    Neznámé číslo
+adviser_name_ceo                        Ředitel
+adviser_name_warden                     Správce věznice
+adviser_name_governer                   Guvernér
+adviser_name_chief                      Šéf ostrahy
+adviser_name_doctor                     Doktor
+adviser_name_kingpin                    Mafiánský boss
+adviser_name_edwardshooter              Edward
+adviser_name_edwardsinner               Edward
+adviser_name_edwardinmate               Edward
+adviser_name_edwardswife                Edwardova žena Susan
+adviser_name_priest                     Kněz
+adviser_name_newsreader                 Zprávy CNDC
+adviser_name_mayor 						Starosta Calvin Heller
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Zaměstnanci
+report_prisoners                        Vězni
+report_jobs                             Práce
+report_needs                            Potřeby
+report_threats                          Hrozby
+report_regime                           Režim
+report_policy                           Pravidla
+report_grants                           Granty
+report_finance                          Finance
+report_valuation                        Odhad ceny
+report_contraband                       Kontraband
+report_programs                         Programy
+report_schedule                         Harmonogram
+report_intake                           Příjem
+
+report_grants_bankloan                  Úvěr
+report_grants_bankloan_text             Můžeš si půjčit od banky velký finanční obnos. Na oplátku si bude banka účtovat každý den úroky, jež se budou strhávat přímo z tvého cashflow.\n\nOdváděním pravidelných splátek se bude zvyšovat tvá úvěrová důvěryhodnost, takže si pak budeš moci půjčovat od banky i větší částky. Pakliže ovšem termín splátek propásneš, půjde tvé hodnocení ke dnu a žádný finanční ústav ti již v nouzi nevypomůže.\n\nPoznámka: Půjčku nemůžeš splatit jen ze samotných denních úroků.  
+report_grants_max1                      V jeden okamžik lze přijmout pouze jeden grant.\nProstřednictvím své účetní můžeš tento limit zvýšit.
+report_grants_max2                      V jeden okamžik lze přijmout maximálně dva granty.\nProstřednictvím své účetní můžeš tento limit zvýšit.
+report_grants_max3                      V jeden okamžik lze přijmout maximálně tři granty.
+report_grants_bankloan_amount           Aktuální úvěr: *X
+report_grants_bankloan_interest         Splátky: *X denně
+report_grants_bankloan_max              Maximální výše půjčky: *X
+report_grants_creditrating              Úvěrové hodnocení: *X
+report_grants_inprogress_tt             (PROBÍHÁ)
+report_grants_completed_tt              (DOKONČENO)
+report_grants_locked_tt                 (ZAMČENO)
+report_grants_advancepayment            Platba předem: *X
+report_grants_completionbonus           Bonus za splnění: *X
+report_grants_objectives                [Úkoly]
+report_grants_prereqs                   [Požadavky]
+report_grants_completed                 DOKONČENO
+report_grants_locked                    Zamčeno
+report_grants_inprogress                Probíhá
+report_grants_hidden                    (další skryté: *X)
+report_grants_taptoaccept               KLEPNUTÍM MOŽNOST PŘIJMEŠ
+report_grants_cancelfee                 Poplatek za zrušení: *X
+
+report_staff_title                      Celkem zaměstnanců: *X
+report_prisoners_title                  Celkem vězňů: *X
+report_staff_group_builders             Dělníci
+report_staff_group_guards               Stráže
+report_staff_group_staff                Zaměstnanci
+report_staff_group_administrators       Administrativa
+report_staff_group_prisoners            Vězni
+report_staff_group_prisoners_high       Vysoké riziko
+report_staff_group_prisoners_normal     Běžné riziko
+report_staff_group_prisoners_low        Nízké riziko
+report_staff_group_prisoners_protected  Ochranná vazba
+report_staff_group_prisoners_supermax   Supermax. ostraha
+report_staff_group_prisoners_deathrow   Cela smrti
+
+report_staff_fire                       PROPUSTIT
+
+report_intake_title                     Příjem vězňů
+report_intake_catheader_cat             Kategorie
+report_intake_catheader_pay             Platba
+report_intake_catheader_available       K dispozici
+report_intake_catheader_amount          Poměr
+report_intake_next_header               Další příjem: *X
+report_intake_cat_minsec                Min. ostraha
+report_intake_cat_normal                Stř. ostraha
+report_intake_cat_maxsec                Max. ostraha
+report_intake_cat_deathrow              Cela smrti
+report_intake_slider_minsec             Upravit poměr příjmu vězňů s minimální ostrahou
+report_intake_slider_normal             Upravit poměr příjmu vězňů se střední ostrahou
+report_intake_slider_maxsec             Upravit poměr příjmu vězňů s maximální ostrahou
+report_intake_slider_deathrow           Upravit poměr příjmu vězňů pro celu smrti
+report_intake_closed                    ZAVŘENO
+report_intake_locked                    ZAMČENO
+report_intakemaxperdaydesc              Denní příjem
+report_intakemaxperdaydesc_tooltip      Celkový počet vězňů, který chceš obdržet při příštím příjmu
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              Nikdo
+report_intakemaxperdayall               Všichni
+reports_intakedelivernow                Přivézt ihned
+report_intakepayment                    Platba
+report_intakeall                        VŠICHNI
+report_intake_list_tooltip_title        Kategorie příjmu
+report_intake_list_tooltip              Přehled všech kategorií vězňů, kteří mohou být do tvého nápravného zařízení posláni.\n\nVelikost jednotlivých kategorií ukazuje, kolik vězňů daného typu ti může být doručeno. Tento počet se postupně zvyšuje podle toho, jaký poměr na posuvnících nastavíš.\n\nNastavením posuvníků můžeš změnit poměr vězňů z daných kategorií, kteří ti budou zasláni v příští várce.
+report_intake_list_tooltip_dr           \n\nAby ti mohli být doručeni vězni z kategorie Cela smrti, musíš jim ještě před přijetím zajistit volnou „celu smrti“. Příjem těchto vězňů je navíc mnohem pomalejší než v běžných případech a ne vždy vězeň z této kategorie skutečně dorazí. Takovýchto odsouzených je jen velice málo.
+report_intake_buttons_tooltip_title     Další příjem
+report_intake_buttons_tooltip           V této sekci můžeš zvýšit nebo snížit počet vězňů, které chceš přijmout v příští várce.\n\nZvolíš-li možnost „Nikdo“, příjem věznice tím uzavřeš, naopak nastavíš-li příjem na „Všichni“, přijede maximální možný počet nových vězňů.\n\nPočet vězňů spadajících do jednotlivých kategorií můžeš upravit pomocí výše zobrazených posuvníků.
+report_intake_overview_tooltip_title    Přehled příjmu
+report_intake_overview_tooltip          Zde vidíš, jací vězni ti budou doručeni v příští várce a jakou platbu za ně obdržíš. Počet vězňů a kategorie, do kterých spadají, si můžeš změnit pomocí výše zobrazených posuvníků a tlačítek. Platba se odvíjí od počtu vězňů v každé z kategorií.
+
+valuation_categoryprison                Hodnota věznice
+valuation_construction                  Cena nemovitosti
+valuation_objects                       Vybavení
+valuation_stock                         Zásoby a materiál
+valuation_staff                         Zaměstnanci
+valuation_startupgrant                  Úvodní grant
+valuation_capacity                      Kapacita věznice
+valuation_cash                          Hotovost
+valuation_debt                          Úvěry
+valuation_categoryperformance           Ostraha a zabezpečení
+valuation_bonustimewithoutincident      [Bonus] Doba bez incidentu
+valuation_finedeath                     [Postih] Úmrtí za posledních 24 hod.
+valuation_fineescape                    [Postih] Útěky za posledních 24 hod.
+valuation_total                         CELKEM
+valuation_sell                          PRODAT
+valuation_sellprison                    PRODAT VĚZENÍ
+valuation_sell_tooltip                  Když vězení prodáš, získáš tak další prostředky a do stavby své nové věznice se budeš moci pustit s mnohem větším zůstatkem na kontě.\n\nVěznici budeš moct řídit i nadále, každou však lze prodat pouze jednou. Veškerý zisk z prodeje bude přesunut do nové věznice.
+valuation_sold                          Tato věznice byla prodána za: *X
+valuation_donotown                      Tuto věznici nemůžeš prodat, protože ji nevlastníš.
+valuation_sellsome                      Prodat akcie
+valuation_buysome                       Koupit akcie
+valuation_shares                        Nákup a prodej akcií
+valuation_shares_tooltip                Až 50 % své věznice můžeš prodat cizím investorům ve formě akcií. Takto získané prostředky obdržíš okamžitě. Akcionáři výměnou za svou investici obdrží část prodejní ceny, když se rozhodneš věznici prodat.\n\nPokud například rozdáš 30 % akcií svého vězení, dostaneš později jen 70 % celkové prodejní ceny. Dříve vydané akcie můžeš kdykoliv opět odkoupit, ovšem může se stát, že za ně zaplatíš víc, než kolik byla jejich původní prodejní cena.
+valuation_ownership                     Vlastníš *X % své věznice
+valuation_saleprice                     Prodejní cena: *X
+valuation_title                         =[ODHAD CENY]=
+valuation_totalprisonvalue              Celková hodnota věznice: *X
+valuation_subcashreserves               Minus finanční rezervy: *X
+valuation_tenpercentprice               Cena za 10 %: *X
+valuation_profit                        Tvůj zisk: *X
+valuation_tap_to_authorise              KLEPNUTÍM ODSOUHLAS TRANSAKCI
+
+salecondition_title                     POŽADAVKY PRODEJE
+salecondition_cannotsell                Nemůžeš prodat svou věznici nebo její akcie, dokud nesplníš následující podmínky.
+salecondition_minimumvalue              Minimální hodnota – $50 000
+salecondition_cashflow                  Kladné cashflow
+salecondition_accountant                Vlastní účetní
+salecondition_minprisoners              Alespoň 20 vězňů
+salecondition_recentdeaths              Žádná nedávná úmrtí
+salecondition_recentescapes             Žádné nedávné útěky
+salecondition_passed                    [SPLNĚNO] 
+salecondition_failed                    [NESPLNĚNO] 
+
+policy_title                            INCIDENT
+policy_search                            - PROHLEDAT -
+policy_prisoner                         VĚZNĚ
+policy_cell                             CELU
+policy_punishment                       TREST
+policy_quantity                         ČAS
+policy_punishmenttime                   *X hod.
+policy_mealcost                         $*X / den
+policy_totalmealcost                    (CELKEM: $*X / den)
+
+job_construct                           Postavit *X
+job_installobject                       Namontovat *X
+job_installobjectinroom                 Namontovat *X (cíl: *Y)
+job_moveobject                          Přenést *X
+job_moveobjecttoroom                    Přenést *X (cíl: *Y)
+job_loadobjectinto                      Naložit *X (*Y)
+job_storeobject                         Uskladnit *X (cíl: *Y)
+job_dismantleobject                     Demontovat *X
+job_dumpobject                          Vyhodit *X
+job_repairobject                        Opravit *X
+job_operateequipment                    Ovládat *X
+job_escortprisoner                      Eskortovat vězně (cíl: *X)
+job_punishprisoner                      Zpracovat vězně
+job_searchobject                        Prohledat *X 
+job_searchentity                        Prohledat vězně
+job_searchingentity						Prohledává vězně
+job_searchcell                          Prohledat celu
+job_searchcellblock                     Prohledat blok
+job_improvecellindoor                   Uklidit vnitřní prostor
+job_improvecelloutdoor                  Pečovat o venkovní prostor
+job_opendoor                            Otevřít zamčené dveře
+job_giveuniform                         Dát vězni uniformu
+job_failurecount                        Bez úspěchu *Xkrát
+job_feedprisoner                        Nakrmit vězně
+job_healprisoner                        Ošetřit vězně
+job_delivermail                         Doručit poštu
+       
+finances_title                          Finance
+finances_income                         Příjmy
+finances_expenses                       Výdaje
+finances_total                          Celkem
+finances_profit                         Čistý příjem
+finances_timewithoutincident            (*X dní)
+finances_dailyincome                    *X / den
+
+finances_category_federalgrant          Federální grant
+finances_category_minsecprisoners       Grant na vězně s min. ostrahou
+finances_category_medsecprisoners       Grant na vězně se stř. ostrahou
+finances_category_maxsecprisoners       Grant na vězně s max. ostrahou
+finances_category_prisoners             Vězeňský grant
+finances_category_workmen               Platy dělníků
+finances_category_guards                Platy strážných
+finances_category_admin                 Platy administrativních pracovníků
+finances_category_staff                 Platy zaměstnanců
+finances_category_food                  Jídlo
+finances_category_electricity           Elektřina
+finances_category_workshops             Dílny
+finances_category_loaninterest          Splátka úvěru
+finances_category_reformprogs           Nápravné programy
+finances_category_noincident            Dní bez incidentu
+finances_category_exports               Expedice zboží (včera)
+finances_category_corptax               Daň z příjmu
+finances_category_prisonerwages         Platy vězňů (včera)
+finances_category_shoprevenue           Výnos obchodu (včera)
+
+reports_foodtitle                       Zásady stravování
+meal_quantity                           Četnost jídla
+meal_variety                            Rozmanitost jídla
+meal_cost                               Náklady na vězně
+
+reports_paroletitle                     Zásady podmínečného propuštění
+parole_title                            Možnost podmínečného propuštění
+parole_info                             Úroveň pro podmínečné propuštění: *P %
+parole_desc                             Je-li vězňova pravděpodobnost recidivity nižší než tato hodnota, bude po skončení slyšení podmínečně propuštěn.
+parole_fine                             Trest za recidivitu
+parole_reward                           Odměna za předčasné propuštění vězně
+
+victory_title                           CERTIFIKACE
+
+victory_PrisonValue                     Hodnota věznice
+victory_Income                          Denní zisk
+victory_Prisoners                       Kapacita
+victory_PrisonersReleased               Propuštění vězni
+victory_prisonersdied                   Úmrtí ve vazbě
+victory_prisonersescaped                Uprchlí vězni
+victory_Bankrupt                        Bankrot
+victory_Riot                            Vězeňská\nvzpoura
+victory_TooManyDeaths                   Trestní\nstíhání
+victory_TooManyEscapes                  Bezpečnostní\npohroma
+victory_failure                         NEÚSPĚCH
+victory_warning                         VAROVÁNÍ
+victory_remaining                       zbývá
+victory_death                           ÚMRTÍ
+victory_escapes                         ÚTĚKŮ
+victory_counter                         (dnes *X)
+victory_executions                      Nezákonné popravy
+victory_innocentsexecuted               Poprava nevinného vězně
+
+victory_warning_bankrupt                Máš 24 hodin na odvrácení finanční katastrofy.
+victory_warning_riot                    Ukonči tuto vzpouru co nejdříve, nebo bude naše vláda nucena převzít kontrolu.
+victory_warning_toomanydeaths           Dojde-li dnes k příliš velkému počtu dalších úmrtí, budeš čelit trestnímu stíhání.
+victory_warning_toomanyescapes          Dojde-li dnes k příliš velkému počtu dalších útěků, dojde k tvému propuštění.
+
+victory_prisoners_units                 Umístění
+victory_prisonersreleased_units         Propuštěno
+victory_toomanydeaths_units             Úmrtí
+victory_toomanyescapes_units            Útěky
+victory_prisonersparoled                Podmínečné propuštění
+victory_prisonersreoffended             Recidivita vězňů
+
+victory_adviserwarning_toomanydeaths1   Včerejšek se do historie této věznice zapsal černým písmem. O život tu přišlo velké množství lidí.
+victory_adviserwarning_toomanydeaths2   Zajisti, aby dnes už nikdo další nezemřel, nebo budeš čelit trestnímu stíhání.
+victory_advisernotice_toomanydeaths1    Nemůžeš tvrdit, že jsme tě nevarovali. Bylo na tebe uvaleno trestní stíhání kvůli zodpovědnosti za zdejší události.
+victory_advisernotice_toomanydeaths2    Za své činy strávíš příštích deset let za mřížemi. A to přímo ve své vlastní věznici. Hodně štěstí.
+victory_adviserwarning_riot1            Události ve tvé věznici se vymykají kontrole. Okamžitě tuto vzpouru ukonči, nebo se řešení ujme vláda a obsadí vězení silou.
+victory_advisernotice_riot1             Nepodařilo se ti zdejší vzpouru ukončit. Vláda ti odebrala povolení k řízení věznice a posílá národní gardu, aby areál obsadila.
+victory_adviserwarning_toomanyescapes1  Valí se pohroma pro tvou kariéru. V poslední době odsud uteklo příliš mnoho vězňů a je to jen tvoje vina.
+victory_adviserwarning_toomanyescapes2  Zamkni všechny dveře a postarej se, aby už nikdo neunikl, jinak si na tobě tisk smlsne způsobem, na který do smrti nezapomeneš.
+victory_advisernotice_toomanyescapes1   Veškeré tvé snahy skončily nezdarem. Médiím je tvá věznice pro smích a novináři chtějí něčí hlavu.
+victory_advisernotice_toomanyescapes2   A ten někdo jsi ty.  Jsi na dlažbě!
+victory_adviserwarning_bankrupt1        Jsme na mizině! Tvůj úděsný způsob vedení nás dočista zruinoval.
+victory_adviserwarning_bankrupt2        Najdi co nejrychleji způsob, jak to napravit, nebo skončíš na dlažbě.
+victory_advisernotice_bankrupt1         Nemáme na výběr, musíme vyhlásit bankrot a převést věznici pod nucenou správu. Tvé působení v jejím čele skončilo velkou blamáží.
+victory_adviserwarning_wardendeaths1    Pracovat pro tebe začíná být nesmírně riskantní. Jen stěží hledáme nové dozorce, kteří by byli ochotní do tvé věznice nastoupit.
+victory_adviserwarning_wardendeaths2    Jestli zemře ještě jeden jediný strážný, budeme tě muset propustit.
+victory_advisernotice_wardendeaths1     Nepodařilo se ti zajistit bezpečné pracovní prostředí pro dozorce. Nikdo k nám nechce nastoupit, všichni se bojí.
+victory_advisernotice_wardendeaths2     Nemáme na výběr. Musíme tě propustit.
+victory_adviserwarning_reoffenders1     Mnozí vězňové, kteří nás opustili předčasně, se po svém propuštění dopustili nových trestných činů. Pokud nepřijmeme příslušná nápravná opatření, mohlo by nám to zlomit vaz.
+victory_adviserwarning_reoffenders2     Jestliže se příliš mnoho dalších vězňů dopustí po propuštění recidivy, padne to na tvou hlavu.
+victory_advisernotice_reoffenders1      Tvá věznice vypustila do světa příliš mnoho nebezpečných kriminálníků. Nemáme na výběr, musíme tě propustit. Tvé zdejší působení skončilo velkou blamáží.
+victory_adviserwarning_executions1      To je už podruhé, co zde byl vykonán trest smrti na nevinném vězni. Veřejnost zuří.
+victory_adviserwarning_executions2      Bude-li tu popraven ještě nějaký další nevinný vězeň, padne to na tvou hlavu.
+victory_advisernotice_executions1       Došlo tu k popravám příliš mnoha nevinných lidí, a to s tvým výslovným souhlasem. Už nemůžeš nadále stát v čele této věznice. Tvé zdejší působení skončilo velkou blamáží.
+victory_advisernotice_InnocentsExecuted1 Právě tu byl na tvůj pokyn popraven vězeň dřív, než byly provedeny všechny příslušné procedury, a jak se ukázalo, byl ve skutečnosti nevinný. Zodpovědnost za toto plivnutí do tváře spravedlnosti přitom padá na tvou hlavu. Čeká tě propuštění a dost možná i vězení.
+
+score_title                             HODNOCENÍ VĚZNICE
+score_reoffendingrate                   PRAVDĚPODOBNOST RECIDIVITY
+score_prisonersreleased                 Propuštěno vězňů: *X
+score_minimumprisonersreleased          Toto hlášení bude možné vytvořit až po propuštění *X vězňů
+score_deaths                            Úmrtí vězňů: *X
+score_escapes                           Útěky vězňů: *X
+score_reoffendingchance                 Odhadovaná pravděpodobnost recidivity
+score_startingreoffendingchance         Odhadovaný stav při přijetí: *X %
+score_prisonersparoled                  Předčasné propuštění (recidivita)
+score_prisonersparoled_info             *P (*E %)
+score_clemencychance                    Pravděpodobnost omilostnění
+score_convictionstrength                Státem schválená míra usvědčení
+score_prisonersexecuted                 Popraveno vězňů (nevinných)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                Toto hodnocení sděluje, jak účinně byl dle názoru veřejnosti tento vězeň potrestán za své činy. Dlouhý pobyt ve věznici je základním kamenem silného trestu, ovšem velký vliv má také doba strávená na samotce.\n\nMěj na paměti, že příliš velké zaměření na nápravu a volnočasové aktivity je považováno za „zbytečně měkký přístup“ a snižuje celkové hodnocení trestu.\n\nVysoký stupeň potrestání vězně odrazuje od toho, aby se po propuštění vrátil zpět na dráhu zločinu.
+score_tooltip_reform                    Hodnocení, nakolik se ti podařilo tohoto vězně napravit prostřednictvím nápravných programů.\n\nVysoký stupeň napravení dává vězni výraznou šanci najít po propuštění plnohodnotné zaměstnání, čímž se snižuje nebezpečí recidivity.\n\nPoznámka: Do tohoto ukazatele se započítává také zapojení vězně do práce ve věznici.
+score_tooltip_health                    Záznam vězňova zdravotního stavu a snesitelnosti podmínek během jeho pobytu ve věznici. Do tohoto ukazatele se započítává také cvičení pod širým nebem a kvalitní strava. Hodnocení snižují neošetřená zranění a užívání drog nebo alkoholu.\n\nNízké hodnocení zvyšuje pravděpodobnost spáchání dalšího trestného činu, zvlášť pokud vězeň zařízení opustí s neléčenou závislostí na drogách nebo alkoholu.
+score_tooltip_security                  Hodnocení, které ukazuje, jak pečlivě byl tento vězeň střežen. Pobyt na cele pod dozorem ozbrojených strážných tento ukazatel výrazně zvyšuje. Body se naopak odečítají za to, pokud se vězeň zapojí do rvaček, někoho zavraždí nebo se pokusí o útěk.\n\nNízké hodnocení značí, že vězeň pokračoval ve svém kriminálním chování i za zdmi vězení, pravděpodobnost recidivity po propuštění tedy bude vysoká.
+
+score_tooltip_reoffendingchance         Odhadovaná pravděpodobnost, zda se vězeň po propuštění dopustí nějakého dalšího trestného činu. Tuto hodnotu ovlivňuje velké množství různých faktorů:\n\n- SNÍŽENÍ Silné/tvrdé tresty\n- SNÍŽENÍ Úspěšné dokončení nápravných programů\n- ZVÝŠENÍ Špatná zdravotní péče a slabé zabezpečení\n- ZVÝŠENÍ Neléčené závislosti na drogách a alkoholu\n- ZVÝŠENÍ Členství v gangu\n\n\n- Jedním z hlavních faktorů je vězňův věk.\n- Výrazným indikátorem je počet předchozích provinění.\n- Pomoci může pevná podpora ze strany rodinných příslušníků.
+score_tooltip_clemencychance_title      Pravděpodobnost omilostnění
+score_tooltip_clemencychance            Pravděpodobnost, že odvolací komise udělí vězni milost a změní trest smrti na nižší typ potrestání. Každé neúspěšné odvolání tuto hodnotu snižuje. Jakmile klesne pod státem schválenou míru usvědčení, lze přistoupit k vykonání rozsudku. Pokud popravu naplánuješ dříve a následně se ukáže, že vězňovo odvolání by bylo úspěšné, budeš čelit vážným následkům.\n\nV případě omilostnění bude vězeň buď okamžitě propuštěn (prokáže-li se, že byl nevinný), nebo přesunut do sekce s maximální ostrahou (jestliže bude i nadále považován za vinného).
+score_tooltip_currentchance             Státem schválená míra usvědčení je *X %
+score_tooltip_clemencywarning           Pravděpodobnost, že bude tento vězeň omilostněn, se momentálně pohybuje nad státem schválenou úrovní. Přistoupíš-li k popravě a dodatečně se prokáže, že vězni mohla být udělena milost, padne zodpovědnost na tvou hlavu. 
+
+experiencefactor_FractionalLockedUp     *X % času v cele
+experiencefactor_FractionalReform       *X % času v nápravných programech
+experiencefactor_fractionalWorking      *X % času v práci
+experiencefactor_fractionalsuppressed   *X % času pod kontrolou
+experiencefactor_fractionalinjured      *X % času s neléčenými zraněními
+experiencefactor_fractionalintoxicated  *X % času intoxikován (drogy / alkohol / abstinenční příznaky)
+experiencefactor_fractionalmisbehaving  *X % času porušoval pravidla
+experiencefactor_fractionalarmedguard   *X % času pod kontrolou nebo ozbrojeným dohledem
+experiencefactor_fractionalwellfed      *X % času dobře nakrmen
+experiencefactor_fractionalexercising   *X % času strávil cvičením
+experiencefactor_fractionalfreetime     *X % času strávil volnou zábavou
+
+experiencefactor_passedeasyprograms             Dokončené snadné programy – *X
+experiencefactor_passedintermediateprograms     Dokončené středně pokročilé programy – *X
+experiencefactor_passedadvancedprograms         Dokončené pokročilé programy – *X
+experiencefactor_passedexpertprograms           Dokončené odborné programy – *X
+
+experiencefactor_YearsServed            *X let ve vězení
+experiencefactor_fights                 Účast v násilných incidentech
+experiencefactor_murders                Ve vězení se *Xkrát dopustil vraždy
+experiencefactor_escapeattempts         Pokusil se *Xkrát o útěk
+experiencefactor_addictions             Současné závislosti – *X
+experiencefactor_gangmembership         Člen gangu
+
+legend_key                              Klíč:
+
+needs_graphscale_title                  Vězni:
+needs_key_critical                      Kritická
+needs_key_high                          Vyšší
+needs_key_med                           Střední
+needs_key_satisfied                     Uspokojeno
+needs_key_active                        Aktivní
+
+contraband_supplyanddemand              Nabídka a poptávka
+contraband_narcotics                    Narkotika
+contraband_weapons                      Zbraně
+contraband_tools                        Nástroje
+contraband_luxuries                     Luxusní předměty
+contraband_metal                        Kov
+contraband_smelly                       Páchnoucí předmět
+contraband_rangedweapon                 Zbraň na dálku
+contraband_improvised                   Improvizované
+
+contraband_key_supply                   Nabídka
+contraband_key_demand                   Poptávka
+contraband_log_stolen                   UKRADENO
+contraband_log_position                 UMÍSTĚNÍ
+contraband_log_smuggled                 PROPAŠOVÁNO
+contraband_log_traded                   VYMĚNĚNO
+contraband_log_thrown                   ZAHOZENO
+contraband_log_hidden                   UKRYTO
+contraband_log_detected                 ODHALENO
+contraband_log_dog                      PES
+contraband_log_found                    NALEZENO
+contraband_log_owner                    VLASTNÍK
+
+schedule_zone_shared                    Sdíleno
+schedule_zone_minseconly                Min. ostraha
+schedule_zone_medseconly                Stř. ostraha
+schedule_zone_maxseconly                Max. ostraha
+schedule_zone_protectedonly             Ochranná vazba
+schedule_zone_supermaxonly              Supermax. ostraha
+schedule_zone_deathrowonly              Cela smrti
+schedule_zone_staffonly                 Pouze zaměstnanci
+schedule_zone_unlocked                  Odemčeno
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              Na velkou
+action_wee                              Na malou
+action_wash                             Sprchuje se
+action_relax                            Odpočívá
+action_sleep                            Spí
+action_nap                              Dříme
+action_getmeal                          Bere si jídlo
+action_sit                              Sedí
+action_exercise                         Cvičí
+action_liftweights                      Posiluje
+action_phonehome                        Volá rodině
+action_watchtv                          Dívá se na televizi
+action_playpool                         Hraje kulečník
+action_stealknife                       Chová se podezřele
+action_stealspoon                       Chová se podezřele
+action_urinate                          Močí
+action_soilsuit                         Pomočuje se
+action_eat                              Jí
+action_complain                         Stěžuje si
+action_work                             Pracuje
+action_visitation                       Má návštěvu
+action_parole                           Slyšení před komisí
+action_none                             Nic
+action_misbehaving                      Dělá potíže
+action_escaping                         Prchá
+action_destroying                       Ničí
+action_spoiling                         Vyhledává boj
+action_fighting                         Bojuje
+action_rioting                          Bouří se
+action_hostagetaking                    Drží rukojmí
+action_reformprogram                    V nápravném programu
+action_changeclothes                    Převléká se
+action_getbook                          Bere si knihu
+action_pray                             Modlí se
+action_shopping                         Nakupuje
+
+status_effect_title						=[Efekty stavu]=
+status_effect_none						Nic
+status_effect_suppressed				Poslušný
+status_effect_goodfood					Najedený
+status_effect_drunk						Opilý
+status_effect_high                      Pod vlivem drog
+status_effect_withdrawal				S abstinenčními příznaky
+status_effect_tazed                     Zasažen tazerem
+status_effect_overdosed                 Předávkovaný
+status_effect_surrendered               Vzdává se
+status_effect_calming                   Zklidňuje se
+status_effect_angst                     Zuří
+status_effect_wounded                   Krvácí
+status_effect_virus                     Nemocný
+status_effect_virusdeadly               Nemocný
+
+condition_treated                       Ošetřený
+condition_needstreating                 Potřebuje ošetření
+
+experience_totaltime                    Celkový čas
+experience_misconduct                   Neposlušnost
+experience_lockeddown                   Pobyt na cele
+experience_regime                       Denní režim
+experience_sleep                        Spánek
+experience_work                         Práce
+experience_class                        Výuka
+experience_freetime                     Volný čas
+experience_moodbad                      špatná
+experience_moodnormal                   normální
+experience_moodgood                     dobrá
+experience_nocondition                  Nic
+experience_kod                          Knokautován
+experience_hurt                         Zraněný
+experience_suppressed                   Poslušný
+experience_intoxicated                  Intoxikovaný
+experience_wellfed                      Najedený
+experience_exercise                     Cvičí
+
+need_name_nothing                       Nic
+need_name_bladder                       Na malou
+need_name_bowels                        Na velkou
+need_name_sleep                         Spánek
+need_name_food                          Jídlo
+need_name_safety                        Bezpečí
+need_name_hygiene                       Hygiena
+need_name_exercise                      Cvičení
+need_name_family                        Rodina
+need_name_recreation                    Rekreace
+need_name_comfort                       Pohodlí
+need_name_environment                   Prostředí
+need_name_privacy                       Soukromí
+need_name_freedom                       Svoboda
+need_name_clothing                      Oblečení
+need_name_drugs                         Drogy
+need_name_alcohol                       Alkohol
+need_name_starving                      Hlad
+need_name_spirituality                  Duchovno
+need_name_literacy                      Gramotnost
+needs_locked                            (K zobrazení potřeb je nezbytný psycholog)
+needs_title                             =[Potřeby]=
+
+reputation_title                        Reputace
+reputation_hidden                       (Reputace neznámá)
+reputation_hidden_short                 ???
+
+reputation_legendary                    --LEGENDÁRNÍ--
+reputation_strong                       Silný
+reputation_tough                        Odolný
+reputation_volatile                     Labilní
+reputation_snitch                       Práskač
+reputation_deadly                       Zabiják
+reputation_stoical                      Kliďas
+reputation_fearless                     Neohrožený
+reputation_exlaw                        Bývalý strážce zákona
+reputation_copkiller                    Zabiják policistů
+reputation_quick                        Rychlý
+reputation_instigator                   Provokatér
+reputation_fighter                      Zkušený rváč
+reputation_gangmember                   Člen gangu
+reputation_federalwitness               Federální svědek
+
+reputation_strong_high                  Extrémně silný
+reputation_tough_high                   Extrémně odolný
+reputation_volatile_high                Extrémně labilní
+reputation_deadly_high                  Extrémně nebezpečný
+reputation_exlaw_high                   Bývalý dozorce
+reputation_quick_high                   Extrémně rychlý
+reputation_fighter_high                 Zkušený bojovník
+
+reputation_legendary_high               --LEGENDÁRNÍ--
+reputation_snitch_high                  Práskač
+reputation_stoical_high                 Kliďas
+reputation_fearless_high                Neohrožený
+reputation_copkiller_high               Zabiják policistů
+reputation_instigator_high              Provokatér
+reputation_gangmember_high              Člen gangu
+
+reputationtooltip_legendary             Tento vězeň je ve zločineckém podsvětí legendou a má mnoho schopností a dovedností, které z něj činí velice nebezpečného protivníka.
+reputationtooltip_strong                Tento vězeň během boje rozdává čím dál silnější rány.
+reputationtooltip_tough                 Tento vězeň v boji vydrží mnohem více ran než ostatní. Občas ho dokonce neskolí ani zásah tazerem.
+reputationtooltip_volatile              Tohoto vězně může kdykoliv bez varování popadnout záchvat vzteku.
+reputationtooltip_stoical               Zavření na samotku nepřiměje tohoto vězně k poslušnosti. Je mu to jedno.
+reputationtooltip_snitch                O tomto vězni se všeobecně ví, že je informátorem, a jeho život je tedy v ohrožení. Nenechávej ho příliš dlouho o samotě s ostatními vězni.
+reputationtooltip_deadly                Tento vězeň je mistrem smrtících bojových umění a občas dokáže svého protivníka zabít jediným úderem.
+reputationtooltip_exlaw                 Tento vězeň býval policistou nebo nějakým jiným způsobem dohlížel na dodržování zákonů. Jeho život může být v ohrožení.
+reputationtooltip_copkiller             Tento vězeň zavraždil policistu. Hrozí nebezpečí, že když jej budou tví strážní muset zpacifikovat, přestanou se kontrolovat.
+reputationtooltip_fearless              Přítomnost ozbrojených strážných nenažene tomuto vězni žádný strach a v boji se jen tak nevzdá.
+reputationtooltip_quick                 Tento vězeň umí neobvykle rychle běhat.
+reputationtooltip_instigator            Tento vězeň všude kolem sebe rozsévá semínka nespokojenosti. Jakmile začne způsobovat potíže, lidé kolem něj cítí potřebu se k němu připojit.
+reputationtooltip_fighter               Tento vězeň je zdatný v umění sebeobrany. Dokáže své protivníky odzbrojit a případně použít jejich zbraně proti jim samotným.
+reputationtooltip_gangmember            Tento vězeň je členem gangu. Bude bránit své bratry a zuřivě nenávidí členy znepřátelených gangů.
+reputationtooltip_federalwitness        Tento vězeň je důležitým svědkem v jistém ostře sledovaném případu, na jeho hlavu je tedy gangem nebo mafiánským bossem vypsána odměna.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Pracuje
+nameplate_stationed                     Na pozici
+nameplate_patrolling                    Hlídá
+nameplate_resting                       Odpočívá
+nameplate_tired                         Únava
+nameplate_injured                       Zranění
+nameplate_unconscious                   V bezvědomí
+nameplate_dead                          PO SMRTI
+nameplate_released                      PROPUŠTĚN
+nameplate_researching                   Výzkum
+nameplate_overdose                      PŘEDÁVKOVANÝ
+nameplate_starving                      HLADOVÍ
+nameplate_wounded                       KRVÁCÍ
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Nakrm všechny vězně
+objective_caption_prisoners             Vězni
+objective_caption_meals                 Jídla
+objective_readceosletter                Přečti si dopis od ředitele
+objective_actionrequired                Hlášení o incidentech
+
+objective_deathrowinmates               Stav vězňů z cely smrti
+
+objective_prisonerintake                Příjem vězňů
+objective_intake_arrivals               V 8:00 dorazí *X vězňů
+objective_intake_closed                 Tvoje věznice momentálně nepřijímá další vězně
+objective_intake_closed2                (viz hlášení Vězni)
+objective_intake_closed3                (viz hlášení Příjem)
+objective_intake_specials				Speciální převody:
+objective_intake_categories             Kategorie 
+objective_intake_minsec                 minimální, 
+objective_intake_medsec                 střední, 
+objective_intake_maxsec                 maximální
+objective_intake_deathrow               Cela smrti
+
+objective_builddeliveriesroom           Vyznač vykládací oblast 
+
+objective_outgoing                      Propuštění vězňů
+objective_outgoing_count                Brzy dojde k propuštění *X vězňů
+objective_outgoing_timer                (*X hod.)
+
+objective_visitors                      Návštěvy (8:00 – 20:00)
+objective_visitors_waiting              *X rodiny čekají na umožnění návštěvy
+objective_visitors_onsite               V areálu je *X návštěvníků v *Y skupinách
+
+objective_staffexhausted                Vyčerpaní zaměstnanci
+objective_reststaff_exhausted           *X z tvých zaměstnanců trpí vyčerpáním.
+objective_reststaff_resting             (odpočívají: *X)
+objective_reststaff_needstaffroom       Postav klubovnu, aby si měli kde odpočinout.
+
+objective_punishment_solitary           *X na samotce
+objective_punishment_solitary_queue     *X ve frontě na samotku
+objective_punishment_solitary_mix       *X na samotce (+*Y ve frontě)
+objective_punishment_lockdown           *X na celách
+objective_incident_medical              *X s potřebou ošetření
+objective_incident_dead                 *X po smrti
+
+objective_prisonerparole                Podmínečné propuštění
+objective_parole_count                  *X vězni čekají na podmínečné propuštění
+
+objective_payment_receivedfull          Platba: obdrženo *X
+objective_payment_receivedpart          Platba: obdrženo *X z celkové částky *Y
+
+objective_grant_bootstraps                  Základní detenční centrum
+objective_grant_bootstraps_description      Postav funkční věznici na zelené louce.  Tento vládní kontrakt ti poskytne prostředky potřebné pro vybudování základního zázemí pro přijetí první várky vězňů.
+objective_grant_bootstraps_holdingcell      Postav společnou celu
+objective_grant_bootstraps_shower           Postav sprchu
+objective_grant_bootstraps_yard             Postav dvůr 
+objective_grant_bootstraps_kitchen          Postav kuchyň
+objective_grant_bootstraps_canteen          Postav jídelnu
+objective_grant_bootstraps_guard            Najmi alespoň dva strážné
+objective_grant_bootstraps_chef             Najmi alespoň dva kuchaře
+
+objective_grant_administration                          Administrativní centrum
+objective_grant_administration_description              Každé vězení potřebuje funkční administrativní centrum, které se stará o hladký a efektivní chod věznice.  Tento kontrakt ti umožní najmout správce věznice a účetní a zařídit jim kanceláře, čímž získáme přístup k plnému federálnímu grantovému systému.
+objective_grant_administration_offices                  Postav dvě kanceláře
+objective_grant_administration_warden                   Najmi správce věznice 
+objective_grant_administration_accountant_research      Zpřístupni si ve Správě věznice možnost Finance
+objective_grant_administration_accountant               Najmi účetní
+
+objective_grant_firstcellblock                  Blok A
+objective_grant_firstcellblock_description      Základy bychom měli.  Je na čase postavit první blok cel a přesunout do nich stávající vězně.
+objective_grant_firstcellblock_cells            Zvyš kapacitu na 15 vězňů
+
+objective_grant_health                      Zdraví a spokojenost vězňů
+objective_grant_health_description          Tělesné a duševní zdraví vězňů je velice důležité.  Cílem tohoto grantu je umožnit vybudování špičkové ošetřovny a poskytnout prostředky na najmutí doktorů a psychologů, kteří se budou starat o zdravotní stav zdejších chovanců.
+objective_grant_health_ward                 Postav ošetřovnu
+objective_grant_health_doctors              Najmi alespoň dva doktory
+objective_grant_health_psychologist         Najmi psychologa (potřebuje kancelář)
+
+objective_grant_bailout                     Vládní dotace
+objective_grant_bailout_description         Úřady jsou s tvým výkonem silně nespokojené, ale dospěly k názoru, že tvá věznice je příliš velká, než aby ji mohly nechat svému osudu. Poskytnou ti dotaci, aby vězení zachránily před krachem. Musíš ovšem dát do pořádku finance – zajistit kladné cashflow (denní příjmy musí převyšovat výdaje) a splatit dluhy u banky.
+objective_grant_bailout_cashflow            Měj příjmy vyšší než výdaje
+objective_grant_bailout_debt                Splať dluhy
+
+
+objective_grant_maintenance                         Správa věznice
+objective_grant_maintenance_description             Všeobecná údržba věznice a jejích pozemků je důležitá pro bezpečí zaměstnanců i vězňů. Najmi potřebný personál, který se bude starat v celém areálu o čistotu a pořádek.
+objective_grant_maintenance_research_root           Zpřístupni si ve Správě věznice možnost Údržba
+objective_grant_maintenance_research_cleaning       Zpřístupni si ve Správě věznice možnost Úklid
+objective_grant_maintenance_research_groundskeeping Zpřístupni si ve Správě věznice možnost Venkovní úklid
+objective_grant_maintenance_foreman                 Najmi předáka (potřebuje kancelář)
+objective_grant_maintenance_janitor                 Najmi alespoň dva uklízeče
+objective_grant_maintenance_gardener                Najmi zahradníka 
+
+objective_grant_visitation                          Povolení k návštěvám
+objective_grant_visitation_description              Na mnohá okolní nápravná zařízení se snáší kritika za to, že jejich vedení odpírá vězňům návštěvy příbuzných. Investoři se chtějí vyvarovat skandálu, a tak se rozhodli ti poskytnout tento grant na zajištění a vybavení prostor potřebných pro návštěvy.
+objective_grant_visitation_room                     Vybuduj návštěvní místnost
+objective_grant_visitation_tables                   Nainstaluj alespoň tři stoly pro návštěvy
+objective_grant_visitation_commonroom               Vybuduj společenskou místnost
+objective_grant_visitation_pooltable                Nainstaluj kulečníkový stůl
+objective_grant_visitation_tv                       Nainstaluj alespoň dvě televize
+objective_grant_visitation_phones                   Nainstaluj alespoň pět telefonních automatů
+
+objective_grant_basicsecurity                       Certifikace bezpečnostních postupů
+objective_grant_basicsecurity_description           Běžnou slabinou nových věznic jsou mezery v bezpečnostních opatřeních, které vznikají nedostatkem zkušeností personálu. Zvyš míru zabezpečení na přijatelnou úroveň a zabraň tak vzniku úvodních pochybení, která by nám v budoucnu poškozovala reputaci.
+objective_grant_basicsecurity_chief                 Najmi šéfa ostrahy (potřebuje kancelář)
+objective_grant_basicsecurity_guards                Najmi deset strážných
+objective_grant_basicsecurity_patrols               Přiděl třem strážným hlídkové trasy
+objective_grant_basicsecurity_research              Zpřístupni si ve Správě věznice možnost Hlídky
+
+objective_grant_enhancedsecurity                    Vládní hodnocení bezpečnosti
+objective_grant_enhancedsecurity_description        Úřady, jež dohlížejí na naši činnost, mají jisté požadavky na zabezpečení věznic, které překročí určitou úroveň, a v případě jejich nedodržení udělují přísné pokuty. Postarej se, abychom v tomto ohledu neměli žádné problémy.
+objective_grant_enhancedsecurity_armoury            Postav zbrojnici
+objective_grant_enhancedsecurity_kennel             Postav psinec
+objective_grant_enhancedsecurity_guards             Najmi dva ozbrojené strážné
+objective_grant_enhancedsecurity_dogs               Najmi dva psovody
+objective_grant_enhancedsecurity_patroldogs         Přiděl dvěma psovodům hlídkovou trasu se psy
+objective_grant_enhancedsecurity_patrolarmed        Přiděl dvěma ozbrojeným strážným hlídkovou trasu
+
+objective_grant_advancedsecurity                    Infrastruktura pro maximální ostrahu
+objective_grant_advancedsecurity_description        Zabezpečení ostrahy velkého množství vězňů není nijak snadné, ovšem cena za její porušení mnohonásobně převyšuje náklady na implementaci správných bezpečnostních opatření. Rozmísti po své věznici potřebné vybavení.
+objective_grant_advancedsecurity_guards             Zvyš počet svých strážných
+objective_grant_advancedsecurity_researchcctv       Zpřístupni si ve Správě věznice možnost Bezpečnostní kamery
+objective_grant_advancedsecurity_researchbodyarmour Zpřístupni si ve Správě věznice možnost Neprůstřelné vesty
+objective_grant_advancedsecurity_researchtazers     Zpřístupni si ve Správě věznice možnost Tazery
+objective_grant_advancedsecurity_office             Vybuduj místnost ostrahy
+objective_grant_advancedsecurity_cctvmonitor        Nainstaluj monitor bezpečnostních kamer
+objective_grant_advancedsecurity_cctvcameras        Rozmísti po věznici bezpečnostní kamery
+
+objective_grant_prisonerworkforce                   Aklimatizace vězňů a jejich zapojení do práce 
+objective_grant_prisonerworkforce_description       Nechat vězně podílet se na práci ve věznici je dobrým způsobem, jak je zapojit do chodu areálu, a zároveň si tím snížíš provozní náklady.  Nech je projít potřebným výcvikem a postav budovy, které budeš potřebovat pro využívání práce vězňů.
+objective_grant_prisonerworkforce_research          Zpřístupni si ve Správě věznice možnost Práce vězňů
+objective_grant_prisonerworkforce_cleaning          Postav úklidovou komoru
+objective_grant_prisonerworkforce_laundry           Postav prádelnu
+objective_grant_prisonerworkforce_kitchenclass      Nech tři vězně dokončit program Bezpečnost práce a hygiena v kuchyni
+objective_grant_prisonerworkforce_laundryassigned   Přiděl třem vězňům práci v prádelně
+objective_grant_prisonerworkforce_kitchenassigned   Přiděl třem vězňům práci v kuchyni
+objective_grant_prisonerworkforce_cleaningassigned  Přiděl třem vězňům práci v úklidové komoře
+
+objective_grant_educationreformprogram              Náprava vzděláním
+objective_grant_educationreformprogram_description  Významná skupina aktivistů provádí rozsáhlý sociální experiment s cílem zjistit vliv vzdělávání na míru recidivity vězňů. Připrav několik učeben a začni se vzděláváním vězňů.
+objective_grant_educationreformprogram_research     Zpřístupni si ve Správě věznice možnost Vzdělávání
+objective_grant_educationreformprogram_classroom    Postav učebnu
+objective_grant_educationreformprogram_desks        Nainstaluj dvacet školních lavic
+objective_grant_educationreformprogram_foundationed Nech deset vězňů projít základním vzdělávacím kurzem
+objective_grant_educationreformprogram_generaled    Nech jednoho vězně projít všeobecným vzdělávacím kurzem
+
+objective_grant_prisonlabour                        Vězeňský výrobní komplex
+objective_grant_prisonlabour_description            Investoři chtějí zvýšit výnosnost věznice a jsou ochotni ti poskytnout prostředky na vybudování dílen a přeměnu vězňů v pracovní sílu.
+objective_grant_prisonlabour_workshop               Postav dílnu
+objective_grant_prisonlabour_saw                    Nainstaluj do dílny dvě pily
+objective_grant_prisonlabour_press                  Nainstaluj do dílny dva lisy
+objective_grant_prisonlabour_reform                 Nech pět vězňů projít programem Bezpečnost práce v dílně
+objective_grant_prisonlabour_plates                 Vyrob 30 registračních značek
+
+objective_grant_furnituremanufacturing              Truhlářský program
+objective_grant_furnituremanufacturing_description  V truhlářském programu se mohou vězni naučit cenné dovednosti, jež mohou následně využít po svém propuštění, a vyrábět v dílně kvalitní nábytek, jehož prodejem si zvýšíš celkové příjmy. 
+objective_grant_furnituremanufacturing_forestry     Postav lesní školku
+objective_grant_furnituremanufacturing_table        Nainstaluj dva truhlářské stoly
+objective_grant_furnituremanufacturing_reform       Nech dva vězně projít kurzem truhlářství
+objective_grant_furnituremanufacturing_bed          Vyrob deset luxusních postelí
+
+objective_grant_reducestaffstress                   Program na zlepšení pracovních podmínek
+objective_grant_reducestaffstress_description       Odborům vězeňských zaměstnanců se hromadí hlášení o tom, že na pracovníky jsou kladeny neúnosné fyzické i psychické nároky a ti se pak kvůli neustálému stresu dopouštějí chyb. Postarej se, aby ve tvé věznici k podobným incidentům nedocházelo.
+objective_grant_reducestaffstress_staffroom         Postav klubovnu
+objective_grant_reducestaffstress_freeguards        Měj alespoň pět strážných bez přiřazených povinností
+objective_grant_reducestaffstress_restedstaff       Zajisti, aby nikdo z tvých zaměstnanců nebyl vyčerpaný
+
+objective_grant_shortterminvestment                 Krátkodobá investice
+objective_grant_shortterminvestment_description     Vlož peníze do investičního fondu, který tvé prostředky po čase zhodnotí.
+objective_grant_shortterminvestment_wait            Počkej na vyplacení prostředků...
+
+objective_grant_longterminvestment                  Dlouhodobá investice
+objective_grant_longterminvestment_description      Vlož peníze do dlouhodobého investičního fondu, který tvé prostředky po čase výrazně zhodnotí.
+objective_grant_longterminvestment_wait             Počkej na vyplacení prostředků...
+
+objective_grant_cellblock50                         Blok B
+objective_grant_cellblock50_description             Je na čase rozšířit věznici, aby neměla jen společnou celu. 
+objective_grant_cellblock50_cells                   Zvyš kapacitu na 50 vězňů
+
+objective_grant_cellblock100                        Blok C
+objective_grant_cellblock100_description            Využij náležitě své pozemky a pokračuj v rozšiřování věznice.
+objective_grant_cellblock100_cells                  Zvyš kapacitu na 100 vězňů
+
+objective_grant_cellblock200                        Blok D
+objective_grant_cellblock200_description            Více vězňů znamená větší dotace od státu. Zvyš kapacitu a náležitě toho využij.
+objective_grant_cellblock200_cells                  Zvyš kapacitu na 200 vězňů
+
+objective_grant_cellblock500                        Blok E
+objective_grant_cellblock500_description            Velkým věznicím nabízejí příslušné úřady velice zajímavé státní dotace. Je na čase toho využít.
+objective_grant_cellblock500_cells                  Zvyš kapacitu na 500 vězňů
+
+objective_grant_nutritionresearch                   Výzkum vězeňské stravy
+objective_grant_nutritionresearch_description       Nezávislá skupina vědců nabízí grant za účast v programu, jehož cílem je zjistit účinky podávané stravy na chování vězňů. 
+objective_grant_nutritionresearch_poor              Podávej po dobu dvou dnů jediné skrovné jídlo s nízkou rozmanitostí
+objective_grant_nutritionresearch_good              Podávej po dobu dvou dnů tři bohatá jídla s vysokou rozmanitostí
+
+objective_grant_drugsearch                          Protidrogové tažení
+objective_grant_drugsearch_description              Poslední dobou narůstají obavy z užívání drog ve velkých věznicích. Zaujmi aktivní postoj a ukaž, že s tímto problémem bojuješ.
+objective_grant_drugsearch_find                     Najdi deset nezákonných narkotik
+
+objective_grant_contrabandsupply                    Zátah na nástroje
+objective_grant_contrabandsupply_description        V reakci na sérii incidentů v jiných věznicích, při nichž došlo ke krádežím různých předmětů, provádí jistá skupina studii o distribuci nástrojů a zbraní ve věznicích. První fází tohoto výzkumu je zabavení všech takovýchto předmětů, které se u vězňů nacházejí.
+objective_grant_contrabandsupply_tools              Odeber vězňům ukradené nástroje
+objective_grant_contrabandsupply_weapons            Odeber vězňům ukradené zbraně
+
+grant_category_completed                            Dokončeno:
+grant_category_unlocked                             Zpřístupněno:
+grant_category_cash                                 Hotovost:
+grant_category_cashflow                             Cashflow:
+grant_category_debt                                 Dluh:
+grant_category_prisoners                            Vězni:
+
+grant_property_atleast                              Alespoň *X
+grant_property_atmost                               Maximálně *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              Nic
+object_box                               Bedna
+object_stack                             Hromada
+object_bed                               Postel
+object_toilet                            Záchod
+object_table                             Stůl
+object_chair                             Židle
+object_bench                             Lavice
+object_electricchair                     Elektrické křeslo
+object_jaildoor                          Vězeňské dveře
+object_jaildoorlarge                     Velké vězeňské dveře
+object_door                              Dveře
+object_solitarydoor                      Dveře od samotky
+object_staffdoor                         Dveře pro zaměstnance
+object_remotedoor                        Dálkově ovládané dveře
+object_roadgate                          Příjezdová brána
+object_jailbars                          Mříže
+object_window                            Okno
+object_windowlarge                       Velké okno
+object_tree                              Strom
+object_light                             Světlo
+object_cooker                            Sporák
+object_fridge                            Lednička
+object_bin                               Odpadkový koš
+object_sink                              Dřez
+object_servingtable                      Servírovací stůl
+object_showerhead                        Sprchová hlavice
+object_brick                             Cihly
+object_concrete                          Beton
+object_steel                             Ocel
+object_ingredients                       Potraviny
+object_ingredientscooking                Potraviny (vaří se)
+object_ingredientscooked                 Potraviny (uvařené)
+object_ingredientsspoiled                Potraviny (zkažené)
+object_meal                              Jídlo
+object_foodtray                          Jídelní tác
+object_foodtraydirty                     Jídelní tác (špinavý)
+object_grassturf                         Trs trávy
+object_prisoneruniform                   Vězeňská uniforma
+object_dirtyprisoneruniform              Vězeňská uniforma (špinavá)
+object_crumpledprisoneruniform           Vězeňská uniforma (zmačkaná)
+object_bleach                            Bělidlo
+object_sheetmetal                        Plech
+object_licenseplateblank                 Registrační značky (prázdné)
+object_licenseplate                      Registrační značky
+object_log                               Poleno
+object_wood                              Dřevo
+object_workman                           Dělník
+object_truckdriver                       Řidič
+object_guard                             Strážný
+object_riotguard                         Člen speciálních jednotek
+object_armedguard                        Ozbrojený strážný
+object_prisoner                          Vězeň
+object_doctor                            Doktor
+object_paramedic                         Zdravotník
+object_cook                              Kuchař
+object_gardener                          Zahradník
+object_janitor                           Uklízeč
+object_fireman                           Hasič
+object_avatar                            Avatar
+object_actor                             Herec
+object_visitor                           Návštěvník
+object_executionwitness                  Svědek popravy
+object_doghandler                        Psovod
+object_dog                               Služební pes 
+object_dogcrate                          Kotec
+object_teacher                           Učitel
+object_soldier                           Voják
+object_warden                            Správce
+object_chief                             Šéf ostrahy
+object_foreman                           Předák
+object_psychologist                      Psycholog
+object_accountant                        Účetní
+object_lawyer                            Právník
+object_supplytruck                       Nákladní vůz
+object_prisonerbus                       Vězeňský autobus
+object_fireengine                        Hasičský vůz
+object_riotvan                           Zásahový vůz
+object_ambulance                         Sanitka
+object_hearse                            Pohřební vůz
+object_trooptruck                        Vojenský vůz
+object_fire                              Oheň
+object_garbage                           Odpadky
+object_rubble                            Suť
+object_bookshelf                         Knihovna
+object_officedesk                        Psací stůl
+object_filingcabinet                     Kartotéka
+object_medicalbed                        Nemocniční lůžko
+object_morgueslab                        Pitevní stůl
+object_equipment                         Vybavení
+object_prop                              Pomůcka
+object_dummy                             Panák
+object_powerstation                      Trafostanice
+object_capacitor                         Kondenzátor
+object_electricalcable                   Elektrický kabel
+object_powerswitch                       Spínač
+object_logiccircuit                      Logický obvod
+object_logicbridge                       Logické přemostění
+object_waterpumpstation                  Vodárna
+object_pipevalve                         Ventil
+object_pipelarge                         Široké potrubí
+object_pipesmall                         Úzké potrubí
+object_drain                             Odtoková mřížka
+object_sprinkler                         Sprinkler
+object_metaldetector                     Detektor kovů
+object_weightsbench                      Posilovací lavice
+object_phonebooth                        Telefonní automat
+object_tv                                Televize
+object_largetv                           Velká televize
+object_pooltable                         Kulečníkový stůl
+object_polaroid                          Fotografie
+object_cctv                              Bezpečnostní kamera
+object_cctvmonitor                       Bezpečnostní monitor
+object_laundrymachine                    Pračka
+object_laundrybasket                     Koš na prádlo
+object_ironingboard                      Žehlicí prkno
+object_visitortable                      Návštěvnický stůl
+object_workshopsaw                       Pila
+object_workshoppress                     Lis
+object_carpentertable                    Truhlářský stůl
+object_boombox                           Magnetofon
+object_guardlocker                       Bezpečnostní skříňka
+object_sofachairsingle                   Pohovka
+object_sofachairdouble                   Široká pohovka
+object_drinkmachine                      Nápojový automat
+object_arcadecabinet                     Herní automat
+object_radio                             Rádio
+object_bookshelflarge                    Regál na knihy
+object_weaponrack                        Držák na zbraně 
+object_treestump                         Pařez
+object_schooldesk                        Školní lavice
+object_superiorbed                       Luxusní postel
+object_doorcontrolsystem                 Systém pro ovládání dveří
+object_phonemonitor                      Štěnice
+object_servo                             Servomotor
+object_doortimer                         Časový spínač
+object_pressurepad                       Tlakový spínač
+object_statuslight                       Stavové světlo
+object_wire                              Připojit
+object_dismantleobject                   Demontovat objekt
+object_dismantleutility                  Demontovat zařízení
+object_sellobject                        Prodat objekt
+object_canceljobs                        Zrušit činnost
+object_showallwires                      Zobrazit dráty
+object_tidywires                         Upravit dráty
+object_cutscenepolaroid                  Fotografie příběhu
+object_cutscenecamera                    Kamera příběhu
+object_cutscenecue                       Spínač příběhu
+object_foodwaste                         Vyhozené jídlo
+object_altar                             Oltář
+object_pews                              Kostelní lavice
+object_prayermat                         Modlitební rohož
+object_paroleofficer                     Člen komise pro předčasné propuštění
+object_parolelawyer                      Právník komise pro předčasné propuštění
+object_spiritualleader                   Duchovní vůdce
+object_librarybookshelf                  Police v knihovně
+object_librarybookunsorted               Kniha z knihovny (nezařazená)
+object_librarybooksorted                 Kniha z knihovny (zařazená)
+object_sortingtable                      Třídicí stůl
+object_ruinedbook                        Zničená kniha
+object_foodbowl                          Jídlo
+object_appealslawyer                     Právník odvolací komise
+object_appealsmagistrate                 Předseda odvolací komise
+object_mailsatchel                       Poštovní brašna
+object_mailunsorted                      Neroztříděná pošta
+object_mailsorted                        Roztříděná pošta
+object_prisonermail                      Pošta
+object_prisonermailopened                Pošta (otevřená)
+object_shopfront                         Výloha obchodu
+object_shopgoods                         Zboží v obchodu
+object_shopshelf                         Regál v obchodu
+
+material_none                            Nic
+material_building                        Budova (cihlová)
+material_buildingconcrete                Budova (betonová)
+material_demolish                        Zbořit
+material_clearindoorarea                 Vyčistit vnitřní prostor
+material_demolishwalls                   Zbořit zdi
+material_removetunnels                   Zničit tunely
+material_canceljobs                      Zrušit činnost
+material_dirt                            Hlína
+material_sand                            Písek
+material_pavingstone                     Dlažební kostky
+material_grass                           Tráva
+material_gravel                          Štěrk
+material_road                            Cesta
+material_roadmarkings                    Vyznačení silnice
+material_roadmarkingsleft                Vyznačení silnice (vlevo)
+material_roadmarkingsright               Vyznačení silnice (vpravo)
+material_stone                           Kámen
+material_fence                           Plot
+material_concretetiles                   Betonová dlažba
+material_concretefloor                   Betonová podlaha
+material_woodenfloor                     Dřevěná podlaha
+material_ceramicfloor                    Keramická dlažba
+material_mosaicfloor                     Mozaiková podlaha
+material_metalfloor                      Kovová podlaha
+material_marbletiles                     Mramorová dlažba
+material_whitetiles                      Bílé dlaždice
+material_fancytiles                      Zdobené dlaždice
+material_concretewall                    Betonová zeď
+material_brickwall                       Cihlová zeď
+material_perimeterwall                   Obvodová zeď
+material_burntfloor                      Ohořelá podlaha
+material_burntwall                       Ohořelá zeď
+material_buildingframe                   Kostra budovy
+material_roof                            Střecha
+
+room_none                                Nic
+room_cell                                Cela
+room_holdingcell                         Společná cela
+room_solitary                            Samotka
+room_superiorcell                        Vylepšená cela
+room_canteen                             Jídelna
+room_kitchen                             Kuchyň
+room_shower                              Sprchy
+room_yard                                Dvůr
+room_storage                             Skladiště
+room_deliveries                          Dodávky
+room_garbage                             Skládka
+room_execution                           Popravní místnost
+room_workshop                            Dílna
+room_security                            Zabezpečení
+room_office                              Kancelář
+room_medicalward                         Ošetřovna
+room_morgue                              Márnice
+room_commonroom                          Společenská místnost
+room_laundry                             Prádelna
+room_visitation                          Návštěvní místnost
+room_cleaningcupboard                    Úklidová komora
+room_kennel                              Psinec
+room_armoury                             Zbrojnice
+room_staffroom                           Klubovna
+room_library                             Knihovna
+room_forestry                            Lesní školka
+room_classroom                           Učebna
+room_exports                             Expedice
+room_chapel                              Kaple
+room_intake                              Příjem
+room_clearrooms                          Prázdné místnosti
+room_paroleroom                          Jednací místnost
+room_mailroom                            Třídírna pošty
+room_shop                                Obchod
+
+equipment_none                           Nic
+equipment_fists                          Pěsti
+equipment_baton                          Obušek
+equipment_club                           Kyj
+equipment_shank                          Tyč
+equipment_knife                          Nůž
+equipment_fork                           Vidlička
+equipment_gun                            Pistole
+equipment_spoon                          Lžíce
+equipment_needle                         Stříkačka
+equipment_booze                          Alkohol
+equipment_poison                         Jed
+equipment_cigs                           Cigarety
+equipment_saw                            Pila
+equipment_jailkeys                       Vězeňské klíče
+equipment_mobilephone                    Mobilní telefon
+equipment_lighter                        Zapalovač
+equipment_screwdriver                    Šroubovák
+equipment_drugs                          Drogy
+equipment_sheers                         Velké nůžky
+equipment_mop                            Mop
+equipment_rake                           Hrábě
+equipment_hose                           Hadice
+equipment_spatula                        Špachtle
+equipment_woodenspoon                    Dřevěná lžíce
+equipment_cleaningbrush                  Kartáč
+equipment_hammer                         Kladivo
+equipment_clipboard                      Zápisník
+equipment_drill                          Vrták
+equipment_pianowire                      Struna od piana
+equipment_scissors                       Nůžky
+equipment_medicine                       Léky
+equipment_shotgun                       Brokovnice
+equipment_moneybag                      Vak na peníze
+equipment_tazer                         Tazer
+equipment_guarduniform                  Uniforma stráží
+equipment_stabvest                      Neprůstřelná vesta
+equipment_rifle                         Puška
+equipment_dogleash                      Vodítko
+equipment_assaultrifle                  Útočná puška
+equipment_woodenpickaxe                 Dřevěný krumpáč
+equipment_cbradio                       Vysílačka
+equipment_axe                           Sekera
+equipment_spade                         Lopatka
+
+research_requires_short                 Zapotřebí: *X
+
+reformprogram_workshopinduction         Bezpečnost práce v dílně
+reformprogram_foundationeducation       Základní vzdělávací program
+reformprogram_generaleducation          Všeobecný vzdělávací program
+reformprogram_carpentry                 Truhlářský program
+reformprogram_kitcheninduction          Bezpečnost práce a hygiena v kuchyni
+reformprogram_therapy                   Behaviorální terapie
+reformprogram_methadone                 Farmakologická léčba drogové závislosti
+reformprogram_alcoholicsmeeting         Protialkoholní skupinová terapie
+reformprogram_tazertraining             Výcvik strážných v používání tazerů
+reformprogram_spiritualguidance         Duchovní vedení
+reformprogram_parolehearing             Slyšení před komisí
+reformprogram_deathrowappeal            Odvolání ohledně trestu smrti
+
+reformprogram_tazertrained              Certifikace: tazer
+
+reformprogram_workshopinduction_text    Bezpečnost především! Aby mohli vězňové pracovat v dílně, musí nejprve projít tímto kurzem.
+reformprogram_foundationeducation_text  Mnozí vězni neumí ani pořádně číst, psát a počítat. Tento kurz jim zajistí plnou gramotnost. Po dokončení tohoto kurzu budou vězni moci pracovat v knihovně.
+reformprogram_carpentry_text            Složité řemeslo, které vyžaduje vysokou míru zručnosti. Vězni, kteří projdou tímto kurzem, budou moci u truhlářského stolu vyrábět cenné předměty ze dřeva.
+reformprogram_kitcheninduction_text     Při zajišťování jídla pro stovky lidí najednou je důležité dodržovat jisté základní standardy. Aby mohli vězňové pracovat v kuchyni, musí nejprve projít tímto kurzem.
+reformprogram_therapy_text              Vězňům často chybí základní schopnost sebeovládání. Cílem těchto každodenních sezení s vězeňským psychologem je, aby se naučili zklidňovat vypjaté situace dřív, než se vyhrotí a dojde k násilí.
+reformprogram_methadone_text            Sada 5 sezení s využitím farmakologických substitučních látek, které pomáhají vězňům překonat závislost na drogách. Každé sezení vězni redukuje abstinenční příznaky a dokončení celého programu může jedince i zcela zbavit závislosti.
+reformprogram_alcoholicsmeeting_text    Skupinová terapie pro alkoholiky. Pomáhá jim zvládat závislost na alkoholu. Touhy po něm se ovšem nikdy zcela nezbaví.
+reformprogram_parolehearing_text        Slyšení, které určí, zda lze vězně předčasně propustit. Pokud se vězeň na svobodě nedopustí žádného dalšího trestného činu, obdržíš příjemný bonus. 
+reformprogram_spiritualguidance_text    Někteří vězni jsou silně věřící nebo mají všeobecnou potřebu obohatit své životy o duchovní rozměr. Přiveď do věznice duchovního vůdce, který povede tvé chovance při modlitbách a poskytne klid jejich duším.
+
+reformerror_unscheduled                 NENAPLÁNOVÁNO
+reformerror_noroom                      ŽÁDNÁ VOLNÁ MÍSTNOST
+reformerror_nofreetimeslot              VŠECHNY MÍSTNOSTI OBSAZENY
+reformerror_staffonly                   MÍSTNOSTI JSOU JEN PRO ZAMĚSTNANCE
+reformerror_noobjects                   CHYBÍ VYBAVENÍ
+reformerror_noregimetime                HARMONOGRAM JE PLNÝ
+reformerror_noteachers                  CHYBÍ UČITEL
+
+reform_interested                       Zájem: *X 
+reform_interested_qualified             Zájem/kvalifikováno: *X 
+reform_queued                           Ve frontě: *X 
+reform_completion                        - Dokončeno: *X - Účastníků: *Y (*P %)
+reform_locked                           ZAMČENO
+reform_start                            SPUSTIT
+reform_costpersession                   *X na sezení
+reform_placespersession                 *X míst / *Y sezení
+reform_program_starting                 Začíná
+reform_program_active                   AKTIVNÍ
+reform_program_paused                   Pozastaveno
+reform_program_stop                     ZASTAVIT
+reform_program_ledby                     - Sezení vede *P (*Z)
+reform_program_ledwith                   - Asistence: *S
+reform_program_length                    - Délka sezení: *X hod.
+reform_program_requirements              - *X pro každého vězně
+reform_program_requirements_alt          - *X nebo *Y pro každého vězně
+reform_program_prereqs                  Vězeň musí dokončit:
+reform_program_research_required        Požadováno: *X
+
+reform_program_intake_none                      Nic
+reform_program_intake_mandatory                 Povinné
+reform_program_intake_voluntary                 Dobrovolné
+reform_program_intake_referralviolence          Zaměření: násilí
+reform_program_intake_referraldrugaddiction     Zaměření: drogová závislost
+reform_program_intake_referralalcoholism        Zaměření: alkoholismus
+reform_program_intake_guards                    Pouze pro stráže
+reform_program_intake_parole                    Po odsloužení 50 % nebo 75 % trestu
+reform_program_intake_needrequired              Podmínkou účasti je specifická potřeba
+reform_program_intake_deathrow                  Vězeň musí být v cele smrti
+
+reform_program_properties_canhireexternally     Lze najmout externě
+reform_program_properties_studentssit           Místo pro studenty
+reform_program_properties_academic              Akademické zaměření
+reform_program_properties_practical             Praktické zaměření
+reform_program_properties_repeatable            Lze opakovat
+reform_program_properties_passive               Pasivní
+reform_program_properties_staffonly             Pouze pro zaměstnance
+reform_program_properties_outsideofwork         Může se konat mimo pracovní dobu
+reform_program_properties_teacherssit           Místo pro učitele
+reform_program_properties_canescortstudent      Studenty může eskortovat stráž
+
+reform_program_waittime                         Účast je možná jen jednou během *T dní
+
+reform_program_difficulty_easy           - Snadný
+reform_program_difficulty_intermediate   - Středně pokročilý
+reform_program_difficulty_advanced       - Pokročilý
+reform_program_difficulty_expert         - Odborný
+
+regime_nothing                          Pobyt v cele
+regime_sleep                            Spánek
+regime_eat                              Jídlo
+regime_shower                           Sprchy
+regime_yard                             Dvůr
+regime_work                             Práce
+regime_lockdown                         Pobyt na cele
+regime_freetime                         Volný čas
+regime_currenttime                      Nyní
+regime_unspecified                      Neurčeno
+
+regimetooltip_nothing                   Vězni jsou zamčeni na celách. Nemají na práci nic jiného než zpytovat svědomí a přemýšlet o svých rozhodnutích, která je dovedla až sem.\n\nDlouhý pobyt na cele může být účinným trestem i pro ty nejdrsnější vězně.
+regimetooltip_sleep                     Vězni jsou zamčeni na celách a světla jsou zhasnutá. Všichni spí.\n\nKromě těch, kdo si kopou tunel na svobodu...
+regimetooltip_eat                       Vězni zamíří do nejbližší dostupné jídelny a usednou ke stolu.\n\nVězni mohou používat veškeré vybavení jídelny, ale nemohou ji opustit, dokud neuplyne vyhrazený čas.
+regimetooltip_shower                    Vězni se svléknou a jdou se umýt. Každodenní sprcha je nezbytná pro osobní hygienu, ale někteří vězni se jí vyhýbají a je zapotřebí je k očistě přinutit.
+regimetooltip_yard                      Vězni mohou opustit budovu a jít na dvůr, kde mají možnost si zacvičit nebo si jen užít trochu sluníčka a čerstvého vzduchu.\n\nVězni budou po tuto dobu využívat veškeré vybavení, které mají na dvoře k dispozici, jako posilovací lavice, telefony, z nichž mohou zavolat svým blízkým, sprchy apod.
+regimetooltip_work                      Vězňové pracují v areálu věznice.  Využijí všechny dostupné pracovní pozice a automaticky se budou hlásit na příslušných místech. (Pracovní pozice můžeš zpřístupnit na obrazovce Rozmístění.)\n\nBěhem pracovní doby také probíhají všechny nápravné programy.  Vězňové, kteří momentálně nemají žádnou práci ani nápravný program, se mohou po věznici pohybovat jako v režimu „Volný čas“.
+regimetooltip_freetime                  Vězňové mohou opustit své cely a využívat veškerá zařízení, jež mají ve věznici k dispozici. Tuto část dne mají ze všeho nejraději, baví se spolu a snaží se co nejvíc uspokojit své potřeby.\n\nDlouhé úseky volného času mohou snížit stres a napětí ve věznici, jen málokdo je však považuje za účinnou formu trestu.
+
+regime_clear                            Smazat denní režim této kategorie vězňů a nahradit jej výchozím režimem pro střední ostrahu.
+
+schedule_editor_students                Studenti: *X/*Y
+schedule_editor_error_staffonly         Zvolená místnost je určená pouze pro zaměstnance
+schedule_editor_error_noregimetime      Program se koná mimo platnou pracovní dobu
+schedule_editor_error_noteachers        Tento program nemá žádného vyučujícího
+schedule_editor_error_noobjects         V příslušné místnosti se nenachází vybavení, které je pro tento program zapotřebí
+schedule_editor_pin                     Přiřadit tento program
+schedule_editor_unpin                   Odpojit tento program
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         Časové spínání dveří
+doortimer_connected_servos              Připojené servomotory: *X
+doortimer_state_open                    Otevřeno
+doortimer_state_closed                  Zavřeno
+
+doortimer_security_none                 Libovolná skupina
+doortimer_security_minsec               Minimální ostraha
+doortimer_security_normal               Střední ostraha
+doortimer_security_maxsec               Maximální ostraha
+doortimer_security_Protected            Ochranná vazba
+doortimer_security_SuperMax             Supermax. ostraha
+doortimer_security_DeathRow             Cela smrti
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   Zahájení popravy
+execution_stage_Lockdown                Aktivovat uzamčení věznice
+execution_stage_Testing                 Otestovat zařízení
+execution_stage_Assemble                Poslední kroky před popravou
+execution_stage_Witnesses               Eskortování svědků do místnosti
+execution_stage_Escort                  Eskortování vězně do místnosti
+execution_stage_Execution               POPRAVA
+execution_stage_Dismissed               Propustit zaměstnance a svědky
+execution_stage_FinalReport             Závěrečné hlášení
+
+execution_stagetooltip_start            Poprava tohoto vězně byla řádně naplánována, nyní se musíš držet oficiálních postupů.
+execution_stagetooltip_lockdown         Všichni vězni byli posláni do svých cel, celá věznice byla uzamčena.
+execution_stagetooltip_testing          Poslední otestování zařízení, zda vše funguje, jak má. Je zapotřebí zkontrolovat, zda dodávka proudu postačuje pro napájení elektrického křesla.  Dále je nutné naplánovat vězňovu poslední trasu – musí být schopen sám dojít do popravní místnosti.
+execution_stagetooltip_assemble         Správce věznice a šéf ostrahy dorazí do odsouzencovy cely.  Navíc do ní přijde i vězňův kněz nebo zvolený duchovní vůdce a umožní mu naposledy se pomodlit.
+execution_stagetooltip_witnesses        Do věznice dorazí svědkové popravy a dojdou do popravní místnosti. V této skupině mohou být členové vězňovy rodiny a také rodina jeho oběti.\n\nPozn.: Svědkové popravy by měli mít k dispozici židle.
+execution_stagetooltip_escort           Odsouzený vězeň je eskortován ze své cely do popravní místnosti. Doprovází jej správce věznice, šéf ostrahy a kněz.
+execution_stagetooltip_execution        Poté, co budou všichni na svých místech a skončí všechny přípravy, dojde k udělení závěrečného povolení k vykonání popravy.
+execution_stagetooltip_dismissed        Zaměstnanci a svědkové jsou propuštěni, mohou odejít z popravní místnosti.
+execution_stagetooltip_finalreport      Po dokončení popravy dojde k sepsání hlášení a zhodnocení průběhu.
+
+execution_underway                      POPRAVA PROBÍHÁ
+execution_result_ok                     Nařízená poprava vězně jménem *N byla vykonána dle plánu v *T, a to prostřednictvím elektrického křesla za přítomnosti svědků. Za svůj podíl na její přípravě a provedení obdržela věznice běžnou kompenzaci ve výši $10 000.
+execution_result_appealed               Nařízená poprava vězně jménem *N byla vykonána dle plánu v *T, a to prostřednictvím elektrického křesla za přítomnosti svědků. Bohužel po vykonání popravy vyšly najevo nové skutečnosti, které mohly ovlivnit odsouzencovu žádost o zmírnění trestu. Tentokrát však nebude proti věznici přijato žádné opatření, a ta tak za svůj podíl na přípravě popravy a jejím vykonání obdrží běžnou kompenzaci ve výši $10 000.
+execution_result_innocent               Nařízená poprava vězně jménem *N byla vykonána dle plánu v *T, a to prostřednictvím elektrického křesla za přítomnosti svědků. Bohužel po vykonání popravy byly objeveny důkazy, že *N byl ve skutečnosti nevinen. Tentokrát však nebude proti věznici přijato žádné opatření, a ta tak za svůj podíl na přípravě popravy a jejím vykonání obdrží běžnou kompenzaci ve výši $10 000.
+execution_result_illegal                Poprava vězně jménem *N byla vykonána dle plánu v *T, a to prostřednictvím elektrického křesla za přítomnosti svědků. Jelikož nebyly dodrženy řádné postupy ohledně možnosti odvolání a dodatečně došlo ke zjištění informací, díky nimž by žádost o přezkoumání rozsudku bývala byla úspěšná, byla věznici udělena pokuta ve výši $50 000. Vzhledem k nedodržení zákonných postupů bylo tomuto zařízení dočasně odebráno povolení k vykonávání trestů smrti, zbývající odsouzenci z cel smrti budou převezeni do jiných věznic. 
+execution_result_illegalinnocent        Nezákonná poprava vězně jménem *N byla vykonána dle plánu v *T, a to prostřednictvím elektrického křesla za přítomnosti svědků. Jelikož nebyly dodrženy řádné postupy a *N se ve skutečnosti nedopustil zločinů, z nichž byl obviněn, byl příslušný pracovník zodpovědný za toto pochybení s okamžitou platností propuštěn. 
+execution_warning_one                   Pokud příští poprava neproběhne přesně dle zákonem předepsané procedury, přijdeš o místo.
+execution_warning_two                   Vzhledem k dřívějším porušením předepsaných postupů stačí už jen jedno další nedodržení příslušného protokolu a přijdeš o místo.
+
+execution_error_MissingEquipment        CHYBA: CHYBĚJÍCÍ VYBAVENÍ\nPotřebuješ popravní místnost s elektrickým křeslem.
+execution_error_ElectricalSupply        CHYBA: VÝPADEK PROUDU\nKřeslo nemá dostatečný přívod energie.
+execution_error_NavigationPrisoner      CHYBA: PŘÍCHOD VĚZNĚ\nOdsouzený vězeň se nemůže dostat ze své cely do popravní místnosti.
+execution_error_NoRouteFromRoad         CHYBA: CHYBĚJÍCÍ PŘÍSTUP\nLidé, kteří se potřebují dostat do popravní místnosti zvenčí, do ní nemají přístup.
+execution_error_NoSpaceInRoom           CHYBA: NEDOSTATEK PROSTORU\nV popravní místnosti není dostatek místa pro všechny, kdo se popravy účastní.
+execution_error_NoRoom                  Před zahájením popravy musíš přichystat popravní místnost.
+
+roomerror_nokitchen                     Do této jídelny nelze dopravit jídlo z žádné kuchyně.
+roomerror_noprisoners                   K této jídelně nebyli přiřazeni žádní vězni.
+roomerror_nocanteen_cells               Z této cely se nelze dostat do žádné jídelny. Zdejší vězni nebudou mít kde jíst.
+roomerror_nocanteen_kitchen             Z této kuchyně se nelze dostat do žádné jídelny. Nebudou se zde připravovat žádná jídla.
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             Obsah: *X
+stack_contents                           Obsah: *X x *Y
+mail_contents                            Obsah: *X dopisů
+mail_opened_from                         Dopis – *F vězně *X
+mail_closed_from                         Dopis pro vězně *X
+
+object_dump                             Odpadky
+object_todo                             Úkoly: *X
+object_sale_price                       Prodejní cena: *X
+
+object_door_cyclepermissions            Kliknutím nastav přístupová oprávnění
+object_door_cyclepermissions_1          (otevřeno, pouze pro zaměstnance, zavřeno)
+
+object_firemen_hosehelp_intro           Hasiči budou zaměřovat proud vody na nedaleký oheň
+object_firemen_hosehelp                 Stiskem klávesy H můžeš namířit vodu ručně
+
+interface_clone_help_copy               Podrž pravé tlačítko myši a přetažením kurzoru označ oblast, kterou chceš naklonovat
+interface_clone_help_paste              Levým tlačítkem myši zvolenou oblast zkopíruješ
+
+object_inactive                         NEAKTIVNÍ
+object_cctv_moremonitors                Nainstaluj více bezpečnostních monitorů
+object_cctvmonitor_needsguards          Monitor musí ovládat strážný
+object_processor_blocked                K pracovní pozici se nelze dostat
+
+administrator_requiresoffice            Potřebuje kancelář
+administrator_requiresoffice_2          *X potřebuje kancelář
+office_ownership                        Kancelář (*X)
+
+teacher_teaching                        Učí
+teacher_preparing                       Připravuje se
+
+prisoner_assignedto                     Zapotřebí: *X
+prisoner_roomquality                    Kvalita cely: *X (*Y)
+prisoner_roomquality_average            průměrná
+prisoner_roomquality_aboveaverage       nadprůměrná
+prisoner_roomquality_wayaboveaverage    výrazně nadprůměrná
+prisoner_roomquality_belowaverage       podprůměrná
+prisoner_roomquality_waybelowaverage    výrazně podprůměrná
+prisoner_attendance                     Účast
+prisoner_concentration                  Soustředění
+prisoner_understanding                  Porozumění
+prisoner_concentration_0                nejhorší
+prisoner_concentration_1                horší
+prisoner_concentration_2                odpovídající
+prisoner_concentration_3                lepší
+prisoner_concentration_4                nejlepší
+prisoner_passchance                     Šance na úspěch: *X %
+prisoner_informant                      Informátor
+
+prisoner_dayswithoutincident            *X d. bez incidentu
+prisoner_availablemoney                 Hotovost: $*X
+
+informant_suspicion                     Podezření
+informant_title                         INFORMÁTOŘI
+informant_none                          Nemáš žádného informátora
+informant_hint                          (Najmi vězně pod nátlakem, např. umístěné na samotce)
+informant_recruitable                   (Potenciální informátor)
+informant_target                        Cíl
+
+contraband_owner                        Majitel: *X
+contraband_ownerunknown                 Majitel neznámý
+contraband_stolenfrom                   Ukradeno od *X před *Y hod.
+contraband_smuggledthrough              Propašováno přes *X před *Y hod.
+contraband_smuggledin                   Propašováno vězněm před *Y hod.
+contraband_type                         Typ: *X
+contraband_tradevalue_title             Hodnota
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         Vyčerpání
+staff_tired                             Únava
+staff_needsrest                         Zaměstnanci dávají přednost odpočinku v klubovně.
+
+dog_needskennel                         Psi potřebují psinec, ve kterém budou spát.
+
+doctor_requireinfirmary                 Potřebuje ošetřovnu
+
+entity_carryingequipment                Má u sebe: *X
+entity_carryingkeys                     Má u sebe: vězeňské klíče
+entity_carryingstaffkeys                Má u sebe: zaměstnanecký klíč
+entity_wearingarmour                    Má na sobě: *X
+
+reports_schedule                        Změnit plán všech programů
+reports_edit                            Upravit plán
+reports_bankloan                        Úvěr
+reports_increaseloan                    Zvýšit
+reports_decreaseloan                    Snížit
+reports_unlockbankloans                 Ke zpřístupnění je zapotřebí účetní
+
+drugs_heroin                            Heroin
+drugs_cocaine                           Kokain
+
+#                                       Např. „Matka – vězeň Bob“
+visitor_relationship                    *Y – vězeň *X
+visitor_age                             Věk: *X
+
+family_wife                             Manželka
+family_exwife                           Bývalá manželka
+family_girlfriend                       Přítelkyně
+family_son                              Syn
+family_daughter                         Dcera
+family_mother                           Matka
+family_father                           Otec
+family_brother                          Bratr
+family_sister                           Sestra
+family_lawyer                           Právník
+family_priest                           Kněz
+family_victims                          Rodina oběti
+family_caption                          Rodina: 
+family_none                             Nic
+
+damage_dead                             Po smrti
+damage_unconscious                      V bezvědomí
+damage_serious                          Vážné zranění
+damage_injured                          Zranění
+damage_amount                           *X% poškození
+
+message_autosaving                      Automatické ukládání...
+
+buildtoolbar_entersearchterm            zadej hledaný řetězec...
+
+deploymentscheduler_title               ČASOVÝ PLÁN ROZMÍSTĚNÍ
+supplyanddemand_supplyheader            NABÍDKA
+supplyanddemand_demandheader            POPTÁVKA
+
+tooltip_multipleobjects                 Klávesou TAB listuj mezi objekty
+remotedoor_noservo                      K otevření dálkově ovládaných dveří je nutné, aby nim byl připojený funkční servomotor.
+
+roomgrading                             Hodnocení místnosti
+roomgrading_roomsize                    Velikost místnosti alespoň *X čtverců
+roomgrading_cleanliness                 Čistota nad *X %
+roomgrading_outsidewindow               Okno směřující ven 
+roomgrading_item                        Předmět: *X
+roomgrading_result                      Stupeň *X
+roomgrading_currentoccupant             Osoba má nárok na stupeň *X
+roomgrading_unoccupied                  Neobsazeno
+
+roomerror_nokitchen                     Do této jídelny nelze dopravit jídlo z žádné kuchyně.
+roomerror_noprisoners                   K této jídelně nebyli přiřazeni žádní vězni.
+roomerror_nocanteen_cells               Z této cely se nelze dostat do žádné jídelny. Zdejší vězni nebudou mít kde jíst.
+roomerror_nocanteen_kitchen             Z této kuchyně se nelze dostat do žádné jídelny. Nebudou se zde připravovat žádná jídla.
+
+ceos_letter                             Dobrý den,\n\n\nblahopřeji ti k dokončení základní výuky. Nyní jsi plně kvalifikovaným stavitelem věznice!  Již co nevidět budeš moci od základů navrhovat, budovat a provozovat vlastní věznice.  Ovšem než se do toho pustíš, rád bych se s tebou podělil o několik důležitých rad.\n\n1. Každá věznice potřebuje svého správce – právě on by měl být tím prvním, koho zaměstnáš.  Postav mu pěknou kancelář a on ti na oplátku v systému Správa věznice zpřístupní celou řadu dalších možností.\n\n2. Jednotlivé cely jsou drahé, především na začátku, kdy máš k dispozici jen omezené množství prostředků.  Nejprve tedy vybuduj pouze jednu velkou společnou celu, v níž může být mnoho vězňů najednou.\n\n3. Kuchyň a jídelnu uveď do provozu ještě dřív, než ti dorazí první vězni, a nezapomeň najmout několik kuchařů – nic vězně nerozčílí víc než prázdný žaludek!\n\n4. Výstavba věznice je drahá záležitost, musíš se tedy naučit efektivně využívat nabídky různých grantů a smluv, které ti mohou zajistit výrazné finanční dotace. Tyto granty najdeš na obrazovce „Hlášení“.\n\nTo je zhruba vše. Přeji hodně štěstí!\n\nVýkonný ředitel\nPrison Architects Corp.
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			Kapitola *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Cela smrti
+
+campaignchapter_deathrow_description    Dostali jsme za úkol vybudovat v této věznici popravní místnost, aby v ní mohla proběhnout naplánovaná poprava jednoho ze zdejších vězňů.
+
+campaigncutscene_deathrowmurder         Dvojitá vražda
+campaigncutscene_deathrowconfession     Přiznání
+
+adviser_deathrow_murder1                Věděl jsem, že vás tu přistihnu.
+adviser_deathrow_murder2                Edwarde! Já...
+adviser_deathrow_murder25               Nedělej to.  Prosím... ne!
+adviser_deathrow_murder3                Co chceš udělat?
+
+adviser_deathrow_church1                Mohu ti nějak pomoci?
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                Chceš rozhřešení?
+adviser_deathrow_church3                Nevím. Musím něco udělat, nemohu žít s tím, co jsem provedl.
+adviser_deathrow_church4                Musíš se jít udat. Ať už jsi udělal cokoliv, před následky svých činů neutečeš. 
+adviser_deathrow_church5                Nedokážeš se podívat sám sobě do očí, dokud se nesmíříš s minulostí.
+adviser_deathrow_church6                Chtěl bych to vzít zpět. Chtěl bych jí odpustit. Chtěl bych, aby odpustila ona mně.
+adviser_deathrow_church7                Bůh ti odpustí, ať už jsi učinil cokoliv, pokud jej o to požádáš. 
+adviser_deathrow_church8                Nejprve se ovšem musíš za svůj zločin zodpovědět v očích zákona.  Jinak to nejde.
+
+adviser_deathrowintro_1                 Tohle je vážná věc.
+adviser_deathrowintro_2                 Jeden ze zdejších vězňů byl usvědčen z dvojnásobné vraždy a odsouzen k trestu smrti.  
+adviser_deathrowintro_3                 Zde přicházíme ke slovu my. Dostali jsme za úkol postavit popravní místnost – a to co nejrychleji, aby se stihl naplánovaný termín.
+adviser_deathrowintrob_1                Příslušné zařízení vybudujeme tady.
+adviser_deathrowintrob_2                Prvním krokem při každém podobném úkolu je postavit budovu jako takovou, v níž bude dostatek místa na popravní místnost a celu.
+adviser_deathrowintrob_3                Tak pojďme na to.  Zde postav novou budovu.
+
+adviser_deathrow_explain1               Výstavbu budov mají na starost tví dělníci.
+adviser_deathrow_explain2               Vezmou ocel a beton z tohoto skladiště a odnesou je na staveniště.
+adviser_deathrow_explain3               Z těchto materiálů vytvoří základy a kostru nové budovy.
+adviser_deathrow_explain4               To je nejpomalejší část celé výstavby, takže si rozšiřování svého komplexu vždy naplánuj dopředu.
+adviser_deathrow_explain5               Během čekání se můžeš porozhlédnout kolem.  Klávesami WASD nebo šipkami pohybuješ kamerou, kolečkem myši oddaluješ a přibližuješ pohled.
+
+objective_deathrow_building             Postav budovu, ve které se bude nacházet popravní místnost
+
+adviser_deathrow_buildinside1           Nová budova bude samozřejmě také potřebovat vchod.
+adviser_deathrow_buildinside2           Umísti do jižní zdi velké vězeňské dveře.
+
+objective_deathrow_buildouterdoor       Umísti velké vězeňské dveře a vytvoř tak vchod
+
+adviser_deathrow_internalwalls1          Uvnitř budovy chci mít celu a popravní místnost.
+adviser_deathrow_internalwalls2          Rozděl zdejší prostor pomocí cihlových zdí.
+
+objective_deathrow_buildinternalwalls   Postav vnitřní zdi
+
+adviser_deathrow_internaldoors1          Nyní do těchto rozdělujících zdí osaď velké vězeňské dveře.
+adviser_deathrow_internaldoors2          Objekt můžeš před umístěním otočit kliknutím prostředního tlačítka myši (nebo stiskem klávesy R).
+
+objective_deathrow_buildinternaldoors   Osaď vnitřní dveře (objekt otočíš prostředním tlačítkem myši nebo klávesou R)
+
+adviser_deathrow_designation1           Vypadá to dobře.  Teď musíme určit, která místnost bude sloužit jakému účelu.
+adviser_deathrow_designation2           Menší oblast označ jako celu, v ní bude odsouzenec žít.
+adviser_deathrow_designation3           Větší místnost následně vyznač jako popravní místnost.
+
+objective_deathrow_designatecell        Vyznač celu
+objective_deathrow_designateexecution   Vyznač popravní místnost
+
+adviser_deathrow_roomrequirements1      Aby mohly tyto místnosti sloužit svému účelu, musí splňovat určité požadavky.  
+adviser_deathrow_roomrequirements2      Cela potřebuje postel a záchod.
+adviser_deathrow_roomrequirements3      V popravní místnosti se musí nacházet elektrické křeslo.
+
+objective_deathrow_cellobjects1         Umísti postel
+objective_deathrow_cellobjects2         Umísti záchod
+objective_deathrow_executionobjects     Umísti elektrické křeslo
+
+adviser_deathrow_optional1              Tím bychom měli to nejpodstatnější.  Můžeme však provést ještě řadu dalších vylepšení.
+adviser_deathrow_optional2              Povinné to ovšem není, takže to nechám na tobě.  Záleží na tom, jak moc ti leží na srdci blaho vězňů a prostředí, ve které žijí.
+adviser_deathrow_optional3              Do cely například můžeš umístit okno směřující ven a poličku na knihy.  
+adviser_deathrow_optional4              A budově jako takové by neuškodila dřevěná podlaha nebo mozaiková dlažba.
+adviser_deathrow_optional5              Venku by mohlo být několik světel a chodník, pokud to uznáš za vhodné.
+
+adviser_deathrow_transfer05             Toto je ten muž, o kterém byla řeč – Edward Romsey.  Ačkoliv se to nezdá, býval to učitel.
+adviser_deathrow_transfer06             Není na nás rozhodovat, zda si svůj trest zasloužil.  Spravedlnost svůj verdikt už vynesla.  My jen musíme odvést svou práci.
+adviser_deathrow_transfer1              Až budeš mít pocit, že je nová budova připravena k využití, můžeš přestěhovat vězně do jeho nové cely.
+adviser_deathrow_transfer2              Přestěhování vězně spustíš kliknutím na fotografii v jeho cele.
+
+objective_deathrow_path                 (NEPOVINNÉ) Postav chodník vedoucí k nové budově
+objective_deathrow_window               (NEPOVINNÉ) Přidej do cely okno
+objective_deathrow_bookshelf            (NEPOVINNÉ) Přidej do cely knihovnu
+objective_deathrow_flooring             (NEPOVINNÉ) Polož novou podlahu z kvalitnějšího materiálu
+objective_deathrow_outerlights          (NEPOVINNÉ) Rozmísti kolem budovy venkovní osvětlení
+objective_deathrow_transferinmate       Až bude vše připraveno, aktivuj přesun vězně kliknutím na fotografii v Edwardově cele.
+
+adviser_deathrow_setupmurder1           Tenhle chlap si nezaslouží jedinou slzu.  Je to chladnokrevný vrah, o jeho vině není pochyb. 
+adviser_deathrow_setupmurder2           Dokonce se i přiznal.  Chcete slyšet, co udělal?  
+adviser_deathrow_setupmurder3           Je to vážně síla.  „Bylo zhruba 11 hodin večer.  Svítilo se tam.  Věděl jsem, že je doma...“
+adviser_deathrow_postmurder1            Jak říkám, chladnokrevný vrah.
+adviser_deathrow_postmurder2            Tady není vůbec co řešit.  Zaslouží si každý volt, co mu pustíme do těla.
+adviser_deathrow_postmurder3            Všichni si zaslouží odpuštění, dokonce i on. Opravdu si jste tak skálopevně jistý, že byste neváhal vynést takový nezvratný rozsudek?
+adviser_deathrow_postmurder4            Přistihnout manželku v posteli s jiným mužem není žádnou omluvou pro to, co udělal. 
+adviser_deathrow_postmurder5            A on tam šel s nabitou zbraní a věděl, že je tam najde spolu. To je dvojitá úkladná vražda.
+adviser_deathrow_postmurder6            Při vyšetřování ale plně spolupracoval. Stát z něj chce jen udělat odstrašující příklad. 
+adviser_deathrow_postmurder7            Kdyby se stejného činu dopustil o 100 mil na sever odsud, čekalo by ho doživotní vězení. Jaká je v tom spravedlnost?
+adviser_deathrow_postmurder8            Chcete snad, aby někdo jako on pobíhal na svobodě? Můj spánek bude zase o něco klidnější, když budu vědět, že je po něm.
+           
+
+adviser_deathrowelectricity_1           Zatím si vedeš výborně.
+adviser_deathrowelectricity_2           Máme ovšem problém – popravní místnost zatím nefunguje, protože není napojená na rozvod energie.
+adviser_deathrowelectricity_3           Musíme do ní přivést elektřinu.
+
+adviser_deathrowelectricityb_1          Nyní se na věznici díváme v režimu Rozvody, který nám ukazuje veškeré elektrické vedení v celé věznici. 
+adviser_deathrowelectricityb_2          Každá budova v areálu je propojena těmito tlustými kabely s rozvodnou sítí.  
+adviser_deathrowelectricityb_3          Energii zajišťuje tato trafostanice, která je napojena na síť vysokého napětí.
+adviser_deathrowelectricityb_4          Jak vidíš, celé toto křídlo věznice je bez proudu.  Nesvítí v něm ani jedno světlo.
+adviser_deathrowelectricityb_4b         Abychom mohli tento problém opravit, musíme se nejprve přepnout do režimu Rozvody. Tím zjistíme, proč světla nefungují.
+adviser_deathrowelectricityb_5          Nejbližší kabely elektrického vedení jsou příliš daleko, naši dělníci tedy nemohou dokončit elektroinstalační práce.
+adviser_deathrowelectricityb_6          Doveď kabely až do tohoto křídla věznice.
+
+objective_deathrow_cellpower            Napoj místnosti na rozvod elektřiny
+
+adviser_deathrow_connectchair_1         Světla nejsou to jediné, co potřebuje proud.  Tvé nové elektrické křeslo se bez něj také neobejde.
+adviser_deathrow_connectchair_2         Napoj popravní místnost elektrickým kabelem na energetickou síť.
+adviser_deathrow_connectchair_3         Elektrické křeslo samo o sobě je hodně specifický kus zařízení.  Ke svému chodu potřebuje vlastní napájení. Musíš jej tedy napojit přímo hlavním kabelem.
+
+objective_deathrow_chairpower           Napoj elektrické křeslo na rozvod energie
+objective_deathrow_condemnedcellpower   Napoj celu na rozvod elektřiny
+
+adviser_deathrow_testchair_1            Myslím, že jsme skoro hotovi.  Než ovšem popravní místnost použijeme, měli bychom ji alespoň jednou ozkoušet.
+adviser_deathrow_testchair_2            Nyní křeslo na několik sekund zapnu a uvidíme, jestli je vše v pořádku.
+adviser_deathrow_testchair_3            Tak to se nepodařilo.  Jak se zdá, přetížili jsme síť a vyhodili pojistky u trafostanice.  Celé vězení je bez proudu.
+adviser_deathrow_testchair_4            Budeme muset zvýšit kapacitu stanice, aby ustála nápor, který způsobí zapojení elektrického křesla.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   Musíme udělat dvě věci.
+adviser_deathrow_testchair_5b           Nejprve trafostanici opět zapni – klikni na ni a v kontextové nabídce pak vyber možnost Zapnout.
+adviser_deathrow_testchair_6            Poté k ní připoj tři další kondenzátory. Tím se zvýší její kapacita natolik, aby elektrické křeslo už podruhé pojistky nevyhodilo.
+adviser_deathrow_testchair_7            Následně elektrické křeslo znovu otestuj tím, že na něj klikneš a v kontextové nabídce vybereš možnost Zapnout.
+
+objective_deathrow_poweron              Zapni trafostanici (klikni na trafostanici a v kontextové nabídce vyber možnost Zapnout)
+objective_deathrow_expandpower          Připoj k trafostanici tři nové kondenzátory
+objective_deathrow_chairworking         Ozkoušej znovu křeslo (klikni na něj a vyber možnost Zapnout)
+
+adviser_deathrow_execution_1            Výborně.  Myslím, že tady jsme hotovi.
+adviser_deathrow_execution_2            Co se stane teď, to už je mimo naše kompetence.  Odvedli jsme dobrou práci a to je to jediné, co se od nás očekává.
+adviser_deathrow_execution_3            Je-li to možné, tak s tím, co bude dál, se moc netrap.  
+
+adviser_deathrow_setupexecution1        Edwarde, už je čas. 
+adviser_deathrow_setupexecution2        Udělal jsi správnou věc, i když na tomto světě odpuštění nedojdeš.
+adviser_deathrow_setupexecution3        Už brzy ovšem staneš před tváří Boží a bude to on, kdo nad tebou vynese poslední soud.
+
+adviser_deathrow_setupexecution4        Edwarde Romsey.  Byl jste shledán vinným z dvojnásobné vraždy prvního stupně.
+adviser_deathrow_setupexecution5        Vaším trestem je smrt.  
+adviser_deathrow_setupexecution6        Chcete ještě něco říct?
+adviser_deathrow_setupexecution7        Susan...
+adviser_deathrow_setupexecution8        Je mi to líto.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 Prodat předchozí věznici
+finance_cost_equiptazer                 Vybavení: tazer
+finance_cost_equipbodyarmour            Vybavení: neprůstřelná vesta
+finance_cost_exports                    Expedice
+finance_cost_foundations                Základy budov
+finance_cost_cashflow                   Cashflow
+finance_cost_bankloan                   Úvěr
+finance_cost_bankloan_repayment         Splátka úvěru
+finance_cost_sharesale                  Prodej akcií
+finance_cost_sharepurchase              Nákup akcií
+finance_cost_grantadvance               Úvodní platba z grantu
+finance_cost_grantcompletion            Odměna za splnění podmínek grantu
+finance_cost_reformprogram              Sezení nápravného programu
+finance_cost_repair                     Opravit
+finance_cost_sellobject                 Prodat objekt
+finance_cost_landpurchase               Zakoupení pozemku
+finance_cost_prisonerintake             Příjem vězňů
+finance_cost_grantcancellation          Poplatek za zrušení:
+finance_cost_grantrefund                 - Vrácená částka: *X
+finance_cost_grantfine                   - Pokuta: *X
+finance_cost_executionfine              Pokuta za nesprávně provedenou popravu
+finance_cost_executioncompensation      Kompenzace za popravu
+finance_cost_shopintake                 Příjmy z obchodu
+finance_cost_prisonerwages              Platy vězňů 
+finance_cost_fine                       Pokuta
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ...
+clock_add_hour                          +
+clock_am                                dop.
+clock_pm                                odp.
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  Kvůli náhlé energetické špičce se přetížila a shořela trafostanice.
+event_powerstationfire_x                Kvůli náhlé energetické špičce došlo ke katastrofickému přetížení trafostanice, která následně vybuchla!
+event_powerstationfirelarge             Kvůli náhlé energetické špičce se přetížila a shořela trafostanice.
+event_powerstationfirelarge_x           Kvůli náhlé energetické špičce došlo ke katastrofickému přetížení trafostanice, která následně vybuchla!
+event_kitchenfire                       V kuchyni propukl požár!
+event_waterpipeburst                    Prasklo vodovodní potrubí a voda zaplavila celé okolí. Dej vše do pořádku dřív, než dojde k nenapravitelným škodám.
+event_bulkintake                        V nedaleké věznici došlo k havárii, která ji celou vyřadila z provozu. Není jiné řešení, než převézt všechny tamní vězně sem, protože v celém okolí není žádné jiné vhodné zařízení. Budou tu co nevidět.
+event_workshopaccident                  Při práci v dílně se jeden z vězňů vážně zranil a nemůže se hýbat. Pošli tam rychle doktora!
+event_subsidence                        Sesun půdy zničil část naší obvodové zdi. Musíš ji nechat okamžitě opravit! 
+event_earthquake                        Došlo k zemětřesení, jehož epicentrum se nacházelo jen kousek od naší věznice. Část budov se zřítila! 
+event_virus                             Množí se hlášení o nemocných vězních. Nejlepší bude, když nakažené chovance oddělíme od ostatních a umístíme je do karantény, aby se infekce dál nešířila. 
+event_virus_x                           Množí se hlášení o nemocných vězních, jejich symptomy jsou velice vážné. Umísti je do karantény a pusť se do jejich léčby dřív, než se nakazí i ostatní. 
+
+event_massassassination_1               Na veřejnost unikly informace o identitách celé řady svědků, kteří spolupracují s úřady v jednom závažném federálním případu. Několik z nich se nachází v naší věznici.
+event_massassassination_2               Na jejich hlavy byla vypsána odměna, my je však potřebujeme udržet naživu. Musíš vězně identifikovat a ochránit do doby soudního přelíčení.
+event_massassassination_3_x             Dozvěděli jsme se to až na poslední chvíli, takže nemáš moc času, než se to všechno rozkřikne. 
+
+event_tvremovaldemand_1                 Média spustila tažení proti luxusu, který našim vězňům poskytujeme, a můj úřad se tak ocitl pod palbou veřejné kritiky.
+event_tvremovaldemand_2                 Vydal jsem nařízení, které věznicím zakazuje umisťovat do společenských místností televize. Pokud je neodstraníš, čeká tě pokuta. Máš na to 6 hodin.
+event_tvremovaldemand_fine              Ze společných místností nebyly odstraněny všechny televize, ačkoliv mé nařízení v tomto směru hovoří jasně. Musíš zaplatit pokutu. A dokud příkaz nesplníš, budou následovat další tresty. 
+event_tvremovaldemand_complete          Média si našla jiné téma, takže nařízení zakazující televize ve společenských místnostech opět ruším. Pokud chceš, můžeš je znovu nainstalovat.
+
+event_weightsremovaldemand_1            Média spustila tažení proti luxusu, který našim vězňům poskytujeme, a můj úřad se tak ocitl pod palbou veřejné kritiky.
+event_weightsremovaldemand_2            Vydal jsem nařízení, které věznicím zakazuje umisťovat na dvory posilovací vybavení. Pokud tedy ze dvorů neodstraníš posilovací lavice, čeká tě pokuta. Máš na to 6 hodin.
+event_weightsremovaldemand_fine         Ze dvorů nebyly odstraněny všechny posilovací lavice, ačkoliv mé nařízení v tomto směru hovoří jasně. Musíš zaplatit pokutu. A dokud příkaz nesplníš, budou následovat další tresty. 
+event_weightsremovaldemand_complete     Média si našla jiné téma, takže nařízení zakazující posilovací lavice na dvorech opět ruším. Pokud chceš, můžeš je znovu nainstalovat.
+
+event_lessfooddemand_1                  Vedení se rozhodlo provést v našich zařízeních řadu úsporných opatření, tvoje věznice není výjimkou.
+event_lessfooddemand_2                  Musíš snížit četnost a rozmanitost jídel na nízkou úroveň a uvidíme, jaký to bude mít vliv na celkový rozpočet.
+event_lessfooddemand_fine               Jelikož se tvá věznice nezapojila do omezování výdajů na jídlo, odebereme potenciální úspory přímo z tvého účtu. Budeme v tom pokračovat tak dlouho, dokud neuděláš, co jsme po tobě chtěli.
+event_lessfooddemand_complete           Experiment s výdaji na stravování skončil a jeho výsledky nejsou nijak přesvědčivé. Pokud chceš, můžeš zásady své věznice vrátit do původní podoby.
+
+event_removevisitationdemand_1          V jedné věznici došlo k incidentu, jenž poukázal na potenciální problémy s bezpečnostními prohlídkami při návštěvách rodinných příslušníků.
+event_removevisitationdemand_2          Veškeré návštěvy jsou tímto zakázány do doby, než prověříme všechny používané procedury. Máš 12 hodin na odstranění všech návštěvních místností ze své věznice.
+event_removevisitationdemand_fine       Ve své věznici máš i nadále návštěvní místnosti, a to bez ohledu na aktuální bezpečnostní rizika. Musíš zaplatit pokutu. A dokud náš příkaz nesplníš, budou následovat další tresty. 
+event_removevisitationdemand_complete   Dokončili jsme bezpečnostní prověrku postupů při zprostředkování návštěv ve věznicích, takže pokud chceš, můžeš znovu vybudovat návštěvní místnosti. 
+
+event_lessworkdemand_1                  Právě se mi doneslo, že mezi vězni panuje nespokojenost s tím, kolik času musí každý den strávit prací, a že plánují způsobovat potíže, pokud jim nebude pracovní doba zkrácena.
+event_lessworkdemand_2                  Jeden strážný zaslechl, jak někdo říká, že jestli bude muset pracovat déle než 2 hodiny, tak tu z toho „nadělá kůlničku na dříví“.
+event_lessworkdemand_ignore             Jak se zdá, vězni přestali reptat a uklidnili se. Nejsou z toho nijak nadšení, ale je dobré jim ukázat, kdo tu skutečně velí.
+event_lessworkdemand_complete                Vězňové už kvůli pracovní době nereptají. Těch posledních pár dní nejspíš brali jako jakousi dovolenou. Můžeme je bez obav znovu zapojit do práce.  
+
+event_moresleepdemand_1                 Hromadí se nám stížnosti, že vězni nemají dostatek spánku a začínají se kvůli tomu bouřit.
+event_moresleepdemand_2                 Prohlásili, že pokud nebudou moci spát každou noc alespoň 7 hodin, začnou dělat potíže. 
+event_moresleepdemand_ignore            Zdá se, že vězně přešla chuť na další protesty kvůli nedostatku spánku. Nejspíš na ně jsou moc unavení.
+event_moresleepdemand_complete          Celá ta bouře ohledně nočního klidu se přehnala, takže pokud chceš, můžeš zase změnit časový harmonogram dle potřeby.
+
+event_morefreetimedemand_1              Vězňové jsou očividně nespokojení s tím, jak málo času mají v denním rozpisu vyhrazeno na volnou zábavu.
+event_morefreetimedemand_2              Strážní zaslechli, jak se vězni potají domlouvají, že pokud se situace brzy nezmění, začnou ničit vybavení věznice. 
+event_morefreetimedemand_ignore         Vězňové se uklidnili a přestali se bouřit kvůli nedostatku volného času. Možná si uvědomili, že pokud nevystrčí nos ze samotky, budou ho mít ještě míň.
+event_morefreetimedemand_complete       Požadavky vězňů na více volného času jsme plnili už dost dlouho, takže pokud chceš, můžeš jejich denní režim znovu upravit do původní podoby.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Příjem vězňů
+objective_tvremovaldemand               Odstraň televize ze společenských místností
+objective_tvremovaldemand_child         Dohlédni na to, aby ve společenských místnostech nebyly televize
+objective_weightsremovaldemand          Odstraň ze dvorů posilovací lavice
+objective_weightsremovaldemand_child    Dohlédni na to, aby na dvorech nebyly posilovací lavice
+objective_lessfooddemand                Sniž četnost a rozmanitost jídla na nízkou úroveň
+objective_lessfooddemand_child          Změň nastavení četnosti a rozmanitosti jídla vydávaného vězňům na nízkou úroveň
+objective_removevisitationdemand        Odstraň všechny návštěvní místnosti
+objective_removevisitationdemand_child  Dohlédni na to, aby ve věznici nebyly až do skončení prověrky bezpečnostních postupů žádné návštěvní místnosti
+objective_virus                         Virová epidemie
+objective_virus_child                   Počet nakažených vězňů: 
+objective_massassassination             Datum přelíčení\nfederálního svědka
+objective_massassassination_child       Živí svědkové: 
+objective_lessworkdemand                Vězni požadují méně práce
+objective_lessworkdemand_child          Zkrať pracovní dobu maximálně na 2 hodiny denně
+objective_moresleepdemand               Dopřej vězňům více spánku
+objective_moresleepdemand_child         Prodluž dobu spánku alespoň na 7 hodin denně
+objective_morefreetimedemand            Dopřej věnům více volného času
+objective_morefreetimedemand_child      Prodluž volný čas alespoň na 6 hodin denně
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     Správce
+warden_default_desc                     Nejklidnější člověk na celém světě, nic než práce pro něj neexistuje. Lidé mu říkají prostě Správce.
+warden_lobbyist_name                    Lobbista
+warden_lobbyist_desc                    Lobbista má přátele na vysokých místech a stará se, aby dostával především snadno zvladatelné vězně.\n\n - Snižuje na polovinu pravděpodobnost, že budou do věznice posláni různí násilníci, rváči či smrtící, labilní a zabijáčtí vězňové
+warden_lobbyist_desc_short               - Snižuje na polovinu pravděpodobnost, že budou do věznice posláni různí násilníci, rváči či smrtící, labilní a zabijáčtí vězňové
+warden_fear_name                        Rita
+warden_fear_desc                        Nemilosrdná a hrůzu nahánějící Rita se proslavila tím, že ve svých věznicích udržuje pořádek zastrašováním všech kolem sebe. Ačkoliv zkazky o tom, že s sebou vždy nosí bič, jsou možná trochu přehnané.\n\n - Snižuje na polovinu pravděpodobnost, že budou vězni stoičtí nebo neohrožení\n - Vězňové se podvolují s dvojnásobnou rychlostí
+warden_fear_desc_short                   - Snižuje na polovinu pravděpodobnost, že budou vězni stoičtí nebo neohrožení\n - Vězňové se podvolují s dvojnásobnou rychlostí
+warden_tunnels_name                     J. W. Periwinkle
+warden_tunnels_desc                     Správce Periwinkle říká, že za války býval u ženistů. Nikdy neprozradil, kterou válku má vlastně na mysli, ale v kopání tunelů se vyzná jako nikdo jiný.\n\n - Služební psi mají 50% šanci na kompletní odhalení tunelů, které objeví
+warden_tunnels_desc_short                - Služební psi mají 50% šanci na kompletní odhalení tunelů, které objeví
+warden_calming_name                     Pacifikátor
+warden_calming_desc                     Pacifikátor má neobvyklý talent zklidnit i ty nejnásilnější jedince. Už jen pobyt v jedné místnosti s ním nutí každého k poslušnosti.\n\n - Snižuje celkovou úroveň nebezpečí ve věznici, je tedy méně pravděpodobné, že vězni budou způsobovat problémy
+warden_calming_desc_short                - Snižuje celkovou úroveň nebezpečí ve věznici, je tedy méně pravděpodobné, že vězni budou způsobovat problémy
+warden_contraband_name                  Saphara Acknovová
+warden_contraband_desc                  Saphara Acknovová má bezchybnou pověst a záznam čistý jako sníh. Ve skutečnosti je však odbornicí na různé pokoutní dohody a podsouvání obálek.\n\n - Získává malé procento z hodnoty veškerého nalezeného kontrabandu\n - Vězni, u kterých se najde nějaký kontraband, dostanou „pokutu“, která se jim strhne přímo z vlastních úspor
+warden_contraband_desc_short             - Získává malé procento z hodnoty veškerého nalezeného kontrabandu\n - Vězni, u kterých se najde nějaký kontraband, dostanou „pokutu“, která se jim strhne přímo z vlastních úspor
+buildtoolbar_wardenlobbyist             Lobbista
+buildtoolbar_tooltip_wardenlobbyist     Získávej do své věznice méně násilné kriminálníky
+interfacetopbar_tension_calmingwarden    - tvůj správce má na vězně uklidňující efekt
+warden_consultingfee                    Poplatek za konzultaci
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Úplatek
+crime_aggravatedburglary          Násilné vloupání
+crime_burglary                    Vloupání
+crime_arson                       Žhářství
+crime_criminaldamage              Poškození cizího majetku
+crime_vandalism                   Vandalství
+crime_violentdisorder             Výtržnictví
+crime_possession                  Přechovávání omamných látek
+crime_possessionintenttosupply    Přechovávání a distribuce omamných látek
+crime_forgery                     Padělání
+crime_fraud                       Podvod
+crime_counterfeightingcurrency    Padělání peněz
+crime_falseaccounting             Padělání účetnictví
+crime_insidertrading              Zneužívání informací v obchodním styku
+crime_moneylaundering             Praní špinavých peněz
+crime_aggravatedvehicletheft      Násilná krádež auta
+crime_joyriding                   Jízda v ukradeném vozidle
+crime_dangerousdriving            Ohrožování ostatních účastníků silničního provozu
+crime_deathbydangerousdriving     Ohrožování ostatních účastníků silničního provozu s následkem smrti
+crime_drivingunderinfluence       Řízení pod vlivem omamných látek
+crime_kidnapping                  Únos
+crime_falseimprisonment           Omezování osobní svobody
+crime_torture                     Mučení
+crime_assault                     Napadení
+crime_aggravatedassault           Násilné přepadení
+crime_assaultinganofficer         Napadení policisty
+crime_greviousbodilyharm          Vážné ublížení na zdraví
+crime_murder                      Vražda
+crime_attemptedmurder             Pokus o vraždu
+crime_manslaughter                Vražda obzvláště trýznivým způsobem
+crime_pervertingcourseofjustice   Bránění výkonu spravedlnosti
+crime_contemptofcourt             Pohrdání soudem
+crime_drunkdisorderlybehaviour    Výtržnost v opilství
+crime_escapingfromlawfulcustody   Vyhýbání se výkonu trestu
+crime_perjury                     Křivá přísaha
+crime_rioting                     Vzpoura
+crime_espionage                   Špionáž
+crime_violentdisorder             Výtržnictví
+crime_trafficking                 Prodej omamných látek
+crime_armedrobbery                Ozbrojená loupež
+crime_robbery                     Loupež
+crime_carjacking                  Krádež auta
+crime_blackmail                   Vydírání
+crime_handlingstolengoods         Přechovávání kradeného zboží
+crime_videogamepiracy             Softwarové pirátství
+crime_indievideogamepiracy        Softwarové pirátství nezávislých her
+crime_shoplifting                 Krádež v obchodě
+crime_pickpocketing               Kapsářství
+crime_cartheft                    Loupež auta
+crime_rape                        Znásilnění
+crime_grossindecency              Veřejné pobuřování
+crime_voyeurism                   Voyeurství

@@ -1,0 +1,2861 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              新建游戏
+dialog_load                             加载
+dialog_save                             存档
+dialog_saveas                           另存为
+dialog_delete                           删除
+dialog_width                            宽度
+dialog_height                           高度
+dialog_name                             名称
+dialog_type                             类型
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                W
+dialog_h                                H
+dialog_exit                             退出
+dialog_cancel                           取消
+dialog_ok                               确定
+dialog_open                             打开
+dialog_close                            关闭
+dialog_closed                           已关闭
+dialog_add                              添加
+dialog_up                               上
+dialog_down                             下
+dialog_yes                              是
+dialog_no                               否
+dialog_loading                          加载中...
+dialog_low                              低
+dialog_medium                           中
+dialog_high                             高
+dialog_none                             无
+ellipsis                                ……
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      对话编辑器
+dialogeditor_back                       后退
+dialogeditor_front                      前进
+dialogeditor_reloadlanguage             重新加载语言
+dialogeditor_test                       测试
+dialogeditor_window                     视窗
+dialogeditor_grid                       网格
+dialogeditor_caption                    标题
+dialogeditor_component                  组件
+dialogeditor_select						选择
+dialogeditor_create						创建
+dialogeditor_background                 背景图像
+dialogeditor_panel                      面板
+
+dialogcomponent_custom                  自定义
+dialogcomponent_button                  按钮
+dialogcomponent_container               容器
+dialogcomponent_caption                 标题
+dialogcomponent_titlecaption            标题字幕
+dialogcomponent_checkbox                复选框
+dialogcomponent_inputfield              输入区
+dialogcomponent_inputslider             输入条
+dialogcomponent_dropdownmenu            下拉菜单
+dialogcomponent_selectionlist           选择列表
+dialogcomponent_selectionlistitem       选择列表项目
+dialogcomponent_scrollbar               滚动条
+dialogcomponent_progressbar             进度条
+dialogcomponent_canvas                  画布
+dialogcomponent_iconbox					图标盒
+
+dialogposition_absolute                 绝对位置
+dialogposition_relative                 相对位置
+dialogposition_scaled                   按比例放置
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          分析器
+profiler_name                           名称
+profiler_timings                        计时
+profiler_totaltime                      总计
+profiler_glfinishcaption                glFinish
+profiler_reset                          重置
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                声音频道
+soundeditor_title                       声音编辑器
+soundinstanceeditor_title				声音实例编辑器
+
+soundeditor_positiontitle		位置类型
+soundeditor_instancetitle		实例类型
+soundeditor_looptitle			循环类型
+soundeditor_sourcetypetitle		声音类型
+soundeditor_soundnametitle		声音名称
+
+soundeditor_volumetitle			音量
+soundeditor_frequencytitle              频率
+soundeditor_mindistancetitle            最小距离
+soundeditor_attacktitle                 进攻
+soundeditor_sustaintitle                维持
+soundeditor_releasetitle                释放
+soundeditor_loopdelaytitle              循环延迟
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              下一事件
+
+soundeditor_play                        开始游戏
+soundeditor_stop                        停止
+
+soundparametereditor_title              声音参数
+soundparametereditor_typetitle          类型
+soundparametereditor_linktitle          连接到
+soundparametereditor_updatetitle        更新类型
+soundparametereditor_smoothing          平滑
+soundparametereditor_chaintitle         连锁
+
+soundeditor_newdsp                      添加DSP
+sounddspeditor_title                    DSP编辑器
+samplebankeditor_title                  样品库编辑器
+samplebankeditor_addsample              添加声音
+samplebank                              （样品库）
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            完成
+interfacemode_destroy                         拆除
+interfacemode_foundations				地基
+interfacemode_construction                    建材
+interfacemode_planning                        规划
+interfacemode_objects                         物品
+interfacemode_designation                     房间
+interfacemode_utilities                       公用设施
+interfacemode_staff                           员工
+interfacemode_deployment                      部署
+interfacemode_logistics                       后勤
+interfacemode_prisoners                       囚犯
+interfacemode_needs                           需求
+interfacemode_threats                         威胁
+interfacemode_overlays                        叠层
+interfacemode_research                        行政
+interfacemode_emergencies                     紧急
+interfacemode_clone                           克隆
+interfacemode_contraband                      情报
+interfacemode_grading                         评级
+interfacemode_spawn                           （再生）
+interfacemode_properties                      （属性）
+interfacemode_cutscenes                       （过场动画）
+interfacemode_selection                       选择
+
+interfaceoverlay_security                       安保人员
+interfaceoverlay_patrols                        巡逻
+interfaceoverlay_decay                          腐烂
+interfaceoverlay_territory                      辖区
+interfaceoverlay_contraband                     违禁品
+
+interfaceproperty_indoor                        室内
+interfaceproperty_visible                       可见
+interfaceproperty_territoryprisoner             帮派
+interfaceproperty_territoryguard                警卫
+interfaceproperty_sectorprisoner                暴动
+interfaceproperty_tunnel                        地道
+
+interfacedeployment_guards                      警卫
+interfacedeployment_patrols                     警卫巡逻
+interfacedeployment_dogpatrols                  警犬巡逻
+interfacedeployment_armedpatrols                武警巡逻
+interfacedeployment_removeguards                移除警卫
+interfacedeployment_clearpatrols                移除巡逻
+interfacedeployment_targetting                  后勤
+interfacedeployment_targettingfood              食物后勤
+interfacedeployment_targettinglaundry           衣物后勤
+interfacedeployment_securearea                  安全区域
+interfacedeployment_sharedzone                  公共区域
+interfacedeployment_staffonlyzone               员工专区
+interfacedeployment_maxseczone                  最高设防区
+interfacedeployment_medseczone                  普通设防区
+interfacedeployment_minseczone                  最低设防区
+interfacedeployment_protectedzone               重点保护区
+interfacedeployment_supermaxzone                超高设防区
+interfacedeployment_deathrowzone                死刑犯专区
+interfacedeployment_unlockedzone                已解锁区域
+interfacedeployment_zonered                     红色侧翼
+interfacedeployment_zonegreen                   绿色侧翼
+interfacedeployment_zoneblue                    蓝色侧翼
+interfacedeployment_zoneyellow                  黄色侧翼
+
+interfacelogistics_jobs                         狱中劳役
+interfacelogistics_removejobs                   移除劳役名额
+interfacelogistics_targettingfood               食物分配
+interfacelogistics_targettinglaundry            衣物分配
+interfacelogistics_roomquality                  牢房品质
+
+interfaceplanning_wall							墙壁
+interfaceplanning_object						物品
+interfaceplanning_route							道路
+interfaceplanning_clear							清空
+interfaceplanning_zone1							1区
+interfaceplanning_zone2							2区
+interfaceplanning_zone3							3区
+interfaceplanning_zone4							4区
+interfaceplanning_zone5							5区
+interfaceplanning_zone6							6区
+interfaceplanning_zone7							7区
+interfaceplanning_zone8							8区
+interfaceplanning_zone9							9区
+
+interfacecontraband_source                      危险
+interfacecontraband_day                          -24小时
+interfacecontraband_week                         -7天
+interfacecontraband_alltime                      -30天
+interfacecontraband_informants                  线人
+interfacecontraband_gangs                       帮派
+
+interfaceclone_copy                             拷贝
+interfaceclone_paste                            粘贴
+
+interfacetopbar_todo							待办事项
+interfacetopbar_balance							存款 *B
+interfacetopbar_budget							现金流 *C
+interfacetopbar_income							收入 *I
+interfacetopbar_expenses						支出 *C
+interfacetopbar_day								第 *D 天
+
+interfacetopbar_title_balance					银行结余
+interfacetopbar_title_budget					每日现金流
+interfacetopbar_title_cctv						闭路电视监控系统 
+interfacetopbar_title_day						天数
+interfacetopbar_title_prisoners					囚犯
+interfacetopbar_title_guards					警卫
+interfacetopbar_title_tension                   危险等级
+
+interfacetopbar_tooltip_balance					你在银行内的存款余额。\n\n点击以通过补助清单获得更多资金。
+interfacetopbar_tooltip_budget					根据目前你的日常费用和收入计算出的每天你能获取的资金。\n\n点击查看细分收支清单。
+interfacetopbar_tooltip_cctv					你目前拥有的监控摄像头与监视器数量。
+interfacetopbar_tooltip_day						你经营监狱的时长。
+interfacetopbar_tooltip_prisoners				目前拥有的监狱数量以及可容纳的囚犯数量。
+interfacetopbar_tooltip_guards					监狱中待命的警卫数量
+interfacetopbar_tooltip_tension                 安保主管报告的监狱整体风险等级。
+
+interfacetopbar_tooltip_recenttransactions      最近的交易
+
+interfacetopbar_tooltip_gametime                游戏时间总计: *X小时, *Y分钟, *Z秒
+
+interfacetopbar_tooltip_totalguards             共计 *X 名警卫
+interfacetopbar_tooltip_guardincapacitated      *X 名无法行动
+interfacetopbar_tooltip_guardstationed          *X 名驻守中
+interfacetopbar_tooltip_guardpatrolling         *X 名巡逻中
+interfacetopbar_tooltip_guardavailable          *X 名待命中
+interfacetopbar_tooltip_guardresting            *X 名休息中
+interfacetopbar_tooltip_guardactive             （*X 名正在处置事件）
+interfacetopbar_tooltip_guarddoingjob           *X 名正在执行任务
+interfacetopbar_tooltip_idle                    （*X 空闲）
+interfacetopbar_tooltip_armedguards              + *X 名武装警卫
+interfacetopbar_tooltip_dogs                     + *X 名警犬员
+
+interfacetopbar_unlimitedfunds                  无限资金
+
+interfacetopbar_budget_moneyin					收入：百万美元 /天
+interfacetopbar_budget_moneyout					支出：百万美元 /天
+interfacetopbar_budget_cantgonegative           在聘用会计师管理监狱财务之前，现金流不可为负（即支出大于收入）。
+
+interfacetopbar_prisoners_types					目前容纳 *X 名囚犯：
+interfacetopbar_prisoners_capacity              最大安全容纳囚犯数：*X
+interfacetopbar_prisonercells_shared            多人牢房容量：*X
+interfacetopbar_prisonercells_unlocked          未上锁牢房容量：*X
+interfacetopbar_prisonercells_minseconly        最低设防区容量：*X
+interfacetopbar_prisonercells_medseconly        普通设防区容量：*X
+interfacetopbar_prisonercells_maxseconly        最高设防区容量：*X
+interfacetopbar_prisonercells_protectedonly     重点保护区容量：*X
+interfacetopbar_prisonercells_supermaxonly      超高设防区容量：*X
+interfacetopbar_prisonercells_deathrowonly      死刑犯专区容量：*X
+interfacetopbar_prisonercells_staffonly         无法使用的牢房数量：*X
+interfacetopbar_prisoners_nocells               无法给 *X 名囚犯分配牢房
+
+interfacetopbar_cctv_current					目前启用了 *C 个摄像头
+interfacetopbar_cctv_cap						还可安装 *C 个摄像头
+
+interfacetopbar_tension_currentlevel            危险等级为 *X
+interfacetopbar_tension_increasing              且正在上升
+interfacetopbar_tension_decreasing              且正在降低
+interfacetopbar_tension_description             因素：
+interfacetopbar_tension_happyprisoners           - *X 名囚犯表示受到了良好对待
+interfacetopbar_tension_unhappyprisoners         + *X 名囚犯大发牢骚
+interfacetopbar_tension_lockedupprisoners        + *X 名囚犯被关在自己的牢房或禁闭室中禁足
+interfacetopbar_tension_riotingprisoners        + *X 名囚犯正在暴动
+interfacetopbar_tension_wellfedprisoners         - *X 名囚犯饮食充足
+interfacetopbar_tension_suppressedprisoners      = *X 囚犯遭到镇压（抱怨）
+interfacetopbar_tension_activeriotguards        + *X 名防暴警察就位
+interfacetopbar_tension_activearmedguards        + *X 名武装警卫执勤中
+interfacetopbar_tension_recentdeaths             + *X 个人最近被杀
+interfacetopbar_tension_recentsearches           + *X 名囚犯最近遭到无故搜身
+interfacetopbar_tension_angrygangmembers         + *X 名帮派成员非常愤怒（头目被惩罚）
+interfacetopbar_tension_recentpunishments        = （威慑）最近宣布了 *X 项惩罚
+interfacetopbar_tension_recentcalmed             - *X 名囚犯最近很平静
+
+interfacecontrol_mainmenu                       主菜单（Esc）
+interfacecontrol_mainmenu_tooltip               开启主菜单（新建游戏/加载/存档/退出等）
+interfacecontrol_todo                           待办事项清单
+interfacecontrol_todo_tooltip                   切换显示待办事项清单
+interfacecontrol_research                       行政
+interfacecontrol_research_tooltip               打开行政系统窗口，你可以在其中指派管理层以解锁新的物品、员工类型和设施。
+interfacecontrol_grading                        监狱评级
+interfacecontrol_grading_tooltip                打开监狱评级窗口，你可以在这里看到监狱运营情况的总体评级。
+
+interface_confirmlandbuy                        你确定要花 *X 美元购买这个地块吗？
+interface_loadconfirm                           你确定要加载这张地图？你将失去所有未保存的进度。
+interface_saveconfirm                           你确定要用这个文件名保存吗？已有数据将被覆盖。
+
+interface_landbuylabel                          *X米 x *Y米。总面积 *A 平方米。 *C
+
+interface_action_dismantle                      拆除
+interface_action_dump                           丢弃
+interface_action_repair                         修理
+interface_action_medicalbay                     医务室
+interface_action_search                         搜查
+interface_action_searchcell                     搜查牢房
+interface_action_searchcellblock                搜查牢房区块
+interface_action_sack                           解雇
+interface_action_doormodenormal                 门禁模式：普通
+interface_action_doormodelockedshut             门禁模式：常闭
+interface_action_doormodelockedopen             门禁模式：常开
+interface_action_switchon                       开启
+interface_action_switchoff                      关闭
+interface_action_sellobject                     售卖物品
+interface_action_dismiss                        解雇
+interface_action_connect                        连接
+interface_action_clearconnections               清除连接
+interface_action_servoopen                      触发时开启
+interface_action_servoclose                     触发时关闭
+
+interface_contents_container                    内容：*X
+interface_contents_stack                        内容：*X x *Y
+
+interface_skip                                  跳过
+
+interface_error_riotmove                        
+
+interface_foundationsinprogress                 地基建造中
+riot_underway                                   发生暴动
+riot_status_prisoners                           *X 名囚犯正在暴动
+shakedown_underway                              彻底搜查执行中
+shakedown_found                                 查获：
+
+gameover_caption                                按 ESC 键继续
+
+sector_jobs_max                                 工作名额上限 *X
+sector_jobs_qualified                           合格囚犯： *X
+sector_jobs_required                            （需要: *X）
+sector_noaccess                                 禁止进入
+sector_insecure                                 不安全
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					硬件兼容性测试
+hardware_compat_message					在你的许可下，我们将从你的计算机收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保 Prison Architect 在尽可能多的电脑硬件上运行。\n\n非常感谢！
+hardware_compat_accept					接受
+hardware_compat_decline					拒绝
+
+connectionmenu_connect                  连接
+connectionmenu_disconnect               断开连接
+connectionmenu_clear                    清空
+connectionmenu_done                     完成
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      建造
+buildtoolbar_reports                    报告
+buildtoolbar_bangup                     上锁囚禁
+buildtoolbar_lockdown                   防范禁闭
+buildtoolbar_shakedown                  彻底搜查
+buildtoolbar_weaponsfree                自由开火
+
+buildtoolbar_tooltip_reports			打开报告窗口，查看与囚犯、员工、收入、政府补助等相关的信息
+buildtoolbar_tooltip_bangup				将所有（愿意回牢房的）囚犯送回牢房，如果关押太长时间会引起不满
+buildtoolbar_tooltip_lockdown			立刻锁闭监狱里所有的门
+buildtoolbar_tooltip_shakedown          下令立即搜查所有牢房，搜查将会耗费一些时间，同时也会惹怒囚犯们。
+buildtoolbar_tooltip_weaponsfree        授权武装警卫使用致命武器。
+
+buildtoolbar_cost						费用：*C 美元
+buildtoolbar_cost_sqrft					费用：*C 美元/每平方米
+buildtoolbar_wages						工资：每天  *W 美元
+buildtoolbar_outdoor					仅限室外
+buildtoolbar_indoor						仅限室内
+buildtoolbar_walk_speed					行走速度：*S
+buildtoolbar_walk_speed_slow			慢
+buildtoolbar_walk_speed_norm			一般
+buildtoolbar_walk_speed_fast			快
+buildtoolbar_locked                     锁定
+buildtoolbar_locked_research			锁定（需要 *B ）
+buildtoolbar_locked_administrator		锁定（需要 *B）
+buildtoolbar_room						房间
+
+buildtoolbar_electrical                  - 电气
+buildtoolbar_highpower                   - 高功率
+buildtoolbar_water                       - 需要水管接头
+buildtoolbar_wired                       - 联网（与其他联网装置相连）
+buildtoolbar_modcontent                  - 模组内容
+
+buildtoolbar_popup_foundations			建造/拆除建筑以打造你的监狱
+buildtoolbar_popup_construction			不同类型的地面与墙壁。
+buildtoolbar_popup_planning				对监狱进行规划而不建造。
+buildtoolbar_popup_designation			在监狱里标出特定功能的区域。
+buildtoolbar_popup_objects				为监狱配备各种实用设施。
+buildtoolbar_popup_overlays				目测监狱布局上的安全弱点。
+buildtoolbar_popup_utilities			管道与电气系统。
+buildtoolbar_popup_staff				聘请必要的人员经营你的监狱。
+buildtoolbar_popup_deployment			分配员工到监狱特定区域。
+buildtoolbar_popup_logistics            分配囚犯在监狱内劳动，并可手动分派餐厅和衣物清洗工作。
+buildtoolbar_popup_research				为监狱解锁新功能。
+buildtoolbar_popup_emergencies			如果事态恶化，呼叫应急服务。
+buildtoolbar_popup_spawn				再生？这是干嘛用的？
+buildtoolbar_popup_clone				你可以复制并粘贴现有建筑结构。
+buildtoolbar_popup_properties			查清那该死的东西。
+buildtoolbar_popup_contraband           显示违禁品来源，以及所有最近在监狱发现的违禁品。同时显示你的秘密线人及其情报。
+buildtoolbar_popup_grading              查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
+buildtoolbar_popup_room_cell			囚犯生活场所。
+buildtoolbar_popup_room_holdingcell		用于暂时收容未获得个人牢房的新进囚犯的房间
+buildtoolbar_popup_room_solitary		专门针对恶中之恶的隔离惩戒牢房。
+buildtoolbar_popup_room_canteen			囚犯的下午茶场所。
+buildtoolbar_popup_room_kitchen			厨师为囚犯烹制食物的区域。
+buildtoolbar_popup_room_shower			用于让囚犯保持整洁，杜绝虱子。
+buildtoolbar_popup_room_yard			在狙击塔的严密监视下，让囚犯们每天晒几小时的太阳。
+buildtoolbar_popup_room_storage			放置监狱员工所需全部材料的区域。
+buildtoolbar_popup_room_deliveries		卸下货物、材料以及囚犯的位置。
+buildtoolbar_popup_room_garbage			废物收集处。
+buildtoolbar_popup_room_execution		囚犯处决处。
+buildtoolbar_popup_room_workshop		派囚犯们制作汽车牌照的地方，无聊至极。
+buildtoolbar_popup_room_security		警官办公室。
+buildtoolbar_popup_room_office			行政人员工作区。
+buildtoolbar_popup_room_medicalward		医护人员工作区。
+buildtoolbar_popup_room_morgue			安放死亡囚犯和员工的地点。
+buildtoolbar_popup_room_commonroom		给囚犯一些自由时间让其放松。
+buildtoolbar_popup_room_kennel          警犬驯育处。
+buildtoolbar_popup_room_chapel          当行政管理层聚在一起讨论如何应对囚犯们的宗教需求时会有什么结果？不如建一个“多信仰祷告室”。我们管它叫小礼拜堂。
+buildtoolbar_popup_room_paroleroom      当囚犯服刑期达到总刑期的 50% 和 75% 时，就有资格申请假释，他们的命运将由典狱长和警长在这间房间内决定。\n\n建议安排额外的安保人员戒备。囚犯得知其假释被驳回时通常会极其失望。
+buildtoolbar_popup_room_library         全国各地会给你的监狱送来成箱的废书或旧书，囚犯们要将书本分类并上架。
+buildtoolbar_popup_room_intake          囚犯刚抵达时会先被带到这里。
+
+buildtoolbar_popup_obj_bed				不太软、也不太硬，刚刚好。嗯，事实上，真的很硬又很小。
+buildtoolbar_popup_obj_toilet			一项基本人权，如果你相信那些狂想家
+buildtoolbar_popup_obj_table			跟椅子挺搭配。
+buildtoolbar_popup_obj_chair			跟桌子是绝配。
+buildtoolbar_popup_obj_bench			可以坐在上面。
+buildtoolbar_popup_obj_electricchair	实施两千伏特的正义。
+buildtoolbar_popup_obj_jaildoor			把囚犯关在他们应该待的地方。
+buildtoolbar_popup_obj_jaildoorlarge	把很多囚犯关在他们应该待的地方。
+buildtoolbar_popup_obj_door				一扇道简单的门。
+buildtoolbar_popup_obj_solitarydoor		极其牢固的门，能够阻挡最强壮的犯人越狱。
+buildtoolbar_popup_obj_staffdoor		一扇上锁的门，不只能被警卫打开，所有员工都能打开。
+buildtoolbar_popup_obj_window			可以见到一缕阳光。
+buildtoolbar_popup_obj_windowlarge		可以见到充沛的阳光。
+buildtoolbar_popup_obj_tree				采取措施应对全球变暖是我们所有人的责任。
+buildtoolbar_popup_obj_light			确保随时都能看见囚犯们的一举一动。
+buildtoolbar_popup_obj_cooker			提供热腾腾的饭菜让囚犯们享受一下。
+buildtoolbar_popup_obj_fridge			避免食材腐坏。
+buildtoolbar_popup_obj_bin				一定要把违禁品搜剿干净。
+buildtoolbar_popup_obj_sink				所有员工都必须洗手。
+buildtoolbar_popup_obj_servingtable		把食物分配给囚犯们。
+buildtoolbar_popup_obj_showerhead		花洒喷头，供淋浴用。
+buildtoolbar_popup_obj_bookshelf		放书的架子。
+buildtoolbar_popup_obj_officedesk		你的员工需要记录很多信息，给他们提供一个漂亮的办公桌吧。
+buildtoolbar_popup_obj_filingcabinet	你的员工需要把他们写的东西细心整理好。
+buildtoolbar_popup_obj_medicalbed		在被囚犯偷走之前，毒品都保存在这里。
+buildtoolbar_popup_obj_morgueslab		在转运遗体前确保死者有地方安息。
+buildtoolbar_popup_obj_drain			清除地板上的积水。
+buildtoolbar_popup_obj_sprinkler		发生火灾时自动向此区域喷水。
+buildtoolbar_popup_obj_metaldetector	藏有违禁品的囚犯经过时会被检测出来，但需要在附近安排警卫才能收缴违禁品。
+buildtoolbar_popup_obj_weightsbench		允许囚犯们锻炼，令他们保持愉悦心情。
+buildtoolbar_popup_obj_phonebooth		这些方便的电话亭可以让犯人与其家属通话。
+buildtoolbar_popup_obj_tv				用肥皂剧安抚囚犯。
+buildtoolbar_popup_obj_largetv			让众多囚犯们分享其脑残经历。
+buildtoolbar_popup_obj_pooltable		玩局台球来打发千篇一律的监狱生活
+buildtoolbar_popup_obj_dismantleobject	
+buildtoolbar_popup_obj_altar            天主与祷告者相遇之地
+buildtoolbar_popup_obj_pews             信徒的座位。用最坚硬、最致密的木头制成。
+buildtoolbar_popup_obj_prayermat        使囚犯们在祈祷时不必跪在肮脏的地板上。
+
+buildtoolbar_popup_staff_workman		根据你所提供的规划为你建造监狱。
+buildtoolbar_popup_staff_guard			用于看管囚犯以防其滋事。
+buildtoolbar_popup_staff_armedguard     给警卫装备散弹枪，囚犯在攻击他之前就会三思。\n\n注意：每个配备枪械的警卫都需要在军械库拥有自己的储物柜。
+buildtoolbar_popup_staff_doctor			自动治疗附近所有受伤的人，无论是警卫还是囚犯
+buildtoolbar_popup_staff_cook			把他们烹制的餐食提供给囚犯们。
+buildtoolbar_popup_staff_gardener		保持监狱地面干净整洁。
+buildtoolbar_popup_staff_janitor		保持监狱内部干净整洁，也可协助监狱洗衣工作。
+buildtoolbar_popup_staff_warden			监狱大总管，在你寻找并聘用高级员工之前必须拥有此职位。
+buildtoolbar_popup_staff_chief			这名高级员工使你可以使用部署、闭路电视监控系统和防暴警卫调查项目。
+buildtoolbar_popup_staff_foreman		这名高级员工使你可以雇佣清洁工和园丁。
+buildtoolbar_popup_staff_psychologist	这名高级员工使你可以洞察囚犯们的心理活动。
+buildtoolbar_popup_staff_accountant		这名高级员工使你可以查看财务报告。
+buildtoolbar_popup_staff_lawyer			这名高级员工可帮助你打破规则，获得监狱的更大控制权。
+
+buildtoolbar_popup_uts_powerstation		产生监狱所需的电力。
+buildtoolbar_popup_uts_capacitor		放置在发电站旁可以提高发电量。
+buildtoolbar_popup_uts_electricalcable	为监狱分配电力。
+buildtoolbar_popup_uts_powerswitch		切换所有与其相连的电线的通电情况。\n\n右键点击开启/关闭通电状态。
+buildtoolbar_popup_uts_waterpumpstation	为监狱提供水源。
+buildtoolbar_popup_uts_pipevalve		切换所有相连水管的供水情况。
+buildtoolbar_popup_uts_pipelarge		为你的监狱配送大量的高压水，或许足够让某些人在充满臭味的污物中爬行 500 码获取自由。\n\n注意，一般不连接水槽或淋浴花洒等等——因为压力太高。
+buildtoolbar_popup_uts_pipesmall		用来将马桶、淋浴花洒、水槽等连接到你的大型管网。压力要低很多，因此小管道的长度受限，以防压力过低。
+buildtoolbar_popup_uts_cctv				不用到处安排警卫也可以监视囚犯。\n\n你必须把闭路电视监视器与摄像头相连才能让它正常工作。
+buildtoolbar_popup_uts_cctvmonitor		需要安装在警卫室并由一名警卫操作。你可远程操控监狱各处的闭路电视监控摄像头。\n\n使用连接工具将监视器与闭路电视监控摄像头相连。\n\n注意：最多可以同时监视8个摄像头。如果连接了8个以上的摄像头，摄像头的画面会逐步切换显示，只能提供不完整的监控。
+buildtoolbar_popup_uts_DoorControlSystem  需要安装在警卫室并由一名警卫操作。你可远程打开监狱各处的门。\n\n使用连接工具将此系统与门禁伺服系统相连。门禁伺服器应安装在你希望远程操控的门上\n\n注意：你可向此系统连接无限多的伺服系统，但操作此系统的警卫每秒最多只能打开两扇门。
+buildtoolbar_popup_uts_phonemonitor     需要安装在警卫室并由一名警卫操作。你可以监听囚犯们打出的所有电话，让你可以提前洞察有组织的违法活动。\n\n使用连接工具将此系统与电话亭相连。
+buildtoolbar_popup_uts_Servo            将门禁伺服器安装在你想要远程操控的门上，确保马达齿轮在门的正上方。\n\n安装完毕后，门禁伺服器被触发就会自动开门—— 一般由门禁控制系统或门禁定时器触发。\n\n门禁伺服器可以串连，当第一个伺服器被触发时就会同时触发后面的伺服器。
+buildtoolbar_popup_uts_LogicCircuit     仅限高级建筑师使用。\n\n一个可以根据输入数据进行逻辑运算后输出相应结果的简单电路盒。\n\n可用运算：And / Or / Not / Nand / Nor / Xor\n\n点击右键循环切换逻辑运算。
+buildtoolbar_popup_uts_LogicBridge      仅限高级建筑师使用。\n\n接收其输入讯号，并将其桥接至同一格的电力线路上，电力线路再将信号传递到同一线路上的另一个逻辑电路。\n\n可以用来对整个监狱“广播”公共讯号，例如在广播时钟讯号时很有用。
+buildtoolbar_popup_uts_DoorTimer        可用于在每天固定的时段自动开门。\n\n使用连接工具将定时器连接到门禁伺服器上。
+buildtoolbar_popup_uts_Wire             连接你的远程操控系统。
+buildtoolbar_popup_uts_showallwires		显示监狱中所有已连接的电线。
+buildtoolbar_popup_uts_remotedoor       不能用钥匙打开的坚固金属门（只能远程开启）。用这种门可以有效防止囚犯窃取钥匙大规模越狱。
+buildtoolbar_popup_uts_dismantleutility	
+buildtoolbar_popup_uts_pressurepad      当有物体压在其上时会向连接的设备发出讯号。
+buildtoolbar_popup_uts_statuslight      根据接收到的讯号亮红或绿灯。
+
+buildtoolbar_popup_autolights_name      自动灯具
+buildtoolbar_popup_autolights           自动灯具布置
+buildtoolbar_popup_autolights_desc      如选择此项，在新建建筑完工之后将自动为其布置灯具。
+
+buildtoolbar_contraband_source          显示违禁品可能被偷取的所有位置。
+buildtoolbar_contraband_day             显示最近24小时没收的所有违禁品。
+buildtoolbar_contraband_week            显示最近7天内没收的所有违禁品。
+buildtoolbar_contraband_alltime         显示你的监狱历史上没收的所有违禁品。
+buildtoolbar_contraband_informants      显示秘密线人收集的情报。
+
+buildtoolbar_deployment_Guards          将警卫分配至你监狱里的区块。
+buildtoolbar_deployment_Patrols         点击并拖动以创建巡逻路线。\n\n再次点击现有巡逻线路内的任意方块即可分配巡逻警卫。\n右键点击并拖动以清除警卫巡逻。
+buildtoolbar_deployment_DogPatrols      点击并拖动以创建巡逻路线。\n\n再次点击现有巡逻线路内的任意方块即可分配巡逻警卫。\n右键点击并拖动以清除警卫巡逻。
+buildtoolbar_deployment_ArmedPatrols    点击并拖动以创建巡逻路线。\n\n再次点击现有巡逻线路内的任意方块即可分配巡逻警卫。\n右键点击并拖动以清除警卫巡逻。
+buildtoolbar_deployment_SharedZone      允许所有囚犯进入此区块。
+buildtoolbar_deployment_MinSecZone      只有轻刑犯能够进入此区块。
+buildtoolbar_deployment_MedSecZone      只有中刑犯能够进入此区块。
+buildtoolbar_deployment_MaxSecZone      只有重刑犯能够进入此区块。
+buildtoolbar_deployment_ProtectedZone   只有“重点保护”囚犯能够进入此区块。
+buildtoolbar_deployment_SuperMaxZone    只有超重刑犯能够进入此区块。
+buildtoolbar_deployment_DeathRowZone    只有死刑犯能够进入此区块。
+buildtoolbar_deployment_StaffOnlyZone   只有员工能够进入此区块。
+buildtoolbar_deployment_UnlockedZone    任何人都能够进入此区域，所有门都不上锁。
+
+job_matsassigned                        已分配材料
+job_matsavailable                       可用材料
+job_awaitingmaterials                   等待材料
+job_inprogress                          工作进行中
+job_blocked                             工作（被阻挡）
+job_queued                              工作（已排队）
+
+job_failed_noroute                      无路径
+job_failed_nomaterials                  无材料
+job_failed_toodangerous                 太危险
+job_failed_materialsbeingcarried        在途中的材料
+
+job_rightclicktocancel                  点击右键以取消
+job_refundamount                        退款金额：*X
+
+failuremessage_blocked                  被阻挡
+failuremessage_cantafford               资金不足
+failuremessage_cantaffordupkeep         超出日常预算
+failuremessage_maximumcountreached      已达最大可聘用人数
+failuremessage_maxstaff                 员工过多
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                运载
+statustoolbar_finances                  财政
+statustoolbar_regime                    统治
+statustoolbar_escapemap                 安保人员
+statustoolbar_electricity               电力
+statustoolbar_stats                     状态
+statustoolbar_danger                    危险等级
+statustoolbar_jobs                      工作
+statustoolbar_gangs                     帮派
+statustoolbar_staff                     员工
+statustoolbar_research                  调查
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Sprite Bank 编辑器
+spritebankeditor_create                 创建
+spritebankeditor_rotate                 旋转
+spritebankeditor_sort                   分类
+spritebankeditor_markermodetitle        标记模式
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          主菜单
+codex_campaign                          剧情模式
+codex_cutscenes                         过场动画
+codex_qualifications                    资格
+codex_load                              加载监狱
+codex_loadcampaign                      加载剧情
+codex_save                              保存监狱
+codex_savecampaign                      保存剧情
+codex_performance						性能测试
+codex_developer_load                    （开发者）加载地图
+codex_developer_save                    （开发者）保存地图
+codex_developer_clearach                （开发者）清除成就
+codex_contacts                          联系人
+codex_materials                         建材
+codex_play                              开始游戏
+codex_polaroids                         宝丽来
+codex_introduction                      介绍
+codex_restartintroduction               重新开始介绍
+codex_restartchapter                    重新开始章节
+codex_help                              帮助（维基百科）
+codex_opensavefolder                    打开存档文件夹
+codex_options							选项
+codex_nitgs								游戏中的人名
+codex_workshop							分享监狱(Steam Workshop)
+codex_checkforupdates                   检查更新
+codex_preorder                          立刻预购
+codex_termsconditions                   条款与条件
+codex_twitter                           Twitter
+codex_extras                            附加功能
+codex_unlocked                          已解锁 *X/*Y
+
+codex_new                               建立新监狱
+codex_new_worldsize                     世界规模
+codex_new_small                         小
+codex_new_medium                        中
+codex_new_large                         大
+codex_new_selectwarden                  选择你的典狱长
+
+codex_options_graphics					图形
+codex_options_resolution				分辨率
+codex_options_resolutionauto			自动
+codex_options_windowed					已视窗化
+codex_options_highdpi					高 DPI
+codex_options_filtering					过滤
+codex_options_nofiltering				关闭
+codex_options_multisampled				多重采样
+codex_options_supersampled				超级采样
+
+codex_options_audio						音效
+codex_options_volume					主音量
+codex_options_frequency					混音频率
+codex_options_swapstero					交换立体声
+codex_options_dspenabled				开启音效管理器
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
+
+codex_options_clocktype                 时钟类型
+codex_options_clocktype_analogue        模拟
+codex_options_clocktype_12h             12小时制
+codex_options_clocktype_24h             24小时制
+
+codex_options_gameplay					游戏
+codex_options_autosave					自动保存定时器
+codex_options_renderrooms				房间网格
+codex_options_apply						应用
+
+codex_options_language					语言
+
+codex_enabled                           启用
+codex_disabled                          禁用
+
+codex_option_intake                     持续接收新囚犯
+codex_tooltip_intake                    若启用，你每天都会收到随机数目的新囚犯……一直如此\n\n若禁用，你可以通过转至报告并点击囚犯栏来选择何时接收囚犯。
+codex_option_fogofwar                   战争迷雾
+codex_tooltip_fogofwar                  除非有警卫在此区域巡逻或区域内有闭路电视监控摄像头，否则你将无法看见监狱内部的情况
+codex_option_lakes                      生成湖泊
+codex_tooltip_lakes                     随机产生的湖泊会阻隔你的土地。警告：实验性功能。
+codex_option_forests                    生成森林
+codex_tooltip_forests                   土地上会出现森林。
+codex_option_buildings                  生成建筑
+codex_tooltip_buildings                 随机的遗弃建筑将出现在你的土地上，供你随意选择利用。
+codex_option_failure                    失败条件
+codex_tooltip_failure                   额外挑战！当你把事情搞得一团糟时（暴动暴乱、破产、过多的死亡及越狱等等）会结束游戏。
+codex_option_unlimitedfunds             无限资金
+codex_tooltip_unlimitedfunds            纯沙盒模式！你一开始就可以随心所欲地花钱，再也不用担心没钱或等待将来拥有更多金钱。
+codex_option_gangs                      帮派
+codex_tooltip_gangs                     某些囚犯将带着对帮派的忠诚进入监狱，他们会当场攻击敌对帮派成员。这是一项额外的挑战。
+codex_option_events                     事件
+codex_tooltip_events                    让事件在游戏中发生让你保持警觉。增加额外挑战以及不可预测性。
+
+codex_option_funds                      资金
+codex_tooltip_funds                     开始游戏时你将拥有这么多存款。在估值界面出售你建好的监狱来获得更多启动资金吧。
+
+codex_transfer							移送
+codex_transferring						移送中
+codex_in_prison							禁闭中
+codex_useravatar                        这就是我
+codex_tooltip_useravatar                把这名囚犯标记为你自己。如果你不知何故入狱了，这名囚犯就是你的写照。
+codex_tooltip_flagbio                   举报此人物小传包含争议内容。
+
+codex_workshop_current					当前监狱
+codex_workshop_publish					发布此监狱
+codex_workshop_update					更新
+codex_workshop_play						开始游戏
+codex_workshop_downloading				正在下载
+codex_workshop_download_failed			下载失败
+codex_workshop_publishing				发布中……
+codex_workshop_new						新建
+codex_workshop_title					标题
+codex_workshop_desc						说明
+codex_workshop_view_in_workshop			在 Steam 创意工坊中查看
+codex_workshop_heading_pubed			你已发布监狱
+codex_workshop_heading_subed			你点赞的监狱
+codex_workshop_published_by				由 *P 发布
+codex_workshop_published_by_you			由你发布
+codex_workshop_published_good			监狱已发布
+codex_workshop_published_good_msg		你也成功发布监狱。
+codex_workshop_published_bad			发布监狱失败
+codex_workshop_published_bad_msg		你的监狱未能发布。
+codex_workshop_published_bad_msg_new	你的新监狱发布失败。请重试。
+codex_workshop_busy						Steam正在施魔法，先等它完成再试一次。
+codex_workshop_file_exists				你已经发布了一个使用此名称的监狱，请使用别的名称。
+codex_workshop_generic_fail				未能发布你的监狱，请重试。
+codex_workshop_download_bad				未能下载该监狱
+codex_workshop_pa_workshop				打开 Prison Architect 创意工坊
+codex_workshop_agreement				提交此项目表示你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]工坊服务条款[/url]。
+
+codex_options_timelapse					延时摄影
+codex_timelapse_record					开始延时摄影
+codex_timelapse_stop					停止延时摄影
+codex_timelapse_camera					摄影机模式
+codex_timelapse_resolution				分辨率
+codex_timelapse_customresw				自定分辨率宽度
+codex_timelapse_customresh				自定分辨率高度
+codex_timelapse_resolution				分辨率
+codex_timelapse_fps						播放速度
+codex_timelapse_interval				拍摄间隔
+codex_timelapse_quality					质量
+codex_timelapse_unsupported				你的硬件无法开启此功能。
+codex_timelapse_savesettings			保存设定
+
+codex_timelapse_cam_zoom                缩放摄影机
+codex_timelapse_cam_fitmap              适合地图
+codex_timelapse_cam_fitheight           适合地图高度
+codex_timelapse_cam_fitwidth            适合地图宽度
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            高
+codex_timelapse_quality_med             中
+codex_timelapse_quality_low             低
+codex_timelapse_interval_value          *X 游戏分钟
+
+codex_performance_running				正在执行性能测试
+codex_performance_time					时间剩余： *T 秒
+codex_performance_current				当前帧时间： *T 毫秒
+codex_performance_min					最小帧时间： *T 毫秒
+codex_performance_avg					平均帧时间： *T 毫秒
+codex_performance_max					最大帧时间： *T 毫秒
+codex_performance_numframes				帧数: *T
+
+codex_last_modified						最后修改：*T
+codex_sortbydesc						按日期排序
+codex_sortname							名称
+codex_sortdate							日期
+codex_apply								应用
+codex_select                            选择
+
+codex_mods								模组
+codex_mod_activetitle					激活的模组
+codex_mod_inactivetitle					可用的模组
+codex_mod_deactivate					停用所有模组
+codex_mod_wiki							查找更多模组（维基百科）
+codex_mod_openmodsfolder				打开模组文件夹
+codex_mod_moresteammods					查找更多模组（Steam 创意工坊）
+codex_mod_findsteamtranslations         查找更多译文（Steam 创意工坊）
+codex_authortitle                       作者
+codex_versiontitle                      版本
+codex_datetitle                         日期
+codex_urltitle                          URL
+codex_typetitle							类型
+codex_mod_graphicsandsound				图形和声音
+codex_mod_translation					译文
+codex_mod_scenario						场景
+codex_mod_content						内容
+codex_mod_load_scenario					开始此场景
+codex_publishmod						发布此模组
+
+codex_mod_update						更新此模组
+codex_mod_published_good				已发布模组
+codex_mod_published_good_msg			你已成功发布模组。
+codex_mod_published_bad					发布模组失败
+codex_mod_published_bad_msg				你的模组发布失败。
+codex_mod_modsupdated					模组已更新
+codex_mod_modsupdated_msg				某些你的已激活模组已经更新，点击确定应用新的变更。游戏会自动保存。
+codex_mod_translationcaption            这是另一种语言的译文吗？
+
+codex_language                          语言
+codex_language_englishdefault           英语（默认）
+codex_language_default                  默认语言
+codex_language_download                 下载
+codex_language_failed_download          未能下载译文
+codex_language_failed_download_msg      未能下载你所选的译文。
+codex_language_searching_workshop       搜索 Steam 创意工坊
+codex_language_community                这些译文包由社区创建并维护——谢谢你!
+
+codex_save_confirm                      你确定要用当前监狱覆盖 *X 吗？
+codex_researtchapter_confirm            你确定要重新开始当前章节吗？未保存的进度将会丢失。
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					你想要保存这些图形选项吗？这些改变即将在
+graphicschange_time						秒内还原。
+graphicschange_accept					接受
+graphicschange_revert					还原
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    脚本调试器 (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   发现模组变动
+modnotification_info                    保存当前监狱时正在使用以下模组。强烈建议在玩此监狱前下载并激活这些模组。
+modnotification_playnow                 开始游戏
+modnotification_active                  激活
+modnotification_inactive                停用
+modnotification_new                     新建游戏
+modnotification_unknown                 未知
+modnotification_popup_title             模组变动
+modnotification_popup_active            模组当前已激活。点击以停用。
+modnotification_popup_inactive          模组当前已停用。点击以激活。
+modnotification_popup_new_url           这是一个新模组。点击在网页浏览器中打开其链接。
+modnotification_popup_new_steam         这是一个新的 Steam 模组。点击立即订阅并下载模组。
+modnotification_popup_unknown           我们无法确定此模组的来源。请你自行查找并安装此模组。
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        停止并搜索
+biography_selected                      已选择
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               囚犯 #*X
+biography_prisoner_age                  年龄：*X
+biography_prisoner_traits               特征：
+biography_prisoner_convicted            被控 *C（认罪 *P）
+biography_prisoner_sentenced            被判 *X 年刑期
+biography_parole_now                    现在有资格申请假释
+biography_parole_later                  可在 *X 年后申请假释
+biography_prisoner_served               已服刑 *X 年
+biography_prisoner_priors               前科：
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							年龄：
+rapsheet_category						类别：
+rapsheet_traits							已知特征：
+rapsheet_conviction_text				*C - *Y 年
+rapsheet_found_text						（抗辩： *P ）
+rapsheet_convictions					定罪
+rapsheet_misconductstitle				近期不当行为
+rapsheet_biography                      人物小传
+rapsheet_guilty							认罪
+rapsheet_notguilty						不认罪
+rapsheet_served							已服刑
+rapsheet_served_time					已服刑 *Y 年
+rapsheet_time							*Y 年
+rapsheet_bio							因 *A 被判 *Y 年徒刑。
+rapsheet_bio_med						因 *A 和 *B 数罪并罚，被判 *Y 年徒刑。
+rapsheet_bio_long						因 *A ， *B 和 *C 数罪并罚，被判 *Y 年徒刑。
+rapsheet_category_minsec				轻刑犯
+rapsheet_category_normal				普通犯
+rapsheet_category_maxsec				重刑犯
+rapsheet_category_protected             重点保护
+rapsheet_category_supermax              超重刑犯
+rapsheet_category_deathrow              死刑犯
+rapsheet_tab_biography                  人物小传
+rapsheet_tab_experience                 经历
+rapsheet_tab_grading                    评级
+rapsheet_tab_character                  性格
+rapsheet_punish                         惩罚
+rapsheet_recruit                        招募线人
+
+rapsheet_timeinside                     在你的监狱度过了 *X 天
+rapsheet_timeinside_hours               在你的监狱度过了 *X 小时
+rapsheet_mood                           情绪
+rapsheet_activity                       活动
+rapsheet_condition                      状况
+rapsheet_program                        方案
+rapsheet_passchance                     成功几率
+rapsheet_reformhistory                  改造方案纪录
+
+rapsheet_reform_success                 成功
+rapsheet_reform_successcount            完成了 *X 次
+rapsheet_reform_failed                  失败
+rapsheet_reform_failcount               失败了 *X 次
+
+rapsheet_grading_punishment             惩罚
+rapsheet_grading_health                 健康
+rapsheet_grading_security               安保人员
+rapsheet_grading_reform                 改造
+rapsheet_grading_points                 *X 积分：
+rapsheet_grading_penalties              *X 惩罚：
+
+rapsheet_scheduleexecution              安排行刑
+
+
+punish_lockdown_6                       禁足 (6小时)
+punish_lockdown_12                      禁足 (12小时)
+punish_lockdown_24                      禁足 (24小时)
+punish_solitary_6                       关禁闭 (6小时)
+punish_solitary_12                      关禁闭 (12小时)
+punish_solitary_24                      关禁闭 (24小时)
+punish_solitary_perm                    关禁闭（无限期）
+punish_lockdown_perm                    禁足（无限期）
+punish_solitary                         关禁闭
+punish_lockdown                         防范禁闭
+punish_none                             无
+punish_timer                            *X小时 *Y分钟
+punish_timer_minutes                    *X分钟
+punish_active                           执行中
+punish_permanent                        （无限期）
+punish_end                              结束惩罚
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  无
+misconduct_reporttype_complaint             抱怨
+misconduct_reporttype_destruction           毁坏公物
+misconduct_reporttype_escapeattempt         尝试越狱
+misconduct_reporttype_injuredprisoner       攻击囚犯
+misconduct_reporttype_injuredstaff          攻击员工
+misconduct_reporttype_seriousinjury         重伤他人
+misconduct_reporttype_murder                谋杀
+misconduct_reporttype_contrabandweapons     私藏武器
+misconduct_reporttype_contrabandtools       私藏工具
+misconduct_reporttype_contrabandnarcotics   私藏毒品
+misconduct_reporttype_contrabandluxuries    私藏奢侈品
+misconduct_reporttype_intoxicated           中毒
+misconduct_title                             =[不当行为]=
+
+misconduct_report_addiction                 对 *X 上瘾
+misconduct_report_recoving                  正在戒掉 *X
+misconduct_report_alcoholic                 酗酒
+misconduct_report_recovingalcoholic         正在戒酒
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       你需要 *X 来编制这份报告
+research_requireunlock                  你需要调查“ *X ”来解锁此报告
+research_approved                       已批准
+research_cost                           费用：*X
+research_costperitem                     + *X 每件。
+research_timetounlock                   解锁时间：*X小时
+research_movementpenalty                移动速度减慢：*X%
+research_protectionbonus                保护：*X%
+research_tap_to_authorise               轻按以授权
+
+research_none                           无
+research_warden                         典狱长
+research_maintainance                   维护
+research_security                       安保人员
+research_legal                          法务
+research_mentalhealth                   心理
+research_finance                        财政
+research_landexpansion                  土地扩张
+research_cctv                           监控
+research_riotguards                     防暴警卫
+research_health                         健康
+research_cleaning                       清洁
+research_groundskeeping                 园艺
+research_clone                          克隆
+research_deployment                     部署
+research_patrols                        巡逻
+research_dogs                           警犬
+research_prisonlabour                   狱中劳役
+research_education                      教育
+research_contraband                     情报
+research_policy                         监狱政策
+research_armoury                        枪械库
+research_bodyarmour                     护甲
+research_tazers                         电击枪
+research_tazersforeveryone              列装电击枪
+research_bankloans                      银行贷款
+research_lowertaxes1                    税收减免
+research_lowertaxes2                    离岸避税天堂
+research_remoteaccess                   远程存取
+research_extragrant                     额外拨款
+research_advancedmanagement             微观管理
+research_deathrow                       死刑犯
+research_permanentpunishment            永久性惩罚
+research_removemincellsize              小牢房
+research_reduceexecutionliability       减少行刑责任
+research_legalprep                      法律筹备
+research_legaldefense                   法律辩护
+
+researchtooltip_warden                  解锁典狱长和整个监狱行政系统。打开员工工具栏来聘用典狱长。\n\n与其他管理者相同，需要为典狱长提供办公室。
+researchtooltip_security                解锁安保主管，可以从员工工具栏聘用。主管可解锁部署界面，并且可以提供监狱风险等级的实时报告，可预测潜在安全隐患。\n\n与其他管理者相同，需要为安保主管提供办公室。
+researchtooltip_maintenance             解锁工头。可以从员工工具栏聘用。\n\n与其他管理者相同，需要为工头提供办公室。
+researchtooltip_legal                   解锁律师，可以从员工工具栏聘用。解锁多个调查选项以扩大你对监狱的控制权。\n\n与其他管理者相同，需要为律师提供办公室。
+researchtooltip_deployment              使你可以永久性指派警卫到监狱特定区域站岗。
+researchtooltip_patrols                 使你可以在监狱重点区域（例如外围）制定巡逻路线，并分配警卫按照该路线巡逻。
+researchtooltip_dogs                    解锁警犬训练员和警犬。警犬可以轻易凭借嗅觉找出违禁物及越狱地道。\n\n警犬出色的速度使其可以轻松追捕逃犯。
+researchtooltip_cctv                    解锁闭路电视监控摄像头及监视器。使用这些设备来监视没有警卫警戒的区域。\n\n同时解锁电话监听系统，使你可以监听囚犯打出的电话以获取重要情报。
+researchtooltip_remoteaccess            解锁远程操控和自动门禁等高科技设备。你可以使用控制系统远程开门（由一名警卫操作），或者在每天特定时刻由门禁定时器打开。
+researchtooltip_riotguards              （目前暂时无用）\n 解锁“防暴警卫”，这些武装人员能更好地处置暴力事件。
+researchtooltip_maintainance            解锁工头。工头使你可以进一步调查狱中劳役等事宜或园丁等额外员工。\n\n与其他管理者相同，需要为工头提供办公室。
+researchtooltip_clone                   解锁主工具栏上的克隆工具。使用此工具可快速复制监狱区域，如牢房。\n\n你需要选择一个区域，然后点击鼠标右键拖动复制，最后左键点击你要粘贴的位置。
+researchtooltip_groundskeeping          解锁“园丁”，他将使室外区域保持整洁。
+researchtooltip_cleaning                解锁“清洁工”，他将清洁监狱的所有室内区域，也可协助监狱洗衣服务。
+researchtooltip_health                  解锁“医师”以及“医务室”和“停尸房”。受伤的囚犯和员工会被带到医务室，医师会为其包扎治疗。
+researchtooltip_MentalHealth            解锁心理医师，可在任何时候为你提供宝贵的囚犯心理状态分析。\n\n与其他管理者相同，需要为心理医师提供办公室。
+researchtooltip_finance                 解锁会计师，使你可以查看监狱的财务报告。\n\n如果你有足够的资金储备，还将使你每天能够使用超出收入水平的资金。\n\n与其他管理者相同，需要为会计师提供办公室。
+researchtooltip_landexpansion           授权你购买临近的地块，从而拓展监狱的规模，超越其原始边界。
+researchtooltip_prisonlabour            允许你让囚犯在监狱内工作（做饭、清洁等等）可以帮你减少所需的工资开支、帮你赚钱，同时给囚犯们教授新技能。\n\n也可解锁工坊和洗衣房。
+researchtooltip_education               解锁为囚犯们实行教育改造方案的能力。使用外部教师进行改造。
+researchtooltip_contraband              训练警卫，提高其追踪并追回违禁品的能力。解锁违禁品供需报告，违禁品分布图（显示监狱内所有可能发生盗窃的地方），并将所有遭盗窃的违禁品追回置于其被盗地点。\n\n也可解锁将囚犯招募为秘密线人的能力。\n\n还可解锁帮派情报视图。
+researchtooltip_policy                  解锁政策报告，令你可以增加或减少针对所有不当行为的处罚量，并自行触发搜查举止不当的囚犯及其牢房的能力。\n\n还可使你控制营养政策，变更给囚犯们提供的食物的数量和种类。
+researchtooltip_armoury                 解锁枪械库，使你可以在监狱内部署武装警卫。
+researchtooltip_bodyarmour              为所有警卫、武装警卫和警犬训练员配备护甲。护甲可以降低警卫在打斗中受到的伤害，但是会降低其移动速度。\n\n警卫们必须前往枪械库获取装备，你需要付钱购买所有以这种方式装备的护甲。
+researchtooltip_tazers                  使你的武装警卫能够装备电击枪，电击枪是一种非常有效的单发武器，可以在一瞬间将多数目标电晕。电击枪击发一次后需要整整一个小时来充电。\n\n穿护甲的警卫们必须前往枪械库获取装备，你需要付钱购买每一把以这种方式装备的电击枪。
+researchtooltip_tazersforeveryone       拓展电击枪方案，使普通警卫和警犬训练员也可装备电击枪防御。\n\n他们必须前往枪械库获取装备，你需要付钱购买每一把以这种方式装备的电击枪。
+researchtooltip_bankloans               使你能够从银行借贷大笔款项，但需每天支付利息。偿还贷款会提高你的信用评级并使你将来能够进行更大额度的贷款。
+researchtooltip_lowertaxes1             利用政府税收激励措施并将企业所得税率降至15%。\n\n每10,000美元的每日利润能够节省1,500美元的税费。
+researchtooltip_lowertaxes2             你的会计师将规则运用到极致，把你的所有官方账户和业务流程转移至享有超高优惠税率的外国。 你企业所得税义务将会降到1%。\n\n每10,000美元的每日利润就能节省 3,000美元的税费。
+researchtooltip_extragrant              让你能够同时接受3笔补助而不是2笔。
+researchtooltip_advancedmanagement      提供工具使你能够对监狱进行微观管理，令其各部分满足你的细致要求。\n\n解锁食物后勤管理，让你能够指定每个餐厅的对应厨房，以及餐厅对应的囚犯。与之相似，洗衣后勤管理使你能够规划每个牢房区块对应的洗衣房。\n\n还可解锁部署调度器，使你能够定制警卫一天内不同时间段的部署。\n\n解锁改造方案调度器，使你能够手动更改日常方案安排。
+researchtooltip_permanentpunishment     有时候即使将囚犯关进监狱也是不够的。你的律师可以通过提交一些文件将一名囚犯永久关在牢房里。
+researchtooltip_removemincellsize       通常牢房要达到一定尺寸以满足法定标准。试想一下，如果不限定尺寸你可以建立多少牢房！移除标准牢房的最小尺寸要求。
+researchtooltip_reduceexecutionliability 你的律师在进行游说，希望在正常启动死刑程序之前降低所需的定罪力度。在你无需承担责任安排行刑之前从本质上降低囚犯的上诉数量。
+researchtooltip_legalprep               每个监狱都时常出现问题，某些问题可能会带来严重的法律后果。一旦出事，律师可以通过准备必要的文件来减轻压力，不过这需要提前准备。
+researchtooltip_legaldefense            你处境不妙——事态极其糟糕，你已经被警告。如果你无力摆平这种情况，或许可以让律师助你脱困。完成此项调查来移除已收到的所有可能导致你被解雇的警告。
+
+research_legaldefense_adviser1          似乎你的律师准备了一些文件帮你撇清了干系。我是没法解雇你了。但仅限这次。
+research_legaldefense_adviser2          迅速让监狱恢复秩序，并确保其正常运作。这些小把戏不会每次都成功，无法永远保护你。
+
+research_missingadministrator           需要：
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                需要：
+roomrequirement_recommended             推荐：
+roomrequirement_minimumsize             最小尺寸 *W x *H
+roomrequirement_minimumsize_short	尺寸 *W x *H
+roomrequirement_indoor                  室内
+roomrequirement_outdoor                 室外
+roomrequirement_solidground             坚固的地面
+roomrequirement_secure                  安全（至少有一扇门）
+roomrequirement_secure_short		安全
+roomrequirement_enclosed                封闭（四周是围墙和门）
+roomrequirement_enclosed_short		封闭
+requirement_entrance                    需要入口
+roomrequirement_title                    =[房间要求]=
+roomrequirement_passed                  [通过]
+roomrequirement_failed                  [未通过]
+roomrequirement_adjacentobject          相邻房间：
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            已解锁
+
+unlock_special_electricity              电力系统
+unlock_special_food                     食物准备
+unlock_special_officersafety            警官安全
+unlock_special_misbehavior              不当行为
+unlock_special_accounting               会计
+unlock_special_gangs                    帮派
+
+unlock_electricity_caption              使你能够建造电站和电线，为所有需要用电的设备提供电力。
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       点击继续……
+incoming_call                           来电……
+
+adviser_name_unknown                    未知
+adviser_name_ceo                        首席执行官
+adviser_name_warden                     典狱长
+adviser_name_governer                   州长
+adviser_name_chief                      主管
+adviser_name_doctor                     医师
+adviser_name_kingpin                    领袖
+adviser_name_edwardshooter              爱德华
+adviser_name_edwardsinner               爱德华
+adviser_name_edwardinmate               爱德华
+adviser_name_edwardswife                爱德华的妻子苏珊
+adviser_name_priest                     牧师
+adviser_name_newsreader                 CNDC新闻
+adviser_name_mayor 						卡尔文•海勒市长
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            员工
+report_prisoners                        囚犯
+report_jobs                             工作
+report_needs                            需求
+report_threats                          威胁
+report_regime                           统治
+report_policy                           政策
+report_grants                           补助
+report_finance                          财政
+report_valuation                        估价
+report_contraband                       违禁品
+report_programs                         方案
+report_schedule                         调度器
+report_intake                           接收
+
+report_grants_bankloan                  银行贷款
+report_grants_bankloan_text             你可以从银行获得一大笔贷款。银行将每天收取利息，你必须通过现金流支付。\n\n按时还款会使你的信用评级逐渐提高，银行会愿意贷给你更多的钱。\n反之如果你错过还款，你的信用评级将会降低，当你下次需要贷款时可能遭到银行拒绝你\n\n注意：靠支付每日利息是无法还清贷款的。
+report_grants_max1                      你每次只能接受一项补助。\n让会计师来解除限制。
+report_grants_max2                      你每次只能接受不超过两项补助。\n让会计师来解除限制。
+report_grants_max3                      你每次只能接受不超过三项补助。
+report_grants_bankloan_amount           当前银行贷款：*X
+report_grants_bankloan_interest         利息：*X每天
+report_grants_bankloan_max              最高贷款额度：*X
+report_grants_creditrating              你的信用评级：*X
+report_grants_inprogress_tt             (进行中)
+report_grants_completed_tt              (已完成)
+report_grants_locked_tt                 (未解锁)
+report_grants_advancepayment            *X 预付款
+report_grants_completionbonus           *X 完成奖励
+report_grants_objectives                [目标]
+report_grants_prereqs                   [前提条件]
+report_grants_completed                 已完成
+report_grants_locked                    未解锁
+report_grants_inprogress                进行中
+report_grants_hidden                    ( *X 项以上隐藏)
+report_grants_taptoaccept               轻按以接受
+report_grants_cancelfee                 取消费用：*X
+
+report_staff_title                      总员工数：*X
+report_prisoners_title                  总囚犯数：*X
+report_staff_group_builders             工人
+report_staff_group_guards               警卫
+report_staff_group_staff                员工
+report_staff_group_administrators       管理者
+report_staff_group_prisoners            囚犯
+report_staff_group_prisoners_high       高风险
+report_staff_group_prisoners_normal     中风险
+report_staff_group_prisoners_low        低风险
+report_staff_group_prisoners_protected  重点保护
+report_staff_group_prisoners_supermax   超重刑犯
+report_staff_group_prisoners_deathrow   死刑犯
+
+report_staff_fire                       开除
+
+report_intake_title                     接收
+report_intake_catheader_cat             类别
+report_intake_catheader_pay             费用
+report_intake_catheader_available       名额
+report_intake_catheader_amount          比例
+report_intake_next_header               下一批接收：*X
+report_intake_cat_minsec                轻刑犯
+report_intake_cat_normal                普通犯
+report_intake_cat_maxsec                重刑犯
+report_intake_cat_deathrow              死刑犯
+report_intake_slider_minsec             调整轻刑犯接收比例
+report_intake_slider_normal             调整普通犯接收比例
+report_intake_slider_maxsec             调整重刑犯接收比例
+report_intake_slider_deathrow           调整死刑犯接收比例
+report_intake_closed                    关闭
+report_intake_locked                    锁定
+report_intakemaxperdaydesc              每日新接收人数
+report_intakemaxperdaydesc_tooltip      你希望下一批接收的囚犯总数
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              无
+report_intakemaxperdayall               全部
+reports_intakedelivernow                开始接收
+report_intakepayment                    费用
+report_intakeall                        全部
+report_intake_list_tooltip_title        接收类别
+report_intake_list_tooltip              可接收的囚犯类别列表。\n\n下面的池规模表示每个类别可被押送的囚犯数量。此数量会根据滚动条的比例随时间增长。\n\n你可以调节滚动条来改变下批接收犯人种类的比例。
+report_intake_list_tooltip_dr           \n\n你需要在接收死刑犯前为其分派好死刑犯牢房。死刑犯的接收要比普通囚犯慢很多。你不会看到太多死刑犯，这种囚犯十分罕见。
+report_intake_buttons_tooltip_title     下批接收
+report_intake_buttons_tooltip           你可以在下一批接收时使用此部分增加或减少你希望接收的囚犯数量。\n\n选择”无“监狱将不会接收新囚犯。选择”全部“将接收所有可被接收的囚犯。\n\n每类囚犯的数目可以用上述滚动条调节。
+report_intake_overview_tooltip_title    囚犯接收概况
+report_intake_overview_tooltip          你可在此查看下一波囚犯的押送情况，并可获得资金。你可以用上述滚动条及按钮调整押送犯人的数目及类别。可获得的资金由每类囚犯的数目决定。
+
+valuation_categoryprison                监狱价值
+valuation_construction                  房产
+valuation_objects                       固定装置及设备
+valuation_stock                         存货与材料
+valuation_staff                         员工
+valuation_startupgrant                  起始补助
+valuation_capacity                      囚犯容量
+valuation_cash                          现金
+valuation_debt                          银行贷款
+valuation_categoryperformance           安全与保障
+valuation_bonustimewithoutincident      [加分] 无事故时间
+valuation_finedeath                     [扣分] 过去24小时的死亡人数
+valuation_fineescape                    [扣分] 过去24小时的越狱人数
+valuation_total                         总计
+valuation_sell                          出售
+valuation_sellprison                    出售监狱
+valuation_sell_tooltip                  出售监狱可以让你获利并拥有更多资金以开启另一栋监狱。\n\n你依然可以继续运营此监狱，但每栋监狱只能出售一次。所有销售利润将会转移到新监狱地点。
+valuation_sold                          售出此监狱获得：*X
+valuation_donotown                      此监狱不属于你，因此无法出售。
+valuation_sellsome                      售出股份
+valuation_buysome                       购买股份
+valuation_shares                        购买及售出股份
+valuation_shares_tooltip                你最多可以向投资者售出监狱50%的股份。你会立即收到现金。作为对他们投资的回报，当你出售监狱时，股东将会获得相应份额的资金。\n\n也就是说如果你出售了30%的股份，在售出监狱时你将只能获得70%的最终销售价值。你随时可以买回之前售出的股份——尽管价格可能比当初出售时高。
+valuation_ownership                     你拥有 *X% 的监狱股份
+valuation_saleprice                     售价：*X
+valuation_title                         =[估价]=
+valuation_totalprisonvalue              监狱总价值：*X
+valuation_subcashreserves               减去现金储备：*X
+valuation_tenpercentprice               10%的价格：*X
+valuation_profit                        你的利润： *X
+valuation_tap_to_authorise              轻按以授权
+
+salecondition_title                     销售要求
+salecondition_cannotsell                必须满足以下条件你才能出售监狱或股份。
+salecondition_minimumvalue              最低50,000美元的估值
+salecondition_cashflow                  正现金流
+salecondition_accountant                设有现场会计师
+salecondition_minprisoners              至少有20名囚犯
+salecondition_recentdeaths              最近无人死亡
+salecondition_recentescapes             最近无人越狱
+salecondition_passed                    [通过]
+salecondition_failed                    [未通过]
+
+policy_title                            事件
+policy_search                            - 搜查 -
+policy_prisoner                         他
+policy_cell                             牢房
+policy_punishment                       惩罚
+policy_quantity                         时间
+policy_punishmenttime                   *X 小时
+policy_mealcost                         *X美元 /天
+policy_totalmealcost                    (总计: *X 美元/ 天)
+
+job_construct                           建造 *X
+job_installobject                       安装 *X
+job_installobjectinroom                 在 *Y 内安装 *X
+job_moveobject                          移动 *X
+job_moveobjecttoroom                    将 *X 移动到 *Y
+job_loadobjectinto                      将 *X 装载到 *Y
+job_storeobject                         在 *Y 内储存 *X
+job_dismantleobject                     拆除 *X
+job_dumpobject                          丢弃 *X
+job_repairobject                        修理 *X
+job_operateequipment                    操作 *X
+job_escortprisoner                      将囚犯押送到 *X
+job_punishprisoner                      囚犯列队前进
+job_searchobject                        搜查 *X
+job_searchentity                        搜查囚犯
+job_searchingentity						正在搜查囚犯
+job_searchcell                          搜查牢房
+job_searchcellblock                     搜查牢房区块
+job_improvecellindoor                   清理室内区域
+job_improvecelloutdoor                  照料户外植物
+job_opendoor                            打开上锁的门
+job_giveuniform                         给囚犯发放囚服
+job_failurecount                        失败了 *X 次
+job_feedprisoner                        给囚犯提供食物
+job_healprisoner                        治疗囚犯
+job_delivermail                         递送邮件
+       
+finances_title                          财政
+finances_income                         收入
+finances_expenses                       支出
+finances_total                          总计
+finances_profit                         净额
+finances_timewithoutincident            (*X天)
+finances_dailyincome                    *X /天
+
+finances_category_federalgrant          联邦补助金
+finances_category_minsecprisoners       轻刑犯联邦补助金
+finances_category_medsecprisoners       标准囚犯联邦补助金
+finances_category_maxsecprisoners       重刑犯联邦补助金
+finances_category_prisoners             囚犯补助
+finances_category_workmen               工人工资
+finances_category_guards                警卫工资
+finances_category_admin                 管理者工资
+finances_category_staff                 员工工资
+finances_category_food                  食物
+finances_category_electricity           电力
+finances_category_workshops             工坊
+finances_category_loaninterest          贷款利息
+finances_category_reformprogs           改造方案
+finances_category_noincident            无事故天数
+finances_category_exports               导出（昨天）
+finances_category_corptax               公司税
+finances_category_prisonerwages         囚犯工资（昨天）
+finances_category_shoprevenue           商店收入（昨天）
+
+reports_foodtitle                       营养政策
+meal_quantity                           饭菜份量
+meal_variety                            饭菜种类
+meal_cost                               每名囚犯花费
+
+reports_paroletitle                     假释政策
+parole_title                            假释通过率
+parole_info                             假释截止期：*P%
+parole_desc                             如果囚犯的再犯罪率低于此值，将在其假释听证结束之后被释放。
+parole_fine                             囚犯再犯罪罚款
+parole_reward                           囚犯提早释放奖励
+
+victory_title                           证明
+
+victory_PrisonValue                     监狱价值
+victory_Income                          日常利润
+victory_Prisoners                       容量
+victory_PrisonersReleased               释放囚犯数
+victory_prisonersdied                   服刑期间死亡数
+victory_prisonersescaped                越狱囚犯数
+victory_Bankrupt                        破产
+victory_Riot                            失控\n暴动
+victory_TooManyDeaths                   玩忽\n职守
+victory_TooManyEscapes                  安全\n灾难
+victory_failure                         失败
+victory_warning                         警告
+victory_remaining                       余下的
+victory_death                           死亡
+victory_escapes                         越狱
+victory_counter                         (*X今天)
+victory_executions                      非法处决
+victory_innocentsexecuted               处决了无辜囚犯
+
+victory_warning_bankrupt                你有24个小时来消除财政危机。
+victory_warning_riot                    迅速制止暴动，否则政府将被迫接管指挥权。
+victory_warning_toomanydeaths           如果今天死亡人数过多，你将被起诉。
+victory_warning_toomanyescapes          如果今天有更多囚犯越狱，你将遭到解雇。
+
+victory_prisoners_units                 放置
+victory_prisonersreleased_units         释放
+victory_toomanydeaths_units             死亡
+victory_toomanyescapes_units            越狱
+victory_prisonersparoled                假释的囚犯
+victory_prisonersreoffended             再犯罪囚犯
+
+victory_adviserwarning_toomanydeaths1   昨天是这座监狱历史上十分黑暗的一刻。太多人在这里失去了生命。
+victory_adviserwarning_toomanydeaths2   确保今天没人再死去，否则你会被控玩忽职守罪。
+victory_advisernotice_toomanydeaths1    别说我们没警告过你。由于最近这里发生的事件，你被判玩忽职守罪。
+victory_advisernotice_toomanydeaths2    你因犯罪被判在自己的监狱服刑十年。祝你好运。
+victory_adviserwarning_riot1            你的监狱失控了。立刻镇压暴动，否则政府就要干涉并用武力收回监狱。
+victory_advisernotice_riot1             你没能控制这次暴动。政府已撤销我们的监狱合约，现在派了国民警卫队来夺回监狱。
+victory_adviserwarning_toomanyescapes1  我们面临潜在的公关危机。近期有太多囚犯越狱，这是你的责任。
+victory_adviserwarning_toomanyescapes2  封闭此区域，确保没人能够越狱，否则媒体会对你口诛笔伐。
+victory_advisernotice_toomanyescapes1   你失败了。这座监狱成了媒体的笑柄，他们需要讨伐的对象。
+victory_advisernotice_toomanyescapes2   那个对象就是你。你被解雇了。
+victory_adviserwarning_bankrupt1        我们破产了！你极糟的管理能力使监狱陷入财政危机。
+victory_adviserwarning_bankrupt2        迅速设法解决这个问题，否则你会被解雇。
+victory_advisernotice_bankrupt1         我们被迫宣布破产，把这座监狱交给政府管理。你失败了。
+victory_adviserwarning_wardendeaths1    为你工作风险实在太高。我们很难再找到愿意在这座监狱当典狱长的人。
+victory_adviserwarning_wardendeaths2    如果你再让典狱长死掉，我们就只好让解雇你了。
+victory_advisernotice_wardendeaths1     你没能为典狱长提供安全的工作环境。所有人都害怕给你工作。
+victory_advisernotice_wardendeaths2     除了让你走我们别无选择。你被解雇了。
+victory_adviserwarning_reoffenders1     很多你提前释放的囚犯又再次犯罪了，如果不能控制这种情况，我们将付出惨重代价。
+victory_adviserwarning_reoffenders2     如果又有很多囚犯被释放后再次犯罪，你将成为众矢之的。
+victory_advisernotice_reoffenders1      你放出了太多危险罪犯。我们只能让你走。你失败了。
+victory_adviserwarning_executions1      这是你第二次处死无辜囚犯了。公众表示强烈不满。
+victory_adviserwarning_executions2      如果再有无辜的囚犯被处死，你要承担责任。
+victory_advisernotice_executions1       你处死了太多无辜的囚犯。我们不能再让你管理这座监狱。你失败了。
+victory_advisernotice_InnocentsExecuted1 你刚刚未按照适当的程序处死囚犯，结果发现这名囚犯是无辜的。这是严重的误判，你难辞其咎。你被解雇了，或许还会有牢狱之灾。
+
+score_title                             监狱评级
+score_reoffendingrate                   再犯罪率
+score_prisonersreleased                 *X 名囚犯被释放了
+score_minimumprisonersreleased          必须有 *X 名囚犯被释放后才能编制此报告
+score_deaths                            *X 名囚犯在监禁期间死亡
+score_escapes                           *X 名囚犯越狱
+score_reoffendingchance                 估计再犯罪几率
+score_startingreoffendingchance         预计到达：*X%
+score_prisonersparoled                  提前假释数（再犯罪）
+score_prisonersparoled_info             *P (*E%)
+score_clemencychance                    获得宽大处理的可能性
+score_convictionstrength                国家批准的定罪力度
+score_prisonersexecuted                 处决囚犯数（无辜）
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                这是公众对囚犯为其罪行所受惩罚程度的评级。长期在监狱中服刑是强有力的惩罚的基础，但独自禁闭的劳役生活也可计入其中。\n\n切记，过多改造或自由时间会被看作是“对犯罪的软弱”，不利于惩罚程度评级。\n\n强有力的惩罚分数可以使囚犯出狱后不敢再次犯罪。
+score_tooltip_reform                    对你通过改造方案改造囚犯的尝试的评级。\n\n较高的改造分数可以使囚犯出狱后更有可能找到工作，从而降低其再次犯罪的几率。\n\n注意：让囚犯在监狱周围工作也会计入其中。
+score_tooltip_health                    对囚犯监狱服刑期间的健康和幸福程度的记录。户外锻炼以及美食会增加此项评分。未得到医治的伤病、吸食毒品及饮酒均会降低此项评分。\n\n此项得分过低会提高囚犯再犯罪的几率，尤其是那些在出狱前未戒掉对毒品或酒精依赖的囚犯。
+score_tooltip_security                  对你是否安全关押囚犯的评级。将犯人关押在有武装警卫看守的牢房里会大幅提高此项得分。如果囚犯参与斗殴、谋杀或越狱，你会受到惩罚。\n\n过低的得分表明囚犯在入狱后仍存在犯罪行为，因此出狱后再犯罪的几率极高。
+
+score_tooltip_reoffendingchance         对囚犯出狱后再次犯罪的几率的评估。这项评估数值考虑了许多因素：\n\n——降低：严厉/强力的惩罚\n——降低：成功的改造方案\n——增长：健康或安全状况不佳\n——增长：未得到治疗的毒瘾或酒瘾\n\n——囚犯年龄是主要因素。\n——前科数量是一项重要指标。\n——家人的支持大有帮助。
+score_tooltip_clemencychance_title      获得宽大处理的可能性
+score_tooltip_clemencychance            上诉委员会对被判处死刑的囚犯进行宽大处理和减刑的可能性。每次失败的上诉会降低此值，直到数值低于国家批准的定罪力度，这时会全权授权继续。如果你在此之前安排行刑而后发现囚犯的上诉可能成功，会遭到严厉的惩罚。\n\n如果囚犯获得宽大处理，会被立即释放（如果发现其是无辜的），或被转为重刑犯（如果仍然判定其有罪。）
+score_tooltip_currentchance             国家批准的定罪力度是*X%
+score_tooltip_clemencywarning           这名囚犯获得宽大处理的几率目前高于国家批准的安全等级。如果你执行死刑而事后发现他会得到宽大处理，你要为此负全责。
+
+experiencefactor_FractionalLockedUp     *X% 持续被监禁
+experiencefactor_FractionalReform       *X% 持续接受改造
+experiencefactor_fractionalWorking      *X% 持续工作
+experiencefactor_fractionalsuppressed   *X% 持续被镇压
+experiencefactor_fractionalinjured      *X% 持续带有未处理的损伤
+experiencefactor_fractionalintoxicated  *X% 依然未戒掉瘾（毒瘾/酒瘾/戒毒）
+experiencefactor_fractionalmisbehaving  *X% 持续行为不端
+experiencefactor_fractionalarmedguard   *X% 持续被武装警卫看守或被镇压
+experiencefactor_fractionalwellfed      *X% 持续饮食充足
+experiencefactor_fractionalexercising   *X% 持续锻炼
+experiencefactor_fractionalfreetime     *X% 持续拥有自由时间
+
+experiencefactor_passedeasyprograms             通过 *X 简单方案
+experiencefactor_passedintermediateprograms     通过 *X 中等方案
+experiencefactor_passedadvancedprograms         通过 *X 高级方案
+experiencefactor_passedexpertprograms           通过 *X 专家方案
+
+experiencefactor_YearsServed            服刑 *X 年
+experiencefactor_fights                 参与暴力事件
+experiencefactor_murders                在你的监狱内实施*X次谋杀
+experiencefactor_escapeattempts         尝试越狱*X次
+experiencefactor_addictions             *X种成瘾症状
+experiencefactor_gangmembership         帮派成员
+
+legend_key                              钥匙：
+
+needs_graphscale_title                  囚犯：
+needs_key_critical                      挑剔
+needs_key_high                          高
+needs_key_med                           中
+needs_key_satisfied                     满足
+needs_key_active                        活跃
+
+contraband_supplyanddemand              供给与需求
+contraband_narcotics                    毒品
+contraband_weapons                      武器
+contraband_tools                        工具
+contraband_luxuries                     奢侈品
+contraband_metal                        金属
+contraband_smelly                       难闻的
+contraband_rangedweapon                 远程武器
+contraband_improvised                   临时准备的
+
+contraband_key_supply                   供给
+contraband_key_demand                   需求
+contraband_log_stolen                   被偷
+contraband_log_position                 放置
+contraband_log_smuggled                 非法偷运的
+contraband_log_traded                   交易的
+contraband_log_thrown                   扔掉的
+contraband_log_hidden                   隐藏的
+contraband_log_detected                 被发现的
+contraband_log_dog                      警犬
+contraband_log_found                    找到
+contraband_log_owner                    持有者
+
+schedule_zone_shared                    公共区域
+schedule_zone_minseconly                轻刑犯
+schedule_zone_medseconly                普通犯
+schedule_zone_maxseconly                重刑犯
+schedule_zone_protectedonly             重点保护
+schedule_zone_supermaxonly              超高设防区
+schedule_zone_deathrowonly              死刑犯
+schedule_zone_staffonly                 员工专区
+schedule_zone_unlocked                  未上锁区
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              大便
+action_wee                              小便
+action_wash                             淋浴中
+action_relax                            放松中
+action_sleep                            睡觉中
+action_nap                              打盹中
+action_getmeal                          取食物中
+action_sit                              坐着
+action_exercise                         锻炼中
+action_liftweights                      举重中
+action_phonehome                        与家人通电话中
+action_watchtv                          看电视中
+action_playpool                         打台球中
+action_stealknife                       行为可疑
+action_stealspoon                       行为可疑
+action_urinate                          小便中
+action_soilsuit                         弄脏衣服
+action_eat                              吃饭中
+action_complain                         抱怨中
+action_work                             工作中
+action_visitation                       探视
+action_parole                           假释听证会
+action_none                             无
+action_misbehaving                      行为不端
+action_escaping                         越狱
+action_destroying                       毁坏
+action_spoiling                         弄坏
+action_fighting                         斗殴
+action_rioting                          暴动
+action_hostagetaking                    挟持人质
+action_reformprogram                    改造方案
+action_changeclothes                    换衣服
+action_getbook                          拿书籍
+action_pray                             祈祷
+action_shopping                         购物
+
+status_effect_title						=[状态效果]=
+status_effect_none						无
+status_effect_suppressed				被镇压
+status_effect_goodfood					饮食充足
+status_effect_drunk						喝醉
+status_effect_high                      高
+status_effect_withdrawal				戒毒
+status_effect_tazed                     电晕
+status_effect_overdosed                 药物过量
+status_effect_surrendered               投降
+status_effect_calming                   镇静
+status_effect_angst                     愤怒
+status_effect_wounded                   流血
+status_effect_virus                     生病
+status_effect_virusdeadly               生病
+
+condition_treated                       已治疗
+condition_needstreating                 需要治疗
+
+experience_totaltime                    总时间
+experience_misconduct                   不当行为
+experience_lockeddown                   防范禁闭
+experience_regime                       统治
+experience_sleep                        睡觉
+experience_work                         工作
+experience_class                        上课
+experience_freetime                     自由时间
+experience_moodbad                      坏
+experience_moodnormal                   一般
+experience_moodgood                     好
+experience_nocondition                  无
+experience_kod                          被击晕
+experience_hurt                         受伤
+experience_suppressed                   被镇压
+experience_intoxicated                  犯毒瘾
+experience_wellfed                      饮食充足
+experience_exercise                     锻炼
+
+need_name_nothing                       无
+need_name_bladder                       小便
+need_name_bowels                        大便
+need_name_sleep                         睡觉
+need_name_food                          食物
+need_name_safety                        安全
+need_name_hygiene                       卫生
+need_name_exercise                      锻炼
+need_name_family                        家庭
+need_name_recreation                    娱乐
+need_name_comfort                       舒适
+need_name_environment                   环境
+need_name_privacy                       隐私
+need_name_freedom                       自由
+need_name_clothing                      衣物
+need_name_drugs                         毒品
+need_name_alcohol                       酒精
+need_name_starving                      挨饿
+need_name_spirituality                  精神
+need_name_literacy                      文化
+needs_locked                            （需要心理学家来揭示囚犯的需求）
+needs_title                             =[需求]=
+
+reputation_title                        声誉
+reputation_hidden                       （未知声誉）
+reputation_hidden_short                 ???
+
+reputation_legendary                    --传奇--
+reputation_strong                       强壮
+reputation_tough                        粗暴
+reputation_volatile                     易怒
+reputation_snitch                       告密者
+reputation_deadly                       致命
+reputation_stoical                      坚忍
+reputation_fearless                     无畏
+reputation_exlaw                        前执法者
+reputation_copkiller                    警察杀手
+reputation_quick                        敏捷
+reputation_instigator                   教唆犯
+reputation_fighter                      搏击能手
+reputation_gangmember                   帮派成员
+reputation_federalwitness               联邦证人
+
+reputation_strong_high                  极其强壮
+reputation_tough_high                   极其粗暴
+reputation_volatile_high                极其易怒
+reputation_deadly_high                  极其致命
+reputation_exlaw_high                   前狱中警卫
+reputation_quick_high                   极其敏捷
+reputation_fighter_high                 搏击专家
+
+reputation_legendary_high               --传奇--
+reputation_snitch_high                  告密者
+reputation_stoical_high                 坚忍
+reputation_fearless_high                无畏
+reputation_copkiller_high               警察杀手
+reputation_instigator_high              教唆犯
+reputation_gangmember_high              帮派成员
+
+reputationtooltip_legendary             这名囚犯是黑社会里的传奇人物之一，拥有许多本领和能力，是个十分危险的人物。
+reputationtooltip_strong                这名囚犯在斗殴时会越战越勇。
+reputationtooltip_tough                 这名囚犯在格斗中能比常人承受更重的击打，甚至能承受来自电击枪的打击。
+reputationtooltip_volatile              这名囚犯容易无缘无故地发狂。
+reputationtooltip_stoical               这名囚犯对于被独自关押满不在乎。根本不会感到一丝压抑。
+reputationtooltip_snitch                这名囚犯是名线人，因此他的生命可能有危险。不要将他和其他罪犯放在一起太久。
+reputationtooltip_deadly                这名囚犯精通致命格斗招式，有时可以一击致死。
+reputationtooltip_exlaw                 这名囚犯曾经是一名警察或者其他执法人员。他的生命可能受到威胁。
+reputationtooltip_copkiller             这名囚犯因谋杀一名警察而被判有罪。警卫在制服他的时候可能无法控制自己而使用过度武力。
+reputationtooltip_fearless              这名囚犯不会受到武装警卫的威慑，并且在打斗中不会轻易投降。
+reputationtooltip_quick                 这名囚犯跑得极其快。
+reputationtooltip_instigator            这名囚犯擅长煽动邻近囚犯的不满情绪。当他制造麻烦的时候，周围的囚犯也很可能一拥而上。
+reputationtooltip_fighter               这名囚犯擅长防御格斗招式，可以在打斗中卸掉对方的兵器，甚至可以夺走对方的武器。
+reputationtooltip_gangmember            这名囚犯属于一个帮派，他会保护同帮派成员并且对敌对帮派充满仇恨。
+reputationtooltip_federalwitness        这名囚犯是一个重要案件的证人，因此已经被帮派或犯罪头目列为灭口目标。
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       工作中
+nameplate_stationed                     站岗
+nameplate_patrolling                    巡逻中
+nameplate_resting                       休息中
+nameplate_tired                         疲劳
+nameplate_injured                       受伤
+nameplate_unconscious                   昏迷
+nameplate_dead                          死亡
+nameplate_released                      已释放
+nameplate_researching                   调查中
+nameplate_overdose                      药物过量
+nameplate_starving                      挨饿
+nameplate_wounded                       流血
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              给所有囚犯提供食物
+objective_caption_prisoners             囚犯
+objective_caption_meals                 餐食
+objective_readceosletter                阅读首席执行官的来信
+objective_actionrequired                事件报告
+
+objective_deathrowinmates               死刑犯状态
+
+objective_prisonerintake                接受囚犯数
+objective_intake_arrivals               上午8点有 *X 名囚犯抵达
+objective_intake_closed                 监狱不再接收新囚犯
+objective_intake_closed2                （查看囚犯报告）
+objective_intake_closed3                （查看接收报告）
+objective_intake_specials				特别转移：
+objective_intake_categories             种类：
+objective_intake_minsec                 低危险度，
+objective_intake_medsec                 中危险度，
+objective_intake_maxsec                 高危险度
+objective_intake_deathrow               死刑犯
+
+objective_builddeliveriesroom           建造囚犯接收区
+
+objective_outgoing                      即将释放的囚犯
+objective_outgoing_count                *X 名囚犯即将被释放
+objective_outgoing_timer                (*X 小时)
+
+objective_visitors                      探视者（上午8点——晚上8点）
+objective_visitors_waiting              有 *X 名等待探视的家属
+objective_visitors_onsite               监狱里来了 *Y 组共计 *X 名探视者
+
+objective_staffexhausted                员工精疲力竭
+objective_reststaff_exhausted           *X 名员工已经精疲力竭。
+objective_reststaff_resting             （ *X 名员工正在休息）
+objective_reststaff_needstaffroom       建立员工休息室，这样他们就可以休息了。
+
+objective_punishment_solitary           *X 名囚犯被单独禁闭
+objective_punishment_solitary_queue     *X 名囚犯等待单独禁闭
+objective_punishment_solitary_mix       *X 名囚犯在单独禁闭 (+ *Y 名囚犯在等待)
+objective_punishment_lockdown           *X 人被禁足
+objective_incident_medical              *X 需要治疗
+objective_incident_dead                 *X 具尸体
+
+objective_prisonerparole                囚犯假释
+objective_parole_count                  *X 名囚犯可申请假释
+
+objective_payment_receivedfull          报酬：*X 已收到
+objective_payment_receivedpart          报酬：已收到总计 *Y 中的 *X 
+
+objective_grant_bootstraps                  基础监禁中心
+objective_grant_bootstraps_description      把一片空地建成一座可正常运作的监狱。这份政府合同为你提供为首批囚犯建造最基本监狱基础设施所需的资金。
+objective_grant_bootstraps_holdingcell      建造拘留牢房
+objective_grant_bootstraps_shower           建造淋浴房
+objective_grant_bootstraps_yard             建造庭院
+objective_grant_bootstraps_kitchen          建造厨房
+objective_grant_bootstraps_canteen          建造餐厅
+objective_grant_bootstraps_guard            雇用至少两名警卫
+objective_grant_bootstraps_chef             雇佣至少两名厨师
+
+objective_grant_administration                          管理中心
+objective_grant_administration_description              每座监狱项目都需要能够正常运作的管理设施，以确保事情顺利进行，使项目正常发挥作用。\n\n这份合同为典狱长、会计师及其办公室提供了经费，使我们能够使用完备的联邦行政系统。
+objective_grant_administration_offices                  建造两间办公室
+objective_grant_administration_warden                   雇佣一名典狱长
+objective_grant_administration_accountant_research      通过行政系统解锁财政
+objective_grant_administration_accountant               雇用一名会计师
+
+objective_grant_firstcellblock                  牢房区块 A
+objective_grant_firstcellblock_description      基础设施已建好并运转，现在应该建造第一间牢房，把现有的囚犯转入其自己的牢房。
+objective_grant_firstcellblock_cells            将监狱容量提高到15人
+
+objective_grant_health                      囚犯健康与福祉
+objective_grant_health_description          囚犯们的生理和心理健康对于我们来说十分重要。这项补助用于促进建设最先进的内科病房，并聘用医师和心理医生来照顾囚犯的健康需求。
+objective_grant_health_ward                 建立内科病房
+objective_grant_health_doctors              聘请至少两名医师
+objective_grant_health_psychologist         聘请一名心理医生（需要办公室）
+
+objective_grant_bailout                     政府紧急救助
+objective_grant_bailout_description         政府对你的表现十分不满，但是政府认为你的监狱规模太大而不能倒闭。政府将使用纳税人的资金防止监狱破产。但是你必须平衡你的帐目——让你的监狱回归正现金流（每日收入高于支出），并且偿还银行贷款。
+objective_grant_bailout_cashflow            收入高于支出
+objective_grant_bailout_debt                清偿债务
+
+
+objective_grant_maintenance                         监狱维护
+objective_grant_maintenance_description             监狱和场地的基本保养与维护非常重要，关系到工作人员和囚犯的安全。雇佣必要的人员保持监狱整洁有序。
+objective_grant_maintenance_research_root           通过行政系统解锁维护
+objective_grant_maintenance_research_cleaning       通过行政系统解锁清洁
+objective_grant_maintenance_research_groundskeeping 通过行政系统解锁园艺
+objective_grant_maintenance_foreman                 雇佣一名工头（需要办公室）
+objective_grant_maintenance_janitor                 雇佣至少两名清洁工
+objective_grant_maintenance_gardener                雇佣一名园丁
+
+objective_grant_visitation                          探视权
+objective_grant_visitation_description              由于拒绝承认囚犯的探视权，这片区域许多其他监狱正面临诉讼。投资者们不希望陷入丑闻，他们正提供资金以确保提供充足的设施。
+objective_grant_visitation_room                     建立1个探访室
+objective_grant_visitation_tables                   添加至少3张探访桌
+objective_grant_visitation_commonroom               建造公共房间
+objective_grant_visitation_pooltable                添加台球桌
+objective_grant_visitation_tv                       添加至少2台电视
+objective_grant_visitation_phones                   建造至少5个电话亭
+
+objective_grant_basicsecurity                       安全程序认证
+objective_grant_basicsecurity_description           由于员工缺乏经验而造成的安全漏洞是新监狱的常见缺陷。将安保力度增强到可接受水平来避免出现一些会影响我们声誉的问题。
+objective_grant_basicsecurity_chief                 聘请一名安保主管（需要办公室）
+objective_grant_basicsecurity_guards                雇用十名警卫
+objective_grant_basicsecurity_patrols               将三名警卫分配到巡逻路线
+objective_grant_basicsecurity_research              通过行政系统解锁巡逻
+
+objective_grant_enhancedsecurity                    政府安全评级
+objective_grant_enhancedsecurity_description        政府对超过特定规模的监狱有特定安全要求，并会重罚那些不合标准的监狱。确保这方面不出现问题。
+objective_grant_enhancedsecurity_armoury            建立枪械库
+objective_grant_enhancedsecurity_kennel             建立警犬休息室
+objective_grant_enhancedsecurity_guards             雇用两名武装警卫
+objective_grant_enhancedsecurity_dogs               雇用两名警犬训练员
+objective_grant_enhancedsecurity_patroldogs         将两名警犬训练员分配至警犬巡逻队
+objective_grant_enhancedsecurity_patrolarmed        将两名武装警卫分配至巡逻队
+
+objective_grant_advancedsecurity                    实施最高设防基础设施
+objective_grant_advancedsecurity_description        保证大量囚犯的妥善关押或许比较困难，但是囚犯突破防卫造成的代价远比实施适当安保措施的代价大得多。在你的监狱中安装必要的设备。
+objective_grant_advancedsecurity_guards             扩大安保力量的规模
+objective_grant_advancedsecurity_researchcctv       通过行政系统解锁闭路电视监控系统
+objective_grant_advancedsecurity_researchbodyarmour 通过行政系统解锁防弹衣
+objective_grant_advancedsecurity_researchtazers     通过行政系统解锁电击枪
+objective_grant_advancedsecurity_office             建造安保办公室
+objective_grant_advancedsecurity_cctvmonitor        建造闭路电视监视器
+objective_grant_advancedsecurity_cctvcameras        在监狱中安装闭路电视监控摄像头
+
+objective_grant_prisonerworkforce                   囚犯适应和劳役
+objective_grant_prisonerworkforce_description       让囚犯在监狱中工作是在削减费用的同时使他们融入环境的好办法。完成必要的训练并建造必需的设备将囚犯投入工作。
+objective_grant_prisonerworkforce_research          通过行政系统解锁囚犯劳役
+objective_grant_prisonerworkforce_cleaning          建造清洁橱柜
+objective_grant_prisonerworkforce_laundry           建造洗衣房
+objective_grant_prisonerworkforce_kitchenclass      让三名囚犯完成厨房安全和卫生方案
+objective_grant_prisonerworkforce_laundryassigned   将三名囚犯分配到洗衣房工作
+objective_grant_prisonerworkforce_kitchenassigned   将三名囚犯分配到厨房工作
+objective_grant_prisonerworkforce_cleaningassigned  将三名囚犯分配到清洁橱柜工作
+
+objective_grant_educationreformprogram              通过教育方案进行改造
+objective_grant_educationreformprogram_description  一个著名的群体正在执行有关教育对囚犯再犯罪率影响的大规模社会实验。设立一些教室开始教育你的囚犯。
+objective_grant_educationreformprogram_research     通过行政系统解锁教育
+objective_grant_educationreformprogram_classroom    建造教室
+objective_grant_educationreformprogram_desks        建造二十张学校用桌
+objective_grant_educationreformprogram_foundationed 让十名囚犯通过基础教育课程
+objective_grant_educationreformprogram_generaled    让一名囚犯通过普通教育课程
+
+objective_grant_prisonlabour                        监狱制造设施
+objective_grant_prisonlabour_description            投资人想让你提高监狱的盈利能力，希望投资资金来帮你建立工坊以将囚犯们转变为劳动力。
+objective_grant_prisonlabour_workshop               建造工坊
+objective_grant_prisonlabour_saw                    建造两个锯木台
+objective_grant_prisonlabour_press                  建造两个冲压机
+objective_grant_prisonlabour_reform                 让五名囚犯通过工坊安全方案
+objective_grant_prisonlabour_plates                 制作30个车牌
+
+objective_grant_furnituremanufacturing              木工学徒方案
+objective_grant_furnituremanufacturing_description  向囚犯们提供木工课程，给他们传授出狱后能够使用的宝贵技能，让他们在你的工坊中制作可以出售以提高收入的高档家具。
+objective_grant_furnituremanufacturing_forestry     建造一片森林
+objective_grant_furnituremanufacturing_table        建造两张木工桌
+objective_grant_furnituremanufacturing_reform       让两名囚犯通过木工课程
+objective_grant_furnituremanufacturing_bed          制作十张优秀床铺
+
+objective_grant_reducestaffstress                   员工福祉倡议
+objective_grant_reducestaffstress_description       监狱工会收到了员工过分紧张和过度工作的报告，已经达到能够导致错误的程度。确保相似的问题在你的监狱中不会发生。
+objective_grant_reducestaffstress_staffroom         建造员工休息室
+objective_grant_reducestaffstress_freeguards        至少不给五名警卫安排职责
+objective_grant_reducestaffstress_restedstaff       确保员工中无人精疲力竭
+
+objective_grant_shortterminvestment                 短期投资
+objective_grant_shortterminvestment_description     将金钱用于投资，最终能够带来与初始投资额相称的合理回报。
+objective_grant_shortterminvestment_wait            等待资金……
+
+objective_grant_longterminvestment                  长期投资
+objective_grant_longterminvestment_description      将金钱用于长期投资，最终能够带来与初始投资额相称的大额回报。
+objective_grant_longterminvestment_wait             等待资金……
+
+objective_grant_cellblock50                         牢房区块 B
+objective_grant_cellblock50_description             该扩建你的监狱了，使其超越简单收容场所的规模。
+objective_grant_cellblock50_cells                   将监狱囚犯容量提高到50
+
+objective_grant_cellblock100                        牢房区块 C
+objective_grant_cellblock100_description            继续扩建监狱以充分利用土地。
+objective_grant_cellblock100_cells                  将监狱囚犯容量提高到100
+
+objective_grant_cellblock200                        牢房区块 D
+objective_grant_cellblock200_description            更多囚犯意味着更多政府资金。提升监狱容量利用这些资金。
+objective_grant_cellblock200_cells                  将监狱囚犯容量提高到200
+
+objective_grant_cellblock500                        牢房区块 E
+objective_grant_cellblock500_description            政府会给最大的监狱提供相当多的财政激励。你应该朝这个目标努力。
+objective_grant_cellblock500_cells                  将监狱囚犯容量提高到500
+
+objective_grant_nutritionresearch                   囚犯营养调查
+objective_grant_nutritionresearch_description       一个独立调查小组提供资金以参与针对同监狱囚犯饮食习惯变化影响的试验。
+objective_grant_nutritionresearch_poor              两天提供1餐低份量低种类餐食
+objective_grant_nutritionresearch_good              两天提供3餐高份量高种类餐食
+
+objective_grant_drugsearch                          取缔毒品
+objective_grant_drugsearch_description              近来较大监狱中的毒品使用越来越引人关注。采取主动立场并向人们展示你在处理这个问题。
+objective_grant_drugsearch_find                     搜出十份非法毒品
+
+objective_grant_contrabandsupply                    工具清理
+objective_grant_contrabandsupply_description        在其他监狱中发生多起涉及偷窃物品的事件之后，一个组织正在监狱中执行针对工具和武器分布情况的调查研究。实验的这部分涉及尝试着从囚犯那儿夺走所有类似物品。
+objective_grant_contrabandsupply_tools              取缔偷窃工具的供给
+objective_grant_contrabandsupply_weapons            取缔偷窃武器的供给
+
+grant_category_completed                            已完成：
+grant_category_unlocked                             已解锁：
+grant_category_cash                                 现金：
+grant_category_cashflow                             现金流：
+grant_category_debt                                 债务：
+grant_category_prisoners                            囚犯：
+
+grant_property_atleast                              至少 *X
+grant_property_atmost                               不多于 *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              无
+object_box                               箱子
+object_stack                             堆
+object_bed                               床
+object_toilet                            厕所
+object_table                             桌子
+object_chair                             椅子
+object_bench                             板凳
+object_electricchair                     电椅
+object_jaildoor                          监狱门
+object_jaildoorlarge                     大型监狱门
+object_door                              门
+object_solitarydoor                      禁闭门
+object_staffdoor                         员工门
+object_remotedoor                        遥控门
+object_roadgate                          道路大门
+object_jailbars                          牢房栏杆
+object_window                            视窗
+object_windowlarge                       大型窗户
+object_tree                              树
+object_light                             灯
+object_cooker                            炊具
+object_fridge                            冰箱
+object_bin                               垃圾桶
+object_sink                              水槽
+object_servingtable                      配餐桌
+object_showerhead                        花洒喷头
+object_brick                             砖
+object_concrete                          混凝土
+object_steel                             钢
+object_ingredients                       食材
+object_ingredientscooking                食材（烹制中）
+object_ingredientscooked                 食材（已烹制）
+object_ingredientsspoiled                食材（已腐坏）
+object_meal                              餐食
+object_foodtray                          餐盘
+object_foodtraydirty                     餐盘（脏）
+object_grassturf                         草坪
+object_prisoneruniform                   囚服
+object_dirtyprisoneruniform              囚服（脏）
+object_crumpledprisoneruniform           囚服（皱）
+object_bleach                            漂白剂
+object_sheetmetal                        金属板
+object_licenseplateblank                 车牌（空白）
+object_licenseplate                      车牌
+object_log                               圆木
+object_wood                              木材
+object_workman                           工人
+object_truckdriver                       卡车司机
+object_guard                             警卫
+object_riotguard                         防暴警卫
+object_armedguard                        武装警卫
+object_prisoner                          囚犯
+object_doctor                            医师
+object_paramedic                         医护人员
+object_cook                              厨师
+object_gardener                          园丁
+object_janitor                           清洁工
+object_fireman                           消防员
+object_avatar                            头像
+object_actor                             人物
+object_visitor                           探视者
+object_executionwitness                  死刑见证人
+object_doghandler                        警犬训练员
+object_dog                               警犬
+object_dogcrate                          狗笼
+object_teacher                           教师
+object_soldier                           士兵
+object_warden                            典狱长
+object_chief                             主管
+object_foreman                           工头
+object_psychologist                      心理医生
+object_accountant                        会计
+object_lawyer                            律师
+object_supplytruck                       供给卡车
+object_prisonerbus                       囚车
+object_fireengine                        消防车
+object_riotvan                           防暴警车
+object_ambulance                         救护车
+object_hearse                            灵车
+object_trooptruck                        运兵车
+object_fire                              火
+object_garbage                           垃圾
+object_rubble                            瓦砾
+object_bookshelf                         书架
+object_officedesk                        办公写字桌
+object_filingcabinet                     档案柜
+object_medicalbed                        医疗床
+object_morgueslab                        停尸台
+object_equipment                         装备
+object_prop                              道具
+object_dummy                             假人
+object_powerstation                      电站
+object_capacitor                         电容器
+object_electricalcable                   电缆
+object_powerswitch                       电源开关
+object_logiccircuit                      逻辑电路
+object_logicbridge                       逻辑桥
+object_waterpumpstation                  水泵站
+object_pipevalve                         管道阀门
+object_pipelarge                         大型管道
+object_pipesmall                         小型管道
+object_drain                             排水渠
+object_sprinkler                         喷洒装置
+object_metaldetector                     金属探测器
+object_weightsbench                      举重床
+object_phonebooth                        电话亭
+object_tv                                电视
+object_largetv                           大型电视
+object_pooltable                         台球桌
+object_polaroid                          宝丽来
+object_cctv                              闭路电视监控系统 
+object_cctvmonitor                       闭路电视监视器
+object_laundrymachine                    洗衣机
+object_laundrybasket                     洗衣篮
+object_ironingboard                      熨衣板
+object_visitortable                      访客桌
+object_workshopsaw                       电锯工作台
+object_workshoppress                     冲压工作台
+object_carpentertable                    木匠工作台
+object_boombox                           立体扬声器
+object_guardlocker                       警卫锁柜
+object_sofachairsingle                   沙发
+object_sofachairdouble                   宽沙发
+object_drinkmachine                      饮水机
+object_arcadecabinet                     过道箱
+object_radio                             收音机
+object_bookshelflarge                    图书馆书架
+object_weaponrack                        武器架
+object_treestump                         树桩
+object_schooldesk                        书桌
+object_superiorbed                       高级床
+object_doorcontrolsystem                 门禁系统
+object_phonemonitor                      电话窃听器
+object_servo                             门伺服器
+object_doortimer                         门禁定时器
+object_pressurepad                       压力板
+object_statuslight                       状态灯
+object_wire                              连接
+object_dismantleobject                   拆除对象
+object_dismantleutility                  拆除设施
+object_sellobject                        售卖物品
+object_canceljobs                        取消工作
+object_showallwires                      显示线缆
+object_tidywires                         整理线缆
+object_cutscenepolaroid                  宝丽来过场动画
+object_cutscenecamera                    动画摄像头
+object_cutscenecue                       动画提示
+object_foodwaste                         食物残渣
+object_altar                             圣坛
+object_pews                              长凳
+object_prayermat                         跪垫
+object_paroleofficer                     假释官
+object_parolelawyer                      假释律师
+object_spiritualleader                   神职人员
+object_librarybookshelf                  图书馆书架
+object_librarybookunsorted               图书馆书籍（未分类）
+object_librarybooksorted                 图书馆书籍（已分类）
+object_sortingtable                      分拣台
+object_ruinedbook                        毁坏的书
+object_foodbowl                          食物
+object_appealslawyer                     上诉律师
+object_appealsmagistrate                 上诉法官
+object_mailsatchel                       邮件包
+object_mailunsorted                      未分类邮件
+object_mailsorted                        已分类邮件
+object_prisonermail                      邮件
+object_prisonermailopened                邮件（已打开）
+object_shopfront                         店面
+object_shopgoods                         商店货物
+object_shopshelf                         商店货架
+
+material_none                            无
+material_building                        建筑（砖）
+material_buildingconcrete                建筑（混凝土）
+material_demolish                        铲平
+material_clearindoorarea                 清除室内区域
+material_demolishwalls                   拆墙
+material_removetunnels                   填埋地道
+material_canceljobs                      取消工作
+material_dirt                            泥土
+material_sand                            砂砾
+material_pavingstone                     铺路石
+material_grass                           草
+material_gravel                          砾石
+material_road                            路
+material_roadmarkings                    路标
+material_roadmarkingsleft                路标（左）
+material_roadmarkingsright               路标（右）
+material_stone                           石头
+material_fence                           栅栏
+material_concretetiles                   混凝土砖
+material_concretefloor                   混凝土地板
+material_woodenfloor                     木地板
+material_ceramicfloor                    陶瓷地板
+material_mosaicfloor                     拼花地板
+material_metalfloor                      金属地板
+material_marbletiles                     大理石瓷砖
+material_whitetiles                      白色瓷砖
+material_fancytiles                      花式瓷砖
+material_concretewall                    混凝土墙
+material_brickwall                       砖墙
+material_perimeterwall                   围墙
+material_burntfloor                      烧焦的地板
+material_burntwall                       烧焦的墙
+material_buildingframe                   建筑框架
+material_roof                            屋顶
+
+room_none                                无
+room_cell                                牢房
+room_holdingcell                         拘留牢房
+room_solitary                            关禁闭
+room_superiorcell                        高级牢房
+room_canteen                             餐厅
+room_kitchen                             厨房
+room_shower                              淋浴间
+room_yard                                庭院
+room_storage                             仓库
+room_deliveries                          运载
+room_garbage                             垃圾
+room_execution                           行刑室
+room_workshop                            工坊
+room_security                            安保人员
+room_office                              办公室
+room_medicalward                         医务室
+room_morgue                              停尸房
+room_commonroom                          公共房间
+room_laundry                             洗衣房
+room_visitation                          探视
+room_cleaningcupboard                    清洁橱柜
+room_kennel                              警犬休息室
+room_armoury                             枪械库
+room_staffroom                           员工休息室
+room_library                             图书馆
+room_forestry                            森林
+room_classroom                           教室
+room_exports                             出货区
+room_chapel                              教堂
+room_intake                              犯人接收处
+room_clearrooms                          清除房间
+room_paroleroom                          假释室
+room_mailroom                            邮件收发室
+room_shop                                商店
+
+equipment_none                           无
+equipment_fists                          拳头
+equipment_baton                          警棍
+equipment_club                           木棍
+equipment_shank                          刀柄
+equipment_knife                          小刀
+equipment_fork                           叉子
+equipment_gun                            枪
+equipment_spoon                          勺子
+equipment_needle                         针
+equipment_booze                          酒
+equipment_poison                         毒药
+equipment_cigs                           烟
+equipment_saw                            锯子
+equipment_jailkeys                       监狱钥匙
+equipment_mobilephone                    手机
+equipment_lighter                        打火机
+equipment_screwdriver                    螺丝刀
+equipment_drugs                          毒品
+equipment_sheers                         大剪刀
+equipment_mop                            拖把
+equipment_rake                           耙子
+equipment_hose                           软管
+equipment_spatula                        铲
+equipment_woodenspoon                    木勺
+equipment_cleaningbrush                  清洁刷
+equipment_hammer                         锤子
+equipment_clipboard                      笔记板
+equipment_drill                          钻头
+equipment_pianowire                      钢琴线
+equipment_scissors                       剪刀
+equipment_medicine                       药品
+equipment_shotgun                       霰弹枪
+equipment_moneybag                      钱袋
+equipment_tazer                         电击枪
+equipment_guarduniform                  警卫制服
+equipment_stabvest                      防刺背心
+equipment_rifle                         步枪
+equipment_dogleash                      狗绳
+equipment_assaultrifle                  突击步枪
+equipment_woodenpickaxe                 木质镐头
+equipment_cbradio                       对讲机
+equipment_axe                           斧子
+equipment_spade                         铁锹
+
+research_requires_short                 需要一个 *X
+
+reformprogram_workshopinduction         工坊安全导语
+reformprogram_foundationeducation       基础教育方案
+reformprogram_generaleducation          普通教育资格
+reformprogram_carpentry                 木工学徒
+reformprogram_kitcheninduction          厨房安全与卫生
+reformprogram_therapy                   行为疗法
+reformprogram_methadone                 药物治疗毒瘾
+reformprogram_alcoholicsmeeting         酗酒者集体理疗
+reformprogram_tazertraining             警卫电击枪认证
+reformprogram_spiritualguidance         精神指导
+reformprogram_parolehearing             假释听证会
+reformprogram_deathrowappeal            死刑上诉
+
+reformprogram_tazertrained              持有执照：电击枪
+
+reformprogram_workshopinduction_text    安全第一！囚犯必须通过这门课程才能在工坊工作。
+reformprogram_foundationeducation_text  许多囚犯甚至缺乏基本的阅读、写作和数学技能。本课程旨在使囚犯达到基本水平。通过的囚犯可在图书馆工作。
+reformprogram_carpentry_text            需要较强实践能力的一项复杂技能。合格的囚犯可用此技能在木匠台制作出高价木制品。
+reformprogram_kitcheninduction_text     在为数百人提供食物时，食物标准十分重要。在去厨房工作之前囚犯必须完成此课程。
+reformprogram_therapy_text              囚犯通常较难控制他们的暴力天性。与监狱心理医生的一对一谈话旨在提供工具帮助囚犯在变得暴力之前阻止事态升级。
+reformprogram_methadone_text            一套包括5种药物替代品的课程，用以治疗囚犯的毒品成瘾症状。每次治疗都将帮助囚犯缓解毒瘾，完成课程可能完全消除毒瘾。
+reformprogram_alcoholicsmeeting_text    酗酒者集体理疗能够帮助囚犯减少对酒精的欲望。无法完全消除需求。
+reformprogram_parolehearing_text        确定囚犯是否符合提前释放资格的听证会。囚犯被释放后不再犯罪可以获得不错的奖励。
+reformprogram_spiritualguidance_text    某些囚犯有宗教信仰或精神方面的需求。从当地社区邀请精神领袖带领他们进行祈祷，向他们灌输平静的心态。
+
+reformerror_unscheduled                 未安排
+reformerror_noroom                      未找到房间
+reformerror_nofreetimeslot              所有房间都已预订
+reformerror_staffonly                   所有房间仅限员工使用
+reformerror_noobjects                   没有设备
+reformerror_noregimetime                无制度时间槽
+reformerror_noteachers                  无教师
+
+reform_interested                       *X 名囚犯感兴趣
+reform_interested_qualified             *X 名囚犯感兴趣/合格
+reform_queued                           *X 名囚犯在排队
+reform_completion                        - *X 名囚犯已完成 - *Y 名囚犯已通过 (*P%)
+reform_locked                           锁定
+reform_start                            开始
+reform_costpersession                   *X 人每期
+reform_placespersession                 *X 个席位 / *Y 期
+reform_program_starting                 启动中
+reform_program_active                   进行中
+reform_program_paused                   已暂停
+reform_program_stop                     停止
+reform_program_ledby                     - 由*P在*Z中领导
+reform_program_ledwith                   - 由*S协助
+reform_program_length                    - 期间长度：*X小时
+reform_program_requirements              - 每名囚犯需要*X
+reform_program_requirements_alt          - 每名囚犯需要*X或*Y
+reform_program_prereqs                  囚犯必须完成：
+reform_program_research_required        需要：*X
+
+reform_program_intake_none                      无
+reform_program_intake_mandatory                 强制性
+reform_program_intake_voluntary                 自愿性
+reform_program_intake_referralviolence          移交：暴力
+reform_program_intake_referraldrugaddiction     移交：毒品成瘾
+reform_program_intake_referralalcoholism        移交：酗酒
+reform_program_intake_guards                    仅限警卫
+reform_program_intake_parole                    在度过50%或70%的刑期后
+reform_program_intake_needrequired              每名囚犯在加入前都有特殊需求
+reform_program_intake_deathrow                  囚犯被判死刑
+
+reform_program_properties_canhireexternally     可从外部雇佣
+reform_program_properties_studentssit           学生就坐
+reform_program_properties_academic              学术
+reform_program_properties_practical             实用
+reform_program_properties_repeatable            可重复
+reform_program_properties_passive               被动
+reform_program_properties_staffonly             员工专区
+reform_program_properties_outsideofwork         可在工作时间外进行
+reform_program_properties_teacherssit           教室就坐
+reform_program_properties_canescortstudent      学生可由警卫护送
+
+reform_program_waittime                         只能每 *T 天进行一次
+
+reform_program_difficulty_easy           - 简单
+reform_program_difficulty_intermediate   - 中等
+reform_program_difficulty_advanced       - 高级
+reform_program_difficulty_expert         - 专家
+
+regime_nothing                          监禁
+regime_sleep                            睡觉
+regime_eat                              进食
+regime_shower                           淋浴间
+regime_yard                             庭院
+regime_work                             工作
+regime_lockdown                         防范禁闭
+regime_freetime                         自由时间
+regime_currenttime                      现在
+regime_unspecified                      未指明
+
+regimetooltip_nothing                   囚犯被监禁在其牢房中。他们无事可做只能反思自己犯下的罪行。\n\n长期监禁可以给即使最强硬的囚犯造成决定性惩罚。
+regimetooltip_sleep                     囚犯被监禁在牢房里，关掉灯具。所有人都睡觉。\n\n除了那些在挖越狱地道的囚犯……
+regimetooltip_eat                       囚犯们各自前往最近的餐厅就坐吃午餐。\n\n囚犯可以使用餐厅内的一切设施，但在就餐时间结束前不得离开。
+regimetooltip_shower                    囚犯们脱掉衣服进入淋浴间。每日的淋浴时间对囚犯的卫生很重要，但有些囚犯不想这么麻烦除非被强迫去淋浴。
+regimetooltip_yard                      囚犯可以离开牢房到庭院中进行必要的锻炼、晒太阳并呼吸新鲜空气。\n\n这段时间内囚犯可以使用庭院里的任何设施，比如用举重台健身、打电话给爱人或冲澡等。
+regimetooltip_work                      囚犯可在监狱周围工作。任何职位空缺都会被填补，囚犯会自动到其工作岗位报到。（你可以在部署菜单设置职位空缺。）\n\n工作期间改造方案也会进行。没有工作或目前没有参加改造方案的囚犯在“自由时间”可以在监狱里自由漫步。
+regimetooltip_freetime                  囚犯们被放出其各自的牢房，可以使用监狱中的所有设施。囚犯最喜欢这段时间，会进行社交，并尽可能照顾其各自的需求。\n\n较长的自由时间可以缓解监狱中的压力和紧张情绪，但很多人认为这很难被称作刑罚。
+
+regime_clear                            为这类囚犯清除制度，并使用默认的普通安全制度。
+
+schedule_editor_students                学生：*X/*Y
+schedule_editor_error_staffonly         目标房间仅限员工使用
+schedule_editor_error_noregimetime      方案在有效工作制度之外
+schedule_editor_error_noteachers        这个方案没有教师
+schedule_editor_error_noobjects         任何房间都没有此方案需要的物品
+schedule_editor_pin                     固定此方案
+schedule_editor_unpin                   取消此方案
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         门禁定时器
+doortimer_connected_servos              *X 已连接伺服器
+doortimer_state_open                    打开
+doortimer_state_closed                  已关闭
+
+doortimer_security_none                 任何安保
+doortimer_security_minsec               轻刑犯
+doortimer_security_normal               普通犯
+doortimer_security_maxsec               重刑犯
+doortimer_security_Protected            重点保护
+doortimer_security_SuperMax             超重刑犯
+doortimer_security_DeathRow             死刑犯
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   已启动处决
+execution_stage_Lockdown                发起全监狱封锁
+execution_stage_Testing                 测试设施
+execution_stage_Assemble                汇总行刑细节
+execution_stage_Witnesses               护送死刑见证人至行刑室
+execution_stage_Escort                  护送囚犯至行刑室
+execution_stage_Execution               行刑
+execution_stage_Dismissed               解散员工及见证人
+execution_stage_FinalReport             最终报告
+
+execution_stagetooltip_start            你安排了这名囚犯的处决时间，现在必须遵循正式程序。
+execution_stagetooltip_lockdown         所有囚犯返回自己的牢房，封锁监狱。
+execution_stagetooltip_testing          最终测试确保一切正常运作。正在负载状态下测试电椅的电力供给。另外，囚犯最终路线已经确定——他必须能够自己走到行刑室。
+execution_stagetooltip_assemble         典狱长和安保主管前往将要被处死的囚犯的牢房。另外，囚犯指定的的牧师或者精神领袖会到牢房让囚犯做最后的祷告。
+execution_stagetooltip_witnesses        死刑见证人到场，前往行刑室。见证人包括囚犯家属以及受害人家属。\n\n注意，需要向死刑见证人提供座椅。
+execution_stagetooltip_escort           把将要被处决的囚犯从牢房押送至行刑设施，由典狱长、安保主管以及牧师陪同。
+execution_stagetooltip_execution        所有人到场，所有程序进行完毕，给予处决的最终授权。
+execution_stagetooltip_dismissed        解散员工及见证人，让其离开行刑室。
+execution_stagetooltip_finalreport      行刑结束后，会出具一份报告以评估你的表现。
+
+execution_underway                      正在行刑
+execution_result_ok                     对*N的电椅死刑在见证人在场的情况下于*T如期进行，执行死刑的监狱获得了10,000美元的标准补偿。
+execution_result_appealed               对*N的电椅死刑在见证人在场的情况下于*T如期进行。令人遗憾的是，新的信息表明囚犯本能够成功上诉并获得宽大处理。但是执行死刑的监狱不会被惩罚，他们仍能获得10,000美元的标准补偿。
+execution_result_innocent               对*N的电椅死刑在见证人在场的情况下于*T如期进行。令人遗憾的是，后来发现证据表明*N是无辜的。但是执行死刑的监狱不会被惩罚，他们仍能获得10,000美元的标准补偿。
+execution_result_illegal                对*N的电椅死刑在见证人在场的情况下于*T如期进行。由于未遵循必要的上诉流程并发现能最终导致成功上诉的信息，该监狱被罚款50,000美元。由于未能遵从合法协议，行刑推后，未受刑的死刑犯被转移至其他监狱。
+execution_result_illegalinnocent        对*N的不合法电椅死刑在见证人在场的情况下于*T如期进行。由于未能遵循必要的上述流程且事实上*N是无辜的，该监狱的负责人被立即撤职。
+execution_warning_one                   如果这里再发生不遵循正确程序而进行的处决，你将被解雇。
+execution_warning_two                   由于你过去未能遵循正确的程序，如果再次以同样方式违反协议，你将被解雇。
+
+execution_error_MissingEquipment        错误：缺少设备\n你需要给行刑室提供电椅。
+execution_error_ElectricalSupply        错误：电力故障\n电椅电力不足。
+execution_error_NavigationPrisoner      错误：囚犯路线\n囚犯无法从牢房走向行刑室。
+execution_error_NoRouteFromRoad         错误：无法进入\n外部死刑见证人无法到达行刑室。
+execution_error_NoSpaceInRoom           错误：空间不足\n行刑室没有足够的空间容纳前来的人。
+execution_error_NoRoom                  在行刑前你需要一间行刑室
+
+roomerror_nokitchen                     没有厨房能够向餐厅提供食物
+roomerror_noprisoners                   没有向此餐厅分配用餐囚犯
+roomerror_nocanteen_cells               从此牢房无法抵达任何餐厅。此牢房中的囚犯没有用餐地点
+roomerror_nocanteen_kitchen             从此厨房无法抵达任何餐厅。厨房在用餐时间不会烹制任何食物
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             内容： *X
+stack_contents                           内容： *X x *Y
+mail_contents                            内容：*X 封信件
+mail_opened_from                         来自*X的*F的信件
+mail_closed_from                         给*X的信件
+
+object_dump                             垃圾
+object_todo                             待办事项： *X
+object_sale_price                       售价：*X
+
+object_door_cyclepermissions            点击切换进入权限
+object_door_cyclepermissions_1          （打开，员工专用，关闭）
+
+object_firemen_hosehelp_intro           消防队员会将消防软管瞄准任何附近的火灾
+object_firemen_hosehelp                 按H手动调整消防软管
+
+interface_clone_help_copy               按住鼠标右键拖动以选择克隆区域
+interface_clone_help_paste              点击鼠标左键复制选定区域
+
+object_inactive                         未启动
+object_cctv_moremonitors                建造更多闭路电视监视器
+object_cctvmonitor_needsguards          需要警卫操作监视器
+object_processor_blocked                无法到达工作位置
+
+administrator_requiresoffice            需要办公室
+administrator_requiresoffice_2          *X需要办公室
+office_ownership                        *X的办公室
+
+teacher_teaching                        教学中
+teacher_preparing                       准备中
+
+prisoner_assignedto                     需要： *X
+prisoner_roomquality                    牢房质量：*X (*Y)
+prisoner_roomquality_average            平均
+prisoner_roomquality_aboveaverage       高于平均
+prisoner_roomquality_wayaboveaverage    远高于平均
+prisoner_roomquality_belowaverage       低于平均
+prisoner_roomquality_waybelowaverage    远低于平均
+prisoner_attendance                     出勤
+prisoner_concentration                  专心
+prisoner_understanding                  理解
+prisoner_concentration_0                非常差
+prisoner_concentration_1                坏
+prisoner_concentration_2                一般
+prisoner_concentration_3                好
+prisoner_concentration_4                非常好
+prisoner_passchance                     成功几率：*X%
+prisoner_informant                      秘密线人
+
+prisoner_dayswithoutincident            *X天无事件
+prisoner_availablemoney                 现金：*X美元
+
+informant_suspicion                     怀疑度
+informant_title                         秘密线人
+informant_none                          你没有记录在案的秘密线人
+informant_hint                          （招募被监禁的囚犯——比如单独禁闭）
+informant_recruitable                   （潜在机密线人）
+informant_target                        目标
+
+contraband_owner                        所有者： *X
+contraband_ownerunknown                 所有者未知
+contraband_stolenfrom                   *Y 小时前从 *X 处偷走
+contraband_smuggledthrough              *Y小时前通过*X偷运进来
+contraband_smuggledin                   *Y 小时前由囚犯偷运进来
+contraband_type                         类型：*X
+contraband_tradevalue_title             交易价格
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         精疲力竭
+staff_tired                             疲劳
+staff_needsrest                         员工更喜欢在员工休息室休息
+
+dog_needskennel                         狗需要警犬休息室休息
+
+doctor_requireinfirmary                 需要医务室
+
+entity_carryingequipment                携带着 *X
+entity_carryingkeys                     携带着监狱钥匙
+entity_carryingstaffkeys                携带着员工钥匙
+entity_wearingarmour                    穿着*X
+
+reports_schedule                        重新安排所有方案
+reports_edit                            编辑日程表
+reports_bankloan                        银行贷款
+reports_increaseloan                    增长
+reports_decreaseloan                    减少
+reports_unlockbankloans                 由会计师解锁
+
+drugs_heroin                            海洛因
+drugs_cocaine                           可卡因
+
+#                                       例如“鲍勃的母亲”
+visitor_relationship                    *X的*Y
+visitor_age                             年龄：*X
+
+family_wife                             妻子
+family_exwife                           前妻
+family_girlfriend                       女朋友
+family_son                              儿子
+family_daughter                         女儿
+family_mother                           母亲
+family_father                           父亲
+family_brother                          兄弟
+family_sister                           姐妹
+family_lawyer                           律师
+family_priest                           牧师
+family_victims                          受害者家属
+family_caption                          家庭：
+family_none                             无
+
+damage_dead                             死亡
+damage_unconscious                      昏迷
+damage_serious                          严重受伤
+damage_injured                          受伤
+damage_amount                           *X%已受损
+
+message_autosaving                      自动保存中……
+
+buildtoolbar_entersearchterm            输入查找术语……
+
+deploymentscheduler_title               部署调度器
+supplyanddemand_supplyheader            供给
+supplyanddemand_demandheader            需求
+
+tooltip_multipleobjects                 按TAB切换对象
+remotedoor_noservo                      未连接正常工作伺服器的遥控门不会打开
+
+roomgrading                             牢房评级
+roomgrading_roomsize                    牢房大小至少 *X 平方米
+roomgrading_cleanliness                 清洁度高于 *X%
+roomgrading_outsidewindow               朝着室外的窗
+roomgrading_item                        物品： *X
+roomgrading_result                      等级 *X
+roomgrading_currentoccupant             此牢房的囚犯有权使用等级 *X 的牢房
+roomgrading_unoccupied                  未分配
+
+roomerror_nokitchen                     没有厨房能够向餐厅提供食物
+roomerror_noprisoners                   没有向此餐厅分配用餐囚犯
+roomerror_nocanteen_cells               从此牢房无法抵达任何餐厅。此牢房中的囚犯没有用餐地点
+roomerror_nocanteen_kitchen             从此厨房无法抵达任何餐厅。厨房在用餐时间不会烹制任何食物
+
+ceos_letter                             尊敬的先生/女士，\n\n\n恭喜您完成基本导语部分……您现在是完全合格的监狱建筑师了！很快您就会从空闲的地块和几堆砖块开始设计、建造并经营您自己的监狱。在开始之前，我想应该给您分享一些重要的课程。\n\n1.每个监狱都需要典狱长——他是您应最先聘用的人员之一。给他建一间漂亮的办公室，他会通过行政系统打开一系列高级设施。\n\n2.单人牢房很贵，特别是在早期资金紧张时。从可以容纳很多囚犯的大牢房开始，这样可以节省资金。\n\n3.设立厨房和餐厅，并在第一名囚犯抵达之前开始运营，一定要聘请厨师——没有什么比空空的胃更能激怒囚犯！\n\n4.建造监狱是一项昂贵的事业，您需要擅长通过补助与合同筹集大笔资金。您可以从“报告”屏幕进入补助。\n\n我要讲的就是这些——祝您好运！\n\n Prison Architects Corp. \n首席执行官
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			第 *C 章
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                死刑犯
+
+campaignchapter_deathrow_description    我们已签订在这座监狱中建立处决室的合同，必须要赶在其中一名的处决时间之前建成。
+
+campaigncutscene_deathrowmurder         双重谋杀
+campaigncutscene_deathrowconfession     忏悔
+
+adviser_deathrow_murder1                我就知道能在这里抓到你们俩
+adviser_deathrow_murder2                爱德华！我……
+adviser_deathrow_murder25               不要，请不要……不要。
+adviser_deathrow_murder3                你要干什么？
+
+adviser_deathrow_church1                我可以帮到你吗？
+adviser_deathrow_church15               ……
+adviser_deathrow_church2                你是想寻求宽恕吗？
+adviser_deathrow_church3                我不知道，但是我得做点什么，我无法背负着我的所作所为活下去。
+adviser_deathrow_church4                你必须自首。无论你做了什么，都无法逃避后果。
+adviser_deathrow_church5                除非你能直面过去，否则你永远都无法面对自己
+adviser_deathrow_church6                我想回到过去，想宽恕她，也想让她宽恕我
+adviser_deathrow_church7                不管你曾经做过什么，只要你向上帝请求，他都会宽恕你。
+adviser_deathrow_church8                但你必须在法律面前承认自己的罪行。别无选择。
+
+adviser_deathrowintro_1                 这事很难办。
+adviser_deathrowintro_2                 有名囚犯监禁在此，他犯有双重谋杀罪，被判处死刑
+adviser_deathrowintro_3                 我们从那里进来。我们签了合同要为处决这名囚犯及时建造一间行刑室。
+adviser_deathrowintrob_1                我想把新设施建在这里。
+adviser_deathrowintrob_2                任何这种类似项目的第一步都是构造建筑本身——内部有足够的空间来布置行刑室和拘留室
+adviser_deathrowintrob_3                我们开始吧，在这里建造一座新建筑。
+
+adviser_deathrow_explain1               你的工人负责建设大楼。
+adviser_deathrow_explain2               他们会从储藏室取钢铁和水泥送往建筑工地。
+adviser_deathrow_explain3               他们会用这些原材料来打造你的新建筑物的地基和框架
+adviser_deathrow_explain4               这是施工最慢的部分，所以你应该在建立新设施时提前做好计划
+adviser_deathrow_explain5               在等待期间四处查看。按WASD键或箭头键移动，按鼠标滚轮放大或缩小。
+
+objective_deathrow_building             建造一栋建筑来容纳行刑设施
+
+adviser_deathrow_buildinside1           我们还需要为新的行刑设施建造入口。
+adviser_deathrow_buildinside2           在南墙上建造一个大型监狱门。
+
+objective_deathrow_buildouterdoor       建造大型监狱门入口
+
+adviser_deathrow_internalwalls1          我想在大楼里建造一间牢房和一间行刑室。
+adviser_deathrow_internalwalls2          建造一些砖墙以分隔空间。
+
+objective_deathrow_buildinternalwalls   建造内墙
+
+adviser_deathrow_internaldoors1          现在给分隔墙安装大监狱门。
+adviser_deathrow_internaldoors2          你可以点击鼠标中键（或按R键）在放置前旋转对象。
+
+objective_deathrow_buildinternaldoors   建造内门（点击鼠标中键或按R键来旋转对象）
+
+adviser_deathrow_designation1           似乎不错。现在我们需要在这些空间中标出各个房间。
+adviser_deathrow_designation2           在较小的区域中标出一间牢房，被定罪的囚犯将会住在里面。
+adviser_deathrow_designation3           然后在较大区域中标出行刑室。
+
+objective_deathrow_designatecell        标出牢房
+objective_deathrow_designateexecution   标出行刑室
+
+adviser_deathrow_roomrequirements1      这些新的房间需要设置一些条件才能使用。
+adviser_deathrow_roomrequirements2      这间牢房需要床和卫生间。
+adviser_deathrow_roomrequirements3      行刑室需要电椅。
+
+objective_deathrow_cellobjects1         建造床
+objective_deathrow_cellobjects2         建造厕所
+objective_deathrow_executionobjects     建造电椅
+
+adviser_deathrow_optional1              重要的部分已经弄好，但你还可以做一些改进。
+adviser_deathrow_optional2              这并非必要的要求，完全由你来决定，这取决于你对囚犯及其生活环境的重视程度。
+adviser_deathrow_optional3              一扇向外的窗户和一个小书架即可改善牢房环境。
+adviser_deathrow_optional4              较高品质的地板材料——比如木地板或马赛克瓷砖会让监狱看起来更好。
+adviser_deathrow_optional5              你可以在外面安装一些照明设施，如果你认为需要的话，还可以修建一条铺砌路面。
+
+adviser_deathrow_transfer05             这就是接受审问的人，爱德华·罗姆塞。他曾经是一名教师，难以置信吧。
+adviser_deathrow_transfer06             他是否应该被监禁不由我们决定，需要法律裁决，我们只负责执行任务。
+adviser_deathrow_transfer1              当你感觉设施已准备就绪时，就可以开始把囚犯转移到新牢房。
+adviser_deathrow_transfer2              点击其牢房内的宝丽来摄像头来发起转移。
+
+objective_deathrow_path                 （可选）建造一条通往新设施的道路
+objective_deathrow_window               （可选）给牢房添加一扇窗
+objective_deathrow_bookshelf            （可选）向牢房添加一个书架
+objective_deathrow_flooring             （可选）用质量更好的材料重铺地板
+objective_deathrow_outerlights          （可选）在设施周围安装一些户外照明设施
+objective_deathrow_transferinmate       完成之后，点击爱德华牢房内的宝丽来摄像头发起囚犯转移。
+
+adviser_deathrow_setupmurder1           不要对这家伙有丝毫同情，他是个被定罪了的冷血杀手。
+adviser_deathrow_setupmurder2           他甚至承认了自己的罪行，想听听他如何描述自己的所作所为吗？
+adviser_deathrow_setupmurder3           相当精彩，“那天夜里，晚上11点左右，房间的灯光开着，我知道她在家……”
+adviser_deathrow_postmurder1            正如我说的那样，一名铁石心肠的杀手。
+adviser_deathrow_postmurder2            要我说，案情十分清晰，他是罪有应得。
+adviser_deathrow_postmurder3            所有的人都应该得到宽恕，包括他。你就这么确定你能够做出这种最终判决？
+adviser_deathrow_postmurder4            即使当场撞见自己的妻子跟别的男人通奸，也不能成为他所作所为的理由。
+adviser_deathrow_postmurder5            而且他带了一把上膛的枪到那儿，他知道自己会发现奸情，这就是有预谋的双重谋杀。
+adviser_deathrow_postmurder6            他什么也没做，只是与当局合作。本州拿他作为案例警示他人。
+adviser_deathrow_postmurder7            如果他在100英里以北犯下这种罪行，他会被判终身监禁。这算什么正义？
+adviser_deathrow_postmurder8            你想看到像他一样的人逃脱法网吗？知道他逃脱了我晚上也能睡得很好。
+           
+
+adviser_deathrowelectricity_1           目前做得不错。
+adviser_deathrowelectricity_2           还有一个问题——行刑室目前还无法使用，因为没有电力。
+adviser_deathrowelectricity_3           我们需要为其提供电力供应。
+
+adviser_deathrowelectricityb_1          我们现在用“公用设施”模式查看监狱，可以看到整个监狱的电线布局。
+adviser_deathrowelectricityb_2          监狱里的每栋建筑都通过这些密集的地下电缆与电力网连接。
+adviser_deathrowelectricityb_3          国家电网的电力通过这个变电站输送给监狱。
+adviser_deathrowelectricityb_4          如你所见，监狱牢房的整个侧翼没有电力。所有灯具都未开启。
+adviser_deathrowelectricityb_4b         为了解决这个问题，我们首先需要切换到公用设施模式来查看为什么灯具没有电力供应。
+adviser_deathrowelectricityb_5          最近的电缆线太远——我们的工程师无法完成此区域的布线。
+adviser_deathrowelectricityb_6          延长附近电缆以覆盖监狱侧翼。
+
+objective_deathrow_cellpower            给房间提供电力供应
+
+adviser_deathrow_connectchair_1         灯具不是唯一需要电力的东西。新电刑椅也需要电力。
+adviser_deathrow_connectchair_2         用电源电缆连将行刑设施连接到电网。
+adviser_deathrow_connectchair_3         电刑椅本身是一件特种电器。它需要专属电线。你需要把它直接连接到主电缆上。
+
+objective_deathrow_chairpower           给电刑椅提供电力供应
+objective_deathrow_condemnedcellpower   给牢房提供电力供应
+
+adviser_deathrow_testchair_1            我们就快要完成了。在启用前我们至少要测试一下新的行刑室一次。
+adviser_deathrow_testchair_2            我要将它打开几秒钟，以确保一切正常。
+adviser_deathrow_testchair_3            呃，没用。看来我们用电过多，导致发电站的断路器断开。整个监狱陷入黑暗之中。
+adviser_deathrow_testchair_4            我们需要更多电力来满足电椅的用电高峰。
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   首先我们需要恢复电力。需要进行两步操作：
+adviser_deathrow_testchair_5b           点击电站，然后在弹出的菜单中选择开启，即可开启电站。
+adviser_deathrow_testchair_6            然后再建立三个电容器，让我们有足够的功率为电椅供电。
+adviser_deathrow_testchair_7            完成之后，点击电椅并在菜单中选择开启将其开启进行测试。
+
+objective_deathrow_poweron              重新开启电站。（点击电站，然后在菜单中选择开启）
+objective_deathrow_expandpower          用三个新电容器来扩建电站
+objective_deathrow_chairworking         再次测试电椅（点击，然后选择开启）
+
+adviser_deathrow_execution_1            非常好，我想我们完工了。
+adviser_deathrow_execution_2            现在发生的事情不归我们负责。我们干得很专业，这在我们这一行是非常重要的。
+adviser_deathrow_execution_3            不要担心接下来要发生的事。
+
+adviser_deathrow_setupexecution1        爱德华，吉时已到。
+adviser_deathrow_setupexecution2        你做了正确的事，即使这个世界不会宽恕你。
+adviser_deathrow_setupexecution3        你马上就会见到上帝，他会对你做出最终判决。
+
+adviser_deathrow_setupexecution4        爱德华·罗姆塞，你犯了一级双重谋杀罪。
+adviser_deathrow_setupexecution5        判处你死刑。
+adviser_deathrow_setupexecution6        你有什么要说的吗？
+adviser_deathrow_setupexecution7        苏珊……
+adviser_deathrow_setupexecution8        我很抱歉。
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 出售先前监狱
+finance_cost_equiptazer                 装备：电击枪
+finance_cost_equipbodyarmour            装备：护甲
+finance_cost_exports                    出货区
+finance_cost_foundations                建筑地基
+finance_cost_cashflow                   现金流
+finance_cost_bankloan                   银行贷款
+finance_cost_bankloan_repayment         银行贷款偿还
+finance_cost_sharesale                  出售股份
+finance_cost_sharepurchase              购买股份
+finance_cost_grantadvance               补助预付款
+finance_cost_grantcompletion            补助完成付款
+finance_cost_reformprogram              改造方案部分
+finance_cost_repair                     修理
+finance_cost_sellobject                 售卖物品
+finance_cost_landpurchase               土地购买
+finance_cost_prisonerintake             接受囚犯数
+finance_cost_grantcancellation          取消花费
+finance_cost_grantrefund                 - 偿还：*X
+finance_cost_grantfine                   - 罚款：*X
+finance_cost_executionfine              不当处决罚金
+finance_cost_executioncompensation      处决补偿
+finance_cost_shopintake                 商店收入
+finance_cost_prisonerwages              囚犯工资
+finance_cost_fine                       罚款
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ……
+clock_add_hour                           +
+clock_am                                早上
+clock_pm                                下午
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  功率骤增导致我们的发电机过载起火了！
+event_powerstationfire_x                功率骤增导致我们的发电机严重过载爆炸了！
+event_powerstationfirelarge             功率骤增导致我们的发电机过载起火了！
+event_powerstationfirelarge_x           功率骤增导致我们的发电机严重过载爆炸了！
+event_kitchenfire                       厨房着火了！
+event_waterpipeburst                    水管爆裂了，水四处蔓延。尽快修好以避免造成严重损坏。
+event_bulkintake                        附近监狱的灾难导致设施里的整个区块都无法使用。我不不得不将那里的囚犯转移到你的监狱，因为附近没有其他合适的设施。他们很快就会抵达。
+event_workshopaccident                  工坊事故导致一名囚犯严重受伤，没办法移动他！快派一名医师！
+event_subsidence                        地面下沉摧毁了我们的一部分外墙。你应该立即修补！
+event_earthquake                        当地地震导致监狱的一个区块坍塌！
+event_virus                             我们收到许多囚犯生病的报告。有必要甄别并对感染者进行隔离以防止传染。
+event_virus_x                           我们收到许多囚犯生病的报告，症状似乎非常严重。你应该将病患隔离治疗以防大范围传染。
+
+event_massassassination_1               联邦诉讼案件中的多名证人身份泄露，其中一些是我们监狱的囚犯。
+event_massassassination_2               已经有人找杀手想杀掉他们，但我们需要他们或者。你需要找出这些囚犯并保证他们在庭审开始之前安然无恙。
+event_massassassination_3_x             我们得到消息太晚，所以你并没有太多时间抢在杀手之前保护这些囚犯。
+
+event_tvremovaldemand_1                 媒体针对给囚犯们提供的康乐设施发起了一项活动，令我对监狱的管理遭受了很多批评。
+event_tvremovaldemand_2                 我正在通过一条禁止在监狱公共区域播放电视的法案。所以你需要移除公共房间里的所有电视机，否则会被罚款。你有6个小时的时间。
+event_tvremovaldemand_fine              你未能按照现行法律要求移除公共房间里的电视机。你将被持续罚款，直到符合要求。
+event_tvremovaldemand_complete          媒体注意力转移到一些别的事情上，禁止在公共房间安装电视机的法案已被废除。如果你愿意可以随时重新安装。
+
+event_weightsremovaldemand_1            媒体针对给囚犯们提供的康乐设施发起了一项活动，令我对监狱的管理遭受了很多批评。
+event_weightsremovaldemand_2            我正在通过一条禁止在监狱庭院放置健身设施的法案。所以你需要移除庭院里的所有举重床，否则会被罚款。你有6个小时的时间。
+event_weightsremovaldemand_fine         你未能按照现行法律要求移除庭院里的举重床。你将被持续罚款，直到符合要求。
+event_weightsremovaldemand_complete     媒体注意力转移到一些别的事情上，禁止在监狱庭院放置健身设施的法案已被废除。如果你愿意可以随时重新安装。
+
+event_lessfooddemand_1                  董事会决定在我们的所有设施里试行多项节省资金的设施，你的监狱也包括在内。
+event_lessfooddemand_2                  你需要将餐食分量和种类政策调节至“低”，这样我们就可以看到对总体预算的影响。
+event_lessfooddemand_fine               由于你未实施我们所要求的新食物政策，我们将直接从你的资金中扣取可能节省出来的金额。我们将持续这样做，直到你按我们要求的做。
+event_lessfooddemand_complete           食物预算试验结束了，结果无定论。你可随意设定食物政策。
+
+event_removevisitationdemand_1          另一所设施发生的事故凸显了监狱家庭探视安全检查中的潜在问题。
+event_removevisitationdemand_2          在安检流程得到妥善审查之前暂停所有探视。你有12个小时的时间来移除监狱里的所有探视间。
+event_removevisitationdemand_fine       尽管目前有安全问题，你还是未能移除监狱中的探视间。你会被持续罚款，直到符合要求。
+event_removevisitationdemand_complete   我们已完成对探视流程的安全审查，你现在可以向监狱重新添加探视间。
+
+event_lessworkdemand_1                  我听说囚犯们对每天的工作时长颇有怨言，如果不减少工作时间他们就打算制造事端。一名警卫偷听到一些囚犯说如果工作时间超过两小时他们就会“毁掉这个地方”。
+event_lessworkdemand_2                  
+event_lessworkdemand_ignore             看起来囚犯们屈服并平静下来了。他们并不开心，但这次让他们知道了谁才是这里的大老板。
+event_lessworkdemand_complete                囚犯们现在不再抱怨工作时长——我猜他们把刚过去的几天当做休假了。我们能让他们重新开始工作而不生事端。
+
+event_moresleepdemand_1                 有抱怨说囚犯们没有足够的睡眠时间，并为此感到非常愤怒。
+event_moresleepdemand_2                 他们说如果每晚得不到至少7小时的睡眠时间，就会开始闹事。
+event_moresleepdemand_ignore            看起来囚犯们最终失去势头放弃了对缺乏睡眠的抗议。我猜他们太累了。
+event_moresleepdemand_complete          囚犯们的睡眠时间安排问题最终平息了，你可以根据需要再次改变安排，不会引发问题。
+
+event_morefreetimedemand_1              囚犯们对其日常安排中的自由时间过短感到很不开心。
+event_morefreetimedemand_2              警卫们听到囚犯们在密谈：如果不快速改变安排，囚犯们就会开始搞破坏。
+event_morefreetimedemand_ignore         囚犯们平静下来，停止针对缺乏自由时间而制造麻烦。或许他们意识到如果总被独自监禁，那自由时间就会更少。
+event_morefreetimedemand_complete       已经放任那些要求更多自由时间的囚犯们太久，所以你可以再次自由改变其时间安排。
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    新到囚犯
+objective_tvremovaldemand               从公共房间移除电视机
+objective_tvremovaldemand_child         确保公共房间没有电视机
+objective_weightsremovaldemand          从庭院移除举重床
+objective_weightsremovaldemand_child    确保庭院中没有举重床
+objective_lessfooddemand                将餐食数量和种类设定为低
+objective_lessfooddemand_child          将囚犯餐食数量和种类政策设定为低
+objective_removevisitationdemand        移除所有探视间
+objective_removevisitationdemand_child  确保在安全审查完成之前监狱中没有探视间
+objective_virus                         病毒爆发
+objective_virus_child                   感染囚犯总数：
+objective_massassassination             联邦证人\n庭审日期
+objective_massassassination_child       存活的证人：
+objective_lessworkdemand                要求减少工作时间的囚犯
+objective_lessworkdemand_child          将工作时间减少到每天两小时或更少
+objective_moresleepdemand               给囚犯更多睡眠时间
+objective_moresleepdemand_child         将睡眠时间增加到每天至少7小时
+objective_morefreetimedemand            给囚犯更多自由时间
+objective_morefreetimedemand_child      将自由时间增加到每天至少6小时
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     典狱长
+warden_default_desc                     这个星球上最全面公正的个人，只做本职工作。人们都叫他典狱长。
+warden_lobbyist_name                    说客
+warden_lobbyist_desc                    说客有身居高位的朋友，确保更容易控制的囚犯站在他这一边。\n\n——将收到暴力、致命、易怒、致死或斗殴囚犯的概率降低50%。
+warden_lobbyist_desc_short              ——将收到暴力、致命、易怒、致死或斗殴囚犯的概率降低50%。
+warden_fear_name                        丽塔
+warden_fear_desc                        冷酷且令人恐惧的丽塔以通过司法造成恐惧来管理监狱的声誉。她带着鞭子的谣言可能有点夸张。\n\n——将收到坚忍、无畏囚犯的概率降低50%\n——囚犯们会很快遭到二次镇压
+warden_fear_desc_short                  "——将收到坚忍、无畏囚犯的概率降低50%
+——囚犯们会很快遭到二次镇压"
+warden_tunnels_name                     J.W.派瑞文科
+warden_tunnels_desc                     派瑞文科典狱长说他在战争时是一名工兵。他从不说是哪一场战争，但他确实精通挖掘地道的所有知识。\n\n——警犬有50%的几率完全发现它们侦测到的任何地道。
+warden_tunnels_desc_short               ——警犬有50%的几率完全发现它们侦测到的任何地道
+warden_calming_name                     调解人
+warden_calming_desc                     调解人拥有将最暴力的人冷静下来的不寻常能力。他也足够让同处一室的人变得顺从、易管教。\n\n——缓解监狱的整体氛围，让你的囚犯不容易制造麻烦
+warden_calming_desc_short               ——缓解监狱的整体氛围，让你的囚犯不容易制造麻烦
+warden_contraband_name                  萨菲阿克诺娃
+warden_contraband_desc                  萨菲阿克诺娃的声誉无可挑剔，记录也极其干净。但在幕后，肮脏的交易和上不了台面的事对她来说一点也不奇怪。\n\n——会稍微降低发现的每件违禁品的再售价值\n——被搜查出违禁品的囚犯将被“罚款”，直接从其节省的资金中扣除
+warden_contraband_desc_short            ——会稍微降低发现的每件违禁品的再售价值\n——被搜查出违禁品的囚犯将被“罚款”，直接从其节省的资金中扣除
+buildtoolbar_wardenlobbyist             说客
+buildtoolbar_tooltip_wardenlobbyist     让你的监狱少收暴力犯罪分子
+interfacetopbar_tension_calmingwarden   ——典狱长会让囚犯们冷静下来
+warden_consultingfee                    咨询费
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     贿赂
+crime_aggravatedburglary          严重入室盗窃
+crime_burglary                    入室盗窃
+crime_arson                       纵火
+crime_criminaldamage              刑事伤害
+crime_vandalism                   破坏行为
+crime_violentdisorder             狂暴症
+crime_possession                  占有
+crime_possessionintenttosupply    占有意图供应
+crime_forgery                     伪造罪
+crime_fraud                       诈骗
+crime_counterfeightingcurrency    伪造货币
+crime_falseaccounting             虚假会计
+crime_insidertrading              内幕交易
+crime_moneylaundering             洗钱
+crime_aggravatedvehicletheft      严重机动车盗窃
+crime_joyriding                   偷车兜风
+crime_dangerousdriving            危险驾驶
+crime_deathbydangerousdriving     危险驾驶致死
+crime_drivingunderinfluence       醉酒驾驶
+crime_kidnapping                  绑架
+crime_falseimprisonment           非法监禁
+crime_torture                     拷打
+crime_assault                     袭击
+crime_aggravatedassault           严重袭击
+crime_assaultinganofficer         袭警军官
+crime_greviousbodilyharm          严重身体伤害
+crime_murder                      谋杀
+crime_attemptedmurder             谋杀未遂
+crime_manslaughter                过失杀人
+crime_pervertingcourseofjustice   妨碍司法公正
+crime_contemptofcourt             藐视法庭
+crime_drunkdisorderlybehaviour    酗酒滋事
+crime_escapingfromlawfulcustody   从合法羁押逃脱
+crime_perjury                     伪证罪
+crime_rioting                     暴动
+crime_espionage                   间谍
+crime_violentdisorder             狂暴症
+crime_trafficking                 贩卖
+crime_armedrobbery                持械抢劫
+crime_robbery                     抢劫
+crime_carjacking                  劫车
+crime_blackmail                   敲诈
+crime_handlingstolengoods         处理赃物
+crime_videogamepiracy             视频游戏盗版
+crime_indievideogamepiracy        独立视频游戏盗版
+crime_shoplifting                 入店行窃
+crime_pickpocketing               扒窃
+crime_cartheft                    偷车
+crime_rape                        强奸
+crime_grossindecency              严重猥亵
+crime_voyeurism                   偷窥

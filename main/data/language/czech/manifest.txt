@@ -1,0 +1,5 @@
+Name        "Czech"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official Czech translation of Prison Architect"
+ThumbnailSprite czech

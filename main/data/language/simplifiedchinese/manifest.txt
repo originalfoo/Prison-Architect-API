@@ -1,0 +1,5 @@
+Name        "Simplified Chinese"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official Simplified Chinese translation of Prison Architect"
+ThumbnailSprite simplifiedchinese

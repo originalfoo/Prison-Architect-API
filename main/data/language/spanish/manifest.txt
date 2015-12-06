@@ -1,0 +1,5 @@
+Name        "Spanish"
+Author      "Introversion Software"
+Date        06/10/2015
+Description "Official Spanish translation of Prison Architect"
+ThumbnailSprite spanish

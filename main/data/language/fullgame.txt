@@ -1,0 +1,933 @@
+﻿
+campaigncutscene_tooltip 				(Click to trigger the next chapter of the story)
+campaignchapter_locked                  (Locked)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        A massive fire has destroyed this prison's kitchen and canteen.  If we don't find a way to feed the inmates quickly, we'll have a full-scale riot on our hands.\nSolve the food crisis then rebuild the Kitchen and Canteen.
+
+adviser_food_fire_1                     There's a crisis brewing at one of our other facilities.
+adviser_food_fire_2                     Someone's started a fire in the prison kitchen. The priority is to put it out, stop any casualties and prevent more damage. 
+adviser_food_fire_3                     Use the Emergency Services button in the toolbar to call the fire brigade. 
+adviser_food_fire_4                     Get this fire under control before it burns the whole prison down!
+
+objective_food_callfirebrigade          Call the fire department
+objective_food_extinguishflames         Extinguish the flames
+
+objective_food_callfirebrigade_description 	To call out the fire brigade, click the Emergencies button in the toolbar then click Firemen
+objective_food_extinguishflames_description  When you have firemen selected you can manually aim their hoses by holding the H key. Use this to concentrate the hoses at the centre of the flames.\n\nTry to keep the firemen as close to the fire as possible - they will be more effective.
+
+adviser_food_savedon1                   My God, there's a survivor in the wreckage.
+adviser_food_savedon2					Christ on a crutch, it's Don Palermo. Of all the inmates... it just had to be our mob boss. 
+adviser_food_donintro2					The bad news for him is that budget cuts have meant we had to sack all our permanent doctors. 
+adviser_food_donintro3				 	The good news is, our Infirmary is still usable. Hire a couple of Doctors and they'll take care of Don Palermo whilst we sort this mess out.
+
+adviser_food_afterfire3                 We need to clear up this mess.
+adviser_food_afterfire4                 Use the bulldoze tool to demolish the ruined canteen and kitchen. You need to remove all the debris. 
+adviser_food_afterfire6                 Designate a Garbage Zone adjacent to the road. Our workmen will dump the wreckage there for the garbage trucks to dispose of.
+adviser_food_dismissfiremen1			Finally, can you send those firemen home now that they've done their job.
+adviser_food_gamespeed                  Demolishing those buildings will take a while. You can pass the time more quickly by using the buttons under the clock.
+
+adviser_food_todolist1					I've added more details on each of these objectives into your todo list.
+adviser_food_todolist2					Any time you're unsure what to do, highlight the objective and you'll see additional instructions.
+
+objective_food_buildmedicalward_doctors Hire a couple of Doctors to staff the Infirmary
+
+objective_food_DismissAllFiremen		Dismiss the firemen
+objective_food_cleararea                Clear the burnt wreckage 
+objective_food_buildgarbagearea         Designate a Garbage Zone
+objective_food_clearcanteen             Clear the canteen wreckage
+objective_food_clearkitchen             Clear the kitchen wreckage
+objective_food_hiremoreworkmen			(OPTIONAL) Hire more workmen to speed up demolition
+
+objective_food_dismissallfiremen_description 	To dismiss an Emergency callout, locate their icon on the right hand side of the screen, and click the red X circle button to send them home.
+objective_food_cleararea_description 	Use the Bulldoze tool to demolish buildings. The bulldoze tool can be found under 'Foundations' in the main toolbar.
+
+adviser_food_familyvisit1				Good work.
+adviser_food_familyvisit2 				Let's check up on our casualty.
+
+adviser_food_troublesoon1				Without food, these inmates will be tearing the walls down within a couple of days.
+adviser_food_troublesoon2 				We've got to secure the prison before we end up with a riot on our hands. 
+adviser_food_troublesoon3 				This is the Deployment screen. From here you can control the tactical deployment of all your guards.
+adviser_food_troublesoon4 				Deploy a spread of guards to all cell blocks and rooms. Assign 10 guards to stations around the prison. That should be a sufficient show of strength for now.
+adviser_food_troublesoon5				I also want a patrol around the inner courtyard where we will be building the new facilities. 
+adviser_food_troublesoon6				One last thing. With the canteen out of action, some food crates have spoiled. Dump them before we get an infestation.
+
+objective_food_deployguards				Deploy 10 guards around the prison
+objective_food_deploypatrol				Assign 2 guards to patrol the inner courtyard 
+
+objective_food_deployguards_description		To deploy guards, open the Deployment screen, then click within a sector to create a Station. A guard will be automatically assigned to that station.
+objective_food_deploypatrol_description		Open the Deployment screen, then select Patrols. Click and drag to draw your patrol routes.\n\nTo assign guards to a patrol, click again on any square within the patrol.
+
+objective_food_dumpfood 				Dump the spoiled food stuffs
+objective_food_dumpfood_description		The spoiled food stuffs can be found in the Storage cupboard, in the North East quadrant of the prison.\n\nTo dump any item, click on it then click on 'Dump' in the popup menu.
+
+adviser_food_doncantspeak1				...
+adviser_food_doncantspeak2				eeugh .... ...
+
+adviser_food_doninfirmary0              I think he's trying to say something.
+adviser_food_doninfirmary1				Which of you cocksucking, faggot-banging, rat-piss mother fuckers did this?
+adviser_food_doninfirmary2 				No one did this to you, pappy. It was an accident.
+adviser_food_doninfirmary3 				Shut your stinking mouth and listen good. The both of you. 
+adviser_food_doninfirmary4 				If I knew which of you fucks started that fire, I'd snap your stinking neck!
+adviser_food_doninfirmary5 				But my time is done. I'm going to die in this fucking bed.
+adviser_food_doninfirmary6 				And there's a family business to run. The Palermo name is all we've got left. So you do the honourable thing you dirty piece of shit fucks. Capiche?
+adviser_food_doninfirmary7				We know what to do, pops.
+adviser_food_donchat13					This isn't over, Nico.
+adviser_food_donchat14					Watch your fucking back.
+
+adviser_food_founddrugs1				You would not believe what I've just been told. 
+adviser_food_founddrugs2				Our guys were dumping some of the old food stuffs. They discovered packs of narcotics and bottles of alcohol hidden in the crates.
+adviser_food_founddrugs3				We'd suspected the Palermo family of smuggling into the facility for some time now, but we'd never been able to determine how.
+adviser_food_founddrugs4 				Some days it doesn't just rain, it pours.
+
+adviser_food_rebuild1                   We've a lot of work still to do.  We need to turn our attention to replacing the kitchen and canteen.
+adviser_food_rebuild2                   First, we need to rebuild the kitchen. You'll need to install several pieces of equipment, and hire some chefs.
+adviser_food_rebuild3					Once that's done, build a new canteen.
+adviser_food_rebuild4					Once you have all that completed, the chefs will automatically start preparing meals for the entire prison.
+adviser_food_rebuild5                   If you aren't sure what to do at any time, try highlighting the objective in the todo list to see some hints.
+
+adviser_food_fightoutro1  				Fantastic. Looks like the Palermo family is running out of members.
+
+adviser_food_sprinklerintro1 			We could have quite a serious narcotics problem on our hands here. But we can't deal with that yet.
+adviser_food_sprinklerintro2 			We've got our kitchen and canteen up and running. Our chefs will work on preparing food for everyone, which should cool things down.
+adviser_food_sprinklers1                I'm concerned that the fire was clearly deliberate, and we don't want a repeat of that.
+adviser_food_sprinklers2 				Install a sprinkler system over the new kitchen and canteen and connect them to the water mains.
+
+adviser_food_explainneeds1 				All prisoners have needs. Those needs directly impact how your prisoners behave. Right now, everyone is starving hungry, and that's what all the shouting has been about.
+adviser_food_explainneeds2 				Food is one of their highest priority needs, and you ignore it at your peril. A prison is just a few failed meals away from a wall to wall riot.
+adviser_food_explainneeds3 				You can monitor the needs of all your prisoners from the Needs Report, which you can normally access through the Reports icon in the bottom right.
+adviser_food_explainneeds4				This report shows the combined needs of all your prisoners. Red means a lot of prisoners are angry about this particular need not being met.
+adviser_food_explainneeds5 				As you'd expect, Food is red for virtually everyone. But these prisoners are also very bored (Recreation need), and the prison is in a pretty shabby state which is reflected in their Environment and Clothing needs.
+adviser_food_explainneeds6				It's your decision, as the resident prison architect, which needs you will try to attend to first.  You could install televisions in their cells to keep them occupied, and hire some Janitors to clean the place up.
+adviser_food_explainneeds7				Or you can just ignore your prisoners needs altogether, and rely on force to keep your prison under control.
+adviser_food_explainneeds8 				I'll leave it up to you.
+
+objective_food_needs 					(OPTIONAL) Take care of your inmates needs
+objective_food_handlefoodneed 			(OPTIONAL) Handle the Food needs of your prisoners 
+objective_food_handleboredomneed		(OPTIONAL) Handle the recreational needs of your prisoners 
+objective_food_handleenvironmentneed	(OPTIONAL) Handle the environmental needs of your prisoners
+
+objective_food_needs_description 					You can see the overall needs of all your prisoners by clicking on Reports (bottom right of the screen), then Needs.\nYou can also highlight a prisoner and see which needs are affecting him.\n\nNeeds can never be permanently dealt with - it's always an ongoing battle.
+objective_food_handlefoodneed_description 			Our chefs will prepare food for everyone, and all inmates should be fed by the end of the next meal time.
+objective_food_handleboredomneed_description 		Boredom can be tackled quite effectively by installing televisions in each person's cell. Or you could build a common room and place some tvs and pool tables in there.\n\nYou can also place tvs in shared rooms like the Canteen.
+objective_food_handleenvironmentneed_description 	Hire some janitors and they will gradually clean the place up.
+
+adviser_food_needssuccess1 				You've shown an admirable dedication in taking care of your prisoners needs. Well done.
+adviser_food_needssuccess2 				You'll probably have noticed by now that the major remaining gripe amongst prisoners is the lack of clean clothing. 
+adviser_food_needssuccess3 				If you want to take care of this need as well, you'll need to run a laundry service to gradually provide all your inmates with clean clothing.
+adviser_food_needssuccess4 				Build a laundry and hire more janitors to start providing clean laundry to our inmates.
+
+objective_food_laundry 					(OPTIONAL) Clean Clothing
+objective_food_buildlaundry 			(OPTIONAL) Build a Laundrette
+objective_food_hirejanitors             (OPTIONAL) Hire enough janitors to run your laundry
+objective_food_handleclothingneed 		(OPTIONAL) Handle the clothing needs of your prisoners
+
+objective_food_buildkitchen             Build a Kitchen (approx 12m sq)
+objective_food_buildkitchencookers      Install at least four Cookers
+objective_food_buildkitchenfridges      Install at least four Fridges
+objective_food_buildkitchensink         Install a Kitchen Sink
+objective_food_buildkitchenbin	 		Place a Bin in the Kitchen
+objective_food_buildkitchenwatermains 	Connect the Sink to the water mains
+objective_food_buildkitchenfloor 		(OPTIONAL) Improve the kitchen floor
+
+objective_food_buildkitchen_description		You will need to construct Foundations first.
+objective_food_buildcanteen_description		You will need to construct Foundations first.
+
+objective_Food_HireChefs				Hire at least 8 Cooks
+objective_food_CookMeals				(Automatic) Prepare meals for all inmates
+
+objective_food_buildcanteen             Build a Canteen (approx 20m sq)
+objective_food_buildservingtables       Install two Serving Tables
+objective_food_buildcanteentables       Install at least six Tables
+objective_food_buildcanteenchairs       Install two Benches around each Table
+objective_food_buildcanteenbin	 		Place a Bin in the Canteen
+objective_food_buildcanteenfloor 		(OPTIONAL) Improve the Canteen floor
+
+
+objective_food_buildsprinklers          Install a new sprinkler system
+objective_food_buildsprinklers1         Install a couple of sprinklers in the Kitchen
+objective_food_buildsprinklers2         Install a couple of sprinklers in the Canteen
+objective_food_connectwater             Connect the kitchen sprinklers to the water mains
+objective_food_connectwater2			Connect the canteen sprinklers to the water mains
+objective_food_feedprisoners            Complete one dinner service by feeding all the prisoners
+
+objective_food_buildkitchenwatermains_description   Large pipes are for moving large volumes of water under high pressure. Small pipes are for connecting individual items to the water supply.\n\nUse the UTILITIES view to place large pipes to your buildings. Then use small pipes to connect the large pipe to all of the objects nearby that need a water supply.
+objective_food_connectwater_description             Large pipes are for moving large volumes of water under high pressure. Small pipes are for connecting individual items to the water supply.\n\nUse the UTILITIES view to place large pipes to your buildings. Then use small pipes to connect the large pipe to all of the objects nearby that need a water supply.
+objective_food_connectwater2_description            Large pipes are for moving large volumes of water under high pressure. Small pipes are for connecting individual items to the water supply.\n\nUse the UTILITIES view to place large pipes to your buildings. Then use small pipes to connect the large pipe to all of the objects nearby that need a water supply.
+
+campaigncutscene_foodinfirmary			Infirmary
+campaigncutscene_foodfamily             Family
+campaigncutscene_foodfeud               Feud
+campaigncutscene_foodregret				Regret
+campaigncutscene_foodsuccession 		Succession
+
+campaigncutscene_foodfamily_description		The Palermo family once ran narcotics across all of east coast America. Discover the backstory of Don Palermo and his children.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti 
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo 
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermo
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Boss of one of the east coast's most feared mob families.
+cutscene_foodfamily_palermo1			The Palermo's eluded the FBI for decades.
+cutscene_foodfamily_palermo02			Anthony Palermo, the Don's eldest son and natural heir, ran the day to day operations. 
+cutscene_foodfamily_palermo03			Nico Tamoretti wasn't a made man, but was welcomed into the family business when he married the Don's only daughter, Vitalia.
+cutscene_foodfamily_palermo04			And Sonny Palermo. The Don's second son. The runt of the litter. Temper like a pitbull, and only half as smart.
+
+cutscene_foodfamily_palermo2 			Their empire ran a narcotics trade from Maine to Florida. 
+cutscene_foodfamily_palermo3			That was until Anthony got caught in flagrante delicto.
+cutscene_foodfamily_palermo3b           Shot dead by a jealous husband.
+cutscene_foodfamily_palermo4			Unfortunately for the family, police at the scene found twelve kilos of uncut cocaine in Anthony's sports bag. 
+cutscene_foodfamily_palermo5			And the evidence led straight to the top.
+cutscene_foodfamily_palermo6			Overnight everything the Palermo family had built up crumbled to the ground. The FBI had everything they needed to ensure they'd all rot in jail.
+cutscene_foodfamily_palermo7			Which leaves Vitalia, the Don's daughter, the only living member of the family who isn't behind bars.
+cutscene_foodfamily_palermo8			We don't know much about her, other than she was always kept outside the family business. 
+cutscene_foodfamily_palermo9 			But somebody on the outside must have been sending those drugs in.
+
+adviser_food_findalldrugs1				That's the food situation dealt with.  The inmates will be a lot happier now that they're being fed again.
+
+adviser_food_findalldrugs2				You can bet the Palermo's were selling those narcotics on to every con here. 
+adviser_food_findalldrugs3				The guards are telling me they've seen a lot of prisoners showing signs of withdrawal since the fire. 
+adviser_food_findalldrugs4				I want you to search every prisoner and every cell. I bet we find Palermo drugs all over the prison.
+
+objective_food_findalldrugs					Find all the drugs in the prison
+objective_food_findalldrugs_description 	Search each cell block by clicking on a prisoner within that cell block, then clicking 'Search Cell Block'. Or use the Shakedown option in the toolbar at the bottom of the screen.
+
+objective_food_hiremoreguards 			(OPTIONAL) Hire more guards to speed up the search
+
+adviser_food_drugsfound1				On the positive, it's not as bad as it could have been, but there are definite problems with drug and alcohol dependency.
+adviser_food_drugsfound2				We need to help these men.  It's the only way of curbing their activities and dealing with their symptoms. 
+adviser_food_drugsfound2b 				Start a drug treatment program in the infirmary. Our Doctors will administer a chemical substitute that will help alleviate the cravings in our addicts.
+adviser_food_drugsfound3				For the alcoholics, there isn't a chemical substitute, so I suggest we start group therapy sessions. 
+adviser_food_drugsfound4				You'll have to build a new Common Room to run those meetings.
+adviser_food_drugsfound5				To start new Programs, go to 'Reports' in the bottom right of the screen, then 'Programs'.
+
+objective_food_drugtreatment			Start a drug treatment program
+objective_food_cureaddictions			(OPTIONAL) Start curing the inmates drug addictions
+objective_food_alcoholprogram			Start a group therapy program for alcoholics
+objective_Food_HelpAlcoholics			(OPTIONAL) Start helping the alcoholics through recovery
+objective_food_buildcommonroom 			Build a common room 
+objective_food_buildcommonroomchairs	Create a meeting place made up of 8 chairs
+
+objective_food_drugtreatment_description 	Click on 'Reports' in the bottom right of the screen, then select the 'Programs' tab. The program is called 'Pharmacological Treatment of Drug Addiction', and takes place in the Infirmary.\n\nNb you will require at least two hours of Work time set in the Regime, to permit prisoners to attend.
+objective_food_alcoholprogram_description 	Click on 'Reports' in the bottom right of the screen, then select the 'Programs' tab. \n\nNb you will require at least two hours of Work time set in the Regime, to permit prisoners to attend.
+
+cutscene_food_feudintro1 				We've had an incident in the showers. There's a body. 
+cutscene_food_feudintro2 				Actually, there's two bodies. Luckily for us, we've got cameras in there. 
+cutscene_food_feudintro3 				When you get a moment, click on the Polaroid in the Showers and we'll take a look at what happened.
+
+objective_food_triggerfightscene		When you are ready, click on the polaroid in the Showers to proceed.
+objective_food_triggerfightscene_description 	The Showers are on the North West corner of the facility.
+
+cutscene_food_feud1b                    Alone. Perfect.
+cutscene_food_feud1                     You took your time.
+cutscene_food_feud2                     Cut the bullshit. I never did know what that whore sister of mine saw in you.
+cutscene_food_feud2b 					This her idea? Off the old man?
+cutscene_food_feud3                     Is that what you think, you fat fuck? I didn't mean for him to get hurt. I love him like he's my own father.
+cutscene_food_feud3b 					I'm sick of seeing this family brought down by your stupidity.
+cutscene_food_feud4                     The fire was meant for you.
+cutscene_food_feud5                     Then consider this repaying the favour.
+cutscene_food_feud6                     Don't come the saint. We both know you planned to take me out one day.
+cutscene_food_feud7                     Yeah, you always were a smart guy, Nico. Look where it got you. Don't worry, you won't feel a thing.
+cutscene_food_feud8                     I told you. Watch your back.
+cutscene_food_feud8b                    euuegggghhhh!!!!!.....
+cutscene_food_feud8c                    AAARRRGGRGGGGGG!!!!
+cutscene_food_feud8d                    Have you met Franky before?  He's got a unique talent with piano wire.
+cutscene_food_feud8e                    Honestly, by the time he's finished, they'll think it was suicide.
+cutscene_food_feud9                     This isn't over, Nico.
+cutscene_food_feud9b                    You have got to be kidding me.
+
+cutscene_food_successionintro			Very good. We've made a real difference here, and I think the prison is back under control.
+cutscene_food_successionintro2 			You can stay and improve the prison further, or we can move on to the next facility.
+cutscene_food_successionintro3 			When you are ready to move on, click on the Polaroid in the Infirmary.
+
+objective_food_runending 				When you are ready, click on the polaroid in the Infirmary to proceed.
+objective_food_runending_description	The Infirmary is on the south-west edge of the prison facility.
+
+cutscene_food_succession1				Vitalia! 
+cutscene_food_succession1b				...?
+cutscene_food_succession2				Sweet cheeks!
+cutscene_food_succession3				I'm sorry. I fucked up.
+cutscene_food_succession4				Hush now.
+cutscene_food_succession5				They said pops won't last the week.
+cutscene_food_succession6				I know. I came to say goodbye.
+cutscene_food_succession7				You know, we could walk away now. You and me. This fucking life. It's taken everything.
+cutscene_food_succession8				I'd like that.
+cutscene_food_succession9				But I can't. I'm a Palermo, Nico.
+cutscene_food_succession10				And with papa gone, and you an outsider in his place. Our enemies would walk right over this family. 
+cutscene_food_succession11 				I can't have that. I have to show them a Palermo still sits on the throne.
+cutscene_food_succession12				What, so you're here to fucking whack me? After all we've been through?
+cutscene_food_succession13				Nico, Nico, Nico. You're so old school. 
+cutscene_food_succession14 				No, sweetheart. I'm divorcing you.
+cutscene_food_succession15				The fuck? You kidding me? I'm a dead man in here without the family behind me.
+cutscene_food_succession16				I know, sweetheart. But that's not my concern any more.
+cutscene_food_succession17				I wish you to a better place, pappy.
+cutscene_food_succession18				Goodbye, Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    G.A.B.O.S
+campaignchapter_riot_description		There is a riot in progress at Alchemico State Prison. Get in there and re-secure the building.
+
+campaigncutscene_riotintro              Breaking News
+
+adviser_riot_newsintro_01				Breaking news! 
+adviser_riot_newsintro_02				Riot at Alchemico State Prison - staff and security have withdrawn to the perimeter to wait for military assistance.
+adviser_riot_newsintro_1				A number of personnel are still unaccounted for, including company CEO Charles Wallace.
+adviser_riot_newsintro_2				Rioting erupted following the arrest of several high-profile judges ...
+adviser_riot_newsintro_3				... alleged to have taken kickbacks in return for imposing harsher prison sentences.
+adviser_riot_newsintro_4				Adding fuel to the fire, sources say the criminal underworld has recently been rocked by a series of high profile murders ...
+adviser_riot_newsintro_5				... including the attempted assassination of mob boss Victor Palermo last month.
+adviser_riot_newsintro_6				CEO Charles Wallace's deputy, a relative newcomer to the post, has been tasked with restoring order.
+adviser_riot_newsintro_7				It has yet to be seen whether a lack of experience will prove costly during this difficult crisis.
+adviser_riot_newsintro_8                Douglas Benedict, currently serving a life term, is believed to be the ringleader behind the outbreak of violence.
+
+adviser_riot_newsintroheller_1 			City Mayor Calvin Heller released this statement just a few moments ago.
+adviser_riot_newsintroheller_2 			To those who question our policies of punitive reform, this should act as a stark reminder. 
+adviser_riot_newsintroheller_3 			These men have housing and food provided. The privilege of paid work. 
+adviser_riot_newsintroheller_4 			This is how they reward the taxpayers who subsidise their comforts.
+
+campaigncutscene_riothostages			Hostages
+adviser_name_riotceo					The CEO 
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Listen up. We've got your CEO. 
+adviser_riot_hostages1b 				Euugg... ...
+adviser_riot_hostages2 					So this is how it works. I ask. You give. 
+adviser_riot_hostages3					Any problems, send anyone in, or if I even smell a cop, I put a bullet in his skull.
+adviser_riot_hostages4 					We want an unmarked vehicle. Blacked out windows. Full tank. One hour. I’ll be in touch.
+adviser_riot_hostages5 					Now, where were we.
+adviser_riot_hostages5b					What were you doing in that office?
+adviser_riot_hostages6					I swear, I don't know anything.
+adviser_riot_hostages7					I seen my own reflection enough to know a man doing wrong.
+adviser_riot_hostages8					What were you hiding?
+adviser_riot_hostages9					I belong in a place like this. But the kid...what good did it do anybody, that boy doing more time?
+adviser_riot_hostages10					You know something, and telling me's the only way to get out here alive.
+
+adviser_riot_hostageheller1 			This is completely unacceptable. We need eyes on that canteen so we can see what's happening.
+adviser_riot_hostageheller2 			There's a small security room to the north of the canteen. We need to secure it.
+adviser_riot_hostageheller3 			Deploy some Guards in there to man the CCTV console, and we'll get vision of the whole cell block.
+
+objective_Riot_MaxSecCameras			Recapture security room
+
+campaigncutscene_riotroulette			Roulette
+
+adviser_riot_rouletteintro1             We've got a guard in the security room, so we're getting the live pictures from the CCTV camera system.
+adviser_riot_rouletteintro2             Let's take a look at the hostage situation.
+adviser_riot_click 						<click>
+adviser_riot_roulette1					Last chance to walk out of here, boss man. Ever play two-ball tag?
+adviser_riot_roulette2 					Two bullets. Four empty chambers. 
+adviser_riot_roulette2b 				Used to play this with Jackrabbits. We'd blow their heads clean off. 
+adviser_riot_roulette3 					But you'll work just the same.
+adviser_riot_roulette4 					Let's start with a simple question. What were you doing in that office?
+adviser_riot_roulette5 					I swear, I don't know anything.
+adviser_riot_roulette5b 				Really.
+adviser_riot_roulette6 					Fine. Who goes first? You? Me? What about this guy?
+adviser_riot_roulette7					What do you know. Just like a Jackrabbit.
+adviser_riot_roulette8 					WHAT WAS IN THOSE FILES?
+adviser_riot_roulette9 					I swear! I don't know...
+adviser_riot_roulette10 				Luck's running out. Still a bullet in there somewhere. And I know what I saw.
+adviser_riot_roulette11b 				Couldn't believe my own eyes.
+adviser_riot_roulette11c 				The big company man himself, here in my prison. Looking guilty as fuck. 
+adviser_riot_roulette11d 				I’m guessing there was more in those files than just my rap sheet.
+adviser_riot_roulette11					Please... please don't. 
+adviser_riot_roulette11e 				Odds are getting shorter, Wallace.
+adviser_riot_roulette12 				I tell you what, I'll make it easier for you.
+adviser_riot_roulette12b	 			Alright, enough with this bullshit.
+adviser_riot_roulette13 				It's your turn, motherfucker.  Unless you tell me what I want to know.
+adviser_riot_roulette14 				I can't. Please.
+adviser_riot_roulette15 				Okay! Please! Please. Don't shoot. It was money. It was all money.
+adviser_riot_roulette16 				That's it?
+adviser_riot_roulette17 				You're valuable commodities. The longer any of you are in here, the more profit we make. We were just bending the rules. 
+adviser_riot_roulette17b				That file was the proof.
+adviser_riot_roulette18 				So what are we worth? What do you get for keeping us inside?
+adviser_riot_roulette19 				Seventy three thousand dollars a year.
+adviser_riot_roulette20					Each? Sonofabitch. It's time for you to start paying back.
+
+campaigncutscene_riotassault 			Breach
+
+adviser_riot_assault01					That's it. It's time to bring this situation to an end. 
+adviser_riot_assault02 					The team is all in position. 
+adviser_riot_assault03					I want my wheels now. Wallace is joining us. And if I catch sight of a tail you’ll be scraping pieces of him off the freeway.
+adviser_riot_assault2 					Right then, big man. You're coming with us. They won't risk anything stupid with you riding shotgun.
+adviser_riot_assault3 					None of us are getting out of here. It’s not you they want.
+adviser_riot_assault4 					What you talking about?
+adviser_riot_assault5					I did it for money. But HE did it for political gain. The longer the sentences, the more votes he got.
+adviser_riot_assault6					Who the fuck you talking about?
+adviser_riot_assault7					Mayor Heller. It was his blueprint. I just oiled the wheels. 
+adviser_riot_assault7b 					Those files were the evidence that could destroy his career.
+adviser_riot_assault8					You are shitting me.
+adviser_riot_assault9 					What the fuck...
+adviser_riot_assault9b					They're coming in, get ready!
+adviser_riot_assault10					I FUCKING WARNED YOU!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				The Negotiator
+
+adviser_riot_negotiator1 				It's out of control here. Nobody is in charge.
+adviser_riot_negotiator2 				We've got multiple casualties, and the remaining guards won't go into the rioting cell blocks.  We've had to pull back to the perimeter.
+adviser_riot_negotiator3 				Figure out what to do, and put a stop to this before it gets out of hand.
+adviser_riot_negotiator4 				Riot police should be here in a few minutes.
+
+adviser_riot_firstreinforcements1 		The first of the response teams has arrived. 
+adviser_riot_firstreinforcements2 	 	These guys are Riot Guards, and they're much more heavily armoured. Use these guys to start retaking the captured prison wings. 
+adviser_riot_firstreinforcements3 		We've also got some paramedics from the nearby state hospital.  
+adviser_riot_firstreinforcements4 		I suggest you use them to give emergency medical attention to your Riot Guards as they retake the prison.
+
+objective_Riot_StopTheRiot 				Stop the riot
+objective_Riot_StopTheRiot_description  Nobody is in charge. You need to figure out what to do.
+
+adviser_riot_helleradvice1				I assume this is the CEO's deputy with whom I'm speaking. 
+adviser_riot_helleradvice2 				I appreciate this is a very difficult time and we are all under intense scrutiny. Rest assured, you have my full support in using any and all resources at your disposal. 
+adviser_riot_deployguards1				We've gained a foot hold, and retaken some of the prison. And the loss of life so far is completely justifiable.
+adviser_riot_deployguards2				But before you push on and retake the rest of the prison, you should re-secure the wings that you have captured.
+adviser_riot_deployguards3				Hire some guards and assign them to the recaptured sectors from the Deployment screen. They will ensure the captured wings stay captured.
+adviser_riot_deployguards4 				Once you've taken care of that, push into the remaining zones and put these monsters down. These animals can't be rehabilitated. And they can't be negotiated with.
+adviser_riot_deployguards5 				I'm working on authorising an Armed Response team that will put an end to this quick.
+
+adviser_riot_infirmary1 				You've got wounded all over the prison, and more to come no doubt. You can't just leave them to bleed to death. 
+adviser_riot_infirmary2 				Build an Infirmary somewhere on site, and hire Doctors to treat the injured.
+adviser_riot_infirmary3 				We've also seen quite a few bodies.  For the sake of their dignity, we need to build a Morgue and start collecting them up.
+adviser_riot_infirmary4					You'll need to hire workmen to do the construction work. Be sure to keep them safe.
+
+objective_Riot_ResecureWings 			Hire guards and deploy them to the recaptured zones
+objective_riot_medicalneeds				(OPTIONAL) Tend to the medical needs of your prison
+objective_Riot_Infirmary				(Optional) Build an Infirmary and treat the wounded
+objective_Riot_Morgue 					(Optional) Build a Morgue and collect the dead
+objective_Riot_SecureGenPop				Recapture the Gen-Pop wing (central)
+objective_Riot_SecureSpecialWing		Recapture the Special wing (west)
+objective_Riot_SecureMaxSec				Recapture the Max-Sec wing (south)
+objective_riot_putoutfires				Bring the fire under control
+
+adviser_riot_secondreinforcements1		More Riot Guards have arrived.
+
+adviser_riot_armedreinforcements1		The Mayor has brought in some armed police from the nearby police station.
+adviser_riot_armedreinforcements2		Be careful with these guys. You might just end up with a bloodbath on your hands if you let them loose.
+adviser_riot_armedreinforcements3		On the other hand, the prisoners may choose to surrender when they see these guys coming in.
+
+adviser_riot_reinforcementsunlocked1 	The main bulk of the reinforcements have arrived.
+adviser_riot_reinforcementsunlocked2 	You can now call up as many squads of Riot Police and Paramedics as you need, from the Emergencies toolbar.
+
+adviser_riot_cleanup1                   The facility is under control, and the rioters have been subdued. It could easily have turned out a lot worse.
+adviser_riot_cleanup2                   We've got one hell of a clean-up operation ahead of us. I'd appreciate your help with that, if you've the time.
+adviser_riot_cleanup2b 					We don't have any building contractors on site, so the first step will be to hire some new workmen to get to work repairing the place.
+adviser_riot_cleanup3                   I always thought security here was much too lax. These inmates have been given too much free rein for too long. That stops today.
+adviser_riot_cleanup4                   I want you to build us a new Armoury, then deploy armed guards at key positions around the prison. The sight of that will subdue these prisoners and they'll think twice about causing this much trouble again.
+adviser_riot_cleanup5                   I'm also approving the funds to provide body armour to all guards on site. Our men need to be able to defend themselves.
+adviser_riot_cleanup6                   Let's continue. These prisoners need discipline. Order in their lives. I suggest we put them to work tidying up the mess they've made.
+adviser_riot_cleanup7                   Start up a labour program for our inmates, and put them to work cleaning the prison and doing the laundry.
+adviser_riot_cleanup7b                  You can assign prisoners to work from the toolbar, under Logistics. Highlight the objective for more detailed help on how to do this.
+adviser_riot_cleanup8                   We've a few other requirements. There are a lot of prisoners who need to be taught the error of their ways. Build a new Solitary Confinement wing.
+adviser_riot_cleanup8b                  Our guards will take care of moving inmates to Solitary as required. Solitary Confinement gives inmates time to reflect on what they've done, and reminds them who is in charge around here.
+adviser_riot_cleanup9                   And let's not forget the staff, who made it through this ordeal with us. They are exhausted.
+adviser_riot_cleanup9b 					Build a staff room somewhere to give them somewhere to recover.
+adviser_riot_cleanup10                  Finally, we need to bring all of this in on a budget. Make sure we have a positive bank balance and cash-flow. 
+adviser_riot_cleanup10b 				Prisoner labour is substantially cheaper than contractors when it comes to cleaning, janitorial work, laundry and the like. 
+adviser_riot_cleanup11                  There's a lot to do here. We really appreciate your help.
+adviser_riot_cleanup12                  Once you feel you've done enough and are ready to move on, click on the polaroid by the front gates.
+
+adviser_riot_cleanup13 					Excellent work. I think the security of this facility is looking much stronger now. 
+
+objective_riot_solitary 				(OPTIONAL) Build a Solitary wing and start punishing rioters
+objective_riot_armoury 					(OPTIONAL) Implement new security protocols
+objective_riot_armoury_research			Unlock the Armoury through Bureaucracy
+objective_riot_armoury_build 			Build an Armoury (in a secure location)
+objective_riot_armoury_deploy			Deploy armed guards around the prison
+objective_riot_armoury_armour 			Unlock body armour for all security staff
+objective_riot_armoury_tazers 			Unlock Tazers for your armed guards 
+objective_riot_staffroom 				(OPTIONAL) Build a Staff Room for your exhausted staff 
+objective_riot_balancebooks 			(OPTIONAL) Balance the accounts 
+objective_riot_balancebooks_balance 	Positive Bank Balance 
+objective_riot_balancebooks_cashflow 	Positive Cash-flow
+objective_riot_prisonerwork				(OPTIONAL) Establish a punitive labour program 
+
+objective_riot_cleaningcupboard			Build a Cleaning Cupboard 
+objective_riot_laundry					Build a Laundry 
+objective_riot_inmatesincleaning 		Assign inmates to work in Cleaning
+objective_riot_inmatesinlaundry			Assign inmates to work in Laundry
+objective_riot_cleanprison 				Clean the prison 
+objective_riot_providelaundry			Provide clean laundry
+
+objective_riot_armoury_research_description		The bureaucracy icon is just above this todo list. Click to begin work on the 'Armoury' - your Chief will do the paperwork. 
+objective_riot_armoury_deploy_description       To deploy armed guards, go to Deployment then 'Armed Patrols'. Click and drag to draw patrols where you want them, then click again on the patrols to assign armed guards to them.
+objective_riot_armoury_guardtazers_description  Look in Reports / Programs - you will see 'Guard Tazer Training'.\n\nYour guards need training before they can use Tazers. You will need to build a Classroom in which to perform this training.
+objective_riot_prisonerwork_description         To assign prisoners to work, go to 'Logistics' then 'Prison Labour'. Click to add jobs to any room highlighted in green.\n\nYou must also specify when prisoners are to work. Go to Reports / Regime, and add several hours of 'Work' time into the day. Inmates will work if there are jobs available during this time.
+
+objective_Riot_PlayerExitsMap			Click on the polaroid outside the main entrance when you are finished.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Heist
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   Visitation
+campaigncutscene_convictionsuicide      Suicide
+
+campaignchapter_conviction              Conviction
+campaignchapter_conviction_description  One of our inmates has been put on suicide watch. Henry Morgan, Benedict's partner in crime. Thirteen months into a five year sentence. Help us take care of these men.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senator Walter Hurst
+adviser_name_detective                  Police Detective
+adviser_name_kerry 						Kerry Morgan 
+adviser_name_hurst 						Doctor Walter Hurst 
+adviser_name_keane 						Officer Keane 
+
+adviser_conviction_heist1               Grab the money, kid.
+adviser_conviction_heist2               Drop your weapons, now!
+adviser_conviction_heist2b				Oh shit!
+adviser_conviction_heist3               Shoot, goddamnit!
+adviser_conviction_heist4               What the hell you waiting for, shoot you fucking pussy!
+adviser_conviction_heist6               Sons of bitches!
+adviser_conviction_heist7               Don't shoot! Don't shoot!
+adviser_conviction_heist8               HANDS UP, MOTHERFUCKERS!
+adviser_conviction_heist9               Do exactly what I do, understand?
+adviser_conviction_heist10              Shit, shit, SHIT!
+adviser_conviction_heist11              Don't shoot! DON'T SHOOT!
+
+conviction_intro_1                      Following the recent tragedy at Alchemico State Prison, we are under immense political scrutiny.
+conviction_intro_2                      Until a permanent replacement is found for the CEO position, I’d like you to take the reins.
+conviction_intro_3                      There have been a spate of suicides at this facility recently, and it's not hard to see why. But we have a more immediate problem.
+conviction_intro_4                      The powers that be have decided to send us a huge batch of new inmates. The first will be arriving tomorrow, and we don't have anywhere to house them.
+conviction_intro_5                      We need you to build a brand new cell block, with enough space to handle the new intake. 
+conviction_intro_5b 					I've laid out a potential design for the new cell block here. This should give us enough new cells to handle the intake, and the design includes it's own shower facility. 
+conviction_intro_5c 					But it's up to you if you choose to follow this design or do something totally different.
+conviction_intro_6                      My job is to prioritise the welfare of these men. Get that new cell block built, then we'll talk about how to achieve that.
+
+unused_conviction_intro_4                      One of our inmates has been put on suicide watch. Henry Morgan, Benedict's partner in crime. Thirteen months into a five year sentence.
+unused_conviction_intro_7						I want to go and talk to him. We can't have another suicide.
+
+conviction_workintro1                   We've treated these men like dirt for too long. That ends now.
+conviction_workintro2                   The previous CEO was never a big believer in prisoner reform.  But the way I see it, we need to provide these men with some sense of hope for the future.
+conviction_workintro3                   We need to give them the skills they need to succeed when they're released - valuable trade skills, a basic education.
+conviction_workintro4                   We should start a work apprenticeship scheme.  Train these men with some real world skills, so they at least have a future they can look forward to.
+
+
+conviction_hurst1 						The lack of engagement at this facility is shocking. Men deprived of every shred of humanity.
+conviction_hurst2 						They're being shown scant compassion or respect. 
+conviction_hurst3 						It's not what these men deserve.
+conviction_hurst4 						Indeed, Captain. This is no way to treat a human being. They're deprived of every shred of humanity. 
+conviction_hurst4b 						Why should they abide by our rules? You can’t expect them to respond in any way but with the utmost resentment. 
+conviction_hurst4c						We need classrooms, drug rehabilitation programs. A workshop, so they can start to take some pride in their skills.
+conviction_hurst6 						You misunderstand me, Doctor. These men aren't human.  See for yourself.
+conviction_hurst6b 						On your feet, Morgan!
+conviction_hurst7 						You've got a visitor.
+conviction_hurst8 						Rehabilitation? Might as well teach monkeys to play the banjo.
+
+conviction_hurst10 						What's your name son?
+conviction_hurst10b                     Man asked you a question.
+conviction_hurst11 						Henry, sir.
+conviction_hurst12 						Must be cold down there, Henry. Put this on.
+conviction_hurst13 						Lice in the beds sir. Eating me alive. Shirt keeps out the rats. Biggest ones I ever seen.
+conviction_hurst14 						Call me Walter.
+conviction_hurst15 						How are you sleeping?
+conviction_hurst16 						Don’t sleep. Only thing I do in here is think. Lots of time for thinking.
+conviction_hurst16b                     What do you think about?
+conviction_hurst16c                     Dying mostly. And my little girl.
+conviction_hurst17 						She’ll need you to be strong, Henry. This will be hard for her too.
+conviction_hurst18 						Been behind bars every day of her life. She don't even know I exist.
+conviction_hurst19 						It's never too late to change a life, Henry. 
+conviction_hurst19b 					I'd like to come and see you again if I may.
+conviction_hurst20 						Yes, sir. Thank you, sir.
+conviction_hurst21 						Can we do something about those rats? This isn't the third world.
+conviction_hurst22 						I'll get some rat poison in there.
+
+conviction_visitationintro_1            I managed to persuade the chief to make an exception for Morgan's family visitation.
+
+conviction_visitation_0					Hello, Sir. Kerry Morgan, here to see Henry Morgan.
+conviction_visitation_1					Behind the line.
+conviction_visitation_2 				I'm sorry. I'm here to see Henry. Henry Morgan. He's my husband, sir.
+conviction_visitation_3 				I won't tell you again. Behind the line. Now.
+conviction_visitation_4 				Yes, sir. Sorry, sir.
+conviction_visitation_5 				Okay. Come forward. I haven't got all day.
+conviction_visitation_6					Name.
+conviction_visitation_7					Kerry Morgan, sir. Here to see Henry Morgan. And this here's his baby girl.
+conviction_visitation_8					That's what you tell him is it?  Go on through.
+conviction_visitation_8a                Kerry!
+conviction_visitation_9					Afraid there's been a mistake. Morgan's lost his visitation privileges.
+conviction_visitation_9b 				What? 
+conviction_visitation_9c 				I'm sorry. We found liquor in his cell this morning. There's nothing I can do.
+conviction_visitation_10				It took me two hours to get here. My daughter's crying. This isn't fair.
+conviction_visitation_11				You want fair, go to Disneyland. Fair is somewhere you win goldfish and eat hot dogs. You won't find it here.
+conviction_visitation_12				Please, give him this.
+conviction_visitation_13                Sure thing. He won’t be having visitors for quite some time. Any message?
+conviction_visitation_14                No. No message.
+
+conviction_visitation_angrymorgan0		No!
+conviction_visitation_angrymorgan1		Wait!
+conviction_visitation_angrymorgan2		You can't do this!
+conviction_visitation_angrymorgan3		Let me talk to her!
+conviction_visitation_angrymorgan4		You fucking assholes!
+
+conviction_helpinmates_1                That is very disappointing.
+conviction_helpinmates_2                It is so difficult to find ways to genuinely help these men. They really need to be taught to help themselves.
+conviction_helpinmates_3                I think it's clear we need to tackle the visitation facility. Families are queuing out the door, and we clearly can't handle the volume of visitors we are now seeing.
+conviction_helpinmates_4                Build a brand new visitation facility. Despite what happened to Morgan, I think we'll see a positive benefit. And he isn't the only inmate here with family.
+conviction_helpinmates_5                I've been doing some research and I'm astonished to find that many of these inmates have only the most basic maths and reading skills. We need to start to remedy this.
+conviction_helpinmates_6                Open up a new classroom facility, and let's start bringing in external teachers to teach the basics. Without education, these inmates have no hope of anything other than a life of crime.
+conviction_helpinmates_7                And we need to keep on top of the influx of prisoners. Keep expanding our capacity so that every inmate gets a decent quality cell.
+
+conviction_outro1                       I think we've made a big difference here. We've given these inmates something to work towards, and a reason to keep going.
+conviction_outro2                       You can stay and help us see the first batch of inmates through the education and work programs we've set up, if you want.
+conviction_outro3                       But I think we can handle it from here. When you are ready to leave, click on the polaroid in Morgan's cell.
+
+conviction_secondvisit_1                I was hoping to see you at one of my sessions.
+conviction_secondvisit_2                I can’t do it. I can’t stay in this hole any longer.
+conviction_secondvisit_3                Just take it a day at a time.
+conviction_secondvisit_4                I mean the whole stinking place. In here. Out there. They won't let me see my family. I messed up, sir, and that ain’t about to change.
+conviction_secondvisit_5                Henry, it's going to be okay. I’m right beside you.
+conviction_secondvisit_6                It's funny. He said the exact same thing.
+conviction_secondvisit_7                Who, Henry? You can tell me.
+conviction_secondvisit_8                He looked out for me.
+conviction_secondvisit_9                Ever since we were kids.
+conviction_secondvisit_10               Keep your shit together. Whatever happens, kid.
+conviction_secondvisit_11               I’m right beside you.
+conviction_secondvisit_11b 				Right beside me?
+conviction_secondvisit_12               He ain’t there no more.
+conviction_secondvisit_13               I’ll make you an agreement. Come to my next group and I’ll see if we can relax your visitation privileges.
+conviction_secondvisit_14               You’d do that for me, sir?
+conviction_secondvisit_15               It’s not just for you, Henry.
+
+conviction_suicide_1 					Sorry, sir, thought you ought to know. There’s been another suicide. 
+conviction_suicide_2					Looks like one of the prisoners ingested rat poison.
+conviction_suicide_3					Doctor Hurst is on the way there now to confirm.
+conviction_suicide_4					Ain’t she the most beautiful thing you ever seen?
+conviction_suicide_5					I think she might be.
+conviction_suicide_6					Never too late to change a life, sir.
+
+objective_conviction_expandcapacity50			Handle the new prisoner intake
+objective_conviction_expandcapacity50_description	You can see a potential layout for the new cellblock by going into 'Planning' mode from the main toolbar.
+objective_conviction_expandcapacity_cells	 	Provide cells for 40 inmates
+objective_conviction_expandcapacity_shower		Provide a shower facility 
+objective_conviction_expandcapacity_yard		Provide a yard 
+objective_conviction_expandcapacity_intake		Wait for the next intake to arrive 
+
+objective_conviction_workprogram 				Run a work skills training program
+objective_conviction_unlocklabour				Authorise 'Prison Labour' through Bureaucracy 
+objective_conviction_work_trainkitchen			(OPTIONAL) Train 5 inmates in Kitchen Safety and Hygiene
+objective_conviction_work_kitchen				Assign inmates to work in the kitchen
+objective_conviction_work_workshop				Build a workshop 
+objective_conviction_work_trainworkshop			(OPTIONAL) Put 10 inmates through a Workshop Safety Induction
+objective_conviction_work_assignworkshop		Assign inmates to work in the workshop 
+objective_conviction_work_produceplates			(OPTIONAL) Produce 100 license plates
+objective_conviction_work_exportszone			Assign an exports zone near to the road
+objective_conviction_work_setintake             Set Prisoner Intake level to 10 per day
+
+objective_conviction_unlocklabour_description	 You can find the bureaucracy screen by clicking on the icon above this todo list.
+objective_conviction_work_kitchen_description	 To assign prisoners to the kitchen, go to 'Logistics' then 'Prison Labour'.\n\nNb. Your prisoners must have passed the 'Kitchen Safety and Hygiene' training course before they can work in the kitchen.				
+objective_conviction_work_assignworkshop_description 	To assign prisoners to the workshop, go to 'Logistics' then 'Prison Labour'.\n\nYour prisoners must have passed the 'Workshop Safety Induction' before they are qualified to work in the workshop.
+objective_conviction_work_trainkitchen_description 		To run training and reform programs, go to 'Reports' (bottom right) then 'Programs'. Prisoners will attend these programs during their assigned work time.\n\nNb you will need to assign two hours of 'Work' time in the Regime schedule screen, otherwise prisoners will not have time to attend the training programs.
+objective_conviction_work_trainworkshop_description 	To run training and reform programs, go to 'Reports' (bottom right) then 'Programs'. Prisoners will attend these programs during their assigned work time.\n\nNb you will need to assign two hours of 'Work' time in the Regime schedule screen, otherwise prisoners will not have time to attend the training programs.
+objective_conviction_work_setintake_description         To make sure your prison doesn't become overcrowded, go to 'Reports' (bottom right) then 'Intake', and use the << button to turn the intake level down to 10.
+
+objective_conviction_visitation				Set up a better visitation service 
+objective_conviction_visitationroom	        Build a new visitors centre 
+objective_conviction_visitationcount		Facilitate 20 inmate family visits
+objective_conviction_telephones	 			Add telephones to all Yards
+objective_conviction_mailroom				Build a Mail Room
+objective_conviction_mailroomwork			Assign prisoners to work in the mail room 
+
+objective_conviction_mailroomwork_description           To assign prisoners to the Mailroom, go to 'Logistics' then 'Prisoner Labour'. 
+
+objective_conviction_education				Begin educating your prisoners 
+objective_conviction_unlockeducation		Authorise 'Education' through Bureaucracy
+objective_conviction_education_classroom	Build a classroom 
+objective_conviction_education_class 		Run a Foundation Education class 
+objective_conviction_education_learn		(OPTIONAL) Have 5 prisoners pass the Foundation Education class
+objective_conviction_education_library		Build a library
+objective_conviction_education_librarywork	Assign prisoners to work in the library
+objective_conviction_education_chapel		Build a chapel
+objective_conviction_education_spiritual	Run a Spiritual Guidance class 
+
+objective_conviction_expandcapacity100			Expand the prison's capacity
+objective_conviction_expandcapacity_cells100	Expand to 80 cells capacity
+objective_conviction_expandcapacity_cells200	(OPTIONAL) Expand to 120 cells capacity
+
+objective_Conviction_PlayerExitsMap         Click on the polaroid in Morgan's cell when you are finished.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Bootstraps
+campaigncutscene_epilogueintro          Revisit
+campaigncutscene_epilogueoutro          Epilogue 
+
+campaignchapter_epilogue_description    A historic prison is scheduled for demolition and replacement. Use all the skills you've learnt to create the ultimate facility.
+
+adviser_name_reporter 					Reporter
+
+epilogue_newsintro1 					Today on CNDC news, a special report into the state of our prisons.
+epilogue_newsintro2 					It’s two years since the infamous 'Siege at Alchemico' claimed so many lives, including that of Chief Executive Charles Wallace. 
+epilogue_newsintro4 					Today we hear from leading experts and ask what, if anything, has changed since those tragic events. 
+epilogue_newsintro5 					First we go live to one of the state's longest running prisons, recently scheduled for demolition.
+epilogue_newsintro6						Live now, only on CNDC news.
+
+epilogue_reporter1						Thanks Sarah. This prison has housed some of the country’s most notorious criminals.  
+epilogue_reporter2 						But now, its walls are being torn down, ready to be replaced by a new prison complex.
+epilogue_reporter3 						If you look behind me, you can see that the construction crews are already here, and demolition work has begun.
+epilogue_reporter4 						Joining me is city Mayor, Calvin Heller. Thank you Mr Heller for taking the time to talk to us today.
+epilogue_reporter5 						It’s my pleasure.
+
+epilogue_reporter6 						In the past you've been a strong advocate of a tougher, more disciplined approach to prison management.
+epilogue_reporter6b 					Why demolish a facility which has defined, for so long, the punitive approach?
+epilogue_reporter7 						Both the prison and its operation had become antiquated. 
+epilogue_reporter8 						We took the decision to replace it with an entirely new facility. One with a more modern policy.
+epilogue_reporter9						This prison was in the news a few years ago as one of the last remaining state execution facilities.
+epilogue_reporter10 					Campaigners have long sought to revoke the death penalty laws here. Will you honour their wishes, or will you rebuild the execution facility?
+epilogue_reporter12 					That’s still under review. But it’s not a decision we’ll take lightly.
+
+epilogue_reporterend1 					Thank you Mayor Heller. Back to you in the studio.
+epilogue_newstransition1 				This is CNDC news, reporting live on the state of our prison system.
+epilogue_newstransition2 				After the break, we'll be joined by Doctor Walter Hurst, a specialist in prisoner psychology and rehabilitation.
+
+epilogue_parole1 						Still nothing? How long’s that?
+epilogue_parole2						I lost count. No calls. No letters.
+epilogue_parole3 						I'm sorry Morgan. That’s got to hurt. But you’ve got a chance here. Don’t mess up.
+epilogue_parole4 						Henry. Good luck.
+epilogue_parole5 						Don't try to tell them what you think they want to hear.
+epilogue_parole6 						I have to go. I'm live on air in one minute.
+epilogue_parole7                        Mayor Heller, what is your opinion?
+epilogue_parole10 						That was fast!
+epilogue_parole11 						Well?
+epilogue_parole12                       ...
+
+epilogue_outro_1 						Welcome back to this special edition of CNDC news, live with city Mayor Calvin Heller.
+epilogue_outro_2 						Joining us now is Doctor Walter Hurst, who has been accused of squandering huge sums of money on prison reform.
+epilogue_outro_2b 						Dr Hurst, Do you believe you've achieved success?
+epilogue_outro_3						Success? No. Not in general. 
+epilogue_outro_4						I believe everyone has the potential for improvement. And we must offer them that chance.
+epilogue_outro_4b 						I can state with absolute conviction that I've seen real improvement in the attitude and hopes of many of those incarcerated here.
+epilogue_outro_5						Incarceration should be a deterrent. It should not be an opportunity for development or change.
+epilogue_outro_6 						Punishing and dehumanising them during their experience only serves to nurture delinquency. 
+
+epilogue_outro_7						We provide these men with valuable skills, but more importantly, hope.
+epilogue_outro_7b  						We are helping them to integrate back into society, and contribute after they leave.
+epilogue_outro_8						Ordinary citizens don't get free training. Free education. Guaranteed paid work. 
+epilogue_outro_8b 						We are neglecting the victims of crime, and rewarding the perpetrators.
+epilogue_outro_8c 						Spending vast sums, simply to make these criminals feel good about themselves.
+epilogue_outro_9						We can make a difference, even if we have to do it one individual at a time.
+epilogue_outro_10						These men haven't earned their freedoms. Their liberties.
+epilogue_outro_11						You can tell a tomcat a hundred times to leave the birds in your back yard alone. But he’ll always come back.
+epilogue_outro_12 						It’s in his nature.
+
+epilogue_sandbox_1                      Let me congratulate you on your appointment as CEO. This is an opportunity. A fresh start.
+epilogue_sandbox_2                      You'll have complete autonomy, more or less. More prisoners. Higher re-offending rates. You have a lot of challenges ahead of you.
+epilogue_sandbox_3						As for the death row facility, tear it down. Or keep it, make some use out of it. It really is up to you. Somebody else will take up that business if you won't. 
+epilogue_sandbox_4						As for objectives, I'm giving you the same as I gave to your predessessor. Profits, re-offending rates, capacity. 
+epilogue_sandbox_5 						It's entirely up to you how you achieve them.
+epilogue_sandbox_5b                     One last thing. The previous CEO Charles Wallace left behind a letter that he used to give out to any new prison architects who joined the firm.
+epilogue_sandbox_5c                     He had some good advice. You may find it useful to take a look.
+epilogue_sandbox_6						Good luck!
+
+objective_epilogue_grants				Raise money through the Grants system
+objective_epilogue_grants_description   Grants are one of the primary methods of raising the large volumes of cash needed to build a prison.\n\nYou can find a whole host of grants in the Reports (bottom right of the screen) under 'Grants'. Various agencies will offer you funds to build specific parts of your prison from scratch.
+
+objective_epilogue_certifiedprison		Build a prison
+objective_epilogue_capacity				At least 100 inmates 
+objective_epilogue_bankbalance			Bank balance at least $60,000 
+objective_epilogue_cashflow				Net positive cashflow
+
+epilogue_outrointro_1                   I can see you are off to a very good start.
+epilogue_outrointro_2                   If you are near a tv, you should turn it on now. Something I want you to see.
+
+epilogue_basiccompletion_1 				You've achieved the minimum requirements for a state prison. Where you go from here is up to you.
+epilogue_basiccompletion_2 				At this point it is completely up to you and your company how you proceed.
+epilogue_basiccompletion_3 				At the Mayor's office there is only one number that we care about, and that is the re-offending rate.
+epilogue_basiccompletion_4	 			If you can reduce re-offending rates amoungst your prisoners, I'd call that a success.
+epilogue_basiccompletion_5 				People like Doctor Hurst believe you can only achive that through education, reform, skills training and the like.
+epilogue_basiccompletion_6 				In my opinion, punishment can be just as effective a method.
+epilogue_basiccompletion_8 				It's up to you.  I wish you the best of luck!
+epilogue_basiccompletion_9 				When you are done, click on the polaroid on the road to leave the prison.
+
+objective_epilogue_reoffending			(OPTIONAL) Reduce the prison re-offending rate
+objective_epilogue_reoffending_description	You can see your re-offending rate in the 'Prison Grading' screen. Click on the icon on the top left of the screen.
+
+objective_epilogue_reoffending_rate		Reduce the re-offending rate to 30% or less
+objective_epilogue_reoffending_released	Have at least 10 prisoners released
+
+objective_Epilogue_PlayerExitsMap				When you feel you have done enough, click on the polaroid on the road to proceed.
+objective_epilogue_playerexitsmap_description	The polaroid can be found on the road, near the deliveries zone.
+
+
+# =============================================================================
+# Credits
+# =============================================================================
+
+campaigncutscene_epiloguecredits        Credits
+
+credits_createdby1                      - Created by -
+credits_createdby2                      Chris Delay
+credits_producer1                       - Produced by -
+credits_producer2                       Mark Morris
+credits_art1                            - Art -
+credits_art2                            Ryan Sumo
+credits_sound1                          - Sound -
+credits_sound2                          Alistair Lindsay
+credits_screenplay1                     - Screenplay -
+credits_screenplay2                     Chris Hastings
+credits_programmers                     - Programmers -
+credits_programmers1                    John Knottenbelt
+credits_programmers2                    Leander Hambley
+credits_programmers3                    Gary Chambers
+credits_programmers4                    Andrew Lim
+credits_programmers5                    Jeffrey Sheen
+credits_programmers6                    Finlay Curran
+credits_graphicdesign1                  - Graphic Design -
+credits_graphicdesign2                  Morten Pedersen
+credits_special                         - Special thanks -
+credits_special1                        Will Morris
+credits_special2                        Sam Morris
+credits_special3                        Jo Stansfield
+credits_special4                        John Cook
+credits_special5                        Alex Chapman
+credits_special6                        Alex Tutty
+credits_special7                        Double Eleven
+credits_introversion                    - INTROVERSION SOFTWARE -
+credits_introversion1                   Chris Delay
+credits_introversion2                   Mark Morris
+credits_introversion3                   John Knottenbelt
+credits_introversion4                   Thomas Arundel
+credits_pa1                             PRISON
+credits_pa2                             ARCHITECT
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Export Prison For Minecraft
+codex_mcexportname						Minecraft Exporter
+codex_worldnametitle					World Name
+codex_seedtitle							Seed
+codex_gamemodetitle						Game Mode
+codex_mapfeattitle						Map Features
+codex_cheatstitle						Cheats
+codex_timeofdaytitle					Time of Day
+codex_rainingtitle						Raining
+codex_thunderingtitle					Thundering
+codex_generatortitle					Generator
+codex_scaletitle						Scale
+codex_exporttomc						Export
+codex_mcexport_default					Default
+codex_mcexport_flat						Flat
+codex_mcexport_largebiomes				LargeBiomes
+codex_mcexport_survival					Survival
+codex_mcexport_creative					Creative
+codex_mcexport_adventure				Adventure
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Escape - It's your only way out
+escapemode_help                         Step One: Reputation - Your reputation means everything in here\n\n• Boost your reputation by starting fights. Hurting people will really get you noticed but breaking things is a good place to start. The more damage you can cause in one fight the better.\n• Leave no witnesses. If a guard spots you fighting you'll get punished for it, unless of course they're no longer around.\n• Getting knocked out looks bad. You're better off ending a fight on your own terms.\n\nStep Two: Squad - Recruit others to join your escape attempt\n\n• Whistle to call them over and they'll stick with you everywhere you go. (Click their name in the top left)\n• They'll even join you in fights which can help you increase your reputation even faster.\n• Train up your squad. You'll never know when having a skilled fighter or competitive sprinter nearby will end up being useful.\n\nStep Three: Contraband - You'll need weapons and tools\n\n• Find a room where there will be something you want. Take a look around and you'll quickly find something useful you can steal.\n• Watch out for metal detectors and guards trying to search you. If you're found with anything they'll grab it and throw you in solitary.\n• Stash your equipment. You can hide your findings in your cell or the cells of others, just remember where you've left things.\n\nStep Four: Tunnels - The quiet way out\n\n• Grab a digging tool and start a tunnel from the toilet in your cell.\n• Digging is slow. Get your squad members to help you dig.\n• Don't get spotted. If a guard sees you entering or exiting a tunnel you'll be rumbled.\n\nGood luck. You're going to need it.
+
+codex_escapemode                        Escape Mode
+codex_escapemode_developer              (Developer) Escape Mode
+codex_escapemode_new                    New Escape Attempt
+codex_escapemode_load                   Load Escape Attempt
+codex_escapemode_save                   Save Escape Attempt
+codex_escapemode_workshop               Escape Mode (Steam Workshop)
+codex_escapemode_workshop_star_rating   *S Stars or over
+
+escapemode_combat_attack                Attack
+escapemode_combat_attack_button         Left Click
+escapemode_combat_lunge                 Lunge
+escapemode_combat_lunge_button          Shift
+escapemode_dig_button                   Hold Left Click
+escapemode_dig                          Dig
+escapemode_surrender                    Surrender
+escapemode_surrender_safe               End Fight
+escapemode_surrender_button             Space
+
+escapemode_helpletter                   Help
+escapemode_gameover                     Game Over
+
+escapemode_reputation_points            Rep Points:
+escapemode_reputations_cost             *C Rep Points
+escapemode_reputations_max              MAX
+
+escapesquad_squad_member                Squad Member
+escapesquad_recruitment                 Hold right click to recruit
+escapesquad_recruitment_cost            Rep Point Cost: *C
+escapesquad_toggle_follow               Toggle Follow
+escapesquad_nameplate_following         Following
+escapesquad_skip_punishments            Skip Punishments
+escapesquad_skip_punishments_tooltip    Spend a rep point to have all your squad members sleep through their punishments and wake up in their cells.
+escapesquad_sleep                       Sleep
+escapesquad_sleep_tooltip               Click to sleep through the night.
+escapesquad_reputations                 Reputations
+escapesquad_reputations_tooltip         Spend rep points on reputations to improve your squad's fighting ability. 
+escapesquad_follow_mode                 Follow Mode
+escapesquad_follow_mode_tooltip         Prisoners in follow mode will follow you and copy your misbehaviour.\n\nUse R to toggle follow mode for all prisoners at once.
+escapesquad_remove_member               Remove Squad Member
+escapesquad_remove_member_tooltip       Click to remove this prisoner from your squad.
+escapesquad_escaped                     Escaped
+
+escapemode_sprint_unlock                \n\nUnlocks sprinting by holding Shift. Sprint is only available while you're not in a fight.
+
+escapemode_info_right_click             Right click
+escapemode_info_hold_right_click        Hold right click
+escapemode_info_stash                   to stash contraband
+escapemode_info_pick_up                 to pick up contraband
+escapemode_info_start_tunnel            to start a tunnel
+escapemode_info_enter_tunnel            to enter tunnel
+escapemode_info_exit_tunnel             to exit tunnel
+escapemode_info_dig_up                  to dig up
+escapemode_info_steal                   to steal
+
+escapemode_info_tool                    [Digging Tool]
+escapemode_info_damage                  Damage: *D
+escapemode_info_recharge                Recharge Time: *T
+
+escapemode_gameover                     Game Over
+escapemode_gameover_squad_title         Squad
+escapemode_gameover_casualties_title    Victims
+escapemode_gameover_totalscore_title    Total Score
+escapemode_gameover_totaltime_title     Time Taken
+escapemode_gameover_time_days           *D Days, *H Hours and *M Minutes
+escapemode_gameover_time                *H Hours and *M Minutes
+
+codex_workshop_select_random_prison     Random Workshop Prison
+codex_workshop_searching                Searching
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         Game Bible
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              PAGE *X
+codex_gamebible_doublepage              PAGES *X - *Y
+object_collectable                      Notebook Page
+

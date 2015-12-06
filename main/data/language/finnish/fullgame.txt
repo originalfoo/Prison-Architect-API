@@ -1,0 +1,884 @@
+﻿
+campaigncutscene_tooltip 				(Klikkaa siirtyäksesi tarinan seuraavaan kappaleeseen)
+campaignchapter_locked                  (Lukittu)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        Valtava tulipalo on tuhonnut vankilan keittiön ja ruokalan. Jos emme jotenkin saa ruokittua vankeja nopeasti, tilanne pahenee täysimittaiseksi mellakaksi.\nRatkaise ruokakriisi ja rakenna keittiö ja ruokala uudelleen.
+
+adviser_food_fire_1                     Yhdessä muista laitoksistamme muhii kriisi.
+adviser_food_fire_2                     Joku sytytti vankilan keittiön tuleen. Sinun tulee sammuttaa tulipalo sekä estää henkilövahingot ja lisävauriot.
+adviser_food_fire_3                     Kutsu palokunta työkalupalkin Hätätilanne-painikkeella.
+adviser_food_fire_4                     Estä tulipalon leviäminen ennen kuin se polttaa koko vankilan!
+
+objective_food_callfirebrigade          Kutsu palokunta
+objective_food_extinguishflames         Sammuta liekit
+
+objective_food_callfirebrigade_description 	Kutsu palokunta klikkaamalla ensin työkalupalkin Hätätilanne-painiketta ja sitten kohtaa Palokunta
+objective_food_extinguishflames_description  Kun olet valinnut palomiehiä, voit ohjata paloletkuja pitämällä H-näppäimen painettuna. Näin voit keskittää paloletkujen vesisuihkut liekkien keskelle.\n\nYritä pitää palomiehet mahdollisimman lähellä tulta - niin he ovat tehokkaimmillaan.
+
+adviser_food_savedon1                   Hyvä luoja, rojun keskellä on joku eloonjäänyt.
+adviser_food_savedon2					Voi Kiesus, se on Don Palermo. Kaikista näistä vangeista... sen piti olla juuri meidän mafiapomomme.
+adviser_food_donintro2					Huono homma hänen kannaltaan, että budjettileikkausten takia jouduimme irtisanomaan kaikki vakituiset lääkärimme.
+adviser_food_donintro3				 	Mutta hyvä uutinen on se, että sairastupa on yhä käyttökunnossa. Palkkaa pari lääkäriä, niin he huolehtivat Don Palermosta, kun me selvitämme tätä sotkua.
+
+adviser_food_afterfire3                 Meidän on selvitettävä tämä sotku.
+adviser_food_afterfire4                 Pura tuhoutunut ruokala ja keittiö Puskutraktori-työkalulla. Sinun on poistettava kaikki roina.
+adviser_food_afterfire6                 Määritä tien viereen roska-alue. Työmiehet dumppaavat roinan sinne ja roska-autot vievät sen pois.
+adviser_food_dismissfiremen1			Lopuksi voisit lähettää palomiehet kotiin, nyt kun he ovat työnsä tehneet.
+adviser_food_gamespeed                  Noiden rakennusten purkaminen vie aikansa. Saat ajan kulumaan nopeammin käyttämällä kellon alla olevia painikkeita.
+
+adviser_food_todolist1					Lisäsin tarkemmat tiedot näistä tavoitteista tehtävälistaasi.
+adviser_food_todolist2					Aina kun et ole varma mitä pitäisi tehdä, korosta tavoite niin näet tarkemmat ohjeet.
+
+objective_food_buildmedicalward_doctors Palkkaa sairastupaan pari lääkäriä
+
+objective_food_DismissAllFiremen		Lähetä palomiehet pois
+objective_food_cleararea                Siivoa palojätteet
+objective_food_buildgarbagearea         Määritä roska-alue
+objective_food_clearcanteen             Siivoa ruokalan rauniot
+objective_food_clearkitchen             Siivoa keittiön rauniot
+objective_food_hiremoreworkmen			(VALINNAINEN) Palkkaa lisää työmiehiä purkutöiden nopeuttamiseksi
+
+objective_food_dismissallfiremen_description 	Jos haluat lähettää kutsumasi hätäpalveluväen pois, etsi heidän kuvakkeensa näytön oikeasta laidasta ja klikkaa punaista X-ympyräpainiketta.
+objective_food_cleararea_description 	Pura rakennukset Puskutraktori-työkalulla. Se löytyy päätyökalupalkin kohdasta "Perustukset".
+
+adviser_food_familyvisit1				Hienoa.
+adviser_food_familyvisit2 				Käydään katsomassa potilastamme.
+
+adviser_food_troublesoon1				Jos nämä vangit eivät saa ruokaa, he repivät seinät alas parissa päivässä.
+adviser_food_troublesoon2 				Meidän on saatava vankila hallintaan ennen kuin tilanne pahenee mellakaksi.
+adviser_food_troublesoon3 				Tämä on Asemointi-ruutu. Tästä voit hallita kaikkien vartijoidesi taktista asemointia.
+adviser_food_troublesoon4 				Sijoita vartijoita kaikkiin selliosastoihin ja huoneisiin. Sijoita 10 vartijaa asemiin ympäri vankilaa. Sen pitäisi riittää voimanosoitukseksi tällä erää.
+adviser_food_troublesoon5				Haluan myös partion sisäpihalle, minne rakennamme uudet tilat.
+adviser_food_troublesoon6				Vielä yksi asia. Nyt kun ruokala ei ole käytössä, jotkin ruokalaatikot ovat pilaantuneet. Hävitä ne ennen kuin saamme tuholaisia.
+
+objective_food_deployguards				Asemoi 10 vartijaa ympäri vankilaa
+objective_food_deploypatrol				Sijoita 2 vartijaa partioimaan sisäpihalla
+
+objective_food_deployguards_description		Asemoi vartijoita avaamalla ensin Asemointi-ruutu ja klikkaamalla sitten jonkin sektorin sisällä luodaksesi asemapaikan. Siihen sijoitetaan vartija automaattisesti.
+objective_food_deploypatrol_description		Avaa Asemointi-ruutu ja valitse Partiot. Piirrä partiointireitit klikkaamalla ja vetämällä.\n\nSijoita vartijoita partioon klikkaamalla mitä tahansa ruutua partion sisällä.
+
+objective_food_dumpfood 				Hävitä pilaantuneet ruokatarvikkeet
+objective_food_dumpfood_description		Pilaantuneet ruokatarvikkeet löytyvät varaston komerosta, vankilan koillisosasta.\n\nVoit hävittää minkä tahansa tavaran klikkaamalla sitä ja klikkaamalla sitten ponnahdusvalikosta kohtaa "Hävitä".
+
+adviser_food_doncantspeak1				....
+adviser_food_doncantspeak2				aaagh .... ...
+
+adviser_food_doninfirmary0              Hän yrittää kai sanoa jotakin.
+adviser_food_doninfirmary1				Kumpi teistä saatanan kullia lutkuttavista hinttipaskiaisista teki tämän?
+adviser_food_doninfirmary2 				Ei tätä kukaan tehnyt, Don. Se oli onnettomuus.
+adviser_food_doninfirmary3 				Tuki saastainen turpasi ja kuuntele tarkkaan. Kuunnelkaa molemmat.
+adviser_food_doninfirmary4 				Jos tietäisin kumpi teistä kusipäistä sytytti tämän tulipalon, taittaisin häneltä niskat heti!
+adviser_food_doninfirmary5 				Mutta minun aikani on tullut. Minä kuolen tähän hemmetin sänkyyn.
+adviser_food_doninfirmary6 				Ja suvun bisneksiä pitäisi jatkaa. Meillä ei ole enää muuta kuin Palermo-nimemme. Joten toimikaa kunniallisesti, senkin saastaiset paskiaiset. Capiche?
+adviser_food_doninfirmary7				Tiedämme kyllä mitä tehdä, isukki.
+adviser_food_donchat13					Tämä ei ole ohi, Nico.
+adviser_food_donchat14					Pidä vaan vittu varasi.
+
+adviser_food_founddrugs1				Et ikinä usko mitä juuri kuulin.
+adviser_food_founddrugs2				Kaverit olivat dumppaamassa vanhoja ruokatarvikkeita. He löysivät laatikoihin kätkettyjä huumepaketteja ja viinapulloja.
+adviser_food_founddrugs3				Olemme jo jonkin aikaa epäilleet Palermoja aineiden salakuljettamisesta vankilaan, mutta emme keksineet miten he sen tekivät.
+adviser_food_founddrugs4 				Joinakin päivinä vain sattuu ja tapahtuu kaikkea.
+
+adviser_food_rebuild1                   Meillä on vielä paljon hommia. Nyt on aika keskittyä keittiön ja ruokalan korjaamiseen.
+adviser_food_rebuild2                   Ensin pitää rakentaa uusi keittiö. Sinun pitää asentaa useita erilaisia laitteita ja palkata kokkeja.
+adviser_food_rebuild3					Kun se on tehty, voit rakentaa uuden ruokalan.
+adviser_food_rebuild4					Kun sekin on valmis, kokit alkavat automaattisesti tehdä ruokaa koko vankilalle.
+adviser_food_rebuild5                   Jos missä tahansa vaiheessa olet epävarma siitä mitä pitäisi tehdä, korosta tavoite tehtävälistasta, niin saat vihjeitä.
+
+adviser_food_fightoutro1  				Mahtavaa. Vaikuttaa siltä, että Palermojen suvusta alkaa jäsenet loppua.
+
+adviser_food_sprinklerintro1 			Meillä voi olla käsissämme vakava huumeongelma. Mutta emme voi hoidella sitä vielä.
+adviser_food_sprinklerintro2 			Keittiö ja ruokala ovat nyt toiminnassa. Kokit tekevät ruokaa kaikille, ja sen pitäisi rauhoittaa tilannetta.
+adviser_food_sprinklers1                Olen huolissani siitä, että tulipalo oli selvästi tahallinen, emmekä halua sen toistuvan.
+adviser_food_sprinklers2 				Asenna sprinklerijärjestelmä uuden keittiön ja ruokalan päälle ja liitä se  vesijohtoverkostoon.
+
+adviser_food_explainneeds1 				Kaikilla vangeilla on tarpeensa. Ne vaikuttavat suoraan vankien käytökseen. Juuri nyt kaikki ovat nääntymäisillään nälkään ja siksi he mekastavat.
+adviser_food_explainneeds2 				Ruoka on yksi vankien tärkeimmistä tarpeista, eikä sitä kannata unohtaa. Vankila on vain parin väliin jääneen aterian päässä täydestä mellakasta.
+adviser_food_explainneeds3 				Voit seurata kaikkien vankiesi tarpeita Tarpeet-raportista, jonka voit yleensä lukea oikeassa alakulmassa olevan Raportit-kuvakkeen kautta.
+adviser_food_explainneeds4				Tämä raportti näyttää kaikkien vankiesi yhdistetyt tarpeet. Punainen väri tarkoittaa, että moni vanki on vihainen, koska kyseistä tarvetta ei täytetä.
+adviser_food_explainneeds5 				Kuten odottaa saattaa, ruoka on punaisella lähes kaikilla. Mutta nämä vangit ovat myös tylsistyneitä (Ajanviete-tarve) ja vankila on aika huonossa kunnossa, mikä näkyy vankien Ympäristö- ja Vaatetus-tarpeista.
+adviser_food_explainneeds6				Sinä päätät vankilan arkkitehtinä mihin tarpeisiin yrität vastata ensin. Voit asentaa televisioita selleihin, jotta vangeilla on ajankulua, ja palkata siivoojia siistimään paikkoja.
+adviser_food_explainneeds7				Tai sitten voit olla välittämättä vankiesi tarpeista ja luottaa voimaan vankilan järjestyksen pitämiseksi.
+adviser_food_explainneeds8 				Annan sinun päättää.
+
+objective_food_needs 					(VALINNAINEN) Huolehdi vankiesi tarpeista
+objective_food_handlefoodneed 			(VALINNAINEN) Huolehdi vankiesi ruokatarpeista
+objective_food_handleboredomneed		(VALINNAINEN) Huolehdi vankiesi ajanvietetarpeista
+objective_food_handleenvironmentneed	(VALINNAINEN) Huolehdi vankiesi ympäristötarpeista
+
+objective_food_needs_description 					Näet yhteenvedon kaikkien vankiesi tarpeista klikkaamalla ensin kohtaa Raportit (ruudun oikea alakulma) ja sitten kohtaa Tarpeet.\nVoit myös korostaa jonkun vangin, niin näet mitkä tarpeet häneen vaikuttavat.\n\nTarpeita ei voi tyydyttää pysyvästi - niiden kanssa on käytävä jatkuvaa kamppailua.
+objective_food_handlefoodneed_description 			Kokkimme valmistavat ruokaa kaikille ja kaikkien vankien pitäisi olla ruokittuja seuraavan ruoka-ajan loppuun mennessä.
+objective_food_handleboredomneed_description 		Tylsyyttä voi poistaa tehokkaasti asentamalla televisioita jokaiseen selliin. Voit myös rakentaa yleistilan ja sijoittaa sinne pari televisiota ja biljardipöytää.\n\nVoit sijoittaa televisioita myös yhteisiin huoneisiin, kuten ruokalaan.
+objective_food_handleenvironmentneed_description 	Palkkaa pari siivoojaa, niin he siistivät paikkaa vähitellen.
+
+adviser_food_needssuccess1 				Olet osoittanut ihailtavaa päättäväisyyttä vankiesi tarpeista huolehtimisessa. Hienoa.
+adviser_food_needssuccess2 				Olet varmaankin jo huomannut, että suurin valituksenaihe vankien keskuudessa tällä hetkellä on puhtaiden vaatteiden puute.
+adviser_food_needssuccess3 				Jos haluat huolehtia tästäkin tarpeesta, sinun on tarjottava pyykkipalvelua, jotta vankisi saavat vähitellen puhtaita vaatteita.
+adviser_food_needssuccess4 				Rakenna pyykkihuone ja palkkaa lisää siivoojia tarjotaksesi vangeillesi puhtaita vaatteita.
+
+objective_food_laundry 					(VALINNAINEN) Puhtaat vaatteet
+objective_food_buildlaundry 			(VALINNAINEN) Rakenna pyykkihuone
+objective_food_hirejanitors             (VALINNAINEN) Palkkaa tarpeeksi siivoojia pyykkihuonetta pyörittämään
+objective_food_handleclothingneed 		(VALINNAINEN) Huolehdi vankiesi vaatetustarpeista
+
+objective_food_buildkitchen             Rakenna keittiö (noin 12 neliötä)
+objective_food_buildkitchencookers      Asenna vähintään neljä liettä
+objective_food_buildkitchenfridges      Asenna vähintään neljä jääkaappia
+objective_food_buildkitchensink         Asenna pesuallas
+objective_food_buildkitchenbin	 		Sijoita keittiöön roskakori
+objective_food_buildkitchenwatermains 	Liitä pesuallas vesijohtoverkostoon
+objective_food_buildkitchenfloor 		(VALINNAINEN) Paranna keittiön lattiaa
+
+objective_food_buildkitchen_description		Sinun on ensin rakennettava perustukset.
+objective_food_buildcanteen_description		Sinun on ensin rakennettava perustukset.
+
+objective_Food_HireChefs				Palkkaa vähintään 8 kokkia
+objective_food_CookMeals				(Automaattinen) Valmista ateria kaikille vangeille
+
+objective_food_buildcanteen             Rakenna ruokala (noin 20 neliötä)
+objective_food_buildservingtables       Asenna kaksi tarjoilupöytää
+objective_food_buildcanteentables       Asenna vähintään kuusi pöytää
+objective_food_buildcanteenchairs       Asenna kunkin pöydän ympärille kaksi penkkiä
+objective_food_buildcanteenbin	 		Sijoita ruokalaan roskakori
+objective_food_buildcanteenfloor 		(VALINNAINEN) Paranna ruokalan lattiaa
+
+
+objective_food_buildsprinklers          Asenna uusi sprinklerijärjestelmä
+objective_food_buildsprinklers1         Asenna pari sprinkleriä keittiöön
+objective_food_buildsprinklers2         Asenna pari sprinkleriä ruokalaan
+objective_food_connectwater             Liitä keittiön sprinklerit vesijohtoverkostoon
+objective_food_connectwater2			Liitä ruokalan sprinklerit vesijohtoverkostoon
+objective_food_feedprisoners            Suorita yksi ruokailu ruokkimalla kaikki vangit
+
+objective_food_buildkitchenwatermains_description   Suurilla putkilla siirretään suuria vesimääriä kovalla paineella. Pienillä putkilla liitetään yksittäisiä tavaroita vesijohtoverkostoon.\n\nKäytä LVI-näkymää sijoittaaksesi suuria putkia rakennuksiisi. Käytä sitten pieniä putkia liittääksesi kaikki lähistöllä olevat vettä kaipaavat kohteet suureen putkeen.
+objective_food_connectwater_description             Suurilla putkilla siirretään suuria vesimääriä kovalla paineella. Pienillä putkilla liitetään yksittäisiä tavaroita vesijohtoverkostoon.\n\nKäytä LVI-näkymää sijoittaaksesi suuria putkia rakennuksiisi. Käytä sitten pieniä putkia liittääksesi kaikki lähistöllä olevat vettä kaipaavat kohteet suureen putkeen.
+objective_food_connectwater2_description            Suurilla putkilla siirretään suuria vesimääriä kovalla paineella. Pienillä putkilla liitetään yksittäisiä tavaroita vesijohtoverkostoon.\n\nKäytä LVI-näkymää sijoittaaksesi suuria putkia rakennuksiisi. Käytä sitten pieniä putkia liittääksesi kaikki lähistöllä olevat vettä kaipaavat kohteet suureen putkeen.
+
+campaigncutscene_foodinfirmary			Sairastupa
+campaigncutscene_foodfamily             Perhe
+campaigncutscene_foodfeud               Sukuriita
+campaigncutscene_foodregret				Katumus
+campaigncutscene_foodsuccession 		Vallanperimys
+
+campaigncutscene_foodfamily_description		Aikoinaan Palermot myivät huumeita pitkin Yhdysvaltojen itärannikkoa. Lue Don Palermon ja hänen lapsiensa tarina.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti 
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo 
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermo
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Itärannikon pelätyimpiin kuuluvan mafiaperheen pomo.
+cutscene_foodfamily_palermo1			Palermot väistelivät FBI:tä vuosikymmenien ajan.
+cutscene_foodfamily_palermo02			Anthony Palermo, Donin vanhin poika ja perijä, huolehti päivittäisistä operaatioista.
+cutscene_foodfamily_palermo03			Nico Tamoretti ei ollut mafian jäsen, mutta hänet otettiin mukaan perheen bisneksiin, kun hän nai Vitalian, Donin ainoan tyttären.
+cutscene_foodfamily_palermo04			Ja Sonny Palermo. Donin toinen poika. Pahnan pohjimmainen. Yhtä äkäinen kuin pitbull, mutta vain puoliksi niin fiksu.
+
+cutscene_foodfamily_palermo2 			Imperiumi hallitsi huumekauppaa Mainesta Floridaan.
+cutscene_foodfamily_palermo3			Sitten Anthony jäi kiinni housut kintuissa.
+cutscene_foodfamily_palermo3b           Mustasukkaisen aviomiehen ampuma.
+cutscene_foodfamily_palermo4			Perheen epäonneksi poliisi löysi murhapaikalta 12 kiloa puhdasta kokaiinia Anthonyn urheilukassista.
+cutscene_foodfamily_palermo5			Ja todisteet johtivat suoraan huipulle.
+cutscene_foodfamily_palermo6			Kaikki minkä Palermot olivat rakentaneet sortui yhdessä yössä. FBI sai kaiken mitä se tarvitsi varmistaakseen, että he kaikki mätänisivät vankilaan.
+cutscene_foodfamily_palermo7			Jäljelle jäi Vitalia, Donin tytär, perheen ainoa jäsen, joka ei ollut kaltereiden takana.
+cutscene_foodfamily_palermo8			Emme tiedä hänestä paljoakaan, muuta kuin sen, että hän on aina pysytellyt erossa perheen bisneksistä.
+cutscene_foodfamily_palermo9 			Mutta jonkun ulkopuolisen on täytynyt lähettää ne huumeet tänne vankilaan.
+
+adviser_food_findalldrugs1				Ruokatilanne on nyt hoidettu. Vangit ovat nyt paljon tyytyväisempiä saatuaan vatsansa täyteen.
+
+adviser_food_findalldrugs2				Palermot takuulla myivät huumeita jokaiselle vangille täällä.
+adviser_food_findalldrugs3				Vartijat ovat kertoneet minulle nähneensä monella vangilla vieroitusoireita tulipalon jälkeen.
+adviser_food_findalldrugs4				Tutki jokainen vanki ja selli. Löydämme Palermojen huumeita varmasti ympäri vankilaa.
+
+objective_food_findalldrugs					Etsi kaikki huumeet vankilasta
+objective_food_findalldrugs_description 	Tutki jokainen selliosasto klikkaamalla ensin jotakuta vankia kyseisessä selliosastossa ja sitten kohtaa "Tutki selliosasto". Voit käyttää myös ruudun alalaidassa olevan työkalupalkin kohtaa Penkominen.
+
+objective_food_hiremoreguards 			(VALINNAINEN) Palkkaa lisää vartijoita etsintöjen nopeuttamiseksi
+
+adviser_food_drugsfound1				Tilanne ei onneksi ole niin paha kuin se olisi voinut olla, mutta huume- ja viinariippuvuuden kanssa on silti ongelmia.
+adviser_food_drugsfound2				Näitä miehiä on autettava. Se on ainoa tapa hillitä heidän tekemisiään ja hoitaa heidän oireitaan.
+adviser_food_drugsfound2b 				Aloita vieroitusohjelma sairastuvalla. Lääkärit jakavat kemiallista korviketta, joka auttaa lievittämään narkkareiden tarpeita.
+adviser_food_drugsfound3				Alkoholisteille ei ole tarjolla kemiallista korviketta, joten ehdotan ryhmäterapiaistuntoja.
+adviser_food_drugsfound4				Sinun täytyy rakentaa uusi yleishuone kokoontumisia varten.
+adviser_food_drugsfound5				Voit aloittaa uusia ohjelmia menemällä ensin ruudun oikeassa alakulmassa olevaan kohtaan "Raportit" ja sitten kohtaan "Ohjelmat".
+
+objective_food_drugtreatment			Aloita vieroitusohjelma
+objective_food_cureaddictions			(VALINNAINEN) Ala parantaa vankien huumeriippuvuutta
+objective_food_alcoholprogram			Aloita ryhmäterapiaohjelma alkoholisteille
+objective_Food_HelpAlcoholics			(VALINNAINEN) Ala auttaa alkoholisteja paranemaan
+objective_food_buildcommonroom 			Rakenna yleishuone
+objective_food_buildcommonroomchairs	Luo 8 tuolista koostuva tapaamispaikka
+
+objective_food_drugtreatment_description 	Klikkaa kohtaa "Raportit" ruudun oikeasta alakulmasta ja valitse sitten "Ohjelmat"-välilehti. Ohjelman nimi on "'Huumeriippuvaisten lääkehoito-ohjelma" ja se tapahtuu sairastuvalla.\n\nHuomaa, että sinun asetettava aikatauluun vähintään kaksi tuntia työaikaa, jotta vangit voivat osallistua.
+objective_food_alcoholprogram_description 	Klikkaa kohtaa "Raportit" ruudun oikeasta alakulmasta ja valitse sitten "Ohjelmat"-välilehti. \n\nHuomaa, että sinun asetettava aikatauluun vähintään kaksi tuntia työaikaa, jotta vangit voivat osallistua.
+
+cutscene_food_feudintro1 				Suihkussa tapahtui välikohtaus. Siellä on ruumis.
+cutscene_food_feudintro2 				Itse asiassa kaksi ruumista. Onneksi siellä on kameroita.
+cutscene_food_feudintro3 				Kun sinulla on aikaa, klikkaa suihkutilan valokuvaa, niin katsotaan mitä tapahtui.
+
+objective_food_triggerfightscene		Kun olet valmis, jatka klikkaamalla suihkutilan valokuvaa.
+objective_food_triggerfightscene_description 	Suihkut ovat vankilan luoteisnurkassa.
+
+cutscene_food_feud1b                    Yksin. Täydellistä.
+cutscene_food_feud1                     Kylläpä kesti.
+cutscene_food_feud2                     Älä jauha paskaa. En ikinä tajunnut mitä huorasiskoni sinussa näki.
+cutscene_food_feud2b 					Oliko tämä hänen ideansa? Ukon listiminen?
+cutscene_food_feud3                     Niinkö luulet, senkin läski paska? En halunnut satuttaa häntä. Rakastan häntä kuin omaa isääni.
+cutscene_food_feud3b 					Minua tympii nähdä miten typeryytesi tuhoaa tämän perheen.
+cutscene_food_feud4                     Tulipalo oli tarkoitettu sinulle.
+cutscene_food_feud5                     Pidä tätä sitten vastapalveluksena.
+cutscene_food_feud6                     Älä esitä pyhimystä. Tiedämme kumpikin, että aioit tappaa minut joku päivä.
+cutscene_food_feud7                     Joo, sinähän se olitkin aina niin fiksu, Nico. Ja katso mitä siitä seurasi. Älä pelkää, et tunne mitään.
+cutscene_food_feud8                     Minähän käskin sinua pitämään varasi.
+cutscene_food_feud8b                    euuegggghhhh!!!!!.....
+cutscene_food_feud8c                    AAARRRGGRGGGGGG!!!!
+cutscene_food_feud8d                    Oletko tavannut Frankya aiemmin? Hän on tosi taitava pianonkielen käyttäjä.
+cutscene_food_feud8e                    Ihan oikeasti, kun hän on hoitanut hommansa, tätä pidetään itsemurhana.
+cutscene_food_feud9                     Tämä ei ole ohi, Nico.
+cutscene_food_feud9b                    Et voi olla tosissasi.
+
+cutscene_food_successionintro			Oikein hyvä. Tilanne on paljon parempi ja luulen, että vankila on taas hallinnassamme.
+cutscene_food_successionintro2 			Voit jäädä parantelemaan vankilaa vielä lisää, tai voimme siirtyä seuraavaan paikkaan.
+cutscene_food_successionintro3 			Kun olet valmis jatkamaan, klikkaa sairastuvan valokuvaa.
+
+objective_food_runending 				Kun olet valmis, jatka klikkaamalla sairastuvan valokuvaa.
+objective_food_runending_description	Sairastupa on vankilan lounasosassa.
+
+cutscene_food_succession1				Vitalia! 
+cutscene_food_succession1b				...?
+cutscene_food_succession2				Kultaseni!
+cutscene_food_succession3				Anna anteeksi. Minä mokasin.
+cutscene_food_succession4				Älä nyt.
+cutscene_food_succession5				Don ei kuulemma elä viikkoakaan.
+cutscene_food_succession6				Tiedän. Tulin sanomaan hyvästit.
+cutscene_food_succession7				Voisimme vain lähteä pois. Sinä ja minä. Tämä hemmetin elämä on vienyt meiltä kaiken.
+cutscene_food_succession8				Se olisi mukavaa.
+cutscene_food_succession9				Mutta en voi. Olen Palermo, Nico.
+cutscene_food_succession10				Kun isä on poissa ja sinä olisit hänen paikallaan ulkopuolisena... vihollisemme jyräisivät koko perheen.
+cutscene_food_succession11 				En voi sallia sitä. Minun on näytettävä kaikille, että valta on yhä Palermon käsissä.
+cutscene_food_succession12				Siis mitä vittua, aiotko muka listiä minut? Kaiken kokemamme jälkeen?
+cutscene_food_succession13				Nico, Nico, Nico. Olet niin vanhanaikainen.
+cutscene_food_succession14 				Ei, kultaseni. Otan sinusta avioeron.
+cutscene_food_succession15				Mitä vittua? Vitsailetko? Olen vainaa tässä paikassa, jos perhe ei ole tukenani.
+cutscene_food_succession16				Tiedän, kultaseni. Mutta se ei ole enää minun murheeni.
+cutscene_food_succession17				Toivottavasti pääset parempaan paikkaan, isukki.
+cutscene_food_succession18				Hyvästi, Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    G.A.B.O.S
+campaignchapter_riot_description		Alchemicon osavaltion vankilassa on meneillään mellakka. Mene sinne ja rauhoita tilanne.
+
+campaigncutscene_riotintro              Tuoreimmat uutiset
+
+adviser_riot_newsintro_01				Tuoreimmat uutiset!
+adviser_riot_newsintro_02				Mellakka Alchemicon osavaltion vankilassa - henkilökunta ja vartijat ovat perääntyneet odottamaan armeijan saapumista.
+adviser_riot_newsintro_1				Osa henkilökunnasta on yhä kateissa, mm. yhtiön johtaja Charles Wallace.
+adviser_riot_newsintro_2				Mellakointi alkoi useiden korkean profiilin tuomareiden pidättämisen jälkeen ...
+adviser_riot_newsintro_3				... sillä heidän väitetään ottaneen lahjuksia vastineeksi kovemmista vankilatuomioista.
+adviser_riot_newsintro_4				Bensaa liekkeihin lisää se, että lähteidemme mukaan rikollismaailmaa on ravistellut sarja korkean profiilin murhia ...
+adviser_riot_newsintro_5				... sekä mafiapomo Victor Palermon murhayritys viime kuussa.
+adviser_riot_newsintro_6				Toimitusjohtaja Charles Wallacen apulainen, suhteellisen uusi tulokas, on saanut tehtäväkseen järjestyksen palauttamisen.
+adviser_riot_newsintro_7				Jää nähtäväksi koituuko kokemattomuus kalliiksi tässä vaikeassa kriisissä.
+adviser_riot_newsintro_8                Elinkautisvanki Douglas Benedictin uskotaan olevan puhjenneiden väkivaltaisuuksien takana.
+
+adviser_riot_newsintroheller_1 			Pormestari Calvin Heller julkaisi tämän lausunnon hetki sitten.
+adviser_riot_newsintroheller_2 			Tämän pitäisi olla vakava muistutus niille, jotka epäilevät rangaistuskäytäntöjämme.
+adviser_riot_newsintroheller_3 			Nämä miehet saavat ruokaa ja katon päänsä päälle. He saavat tehdä palkallista työtä.
+adviser_riot_newsintroheller_4 			Ja näin he kiittävät veronmaksajia, jotka tarjoavat nämä mukavuudet.
+
+campaigncutscene_riothostages			Panttivangit
+adviser_name_riotceo					Johtaja
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Kuunnelkaa. Meillä on teidän pomonne.
+adviser_riot_hostages1b 				Ööögg.... ...
+adviser_riot_hostages2 					Homma toimii näin. Minä pyydän. Te annatte.
+adviser_riot_hostages3					Jos tulee ongelmia, lähetätte tänne jonkun tai edes haistan kyttiä, pistän kuulan hänen kalloonsa.
+adviser_riot_hostages4 					Me halutaan merkkaamaton ajopeli. Tummennetut ikkunat. Täysi tankki. Tunti aikaa. Otan taas yhteyttä.
+adviser_riot_hostages5 					No niin, mihin jäimmekään?
+adviser_riot_hostages5b					Mitä teit siellä toimistossa?
+adviser_riot_hostages6					Vannon, etten tiedä mitään.
+adviser_riot_hostages7					Oma peilikuvani on opettanut minut tunnistamaan väärintekijän.
+adviser_riot_hostages8					Mitä sinä piilottelit?
+adviser_riot_hostages9					Minä kuulun tänne. Mutta se poika... Mitä se muka ketään hyödyttää, että se poika istuu pidempään?
+adviser_riot_hostages10					Sinä tiedät jotakin, ja pääset täältä hengissä vain kertomalla sen minulle.
+
+adviser_riot_hostageheller1 			Tämä ei käy laatuun. Meidän on nähtävä mitä ruokalassa tapahtuu.
+adviser_riot_hostageheller2 			Ruokalan pohjoispuolella on pieni vartiointihuone. Meidän on otettava se haltuumme.
+adviser_riot_hostageheller3 			Lähetä vartijoita miehittämään turvakamerakonsolia, niin voimme nähdä koko selliosaston.
+
+objective_Riot_MaxSecCameras			Valtaa turvahuone
+
+campaigncutscene_riotroulette			Rulettia
+
+adviser_riot_rouletteintro1             Saimme vartijan turvahuoneeseen, joten saamme suoraa kuvaa turvakameroista.
+adviser_riot_rouletteintro2             Katsotaan panttivankitilanne.
+adviser_riot_click 						<klik>
+adviser_riot_roulette1					Viimeinen tilaisuus kävellä ulos täältä, pomomies. Oletko koskaan pelannut kahden pallon hippaa?
+adviser_riot_roulette2 					Kaksi luotia. Neljä tyhjää pesää.
+adviser_riot_roulette2b 				Pelasimme tätä Jackrabbitien kanssa. Ammuimme niiltä aivot pellolle.
+adviser_riot_roulette3 					Mutta sinä kelpaat ihan yhtä hyvin.
+adviser_riot_roulette4 					Aloitetaan simppelillä kysymyksellä. Mitä teit siellä toimistossa?
+adviser_riot_roulette5 					Vannon, etten tiedä mitään.
+adviser_riot_roulette5b 				Niinkö?
+adviser_riot_roulette6 					Hyvä on. Kuka aloittaa? Sinä? Minä? Miten olisi tämä kaveri?
+adviser_riot_roulette7					Kappas vain. Aivan kuin Jackrabbit.
+adviser_riot_roulette8 					MITÄ NIISSÄ KANSIOISSA OLI?
+adviser_riot_roulette9 					Vannon, etten tiedä!
+adviser_riot_roulette10 				Tuurisi käy vähiin. Tässä on yhä yksi luoti jossain. Ja minä tiedän mitä näin.
+adviser_riot_roulette11b 				En ollut uskoa silmiäni.
+adviser_riot_roulette11c 				Firman iso mies itse, täällä minun vankilassani. Ihan vitun syyllisen näköisenä.
+adviser_riot_roulette11d 				Veikkaan, että kansioissa oli muutakin kuin minun rikosrekisterini.
+adviser_riot_roulette11					Ei. Älä...
+adviser_riot_roulette11e 				Mahkut käyvät vähiin, Wallace.
+adviser_riot_roulette12 				Kuule, teen tämän sinulle helpommaksi.
+adviser_riot_roulette12b	 			Hyvä on, jo riittää pelleily.
+adviser_riot_roulette13 				Sinä olet seuraava, kusipää. Ellet heti kerro minulle mitä haluan tietää.
+adviser_riot_roulette14 				En voi. Älä...
+adviser_riot_roulette15 				Hyvä on. Ole kiltti. Älä ammu. Tein sen rahan takia. Ihan vain rahasta.
+adviser_riot_roulette16 				Siinäkö se?
+adviser_riot_roulette17 				Olette arvokasta kauppatavaraa. Mitä pidempään olette täällä, sitä enemmän me tienaamme. Me vain kiersimme sääntöjä pikkuisen.
+adviser_riot_roulette17b				Siinä kansiossa oli todisteet siitä.
+adviser_riot_roulette18 				Minkä arvoisia me sitten olemme? Paljonko saat siitä, että pidät meidät täällä?
+adviser_riot_roulette19 				73 000 dollaria vuodessa.
+adviser_riot_roulette20					Jokaisesta? Saamarin paskiainen. Sinun on aika maksaa vähän takaisinkin.
+
+campaigncutscene_riotassault 			Läpimurto
+
+adviser_riot_assault01					No niin. On aika tehdä tästä tilanteesta loppu.
+adviser_riot_assault02 					Tiimi on asemissa.
+adviser_riot_assault03					Haluan menopelini nyt. Wallace tulee mukaan. Jos meitä seurataan, saatte kaapia hänet irti maantiestä.
+adviser_riot_assault2 					No niin, pomomies. Sinä tulet mukaamme. Ne eivät ota typeriä riskejä, kun sinä istut pelkääjän paikalla.
+adviser_riot_assault3 					Kukaan meistä ei pääse täältä elävänä. Eivät ne sinua halua.
+adviser_riot_assault4 					Mitä meinaat?
+adviser_riot_assault5					Minä tein sen rahasta. Mutta HÄN teki sen poliittisista syistä. Mitä pidempiä tuomiot olivat, sitä enemmän hän sai ääniä.
+adviser_riot_assault6					Kenestä sinä oikein puhut?
+adviser_riot_assault7					Pormestari Helleristä. Suunnitelma oli hänen. Minä vain voitelin rattaat.
+adviser_riot_assault7b 					Ne kansiot olivat todisteita, jotka olisivat voineet tuhota hänen uransa.
+adviser_riot_assault8					Yrität kusettaa.
+adviser_riot_assault9 					Mitä vittua...
+adviser_riot_assault9b					Ne tulevat! Olkaa valmiina!
+adviser_riot_assault10					MINÄHÄN VITTU VAROITIN!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				Neuvottelija
+
+adviser_riot_negotiator1 				Täällä on täysi kaaos. Tilanne ei ole kenenkään hallinnassa.
+adviser_riot_negotiator2 				Kuolleita on useita, eivätkä loput vartijat suostu menemään mellakoiviin selliosastoihin. Jouduimme vetäytymään.
+adviser_riot_negotiator3 				Yritä keksiä jotakin ja tee tästä loppu, ennen kuin koko homma karkaa käsistä.
+adviser_riot_negotiator4 				Mellakkapoliisien pitäisi saapua parissa minuutissa.
+
+adviser_riot_firstreinforcements1 		Ensimmäinen vasteryhmä on saapunut.
+adviser_riot_firstreinforcements2 	 	He ovat mellakkapoliiseja ja heillä on paljon raskaampi varustus. Valtaa vankilan siipiä takaisin heidän avullaan.
+adviser_riot_firstreinforcements3 		Paikalla on myös läheisestä osavaltion sairaalasta tulleita ensihoitajia.
+adviser_riot_firstreinforcements4 		Ehdotan, että käytät heitä antamaan ensiapua mellakkapoliiseille, kun he valtaavat vankilaa takaisin.
+
+objective_Riot_StopTheRiot 				Tee loppu mellakasta
+objective_Riot_StopTheRiot_description  Tilanne ei ole kenenkään hallussa. Koeta keksiä jotakin.
+
+adviser_riot_helleradvice1				Oletan, että puhun nyt apulaisjohtajan kanssa.
+adviser_riot_helleradvice2 				Ymmärrän, että tämä hyvin vaikea tilanne ja olemme kaikki silmätikkuina tässä. Vakuutan, että annan täyden tukeni ja kaikki mahdolliset resurssit .
+adviser_riot_deployguards1				Olemme saaneet jalansijaa ja vallanneet osan vankilasta takaisin. Ihmishenkien menetys on toistaiseksi täysin perusteltavissa.
+adviser_riot_deployguards2				Mutta ennen kuin jatkamme ja valtaamme loputkin vankilasta, sinun pitäisi varmistaa valtaamasi siivet.
+adviser_riot_deployguards3				Palkkaa vartijoita ja sijoita heidät vallatuille alueille Asemointi-ruudulla. He varmistavat, että vallatut siivet pysyvät hallussamme.
+adviser_riot_deployguards4 				Kun olet tehnyt sen, jatka jäljellä oleville alueille ja nujerra ne penteleet. Näitä elukoita ei voi sopeuttaa. Eikä heidän kanssaan voi neuvotella.
+adviser_riot_deployguards5 				Yritän järjestää luvan aseistetulle vasteryhmälle, joka tekee tästä lopun nopeasti.
+
+adviser_riot_infirmary1 				Haavoittuneita on ympäri vankilaa ja lisää tulee varmasti. Et voi antaa heidän vuotaa kuiviin.
+adviser_riot_infirmary2 				Rakenna jonnekin sairastupa ja palkkaa lääkäreitä hoitamaan haavoittuneita.
+adviser_riot_infirmary3 				Myös ruumiita on aika paljon. Säällisyyden nimissä meidän pitää rakentaa ruumishuone, jonne ruumiit kerätään.
+adviser_riot_infirmary4					Sinun pitää palkata työmiehiä rakennushommiin. Muista pitää heidät turvassa.
+
+objective_Riot_ResecureWings 			Palkkaa vartijoita ja sijoita heidät takaisin vallatuille alueille
+objective_riot_medicalneeds				(VALINNAINEN) Huolehdi vankilasi terveydenhuoltotarpeista
+objective_Riot_Infirmary				(VALINNAINEN) Rakenna sairastupa ja hoida haavoittuneet
+objective_Riot_Morgue 					(VALINNAINEN) Rakenna ruumishuone ja kerää ruumiit
+objective_Riot_SecureGenPop				Valtaa yleissiipi takaisin (keskialue)
+objective_Riot_SecureSpecialWing		Valtaa erikoissiipi takaisin (länsialue)
+objective_Riot_SecureMaxSec				Valtaa huippuvartioitu siipi takaisin (eteläalue)
+objective_riot_putoutfires				Ota tulipalo hallintaan
+
+adviser_riot_secondreinforcements1		Paikalle on saapunut lisää mellakkapoliiseja.
+
+adviser_riot_armedreinforcements1		Pormestari on lähettänyt aseistettuja poliiseja läheiseltä poliisiasemalta.
+adviser_riot_armedreinforcements2		Ole varovainen heidän kanssaan. Tästä voi tulla verilöyly, jos päästät heidät riehumaan.
+adviser_riot_armedreinforcements3		Toisaalta vangit saattavat myös antautua, kun he näkevät näiden tyyppien tulevan.
+
+adviser_riot_reinforcementsunlocked1 	Vahvistusten pääjoukko on saapunut.
+adviser_riot_reinforcementsunlocked2 	Nyt voit kutsua Hätätilanne-työkalupalkista niin monta mellakkapoliisi- ja ensihoitajaryhmää kuin tarvitset.
+
+adviser_riot_cleanup1                   Vankila on hallinnassa ja mellakoivat on taltutettu. Tässä olisi helposti voinut käydä pahemminkin.
+adviser_riot_cleanup2                   Nyt meillä on edessä hemmetinmoinen siivousurakka. Olisin kiitollinen avustasi, jos sinulla on aikaa.
+adviser_riot_cleanup2b 					Meillä ei ole rakennusurakoitsijoita paikalla, joten sinun pitää ensin palkata uusia työmiehiä korjaamaan paikkaa.
+adviser_riot_cleanup3                   Minusta turvatoimet ovat aina olleet liian löysiä täällä. Nämä vangit ovat saaneet liikaa vapauksia liian pitkään. Se loppuu nyt.
+adviser_riot_cleanup4                   Rakenna meille uusi asevarasto ja sijoita aseistettuja vartijoita avainasemiin ympäri vankilaa. Heidän näkemisensä lannistaa vangit ja he harkitsevat tarkkaan ennen kuin alkavat taas rettelöidä tällä tavalla.
+adviser_riot_cleanup5                   Hyväksyn myös varat suojusten hankkimiseksi kaikille vartijoille. Miestemme täytyy pystyä puolustamaan itseään.
+adviser_riot_cleanup6                   Vangit tarvitsevat kurinpitoa. Järjestystä elämään. Ehdotan, että pistämme heidät siivoamaan aiheuttamansa sotkun.
+adviser_riot_cleanup7                   Aloitetaan työohjelma vangeille. Pannan heidät siivoamaan vankilaa ja pesemään pyykkiä.
+adviser_riot_cleanup7b                  Voit sijoittaa vankeja töihin työkalupalkin kohdasta Logistiikka. Korosta tavoite, niin saat tarkemmat ohjeet.
+adviser_riot_cleanup8                   On vielä muitakin puutteita. Useita vankeja täytyy läksyttää vaikeimman kautta. Rakenna eristyssiipi.
+adviser_riot_cleanup8b                  Vartijat huolehtivat vankien siirtämisestä eristykseen tarvittaessa. Eristyksen aikana vanki voi miettiä tekojaan ja samalla se on muistutus siitä kuka täällä oikein määrää.
+adviser_riot_cleanup9                   Eikä unohdeta henkilökuntaa, joka kesti tämän koettelemuksen kanssamme. He ovat uupuneita.
+adviser_riot_cleanup9b 					Rakenna jonnekin taukohuone, jotta he voivat levätä.
+adviser_riot_cleanup10                  Ja kaikki tämä on vielä budjetoitava. Pidä huoli, että saldo ja käteisvirta pysyvät plussalla.
+adviser_riot_cleanup10b 				Vankityövoima tulee paljon halvemmaksi kuin alihankkijat, kun puhutaan siivoamisesta, vahtimestarin hommista, pyykinpesusta ja sen sellaisesta.
+adviser_riot_cleanup11                  Täällä on paljon tehtävää. Arvostamme kovasti apuasi.
+adviser_riot_cleanup12                  Kun sinusta tuntuu, että olet tehnyt tarpeeksi ja olet valmis jatkamaan, klikkaa pääportin valokuvaa.
+
+adviser_riot_cleanup13 					Erinomaista työtä. Tämä laitos alkaa vaikuttaa paljon turvallisemmalta.
+
+objective_riot_solitary 				(VALINNAINEN) Rakenna eristyssiipi ja ala rangaista mellakoijia
+objective_riot_armoury 					(VALINNAINEN) Ota käyttöön uudet turvakäytännöt
+objective_riot_armoury_research			Avaa asevarasto Byrokratiasta
+objective_riot_armoury_build 			Rakenna asevarasto (varmaan paikkaan)
+objective_riot_armoury_deploy			Sijoita aseistettuja vartijoita huippuvartioituun siipeen
+objective_riot_armoury_armour 			Avaa suojukset koko turvahenkilöstölle
+objective_riot_armoury_tazers 			Avaa sähkölamauttimet aseistetuille vartijoille
+objective_riot_staffroom 				(VALINNAINEN) Rakenna taukohuone väsyneelle henkilökunnallesi
+objective_riot_balancebooks 			(VALINNAINEN) Tasaa tilit
+objective_riot_balancebooks_balance 	Pidä saldo plussalla
+objective_riot_balancebooks_cashflow 	Pidä käteisvirta plussalla
+objective_riot_prisonerwork				(VALINNAINEN) Aloita pakkotyöohjelma
+
+objective_riot_cleaningcupboard			Rakenna siivouskomero
+objective_riot_laundry					Rakenna pyykkihuone
+objective_riot_inmatesincleaning 		Sijoita vankeja töihin siivoamaan
+objective_riot_inmatesinlaundry			Sijoita vankeja töihin pyykkiä pesemään
+objective_riot_cleanprison 				Siivoa vankila
+objective_riot_providelaundry			Pese pyykki
+
+objective_riot_armoury_research_description		Byrokratia-kuvake on tämän tehtävälistan yläpuolella. Klikkaa sitä aloittaaksesi asevaraston rakentamisen - turvallisuuspäällikkösi hoitaa paperityöt.
+objective_riot_armoury_deploy_description       Voit sijoittaa aseistettuja vartijoita Asemoinnin kohdasta "Aseistetut partiot". Piirrä partioreitit haluamiisi paikkoihin klikkaamalla ja vetämällä, ja klikkaa niitä uudelleen sijoittaaksesi niihin aseistettuja vartijoita.
+objective_riot_armoury_guardtazers_description  Katso kohtaa Raportit / Ohjelmat - siellä on "Vartijoiden lamautinkoulutus".\n\nVartijasi pitää kouluttaa ennen kuin he voivat käyttää sähkölamauttimia. Koulutusta varten sinun on rakennettava luokkahuone.
+objective_riot_prisonerwork_description         Voit sijoittaa vankeja töihin Logistiikan kohdasta "Vankityövoima". Voit lisätä vihreällä korostettuihin huoneisiin työpaikkoja klikkaamalla.\n\nSinun on myös määritettävä vankien työaika. Mene kohtaan Raportit / Aikataulu, ja lisää päivään useita työtunteja. Vangit tekevät töitä, jos työaikana on vapaita työpaikkoja.
+
+objective_Riot_PlayerExitsMap			Klikkaa pääsisäänkäynnin ulkopuolella olevaa valokuvaa, kun olet valmis.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Ryöstö
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   Perhettä tapaamassa
+campaigncutscene_convictionsuicide      Itsemurha
+
+campaignchapter_conviction              Tuomio
+campaignchapter_conviction_description  Yksi vangeistamme on asetettu itsemurhatarkkailuun. Henry Morgan, Benedictin rikoskumppani. Istunut 13 kuukautta viiden vuoden tuomiosta. Auta meitä huolehtimaan näistä miehistä.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senaattori Walter Hurst
+adviser_name_detective                  Konstaapeli
+adviser_name_kerry 						Kerry Morgan 
+adviser_name_hurst 						Tohtori Walter Hurst 
+adviser_name_keane 						Konstaapeli Keane 
+
+adviser_conviction_heist1               Ota rahat, ääliö.
+adviser_conviction_heist2               Pudottakaa aseenne, nyt heti!
+adviser_conviction_heist2b				Voi paska!
+adviser_conviction_heist3               Ammu, hitto!
+adviser_conviction_heist4               Mitä hittoa sinä odotat? Ammu, vitun nössö!
+adviser_conviction_heist6               Saatanan paskiaiset!
+adviser_conviction_heist7               Älkää ampuko! Älkää ampuko!
+adviser_conviction_heist8               KÄDET YLÖS, KUSIPÄÄT!
+adviser_conviction_heist9               Te täsmälleen kuten minäkin, tajuatko?
+adviser_conviction_heist10              Hitto, hitto, HITTO!
+adviser_conviction_heist11              Älkää ampuko! ÄLKÄÄ AMPUKO!
+
+conviction_intro_1                      Alchemicon osavaltion vankilan äskettäisen tragedian jälkeen olemme kaikki tarkan poliittisen tarkastelun alaisia.
+conviction_intro_2                      Haluan, että sinä otat ohjat siihen asti, että löydämme uuden vakituisen toimitusjohtajan.
+conviction_intro_3                      Tässä laitoksessa on tehty useita itsemurhia viime aikoina, ja syykin on aika selvä. Mutta meillä on kiireellisempikin ongelma.
+conviction_intro_4                      Vallanpitäjät ovat päättäneet lähettää meille ison joukon uusia vankeja. Ensimmäiset saapuvat huomenna, eikä meillä ole heille mitään paikkaa.
+conviction_intro_5                      Rakenna meille uusi selliosasto, johon uudet tulokkaat mahtuvat.
+conviction_intro_5b 					Merkitsin ehdotelmani uudeksi selliosastoksi tähän. Tähän pitäisi mahtua tarpeeksi uusia sellejä koko tulokasjoukolle ja ehdotelma sisältää tilat myös suihkuille.
+conviction_intro_5c 					Mutta sinä päätät noudatatko tätä suunnitelmaa vai teetkö jotain ihan muuta.
+conviction_intro_6                      Minun tehtäväni on huolehtia näiden miesten hyvinvoinnista. Rakenna ensin se uusi selliosasto, niin puhutaan sitten siitä.
+
+unused_conviction_intro_4                      Yksi vangeistamme on itsemurhatarkkailussa. Henry Morgan. Hän on istunut 13 kuukautta viiden vuoden tuomiosta.
+unused_conviction_intro_7						Haluan mennä puhumaan hänelle. Emme kaipaa lisää itsemurhia.
+
+conviction_workintro1                   Näitä miehiä on kohdeltu kurjasti liian kauan. Se loppuu nyt.
+conviction_workintro2                   Edellinen johtaja ei uskonut sopeuttavaan vankilaan. Mutta minusta meidän pitää tarjota näille miehille jonkinlaista toivoa tulevaisuudesta.
+conviction_workintro3                   Meidän on opetettava heille taitoja, joiden turvin he voivat pärjätä vapauduttuaan - arvokkaita ammattitaitoja ja peruskoulutus.
+conviction_workintro4                   Aloitetaan oppisopimusohjelma. Opetetaan miehille todellisia taitoja, jotta heillä on jonkinlainen tulevaisuus, jota odottaa.
+
+
+conviction_hurst1 						Tämän laitoksen taso on järkyttävä. Miehiltä on viety ihmisyyden viimeiset rippeetkin.
+conviction_hurst2 						Heille ei osoiteta myötätuntoa tai kunnioitusta. Ei heidän voi olettaa vastaavan mitenkään muuten kuin äärimmäisen negatiivisesti.
+conviction_hurst3 						Eivät nämä miehet sellaista ansaitse.
+conviction_hurst4 						Aivan, kapteeni. Ei ihmisiä voi näin kohdella. Heiltä on viety ihmisyyden rippeetkin.
+conviction_hurst4b 						Miksi he noudattaisivat sääntöjämme? Ei heidän voi odottaa vastaavan muuten kuin vihalla.
+conviction_hurst4c						Meidän on autettava näitä miehiä. Tarvitaan luokkahuoneita, vieroitusohjelmia... Verstas, jossa he voivat tehdä työtä, josta voi olla ylpeä.
+conviction_hurst6 						Ymmärsitte väärin, tohtori. Nämä miehet eivät ole ihmisiä. Katsokaa itse.
+conviction_hurst6b 						Rangaistusvanki Morgan! Herätys!
+conviction_hurst7 						Ylös, Morgan. Sait vieraan.
+conviction_hurst8 						Sopeuttamistako? Sama jos yrittäisi opettaa apinaa soittamaan banjoa.
+
+conviction_hurst10 						Mikä on nimesi, poika?
+conviction_hurst10b                     Hän esitti sinulle kysymyksen.
+conviction_hurst11 						Henry, sir.
+conviction_hurst12 						Siellä alhaalla on varmaan viileää, Henry.
+conviction_hurst13 						Sängyssä on täitä, sir. Ne syövät minut elävältä. Paita pitää rotat loitolla. Isoimpia koskaan näkemiäni.
+conviction_hurst14 						Sano minua Walteriksi.
+conviction_hurst15 						Miten olet nukkunut?
+conviction_hurst16 						En minä nuku. Täällä ei voi kuin ajatella asioita. Paljon aikaa ajatella...
+conviction_hurst16b                     Mitä sinä ajattelet?
+conviction_hurst16c                     Kuolemista enimmäkseen. Ja pientä tytärtäni.
+conviction_hurst17 						Ole vahva hänen vuokseen, Henry. Tämä on vaikeaa hänellekin.
+conviction_hurst18 						Olen ollut telkien takana koko hänen ikänsä. Tyttö ei edes tiedä minusta.
+conviction_hurst19 						Koskaan ei ole liian myöhäistä muuttaa elämää, Henry.
+conviction_hurst19b 					Haluaisin tulla katsomaan sinua toistekin, jos sopii.
+conviction_hurst20 						Sopii se, sir. Kiitos, sir.
+conviction_hurst21 						Voimme tehdä rotille jotakin? Ei tämä sentään mikään kehitysmaa ole.
+conviction_hurst22 						Levitän sinne rotanmyrkkyä.
+
+conviction_visitationintro_1            Suostuttelin päällikön tekemään poikkeuksen Morganin perhevierailujen suhteen.
+
+conviction_visitation_0					Päivää. Olen Kerry Morgan, tulin tapaamaan Henry Morgania.
+conviction_visitation_1					Viivan taakse.
+conviction_visitation_2 				Anteeksi. Tulin tapaamaan Henryä. Henry Morgania. Hän on mieheni.
+conviction_visitation_3 				En sano enää toiste. Viivan taakse. Nyt heti.
+conviction_visitation_4 				Selvä. Anteeksi.
+conviction_visitation_5 				Hyvä on. Tulkaa tänne. Ei tässä koko päivää ole aikaa.
+conviction_visitation_6					Nimi.
+conviction_visitation_7					Kerry Morgan. Tulin tapaamaan Henry Morgania. Ja tämä on hänen pieni tyttärensä.
+conviction_visitation_8					Senkö tulitte kertomaan hänelle? Menkää vain.
+conviction_visitation_8a                Kerry!
+conviction_visitation_9					Tässä on tapahtunut jokin erehdys. Morgan on menettänyt vierailijaoikeutensa.
+conviction_visitation_9b 				Mitä?
+conviction_visitation_9c 				Valitan. Löysimme tänä aamuna viinaa hänen sellistään. En voi tehdä mitään.
+conviction_visitation_10				Tänne oli kahden tunnin matka. Tyttäreni itkee. Tämä ei ole reilua.
+conviction_visitation_11				Jos reilua kaipaatte, menkää Suomeen. Siellä on kuulemma reilu meininki, täällä ei.
+conviction_visitation_12				Olkaa kiltti ja antakaa hänelle tämä.
+conviction_visitation_13                Selvähän se. Hän ei saa nähdä vieraita pitkään aikaan. Jätättekö viestiä?
+conviction_visitation_14                En. Ei viestiä.
+
+conviction_visitation_angrymorgan0		Ei!
+conviction_visitation_angrymorgan1		Odottakaa!
+conviction_visitation_angrymorgan2		Ette voi tehdä tätä!
+conviction_visitation_angrymorgan3		Antakaa minun puhua hänelle!
+conviction_visitation_angrymorgan4		Saatanan paskiaiset!
+
+conviction_helpinmates_1                Mikä pettymys.
+conviction_helpinmates_2                On niin vaikeaa keksiä keinoja auttaa näitä miehiä oikeasti. Heidät on opetettava auttamaan itse itseään.
+conviction_helpinmates_3                On selvää, että vierailutilojen ongelma on ratkaistava. Perheet jonottavat pihalla asti, eivätkä tilamme riitä tälle vierailijamäärälle.
+conviction_helpinmates_4                Rakenna uudet vierailutilat. Morganin kohtalosta huolimatta uskon, että vaikutus on positiivinen. Eikä hän ole ainoa vanki, jolla on perhettä.
+conviction_helpinmates_5                Olen tutkinut asiaa ja hämmästyksekseni sain huomata, että monella vangilla on vain alkeelliset taidot matematiikassa ja lukemisessa. Tilanne on korjattava.
+conviction_helpinmates_6                Avaa uusi luokkahuone ja kutsutaan ulkopuolisia opettajia opettamaan perusasioita. Ilman koulutusta näillä vangeilla ei ole edessään muuta kuin rikollinen elämä.
+conviction_helpinmates_7                Ja meidän on pysyttävä vankivirran tasalla. Laajenna tiloja, jotta jokaisella vangilla olisi kunnollinen selli.
+
+conviction_outro1                       Minusta olemme saaneet aikaan suuren muutoksen. Annoimme vangeille jotakin, jonka eteen ponnistella ja syyn jatkaa elämää.
+conviction_outro2                       Voit jäädä auttamaan meitä ensimmäisen vankiryhmän kouluttamisessa ja ammattiin opettamisessa, jos haluat.
+conviction_outro3                       Mutta pärjäämme kyllä itsekin. Kun olet valmis lähtemään, klikkaa Morganin sellissä olevaa valokuvaa.
+
+conviction_secondvisit_1                Toivoin näkeväni sinut jossakin sessiossani.
+conviction_secondvisit_2                En pysty siihen. En voi jäädä tähän läävään enää hetkeksikään.
+conviction_secondvisit_3                Ota päivä kerrallaan.
+conviction_secondvisit_4                Tarkoitan koko tätä paikkaa. Täällä. Tai tuolla. Ne eivät anna minun tavata perhettäni. Minä mokasin, eikä se asia muutu miksikään.
+conviction_secondvisit_5                Henry, kaikki järjestyy. Minä olen rinnallasi.
+conviction_secondvisit_6                Hassua. Hän sanoi aivan samaa.
+conviction_secondvisit_7                Kuka, Henry? Voit kertoa minulle.
+conviction_secondvisit_8                Hän piti minusta huolta.
+conviction_secondvisit_9                Aina siitä asti, kun olimme lapsia.
+conviction_secondvisit_10               Pidä ittes kasassa, poju. Tapahtuipa mitä tahansa.
+conviction_secondvisit_11               Minä olen rinnallasi.
+conviction_secondvisit_11b 				Rinnallani?
+conviction_secondvisit_12               Eipä ole enää.
+conviction_secondvisit_13               Tehdään sopimus. Tule seuraavaan ryhmääni, niin koetan järjestää sinulle tapaamisoikeuden.
+conviction_secondvisit_14               Tekisittekö sen vuokseni?
+conviction_secondvisit_15               En vain sinun vuoksesi, Henry.
+
+conviction_suicide_1 					Anteeksi, sir, mutta arvelin, että teidän on syytä kuulla tämä. On tapahtunut itsemurha.
+conviction_suicide_2					Näyttää siltä, että yksi vangeista söi rotanmyrkkyä.
+conviction_suicide_3					Tohtori Hurst on matkalla sinne vahvistamaan kuoleman.
+conviction_suicide_4					Eikö hän olekin kaunein näkemäsi asia?
+conviction_suicide_5					Saattaa hyvinkin olla.
+conviction_suicide_6					Ei ole koskaan liian myöhäistä muuttaa elämää, sir.
+
+objective_conviction_expandcapacity50			Hoida uusien vankien sisäänotto
+objective_conviction_expandcapacity50_description	Voit nähdä uuden selliosaston mahdollisen pohjakuvan päätyökalupalkin kohdasta "Suunnittelu".
+objective_conviction_expandcapacity_cells	 	Rakenna sellit 40 vangille
+objective_conviction_expandcapacity_shower		Rakenna suihkutilat
+objective_conviction_expandcapacity_yard		Rakenna piha
+objective_conviction_expandcapacity_intake		Odota seuraavaa vankiryhmää
+
+objective_conviction_workprogram 				Käynnistä ammatitaitojen opetusohjelma
+objective_conviction_unlocklabour				Anna lupa vankityövoiman käyttöön Byrokratian kautta
+objective_conviction_work_trainkitchen			(VALINNAINEN) Kouluta 5 vankia keittiöturvallisuudessa ja hygieniassa
+objective_conviction_work_kitchen				Määrää vankeja keittiöön töihin
+objective_conviction_work_workshop				Rakenna työpaja
+objective_conviction_work_trainworkshop			(VALINNAINEN)  Laita 10 vankia työpajan turvallisuuskoulutukseen
+objective_conviction_work_assignworkshop		Määrää vankeja työpajalle töihin
+objective_conviction_work_produceplates			(VALINNAINEN) Valmista 100 rekisterikilpeä
+objective_conviction_work_exportszone			Määritä vientialue tien lähelle
+objective_conviction_work_setintake             Aseta vankien sisäänsyöttötaso 10:een
+
+objective_conviction_unlocklabour_description	Byrokratia-ruutu löytyy klikkaamalla tämän tehtävälistan yllä olevaa kuvaketta
+objective_conviction_work_kitchen_description	 Määritä keittiö. Voit sijoittaa vankeja töihin Logistiikan kohdasta "Vankityövoima". Voit lisätä vihreällä korostettuihin huoneisiin työpaikkoja klikkaamalla.
+objective_conviction_work_assignworkshop_description 	Voit määrittää vankeja työpajalle kohdasta Logistiikka > Vankityövoima.\n\nVankiesi täytyy läpäistä Työpajan turvallisuuskoulutus ennen kuin he voivat tehdä töitä työpajalla.
+objective_conviction_work_trainkitchen_description 		Koulutus- ja sopeuttamisohjelmat löytyvät oikeasta alakulmasta kohdasta Raportit > Ohjelmat. Vangit osallistuvat ohjelmiin työajallaan.\n\nHuomaa, että sinun täytyy määrittää kaksi tuntia työaikaa Aikataulu-ruudulla, muuten vangeilla ei ole aikaa osallistua koulutusohjelmiin.
+objective_conviction_work_trainworkshop_description 	Koulutus- ja sopeuttamisohjelmat löytyvät oikeasta alakulmasta kohdasta Raportit > Ohjelmat. Vangit osallistuvat ohjelmiin työajallaan.\n\nHuomaa, että sinun täytyy määrittää kaksi tuntia työaikaa Aikataulu-ruudulla, muuten vangeilla ei ole aikaa osallistua koulutusohjelmiin.
+objective_conviction_work_setintake_description         Jotta vankila ei täyttyisi liikaa, mene oikean alakulman kohtaan Raportit > Sisäänotto ja laske taso 10:een <<-painikkeella.
+
+objective_conviction_visitation				Luo parempi vierailupalvelu
+objective_conviction_visitationroom	Rakenna uusi vierailukeskus
+objective_conviction_visitationcount		Tee tilat 20 vangin perheen vierailulle
+objective_conviction_telephones	 			Lisää puhelimia kaikille pihoille
+objective_conviction_mailroom				Rakenna postihuone
+objective_conviction_mailroomwork			Määrää vankeja töihin postihuoneeseen
+
+objective_conviction_mailroomwork_description           Voit määrätä vankeja postihuoneeseen kohdasta Logistiikka > Vankityövoima.
+
+objective_conviction_education				Ala kouluttaa vankejasi
+objective_conviction_unlockeducation		Anna lupa koulutukseen Byrokratian kautta
+objective_conviction_education_classroom	Rakenna luokkahuone
+objective_conviction_education_class 		Avaa ala-astetason opetuskurssi
+objective_conviction_education_learn		(VALINNAINEN) Anna 5 vangille ala-astetason koulutus
+objective_conviction_education_library		Rakenna kirjasto
+objective_conviction_education_librarywork	Määrää vankeja töihin kirjastoon
+objective_conviction_education_chapel		Rakenna kappeli
+objective_conviction_education_spiritual	Avaa hengellisen johdatuksen kurssi
+
+objective_conviction_expandcapacity100			Laajenna vankilan kapasiteettia
+objective_conviction_expandcapacity_cells100	Laajenna kapasiteetti 80 selliin
+objective_conviction_expandcapacity_cells200	(VALINNAINEN) Laajenna kapasiteetti 120 selliin
+
+objective_Conviction_PlayerExitsMap         Klikkaa Morganin sellissä olevaa valokuvaa, kun olet valmis.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Uuteen nousuun
+campaigncutscene_epilogueintro          Vierailu
+campaigncutscene_epilogueoutro          Epilogi
+
+campaignchapter_epilogue_description    Historiallinen vankila on saanut purkutuomion. Käytä kaikkia oppimiasi taitoja rakentaaksesi tilalle täydellisen vankilan.
+
+adviser_name_reporter 					Toimittaja
+
+epilogue_newsintro1 					Tänään CNDC:n uutisissa, erikoisraportti vankiloidemme tilasta.
+epilogue_newsintro2 					On kulunut kaksi vuotta siitä, kun kuuluisa "Alchemicon piiritys" vaatii lukuisia ihmisuhreja, mukaan lukien toimitusjohtaja Charles Wallacen. 
+epilogue_newsintro4 					Tänään haastattelemme johtavia asiantuntijoita, ja kysymme mikä - jos mikään - on muuttunut noista traagisista ajoista.
+epilogue_newsintro5 					Ensiksi siirrymme suoraan lähetykseen yhteen osavaltion vanhimmista vankiloista, joka sai hiljattain purkutuomion.
+epilogue_newsintro6						Nyt suorana, vain CNDC:n uutisissa.
+
+epilogue_reporter1						Kiitos, Sarah. Tässä vankilassa on ollut eräitä maamme pahamaineisimmista rikollisista.
+epilogue_reporter2 						Mutt nyt sen muureja puretaan ja tilalle tullaan rakentamaan uusi vankilakompleksi.
+epilogue_reporter3 						Takanani voitte nähdä, että rakennusryhmät ovat jo täällä ja purkutyöt on aloitettu.
+epilogue_reporter4 						Seurassani on pormestari Calvin Heller. Herra Heller, kiitoksia että ehditte tulla puhumaan kanssamme tänään.
+epilogue_reporter5 						Ilo on minun puolellani.
+
+epilogue_reporter6 						Aiemmin kannatitte voimakkaasti kovempaa ja kurinalaisempaa lähestymistapaa vankeinhoitoasiaan.
+epilogue_reporter6b 					Miksi puratte vankilan, joka on jo pitkään ollut tällaisen rangaistuslaitoksen perikuva?
+epilogue_reporter7 						Sekä vankila että sen toimintatavat ovat vanhentuneet.
+epilogue_reporter8 						Päätimme korvata sen täysin uudenlaisella laitoksella, jonka toimintatavat ovat nykyaikaisemmat.
+epilogue_reporter9						Tämä vankila oli uutisissa pari vuotta sitten yhtenä osavaltion viimeisistä teloituspaikoista.
+epilogue_reporter10 					Kuolemanrangaistusta on jo pitkään yritetty poistaa laista täällä. Kunnioitatteko tätä toivomusta, vai rakennetaanko teloitustilatkin uudelleen?
+epilogue_reporter12 					Sitä harkitaan edelleen. Mutta päätöstä ei tehdä kevyin perustein.
+
+epilogue_reporterend1 					Kiitos, pormestari Heller. Takaisin studioon.
+epilogue_newstransition1 				Nämä ovat CNDC:n uutiset, suora lähetys vankeinhoitojärjestelmämme tilasta.
+epilogue_newstransition2 				Katkon jälkeen seuraamme liittyy tohtori Walter Hurst, vankipsykologian ja kuntouttamisen asiantuntija.
+
+epilogue_parole1 						Eikö vieläkään mitään? Kauanko on jo mennyt?
+epilogue_parole2						Sekosin laskuissa. Ei soittoja. Ei kirjeitä.
+epilogue_parole3 						Valitan, Morgan. Se tuntuu varmaan pahalta. Mutta tämä on mahdollisuutesi. Älä mokaa.
+epilogue_parole4 						Henry. Onnea matkaan.
+epilogue_parole5 						Älä yritä kertoa heille sitä mitä luulet heidän haluavan kuulla.
+epilogue_parole6 						Minun pitää mennä. Olen lähetyksessä minuutin päästä.
+epilogue_parole7                        Pormestari Heller, mikä on oma mielipiteenne?
+epilogue_parole10 						Sehän kävi nopeasti!
+epilogue_parole11 						No?
+epilogue_parole12                       ...
+
+epilogue_outro_1 						Tervetuloa takaisin CNDC:n suoraan erikoisuutislähetykseen pormestari Calvin Hellerin seurassa.
+epilogue_outro_2 						Seuraamme liittyy tohtori Walter Hurst, jota on syytetty huimien summien tuhlaamisesta vankilauudistukseen.
+epilogue_outro_2b 						Tohtori Hurst, uskotteko onnistuneenne?
+epilogue_outro_3						Onnistuneeni? En. En yleisellä tasolla.
+epilogue_outro_4						Uskon, että jokaisessa on kehittymisen varaa. Ja jokaiselle on tarjottava tilaisuus kehittyä.
+epilogue_outro_4b 						Voin sanoa ehdottomalla varmuudella, että olen nähnyt todellista parannusta monien täällä olevien vankien asenteessa ja toiveikkuudessa.
+epilogue_outro_5						Vankeuden pitäisi olla pelote. Sen ei pitäisi olla tilaisuus kehittymiseen tai muutokseen.
+epilogue_outro_6 						Rankaiseminen ja ihmisyyden riistäminen vain lisäävät rikollista käyttäytymistä.
+
+epilogue_outro_7						Me annamme näille miehille arvokkaita taitoja, mutta mikä tärkeintä, myös toivoa.
+epilogue_outro_7b  						Autamme heitä sopeutumaan takaisin yhteiskuntaan ja tekemään osansa sen eteen, kun he vapautuvat.
+epilogue_outro_8						Tavalliset kansalaiset eivät saa ilmaista koulutusta ja taattua työpaikkaa.
+epilogue_outro_8b 						Jätämme rikosten uhrit heitteille ja palkitsemme rikosten tekijöitä.
+epilogue_outro_8c 						Tuhlaamme valtavia summia vain jotta näiden rikollisten itsetunto vähän nousisi.
+epilogue_outro_9						Me voimme muuttaa asioita, vaikka se täytyisi tehdä yksi ihminen kerrallaan.
+epilogue_outro_10						Nämä miehet eivät ole ansainneet vapauttaan.
+epilogue_outro_11						Voit käskeä kujakollia jättämään takapihan linnut rauhaan vaikka sata kertaa, mutta aina se tulee takaisin.
+epilogue_outro_12 						Se on sen luonne.
+
+epilogue_sandbox_1                      Onnitteluni toimitusjohtajan paikasta. Tämä on hieno mahdollisuus. Uusi alku.
+epilogue_sandbox_2                      Saat täyden itsenäisyyden, tai ainakin lähes täyden. Enemmän vankeja. Enemmän rikoksenuusijoita. Edessäsi on kovia haasteita.
+epilogue_sandbox_3						Mitä tulee teloitustiloihin, pura ne. Tai säilytä ne ja käytä niitä. Sinä päätät. Joku muu hoitaa ne tehtävät, jos sinä et tee sitä. 
+epilogue_sandbox_4						Tavoitteiksi saat samat kuin edeltäjäsikin. Enemmän tuottoa, vähemmän rikoksenuusijoita, lisää kapasiteettia.
+epilogue_sandbox_5 						On täysin oma asiasi miten teet sen.
+epilogue_sandbox_5b                     Vielä yksi juttu. Edellinen johtaja Charles Wallace jätti jälkeensä kirjeen, joka hänellä oli tapana antaa kaikille firman uusille vankila-arkkitehdeille.
+epilogue_sandbox_5c                     Hänellä oli siinä hyviä neuvoja. Kannattaa ehkä vilkaista.
+epilogue_sandbox_6						Onnea matkaan!
+
+objective_epilogue_grants				Kerää rahaa apurahoilla
+objective_epilogue_grants_description   Apurahat ovat yksi tärkeimmistä tavoista kerätä rahaa, jota tarvitaan paljon vankilan rakentamiseen.\n\nLöydät useita apurahoja oikean alakulman kohdasta Raportit > Apurahat. Eri tahot tarjoavat varoja vankilan eri osien rakentamiseen.
+
+objective_epilogue_certifiedprison		Rakenna vankila
+objective_epilogue_capacity				Vähintään 100 vankia
+objective_epilogue_bankbalance			Pankkitilillä vähintään 100 000 $
+objective_epilogue_cashflow				Positiivinen käteisvirta
+
+epilogue_outrointro_1                   Olet näköjään päässyt jo hyvään alkuun.
+epilogue_outrointro_2                   Jos olet television lähellä, laita se päälle. Haluan, että näet jotakin.
+
+epilogue_basiccompletion_1 				Olet saavuttanut osavaltion vankilan minimivaatimukset. Saat itse päättää miten tästä jatkat.
+epilogue_basiccompletion_2 				Tässä vaiheessa on sinun ja firmasi asia miten jatkat.
+epilogue_basiccompletion_3 				Pormestarin kansliaa kiinnostaa vain yksi luku, ja se on rikoksenuusijoiden määrä.
+epilogue_basiccompletion_4	 			Jos onnistut vähentämään rikoksenuusijoiden määrää vankiesi joukossa, sitä voi sanoa menestykseksi.
+epilogue_basiccompletion_5 				Tohtori Hurstin kaltaiset uskovat, että se onnistuu vain koulutuksen, sopeuttamisen, taitojen oppimisen ja muun vastaavan kautta.
+epilogue_basiccompletion_6 				Minusta rankaiseminen voi olla aivan yhtä tehokas tapa.
+epilogue_basiccompletion_8 				Mutta sinä päätät. Toivotan oikein paljon onnea!
+
+objective_epilogue_reoffending			(VALINNAINEN) Laske vankilan rikoksenuusijoiden määrää
+objective_epilogue_reoffending_description	Näet rikoksenuusijoiden määrän Vankilan arvosana -ruudulla. Klikkaa vasemmassa yläkulmassa olevaa kuvaketta.
+
+objective_epilogue_reoffending_rate		Vähennä rikoksenuusijoiden määrää niin, että se on enintään 30 %
+objective_epilogue_reoffending_released	Vapauta vähintään 10 vankia
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Siirrä Prison Minecraftiin
+codex_mcexportname						Minecraft-siirrin
+codex_worldnametitle					Maailman nimi
+codex_seedtitle							Seedi
+codex_gamemodetitle						Pelitila
+codex_mapfeattitle						Karttatoiminnot
+codex_cheatstitle						Huijauskoodit
+codex_timeofdaytitle					Päivänaika
+codex_rainingtitle						Sataa
+codex_thunderingtitle					Ukkostaa
+codex_generatortitle					Generaattori
+codex_scaletitle						Skaala
+codex_exporttomc						Siirrä
+codex_mcexport_default					Oletus
+codex_mcexport_flat						Tasainen
+codex_mcexport_largebiomes				SuuretBiomit
+codex_mcexport_survival					Selviytyminen
+codex_mcexport_creative					Luova
+codex_mcexport_adventure				Seikkailu
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Pako - Ainoa tiesi ulos
+escapemode_help                         Vaihe 1: Maine - Maineesi on täällä kaikki kaikessa\n\n• Kasvata mainettasi aloittamalla tappeluita. Eniten huomiota saat satuttamalla ihmisiä, mutta paikkojen hajottaminen on hyvä alku. Mitä enemmän vahinkoa aiheutat tappelun aikana, sitä parempi.\n• Älä jätä todistajia. Jos vartija huomaa tappelusi, saat rangaistuksen, paitsi jos hän "katoaa"\n• Tyrmätyksi tuleminen on paha juttu. Sinun on parempi päättää tappelut omilla ehdoillasi.\n\nVaihe 2: Jengi - Värvää muita mukaan pakoyritykseesi\n\n• Vihellä heidät luoksesi niin he seuraavat sinua kaikkialle. (Klikkaa heidän nimiään vasemmassa yläkulmassa)\n• He jopa auttavat sinua tappeluissa, mikä voi kasvattaa mainettasi entisestä nopeammin.\n• Kouluta jengiäsi. Ei sitä koskaan tiedä milloin taitavasta tappelijasta tai kilpajuoksijasta on hyötyä.\n\nVaihe 3: Kieltotavarat - Tarvitset aseita ja työkaluja\n\n• Etsi huone, jossa on jotain mitä hauat. Vilkuile ympärillesi, niin löydät pian jotakin hyödyllistä varastettavaa.\n• Varo metallinpaljastimia ja vartijoita, jotka yrittävät tutkia sinut. Jos sinulta löydetään mitään, se otetaan sinulta pois ja joudut eristykseen.\n• Kätke varusteesi. Voit kätkeä löytämäsi tavarat selliisi tai muiden selleihin, kunhan muistat minne jätit ne.\n\nVaihe 4: Tunnelit - hiljainen pakoreitti\n\n• Hanki kaivamistyökalu ja ala kaivaa tunnelia sellisi vessasta.\n• Kaivaminen on hidasta. Pyydä jengiäsi auttamaan kaivamisessa.\n• Älä tule huomatuksi. Jos vartija näkee, kun menet tunneliin tai tulet sieltä pois, olet lirissä.\n\nOnnea matkaan. Tulet tarvitsemaan sitä.
+
+codex_escapemode                        Pakotila
+codex_escapemode_developer              (Kehittäjä) Pakotila
+codex_escapemode_new                    Uusi pakoyritys
+codex_escapemode_load                   Lataa pakoyritys
+codex_escapemode_save                   Tallenna pakoyritys
+codex_escapemode_workshop               Pakotila (Steam Workshop)
+codex_escapemode_workshop_star_rating   *S tähteä tai yli
+
+escapemode_combat_attack                Hyökkää
+escapemode_combat_attack_button         Klikkaa vasemmalla
+escapemode_combat_lunge                 Syöksy
+escapemode_combat_lunge_button          Vaihtonäppäin
+escapemode_dig_button                   Pidä vasen hiirinappi painettuna
+escapemode_dig                          Kaiva
+escapemode_surrender                    Antaudu
+escapemode_surrender_safe               Päätä tappelu
+escapemode_surrender_button             Välilyönti
+
+escapemode_gameover                     Peli päättyi
+
+escapemode_reputation_points            Mainepisteet:
+escapemode_reputations_cost             *C mainepistettä
+escapemode_reputations_max              MAX
+
+escapesquad_squad_member                Ryhmän jäsen
+escapesquad_recruitment                 Värvää pitämällä oikea hiirinappi painettuna
+escapesquad_recruitment_cost            Mainepistehinta: *C
+escapesquad_toggle_follow               Vaihda Seuraa
+escapesquad_nameplate_following         Seurataan
+escapesquad_skip_punishments            Ohita rangaistukset
+escapesquad_skip_punishments_tooltip    Käytä yksi mainepiste niin jengisi jäsenet nukkuvat rangaistuksensa ja heräävät selleissään.
+escapesquad_sleep                       Nuku
+escapesquad_sleep_tooltip               Nuku yön yli klikkaamalla tätä.
+escapesquad_reputations                 Maineet
+escapesquad_reputations_tooltip         Käytä mainepisteitä maineisiin parantaaksesi ryhmäsi taistelukykyä.
+escapesquad_follow_mode                 Seuraamistila
+escapesquad_follow_mode_tooltip         Seuraamistilassa olevat vangit seuraavat sinua ja matkivat huonoa käytöstäsi.\n\nR-näppäimellä voit vaihtaa kaikkien vankien seuraamistilaa kerrallaan.
+escapesquad_remove_member               Poista ryhmän jäsen
+escapesquad_remove_member_tooltip       Poista tämä vanki ryhmästäsi klikkaamalla
+escapesquad_escaped                     Pakeni
+
+escapemode_info_right_click             Klikkaa oikealla
+escapemode_info_hold_right_click        Pidä hiiren oikea nappi painettuna
+escapemode_info_stash                   kätkeäksesi kieltotavaraa
+escapemode_info_pick_up                 hakeaksesi kieltotavaraa
+escapemode_info_start_tunnel            aloittaaksesi tunnelin
+escapemode_info_enter_tunnel            mennäksesi tunneliin
+escapemode_info_exit_tunnel             poistuaksesi tunnelista
+escapemode_info_dig_up                  kaivaaksesi ylös
+escapemode_info_steal                   varastaaksesi
+
+escapemode_info_tool                    [Kaivamistyökalu]
+escapemode_info_damage                  Vahinko: *D
+escapemode_info_recharge                Lataamisaika: *T
+
+escapemode_gameover                     Peli päättyi
+escapemode_gameover_squad_title         Jengi
+escapemode_gameover_casualties_title    Uhrit
+escapemode_gameover_totalscore_title    Yhteispisteet
+escapemode_gameover_totaltime_title     Kulunut aika
+escapemode_gameover_time_days           *D päivää, *H tuntia ja *M minuuttia
+escapemode_gameover_time                *H tuntia ja *M minuuttia
+
+codex_workshop_select_random_prison     Satunnainen Workshop-vankila
+codex_workshop_searching                Tutkii
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         Peliraamattu
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              Sivu *X
+codex_gamebible_doublepage              Sivut *X-*Y
+object_collectable                      Muistiinpanosivu
+

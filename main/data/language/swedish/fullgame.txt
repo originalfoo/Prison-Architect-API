@@ -1,0 +1,883 @@
+﻿
+campaigncutscene_tooltip 				(Klicka för att påbörja nästa kapitel i berättelsen)
+campaignchapter_locked                  (Låst)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        En storbrand har förstört fängelsets kök och matsal. Om vi inte hittar ett sätt att ge fångarna mat kommer vi få ett upplopp här.\nLös matkrisen och bygg sedan om Köket och Matsalen.
+
+adviser_food_fire_1                     Det pågår en kris i en av våra andra faciliteter.
+adviser_food_fire_2                     Någon har satt eld på fängelsets kök. Elden måste släckas, ingen får förolyckas och skadorna måste minimeras.
+adviser_food_fire_3                     Använd knappen Krishjälp i verktygsraden för att ringa efter brandkåren.
+adviser_food_fire_4                     Få elden under kontroll innan hela fängelset brinner ned!
+
+objective_food_callfirebrigade          Ring efter brandkåren
+objective_food_extinguishflames         Släck elden
+
+objective_food_callfirebrigade_description 	Klicka på knappen Krishjälp i verktygsraden och klicka sedan på Brandmän för att ringa efter brandkåren
+objective_food_extinguishflames_description  När du har brandmän valda kan du manuellt sikta med deras brandslangar genom att hålla in H-tangenten. Använd detta för att koncentrera vattenstrålarna till eldens centrum.\n\nFörsök att få brandmännen att stå så nära elden som möjligt – då blir de mer effektiva.
+
+adviser_food_savedon1                   Herregud, någon har överlevt bland all bråten.
+adviser_food_savedon2					Kors i taket, det är Don Palermo. Av alla internerna… så var det maffiabossen.
+adviser_food_donintro2					De dåliga nyheterna för honom är att på grund av nedskärningar i budgeten fick vi låta doktorerna gå.
+adviser_food_donintro3				 	De goda nyheterna är att sjukstugan fortfarande kan användas. Anställ ett par doktorer så tar de hand om Don Palermo medan vi tar hand om resten.
+
+adviser_food_afterfire3                 Vi måste fixa i ordning allt det här.
+adviser_food_afterfire4                 Använd rivningsverktyget för att riva den förstörda matsalen och köket. Du måste ta bort allt bråte.
+adviser_food_afterfire6                 Markera en Sophanteringszon vid vägen. Våra arbetare dumpar bråten där så att sopbilarna kan ta hand om den.
+adviser_food_dismissfiremen1			Äntligen, nu när brandmännen har gjort sitt jobb kan du skicka hem dem.
+adviser_food_gamespeed                  Det tar ett tag att riva de där byggnaderna. Du kan få tiden att gå fortare genom att använda knapparna under klockan.
+
+adviser_food_todolist1					Jag har lagt till fler detaljer på vart och ett av målen i din att göra-lista.
+adviser_food_todolist2					Närhelst du känner att du inte riktigt vet vad du ska göra behöver du bara föra muspekaren över målet så får du se vidare instruktioner.
+
+objective_food_buildmedicalward_doctors Anställ ett par doktorer till Sjukstugan
+
+objective_food_DismissAllFiremen		Skicka iväg brandmännen
+objective_food_cleararea                Rensa bort den brännskadade bråten
+objective_food_buildgarbagearea         Markera en Sophanteringszon
+objective_food_clearcanteen             Rensa bort bråten från matsalen
+objective_food_clearkitchen             Rensa bort bråten från köket
+objective_food_hiremoreworkmen			(VALBART) Anställ fler arbetare så går rivningsarbetet snabbare
+
+objective_food_dismissallfiremen_description 	För att skicka iväg räddningspersonal, hitta deras ikon på höger sida av skärmen och titta på den röda cirkelknappen med ett X för att skicka hem dem.
+objective_food_cleararea_description 	Använd rivningsknappen för att riva byggnader. Rivningsknappen kan hittas under Fundament i huvudverktygsraden. 
+
+adviser_food_familyvisit1				Bra jobbat.
+adviser_food_familyvisit2 				Nu kollar vi till vårt offer.
+
+adviser_food_troublesoon1				Utan mat kommer dessa interner att riva hela stället inom ett par dagar.
+adviser_food_troublesoon2 				Vi måste säkra fängelset innan vi får ett upplopp här.
+adviser_food_troublesoon3 				Detta är utplaceringsskärmen. Härifrån kan du hålla koll på placeringen av dina vakter.
+adviser_food_troublesoon4 				Sätt ut vakter vid alla cellblock och rum. Placera ut 10 vakter vid poster runtom i fängelset. Det borde räcka för att visa vår styrka för tillfället.
+adviser_food_troublesoon5				Jag vill också ha en patrull runt gården där vi bygger de nya faciliteterna.
+adviser_food_troublesoon6				En sista sak. Matsalen är borta, så några av matboxarna har blivit dåliga. Släng dem innan vi måste handskas med skadedjur.
+
+objective_food_deployguards				Placera ut 10 vakter i fängelset
+objective_food_deploypatrol				Låt 2 vakter patrullera innergården
+
+objective_food_deployguards_description		För att placera ut vakter öppnar du utplaceringsskärmen och klickar sedan inom en sektor för att skapa en Bas. En vakt placeras automatiskt till denna bas.
+objective_food_deploypatrol_description		Öppna utplaceringsskärmen och välj sedan Patruller. Klicka och dra för att rita ut dina patrulleringsrutter.\n\nFör att placera ut vakter till en patrulleringsrutt, klicka igen på en ruta inom patrulleringsrutten.
+
+objective_food_dumpfood 				Släng den förstörda maten
+objective_food_dumpfood_description		Den förstörda maten kan hittas i förrådet i nordöstra delen av fängelset.\n\nFör att slänga bort ett föremål, klicka på det och klicka sedan på Släng i popup-menyn.
+
+adviser_food_doncantspeak1				…
+adviser_food_doncantspeak2				öhrrghhh… …
+
+adviser_food_doninfirmary0              Jag tror han försöker säga nåt.
+adviser_food_doninfirmary1				Vilken kuksugande råtta gjorde det här?
+adviser_food_doninfirmary2 				Ingen, pappsen. Det var en olyckshändelse.
+adviser_food_doninfirmary3 				Håll din stinkande mun och lyssna nu. Båda två.
+adviser_food_doninfirmary4 				Om jag visste vem av er som startade branden skulle jag bryta nacken av honom!
+adviser_food_doninfirmary5 				Men mitt liv är över. Jag kommer dö i den här jävla sängen.
+adviser_food_doninfirmary6 				Och familjeföretaget måste skötas. Namnet Palermo är allt vi har kvar. Så gör det rätta, era jävlar. Capiche?
+adviser_food_doninfirmary7				Vi vet vad vi ska göra, pappa.
+adviser_food_donchat13					Det här är inte över, Nico.
+adviser_food_donchat14					Akta ryggen.
+
+adviser_food_founddrugs1				Du skulle inte tro mig om jag sa vad jag hörde nyss. 
+adviser_food_founddrugs2				Våra grabbar var och slängde en del av den gamla maten. De hittade paket med knark och flaskor med alkohol som låg gömda i lådorna.
+adviser_food_founddrugs3				Vi hade misstänkt att familjen Palermo smugglade in saker ett tag nu, men vi hade aldrig kunnat gissa hur.
+adviser_food_founddrugs4 				Vissa dagar blir man verkligen överöst med tur.
+
+adviser_food_rebuild1                   Vi har fortfarande massor att göra. Vi måste se till att byta ut köket och matsalen.
+adviser_food_rebuild2                   Först måste vi bygga om köket. Du måste installera köksutrustningen och anställa några kockar.
+adviser_food_rebuild3					När du har gjort det vill jag att du bygger en ny matsal.  
+adviser_food_rebuild4					När det är klart kommer kockarna börja laga mat åt fängelset.
+adviser_food_rebuild5                   Om du inte är säker på vad du ska göra kan du prova med att markera målet i att göra-listan för att se några ledtrådar.
+
+adviser_food_fightoutro1  				Fantastiskt. Det verkar som att familjen Palermo börjar få slut på medlemmar.
+
+adviser_food_sprinklerintro1 			Vi har ett ganska stort problem med knark nu. Men vi kan inte ta hand om det ännu.
+adviser_food_sprinklerintro2 			Vi har fått igång köket och matsalen. Våra kockar jobbar med att göra i ordning mat åt alla, så det borde göra allting lugnare.
+adviser_food_sprinklers1                Jag är orolig att branden var anlagd, och det vill vi inte att det ska hända igen.
+adviser_food_sprinklers2 				Installera ett sprinklersystem över det nya köket och matsalen och anslut det till huvudledningen för vatten.
+
+adviser_food_explainneeds1 				Alla fångar har behov. Dessa behov påverkar hur fångarna beter sig. Just nu börjar folk svälta, och det är det som de skriker om.
+adviser_food_explainneeds2 				Mat är ett av de behov som har högst prioritet, och du ignorerar detta behov på egen risk. Om ett par måltider inte går som de ska sker det upplopp.
+adviser_food_explainneeds3 				Du kan hålla koll på alla dina fångars behov från Behovrapporten, som du vanligtvis når via Rapport-ikonen på nedre delen av skärmen till höger.
+adviser_food_explainneeds4				Denna rapport visar de kombinerade behoven hos alla dina fångar. Rött betyder att många fångar är arga över behovet ifråga.
+adviser_food_explainneeds5 				Som väntat är mätaren för Mat röd för i princip alla. Men fångarna är också väldigt uttråkade (behov av Rekreation), och fängelset är ganska slitet, något som syns i behoven för Miljö och Kläder.
+adviser_food_explainneeds6				Som ansvarig fängelsearkitekt är det du som bestämmer vad du ska titta på först. Du kan installera TV-apparater i deras celler för att de ska bli underhållna, och så kan du anlita Vaktmästare för att städa upp lokalerna.
+adviser_food_explainneeds7				Du kan också fullständigt ignorera dina fångars behov och bara lita på våld för att hålla kontroll över ditt fängelse.
+adviser_food_explainneeds8 				Det låter jag dig bestämma över.
+
+objective_food_needs 					(VALBART) Ta hand om internernas behov
+objective_food_handlefoodneed 			(VALBART) Ta hand om matbehovet för dina interner
+objective_food_handleboredomneed		(VALBART) Ta hand om underhållningsbehovet för dina interner
+objective_food_handleenvironmentneed	(VALBART) Ta hand om miljöbehovet för dina interner
+
+objective_food_needs_description 					Du kan se dina interners behov genom att klicka på Rapporter (nedre högra delen av skärmen) och sedan Behov.\nDu kan även markera en intern och se vilka behov som påverkar honom\n\nBehov kan aldrig tas om hand permanent – det är ständigt något som måste fixas.
+objective_food_handlefoodneed_description 			Våra kockar lagar mat åt alla, och alla interner borde ha fått mat vid slutet av nästa måltidsperiod.
+objective_food_handleboredomneed_description 		Om internerna är uttråkade kan du installera TV-apparater i alla celler. Du kan även bygga ett samlingsrum där du ställer in TV-apparater och biljardbord.\n\nDessutom kan du ställa in TV-apparater i delade rum som Matsalen.
+objective_food_handleenvironmentneed_description 	Anställ några vaktmästare så städar de fängelset gradvis.
+
+adviser_food_needssuccess1 				Du har visat stort engagemang i att ta hand om dina interners behov. Bra jobbat.
+adviser_food_needssuccess2 				Du har antagligen märkt att det enda som internerna egentligen tjurar över nu är att de inte har rena kläder.
+adviser_food_needssuccess3 				Om du vill ta hand om detta behov måste du få igång tvättandet för att gradvis ge alla interner rena kläder.
+adviser_food_needssuccess4 				Bygg en tvättstuga och anställ fler vaktmästare som kan ge ren tvätt till internerna.
+
+objective_food_laundry 					(VALBART) Rena kläder
+objective_food_buildlaundry 			(VALBART) Bygg en Tvättstuga
+objective_food_hirejanitors             (VALBART) Anställ tillräckligt med vaktmästare för att driva tvättstugan
+objective_food_handleclothingneed 		(VALBART) Ta hand om klädbehoven för dina interner
+
+objective_food_buildkitchen             Bygg ett Kök (cirka 12 kvm)
+objective_food_buildkitchencookers      Installera minst fyra Spisar
+objective_food_buildkitchenfridges      Installera minst fyra Kylar
+objective_food_buildkitchensink         Installera en Diskbänk
+objective_food_buildkitchenbin	 		Sätt in en Sopkorg i Köket
+objective_food_buildkitchenwatermains 	Anslut Diskbänken till vattenledningen
+objective_food_buildkitchenfloor 		(VALBART) Förbättra köksgolvet
+
+objective_food_buildkitchen_description		Du måste bygga Fundament först.
+objective_food_buildcanteen_description		Du måste bygga Fundament först.
+
+objective_Food_HireChefs				Anställ minst 8 kockar
+objective_food_CookMeals				(Automatiskt) Förbered måltider åt internerna
+
+objective_food_buildcanteen             Bygg en Matsal (cirka 20 kvm)
+objective_food_buildservingtables       Installera två Serveringsbord
+objective_food_buildcanteentables       Installera minst sex Bord
+objective_food_buildcanteenchairs       Installera två Bänkar vid varje Bord
+objective_food_buildcanteenbin	 		Sätt in en Sopkorg i Matsalen
+objective_food_buildcanteenfloor 		(VALBART) Förbättra Matsalens golv
+
+
+objective_food_buildsprinklers          Installera ett nytt sprinklersystem
+objective_food_buildsprinklers1         Installera några sprinklers i Köket
+objective_food_buildsprinklers2         Installera några sprinklers i Matsalen
+objective_food_connectwater             Anslut kökets sprinklers till vattenledningen
+objective_food_connectwater2			Anslut matsalens sprinklers till vattenledningen
+objective_food_feedprisoners            Gå igenom en middagsservering genom att ge mat till alla interner
+
+objective_food_buildkitchenwatermains_description   Stora rör är till för att flytta stora volymer vatten under högt tryck. Små rör är till för att ansluta individuella föremål till vattenförsörjningen.\n\nAnvänd vyn UTILITETER för att placera stora rör i dina byggnader. Använd sedan de små rören för att ansluta det stora röret till alla föremål i närheten som behöver vatten.
+objective_food_connectwater_description             Stora rör är till för att flytta stora volymer vatten under högt tryck. Små rör är till för att ansluta individuella föremål till vattenförsörjningen.\n\nAnvänd vyn UTILITETER för att placera stora rör i dina byggnader. Använd sedan de små rören för att ansluta det stora röret till alla föremål i närheten som behöver vatten.
+objective_food_connectwater2_description            Stora rör är till för att flytta stora volymer vatten under högt tryck. Små rör är till för att ansluta individuella föremål till vattenförsörjningen.\n\nAnvänd vyn UTILITETER för att placera stora rör i dina byggnader. Använd sedan de små rören för att ansluta det stora röret till alla föremål i närheten som behöver vatten.
+
+campaigncutscene_foodinfirmary			Sjukstugan
+campaigncutscene_foodfamily             Familjen
+campaigncutscene_foodfeud               Fejden
+campaigncutscene_foodregret				Ångern
+campaigncutscene_foodsuccession 		Tronföljden
+
+campaigncutscene_foodfamily_description		Familjen Palermo smugglade en gång narkotika över hela USA:s östkust. Upptäck historian om Don Palermo och hans barn.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti 
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermo
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Bossen för en av östkustens mest respekterade maffiafamiljer.
+cutscene_foodfamily_palermo1			Familjen Palermo har hållit sig undan FBI under årtionden.
+cutscene_foodfamily_palermo02			Anthony Palermo, Dons äldste son och arvinge, tog hand om vardagssysslorna.
+cutscene_foodfamily_palermo03			Nico Tamoretti var ingen fullständig medlem, men han välkomnades in i familjeverksamheten när han gifte sig med Dons enda dotter, Vitalia.
+cutscene_foodfamily_palermo04			Och så har vi Sonny Palermo. Dons andra son. Småttingen. Humör som en pitbull, men bara hälften så smart.
+
+cutscene_foodfamily_palermo2 			Deras imperium sysslade med narkotikahandel från Maine till Florida.
+cutscene_foodfamily_palermo3			Ända fram tills Anthony togs på bar gärning.
+cutscene_foodfamily_palermo3b           Han sköts till döds av en svartsjuk make.
+cutscene_foodfamily_palermo4			Oturligt nog för familjen hittade polisen tolv kilo ren kokain i Anthonys sportväska på brottsplatsen.
+cutscene_foodfamily_palermo5			Och bevisen ledde rakt upp till toppen.
+cutscene_foodfamily_palermo6			Över bara en natt hade allt som familjen Palermo byggt upp rasat. FBI hade allt som behövdes för att se till att hela familjen skulle få ruttna i fängelset.
+cutscene_foodfamily_palermo7			Nu är Vitalia, Dons dotter, den enda familjemedlemmen som är vid liv och inte bakom lås och bom.
+cutscene_foodfamily_palermo8			Vi vet inte mycket om henne, förutom att hon hölls utanför det som familjen höll på med.
+cutscene_foodfamily_palermo9 			Men någon på utsidan måste ha skickat in drogerna.
+
+adviser_food_findalldrugs1				Nu har vi tagit hand om maten. Internerna blir mycket nöjdare nu när de får mat igen.
+
+adviser_food_findalldrugs2				Självklart sålde familjen Palermo narkotika till varenda en här.
+adviser_food_findalldrugs3				Vakterna säger att de har sett många av internerna visa upp abstinenssymtom sedan branden.
+adviser_food_findalldrugs4				Jag vill att du visiterar varenda intern och söker igenom varenda cell. Jag kan slå vad om att vi hittar Palermos droger över hela fängelset.
+
+objective_food_findalldrugs					Hitta alla drogerna i fängelset
+objective_food_findalldrugs_description 	Sök igenom varje cellblock genom att klicka på en intern inom cellblocket, och klicka sedan på "Sök igenom cellblock" eller använd knappen Inspektion i verktygsraden på botten av skärmen.
+
+objective_food_hiremoreguards 			(VALBART) Anställ fler vakter för att skynda på sökprocessen
+
+adviser_food_drugsfound1				Se det positiva, det är inte så illa som det hade kunnat vara, men det finns definitivt problem med beroende av droger och alkohol.
+adviser_food_drugsfound2				Vi måste hjälpa dem. Det är enda sättet att få slut på dessa aktiviteter och ta hand om symtomen.
+adviser_food_drugsfound2b 				Starta ett drogavvänjningsprogram i sjukstugan. Våra Doktorer ger dem en ersättande medicin som hjälper de beroende att stilla sitt behov.
+adviser_food_drugsfound3				För alkoholisterna finns det ingen ersättande medicin, så där föreslår jag att vi startar upp gruppterapi.
+adviser_food_drugsfound4				Du måste bygga en ny Samlingssal för dessa möten.
+adviser_food_drugsfound5				För att börja med nya Program, gå till Rapporter i nedre botten av skärmen, och sedan Program.
+
+objective_food_drugtreatment			Starta ett drogavvänjningsprogram
+objective_food_cureaddictions			(VALBART) Behandla internernas drogberoende
+objective_food_alcoholprogram			Starta ett gruppterapiprogram för alkoholister
+objective_Food_HelpAlcoholics			(VALBART) Börja hjälpa alkoholisterna genom återhämtning
+objective_food_buildcommonroom 			Bygg en samlingssal
+objective_food_buildcommonroomchairs	Skapa en mötesplats med 8 stolar
+
+objective_food_drugtreatment_description 	Klicka på Rapporter i nedre högra delen av skärmen och välj sedan fliken Program. Programmet kallas Farmakologisk Behandling av Drogmissbruk och sker i Sjukstugan.\n\nObs: du behöver minst två timmars Arbetstid i Regim för att tillåta att internerna kan komma.
+objective_food_alcoholprogram_description 	Klicka på Rapporter i nedre högra delen av skärmen och välj sedan fliken Program.\n\nObs: du behöver minst två timmars Arbetstid i Regim för att tillåta att internerna kan komma.
+
+cutscene_food_feudintro1 				Vi fick en incident i duschen. Det finns en kropp.
+cutscene_food_feudintro2 				Faktum är att det finns två kroppar. Som tur är har vi kameror där.
+cutscene_food_feudintro3 				När du får en stund över, klicka på fotografiet i Duschen så tar vi en titt på vad som hände.
+
+objective_food_triggerfightscene		När du är redo, klicka på fotografiet i Duschen för att fortsätta.
+objective_food_triggerfightscene_description 	Duscharna är i det nordvästra hörnet av anläggningen.
+
+cutscene_food_feud1b                    Ensam. Perfekt.
+cutscene_food_feud1                     Du tog din lilla tid.
+cutscene_food_feud2                     Snacka inte skit. Jag har ingen aning om vad min slyna till syster såg i dig.
+cutscene_food_feud2b 					Var det här hennes plan? Ta kål på farsgubben?
+cutscene_food_feud3                     Är det vad du tror din fete fan? Jag ville inte att han skulle bli skadad. Jag älskar honom som om han var min egen far.
+cutscene_food_feud3b 					Jag är trött på det som händer vår familj på grund av din dumhet.
+cutscene_food_feud4                     Branden var för dig.
+cutscene_food_feud5                     Anse då detta en återgäldning.
+cutscene_food_feud6                     Du är ingen ängel. Vi visste båda att du planerade på att göra slut på mig en dag.
+cutscene_food_feud7                     Ja, du är smart, Nico. Se var det tog dig. Oroa dig inte, du känner inget.
+cutscene_food_feud8                     Jag sa ju åt dig. Akta ryggen.
+cutscene_food_feud8b                    euuegggghhhh!!!!!.....
+cutscene_food_feud8c                    AAARRRGGRGGGGGG!!!!
+cutscene_food_feud8d                    Har du träffat Franky? Pianotråden är hans bästa vän.
+cutscene_food_feud8e                    Ärligt talat, så fort han är klar kommer folk tro att det var självmord.
+cutscene_food_feud9                     Det här är inte över, Nico.
+cutscene_food_feud9b                    Du måste skämta.
+
+cutscene_food_successionintro			Bra. Vi har gjort skillnad här, och jag tror att fängelset är under vår kontroll igen.
+cutscene_food_successionintro2 			Du kan fortsätta att förbättra fängelset, eller så går vi vidare till nästa facilitet.
+cutscene_food_successionintro3 			När du är redo att gå vidare, klicka på fotografiet i Sjukstugan.
+
+objective_food_runending 				När du är redo, klicka på fotografiet i Sjukstugan för att gå vidare.
+objective_food_runending_description	Sjukstugan ligger i sydvästra delen av fängelset.
+
+cutscene_food_succession1				Vitalia!
+cutscene_food_succession1b				…?
+cutscene_food_succession2				Gullet!
+cutscene_food_succession3				Förlåt. Jag sabbade det.
+cutscene_food_succession4				Tyst.
+cutscene_food_succession5				De sa att pappsen inte klarar sig veckan ut.
+cutscene_food_succession6				Jag vet. Jag kom för att ta farväl.
+cutscene_food_succession7				Du vet, vi kan gå nu. Du och jag. Det här jävla livet. Allt är borta.
+cutscene_food_succession8				Det skulle jag vilja.
+cutscene_food_succession9				Men det går inte. Jag är en Palermo, Nico.
+cutscene_food_succession10				Och när pappa är borta, och du är en utomstående… Våra fiender stampar på oss.
+cutscene_food_succession11 				Det kan jag inte acceptera. Jag måste visa att vi fortfarande har en Palermo som styr.
+cutscene_food_succession12				Så du är här för att få slut på mig? Efter allt vi varit igenom?
+cutscene_food_succession13				Nico, Nico, Nico. Du är så gammaldags.
+cutscene_food_succession14 				Nej, sötnos. Jag vill skiljas.
+cutscene_food_succession15				Vafan? Skämtar du? Jag är död härinne om jag inte har familjen.
+cutscene_food_succession16				Jag vet, sötnos. Men det bryr jag mig inte om längre.
+cutscene_food_succession17				Jag hoppas att du har det bättre nu, pappa.
+cutscene_food_succession18				Farväl, Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    G.A.B.O.S
+campaignchapter_riot_description		Det pågår ett upplopp på Alchemico State Prison. Gå in och säkra byggnaden.
+
+campaigncutscene_riotintro              Senaste nyheterna
+
+adviser_riot_newsintro_01				Senaste nyheterna!
+adviser_riot_newsintro_02				Upplopp på Alchemico State Prison – personalen och säkerhetsvakterna har tagit sig till de yttre murarna för att vänta på militären.
+adviser_riot_newsintro_1				Ett antal medlemmar ur personalen har fortfarande inte setts till, bland annat VD:n Charles Wallace.
+adviser_riot_newsintro_2				Upploppet började efter att flera domare arresterades…
+adviser_riot_newsintro_3				…efter att ha anklagats för att ha tagit emot mutor i utbyte mot hårdare fängelsestraff.
+adviser_riot_newsintro_4				Som om detta inte vore nog har källorna sagt att den undre världen nyligen har skakats av ett antal mord av höga profiler…
+adviser_riot_newsintro_5				…inklusive mordförsöket på maffiabossen Victor Palermo förra månaden.
+adviser_riot_newsintro_6				VD:n Charles Wallaces ställföreträdare, som är relativt ny i tjänsten, har fått i uppgift att återställa ordningen. 
+adviser_riot_newsintro_7				Vi har ännu inte sett om avsaknaden av erfarenhet kommer stå honom dyrt under denna svåra kris.
+adviser_riot_newsintro_8                Douglas Benedict, som för tillfället avtjänar ett livstidsstraff, tros vara ledaren bakom detta våldsamma utbrott.
+
+adviser_riot_newsintroheller_1 			Stadens borgmästare Calvin Heller släppte detta uttalande för en liten stund sedan.
+adviser_riot_newsintroheller_2 			För de som ifrågasätter vår policy om en bestraffningsreform ska detta ses som en påminnelse.
+adviser_riot_newsintroheller_3 			Dessa män har fått husrum och mat. De arbetar och de får betalt för det.
+adviser_riot_newsintroheller_4 			Och det är på detta sätt som de återgäldar skattebetalarna som ger dem detta.
+
+campaigncutscene_riothostages			Gisslan
+adviser_name_riotceo					VD:n
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Lyssna. Vi har VD:n.
+adviser_riot_hostages1b 				Euugg.... …
+adviser_riot_hostages2 					Såhär går det till. Jag frågar. Ni ger.
+adviser_riot_hostages3					Om det blir problem, om ni skickar in nån, eller om jag ens känner lukten av en snut, så knäpper jag honom.
+adviser_riot_hostages4 					Vi vill ha en bil. Tonade rutor. Full tank. En timme. Jag hör av mig.
+adviser_riot_hostages5 					Nå, var var vi?
+adviser_riot_hostages5b					Vad gjorde du på kontoret?
+adviser_riot_hostages6					Jag svär, jag vet ingenting.
+adviser_riot_hostages7					Jag har sett min egen spegelbild tillräckligt många gånger för att veta när nån gjort ett misstag.
+adviser_riot_hostages8					Vad gömde du?
+adviser_riot_hostages9					Jag hör hemma här. Men grabben… vad var det bra för, att grabben skulle få sitta inne längre?
+adviser_riot_hostages10					Du vet nåt, och enda sättet att komma ut levande är om du berättar för mig.
+
+adviser_riot_hostageheller1 			Detta är helt oacceptabelt. Vi måste hålla ögonen på matsalen så att vi ser vad som händer.
+adviser_riot_hostageheller2 			Det finns ett litet säkerhetsrum norr om matsalen. Vi måste säkra det.
+adviser_riot_hostageheller3 			Ställ ut några Vakter där för att bemanna övervakningskamerorna, så får vi koll på hela cellblocket.
+
+objective_Riot_MaxSecCameras			Återta säkerhetsrummet
+
+campaigncutscene_riotroulette			Roulette
+
+adviser_riot_rouletteintro1             Vi har en vakt i säkerhetsrummet, så vi får bilder från övervakningskamerorna.
+adviser_riot_rouletteintro2             Vi tar en titt på gisslansituationen.
+adviser_riot_click 						<klick>
+adviser_riot_roulette1					Sista chansen att gå ut härifrån, bossen. Har du spelat rysk roulette med två kulor nån gång?
+adviser_riot_roulette2 					Två kulor. Fyra tomma.
+adviser_riot_roulette2b 				Vi brukade spela med kaniner. Vi sköt huvet av dem.
+adviser_riot_roulette3 					Men det funkar på samma sätt för dig.
+adviser_riot_roulette4 					En simpel fråga bara. Vad gjorde du på kontoret?
+adviser_riot_roulette5 					Jag svär, jag vet ingenting.
+adviser_riot_roulette5b 				Ärligt nu.
+adviser_riot_roulette6 					Okej, visst. Vem börjar? Du? Jag? Den här killen kanske?
+adviser_riot_roulette7					Vad vet du om det här. Precis som en kanin.
+adviser_riot_roulette8 					VAD FANNS I MAPPARNA?
+adviser_riot_roulette9 					Jag svär! Jag vet inte…
+adviser_riot_roulette10 				Lyckan sinar. Det finns fortfarande en kula här. Och jag vet vad jag såg.
+adviser_riot_roulette11b 				Kunde inte tro mina ögon.
+adviser_riot_roulette11c 				Den stora företagaren själv, här i mitt fängelse. Och han ser skyldig ut som fan.
+adviser_riot_roulette11d 				Jag antar att det fanns nåt mer i mapparna än bara mitt belastningsregister.
+adviser_riot_roulette11					Snälla. Gör det inte.
+adviser_riot_roulette11e 				Oddsen blir allt mindre, Wallace.
+adviser_riot_roulette12 				Vet du vad. Jag gör det lätt för dig.
+adviser_riot_roulette12b	 			Slut med skitsnacket nu.
+adviser_riot_roulette13 				Nu är det din tur, din jävel. Om du inte säger vad jag vill veta precis nu.
+adviser_riot_roulette14 				Jag kan inte. Snälla.
+adviser_riot_roulette15 				Okej. Snälla, snälla. Skjut inte. Det var pengarna. Bara pengarna.
+adviser_riot_roulette16 				Var det allt?
+adviser_riot_roulette17 				Ni är värdefulla. Ju längre ni är härinne, desto mer får vi ut av er. Vi böjde bara på reglerna lite.
+adviser_riot_roulette17b				Mappen var beviset.
+adviser_riot_roulette18 				Nå, vad är vi värda då? Vad får ni för att hålla oss inne?
+adviser_riot_roulette19 				Sjuttitretusen dollar om året.
+adviser_riot_roulette20					För var och en av oss? Helvete. Det är dags för dig att börja betala tillbaka.
+
+campaigncutscene_riotassault 			De tog sig igenom
+
+adviser_riot_assault01					Nu är det dags. Det här måste få ett slut.
+adviser_riot_assault02 					Teamet är redo.
+adviser_riot_assault03					Jag vill ha kärran nu. Wallace följer med oss. Om nån följer efter får ni skrubba bort hans blod från asfalten.
+adviser_riot_assault2 					Nå, chefen. Du kommer med oss. De riskerar ingenting dumt om du sitter i framsätet.
+adviser_riot_assault3 					Ingen av oss kommer ut härifrån. Det är inte dig de vill ha.
+adviser_riot_assault4 					Vad snackar du om?
+adviser_riot_assault5					Jag gjorde det för pengarna. Men HAN gjorde det för den politiska nyttan. Ju längre straff, desto fler röster fick han.
+adviser_riot_assault6					Vem fan snackar du om?
+adviser_riot_assault7					Borgmästare Heller. Det var hans idé. Jag hjälpte bara till.
+adviser_riot_assault7b 					Mapparna var beviset som skulle förstöra hans karriär.
+adviser_riot_assault8					Ni måste för fan skämta.
+adviser_riot_assault9 					Vafan…
+adviser_riot_assault9b					De kommer, gör er redo!
+adviser_riot_assault10					JAG VARNADE ER!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				Förhandlaren
+
+adviser_riot_negotiator1 				Det är utom kontroll. Ingen styr det här.
+adviser_riot_negotiator2 				Vi har flera döda, och de återstående vakterna går inte in i cellblocken. Vi var tvungna att dra oss tillbaka till de yttre murarna.
+adviser_riot_negotiator3 				Komma på vad vi ska göra, och sätta stopp för det här innan det löper amok.
+adviser_riot_negotiator4 				Kravallpolisen borde vara här om ett par minuter.
+
+adviser_riot_firstreinforcements1 		Det första responsteamet har kommit.
+adviser_riot_firstreinforcements2 	 	Det här är Kravallvakter, och de har mycket bättre skyddsutrustning. Använd dem för att ta tillbaka de tagna fängelseflyglarna.
+adviser_riot_firstreinforcements3 		Vi har också med oss sjukvårdare från ett närliggande sjukhus.
+adviser_riot_firstreinforcements4 		Jag föreslår att du använder dem för att ge vård till kravallvakterna när de återtar fängelset.
+
+objective_Riot_StopTheRiot 				Stoppa upproret
+objective_Riot_StopTheRiot_description  Ingen har hand om det här. Du måste komma på vad du ska göra.
+
+adviser_riot_helleradvice1				Jag antar att detta är VD:ns ställföreträdare som jag talar med.
+adviser_riot_helleradvice2 				Jag förstår att detta är en jobbig tid, och vi alla står under intensiv granskning. Men var säker på att du har mitt fulla stöd i att använda de resurser som finns till ditt förfogande. 
+adviser_riot_deployguards1				Vi har fått fotfäste nu och återtagit en del av fängelset. Och förlusten av liv änsålänge är helt berättigad.
+adviser_riot_deployguards2				Men innan ni går vidare och återtar resten av fängelset borde ni säkra de delar som ni har tagit.
+adviser_riot_deployguards3				Anställ några vakter och placera ut dem i de återtagna sektorerna från utplaceringsskärmen. De ser till att flyglarna inte tas över.
+adviser_riot_deployguards4 				När detta har ordnats ska ni ta er in i kvarvarande zoner och ta livet av dessa monster. De här djuren kan inte rehabiliteras. Och man kan inte förhandla med dem.
+adviser_riot_deployguards5 				Jag jobbar med att auktorisera ett beväpnat team som kan göra slut på detta snabbt.
+
+adviser_riot_infirmary1 				Det finns skadade över hela fängelset, och det finns ingen tvekan om att fler kommer. Du kan inte bara lämna dem för att blöda ihjäl.
+adviser_riot_infirmary2 				Bygg en Sjukstuga någonstans på området och anställ doktorer som kan ta hand om de skadade.
+adviser_riot_infirmary3 				Vi har också sett en hel del kroppar. För deras värdighets skull måste vi bygga ett Bårhus och börja samla ihop dem.
+adviser_riot_infirmary4					Du måste anställa arbetare för att bygga. Se till att hålla dem i säkerhet.
+
+objective_Riot_ResecureWings 			Anställ vakter och placera dem i de återtagna zonerna
+objective_riot_medicalneeds				(VALBART) Ge vård i ditt fängelse
+objective_Riot_Infirmary				(Valbart) Bygg en Sjukstuga och ta hand om de skadade
+objective_Riot_Morgue 					(Valbart) Bygg ett Bårhus och samla ihop de döda
+objective_Riot_SecureGenPop				Återta flygeln med normal säkerhet (central)
+objective_Riot_SecureSpecialWing		Återta specialflygeln (väst)
+objective_Riot_SecureMaxSec				Återta högsäkerhetsflygeln (söder)
+objective_riot_putoutfires				Få kontroll över branden
+
+adviser_riot_secondreinforcements1		Fler Kravallvakter har anlänt.
+
+adviser_riot_armedreinforcements1		Borgmästaren har skickat in beväpnade poliser från polisstationen.
+adviser_riot_armedreinforcements2		Var försiktig. Du kanske får ett blodbad på halsen om du släpper dem lösa.
+adviser_riot_armedreinforcements3		Å andra sidan kan internerna välja att ge upp när de ser de här killarna.
+
+adviser_riot_reinforcementsunlocked1 	De flesta av förstärkningarna har kommit.
+adviser_riot_reinforcementsunlocked2 	Nu kan du ringa hit så många Kravallpoliser och Sjukvårdare som du behöver, från verktygsraden Krishjälp.
+
+adviser_riot_cleanup1                   Anläggningen är under kontroll, och upprorsmakarna har tagits om hand. Det kunde ha blivit mycket värre.
+adviser_riot_cleanup2                   Vi har en gigantisk upprensning framför oss. Jag skulle uppskatta din hjälp, om du har tid.
+adviser_riot_cleanup2b 					Vi har inga byggare på plats, så första steget blir att anställa några nya arbetare som kan reparera stället.
+adviser_riot_cleanup3                   Jag tänkte alltid att säkerhetsstyrkan här var alldeles för avslappnad. Internerna har haft för mycket att säga till om under en lång tid. Det slutar idag.
+adviser_riot_cleanup4                   Jag vill att du ska bygga ett nytt Vapenförråd, och sedan placera beväpnade vakter vid nyckelpositioner runt fängelset. Bara åsynen av det kommer kuva internerna och de får tänka två gånger innan de startar så mycket trubbel igen.
+adviser_riot_cleanup5                   Jag vill även att våra vakter ska ha skyddsväst. Våra mannar måste kunna försvara sig själva.
+adviser_riot_cleanup6                   Dessa interner behöver disciplin. Ordning i sina liv. Jag föreslår att vi låter dem ta hand om sin egen röra.
+adviser_riot_cleanup7                   Vi börjar med ett arbetsprogram för internerna, så att de sätter igång och städar upp på fängelset och tvättar.
+adviser_riot_cleanup7b                  Du kan få internerna att jobba från verktygsraden, under Logitistik. Markera målet för att få mer detaljerad hjälp i hur du ska göra detta.
+adviser_riot_cleanup8                   Vi har några andra krav. Det finns massor av interner som måste lära sig att det de gjorde var fel. Bygg nya Isoleringsceller.
+adviser_riot_cleanup8b                  Våra vakter tar hand om att flytta internerna till Isoleringscellerna. Isoleringsceller får internerna att tänka på vad de gjort, och de påminner dem om vem som bestämmer.
+adviser_riot_cleanup9                   Glöm inte personalen som har klarat sig igenom allt det här med oss. De är helt utmattade.
+adviser_riot_cleanup9b 					Bygg ett personalrum så att de får någonstans där de kan slappna av.
+adviser_riot_cleanup10                  Sedan har vi ju en budget för allt det här. Se till att vi har ett positivt saldo på banken och detsamma med kassaflödet. 
+adviser_riot_cleanup10b 				Fängelsearbete är mycket billigare än att hyra in folk när det kommer till att städa, utföra vaktmästaruppgifter, tvätta och liknande.
+adviser_riot_cleanup11                  Det finns massor att göra här. Vi uppskattar verkligen din hjälp.
+adviser_riot_cleanup12                  När du känner att du har gjort tillräckligt och är redo att gå vidare, klicka på kameran vid den yttre porten.
+
+adviser_riot_cleanup13 					Mycket bra jobbat. Jag tror att säkerheten blir mycket bättre nu.
+
+objective_riot_solitary 				(VALBART) Bygg Isoleringsceller och börja straffa upprorsmakarna
+objective_riot_armoury 					(VALBART) Verkställ de nya säkerhetsprotokollen
+objective_riot_armoury_research			Lås upp Vapenförråd genom Byråkrati
+objective_riot_armoury_build 			Bygg ett Vapenförråd (på ett säkert ställe)
+objective_riot_armoury_deploy			Placera beväpnade vakter i maxsäkerhetsavdelningen
+objective_riot_armoury_armour 			Lås upp skyddsväst för all säkerhetspersonal
+objective_riot_armoury_tazers 			Lås upp elpistoler för dina beväpnade vakter
+objective_riot_staffroom 				(VALBART) Bygg ett Personalrum för din utmattade personal
+objective_riot_balancebooks 			(VALBART) Balansera dina konton
+objective_riot_balancebooks_balance 	Positivt banksaldo
+objective_riot_balancebooks_cashflow 	Positivt kassaflöde
+objective_riot_prisonerwork				(VALBART) Starta ett program för straffarbete
+
+objective_riot_cleaningcupboard			Bygg en Städskrubb
+objective_riot_laundry					Bygg en Tvättstuga
+objective_riot_inmatesincleaning 		Placera ut interner för att arbeta med Städning
+objective_riot_inmatesinlaundry			Placera ut internet för att arbeta med Tvätt
+objective_riot_cleanprison 				Städa fängelset
+objective_riot_providelaundry			Erbjud ren tvätt
+
+objective_riot_armoury_research_description		Ikonen för Byråkrati är precis ovanför att göra-listan. Klicka på den för att börja med Vapenförrådet – säkerhetschefen fixar pappersgörat.
+objective_riot_armoury_deploy_description       För att placera ut beväpnade vakter går du till Utplacering och sedan Beväpnade patruller. Klicka och dra för att få patrullrundorna dit du vill ha dem, och klicka på patrullrundorna igen för att märka ut var de beväpnade vakterna ska gå.
+objective_riot_armoury_guardtazers_description  Titta på Rapporter / Program – där ser du alternativet Elpistolsträning för vakter.\n\nDina vakter behöver träning innan de kan använda elpistoler. Du behöver ett Klassrum för att utföra denna träning i.
+objective_riot_prisonerwork_description         För att placera ut interner i arbete, gå till Logitistik och sedan Fängelsearbete. Klicka för att lägga till jobb i rum som är markerade med grönt.\n\nDu måste även specificera var internerna ska arbeta. Gå till Rapporter / Regim, och lägg till flera timmars arbetstid under dagen. Internerna arbetar om det finns arbete tillgängligt.
+
+objective_Riot_PlayerExitsMap			Klicka på fotografiet utanför huvudentrén när du är färdig.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Rånet
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   Besöket
+campaigncutscene_convictionsuicide      Självmordet
+
+campaignchapter_conviction              Domen
+campaignchapter_conviction_description  En av våra interner står under självmordsbevakning. Henry Morgan, Benedicts kompanjon. Tretton månader in i ett femårigt straff. Hjälp oss att ta hand om dem.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senator Walter Hurst
+adviser_name_detective                  Kriminalare
+adviser_name_kerry 						Kerry Morgan
+adviser_name_hurst 						Doktor Walter Hurst
+adviser_name_keane 						Konstapel Keane
+
+adviser_conviction_heist1               Ta pengarna, pucko.
+adviser_conviction_heist2               Släpp era vapen, nu!
+adviser_conviction_heist2b				Helvete!
+adviser_conviction_heist3               Skjut, för fan!
+adviser_conviction_heist4               Vad fan väntar du på, skjut din fege fan!
+adviser_conviction_heist6               Skitstövlar!
+adviser_conviction_heist7               Skjut inte! Skjut inte!
+adviser_conviction_heist8               UPP MED HÄNDERNA ERA JÄVLAR!
+adviser_conviction_heist9               Gör precis vad jag gör, okej?
+adviser_conviction_heist10              Skit, skit, SKIT!
+adviser_conviction_heist11              Skjut inte! SKJUT INTE!
+
+conviction_intro_1                      Som en följd av den inträffade tragedin på Alchemico State Prison står vi nu under politisk granskning.
+conviction_intro_2                      Fram tills att en permanent ersättare hittas för VD:n, skulle jag vilja ta över.
+conviction_intro_3                      Det har gått en våg av självmord på detta fängelse på sistone, och det är inte svårt att se varför. Men vi har mer omedelbara problem.
+conviction_intro_4                      De har bestämt sig från högre ort om att skicka oss ett stort antal nya interner. De första kommer imorgon, och vi har ingenstans som vi kan husera dem.
+conviction_intro_5                      Du måste bygga ett helt nytt cellblock, med tillräckligt med utrymme för att hantera den nya intagningen.
+conviction_intro_5b 					Jag har lagt fram en möjlig utformning för det nya cellblocket här. Detta borde ge oss tillräckligt med nya celler för att hantera intagningen, och i utformningen finns en egen duschanläggning.
+conviction_intro_5c 					Men det är upp till dig att välja om du vill följa den här utformningen eller om du vill göra någonting helt annat.
+conviction_intro_6                      Mitt jobb är att prioritera välfärden för dessa människor. Se till att bygga det nya cellblocket, och sedan pratar vi om hur man uppnår det.
+
+unused_conviction_intro_4                      En av de nyinkomna har satts på självmordsbevakning. Henry Morgan. Tretton månader in i ett femårigt straff.
+unused_conviction_intro_7						Jag vill gå och prata med honom. Vi kan inte ha ett självmord till.
+
+conviction_workintro1                   Vi har behandlat de här människorna som skit alldeles för länge. Det slutar nu.
+conviction_workintro2                   Den förra VD:n trodde aldrig riktigt på fängelsereform. Men som jag ser det måste vi ge de här människorna hopp om framtiden.
+conviction_workintro3                   Vi måste ge dem det de behöver för att klara sig i verkliga livet när de blir frigivna – värdefulla färdigheter, utbildning.
+conviction_workintro4                   Vi borde starta igång ett lärlingsprogram. Träna upp dessa män med färdigheter som de kan dra nytta av ute i världen, så att de i alla fall har en framtid att se fram emot.
+
+
+conviction_hurst1 						Bristen på engagemang i denna anläggning är chockerande. Människor som blivit av med all sin mänsklighet.
+conviction_hurst2 						De visas varken medkänsla eller respekt. Man kan knappast vänta sig att de svarar på det på annat sätt än med hat.
+conviction_hurst3 						Det är inte vad de här människorna förtjänar.
+conviction_hurst4 						Nej, just det. Det är inget sätt att behandla en människa. De har inte ett uns mänsklighet kvar.
+conviction_hurst4b 						Varför skulle de lyda oss? Du kan inte vänta dig att de svarar annat än med förbittring.
+conviction_hurst4c						Vi måste hjälpa de här människorna. Vi behöver klassrum, program för drogrehabilitering. En verkstad, så de kan känna sig stolta över sitt hantverk.
+conviction_hurst6 						Du missförstår mig, doktorn. Dessa människor är inte människor. Se själv.
+conviction_hurst6b 						Intern Morgan! Vakna!
+conviction_hurst7 						Upp på fötterna, Morgan. Du har en besökare.
+conviction_hurst8 						Rehabilitering? Man kan lika gärna lära en apa att spela banjo.
+
+conviction_hurst10 						Vad heter du, grabben?
+conviction_hurst10b                     Han ställde dig en fråga.
+conviction_hurst11 						Henry, sir.
+conviction_hurst12 						Det måste vara kallt där nere, Henry.
+conviction_hurst13 						Löss i sängarna, sir. De äter mig levande. Tröjan håller råttorna borta. De största jag har sett.
+conviction_hurst14 						Kalla mig Walter.
+conviction_hurst15 						Sover du bra?
+conviction_hurst16 						Jag sover inte. Det enda jag gör här är att tänka. Det finns det massor av tid för.
+conviction_hurst16b                     Vad tänker du på?
+conviction_hurst16c                     Döden, för det mesta. Och min lilla flicka.
+conviction_hurst17 						Du måste vara stark för hennes skull, Henry. Det är svårt för henne också.
+conviction_hurst18 						Jag har skakat galler under hela hennes liv. Hon vet inte ens om att jag finns.
+conviction_hurst19 						Det är aldrig för sent att förändras, Henry.
+conviction_hurst19b 					Jag skulle vilja komma och prata med dig igen om jag får.
+conviction_hurst20 						Visst, sir. Tack.
+conviction_hurst21 						Kan vi göra nåt åt råttorna? Det här är inte tredje världen.
+conviction_hurst22 						Jag ställer in lite råttgift.
+
+conviction_visitationintro_1            Jag lyckades övertala chefen att göra ett undantag för besöket från Morgans familj.
+
+conviction_visitation_0					Hej, sir. Kerry Morgan, jag är här för att träffa Henry Morgan.
+conviction_visitation_1					Bakom linjen.
+conviction_visitation_2 				Förlåt. Jag är här för att träffa Henry. Henry Morgan. Han är min make, sir.
+conviction_visitation_3 				Jag säger det inte igen. Ställ dig bakom linjen.
+conviction_visitation_4 				Ja sir. Förlåt, sir.
+conviction_visitation_5 				Okej. Kom fram. Jag har inte hela dagen på mig.
+conviction_visitation_6					Namn.
+conviction_visitation_7					Kerry Morgan, sir. Här för att träffa Henry Morgan. Och det här är hans lilla flicka.
+conviction_visitation_8					Så det är det du säger till honom? Gå in.
+conviction_visitation_8a                Kerry!
+conviction_visitation_9					Det har skett ett misstag. Morgan har förlorat sin besöksrätt.
+conviction_visitation_9b 				Va?
+conviction_visitation_9c 				Ledsen. Vi hittade alkohol i hans cell imorse. Jag kan inte göra något.
+conviction_visitation_10				Det tog mig två timmar att komma hit. Min dotter gråter. Det här är inte bra.
+conviction_visitation_11				Disneyland är bra. Det är bra att vinna i fiskdammen och äta varmkorv. Här hittar du inte sånt.
+conviction_visitation_12				Snälla, kan du ge honom det här?
+conviction_visitation_13                Visst. Han kommer inte få ha besök på ett bra tag. Något meddelande?
+conviction_visitation_14                Nej. Inget meddelande.
+
+conviction_visitation_angrymorgan0		Nej!
+conviction_visitation_angrymorgan1		Vänta!
+conviction_visitation_angrymorgan2		Ni kan inte göra så här!
+conviction_visitation_angrymorgan3		Låt mig prata med henne!
+conviction_visitation_angrymorgan4		Era jävlar!
+
+conviction_helpinmates_1                Det är ytterst tråkigt.
+conviction_helpinmates_2                Det är så svårt att hitta sätt att verkligen hjälpa de här människorna. De behöver verkligen få lära sig att hjälpa sig själva.
+conviction_helpinmates_3                Det är uppenbart att vi måste titta på besöksavdelningen. Familjer står i kö utanför dörrarna, och det är uppenbart att vi inte kan hantera antalet besökare som vi får för tillfället.
+conviction_helpinmates_4                Bygg en ny besöksavdelning. Trots det som hände Morgan tror jag att det får positiva följder. Och han är inte den enda internen här som har familj.
+conviction_helpinmates_5                Jag har tittat runt lite och jag är förvånad över att många av dessa interner bara har baskunskaper i matte och läsfärdighet. Vi måste göra något åt det.
+conviction_helpinmates_6                Öppna upp en ny klassrumsavdelning och börja ta in lärare utifrån som kan lära ut grunderna. Utan någon utbildning har de här internerna inget hopp om att klara sig annat än med brott.
+conviction_helpinmates_7                Och vi måste se till att vi hanterar inflödet av nya interner. Fortsätt bygga ut fängelset så att alla interner får en cell av bra kvalitet.
+
+conviction_outro1                       Jag tror att vi har gjort skillnad här. Vi har gett dessa interner något som de kan sträva mot, och en anledning att fortsätta.
+conviction_outro2                       Du kan stanna och hjälpa oss att låta de första internerna gå igenom utbildningen och arbetsprogrammen som vi har tagit fram, om du vill.
+conviction_outro3                       Men jag tror att vi kan hantera det nu. När du är redo att gå kan du klicka på fotografiet i Morgans cell.
+
+conviction_secondvisit_1                Jag hoppades att jag skulle få träffa dig under en av mina sessioner.
+conviction_secondvisit_2                Jag klarar det inte. Jag kan inte stanna i det här hålet längre.
+conviction_secondvisit_3                Ta bara en dag i taget.
+conviction_secondvisit_4                Jag menar hela det här helvetet. Härinne. Därute. De låter mig inte träffa min familj. Jag sabbade det, sir, och det kommer inte att förändras.
+conviction_secondvisit_5                Henry, allt blir bra. Jag finns här.
+conviction_secondvisit_6                Kul. Han sa precis samma sak.
+conviction_secondvisit_7                Vem då, Henry? Berätta för mig.
+conviction_secondvisit_8                Han brydde sig om mig.
+conviction_secondvisit_9                Ända sen vi var små.
+conviction_secondvisit_10               Ta dig samman. Vad som än händer, grabben.
+conviction_secondvisit_11               Jag finns här.
+conviction_secondvisit_11b 				…Jag finns här?
+conviction_secondvisit_12               Han finns inte längre.
+conviction_secondvisit_13               Vi säger såhär. Kom till mitt nästa gruppsamtal så ska vi se om jag kan lossa lite på dina besöksprivilegier.
+conviction_secondvisit_14               Hade du gjort det för mig, sir?
+conviction_secondvisit_15               Det är inte bara för dig, Henry.
+
+conviction_suicide_1 					Ledsen sir, men du borde få reda på detta. Det har skett ett självmord till.
+conviction_suicide_2					Det verkar som att en av internerna har ätit råttgift.
+conviction_suicide_3					Doktor Hurst är på väg dit nu för att bekräfta.
+conviction_suicide_4					Är hon inte det vackraste du nånsin har sett?
+conviction_suicide_5					Jag tror att hon är det.
+conviction_suicide_6					Aldrig för sent att förändra ett liv, sir.
+
+objective_conviction_expandcapacity50			Ta hand om det nya interninsläppet
+objective_conviction_expandcapacity50_description	Du kan se en möjlig plan för det nya cellblocket genom att gå till läget Planering från huvudverktygsraden.
+objective_conviction_expandcapacity_cells	 	Bygg celler åt 40 interner
+objective_conviction_expandcapacity_shower		Bygg en duschanläggning
+objective_conviction_expandcapacity_yard		Bygg en gård
+objective_conviction_expandcapacity_intake		Vänta på att nästa intag ska komma
+
+objective_conviction_workprogram 				Starta upp ett program för arbetsträning
+objective_conviction_unlocklabour				Auktorisera Fängelsearbete via Byråkrati
+objective_conviction_work_trainkitchen			(VALBART) Träna upp 5 interner inom Säkerhet och hygien i köket
+objective_conviction_work_kitchen				Tilldela interner att arbeta i köket
+objective_conviction_work_workshop				Bygg en verkstad
+objective_conviction_work_trainworkshop			(VALBART) Låt 10 interner gå igenom en introduktionskurs i Säkerhet i verkstaden
+objective_conviction_work_assignworkshop		Tilldela interner att arbeta i verkstaden
+objective_conviction_work_produceplates			(VALBART) Producera 100 registreringsskyltar
+objective_conviction_work_exportszone			Lägg till en lastzon nära vägen
+objective_conviction_work_setintake             Ställ in Intagsnivån för interner till 10
+
+objective_conviction_unlocklabour_description	Du kan hitta skärmen Byråkrati genom att klicka på ikonen ovanför denna att göra-lista.
+objective_conviction_work_kitchen_description	 To assign prisoners to the kitchen, go to 'Logistics' then 'Prison Labour'.\n\nNb. Your prisoners must have passed the 'Kitchen Safety and Hygiene' training course before they can work in the kitchen.				För att tilldela interner till köket, gå till Logistik, sedan Fängelsearbete.\n\nObs: Dina interner måste ha klarat kursen Säkerhet och hygien i köket innan de kan arbeta i köket.
+objective_conviction_work_assignworkshop_description 	För att tilldela interner till verkstaden, gå till Logistik, sedan Fängelsearbete.\n\nDina interner måste ha klarat kursen Säkerhetsintroduktion till verkstaden innan de får arbeta i verkstaden.
+objective_conviction_work_trainkitchen_description 		För att starta upp tränings- och reformprogram, gå till Rapporter (nedre delen av skärmen till höger) och sedan Program. Internerna går på kurserna under deras arbetstid.\n\nDu behöver tilldela två timmars tid för Arbete i schemaskärmen, annars har inte internerna tid att gå på träningsprogrammen.
+objective_conviction_work_trainworkshop_description 	För att starta upp tränings- och reformprogram, gå till Rapporter (nedre delen av skärmen till höger) och sedan Program. Internerna går på kurserna under deras arbetstid.\n\nDu behöver tilldela två timmars tid för Arbete i schemaskärmen, annars har inte internerna tid att gå på träningsprogrammen.
+objective_conviction_work_setintake_description         För att se till att fängelset inte blir överfullt, gå till Rapporter (nedre delen av skärmen till höger) och sedan Intag. Använd knappen << för att dra ner intagningsnivån till 10.
+
+objective_conviction_visitation				Ordna en bättre besökstjänst
+objective_conviction_visitationroom	Bygg ett nytt besökscenter
+objective_conviction_visitationcount		Anordna 20 familjebesök för interner
+objective_conviction_telephones	 			Lägg till telefoner på alla gårdar
+objective_conviction_mailroom				Bygg ett postrum
+objective_conviction_mailroomwork			Tilldela interner som kan arbeta i postrummet
+
+objective_conviction_mailroomwork_description           För att tilldela interner till postrummet, gå till Logistik och sedan Fängelsearbete.
+
+objective_conviction_education				Börja utbilda dina interner
+objective_conviction_unlockeducation		Auktorisera Utbildning via Byråkrati
+objective_conviction_education_classroom	Bygg ett klassrum
+objective_conviction_education_class 		Starta upp en Grundutbildningskurs
+objective_conviction_education_learn		(VALBART) Se till att 5 interner klarar sin grundutbildning
+objective_conviction_education_library		Bygg ett bibliotek
+objective_conviction_education_librarywork	Tilldela interner som kan arbeta i biblioteket
+objective_conviction_education_chapel		Bygg ett kapell
+objective_conviction_education_spiritual	Starta upp en kurs i Andlig vägledning
+
+objective_conviction_expandcapacity100			Utvidga fängelsets kapacitet
+objective_conviction_expandcapacity_cells100	Bygg ut till 80 cellers kapacitet
+objective_conviction_expandcapacity_cells200	(VALBART) Bygg ut till 120 cellers kapacitet
+
+objective_Conviction_PlayerExitsMap         Klicka på fotografiet i Morgans cell när du är klar.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Snören
+campaigncutscene_epilogueintro          Återbesöket
+campaigncutscene_epilogueoutro          Epilog
+
+campaignchapter_epilogue_description    Ett historiskt fängelse ska rivas och bytas ut. Använd alla de färdigheter som du har lärt dig för att bygga den ultimata anläggningen.
+
+adviser_name_reporter 					Reporter
+
+epilogue_newsintro1 					Idag på CNDC-nyheterna kommer en specialrapport om våra fängelser.
+epilogue_newsintro2 					Det har gått två år sedan berömda "Belägringen av Alchemico" tog så många liv, bland annat fängelsechefen Charles Wallace.
+epilogue_newsintro4 					Idag pratar vi med ledande experter och frågar oss vad, om något, som har förändrats sedan dessa tragiska händelser.
+epilogue_newsintro5 					Först går vi live till ett av delstatens äldsta fängelser, som nyligen har planerats att rivas.
+epilogue_newsintro6						Live, bara på CNDC-nyheterna.
+
+epilogue_reporter1						Tack Sarah. Det här fängelset har haft några av landets mest ökända kriminella.
+epilogue_reporter2 						Men nu rivs murarna, och man är redo att byta ut fängelset mot ett nytt.
+epilogue_reporter3 						Om du tittar bakom mig kan du se att byggarbetarna redan är här, och man har börjat riva.
+epilogue_reporter4 						Med mig har jag borgmästaren Calvin Heller. Tack Mr Heller för att du tog dig tiden att prata med oss.
+epilogue_reporter5 						Mitt nöje.
+
+epilogue_reporter6 						Förut har du ofta pratat om att man bör införa ett tuffare och mer disciplinerat synsätt på fängelsehanteringen.
+epilogue_reporter6b 					Varför ska man riva en anläggning som så länge har varit definitionen av straffet självt?
+epilogue_reporter7 						Både fängelset och verksamheten hade blivit föråldrade.
+epilogue_reporter8 						Vi tog beslutet att byta ut det mot en helt ny anläggning. En med en mer modern policy.
+epilogue_reporter9						Detta fängelse var i nyheterna för ett par år sedan. Det är ett av de äldsta kvarvarande fängelserna med dödsceller.
+epilogue_reporter10 					Lobbyister har länge velat avskaffa dödsstraffet här. Kommer du vara på deras sida, eller bygger du upp avrättningsanläggningen igen?
+epilogue_reporter12 					Det undersöks fortfarande. Men det är inget beslut vi tar lätt på.
+
+epilogue_reporterend1 					Tack, borgmästare Heller. Tillbaka till studion.
+epilogue_newstransition1 				Det här är CNDC-nyheterna. Vi rapporterar live om vårt fängelsesystem.
+epilogue_newstransition2 				Efter pausen pratar vi med Doktor Walter Hurst, en specialist inom fängelsepsykologi och rehabilitering.
+
+epilogue_parole1 						Fortfarande ingenting? Hur länge nu?
+epilogue_parole2						Jag har tappat räkningen. Inga samtal. Inga brev.
+epilogue_parole3 						Jag är ledsen, Morgan. Det måste svida. Men du har en chans här. Sabba det inte.
+epilogue_parole4 						Henry. Lycka till.
+epilogue_parole5 						Säg inte vad det är du tror att de vill höra.
+epilogue_parole6 						Jag måste gå. Jag ska gå live om en minut.
+epilogue_parole7                        Borgmästare Heller, vad är dina åsikter?
+epilogue_parole10 						Det där var snabbt!
+epilogue_parole11 						Nå?
+epilogue_parole12                       …
+
+epilogue_outro_1 						Välkommen tillbaka till detta specialprogram med CNDC-nyheterna, live med borgmästare Calvin Heller.
+epilogue_outro_2 						Vi har med oss Doktor Walter Hurst som har blivit anklagad för att slösa bort stora summor pengar på fängelsereformer.
+epilogue_outro_2b 						Dr Hurst, tror du att du har lyckats?
+epilogue_outro_3						Lyckats? Nej. Inte i det stora hela.
+epilogue_outro_4						Jag tror att alla kan förbättras. Och vi måste ge dem den chansen.
+epilogue_outro_4b 						Jag kan säga med absolut säkerhet att jag har sett riktig förbättring hos attityden och hoppet hos många av de som är inlåsta här.
+epilogue_outro_5						Ett fängelsestraff ska vara avskräckande. Det ska inte vara en möjlighet för utveckling eller förändring.
+epilogue_outro_6 						Att straffa dem och ta ifrån dem deras mänsklighet under tiden i fängelset leder bara till fler brott.
+
+epilogue_outro_7						Vi erbjuder värdefulla färdigheter för dessa män, men viktigare ändå är att de får hopp.
+epilogue_outro_7b  						Vi hjälper dem att integreras i samhället igen, och göra nytta när de blir frigivna.
+epilogue_outro_8						Vanliga medborgare får ingen gratis träning. Gratis utbildning. Garanterat betalt arbete.
+epilogue_outro_8b 						Vi försummar brottsoffren och belönar förövarna.
+epilogue_outro_8c 						Vi spenderar stora summor bara för att få dessa brottslingar att må bra.
+epilogue_outro_9						Vi kan göra skillnad, även om vi måste göra det en person åt gången.
+epilogue_outro_10						Dessa män har inte förtjänat sin frihet. 
+epilogue_outro_11						Du kan säga åt en hankatt hundra gånger att lämna fåglarna i trädgården ifred. Men han kommer alltid tillbaka.
+epilogue_outro_12 						Det ligger i hans natur.
+
+epilogue_sandbox_1                      Låt mig gratulera till VD-tjänsten. Det är en möjlighet. En nystart.
+epilogue_sandbox_2                      Du har fullständigt självstyre, mer eller mindre. Fler interner. Högre återfallsgrad. Du har massor av utmaningar framför dig.
+epilogue_sandbox_3						Och avrättningsanläggningen – ta ner den. Eller behåll den, använd den på nåt sätt. Det är upp till dig. Någon annan tar hand om det om inte du gör det.
+epilogue_sandbox_4						När det gäller mål så ger jag dig samma som jag gav till din föregångare. Vinst, återfallsgrad, kapacitet.
+epilogue_sandbox_5 						Det är helt upp till dig hur du lyckas med dem.
+epilogue_sandbox_5b                     En sak till. Den förra VD:n, Charles Wallace, lämnade bakom sig ett brev som han brukade ge till nya fängelsearkitekter som gick med i firman.
+epilogue_sandbox_5c                     Han hade några bra tips. Du kanske finner det hjälpsamt om du tar en titt.
+epilogue_sandbox_6						Lycka till!
+
+objective_epilogue_grants				Få in pengar genom systemet Bidrag
+objective_epilogue_grants_description   Bidrag är en av de primära metoderna för att få in de stora summor pengar som behövs för att bygga ett fängelse.\n\nDu kan hitta en massa bidrag i Rapporter (nedre högra delen av skärmen) under Bidrag. Olika verksamheter ger dig pengar för att bygga specifika delar av ditt fängelse från grunden.
+
+objective_epilogue_certifiedprison		Bygg ett fängelse
+objective_epilogue_capacity				Minst 100 interner
+objective_epilogue_bankbalance			Banksaldo på minst 100 000 dollar
+objective_epilogue_cashflow				Positivt kassaflöde
+
+epilogue_outrointro_1                   Jag kan se att du har en väldigt bra början.
+epilogue_outrointro_2                   Om du är nära en TV borde du sätta på den nu. Något som jag vill att du ska se.
+
+epilogue_basiccompletion_1 				Du har nått upp till minimumkraven för ett statligt fängelse. Hur det går nu är upp till dig.
+epilogue_basiccompletion_2 				Just nu är det helt upp till dig och företaget hur ni ska fortsätta.
+epilogue_basiccompletion_3 				I borgmästarens kontor finns det bara en siffra som vi bryr oss om, och det är återfallsgraden.
+epilogue_basiccompletion_4	 			Om du kan minska återfallsgraden bland dina interner skulle jag säga att uppdraget lyckades.
+epilogue_basiccompletion_5 				Folk som Doctor Hurst tror att du bara kan göra detta genom utbildning, reform, träning i färdigheter och liknande.
+epilogue_basiccompletion_6 				Enligt mig kan straff bli lika effektiva som en metod.
+epilogue_basiccompletion_8 				Det är upp till dig. Jag önskar dig lycka till!
+
+objective_epilogue_reoffending			(VALBART) Minska fängelsets återfallsgrad
+objective_epilogue_reoffending_description	Du kan se din återfallsgrad i Fängelsebetyg. Klicka på ikonen på övre vänstra delen av skärmen.
+
+objective_epilogue_reoffending_rate		Minska återfallsgraden till högst 30%
+objective_epilogue_reoffending_released	Låt minst 10 interner bli frigivna
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Exportera fängelse till Minecraft
+codex_mcexportname						Minecraft-exporteraren
+codex_worldnametitle					Namn på värld
+codex_seedtitle							Frö
+codex_gamemodetitle						Spelläge
+codex_mapfeattitle						
+codex_cheatstitle						Fusk
+codex_timeofdaytitle					Tid på dagen
+codex_rainingtitle						Regn
+codex_thunderingtitle					Åska
+codex_generatortitle					Generator
+codex_scaletitle						Skala
+codex_exporttomc						Export
+codex_mcexport_default					Standard
+codex_mcexport_flat						Platt
+codex_mcexport_largebiomes				Stora ekosystem
+codex_mcexport_survival					Överlevnad
+codex_mcexport_creative					Kreativt
+codex_mcexport_adventure				Äventyr
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Rym – det är enda vägen ut
+escapemode_help                         Steg ett: Ryktet – Ditt rykte betyder allt härinne\n\n• Få ett bättre rykte genom att starta bråk. Om du skadar folk märker man dig, men det är ingen bra början om du bryter saker. Ju mer skada som du kan orsaka under ett slagsmål desto bättre.\n• Lämna inga vittnen. Om en vakt får syn på dig när du slåss kommer du att bli straffad för det, förutom om de inte finns kvar längre.\n• Det ser dåligt ut om du blir knockad. Det är bättre att du slutar upp slagsmålet på dina egna villkor.\n\nSteg två: Gruppen – Rekrytera andra som hjälper dig i ditt rymningsförsök\n\n• Vissla för att kalla på dem så hänger de med dig var du än går. (Klicka på deras namn i övre delen av skärmen till vänster)\n• De kommer till och med hjälpa dig i slagsmål, vilket kan få ditt rykte att bli bättre ännu snabbare.\n• Träna upp gruppen. Du vet aldrig när det blir användbart att ha någon som är bra på att slåss eller på att springa.\n\nSteg tre: Smuggelgods –  du behöver vapen och verktyg\n\n• Hitta ett rum där det finns något som du vill ha. Titta dig omkring så hittar du snart något användbart att stjäla.\n• Akta dig för metalldetektorer och vakter som försöker söka igenom dig. Om de hittar dig med något tar de det och skickar dig till isoleringscellen.\n• Göm undan din utrustning. Du kan gömma det du hittat i din egen eller andras celler, kom bara ihåg var du lagt allting.\n\nSteg fyra: Tunnlar – den tysta vägen ut\n\n• Ta ett grävverktyg och börja på en tunnel från toaletten i din cell.\n• Att gräva går långsamt. Få dina gruppmedlemmar att hjälpa dig gräva.\n• Bli inte upptäckt. Om en vakt ser dig gå in i eller gå ut ur en tunnel är du körd.\n\nLycka till. Det lär du behöva.
+
+codex_escapemode                        Flyktläge
+codex_escapemode_developer              (Utvecklare) Flyktläge
+codex_escapemode_new                    Nytt flyktförsök
+codex_escapemode_load                   Ladda flyktförsök
+codex_escapemode_save                   Spara flyktförsök
+codex_escapemode_workshop               Flyktförsök (Steam Workshop)
+codex_escapemode_workshop_star_rating   *S stjärnor eller fler
+
+escapemode_combat_attack                Attackera
+escapemode_combat_attack_button         Vänsterklicka
+escapemode_combat_lunge                 Utfall
+escapemode_combat_lunge_button          Skift
+escapemode_dig_button                   Håll in vänsterklick
+escapemode_dig                          Gräv
+escapemode_surrender                    Ge upp
+escapemode_surrender_safe               Sluta slåss
+escapemode_surrender_button             Mellanslag
+
+escapemode_gameover                     Game over
+
+escapemode_reputation_points            Ryktespoäng:
+escapemode_reputations_cost             *C ryktespoäng
+escapemode_reputations_max              MAX
+
+escapesquad_squad_member                Gruppmedlem
+escapesquad_recruitment                 Håll in högerklick för att rekrytera
+escapesquad_recruitment_cost            Kostnad i ryktespoäng: *C
+escapesquad_toggle_follow               Följ
+escapesquad_nameplate_following         Följer
+escapesquad_skip_punishments            Skippa straff
+escapesquad_skip_punishments_tooltip    Spendera ett ryktespoäng för att låta alla gruppmedlemmar sova genom sina straff och vakna i sina celler.
+escapesquad_sleep                       Sov
+escapesquad_sleep_tooltip               Klicka för att sova hela natten.
+escapesquad_reputations                 Rykte
+escapesquad_reputations_tooltip         Spendera ryktespoäng på rykten för att förbättra din grupps stridsförmåga.
+escapesquad_follow_mode                 Följarläge
+escapesquad_follow_mode_tooltip         Interner i följarläget följer efter dig och härmar ditt dåliga beteende.\n\nTryck på R för att sätta på följarläget för alla interner på en gång.
+escapesquad_remove_member               Ta bort Gruppmedlem
+escapesquad_remove_member_tooltip       Klicka för att ta bort denna intern från din grupp.
+escapesquad_escaped                     Flykten lyckades
+
+escapemode_info_right_click             Högerklicka
+escapemode_info_hold_right_click        Håll in högerklick
+escapemode_info_stash                   för att gömma smuggelgods
+escapemode_info_pick_up                 för att plocka upp smuggelgods
+escapemode_info_start_tunnel            för att påbörja en tunnel
+escapemode_info_enter_tunnel            för att gå in i en tunnel
+escapemode_info_exit_tunnel             för att gå ut ur en tunnel
+escapemode_info_dig_up                  för att gräva uppåt
+escapemode_info_steal                   för att stjäla
+
+escapemode_info_tool                    [Grävverktyg]
+escapemode_info_damage                  Skada: *D
+escapemode_info_recharge                Återladdningstid: *T
+
+escapemode_gameover                     Game over
+escapemode_gameover_squad_title         Grupp
+escapemode_gameover_casualties_title    Offer
+escapemode_gameover_totalscore_title    Total poäng
+escapemode_gameover_totaltime_title     Tid
+escapemode_gameover_time_days           *D dagar, *H timmar och *M minuter
+escapemode_gameover_time                *H timmar och *M minuter
+
+codex_workshop_select_random_prison     Slumpmässigt fängelse från Workshop
+codex_workshop_searching                Söker
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         Spelbibel
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              SIDA *X
+codex_gamebible_doublepage              SIDORNA *X–*Y
+object_collectable                      Anteckningar

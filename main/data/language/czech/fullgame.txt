@@ -1,0 +1,883 @@
+﻿
+campaigncutscene_tooltip 				(Kliknutím přejdeš do další kapitoly příběhu)
+campaignchapter_locked                  (Zamčeno)
+
+
+# =============================================================================
+# Food / Palermo
+# =============================================================================
+
+campaignchapter_food                    Palermo
+
+campaignchapter_food_description        Mohutný požár zničil v tomto vězení kuchyň a jídelnu.  Pokud nenajdeme způsob, jak zdejší vězně co nejdříve nakrmit, budeme mít na krku všeobecnou vzpouru.\nVyřeš krizovou situaci a poté znovu postav kuchyň a jídelnu.
+
+adviser_food_fire_1                     V jednom z našich dalších zařízení vypukla krizová situace.
+adviser_food_fire_2                     Někdo podpálil vězeňskou kuchyni. Prioritou je ji uhasit, zabránit ztrátám na životech a předejít dalším škodám. 
+adviser_food_fire_3                     Pomocí tlačítka Tísňové složky, jež se nachází na liště nástrojů, přivolej hasiče. 
+adviser_food_fire_4                     Dostaň oheň pod kontrolu dřív, než celá věznice lehne popelem!
+
+objective_food_callfirebrigade          Přivolej hasiče
+objective_food_extinguishflames         Uhas požár
+
+objective_food_callfirebrigade_description 	Hasiče přivoláš kliknutím na tlačítko Tísňové složky na liště nástrojů a poté na hasiče.
+objective_food_extinguishflames_description  Jakmile hasiče označíš, můžeš ručně nasměrovat proud vody podržením klávesy H. Zaměř tímto způsobem hadice na střed požáru.\n\nSnaž se udržet hasiče co nejblíž ohni, budou pak účinnější.
+
+adviser_food_savedon1                   Bože, v těch troskách někdo přežil.
+adviser_food_savedon2					Svatá panno, to je don Palermo. Ze všech vězňů... musel přežít právě náš mafiánský boss. 
+adviser_food_donintro2					Špatná zpráva pro něj je, že kvůli škrtům v rozpočtu jsme museli propustit všechny naše vlastní doktory. 
+adviser_food_donintro3				 	Aspoň že ošetřovna je i nadále použitelná. Najmi několik doktorů, ať se o dona Palerma postarají, než to tu dáme zase do pořádku.
+
+adviser_food_afterfire3                 Musíme to tu vrátit do původního stavu.
+adviser_food_afterfire4                 Nástrojem pro demolici strhni bývalou jídelnu a kuchyň. Musíme se zbavit všech trosek. 
+adviser_food_afterfire6                 Vyznač poblíž silnice skládku. Naši dělníci tam budou přenášet suť a nákladní vozy ji budou postupně odvážet pryč.
+adviser_food_dismissfiremen1			Teď, když hasiči odvedli svou práci, je můžeš poslat zpět na stanici.
+adviser_food_gamespeed                  Demolice těch budov bude chvíli trvat. Pokud chceš, aby čas ubíhal rychleji, použij tlačítka pod hodinami.
+
+adviser_food_todolist1					Ve svém seznamu úkolů najdeš podrobnosti k jednotlivým akcím, které musíš vykonat.
+adviser_food_todolist2					Nebudeš-li si někdy vědět rady, umísti kurzor na příslušný úkol a zobrazí se ti detailní pokyny.
+
+objective_food_buildmedicalward_doctors Najmi do ošetřovny několik doktorů
+
+objective_food_DismissAllFiremen		Pošli hasiče zpět na základnu
+objective_food_cleararea                Odstraň ohořelé trosky 
+objective_food_buildgarbagearea         Vyznač skládku
+objective_food_clearcanteen             Odstraň trosky jídelny
+objective_food_clearkitchen             Odstraň trosky kuchyně
+objective_food_hiremoreworkmen			(NEPOVINNÉ) Najmi víc dělníků a urychli tak demoliční práce
+
+objective_food_dismissallfiremen_description 	Chceš-li odvolat poplach a poslat pracovníky tísňových složek zpět na základnu, vyhledej na pravé straně obrazovky jejich ikonu a klikni na kulaté tlačítko s červeným X.
+objective_food_cleararea_description 	Pomocí nástroje pro demolici strhni budovy. Najdeš jej na liště s nástroji v sekci „Základy“.
+
+adviser_food_familyvisit1				Dobrá práce.
+adviser_food_familyvisit2 				Podívejme se, jak jsme na tom se ztrátami.
+
+adviser_food_troublesoon1				Když těm vězňům nezajistíme jídlo, během pár dní nám tu z toho udělají kůlničku na dříví.
+adviser_food_troublesoon2 				Musíme vězení řádně zabezpečit, než tu dojde ke vzpouře. 
+adviser_food_troublesoon3 				Toto je obrazovka Rozmístění. Odsud můžeš určovat taktické rozmístění všech svých strážných.
+adviser_food_troublesoon4 				Rozmísti strážné do všech vězeňských bloků a místností. Přiřaď 10 strážným pozice na různých místech věznice. To by mělo prozatím jako ukázka síly stačit.
+adviser_food_troublesoon5				Chci také, ať někdo hlídá kolem vnitřního nádvoří, kde budeme stavět nové budovy. 
+adviser_food_troublesoon6				A poslední věc. Společně s jídelnou vzalo zasvé i několik beden s potravinami. Vyhoď je, než se nám tu rozmnoží krysy.
+
+objective_food_deployguards				Rozmísti po věznici 10 strážných
+objective_food_deploypatrol				Zadej 2 strážným úkol hlídat kolem vnitřního nádvoří 
+
+objective_food_deployguards_description		K rozmístění strážných musíš otevřít obrazovku Rozmístění a kliknutím na zvolený sektor vytvořit „pozici“. K ní bude automaticky přiřazen některý z dostupných strážných.
+objective_food_deploypatrol_description		Otevři obrazovku Rozmístění a vyber Hlídky. Kliknutím a přetažením kurzoru nakresli hlídkové trasy.\n\nChceš-li přiřadit k hlídkové trase strážného, klikni znovu na libovolný čtverec, jenž je její součástí.
+
+objective_food_dumpfood 				Vyhoď zkažené potraviny na skládku
+objective_food_dumpfood_description		Zkažené potraviny najdeš ve skříni ve skladišti, které se nachází v severovýchodním kvadrantu věznice.\n\nPředmět vyhodíš tak, že na něj klikneš a v kontextové nabídce vybereš možnost „Vyhodit“.
+
+adviser_food_doncantspeak1				...
+adviser_food_doncantspeak2				eeerrrm... ...
+
+adviser_food_doninfirmary0              Něco se asi snaží říct.
+adviser_food_doninfirmary1				Kdo z vás vyjebanejch zkurvysynů má tohle na svědomí?
+adviser_food_doninfirmary2 				Nikdo ti to neudělal, tati. Byla to nehoda.
+adviser_food_doninfirmary3 				Zavři tu svou smradlavou klapačku a poslouchej. Poslouchejte oba dva. 
+adviser_food_doninfirmary4 				Vědět, kdo z vás zajebanců ten požár založil, zpřerážím mu všechny kosti v těle!
+adviser_food_doninfirmary5 				Ale se mnou už je amen. Chcípnu v týhle zasraný posteli.
+adviser_food_doninfirmary6 				A někdo musí vést rodinnej obchod. Jméno Palermo je to jediný, co nám zbylo. Takže uděláte, co vám velí čest, vy sráči zavšivený. Capisci?
+adviser_food_doninfirmary7				Víme, co dělat, tati.
+adviser_food_donchat13					Ještě není po všem, Nico.
+adviser_food_donchat14					Radši si hlídej záda, kurva.
+
+adviser_food_founddrugs1				Neuvěříš, co se mi právě doneslo. 
+adviser_food_founddrugs2				Naši lidi vyhazovali nějaké staré bedny s jídlem. A našli v nich ukryté balíčky drog a lahve s alkoholem.
+adviser_food_founddrugs3				Už nějakou dobu jsme podezírali Palermovic rodinu, že do věznice pašuje kontraband, ale nedokázali jsme zjistit, jak to dělají.
+adviser_food_founddrugs4 				Holt když se daří, tak se daří.
+
+adviser_food_rebuild1                   Máme před sebou pořád spoustu práce. Musíme se teď zaměřit na vybudování nové kuchyně a jídelny.
+adviser_food_rebuild2                   Nejdřív musíme postavit kuchyni. Bude zapotřebí do ní namontovat potřebné vybavení a najmout několik kuchařů.
+adviser_food_rebuild3					Až to bude hotovo, postav novou jídelnu.
+adviser_food_rebuild4					Jakmile bude připravená, kuchaři se automaticky pustí do přípravy jídla pro celou věznici.
+adviser_food_rebuild5                   Nebudeš-li si někdy vědět rady, umísti v seznamu úkolů kurzor na příslušnou položku a zobrazí se ti podrobnější rady.
+
+adviser_food_fightoutro1  				Fantastické. Jak se zdá, Palermovic rodině začínají docházet členové.
+
+adviser_food_sprinklerintro1 			Možná tu máme poměrně vážné problémy s drogami. Ale teď se musíme věnovat jiným věcem.
+adviser_food_sprinklerintro2 			Kuchyň a jídelna jsou už v provozu. Kuchaři pilně připravují jídlo pro všechny v celé věznici, což by mělo situaci trochu zklidnit.
+adviser_food_sprinklers1                Starosti mi ale dělá něco jiného. Ten požár byl očividně založený úmyslně a nechceme, aby se to opakovalo.
+adviser_food_sprinklers2 				Nainstaluj do nové kuchyně a jídelny protipožární systém a připoj ho na rozvod vody.
+
+adviser_food_explainneeds1 				Každý vězeň má své potřeby. A jejich naplnění má přímý vliv na jeho chování. Momentálně mají všichni obrovský hlad, proto tolik křiku.
+adviser_food_explainneeds2 				Jídlo je jednou z jejich nejvyšších priorit, a když na to nebudeš brát zřetel, hodně riskuješ. Stačí pár zmeškaných jídel a máš na krku hromadnou vzpouru.
+adviser_food_explainneeds3 				Potřeby všech svých vězňů můžeš sledovat v „hlášení o potřebách“, které si otevřeš kliknutím na ikonu Hlášení v pravém dolním rohu obrazovky.
+adviser_food_explainneeds4				V tomto hlášení najdeš souhrn potřeb všech svých vězňů. Červená barva značí, že velké množství vězňů je nespokojeno kvůli nenaplnění dané potřeby.
+adviser_food_explainneeds5 				Není žádným překvapením, že skoro všichni mají u jídla červenou barvu. Tito vězni se ale navíc také nudí (potřeba Zábava) a vězení samotné je dost zanedbané, což odráží jejich potřeby Prostředí a Oblečení.
+adviser_food_explainneeds6				Jelikož jsi zdejším hlavním stavitelem, je jen na tvém uvážení, které potřeby se pokusíš uspokojit nejdříve.  Můžeš vězňům nainstalovat na cely televize, aby se nějak zabavili, a najmout pár uklízečů, kteří tu trochu poklidí.
+adviser_food_explainneeds7				Ale pokud nechceš, můžeš také potřeby svých vězňů kompletně ignorovat a spoléhat se na to, že pořádek za zdmi věznice udržíš silou.
+adviser_food_explainneeds8 				Rozhodnutí nechám na tobě.
+
+objective_food_needs 					(NEPOVINNÉ) Postarej se o potřeby svých vězňů
+objective_food_handlefoodneed 			(NEPOVINNÉ) Postarej se svým vězňům o potřebu jídla 
+objective_food_handleboredomneed		(NEPOVINNÉ) Postarej se svým vězňům o potřebu zábavy 
+objective_food_handleenvironmentneed	(NEPOVINNÉ) Postarej se svým vězňům o potřebu prostředí
+
+objective_food_needs_description 					Chceš-li si zobrazit celkový přehled o potřebách svých vězňů, klikni na tlačítko Hlášení (v pravém dolním rohu obrazovky) a poté na položku Potřeby.\nMůžeš si také označit libovolného vězně a podívat se, jaké potřeby ovlivňují jeho chování.\n\nPotřeby nelze nikdy zcela naplnit – je to neustálý a trvalý boj.
+objective_food_handlefoodneed_description 			Kuchaři začnou s vařením, a až skončí příští čas vyhrazený na jídlo, měli by být všichni vězni nakrmeni.
+objective_food_handleboredomneed_description 		Nudu lze poměrně účinně zahnat nainstalováním televizí do všech cel. Nebo můžeš postavit společenskou místnost a dát do ní několik televizí a kulečníkových stolů.\n\nTelevize lze také umístit do společných místností, například do jídelny.
+objective_food_handleenvironmentneed_description 	Najmi několik uklízečů, kteří se budou starat o čistotu ve věznici.
+
+adviser_food_needssuccess1 				Jak vidím, pro naplnění potřeb svých vězňů děláš vše, co je v tvých silách. Výborně.
+adviser_food_needssuccess2 				Asi ti neuniklo, že teď vězně trápí především nedostatek čistého oblečení. 
+adviser_food_needssuccess3 				Chceš-li se postarat i o tuto potřebu, budeš muset uvést do provozu prádelnu, která bude vězňům průběžně zajišťovat čisté oblečení.
+adviser_food_needssuccess4 				Postav prádelnu, najmi několik uklízečů a zajisti tak vězňům čisté oblečení.
+
+objective_food_laundry 					(NEPOVINNÉ) Čisté oblečení
+objective_food_buildlaundry 			(NEPOVINNÉ) Postav prádelnu
+objective_food_hirejanitors             (NEPOVINNÉ) Najmi dostatek uklízečů na provoz prádelny
+objective_food_handleclothingneed 		(NEPOVINNÉ) Postarej se svým vězňům o potřebu oblečení
+
+objective_food_buildkitchen             Postav kuchyň (cca 12 m čtverečních)
+objective_food_buildkitchencookers      Nainstaluj alespoň čtyři sporáky
+objective_food_buildkitchenfridges      Nainstaluj alespoň čtyři ledničky
+objective_food_buildkitchensink         Nainstaluj kuchyňský dřez
+objective_food_buildkitchenbin	 		Umísti do kuchyně odpadkový koš
+objective_food_buildkitchenwatermains 	Napoj dřez na vodovodní potrubí
+objective_food_buildkitchenfloor 		(NEPOVINNÉ) Vylepši podlahu kuchyně
+
+objective_food_buildkitchen_description		Nejprve musíš vybudovat základy.
+objective_food_buildcanteen_description		Nejprve musíš vybudovat základy.
+
+objective_Food_HireChefs				Najmi alespoň 8 kuchařů
+objective_food_CookMeals				(Automaticky) Připrav jídlo pro všechny vězně
+
+objective_food_buildcanteen             Postav jídelnu (cca 20 m čtverečních)
+objective_food_buildservingtables       Nainstaluj dva servírovací stoly
+objective_food_buildcanteentables       Nainstaluj alespoň šest stolů
+objective_food_buildcanteenchairs       Nainstaluj kolem každého stolu dvě lavice
+objective_food_buildcanteenbin	 		Umísti do jídelny odpadkový koš
+objective_food_buildcanteenfloor 		(NEPOVINNÉ) Vylepši podlahu jídelny
+
+
+objective_food_buildsprinklers          Nainstaluj nový protipožární systém
+objective_food_buildsprinklers1         Nainstaluj do kuchyně pár sprinklerů
+objective_food_buildsprinklers2         Nainstaluj do jídelny pár sprinklerů
+objective_food_connectwater             Napoj sprinklery v kuchyni na vodovodní potrubí
+objective_food_connectwater2			Napoj sprinklery v jídelně na vodovodní potrubí
+objective_food_feedprisoners            Nakrm během večeře všechny vězně
+
+objective_food_buildkitchenwatermains_description   Široké potrubí slouží k přesunu velkého množství vody pod vysokým tlakem. Úzké potrubí je určeno k napojování jednotlivého vybavení na hlavní vodovodní řad.\n\nNejprve v pohledu ROZVODY doveď do budov široké potrubí. Poté pomocí úzkého potrubí připoj k hlavnímu řadu všechny okolní objekty, které potřebují dodávku vody.
+objective_food_connectwater_description             Široké potrubí slouží k přesunu velkého množství vody pod vysokým tlakem. Úzké potrubí je určeno k napojování jednotlivého vybavení na hlavní vodovodní řad.\n\nNejprve v pohledu ROZVODY doveď do budov široké potrubí. Poté pomocí úzkého potrubí připoj k hlavnímu řadu všechny okolní objekty, které potřebují dodávku vody.
+objective_food_connectwater2_description            Široké potrubí slouží k přesunu velkého množství vody pod vysokým tlakem. Úzké potrubí je určeno k napojování jednotlivého vybavení na hlavní vodovodní řad.\n\nNejprve v pohledu ROZVODY doveď do budov široké potrubí. Poté pomocí úzkého potrubí připoj k hlavnímu řadu všechny okolní objekty, které potřebují dodávku vody.
+
+campaigncutscene_foodinfirmary			Ošetřovna
+campaigncutscene_foodfamily             Rodina
+campaigncutscene_foodfeud               Svár
+campaigncutscene_foodregret				Lítost
+campaigncutscene_foodsuccession 		Nástupnictví
+
+campaigncutscene_foodfamily_description		Rodina Palermů kdysi ovládala obchod s narkotiky po celém východním pobřeží Ameriky. Seznam se s příběhem dona Palerma a jeho dětí.
+
+adviser_name_thedon                     Don Palermo
+adviser_name_thedonangry                Don Palermo
+adviser_name_nico                       Nico Tamoretti 
+adviser_name_nicoshower					Nico Tamoretti
+adviser_name_nicosuited					Nico Tamoretti
+adviser_name_sonny                      Sonny Palermo 
+adviser_name_sonnysuited				Sonny Palermo
+adviser_name_sonnystrangled				Sonny Palermo
+adviser_name_anthonysuited				Anthony Palermo
+adviser_name_wiggins					Wiggins
+adviser_name_nicoinfirmary				Nico Tamoretti
+adviser_name_vitalia					Vitalia Palermová
+
+cutscene_foodfamily_palermo01			Don Victor Palermo. Boss jedné z nejobávanějších mafiánských rodin východního pobřeží.
+cutscene_foodfamily_palermo1			Palermovi unikali FBI celá desetiletí.
+cutscene_foodfamily_palermo02			Běžné činnosti řídil Anthony Palermo, donův nejstarší syn a dědic. 
+cutscene_foodfamily_palermo03			Nico Tamoretti nebyl přímo z rodiny, ale byl do podniku přijat poté, co se oženil s donovou jedinou dcerou Vitalií.
+cutscene_foodfamily_palermo04			Dále tu je Sonny Palermo. Donův druhý syn. Nejslabší článek. Povaha jako pitbul, ale ani zdaleka tolik rozumu.
+
+cutscene_foodfamily_palermo2 			Jejich impérium ovládalo obchod s narkotiky od Maine až po Floridu. 
+cutscene_foodfamily_palermo3			Ovšem jen do chvíle, než byl Anthony přistižen in flagranti.
+cutscene_foodfamily_palermo3b           Žárlivý manžel ho na místě zastřelil.
+cutscene_foodfamily_palermo4			Naneštěstí pro rodinu našla policie na místě činu v Anthonyho tašce dvanáct kilogramů čistého kokainu. 
+cutscene_foodfamily_palermo5			A důkazy vedly až přímo na vrchol.
+cutscene_foodfamily_palermo6			Všechno, co rodina Palermů vybudovala, se přes noc ocitlo v troskách. FBI měla vše, co potřebovala, aby všichni z nich strávili zbytek života ve vězení.
+cutscene_foodfamily_palermo7			Jediným živým členem rodiny, který neskončil za mřížemi, se tak stala donova dcera Vitalia.
+cutscene_foodfamily_palermo8			Víme o ní jen to, že ji ostatní vždy drželi od rodinného podniku dál. 
+cutscene_foodfamily_palermo9 			Ale někdo zvenčí sem musí ty drogy posílat.
+
+adviser_food_findalldrugs1				Problémy s jídlem jsou zažehnány.  S plnými žaludky budou vězni mnohem klidnější.
+
+adviser_food_findalldrugs2				Klidně se vsaď, že Palermovic rodina prodávala drogy všem zdejším trestancům. 
+adviser_food_findalldrugs3				Strážní mě informovali, že od toho požáru hodně vězňů vykazuje abstinenční příznaky. 
+adviser_food_findalldrugs4				Prohledej všechny vězně a jejich cely. Dám ruku do ohně za to, že máme Palermovic drogy po celé věznici.
+
+objective_food_findalldrugs					Najdi ve věznici všechny drogy
+objective_food_findalldrugs_description 	Prohledej všechny bloky cel – klikni na libovolného vězně v daném bloku a poté na položku „Prohledat blok“. Případně také můžeš použít možnost Prohlídka cel, kterou najdeš na liště nástrojů v dolní části obrazovky.
+
+objective_food_hiremoreguards 			(NEPOVINNÉ) Najmi víc strážných a urychli tak prohledávání
+
+adviser_food_drugsfound1				Na jednu stranu to není tak zlé, jak jsem se obával, ale rozhodně tu máme problémy s drogami a závislostí na alkoholu.
+adviser_food_drugsfound2				Musíme těm lidem pomoci.  Jen tak je udržíme na uzdě a zároveň se vypořádáme s jejich symptomy. 
+adviser_food_drugsfound2b 				Spusť na ošetřovně odvykací program. Doktoři budou vydávat chemické substituční látky, které závislým vězňům uleví od abstinenčních příznaků.
+adviser_food_drugsfound3				Pro alkoholiky žádné takové přípravky neexistují, takže těm bude nejlepší nabídnout možnost skupinové terapie. 
+adviser_food_drugsfound4				Na tato setkání budeš potřebovat společenskou místnost.
+adviser_food_drugsfound5				Chceš-li tyto nové programy spustit, klikni v pravém dolním rohu obrazovky na položku „Hlášení“ a vyber možnost „Programy“.
+
+objective_food_drugtreatment			Spusť program na léčbu drogové závislosti
+objective_food_cureaddictions			(NEPOVINNÉ) Začni vězně léčit na drogovou závislost
+objective_food_alcoholprogram			Spusť skupinovou terapii pro alkoholiky
+objective_Food_HelpAlcoholics			(NEPOVINNÉ) Začni pomáhat alkoholikům při boji s jejich závislostí
+objective_food_buildcommonroom 			Vybuduj společenskou místnost 
+objective_food_buildcommonroomchairs	Vytvoř místo s 8 židlemi pro setkávání vězňů
+
+objective_food_drugtreatment_description 	Klikni v pravé dolní části obrazovky na položku „Hlášení“ a vyber záložku „Programy“. Program se jmenuje „Farmakologická léčba drogové závislosti“ a probíhá na ošetřovně.\n\nPozn.: Aby se mohl vězeň programu zúčastnit, musíš mu na něj v denním režimu vyhradit alespoň dvě hodiny času.
+objective_food_alcoholprogram_description 	Klikni v pravé dolní části obrazovky na položku „Hlášení“ a vyber záložku „Programy“. \n\nPozn.: Aby se mohl vězeň programu zúčastnit, musíš mu na něj v denním režimu vyhradit alespoň dvě hodiny času.
+
+cutscene_food_feudintro1 				Ve sprchách došlo k mimořádné události. Našli jsme tam tělo. 
+cutscene_food_feudintro2 				Vlastně dvě těla. Naštěstí tam máme kamery. 
+cutscene_food_feudintro3 				Až budeš mít chvilku, klikni ve sprchách na fotografii a podíváme se, co se tam stalo.
+
+objective_food_triggerfightscene		Až budeš chtít, klikni ve sprchách na fotografii.
+objective_food_triggerfightscene_description 	Sprchy se nacházejí v severozápadním rohu areálu.
+
+cutscene_food_feud1b                    Jseš sám. Výborně.
+cutscene_food_feud1                     Dal sis na čas.
+cutscene_food_feud2                     Nech si kecy na koledu. Nikdy jsem nechápal, co na tobě ta moje zkurvená sestřička vlastně vidí.
+cutscene_food_feud2b 					To byl její nápad? Sejmout fotříka?
+cutscene_food_feud3                     Tak tohle si myslíš, ty tlustý hovado? Nechtěl jsem, aby se mu něco stalo. Miluju ho jako vlastního tátu.
+cutscene_food_feud3b 					Už mám plný zuby dívat se, jak celou rodinu ničíš svojí stupiditou.
+cutscene_food_feud4                     Ten oheň měl sejmout tebe.
+cutscene_food_feud5                     V tom případě ti to teď rád oplatím.
+cutscene_food_feud6                     Nedělej ze sebe neviňátko. Oba víme, že jsi mě chtěl taky sejmout.
+cutscene_food_feud7                     Jo, tys byl vždycky mazanej, Nico. Ne, že by ti to pomohlo. Neboj, nic neucejtíš.
+cutscene_food_feud8                     Varoval jsem tě. Hlídej si záda.
+cutscene_food_feud8b                    euuegggghhhh!!!!!.....
+cutscene_food_feud8c                    AAARRRGGRGGGGGG!!!!
+cutscene_food_feud8d                    Znáš Frankyho?  Úžasnej talent se strunou od piana.
+cutscene_food_feud8e                    Vážně. Až s tebou skoncuje, budou si myslet, že to byla sebevražda.
+cutscene_food_feud9                     Ještě není po všem, Nico.
+cutscene_food_feud9b                    To si děláš prdel.
+
+cutscene_food_successionintro			Výborně. Odvedli jsme skvělou práci a myslím, že situace ve věznici je znovu pod kontrolou.
+cutscene_food_successionintro2 			Můžeš tu zůstat a pokračovat ve vylepšování věznice, nebo se můžeme přesunout do dalšího zařízení.
+cutscene_food_successionintro3 			Až budeš chtít přejít dál, klikni na fotografii na ošetřovně.
+
+objective_food_runending 				Až budeš chtít pokračovat, klikni na ošetřovně na fotografii.
+objective_food_runending_description	Ošetřovna se nachází v jihozápadní části věznice.
+
+cutscene_food_succession1				Vitalie! 
+cutscene_food_succession1b				...?
+cutscene_food_succession2				Proboha živého!
+cutscene_food_succession3				Je mi to líto. Posral jsem to.
+cutscene_food_succession4				Uklidni se.
+cutscene_food_succession5				Říkají, že táta má už jenom pár dní.
+cutscene_food_succession6				Já vím. Přišla jsem se rozloučit.
+cutscene_food_succession7				Víš, mohli bychom se na to všechno vykašlat. Ty a já. Na celej tenhle zasranej život. Připravil nás o všechno.
+cutscene_food_succession8				Zní to krásně.
+cutscene_food_succession9				Ale nemůžu. Jsem Palermová, Nico.
+cutscene_food_succession10				Táta brzo zemře a ty nejsi jeden z nás. Naši nepřátelé by celou rodinu roznesli na kopytech. 
+cutscene_food_succession11 				To nedopustím. Musím jim ukázat, že otěže pořád třímá v rukou někdo z Palermů.
+cutscene_food_succession12				Takže mě teď sejmeš? Po tom všem, čím jsme si prošli?
+cutscene_food_succession13				Nico, Nico, Nico. Ty jsi tak staromódní. 
+cutscene_food_succession14 				Ne, broučku. Rozvedu se s tebou.
+cutscene_food_succession15				Cože? Děláš si ze mě prdel? Bez rodiny za zádama jsem už teďka mrtvej.
+cutscene_food_succession16				Já vím, zlatíčko. Ale to už není můj problém.
+cutscene_food_succession17				Snad tě čeká nějaké lepší místo, tati.
+cutscene_food_succession18				Sbohem, Nico.
+
+
+# =============================================================================
+# Riot 
+# =============================================================================
+
+campaignchapter_riot                    Nic osobního
+campaignchapter_riot_description		Ve státní věznici Alchemico zuří vzpoura. Vydej se tam a obnov v areálu pořádek.
+
+campaigncutscene_riotintro              Aktuální zprávy
+
+adviser_riot_newsintro_01				Přinášíme čerstvé zprávy! 
+adviser_riot_newsintro_02				Vzpoura ve státní věznici Alchemico – zaměstnanci i bezpečnostní pracovníci se stáhli za hranice věznice a vyčkávají na pomoc armády.
+adviser_riot_newsintro_1				Mnoho členů zdejšího personálu se pohřešuje, a to včetně ředitele nápravného zařízení Charlese Wallace.
+adviser_riot_newsintro_2				Vzpoura propukla poté, co došlo k zatčení několika prominentních soudců...
+adviser_riot_newsintro_3				... obviněných z přijímání úplatků výměnou za udílení tvrdších trestů.
+adviser_riot_newsintro_4				Jak navíc uvádí naše zdroje, situaci vyhrotila ještě jiná skutečnost – světem zločinu prý nedávno otřásla série úmrtí význačných osobností podsvětí...
+adviser_riot_newsintro_5				... včetně pokusu o úkladnou vraždu mafiánského bosse Victora Palerma, k níž došlo minulý měsíc.
+adviser_riot_newsintro_6				Obnovením pořádku byl pověřen teprve nedávno jmenovaný zástupce ředitele Charlese Wallace.
+adviser_riot_newsintro_7				Uvidíme, zda nedostatek zkušeností nebude mít za následek další zhoršení této již tak obtížné situace.
+adviser_riot_newsintro_8                Za hlavního strůjce násilných nepokojů je považován Douglas Benedict, jenž si za zdejšími zdmi odpykává doživotní trest.
+
+adviser_riot_newsintroheller_1 			Starosta Calvin Heller vydal před pár okamžiky veřejné prohlášení.
+adviser_riot_newsintroheller_2 			Pro každého, kdo zpochybňuje náš přístup k trestu a nápravě, by měla být tato situace hořkou připomínkou skutečného stavu. 
+adviser_riot_newsintroheller_3 			Tito lidé mají zajištěné ubytování i stravu. Mají k dispozici privilegium placené práce. 
+adviser_riot_newsintroheller_4 			A takto se odvděčují daňovým poplatníkům za jejich péči.
+
+campaigncutscene_riothostages			Rukojmí
+adviser_name_riotceo					Ředitel 
+adviser_name_riotbenedict 				Benedict
+
+adviser_riot_hostages1					Poslouchejte. Máme vašeho ředitele. 
+adviser_riot_hostages1b 				Euugg.... ...
+adviser_riot_hostages2 					Bude to takhle. Já si o něco řeknu. Vy mi to dáte. 
+adviser_riot_hostages3					Když budete dělat problémy, pošlete někoho dovnitř nebo tady jenom ucejtím nějakýho poldu, proženu mu hlavou kulku.
+adviser_riot_hostages4 					Chceme neoznačený vozidlo. Tmavý okna. Plnou nádrž. Do hodiny. Ještě se ozvu.
+adviser_riot_hostages5 					No vida vida.
+adviser_riot_hostages5b					Cos v dělal v tý kanceláři?
+adviser_riot_hostages6					Já nic nevím, přísahám.
+adviser_riot_hostages7					Měl jsem dost času pozorovat vlastní stín, abych dokázal poznat, když někdo dělá levárnu.
+adviser_riot_hostages8					Co ses to snažil zakrejt?
+adviser_riot_hostages9					Já sem patřím. Ale ten kluk... kdo mohl mít prospěch z toho, aby si tu pobyl dýl?
+adviser_riot_hostages10					Ty něco víš, a jestli se chceš odsud dostat naživu, tak mi to řekneš.
+
+adviser_riot_hostageheller1 			Takhle to nepůjde. Musíme mít výhled na jídelnu, abychom viděli, co se tam děje.
+adviser_riot_hostageheller2 			Severně od jídelny je malá místnost ostrahy. Musíme ji zabezpečit.
+adviser_riot_hostageheller3 			Pošli tam několik strážných, ať aktivují bezpečnostní kamery. Získáme tak přehled o dění v celém bloku.
+
+objective_Riot_MaxSecCameras			Obsaď místnost ostrahy
+
+campaigncutscene_riotroulette			Ruleta
+
+adviser_riot_rouletteintro1             Máme v místnosti ostrahy svého člověka, takže můžeme sledovat záběry z bezpečnostních kamer.
+adviser_riot_rouletteintro2             Podívejme se, jak to vypadá s těmi rukojmími.
+adviser_riot_click 						<klik>
+adviser_riot_roulette1					Poslední šance odsud vykráčet s hlavou na ramenou, šéfíku. Už jsi někdy hrál dvojitou ruletu?
+adviser_riot_roulette2 					Dvě kulky. Čtyři prázdný komory. 
+adviser_riot_roulette2b 				Hrávali jsme ji s králíkama. Ustřelili jsme jim palice. 
+adviser_riot_roulette3 					S tebou to bude stejný.
+adviser_riot_roulette4 					Začneme jednoduchou otázkou. Cos v dělal v tý kanceláři?
+adviser_riot_roulette5 					Já nic nevím, přísahám.
+adviser_riot_roulette5b 				Hm.
+adviser_riot_roulette6 					Fajn. Kdo půjde první? Ty? Já? Co třeba tenhle?
+adviser_riot_roulette7					Je to stejný. Stejný jako s králíkem.
+adviser_riot_roulette8 					CO BYLO V TĚCH ŠANONECH?
+adviser_riot_roulette9 					Já nevím! Přísahám!
+adviser_riot_roulette10 				Štěstí ti už vyprchává. Ještě tam zbejvá jedna kulka. A já vím, co jsem viděl.
+adviser_riot_roulette11b 				Nemohl jsem uvěřit vlastním očím.
+adviser_riot_roulette11c 				Sám velkej šéf tady v mý base. Vina mu kape ze všech pórů. 
+adviser_riot_roulette11d 				Hádám, že ty složky obsahovaly víc věcí než jenom můj posudek.
+adviser_riot_roulette11					Prosím... Nedělejte to. 
+adviser_riot_roulette11e 				Pravděpodobnost začíná hrát proti tobě, Wallaci.
+adviser_riot_roulette12 				Víš co, zjednoduším ti to.
+adviser_riot_roulette12b	 			Tak jo, skoncujeme s touhle šaškárnou.
+adviser_riot_roulette13 				Teď jsi na řadě ty, sráči.  Leda že mi povíš, co chci vědět.
+adviser_riot_roulette14 				Nemůžu. Prosím.
+adviser_riot_roulette15 				Dobře! Prosím! Prosím. Nestřílejte. Šlo o peníze. Za vším byly peníze.
+adviser_riot_roulette16 				To je všechno?
+adviser_riot_roulette17 				Jste cenné zboží. Čím déle tady kdokoliv z vás bude, tím větší zisk z vás máme. Jenom jsme trochu obcházeli pravidla. 
+adviser_riot_roulette17b				V té složce byly důkazy.
+adviser_riot_roulette18 				Tak jakou máme cenu? Kolik dostaneš za to, že nás udržíš uvnitř?
+adviser_riot_roulette19 				Sedmdesát tři tisíc dolarů ročně.
+adviser_riot_roulette20					Za každýho? Ty zmrde. Je na čase, abys to začal splácet.
+
+campaigncutscene_riotassault 			Průlom
+
+adviser_riot_assault01					Tak dobrá. Je na čase celou tuhle situaci ukončit. 
+adviser_riot_assault02 					Týmy jsou na svých pozicích. 
+adviser_riot_assault03					Chci hnedka tu svou káru. Wallace pojede s náma. A jestli uvidím, jak nás někdo sleduje, budete seškrabávat jeho zbytky ze silnice.
+adviser_riot_assault2 					Tak jo, říďo. Jedeš s náma. Když budeš mít v hubě brokovnici, nebudou riskovat žádnou kravinu.
+adviser_riot_assault3 					Nikdo z nás se odsud nedostane živý. Nejsi to ty, koho chtějí.
+adviser_riot_assault4 					Co to kecáš?
+adviser_riot_assault5					Já to dělal pro peníze. Ale ON to dělal kvůli politice. Čím delší tresty, tím víc hlasů pro něj.
+adviser_riot_assault6					O čem to kurva meleš?
+adviser_riot_assault7					Starosta Heller. To všechno byl jeho plán. Já jenom namazal kolečka. 
+adviser_riot_assault7b 					V těch složkách byly důkazy, které mohly zničit jeho kariéru.
+adviser_riot_assault8					To si ze mě děláš prdel.
+adviser_riot_assault9 					Co to kurva...
+adviser_riot_assault9b					Jdou sem, připravte se!
+adviser_riot_assault10					JÁ VÁS KURVA VAROVAL!
+
+# Riot Objectives and help text
+
+adviser_name_negotiator 				Vyjednavač
+
+adviser_riot_negotiator1 				Úplně se to tu vymklo kontrole. Nikdo tu vlastně nevelí.
+adviser_riot_negotiator2 				Přišli jsme o několik lidí a zbývající strážní odmítají chodit do bloků, kde došlo ke vzpouře.  Museli jsme se stáhnout.
+adviser_riot_negotiator3 				Vymysli, co by šlo dělat, a skoncuj s tím vším dřív, než se to úplně vymkne z rukou.
+adviser_riot_negotiator4 				Zásahové jednotky by tu měly být každým okamžikem.
+
+adviser_riot_firstreinforcements1 		Dorazily první speciální týmy. 
+adviser_riot_firstreinforcements2 	 	Tihle chlapi jsou ze zásahové jednotky a jsou mnohem lépe vybavení. Začni s jejich pomocí znovu obsazovat jednotlivá křídla věznice. 
+adviser_riot_firstreinforcements3 		Nedaleká nemocnice nám sem také poslala na pomoc několik zdravotníků.  
+adviser_riot_firstreinforcements4 		Nejlépe uděláš, když je poskytneš k ruce členům zásahové jednotky, kteří budou obsazovat věznici.
+
+objective_Riot_StopTheRiot 				Zastav vzpouru
+objective_Riot_StopTheRiot_description  Nikdo tu vlastně nevelí. Musíš přijít na to, co s tím.
+
+adviser_riot_helleradvice1				Předpokládám, že mluvím s tím novým ředitelovým zástupcem. 
+adviser_riot_helleradvice2 				Uvědomuji si, že situace je velice vážná a všichni jsme pod nesmírným tlakem. Chtěl bych tě ujistit, že máte mou plnou podporu a ochotně ti poskytnu všechny zdroje, které mám k dispozici. 
+adviser_riot_deployguards1				Pronikli jsme dovnitř a obsadili část věznice. A ztráty na životech jsou zatím zcela ospravedlnitelné.
+adviser_riot_deployguards2				Ovšem než budeme pokračovat a pustíme se do obsazování zbytku areálu, bude vhodné, když nastolíš pořádek v již zajištěných křídlech.
+adviser_riot_deployguards3				Najmi několik strážných a rozmísti je přes obrazovku Rozmístění po obsazených sektorech. Postarají se o to, abychom o ta zajištěná křídla znovu nepřišli.
+adviser_riot_deployguards4 				Jakmile se postaráš o toto, pusť se dál do věznice a udělej s těmi zrůdami rychlý proces. To, co ta sběř udělala, je neomluvitelné. A nejde s nimi vyjednávat.
+adviser_riot_deployguards5 				Právě zajišťuji povolení pro ozbrojený tým rychlého nasazení, který s tím vším co nevidět skoncuje.
+
+adviser_riot_infirmary1 				Všude po věznici je spousta raněných a další bezpochyby přibudou. Nemůžeš je nechat jen tak vykrvácet. 
+adviser_riot_infirmary2 				Postav někde v areálu ošetřovnu a najmi doktory, kteří se o raněné postarají.
+adviser_riot_infirmary3 				Také tam je docela dost mrtvých.  Měli bychom jim prokázat úctu, postavit márnici a začít je do ní přenášet.
+adviser_riot_infirmary4					Budeš muset najmout dělníky, kteří budovu postaví. Postarej se o jejich bezpečí.
+
+objective_Riot_ResecureWings 			Najmi stráže a rozmísti je po obsazených zónách
+objective_riot_medicalneeds				(NEPOVINNÉ) Zajisti ve věznici lékařskou péči
+objective_Riot_Infirmary				(NEPOVINNÉ) Postav ošetřovnu a postarej se o zraněné
+objective_Riot_Morgue 					(NEPOVINNÉ) Postav márnici a posbírej mrtvé
+objective_Riot_SecureGenPop				Obsaď hlavní křídlo (střední)
+objective_Riot_SecureSpecialWing		Obsaď speciální křídlo (západní)
+objective_Riot_SecureMaxSec				Obsaď křídlo s maximální ostrahou (jižní)
+objective_riot_putoutfires				Dostaň oheň pod kontrolu
+
+adviser_riot_secondreinforcements1		Dorazily další speciální jednotky.
+
+adviser_riot_armedreinforcements1		Starosta povolal z nedaleké policejní stanice několik ozbrojených policistů.
+adviser_riot_armedreinforcements2		Nasazuj je jen s rozvahou. Když na ně nebudeš dohlížet, může celá situace skončit krveprolitím.
+adviser_riot_armedreinforcements3		Na druhou stranu, když je vězni uvidí přicházet, možná se raději sami dobrovolně vzdají.
+
+adviser_riot_reinforcementsunlocked1 	Dorazila hlavní část posil.
+adviser_riot_reinforcementsunlocked2 	Nyní můžeš z nabídky Tísňové složky povolávat tolik speciálních jednotek a zdravotníků, kolik budeš potřebovat.
+
+adviser_riot_cleanup1                   Celý areál je pod kontrolou a vzbouřenci se vzdali. Moc nechybělo a mohlo to dopadnout mnohem hůř.
+adviser_riot_cleanup2                   Teď nás čeká hodně drsná čisticí operace. Jestli máš čas, tvoje pomoc by se mi náramně hodila.
+adviser_riot_cleanup2b 					Nemáme tu žádné dělníky, takže nejprve budeš muset nějaké najmout, abychom mohli začít s opravami.
+adviser_riot_cleanup3                   Vždycky jsem si myslel, že zdejší bezpečnostní opatření nestojí za moc. Vězni si tu moc dlouho mohli dělat, co se jim zlíbilo. S tím je dneska konec.
+adviser_riot_cleanup4                   Postav nám novou zbrojnici a pak na klíčových pozicích po celé věznici rozmísti ozbrojené stráže. Když je vězni uvidí, hned je přejde chuť na nějaké výtržnosti.
+adviser_riot_cleanup5                   Navíc jsem schválil navýšení rozpočtu na neprůstřelné vesty pro všechny stráže, které tu máme. Naši muži musí být schopni se v případě potřeby ubránit.
+adviser_riot_cleanup6                   Pokračujme. Tito vězni potřebují disciplínu. Vnést do svých životů řád. Nejlepší bude, když je necháme poklidit tu spoušť, kterou zde sami natropili.
+adviser_riot_cleanup7                   Spusť pro vězně pracovní program a dej jim na starost úklid vězení a provoz prádelny.
+adviser_riot_cleanup7b                  Práci můžeš vězňům přiřazovat přes nabídku Logistika, jež se nachází na liště nástrojů. Když označíš příslušný úkol, zobrazí se ti podrobnější nápověda s informacemi, jak postupovat.
+adviser_riot_cleanup8                   Tím naše práce ještě neskončila. Hodně vězňů musí pochopit, jak moc se provinili. Postav nové křídlo se samotkami.
+adviser_riot_cleanup8b                  Strážní tam budou sami přesouvat vězně dle potřeby. Na samotce mají zdejší chovanci dost času přemýšlet o tom, co provedli, a zároveň jim to připomíná, kdo tu vlastně velí.
+adviser_riot_cleanup9                   A nezapomínejme na pracovníky, kteří touto obtížnou situací prošli společně s námi. Jsou vyčerpaní.
+adviser_riot_cleanup9b 					Zařiď jim někde klubovnu, ve které by si mohli odpočinout.
+adviser_riot_cleanup10                  Musíme se samozřejmě stále pohybovat v rámci rozpočtu. Měj neustále kladný zůstatek na účtu a pozitivní cashflow. 
+adviser_riot_cleanup10b 				Co se týče úklidu, zametání, praní prádla a podobně, práce vězňů je výrazně levnější, než když ji budeš objednávat u externích dodavatelů. 
+adviser_riot_cleanup11                  Stále tu máme práce nad hlavu. Tvojí pomoci si nesmírně vážíme.
+adviser_riot_cleanup12                  Jakmile budeš mít pocit, že tu už tvoje přítomnost není zapotřebí a je na čase přejít dál, klikni na fotografii u hlavní brány.
+
+adviser_riot_cleanup13 					Výborně. Myslím, že zabezpečení areálu už vypadá mnohem lépe. 
+
+objective_riot_solitary 				(NEPOVINNÉ) Postav křídlo se samotkami a začni trestat vzpurné vězně
+objective_riot_armoury 					(NEPOVINNÉ) Zaveď nové bezpečnostní protokoly
+objective_riot_armoury_research			Zpřístupni si ve Správě věznice možnost Zbrojnice
+objective_riot_armoury_build 			Postav zbrojnici (na nějakém bezpečném místě)
+objective_riot_armoury_deploy			Rozmísti po křídle s maximální ostrahou ozbrojené stráže
+objective_riot_armoury_armour 			Zpřístupni všem pracovníkům ostrahy neprůstřelné vesty
+objective_riot_armoury_tazers 			Zpřístupni všem ozbrojeným strážným tazery 
+objective_riot_staffroom 				(NEPOVINNÉ) Postav klubovnu pro unavené zaměstnance 
+objective_riot_balancebooks 			(NEPOVINNÉ) Hospodař s vyrovnaným rozpočtem 
+objective_riot_balancebooks_balance 	Kladný zůstatek na účtu 
+objective_riot_balancebooks_cashflow 	Kladné cashflow
+objective_riot_prisonerwork				(NEPOVINNÉ) Zaveď pro vězně pracovní program 
+
+objective_riot_cleaningcupboard			Postav úklidovou komoru 
+objective_riot_laundry					Postav prádelnu 
+objective_riot_inmatesincleaning 		Přiděl vězňům práci v úklidové četě
+objective_riot_inmatesinlaundry			Přiděl vězňům práci v prádelně
+objective_riot_cleanprison 				Ukliď věznici 
+objective_riot_providelaundry			Zajisti čisté prádlo
+
+objective_riot_armoury_research_description		Ikona Správa věznice se nachází přímo nad seznamem úkolů. Klikni na položku „Zbrojice“, šéf ostrahy hned začne vyřizovat potřebná povolení. 
+objective_riot_armoury_deploy_description       Chceš-li rozmístit ozbrojené stráže, běž do nabídky Rozmístění a vyber „Ozbrojené hlídky“. Kliknutím a tažením kurzoru nakresli požadované hlídkovací trasy a pak na ně klikni ještě jednou, čímž k nim přiřadíš ozbrojené stráže.
+objective_riot_armoury_guardtazers_description  Podívej se do nabídky Hlášení/Programy – najdeš tam „Výcvik strážných v používání tazerů“.\n\nAby tví strážní mohli používat tazery, musí nejprve projít příslušným výcvikem. Budeš muset postavit učebnu, ve které se bude tento kurz konat.
+objective_riot_prisonerwork_description         Chceš-li přiřadit vězňům nějakou práci, běž do nabídky Logistika a vyber položku „Práce vězňů“. Klikáním můžeš libovolným zeleně označeným místnostem přidávat pracovní pozice.\n\nMusíš také určit, kdy mají vězni pracovat. Běž do nabídky Hlášení / Denní režim a přidej v každém dni několik hodin k položce „Práce“. Vězni budou pracovat, pokud bude v daném časovém rozmezí nějaká pozice volná.
+
+objective_Riot_PlayerExitsMap			Až zde skončíš, klikni na fotografii před hlavním vchodem.
+
+
+# =============================================================================
+# Conviction
+# =============================================================================
+
+campaigncutscene_convictionheist        Přepadení
+campaigncutscene_convictionmorgan       Morgan
+campaigncutscene_convictionvisitation   Návštěva
+campaigncutscene_convictionsuicide      Sebevražda
+
+campaignchapter_conviction              Usvědčení
+campaignchapter_conviction_description  Jeden z našich vězňů musel být umístěn na pozorování kvůli sebevražedným sklonům. Je to Henry Morgan, Benedictův komplic. Odsouzen k pěti letům, odseděl si třináct měsíců. Pomoz nám postarat se o zdejší chovance.
+
+adviser_name_benedictarmed              Benedict
+adviser_name_morgan                     Henry Morgan
+adviser_name_morganarmed				Henry Morgan
+adviser_name_morganhappy                Henry Morgan
+adviser_name_senator                    Senátor Walter Hurst
+adviser_name_detective                  Policejní detektiv
+adviser_name_kerry 						Kerry Morganová 
+adviser_name_hurst 						Doktor Walter Hurst 
+adviser_name_keane 						Strážník Keane 
+
+adviser_conviction_heist1               Seber ty prachy, mladej.
+adviser_conviction_heist2               Odhoďte zbraně, okamžitě!
+adviser_conviction_heist2b				Do prdele!
+adviser_conviction_heist3               Střílej, do háje!
+adviser_conviction_heist4               Na co kurva čekáš, tak střílej už, zbabělče zasranej!
+adviser_conviction_heist6               Vy hajzlové!
+adviser_conviction_heist7               Nestřílejte! Nestřílejte!
+adviser_conviction_heist8               RUCE VZHŮRU, SRÁČI!
+adviser_conviction_heist9               Dělej přesně to, co já, jasný?
+adviser_conviction_heist10              Kurva, kurva, KURVA!
+adviser_conviction_heist11              Nestřílejte! NESTŘÍLEJTE!
+
+conviction_intro_1                      Po nedávné tragédii, k níž došlo ve státní věznici Alchemico, jsme pod nesmírným politickým tlakem.
+conviction_intro_2                      Než najdeme trvalou náhradu, která usedne do ředitelského křesla, rád bych, ať se tu prozatím ujmeš otěží ty.
+conviction_intro_3                      V této věznici nedávno došlo k sérii sebevražd a není nijak těžké pochopit, proč se tak stalo. Máme tu ovšem urgentnější problém.
+conviction_intro_4                      Shora nám sem posílají velkou várku nových odsouzenců. První dorazí hned zítra a my je nemáme kam umístit.
+conviction_intro_5                      Musíš postavit zcela nový blok cel, ve kterém bude dost místa pro nově příchozí. 
+conviction_intro_5b 					Tady jsem ti navrhl možnou podobu nového bloku cel. Takto bychom měli mít dost cel pro novou várku vězňů, návrh dokonce počítá i s vlastními sprchami přímo v budově. 
+conviction_intro_5c 					Je ovšem jen na tobě, jestli se rozhodneš tímto plánem řídit, nebo zda budovu postavíš nějak jinak.
+conviction_intro_6                      Mým hlavním úkolem je postarat se o snesitelnost zdejších podmínek. Nejprve postav ten blok cel a pak si promluvíme o tom, jak zařídit to ostatní.
+
+unused_conviction_intro_4                      Jeden z našich vězňů musel být umístěn na pozorování kvůli sebevražedným sklonům. Je to Henry Morgan, Benedictův komplic. Odsouzen k pěti letům, odseděl si třináct měsíců.
+unused_conviction_intro_7						Chtěl bych si s ním promluvit. Další sebevraždu si tu nemůžeme dovolit.
+
+conviction_workintro1                   Příliš dlouho jsme se k těm lidem chovali jako ke zvířatům. S tím je teď konec.
+conviction_workintro2                   Předchozí ředitel nikdy příliš nevěřil, že se mohou vězni napravit.  Ale já si myslím, že jim musíme poskytnout nějakou naději do budoucna.
+conviction_workintro3                   Musíme je naučit dovednostem, které jim zajistí úspěch v životě poté, co je propustíme – základní vzdělání, řemeslné schopnosti.
+conviction_workintro4                   Měli bychom jim dát možnost se vyučit.  Dát jim něco, co využijí ve skutečném světě, aby měli budoucnost, na kterou se mohou těšit.
+
+
+conviction_hurst1 						Lhostejnost, s jakou byl zdejší komplex veden, doslova bere dech. Lidé zde byli připravováni o poslední zbytky lidství.
+conviction_hurst2 						Nikdo jim neprokazoval ani špetku porozumění či respektu. 
+conviction_hurst3 						Tohle si ti lidé nezaslouží.
+conviction_hurst4 						Máte pravdu, kapitáne. Takhle se s lidmi zacházet nedá. Přišli o poslední zbytky lidství. 
+conviction_hurst4b 						Proč by měli dodržovat naše pravidla? Žádný div, že na vše reagují s naprostým nezájmem a opovržením. 
+conviction_hurst4c						Potřebujeme učebny, programy na boj proti drogové závislosti. Pracovní semináře, aby mohli být hrdí na své dovednosti.
+conviction_hurst6 						Vy mi nerozumíte, doktore. Tohle už nejsou lidé.  Přesvědčete se sám.
+conviction_hurst6b 						Vstávat, Morgane!
+conviction_hurst7 						Máš návštěvu.
+conviction_hurst8 						Resocializace? To se klidně můžete snažit naučit hrát opici na bendžo.
+
+conviction_hurst10 						Jak se jmenuješ, synu?
+conviction_hurst10b                     Na něco se tě ptal.
+conviction_hurst11 						Henry, pane.
+conviction_hurst12 						Musí tu být docela zima, Henry. Obleč si to.
+conviction_hurst13 						Vši v postelích, pane. Žerou mě zaživa. Košilí odháním krysy. Jsou veliké. Větší, než si umíte představit.
+conviction_hurst14 						Říkej mi Waltere.
+conviction_hurst15 						Jak se ti tu spí?
+conviction_hurst16 						Já nespím. Jenom přemýšlím. Na přemýšlení tu je spousta času.
+conviction_hurst16b                     O čem přemýšlíš?
+conviction_hurst16c                     Většinou o smrti. A o své dcerce.
+conviction_hurst17 						Bude potřebovat, abys byl silný, Henry. Tohle bude obtížné i pro ni.
+conviction_hurst18 						Jsem za mřížemi, co je na světě. Ani netuší, že existuju.
+conviction_hurst19 						Nikdy není pozdě změnit svou cestu životem, Henry. 
+conviction_hurst19b 					Rád bych za tebou zase někdy zašel, jestli ti to nevadí.
+conviction_hurst20 						Ano, pane. Děkuju, pane.
+conviction_hurst21 						Nemohli bychom udělat něco s těmi krysami? Nejsme ve třetím světě.
+conviction_hurst22 						Nastražím tam na ně jed.
+
+conviction_visitationintro_1            Podařilo se mi přesvědčit šéfa ostrahy, aby udělal výjimku a povolil Morganově rodině návštěvu.
+
+conviction_visitation_0					Dobrý den, pane. Kerry Morganová, jsem tu za Henrym Morganem.
+conviction_visitation_1					Za čáru.
+conviction_visitation_2 				Promiňte. Jdu navštívit Henryho. Henryho Morgana. Je to můj manžel, pane.
+conviction_visitation_3 				Nebudu to opakovat. Za čáru. Hned.
+conviction_visitation_4 				Ano, pane. Promiňte, pane.
+conviction_visitation_5 				Dobře. Tak přistupte. Nemám na vás celý den.
+conviction_visitation_6					Jméno?
+conviction_visitation_7					Kerry Morganová, pane. Jdu navštívit Henryho Morgana. A tohle je jeho dcerka.
+conviction_visitation_8					Co jinýho byste mu tak řekla, že jo?  Tak běžte.
+conviction_visitation_8a                Kerry!
+conviction_visitation_9					Pardon, nejspíš došlo k omylu. Morgan přišel o povolení k návštěvám.
+conviction_visitation_9b 				Cože? 
+conviction_visitation_9c 				Promiňte. Dneska ráno jsme našli v jeho cele alkohol. Nic s tím nenadělám.
+conviction_visitation_10				Jela jsem sem dvě hodiny. Moje dcera pláče. To není fér.
+conviction_visitation_11				Jestli chcete „fér“, jeďte si do Disneylandu. „Fér“ najdete tam, kde můžete vyhrát zlatou rybku a koupit si párek v rohlíku. Ale ne tady.
+conviction_visitation_12				Prosím, dejte mu tohle.
+conviction_visitation_13                Jasně. Teď si bez návštěv pobude pěkně dlouho. Nějaký vzkaz?
+conviction_visitation_14                Ne. Žádný vzkaz.
+
+conviction_visitation_angrymorgan0		Ne!
+conviction_visitation_angrymorgan1		Počkejte!
+conviction_visitation_angrymorgan2		To nemůžete!
+conviction_visitation_angrymorgan3		Nechte mě si s ní promluvit!
+conviction_visitation_angrymorgan4		Vy zasraný parchanti!
+
+conviction_helpinmates_1                To je obrovské zklamání.
+conviction_helpinmates_2                Je nesmírně obtížné najít způsoby, jak těmto lidem skutečně pomoci. Musí se naučit, jak si pomoci sami.
+conviction_helpinmates_3                Je myslím jasné, že musíme něco udělat s tou sekcí pro návštěvy. Rodiny nám u dveří vytvářejí frontu a na první pohled je zřejmé, že současný nápor návštěv prostě nezvládáme.
+conviction_helpinmates_4                Postav úplně novou sekci pro návštěvy. Myslím, že navzdory tomu, co se stalo Morganovi, to bude mít pozitivní efekt. A on není jediným zdejším vězněm, co má rodinu.
+conviction_helpinmates_5                Udělal jsem si malý průzkum a s překvapením jsem zjistil, že mnoho ze zdejších vězňů umí sotva číst a počítat. Musíme s tím něco udělat.
+conviction_helpinmates_6                Otevři novou učebnu a najmeme si nějaké učitele, kteří naše chovance naučí alespoň nějaké základy. Bez pořádného vzdělání nemají žádnou naději, že by kdy opustili dráhu zločinu.
+conviction_helpinmates_7                A musíme být připraveni zvládat přísun dalších vězňů. Rozšiřuj dál naši kapacitu, aby měl každý náš chovanec k dispozici slušnou celu.
+
+conviction_outro1                       Myslím, že je hodně znát, co jsme tu dokázali. Dali jsme zdejším vězňům nějaký cíl a důvod, proč o jeho dosažení usilovat.
+conviction_outro2                       Pokud chceš, můžeš tu zůstat a sledovat, jak první várka vězňů projde vzdělávacími a pracovními programy, které jsme tu pro ně připravili.
+conviction_outro3                       Ale myslím, že teď už si poradíme sami. Až budeš chtít odejít, klikni na fotografii v Morganově cele.
+
+conviction_secondvisit_1                Doufal jsem, že tě uvidím na některém ze svých sezení.
+conviction_secondvisit_2                Nezvládnu to. Už to v týhle díře nevydržím.
+conviction_secondvisit_3                Zkus to, hezky jeden den po druhém.
+conviction_secondvisit_4                Myslím na tomhle celým zavšiveným místě. Tady vevnitř. Tam venku. Nedovolí mi, abych se viděl s rodinou. Podělal jsem to, pane, a s tím nic neudělám.
+conviction_secondvisit_5                To bude v pořádku, Henry. Jsem tu s tebou.
+conviction_secondvisit_6                To je sranda. On mi řekl přesně totéž.
+conviction_secondvisit_7                Kdo, Henry? Mně to můžeš říct.
+conviction_secondvisit_8                Staral se o mně.
+conviction_secondvisit_9                Už když jsme byli ještě kluci.
+conviction_secondvisit_10               Zatni zuby a drž se. Ať se děje, co se děje.
+conviction_secondvisit_11               Jsem tu s tebou.
+conviction_secondvisit_11b 				Opravdu?
+conviction_secondvisit_12               No, teď už tady není.
+conviction_secondvisit_13               Mám pro tebe návrh. Přijď na mou příští skupinu a já zkusím něco udělat s těmi tvými návštěvami.
+conviction_secondvisit_14               To byste pro mě udělal, pane?
+conviction_secondvisit_15               To není jen kvůli tobě, Henry.
+
+conviction_suicide_1 					Promiňte, pane, ale říkala jsem si, že byste to měl vědět. Došlo k další sebevraždě. 
+conviction_suicide_2					Jeden z vězňů se nejspíš otrávil jedem na krysy.
+conviction_suicide_3					Doktor Hurst to jde právě ověřit.
+conviction_suicide_4					No řekněte, není to nejkrásnější dítě na světě?
+conviction_suicide_5					Možná ano.
+conviction_suicide_6					Nikdy není pozdě změnit svou cestu životem, pane.
+
+objective_conviction_expandcapacity50			Postarej se o novou várku vězňů
+objective_conviction_expandcapacity50_description	Chceš-li si zobrazit možné rozvržení nového bloku, aktivuj na hlavní liště nástrojů režim „Plánování“.
+objective_conviction_expandcapacity_cells	 	Postav cely pro 40 vězňů
+objective_conviction_expandcapacity_shower		Postav sprchy 
+objective_conviction_expandcapacity_yard		Postav dvůr 
+objective_conviction_expandcapacity_intake		Počkej na příjezd další várky vězňů 
+
+objective_conviction_workprogram 				Spusť program na vylepšení pracovních dovedností
+objective_conviction_unlocklabour				Povol v sekci Správa věznice možnost „Práce vězňů“ 
+objective_conviction_work_trainkitchen			(NEPOVINNÉ) Vycvič 5 vězňů v programu Bezpečnost práce a hygiena v kuchyni
+objective_conviction_work_kitchen				Přiděl vězňům práci v kuchyni
+objective_conviction_work_workshop				Postav dílnu 
+objective_conviction_work_trainworkshop			(NEPOVINNÉ) Vycvič 10 vězňů v programu Bezpečnost práce v dílně
+objective_conviction_work_assignworkshop		Přiděl vězňům práci v dílně 
+objective_conviction_work_produceplates			(NEPOVINNÉ) Vyrob 100 registračních značek
+objective_conviction_work_exportszone			Vyznač poblíž silnice expediční zónu
+objective_conviction_work_setintake             Nastav úroveň příjmu vězňů na hodnotu 10
+
+objective_conviction_unlocklabour_description	 Obrazovku Správa věznice si zobrazíš kliknutím na ikonu nad tímto seznamem úkolů.
+objective_conviction_work_kitchen_description	 Chceš-li přiřadit vězňům práci v kuchyni, běž do nabídky „Logistika“ a vyber položku „Práce vězňů“.\n\nPozn.: Aby mohli vězni pracovat v kuchyni, musí projít kurzem „Bezpečnost práce a hygiena v kuchyni“.
+objective_conviction_work_assignworkshop_description 	Chceš-li přiřadit vězňům práci v dílně, běž do nabídky „Logistika“ a vyber položku „Práce vězňů“.\n\nAby mohli vězni pracovat v dílně, musí projít kurzem „Bezpečnost práce v dílně“.
+objective_conviction_work_trainkitchen_description 		Pokud chceš spustit nějaký výukový nebo nápravný program, klikni na nabídku „Hlášení“ (v pravém dolním rohu) a vyber možnost „Programy“. Vězňové se budou těchto programů účastnit během času vyhrazenému pro práci.\n\nPozn.: Aby se vězňové mohli výukových programů účastnit, musíš jim na obrazovce s denním režimem přiřadit alespoň dvě hodiny „práce“, jinak na ně nebudou mít dost času.
+objective_conviction_work_trainworkshop_description 	Pokud chceš spustit nějaký výukový nebo nápravný program, klikni na nabídku „Hlášení“ (v pravém dolním rohu) a vyber možnost „Programy“. Vězňové se budou těchto programů účastnit během času vyhrazenému pro práci.\n\nPozn.: Aby se vězňové mohli výukových programů účastnit, musíš jim na obrazovce s denním režimem přiřadit alespoň dvě hodiny „práce“, jinak na ně nebudou mít dost času.
+objective_conviction_work_setintake_description         Věznice se nesmí přeplnit. Klikni tedy na nabídku „Hlášení“ (v pravém dolním rohu), vyber možnost Příjem a pomocí tlačítka << sniž úroveň příjmu na hodnotu 10.
+
+objective_conviction_visitation				Zajisti lepší podporu pro přijímání návštěv 
+objective_conviction_visitationroom	Postav novou návštěvní místnost 
+objective_conviction_visitationcount		Zařiď 20 rodinných návštěv vězňů
+objective_conviction_telephones	 			Přidej na všechny dvory telefonní automaty
+objective_conviction_mailroom				Vybuduj třídírnu pošty
+objective_conviction_mailroomwork			Přiděl vězňům práci v třídírně pošty 
+
+objective_conviction_mailroomwork_description           Chceš-li přiřadit vězňům práci v třídírně pošty, běž do nabídky „Logistika“ a vyber položku „Práce vězňů“. 
+
+objective_conviction_education				Začni se vzděláváním vězňů 
+objective_conviction_unlockeducation		Povol ve Správě věznice možnost „Vzdělávání“
+objective_conviction_education_classroom	Postav učebnu 
+objective_conviction_education_class 		Spusť základní vzdělávací kurz 
+objective_conviction_education_learn		(NEPOVINNÉ) Nech 5 vězňů projít základním vzdělávacím kurzem
+objective_conviction_education_library		Postav knihovnu
+objective_conviction_education_librarywork	Přiděl vězňům práci v knihovně
+objective_conviction_education_chapel		Postav kapli
+objective_conviction_education_spiritual	Spusť kurz duchovního vedení 
+
+objective_conviction_expandcapacity100			Navyš kapacitu věznice
+objective_conviction_expandcapacity_cells100	Navyš kapacitu na 80 cel
+objective_conviction_expandcapacity_cells200	(NEPOVINNÉ) Navyš kapacitu na 120 cel
+
+objective_Conviction_PlayerExitsMap         Až zde skončíš, klikni na fotografii v Morganově cele.
+
+ 
+# =============================================================================
+# Epilogue
+# =============================================================================
+
+campaignchapter_epilogue                Od začátku
+campaigncutscene_epilogueintro          Návrat
+campaigncutscene_epilogueoutro          Epilog 
+
+campaignchapter_epilogue_description    Byla naplánována demolice historické věznice a její nahrazení moderním komplexem. Využij všechny své získané dovednosti a vybuduj areál, který svou efektivitou předčí všechny ostatní.
+
+adviser_name_reporter 					Reportérka
+
+epilogue_newsintro1 					Dnes vám na stanici CNDC přinášíme speciální reportáž o stavu našich věznic.
+epilogue_newsintro2 					Jsou to již dva roky, co během „obléhání Alchemica“ přišlo o život velké množství lidí včetně ředitele věznice Charlese Wallace. 
+epilogue_newsintro4 					Za okamžik si promluvíme s předními odborníky na tuto tematiku a zeptáme se jich, zda se od těchto tragických událostí něco změnilo, a pokud ano, tak v jakém směru. 
+epilogue_newsintro5 					Nejprve předáme slovo do jedné z našich nejstarších státních věznic, o jejíž demolici bylo nedávno rozhodnuto.
+epilogue_newsintro6						Sledujte živě jen na CNDC.
+
+epilogue_reporter1						Děkuji, Sarah. Za zdmi této věznice si svůj trest odpykávali jedni z nejhorších zločinců celé země.  
+epilogue_reporter2 						Nyní ovšem bude stržena a na jejím místě vyroste zcela nový vězeňský komplex.
+epilogue_reporter3 						Za mými zády vidíte, že na místo již dorazily stavební čety a demoliční práce už započaly.
+epilogue_reporter4 						Společně se mnou tu je starosta města Calvin Heller. Děkuji vám, pane Hellere, že jste si na nás našel čas.
+epilogue_reporter5 						Potěšení je na mé straně.
+
+epilogue_reporter6 						V minulosti jste býval výrazným zastáncem tvrdého vedení věznice s velkým důrazem na disciplínu.
+epilogue_reporter6b 					Co vás vedlo k rozhodnutí zbořit tento komplex, jenž byl po tak dlouhou dobu symbolem tohoto přístupu?
+epilogue_reporter7 						Tato věznice i způsob jejího vedení přestaly vyhovovat současným požadavkům. 
+epilogue_reporter8 						Rozhodli jsme se tedy, že ji nahradíme zcela novým nápravným zařízením. Takovým, které bude vedeno modernějším způsobem.
+epilogue_reporter9						Před několika lety se tato věznice dostala na přední stránky novin jakožto jedno z posledních státních zařízení, kde se ještě stále vykonával trest smrti.
+epilogue_reporter10 					Aktivisté dlouho lobbovali za změnu příslušných zákonů. Vyslyšíte jejich přání, nebo postavíte v novém komplexu i celu smrti?
+epilogue_reporter12 					O tom ještě stále není rozhodnuto. Ovšem rozhodně tuto otázku nebereme na lehkou váhu.
+
+epilogue_reporterend1 					Děkuji, pane starosto Hellere. Vracím slovo zpátky do studia.
+epilogue_newstransition1 				Sledujete zprávy stanice CNDC s živou reportáží o stavu našeho vězeňského systému.
+epilogue_newstransition2 				Po přestávce se k nám připojí doktor Walter Hurst, odborník na psychologii a nápravu vězňů.
+
+epilogue_parole1 						Pořád nic? Jak dlouho to trvá?
+epilogue_parole2						Už ani nevím. Žádný telefonáty. Žádný dopisy.
+epilogue_parole3 						To mě mrzí, Morgane. Musí to bolet. Ale dostal jsi šanci. Tak si to nepokaz.
+epilogue_parole4 						Henry? Hodně štěstí.
+epilogue_parole5 						Nesnaž se jim věšet na nos, co si myslíš, že by chtěli slyšet.
+epilogue_parole6 						Musím jít. Za chvilku jdu do vysílání.
+epilogue_parole7                        Starosto Hellere, co si o tom myslíte vy?
+epilogue_parole10 						To šlo rychle!
+epilogue_parole11 						Tak co?
+epilogue_parole12                       ...
+
+epilogue_outro_1 						Vítejte zpět u speciálního vydání zpráv CNDC, hlásíme se živě se starostou města Calvinem Hellerem.
+epilogue_outro_2 						Společně s námi tu je také doktor Walter Hurst, který čelí nařčením, že zbytečně proplýtval množství finančních prostředků na reformu vězeňského systému.
+epilogue_outro_2b 						Doktore Hurste, domníváte se, že byly vaše snahy úspěšné?
+epilogue_outro_3						Úspěšné? Ne. Ne tak docela. 
+epilogue_outro_4						Ale věřím, že všichni mají potenciál se napravit. A my jim musíme dát šanci tu možnost využít.
+epilogue_outro_4b 						S absolutním přesvědčením mohu prohlásit, že u mnohých zdejších chovanců jsem zaznamenal jasné zlepšení přístupu a zvýšení nadějí.
+epilogue_outro_5						Uvěznění by mělo především sloužit jako odstrašující příklad. Nemělo by být příležitostí k rozvoji nebo změně.
+epilogue_outro_6 						Přílišné trestání a okrádání o důstojnost jen způsobí, že nikdy dráhu zločinu neopustí. 
+
+epilogue_outro_7						Poskytujeme těmto lidem nejen cenné dovednosti, ale také – a to ještě důležitější – naději.
+epilogue_outro_7b  						Pomáháme jim začlenit se po svém návratu zpět do společnosti a podílet se na jejím rozvoji.
+epilogue_outro_8						Spořádaní občané nemají přístup k bezplatným kurzům. Bezplatnému vzdělání. Garantované placené práci. 
+epilogue_outro_8b 						Zanedbáváme oběti zločinů a odměňujeme ty, kdo je páchají.
+epilogue_outro_8c 						Utrácíme obrovská částky na to, aby ze sebe měli tito zločinci dobrý pocit.
+epilogue_outro_9						Můžeme změnit společnost, i když to musíme dělat s každým člověkem zvlášť.
+epilogue_outro_10						Tihle lidé si nijak nezasloužili svou svobodu. Svá práva.
+epilogue_outro_11						Můžete kocourovi tisíckrát nakázat, aby nechal ty ptáky na dvoře na pokoji. A stejně po nich příště zase skočí.
+epilogue_outro_12 						Má to prostě v povaze.
+
+epilogue_sandbox_1                      Dovol mi, abych ti pogratuloval k tvému jmenování ředitelem. Toto je jedinečná příležitost. Nový začátek.
+epilogue_sandbox_2                      Budeš tu mít naprosto volnou ruku, tedy více méně. Více vězňů. Recidivisty s vyššími tresty. Budeš se muset vypořádat s většími výzvami.
+epilogue_sandbox_3						Co se týče cely smrti, zbourej ji. Nebo ji ponechej a využívej ji dál. Je to jen na tobě. Pokud se rozsudky smrti nebudou vykonávat zde, postará se o ně jiná věznice. 
+epilogue_sandbox_4						Co se týče hlavních cílů, mám pro tebe ty samé pokyny co pro tvého předchůdce. Výdělek, míra recidivity, kapacita. 
+epilogue_sandbox_5 						Je jen na tobě, jak jich dosáhneš.
+epilogue_sandbox_5b                     A poslední věc. Předchozí ředitel Charles Wallace po sobě zanechal dopis pro nového stavitele věznice, který do společnosti nastoupí po jeho odchodu.
+epilogue_sandbox_5c                     Najdeš v něm několik dobrých rad. Rozhodně se vyplatí si jej přečíst.
+epilogue_sandbox_6						Hodně štěstí!
+
+objective_epilogue_grants				Získej peníze prostřednictvím systému grantů
+objective_epilogue_grants_description   Granty jsou hlavním způsobem získávání velkých finančních částek, jež jsou pro výstavbu věznice zapotřebí.\n\nBohatou škálu grantů najdeš v nabídce Hlášení (tlačítko v pravém dolním rohu obrazovky) na záložce „Granty“. Různé organizace ti budou nabízet prostředky na vybudování specifických částí areálu.
+
+objective_epilogue_certifiedprison		Postav věznici
+objective_epilogue_capacity				Alespoň 100 vězňů 
+objective_epilogue_bankbalance			Zůstatek alespoň $100 000 
+objective_epilogue_cashflow				Kladné čisté cashflow
+
+epilogue_outrointro_1                   Jak vidím, chceš se pustit do díla s elánem.
+epilogue_outrointro_2                   Jestli jsi někde u televize, zapni si ji. Tohle tě bude zajímat.
+
+epilogue_basiccompletion_1 				Podařilo se ti splnit minimální požadavky platné pro státní věznice. Jakým směrem budeš pokračovat, je už jen na tobě.
+epilogue_basiccompletion_2 				Teď už záleží jen na tobě a tvé společnosti, jak budeš pokračovat dál.
+epilogue_basiccompletion_3 				Na radnici nás zajímá pouze jediný údaj, a to je míra recidivity.
+epilogue_basiccompletion_4	 			Pokud se ti ji podaří mezi svými vězni snížit, budu to považovat za úspěch.
+epilogue_basiccompletion_5 				Lidé jako doktor Hurst věří, že toho lze dosáhnout pouze vzděláváním, nápravou, učením nových dovedností a podobně.
+epilogue_basiccompletion_6 				Já se domnívám, že stejně efektivní mohou být i tresty.
+epilogue_basiccompletion_8 				Je to jen na tobě.  Přeji ti hodně štěstí!
+
+objective_epilogue_reoffending			(NEPOVINNÉ) Sniž ve věznici míru recidivity
+objective_epilogue_reoffending_description	Míru recidivity najdeš v přehledu „Hodnocení věznice“. Ten otevřeš kliknutím na ikonu v levém horním rohu obrazovky.
+
+objective_epilogue_reoffending_rate		Sniž míru recidivity alespoň na 30 %
+objective_epilogue_reoffending_released	Propusť alespoň 10 vězňů
+
+
+# =============================================================================
+# MCExporter
+# =============================================================================
+
+
+codex_mcexport                          Exportovat věznici do Minecraftu
+codex_mcexportname						Export do Minecraftu
+codex_worldnametitle					Název světa
+codex_seedtitle							Semínko
+codex_gamemodetitle						Herní režim
+codex_mapfeattitle						Prvky mapy
+codex_cheatstitle						Cheaty
+codex_timeofdaytitle					Denní doba
+codex_rainingtitle						Déšť
+codex_thunderingtitle					Hromobití
+codex_generatortitle					Generátor
+codex_scaletitle						Měřítko
+codex_exporttomc						Export
+codex_mcexport_default					Výchozí
+codex_mcexport_flat						Plochý
+codex_mcexport_largebiomes				Velké prostranství
+codex_mcexport_survival					Přežití
+codex_mcexport_creative					Kreativní
+codex_mcexport_adventure				Dobrodružství
+
+
+# =============================================================================
+# Escape Mode
+# =============================================================================
+
+escapemode_help_title                   Útěk – tvá jediná cesta na svobodu
+escapemode_help                         První krok: Reputace – Není nic důležitějšího než tvá reputace\n\n• Zvyšuj svou reputaci vyvoláváním rvaček. Ubližováním ostatním na sebe upoutáš pozornost, ale vyplatí se také ničit okolní vybavení. Čím větší škody během jednoho boje napácháš, tím lépe.\n• Nezanechávej po sobě svědky. Pokud strážný uvidí, jak se pereš, čeká tě trest. Samozřejmě kromě případů, kdy to už nebude moci nikomu nahlásit.\n• Nechat se vyřadit z boje není dobré. Raději rvačku včas ukonči.\n\nDruhý krok: Tým – Najímej ostatní a pokuste se uprchnout společně\n\n• Zapískáním své pomocníky přivoláš, budou tě pak všude doprovázet. (Vězně můžeš vybrat kliknutím na jeho jméno v levém horním rohu.)\n• Budou ti dokonce pomáhat boji, díky čemuž ti bude přibývat reputace ještě rychleji.\n• Trénuj své pomocníky. Nikdy nevíš, kdy se ti bude hodit, že máš po ruce zkušeného bojovníka nebo bleskurychlého běžce.\n\nTřetí krok: Kontraband – Budeš potřebovat zbraně a nástroje\n\n• Vyhlédni si místnost, ve které by mohlo být něco, co potřebuješ. Rychle ji prohledej a určitě najdeš nějaký užitečný předmět, který by šel ukrást.\n• Dávej si pozor na detektory kovu a dozorce, kteří by tě mohli chtít prohledat. Pokud u tebe stráže něco najdou, seberou ti to a hodí tě na samotku.\n• Ukládej si vybavení do skrýše. Nalezené vybavení můžeš schovávat na své cele nebo i v celách ostatních vězňů, jen nesmíš zapomenout, kde máš jaký předmět.\n\nČtvrtý krok: Tunely – Tichá cesta ven\n\n• Vezmi nástroj na kopání a začni pod záchodem ve své cele hrabat tunel.\n• Kopání je pomalé. Řekni členům svého týmu, aby ti s ním pomohli.\n• Nikdo tě nesmí vidět. Pokud nějaký strážný spatří, jak vcházíš do tunelu nebo z něj vylézáš, máš utrum.\n\nHodně štěstí. Budeš ho potřebovat.
+
+codex_escapemode                        Režim útěku
+codex_escapemode_developer              (Pro vývojáře) Režim útěku
+codex_escapemode_new                    Nový pokus o útěk
+codex_escapemode_load                   Načíst pokus o útěk
+codex_escapemode_save                   Uložit pokus o útěk
+codex_escapemode_workshop               Režim útěku (Steam Workshop)
+codex_escapemode_workshop_star_rating   *S hvězdiček nebo více
+
+escapemode_combat_attack                Útok
+escapemode_combat_attack_button         Levé kliknutí
+escapemode_combat_lunge                 Výpad
+escapemode_combat_lunge_button          Shift
+escapemode_dig_button                   Podržet levé tlačítko
+escapemode_dig                          Kopat
+escapemode_surrender                    Vzdát se
+escapemode_surrender_safe               Ukončit boj
+escapemode_surrender_button             Mezerník
+
+escapemode_gameover                     Konec hry
+
+escapemode_reputation_points            Body reputace:
+escapemode_reputations_cost             *C bodů reputace
+escapemode_reputations_max              MAX
+
+escapesquad_squad_member                Člen týmu
+escapesquad_recruitment                 Najmout podržením pravého tlačítka
+escapesquad_recruitment_cost            Zapotřebí bodů reputace: *C
+escapesquad_toggle_follow               Přepnout sledování
+escapesquad_nameplate_following         Sledování
+escapesquad_skip_punishments            Přeskočit tresty
+escapesquad_skip_punishments_tooltip    Utrať body reputace a zařiď, že všichni členové tvého týmu prospí svůj trest a probudí se na svých celách.
+escapesquad_sleep                       Spát
+escapesquad_sleep_tooltip               Kliknutím prospíš noc.
+escapesquad_reputations                 Reputace
+escapesquad_reputations_tooltip         Utrať body reputace za zvýšení reputace, tvůj tým pak bude lépe bojovat. 
+escapesquad_follow_mode                 Režim sledování
+escapesquad_follow_mode_tooltip         Vězni v režimu sledování budou chodit za tebou a napodobovat tvoje chování.\n\nKlávesou R aktivuješ režim sledování všem vězňům najednou.
+escapesquad_remove_member               Odebrat člena týmu
+escapesquad_remove_member_tooltip       Kliknutím odebereš tohoto vězně ze svého týmu.
+escapesquad_escaped                     Na útěku
+
+escapemode_info_right_click             Pravé kliknutí:
+escapemode_info_hold_right_click        Podržet pravé tlačítko:
+escapemode_info_stash                   schovat kontraband
+escapemode_info_pick_up                 sebrat kontraband
+escapemode_info_start_tunnel            začít kopat tunel
+escapemode_info_enter_tunnel            vlézt do tunelu
+escapemode_info_exit_tunnel             vylézt z tunelu
+escapemode_info_dig_up                  kopat nahoru
+escapemode_info_steal                   ukrást
+
+escapemode_info_tool                    [Nástroj pro kopání]
+escapemode_info_damage                  Poškození: *D
+escapemode_info_recharge                Doba pro nabití: *T
+
+escapemode_gameover                     Konec hry
+escapemode_gameover_squad_title         Tým
+escapemode_gameover_casualties_title    Oběti
+escapemode_gameover_totalscore_title    Celkové skóre
+escapemode_gameover_totaltime_title     Celkový čas
+escapemode_gameover_time_days           *D d., *H hod. a *M min.
+escapemode_gameover_time                *H hod. a *M min.
+
+codex_workshop_select_random_prison     Náhodná věznice z Workshopu
+codex_workshop_searching                Vyhledávání
+
+
+# =============================================================================
+# Collectables
+# =============================================================================
+
+
+codex_gamebible                         Herní bible
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              STRANA *X
+codex_gamebible_doublepage              STRANY *X–*Y
+object_collectable                      Strana v zápisníku

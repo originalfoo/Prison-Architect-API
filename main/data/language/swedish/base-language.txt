@@ -1,0 +1,2860 @@
+
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              Nytt
+dialog_load                             Ladda
+dialog_save                             Spara
+dialog_saveas                           Spara som
+dialog_delete                           Radera
+dialog_width                            Bredd
+dialog_height                           Höjd
+dialog_name                             Namn
+dialog_type                             Typ
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                W
+dialog_h                                H
+dialog_exit                             Avsluta
+dialog_cancel                           Avbryt
+dialog_ok                               Ok
+dialog_open                             Öppna
+dialog_close                            Stäng
+dialog_closed                           Stängt
+dialog_add                              Lägg till
+dialog_up                               Upp
+dialog_down                             Ner
+dialog_yes                              Ja
+dialog_no                               Nej
+dialog_loading                          Laddar…
+dialog_low                              Låg
+dialog_medium                           Mellan
+dialog_high                             Hög
+dialog_none                             Ingen
+ellipsis                                …
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Dialogredigerare
+dialogeditor_back                       Bakom
+dialogeditor_front                      Framför
+dialogeditor_reloadlanguage             Ladda om språk
+dialogeditor_test                       Testa
+dialogeditor_window                     Fönster
+dialogeditor_grid                       Rutnät
+dialogeditor_caption                    Bildtext
+dialogeditor_component                  Komponent
+dialogeditor_select						Välj
+dialogeditor_create						Skapa
+dialogeditor_background                 Bakgrundsbild
+dialogeditor_panel                      Panel
+
+dialogcomponent_custom                  Anpassad
+dialogcomponent_button                  Knapp
+dialogcomponent_container               Behållare
+dialogcomponent_caption                 Bildtext
+dialogcomponent_titlecaption            Rubrik
+dialogcomponent_checkbox                Kryssruta
+dialogcomponent_inputfield              Inmatningsfält
+dialogcomponent_inputslider             Inmatningskontroll
+dialogcomponent_dropdownmenu            Rullgardinsmeny
+dialogcomponent_selectionlist           Urvalslista
+dialogcomponent_selectionlistitem       Posturvalslista
+dialogcomponent_scrollbar               Rullningsfält
+dialogcomponent_progressbar             Framstegsfält
+dialogcomponent_canvas                  Canvas
+dialogcomponent_iconbox					Ikonbox
+
+dialogposition_absolute                 Absolut
+dialogposition_relative                 Relativ
+dialogposition_scaled                   Dimensionerad
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Profilerare 
+profiler_name                           Namn
+profiler_timings                        Timings
+profiler_totaltime                      Totalt
+profiler_glfinishcaption                glFinish
+profiler_reset                          Återställ
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Ljudkanaler
+soundeditor_title                       Ljudredigerare
+soundinstanceeditor_title				Ljudexempelredigerare
+
+soundeditor_positiontitle		Positionstyp
+soundeditor_instancetitle		Exempeltyp
+soundeditor_looptitle			Looptyp
+soundeditor_sourcetypetitle		Ljudtyp
+soundeditor_soundnametitle		Namn på ljud
+
+soundeditor_volumetitle			Volym
+soundeditor_frequencytitle              Frekvens
+soundeditor_mindistancetitle            Min. avstånd
+soundeditor_attacktitle                 Attack
+soundeditor_sustaintitle                Sustain
+soundeditor_releasetitle                Release
+soundeditor_loopdelaytitle              Loopfördröjning
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              Nästa händelse
+
+soundeditor_play                        Spela
+soundeditor_stop                        Stopp
+
+soundparametereditor_title              Ljudparameter
+soundparametereditor_typetitle          Typ
+soundparametereditor_linktitle          Anknyts till
+soundparametereditor_updatetitle        Typ av uppdatering
+soundparametereditor_smoothing          Smoothing
+soundparametereditor_chaintitle         Chain
+
+soundeditor_newdsp                      Lägg till DSP
+sounddspeditor_title                    DSP-redigerare
+samplebankeditor_title                  Samplingredigerare
+samplebankeditor_addsample              Lägg till ljud
+samplebank                              (Samplingsbank)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Färdig
+interfacemode_destroy                         Ta bort
+interfacemode_foundations				Fundament
+interfacemode_construction                    Material
+interfacemode_planning                        Planering
+interfacemode_objects                         Objekt
+interfacemode_designation                     Rum
+interfacemode_utilities                       Utiliteter
+interfacemode_staff                           Personal
+interfacemode_deployment                      Utplacering
+interfacemode_logistics                       Logistik
+interfacemode_prisoners                       Interner
+interfacemode_needs                           Behov
+interfacemode_threats                         Hot
+interfacemode_overlays                        Överlägg
+interfacemode_research                        Byråkrati
+interfacemode_emergencies                     Krishjälp
+interfacemode_clone                           Klona
+interfacemode_contraband                      Underrättelse
+interfacemode_grading                         Betyg
+interfacemode_spawn                           (Startpunkt)
+interfacemode_properties                      (Egenskaper)
+interfacemode_cutscenes                       (Mellansekvenser)
+interfacemode_selection                       Välj
+
+interfaceoverlay_security                       Säkerhet
+interfaceoverlay_patrols                        Patruller
+interfaceoverlay_decay                          Förfall
+interfaceoverlay_territory                      Område
+interfaceoverlay_contraband                     Smuggelgods
+
+interfaceproperty_indoor                        Inomhus
+interfaceproperty_visible                       Synlig
+interfaceproperty_territoryprisoner             Gäng
+interfaceproperty_territoryguard                Vakter
+interfaceproperty_sectorprisoner                Upplopp
+interfaceproperty_tunnel                        Tunnel
+
+interfacedeployment_guards                      Vakter
+interfacedeployment_patrols                     Vaktpatruller
+interfacedeployment_dogpatrols                  Hundpatruller
+interfacedeployment_armedpatrols                Beväpnade patruller
+interfacedeployment_removeguards                Ta bort vakter
+interfacedeployment_clearpatrols                Rensa patruller
+interfacedeployment_targetting                  Logistik
+interfacedeployment_targettingfood              Matlogistik
+interfacedeployment_targettinglaundry           Tvättlogistik
+interfacedeployment_securearea                  Säkert område
+interfacedeployment_sharedzone                  Delad
+interfacedeployment_staffonlyzone               Endast personal
+interfacedeployment_maxseczone                  Endast högsäkerhet
+interfacedeployment_medseczone                  Endast mediumsäkerhet
+interfacedeployment_minseczone                  Endast minimumsäkerhet
+interfacedeployment_protectedzone               Endast skyddad
+interfacedeployment_supermaxzone                Endast supermax
+interfacedeployment_deathrowzone                Endast dödscell
+interfacedeployment_unlockedzone                Olåst
+interfacedeployment_zonered                     Avdelning Röd
+interfacedeployment_zonegreen                   Avdelning Grön
+interfacedeployment_zoneblue                    Avdelning Blå
+interfacedeployment_zoneyellow                  Avdelning Gul
+
+interfacelogistics_jobs                         Fängelsearbete
+interfacelogistics_removejobs                   Ta bort arbete
+interfacelogistics_targettingfood               Matutskick
+interfacelogistics_targettinglaundry            Tvättutskick
+interfacelogistics_roomquality                  Rumskvalitet
+
+interfaceplanning_wall							Väggar
+interfaceplanning_object						Objekt
+interfaceplanning_route							Vägar
+interfaceplanning_clear							Rensa
+interfaceplanning_zone1							Zon 1
+interfaceplanning_zone2							Zon 2
+interfaceplanning_zone3							Zon 3
+interfaceplanning_zone4							Zon 4
+interfaceplanning_zone5							Zon 5
+interfaceplanning_zone6							Zon 6
+interfaceplanning_zone7							Zon 7
+interfaceplanning_zone8							Zon 8
+interfaceplanning_zone9							Zon 9
+
+interfacecontraband_source                      Faror
+interfacecontraband_day                         -24 timmar
+interfacecontraband_week                        -7 dagar
+interfacecontraband_alltime                     -30 dagar
+interfacecontraband_informants                  Uppgiftslämnare
+interfacecontraband_gangs                       Gäng
+
+interfaceclone_copy                             Kopiera
+interfaceclone_paste                            Klistra in
+
+interfacetopbar_todo							Att göra
+interfacetopbar_balance							Saldo *B
+interfacetopbar_budget							Kassaflöde *C
+interfacetopbar_income							Intäkter *I
+interfacetopbar_expenses						Kostnader *C
+interfacetopbar_day								DAG *D
+
+interfacetopbar_title_balance					Saldo på banken
+interfacetopbar_title_budget					Dagligt kassaflöde
+interfacetopbar_title_cctv						Kameraövervakning
+interfacetopbar_title_day						Dag
+interfacetopbar_title_prisoners					Interner
+interfacetopbar_title_guards					Vakter
+interfacetopbar_title_tension                   Fara
+
+interfacetopbar_tooltip_balance					Ditt saldo på banken.\n\nKlicka för att få mer pengar genom listan Bidrag.
+interfacetopbar_tooltip_budget					Den summa pengar som du får varje dag, baserat på dina löpande utgifter och inkomster.\n\nKlicka för att få tillgång till en detaljerad fördelning av inkomster och utgifter.
+interfacetopbar_tooltip_cctv					Antalet övervakningskameror och bildskärmar som du har för närvarande.
+interfacetopbar_tooltip_day						Hur länge ditt fängelse har varit i drift.
+interfacetopbar_tooltip_prisoners				Antalet interner för tillfället, samt hur många som det finns plats för i fängelset.
+interfacetopbar_tooltip_guards					Antalet vakter som finns tillgängliga för arbete på fängelset.
+interfacetopbar_tooltip_tension                 Ditt fängelses totala risknivå, enligt säkerhetschefen.
+
+interfacetopbar_tooltip_recenttransactions      Senaste överföringarna
+
+interfacetopbar_tooltip_gametime                Total speltid: *X timmar, *Y minuter, *Z sekunder
+
+interfacetopbar_tooltip_totalguards             *X vakter totalt
+interfacetopbar_tooltip_guardincapacitated      *X kan inte arbeta
+interfacetopbar_tooltip_guardstationed          *X är i tjänst
+interfacetopbar_tooltip_guardpatrolling         *X är ute på patrull
+interfacetopbar_tooltip_guardavailable          *X är till förfogande
+interfacetopbar_tooltip_guardresting            *X vilar
+interfacetopbar_tooltip_guardactive             (*X svarar på incidenter)
+interfacetopbar_tooltip_guarddoingjob           *X har fått jobb tilldelade
+interfacetopbar_tooltip_idle                    (*X är sysslolösa)
+interfacetopbar_tooltip_armedguards             + *X beväpnade vakter
+interfacetopbar_tooltip_dogs                    + *X hundförare
+
+interfacetopbar_unlimitedfunds                  OBEGRÄNSADE TILLGÅNGAR
+
+interfacetopbar_budget_moneyin					Inkommande saldo: $*M/dag
+interfacetopbar_budget_moneyout					Utgående saldo: $*M/dag
+interfacetopbar_budget_cantgonegative           Du kan inte ha ett negativt kassaflöde (fler utgifter än inkomster) förrän du har anställt en Revisor för att hantera ekonomin.
+
+interfacetopbar_prisoners_types					Du har för närvarande *X interner:
+interfacetopbar_prisoners_capacity              Maximal säker kapacitet: *X
+interfacetopbar_prisonercells_shared            Kapacitet i delade celler: *X
+interfacetopbar_prisonercells_unlocked          Kapacitet i olåsta områden: *X
+interfacetopbar_prisonercells_minseconly        Kapacitet i låg säkerhet: *X
+interfacetopbar_prisonercells_medseconly        Kapacitet i mediumsäkerhet: *X
+interfacetopbar_prisonercells_maxseconly        Kapacitet i högsäkerhet: *X
+interfacetopbar_prisonercells_protectedonly     Kapacitet i skyddsförvar: *X
+interfacetopbar_prisonercells_supermaxonly      Kapacitet i SuperMax: *X
+interfacetopbar_prisonercells_deathrowonly      Kapacitet i dödsceller: *X
+interfacetopbar_prisonercells_staffonly         Ej tillgängliga: *X
+interfacetopbar_prisoners_nocells               *X interner kan inte tilldelas en cell
+
+interfacetopbar_cctv_current					Kör för närvarande *C kameror
+interfacetopbar_cctv_cap						Utrymme för *C kameror
+
+interfacetopbar_tension_currentlevel            Risknivån är *X
+interfacetopbar_tension_increasing              och ökar
+interfacetopbar_tension_decreasing              och minskar
+interfacetopbar_tension_description             FAKTORER:
+interfacetopbar_tension_happyprisoners          - *X interner säger att de behandlas väl
+interfacetopbar_tension_unhappyprisoners        + *X interner har allvarliga klagomål
+interfacetopbar_tension_lockedupprisoners       + *X interner är fastbojade i sina celler eller i isoleringscellen
+interfacetopbar_tension_riotingprisoners        + *X interner gör upplopp
+interfacetopbar_tension_wellfedprisoners        - *X interner är mätta
+interfacetopbar_tension_suppressedprisoners     = *X interner undertrycks (lyder)
+interfacetopbar_tension_activeriotguards        + *X kravallpolis finns närvarande
+interfacetopbar_tension_activearmedguards       + *X beväpnade vakter är i tjänst
+interfacetopbar_tension_recentdeaths            + *X människor har dödats på sistone
+interfacetopbar_tension_recentsearches          + *X interner har blivit visiterade i onödan på sistone
+interfacetopbar_tension_angrygangmembers        + *X GÄNGMEDLEMMAR ÄR RASANDE (ledaren straffas)
+interfacetopbar_tension_recentpunishments       = (AVSKRÄCKANDE) *X straff har avkunnats på sistone
+interfacetopbar_tension_recentcalmed            - *X interner har lugnats ned på sistone
+
+interfacecontrol_mainmenu                       Huvudmeny (Esc)
+interfacecontrol_mainmenu_tooltip               Visa huvudmenyn (Nytt/Ladda/Spara/Avsluta etc.)
+interfacecontrol_todo                           Att göra-lista
+interfacecontrol_todo_tooltip                   Visa att göra-listan
+interfacecontrol_research                       Byråkrati
+interfacecontrol_research_tooltip               Öppnar Byråkrati-skärmen, där dina administratörer kan låsa upp nya föremål, personaltyper och anläggningar.
+interfacecontrol_grading                        Fängelsebetyg
+interfacecontrol_grading_tooltip                Öppnar skärmen Fängelsebetyg som visar dig hur framgångsrik du har varit i genomsnitt.
+
+interface_confirmlandbuy                        Är du säker på att du vill köpa denna tomt för $*X? 
+interface_loadconfirm                           Är du säker på att du vill ladda denna karta? Allt som inte har sparats kommer att försvinna.
+interface_saveconfirm                           Är du säker på att du vill spara med detta filnamn? Existerande data kommer att skrivas över.
+
+interface_landbuylabel                          *Xm x *Ym. total yta *A kvm. *C
+
+interface_action_dismantle                      Ta isär
+interface_action_dump                           Dumpa
+interface_action_repair                         Reparera
+interface_action_medicalbay                     Sjukstuga
+interface_action_search                         Sök
+interface_action_searchcell                     Sök igenom cell
+interface_action_searchcellblock                Sök igenom cellblock
+interface_action_sack                           Avskeda
+interface_action_doormodenormal                 Dörrläge: Normalt
+interface_action_doormodelockedshut             Dörrläge: Låst
+interface_action_doormodelockedopen             Dörrläge: Öppen
+interface_action_switchon                       Sätt på
+interface_action_switchoff                      Stäng av
+interface_action_sellobject                     Sälj objekt
+interface_action_dismiss                        Avvisa
+interface_action_connect                        Anslut
+interface_action_clearconnections               Rensa anslutningar
+interface_action_servoopen                      Öppna vid utlösare
+interface_action_servoclose                     Stäng vid utlösare
+
+interface_contents_container                    Innehåll: *X
+interface_contents_stack                        Innehåll: *X x *Y
+
+interface_skip                                  HOPPA ÖVER
+
+interface_error_riotmove                        Kan inte gå in: Upplopp
+
+interface_foundationsinprogress                 Fundament byggs
+riot_underway                                   UPPLOPP PÅGÅR
+riot_status_prisoners                           *X interner gör upplopp
+shakedown_underway                              GENOMSÖKNING PÅGÅR
+shakedown_found                                 Hittat:
+
+gameover_caption                                Tryck på ESC för att fortsätta
+
+sector_jobs_max                                 Max antal jobb *X
+sector_jobs_qualified                           Kvalificerade interner: *X
+sector_jobs_required                            Krav: *X)
+sector_noaccess                                 TILLTRÄDE FÖRBJUDET
+sector_insecure                                 OSÄKERT
+
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Test av hårdvarukompabilitet
+hardware_compat_message					Med din tillåtelse skulle vi vilja samla in följande hårdvaruinformation från din dator.\n\nDenna information är fullständigt anonym och hjälper oss att se till att Prison Architect stöds på största möjliga utbudet av hårdvara.\n\nTack!
+hardware_compat_accept					Godkänn
+hardware_compat_decline					Avböj
+
+connectionmenu_connect                  Anslut
+connectionmenu_disconnect               Koppla ifrån
+connectionmenu_clear                    Rensa
+connectionmenu_done                     Klar
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      Bygg
+buildtoolbar_reports                    Rapporter
+buildtoolbar_bangup                     Cellarrest
+buildtoolbar_lockdown                   Låsning
+buildtoolbar_shakedown                  Genomsökning
+buildtoolbar_weaponsfree                Öppna eld
+
+buildtoolbar_tooltip_reports			Öppna rapportfönstret för att se information om dina interner, din personal, inkomst, dina bidrag med mera.
+buildtoolbar_tooltip_bangup				Skicka alla (villiga) interner tillbaka till sin cell. Detta får dina interner att bli arga om du lämnar dem inlåsta för länge.
+buildtoolbar_tooltip_lockdown			Lås alla dörrar i fängelset omedelbart.
+buildtoolbar_tooltip_shakedown          Ge order om en omedelbar genomsökning av alla celler. Detta tar tid och irriterar dina interner.
+buildtoolbar_tooltip_weaponsfree        Godkänner att dina beväpnade vakter får använda dödligt våld.
+
+buildtoolbar_cost						Kostnad: $*C*
+buildtoolbar_cost_sqrft					Kostnad: $*C* /ruta
+buildtoolbar_wages						Löner : $*W per dag
+buildtoolbar_outdoor					Endast utomhus
+buildtoolbar_indoor						Endast inomhus
+buildtoolbar_walk_speed					Gånghastighet: *S
+buildtoolbar_walk_speed_slow			Långsam
+buildtoolbar_walk_speed_norm			Normal
+buildtoolbar_walk_speed_fast			Snabb
+buildtoolbar_locked                     LÅST
+buildtoolbar_locked_research			LÅST (Du behöver *B)
+buildtoolbar_locked_administrator		LÅST (*B krävs)
+buildtoolbar_room						Rum
+
+buildtoolbar_electrical                 - Elektrisk
+buildtoolbar_highpower                  - Högspänningsdriven
+buildtoolbar_water                      - Kräver vattenanslutning
+buildtoolbar_wired                      - Elektrisk (ansluter till andra elektriska objekt)
+buildtoolbar_modcontent                 - Moddens innehåll
+
+buildtoolbar_popup_foundations			Bygg/Riv byggnader för att skapa ditt fängelse.
+buildtoolbar_popup_construction			Olika typer av väggar och golv.
+buildtoolbar_popup_planning				Planera ditt fängelse utan att vara rädd för att dina arbetare faktiskt gör någonting.
+buildtoolbar_popup_designation			Utse områden i ditt fängelse med en särskild funktion.
+buildtoolbar_popup_objects				Placera användbara föremål runtom i ditt fängelse.
+buildtoolbar_popup_overlays				Identifiera svagheter i ditt fängelses utformning.
+buildtoolbar_popup_utilities			Rörmokeri och elsystem.
+buildtoolbar_popup_staff				Anställ de personer som behövs för att hålla igång ditt fängelse.
+buildtoolbar_popup_deployment			Placera personal vid olika områden i ditt fängelse.
+buildtoolbar_popup_logistics            Låt interner arbeta runtom i ditt fängelse. Även manuell kontroll över matsalen och tvättstugan.
+buildtoolbar_popup_research				Lås upp nya möjligheter för ditt fängelse.
+buildtoolbar_popup_emergencies			Ring efter krishjälp om saker och ting går dåligt.
+buildtoolbar_popup_spawn				Startpunkten? Vad fan gör den?
+buildtoolbar_popup_clone				Kopiera och klistra in existerande strukturer.
+buildtoolbar_popup_properties			Få reda på saker.
+buildtoolbar_popup_contraband           Visa källorna till Smuggelgods och all smuggelgods som nyligen hittats i ditt fängelse. Detta visar även dina Konfidentiella uppgiftslämnare och deras information.
+buildtoolbar_popup_grading              Se ditt allmänna fängelsebetyg med fyra olika graderingar: Straff, Reform, Säkerhet och Hälsa. På denna sida ser du även återfallsgraden för ditt fängelse.
+buildtoolbar_popup_room_cell			Där dina interner bor.
+buildtoolbar_popup_room_holdingcell		Ett rum där nya interner placeras tills en cell finns tillgänglig.
+buildtoolbar_popup_room_solitary		En isoleringsdom för de allra värsta.
+buildtoolbar_popup_room_canteen			Där dina interner får sig sitt fika.
+buildtoolbar_popup_room_kitchen			Den plats där kockarna lagar mat åt dina interner.
+buildtoolbar_popup_room_shower			Används för att hålla internerna rena och fria från löss.
+buildtoolbar_popup_room_yard			Låter dina interner få se solen under några timmar per dag under dina prickskyttetorns vakande öga.
+buildtoolbar_popup_room_storage			Ett område där det material som fängelsepersonalen kan tänkas behöva finns.
+buildtoolbar_popup_room_deliveries		Där dina varor, material och interner släpps av.
+buildtoolbar_popup_room_garbage			Där ditt avfall samlas in.
+buildtoolbar_popup_room_execution		Dit du skickar dina interner för att dö.
+buildtoolbar_popup_room_workshop		Dit du skickar dina interner för att dö av uttråkning när de tillverkar registreringsskyltar för bilar.
+buildtoolbar_popup_room_security		Kontor för dina vakter.
+buildtoolbar_popup_room_office			En plats där administrativ personal arbetar.
+buildtoolbar_popup_room_medicalward		En plats där din medicinska personal arbetar.
+buildtoolbar_popup_room_morgue			Dit du skickar dina döda interner och anställda.
+buildtoolbar_popup_room_commonroom		Låter dina interner få sig lite fritid så att de kan koppla av.
+buildtoolbar_popup_room_kennel          Där dina hundar bor.
+buildtoolbar_popup_room_chapel          Vad händer när en byråkratisk kommitté samlas och skapar en lösning för internernas religiösa behov? Det blir ett bönerum för flera religioner. Vi kallar det Kapellet. 
+buildtoolbar_popup_room_paroleroom      Dina interner kan få villkorlig frigivning när de har tjänat 50% och 75% av sina straff. Deras öde bestäms i detta rum, av Direktören och Säkerhetschefen.\n\nObs: Extra säkerhet rekommenderas. Internerna kan bli ganska upprörda när den villkorliga frigivningen nekas.
+buildtoolbar_popup_room_library         Ditt fängelse får lådor med kasserade och använda böcker från hela landet. Internerna får sortera böckerna på hyllorna.
+buildtoolbar_popup_room_intake          Dit dina interner först tas när de kommer.
+
+buildtoolbar_popup_obj_bed				Inte för hård, inte för mjuk. Just lagom. Faktum är att de är stenhårda och alldeles för små.
+buildtoolbar_popup_obj_toilet			En grundläggande mänsklig rättighet, om man får tro alla de där galningarna.
+buildtoolbar_popup_obj_table			Passar fint med en stol.
+buildtoolbar_popup_obj_chair			Passar perfekt med ett bord.
+buildtoolbar_popup_obj_bench			För att sitta på.
+buildtoolbar_popup_obj_electricchair	För att leverera 2000 volts rättvisa.
+buildtoolbar_popup_obj_jaildoor			Håller dina interner där de ska vara.
+buildtoolbar_popup_obj_jaildoorlarge	Håller massor av dina interner där de ska vara.
+buildtoolbar_popup_obj_door				En vanlig dörr.
+buildtoolbar_popup_obj_solitarydoor		En kraftig dörr som stoppar till och med de starkaste internerna från att fly.
+buildtoolbar_popup_obj_staffdoor		En låst dörr som kan öppnas av en anställd, inte bara vakter.
+buildtoolbar_popup_obj_window			För att skymta solen igenom.
+buildtoolbar_popup_obj_windowlarge		För att skymta massor av solen igenom.
+buildtoolbar_popup_obj_tree				Åtgärder mot den globala uppvärmningen är allas vårt ansvar.
+buildtoolbar_popup_obj_light			Se till att du kan se dina fångar vid alla tider på dygnet.
+buildtoolbar_popup_obj_cooker			Ge dina fångar ett lyxliv med varm mat.
+buildtoolbar_popup_obj_fridge			Ser till att maten inte ruttnar.
+buildtoolbar_popup_obj_bin				Det är viktigt med renlighet när det kommer till smuggelgods.
+buildtoolbar_popup_obj_sink				Alla anställda måste tvätta händerna.
+buildtoolbar_popup_obj_servingtable		Servera mat till internerna.
+buildtoolbar_popup_obj_showerhead		Ett duschmunstycke. För att duscha med.
+buildtoolbar_popup_obj_bookshelf		En hylla där det finns böcker.
+buildtoolbar_popup_obj_officedesk		Din personal måste skriva en massa. Ge dem ett fint skrivbord som de kan göra det vid.
+buildtoolbar_popup_obj_filingcabinet	Din personal behöver ha ordning på det de skriver.
+buildtoolbar_popup_obj_medicalbed		Ett ställe att ha medicin på tills dina interner stjäl den.
+buildtoolbar_popup_obj_morgueslab		Se till att de döda har ett värdigt ställe för sista vilan innan de flyttas.
+buildtoolbar_popup_obj_drain			Ta bort vatten från golvet.
+buildtoolbar_popup_obj_sprinkler		Sprutar automatiskt vatten i händelse av en brand.
+buildtoolbar_popup_obj_metaldetector	Hitta smuggelgods på dina interner när de passerar genom denna. Det krävs en vakt i närheten för att ta hand om smuggelgodset.
+buildtoolbar_popup_obj_weightsbench		Tillåt dina interner att träna, vilket gör dem glada.
+buildtoolbar_popup_obj_phonebooth		Interner vill troligtvis prata med sina familjer, och dessa behändiga telefonautomater låter dem göra det.
+buildtoolbar_popup_obj_tv				Lugna dina interner med slöa serier på TV:n.
+buildtoolbar_popup_obj_largetv			Låt många av dina interner dela upplevelsen av hjärnröta.
+buildtoolbar_popup_obj_pooltable		Låt fängelselivet bli lite mindre enformigt med en omgång biljard.
+buildtoolbar_popup_obj_dismantleobject	Ta bort ett objekt från ditt fängelse.
+buildtoolbar_popup_obj_altar            Skickar vidare dina böner direkt till den högre makt som just du föredrar.
+buildtoolbar_popup_obj_pews             Sittplatser för den trogne. Gjorda av de hårdaste, mest sittdynelösa av träslag.
+buildtoolbar_popup_obj_prayermat        Skydda dina interner från ett smutsigt golv när de ber.
+
+buildtoolbar_popup_staff_workman		Bygger ditt fängelse åt dig, baserat på de skisser som du ger dem.
+buildtoolbar_popup_staff_guard			Används för att hålla ordning på internerna, och att hålla dem ur trubbel.
+buildtoolbar_popup_staff_armedguard     Den här killen är beväpnad med ett hagelgevär, så fångarna tänker två gånger innan de attackerar.\n\nObservera: Alla beväpnade vakter behöver ett eget skåp i Vapenförrådet.
+buildtoolbar_popup_staff_doctor			Ger automatiskt vård åt alla skadade i närheten, vare sig de är vakter eller interner.
+buildtoolbar_popup_staff_cook			Ger mat åt dina fångar med det de lagar till.
+buildtoolbar_popup_staff_gardener		Håller området runtom fängelset snyggt och fint.
+buildtoolbar_popup_staff_janitor		Håller det snyggt och fint på insidan av fängelset. Hjälper även till med fängelsets tvättbehov.
+buildtoolbar_popup_staff_warden			Ditt fängelses övervakare. Krävs innan du kan forska fram och anställa avancerad personal.
+buildtoolbar_popup_staff_chief			En avancerad medlem ur personalen som ger tillgång till utplacering, kameraövervakning och kravallvakter.
+buildtoolbar_popup_staff_foreman		En avancerad medlem ur personalen som ger tillgång till Vaktmästare och Trädgårdsmästare.
+buildtoolbar_popup_staff_psychologist	En avancerad medlem ur personalen som låter dig få en inblick i internernas sinnen.
+buildtoolbar_popup_staff_accountant		En avancerad medlem ur personalen som ger dig tillgång till dina finansiella rapporter.
+buildtoolbar_popup_staff_lawyer			En avancerad medlem ur personalen som hjälper dig att tänja på reglerna så att du får bättre kontroll över fängelset.
+
+buildtoolbar_popup_uts_powerstation		Genererar elektricitet som kan användas i ditt fängelse.
+buildtoolbar_popup_uts_capacitor		Ökar mängden elektricitet som genereras när den placeras bredvid ett kraftverk.
+buildtoolbar_popup_uts_electricalcable	Distribuerar elektricitet runtom i ditt fängelse.
+buildtoolbar_popup_uts_powerswitch		Ändrar tillgången på elektricitet till kablar som är anslutna till den.\n\nHögerklicka för att ändra läget till på eller av.
+buildtoolbar_popup_uts_waterpumpstation	Ger en vattenkälla till ditt fängelse.
+buildtoolbar_popup_uts_pipevalve		Ändrar tillgången på vatten till ledningar som är anslutna till det.
+buildtoolbar_popup_uts_pipelarge		Distribuerar en stor mängd vatten  i ditt fängelse, under högt tryck. Troligen stort nog för att någon ska kunna kravla sig till friheten genom fem hundra meters skitluktande vidrighet.\n\nAnsluts vanligtvis inte till diskbänkar, duschmunstycken etc. – trycket är för högt. Använd ett litet rör för detta.
+buildtoolbar_popup_uts_pipesmall		Används för att ansluta bland annat toaletter, duschar, diskbänkar etc. till ditt nätverk av stora rör. Trycket är mycket lägre så det finns ett minimumavstånd som ett litet rör kan gå innan trycket blir för lågt.
+buildtoolbar_popup_uts_cctv				Håll ett öga på fängelset utan att behöva ha vakter överallt på samma gång.\n\n Du måste ansluta en övervakningsmonitor till denna kamera för att detta ska fungera.
+buildtoolbar_popup_uts_cctvmonitor		Utformad för att byggas i ett Säkerhetsrum och skötas om av en Vakt. Den visar vad dina övervakningskameror runtom på fängelset ser.\n\nAnvänd verktyget Anslut för att ansluta denna monitor till dina övervakningskameror.\n\nObs: Bilderna från högst åtta kameror kan visas på en gång. Om du ansluter fler än åtta kameror kommer monitorn att gå igenom dem efter hand, så att du bara ser delvis vad som händer.
+buildtoolbar_popup_uts_DoorControlSystem  Utformad för att byggas i ett Säkerhetsrum och skötas om av en Vakt. Används för att öppna dörrar runtom i fängelset på avstånd.\n\nAnvänd verktyget Anslut för att ansluta detta system till dina Dörrservos. Dörrservos måste byggas över de dörrar som du vill öppna på avstånd.\n\nObs: Du kan ansluta så många servos som du vill. Vakten som sköter om systemet kan dock bara öppna högst två dörrar per sekund.
+buildtoolbar_popup_uts_phonemonitor     Utformad för att byggas i ett Säkerhetsrum och skötas om av en Vakt. Med denna kan du övervaka utgående telefonsamtal som görs av internerna, och du kan få värdefulla insikter om illegal aktivitet som planeras.\n\nAnvänd verktyget Anslut för att ansluta detta system till dina Telefonkiosker.
+buildtoolbar_popup_uts_Servo            Placera en servo över en dörr som du vill öppna på avstånd. Se till att motorn är direkt ovanför dörren.\n\nNär denna har installerats öppnas dörren när servon aktiveras, oftast av ett dörrkontrollsystem eller en dörrtimer.\n\nServos kan kopplas samman, så att när den första öppnas kommer de som följer också att öppnas.
+buildtoolbar_popup_uts_LogicCircuit     Endast för avancerade arkitekter.\n\nEn enkel kretslåda som utför en logisk handling baserat på input, och ställer in output efter detta.\n\nTillgängliga handlingar: And / Or / Not / Nand / Nor / Xor\n\nHögerklicka för att bläddra genom de olika handlingarna.
+buildtoolbar_popup_uts_LogicBridge      Endast för avancerade arkitekter.\n\nDen tar sin inkommande signal och bryggar över den till Elkabeln som installerats i samma ruta. Elkabeln bär över signalen till andra Logiska kretsar som finns installerade på samma Elkabel.\n\nKan användas för att "sända" en gemensam signal runt hela ditt fängelse, t.ex. användbar för att skicka runt en gemensam klocksignal.  
+buildtoolbar_popup_uts_DoorTimer        Kan användas för att automatiskt öppna dörrar vid vissa tider på dagen.\n\n Använd verktyget Koppla för att ansluta denna timer till dina dörrar med servo.
+buildtoolbar_popup_uts_Wire             Koppla samman dina fjärråtkomstsystem.
+buildtoolbar_popup_uts_showallwires		Visa alla sammankopplade sladdar i ditt fängelse.
+buildtoolbar_popup_uts_remotedoor       En stark metalldörr som inte kan öppnas med en nyckel (Öppnas endast på distans). Använd detta för att förebygga rymningar när en fånge har fått tag på Fängelsenycklar.
+buildtoolbar_popup_uts_dismantleutility	Ta bort ett utilitetsobjekt från ditt fängelse.
+buildtoolbar_popup_uts_pressurepad      Skickar en signal till anslutna föremål om något står på plattan.
+buildtoolbar_popup_uts_statuslight      Lyser antingen rött eller grönt, beroende på vilken signal den tar emot.
+
+buildtoolbar_popup_autolights_name      Automatiska lampor
+buildtoolbar_popup_autolights           Automatisk lampplacering
+buildtoolbar_popup_autolights_desc      När du väljer detta placeras lampor automatiskt i dina nya byggnader när de är färdiga.
+
+buildtoolbar_contraband_source          Visar alla platser i ditt fängelse där smuggelgods kan komma från.
+buildtoolbar_contraband_day             Visar allt smuggelgods som har konfiskerats under det senaste dygnet.
+buildtoolbar_contraband_week            Visar allt smuggelgods som har konfiskerats under den senaste veckan.
+buildtoolbar_contraband_alltime         Visar allt smuggelgods som har konfiskerats i ditt fängelse.
+buildtoolbar_contraband_informants      Visar information som samlats in av dina konfidentiella uppgiftslämnare.
+
+buildtoolbar_deployment_Guards          Placera ut vakter i sektorerna i ditt fängelse.
+buildtoolbar_deployment_Patrols         Klicka och dra för att skapa patrullrutter.\n\nFör att placera ut en vakt på en patrullrutt, klicka igen på en existerande patrullruta.\nHögerklicka och dra för att rensa patrullrutter.
+buildtoolbar_deployment_DogPatrols      Klicka och dra för att skapa patrullrutter.\n\nFör att placera ut en vakt på en patrullrutt, klicka igen på en existerande patrullruta.\nHögerklicka och dra för att rensa patrullrutter.
+buildtoolbar_deployment_ArmedPatrols    Klicka och dra för att skapa patrullrutter.\n\nFör att placera ut en vakt på en patrullrutt, klicka igen på en existerande patrullruta.\nHögerklicka och dra för att rensa patrullrutter.
+buildtoolbar_deployment_SharedZone      Alla interner är tillåtna i denna sektor.
+buildtoolbar_deployment_MinSecZone      Endast lågsäkerhetsinterner är tillåtna i denna sektor.
+buildtoolbar_deployment_MedSecZone      Endast medelsäkerhetsinterner är tillåtna i denna sektor.
+buildtoolbar_deployment_MaxSecZone      Endast högsäkerhetsinterner är tillåtna i denna sektor.
+buildtoolbar_deployment_ProtectedZone   Endast interner i skyddsförvar är tillåtna i denna sektor.
+buildtoolbar_deployment_SuperMaxZone    Endast supermaxsäkerhetsinterner är tillåtna i denna sektor.
+buildtoolbar_deployment_DeathRowZone    Endast dödscellsinterner är tillåtna i denna sektor.
+buildtoolbar_deployment_StaffOnlyZone   Endast personal är tillåten i denna sektor.
+buildtoolbar_deployment_UnlockedZone    Alla är tillåtna i denna zon, och alla dörrar är olåsta.
+
+job_matsassigned                        Avsatt material
+job_matsavailable                       Tillgängligt material
+job_awaitingmaterials                   Väntar på material
+job_inprogress                          Jobb pågår
+job_blocked                             Jobb (Blockerat)
+job_queued                              Jobb (I kö)
+
+job_failed_noroute                      Ingen väg
+job_failed_nomaterials                  Inga material
+job_failed_toodangerous                 För farligt
+job_failed_materialsbeingcarried        Material på väg
+
+job_rightclicktocancel                  Högerklicka för att avbryta
+job_refundamount                        Återbetalningsbelopp: *X
+
+failuremessage_blocked                  Blockerad
+failuremessage_cantafford               Otillräckligt saldo
+failuremessage_cantaffordupkeep         Överskrider daglig budget
+failuremessage_maximumcountreached      Maxantal anställda redan
+failuremessage_maxstaff                 För mycket personal
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Leveranser
+statustoolbar_finances                  Ekonomi
+statustoolbar_regime                    Regim
+statustoolbar_escapemap                 Säkerhet
+statustoolbar_electricity               Elektricitet
+statustoolbar_stats                     Statistik
+statustoolbar_danger                    Fara
+statustoolbar_jobs                      Jobb
+statustoolbar_gangs                     Gäng
+statustoolbar_staff                     Personal
+statustoolbar_research                  Forskning
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Spritebankredigerare
+spritebankeditor_create                 Skapa
+spritebankeditor_rotate                 Rotera
+spritebankeditor_sort                   Sortera
+spritebankeditor_markermodetitle        Markörläge
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Huvudmeny
+codex_campaign                          Kampanj
+codex_cutscenes                         Mellansekvenser
+codex_qualifications                    Kvalifikationer
+codex_load                              Ladda fängelse
+codex_loadcampaign                      Ladda kampanj
+codex_save                              Spara fängelse
+codex_savecampaign                      Spara kampanj
+codex_performance						Prestandatest
+codex_developer_load                    (Utvecklare) Ladda karta
+codex_developer_save                    (Utvecklare) Spara karta
+codex_developer_clearach                (Utvecklare) Rensa mål
+codex_contacts                          Kontakter
+codex_materials                         Material
+codex_play                              Spela
+codex_polaroids                         Fotografier
+codex_introduction                      Introduktion
+codex_restartintroduction               Starta om introduktionen
+codex_restartchapter                    Starta om kapitel
+codex_help                              Hjälp (wiki)
+codex_opensavefolder                    Öppna sparmapp
+codex_options							Inställningar
+codex_nitgs								Namn i spelet
+codex_workshop							Dela med dig av ditt fängelse (Steam Workshop)
+codex_checkforupdates                   Sök efter uppdateringar
+codex_preorder                          Förbeställ nu
+codex_termsconditions                   Regler och villkor
+codex_twitter                           Twitter
+codex_extras                            Extra
+codex_unlocked                          Låst upp *X/*Y
+
+codex_new                               Skapa nytt fängelse
+codex_new_worldsize                     Storlek på världen
+codex_new_small                         Liten
+codex_new_medium                        Mellan
+codex_new_large                         Stor
+codex_new_selectwarden                  Välj fängelsedirektör
+
+codex_options_graphics					Grafik
+codex_options_resolution				Upplösning
+codex_options_resolutionauto			Auto
+codex_options_windowed					Fönsterläge
+codex_options_highdpi					Hög DPI
+codex_options_filtering					Filter
+codex_options_nofiltering				Av
+codex_options_multisampled				Multisamplad
+codex_options_supersampled				Supersamplad
+
+codex_options_audio						Ljud
+codex_options_volume					Huvudvolym
+codex_options_frequency					Mixerfrekvens
+codex_options_swapstero					Byt stereo
+codex_options_dspenabled				Aktivera DSP
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
+
+codex_options_clocktype                 Klocktyp
+codex_options_clocktype_analogue        Analog
+codex_options_clocktype_12h             12 timmar
+codex_options_clocktype_24h             24 timmar
+
+codex_options_gameplay					Spel
+codex_options_autosave					Timer för automatisk sparning
+codex_options_renderrooms				Schackbrädesgolv
+codex_options_apply						Verkställ
+
+codex_options_language					Språk
+
+codex_enabled                           På
+codex_disabled                          Av
+
+codex_option_intake                     Löpande intag
+codex_tooltip_intake                    Om detta aktiveras får du ett slumpmässigt antal fångar varje dag… för alltid.\n\nOm detta avaktiveras kan du välja när du känner dig redo att få nya interner genom att gå till rapporterna och klicka på fliken Intag.
+codex_option_fogofwar                   Krigsdimma
+codex_tooltip_fogofwar                  Du kommer inte kunna se hela insidan av ditt fängelse, såvida du inte har vakter som patrullerar eller övervakningskameror som filmar.
+codex_option_lakes                      Skapa sjöar
+codex_tooltip_lakes                     Slumpmässiga sjöar blockerar delar av din mark. VARNING: På experimentstadiet.
+codex_option_forests                    Skapa skogar
+codex_tooltip_forests                   Trädsamlingar kommer fram på din mark.
+codex_option_buildings                  Skapa byggnader
+codex_tooltip_buildings                 Slumpmässiga övergivna byggnader finns på din mark, som du kan använda hur du vill.
+codex_option_failure                    Felförhållanden
+codex_tooltip_failure                   En extra utmaning! Du får sparken och spelet är över om du låter saker och ting gå för mycket åt pipan. (Upplopp, Konkurs, för många som dör eller flyr, etc.)
+codex_option_unlimitedfunds             Obegränsat med pengar
+codex_tooltip_unlimitedfunds            Ett riktigt sandlådeläge! Du kan spendera så mycket pengar som du vill direkt från början, utan att behöva oroa dig eller vänta på mer senare.
+codex_option_gangs                      Gäng
+codex_tooltip_gangs                     Vissa interner är gängmedlemmar och kommer attackera rivaler. En extra utmaning.
+codex_option_events                     Händelser
+codex_tooltip_events                    Orsakar händelser under spelet som håller dig på alerten. Lägger till en extra utmaning och lite oförutsägbarhet.
+
+codex_option_funds                      Pengar
+codex_tooltip_funds                     Så här mycket pengar på bankkontot börjar du med. Sälj dina etablerade fängelser från skärmen Värdering för att börja med mer pengar.
+
+codex_transfer							Överför
+codex_transferring						Överförs
+codex_in_prison							Fängslad
+codex_useravatar                        Det här är jag
+codex_tooltip_useravatar                Markera denna intern som din egen representant. Om du någon gång hamnar i fängelse själv kommer denna intern att representera dig.
+codex_tooltip_flagbio                   Rapportera denna biografi som stötande.
+
+codex_workshop_current					Nuvarande fängelse
+codex_workshop_publish					Publicera detta fängelse
+codex_workshop_update					Uppdatera
+codex_workshop_play						Spela
+codex_workshop_downloading				Laddar ner
+codex_workshop_download_failed			Hämtningen misslyckades
+codex_workshop_publishing				Publicerar…
+codex_workshop_new						NYTT
+codex_workshop_title					Titel
+codex_workshop_desc						Beskrivning
+codex_workshop_view_in_workshop			Visa i Steam Workshop
+codex_workshop_heading_pubed			Dina publicerade fängelser
+codex_workshop_heading_subed			Nedladdade fängelser
+codex_workshop_published_by				Publicerat av *P
+codex_workshop_published_by_you			Publicerat av dig
+codex_workshop_published_good			Fängelset publicerades
+codex_workshop_published_good_msg		Ditt fängelse har publicerats.
+codex_workshop_published_bad			Misslyckades med att publicera fängelset
+codex_workshop_published_bad_msg		Ditt fängelse kunde inte publiceras.
+codex_workshop_published_bad_msg_new	Ditt nya fängelse kunde inte publiceras. Försök igen.
+codex_workshop_busy						Det händer redan saker med Steam. Vänta på att det blir färdigt och försök sedan igen.
+codex_workshop_file_exists				Du har redan publicerat ett fängelse med detta namn. Välj ett annat namn.
+codex_workshop_generic_fail				Det gick inte att publicera ditt fängelse. Försök igen.
+codex_workshop_download_bad				Misslyckades med att ladda ner detta fängelse
+codex_workshop_pa_workshop				Öppna Prison Architect Workshop
+codex_workshop_agreement				När du skickar in detta godkänner du [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]villkoren för Steam Workshop[/url].
+
+codex_options_timelapse					Timelapse
+codex_timelapse_record					Spela in timelapse
+codex_timelapse_stop					Stoppa timelapse
+codex_timelapse_camera					Kameraläge
+codex_timelapse_resolution				Upplösning
+codex_timelapse_customresw				Anpassad upplösning (bredd)
+codex_timelapse_customresh				Anpassad upplösning (höjd)
+codex_timelapse_resolution				Upplösning
+codex_timelapse_fps						Uppspelningshastighet
+codex_timelapse_interval				Bildintervall
+codex_timelapse_quality					Kvalitet
+codex_timelapse_unsupported				Denna funktion finns inte tillgänglig på din dator.
+codex_timelapse_savesettings			Spara inställningar
+
+codex_timelapse_cam_zoom                Kamerazoom
+codex_timelapse_cam_fitmap              Passa in karta
+codex_timelapse_cam_fitheight           Passa in karthöjd
+codex_timelapse_cam_fitwidth            Passa in kartbredd
+codex_timelapse_fps_value               *X FPS
+codex_timelapse_quality_high            Hög
+codex_timelapse_quality_med             Mellan
+codex_timelapse_quality_low             Låg
+codex_timelapse_interval_value          *X minuter i spelet
+
+codex_performance_running				Prestandatest körs
+codex_performance_time					Tid kvar: *Ts
+codex_performance_current				Nuvarande bildrutetid: *Tms
+codex_performance_min					Minsta bildrutetid: *Tms
+codex_performance_avg					Genomsnittlig bildrutetid: *Tms
+codex_performance_max					Högsta bildrutetid: *Tms
+codex_performance_numframes				Antal bildrutor: *T
+
+codex_last_modified						Senast ändrad: *T
+codex_sortbydesc						Sortera efter datum
+codex_sortname							Namn
+codex_sortdate							Datum
+codex_apply								Verkställ
+codex_select                            Välj
+
+codex_mods								Moddar
+codex_mod_activetitle					Aktiva moddar
+codex_mod_inactivetitle					Tillgängliga moddar
+codex_mod_deactivate					Avaktivera alla moddar
+codex_mod_wiki							Hitta fler moddar (Wiki)
+codex_mod_openmodsfolder				Öppna moddmappen
+codex_mod_moresteammods					Hitta fler moddar (Steam Workshop)
+codex_mod_findsteamtranslations         Hitta fler översättningar (Steam Workshop)
+codex_authortitle                       Utfärdad av
+codex_versiontitle                      Version
+codex_datetitle                         Datum
+codex_urltitle                          URL
+codex_typetitle							Typ
+codex_mod_graphicsandsound				Grafik och ljud
+codex_mod_translation					Översättning
+codex_mod_scenario						Scenario
+codex_mod_content						Innehåll
+codex_mod_load_scenario					Spela scenario
+codex_publishmod						Publicera denna mod
+
+codex_mod_update						Uppdatera denna mod
+codex_mod_published_good				Modden publicerades
+codex_mod_published_good_msg			Din mod har publicerats.
+codex_mod_published_bad					Misslyckades med att publicera mod
+codex_mod_published_bad_msg				Din mod kunde inte publiceras.
+codex_mod_modsupdated					Moddarna har uppdaterats
+codex_mod_modsupdated_msg				Vissa av dina aktiva moddar har uppdaterats. Klicka på OK för att tillämpa de nya förändringarna. Spelet kommer att sparas automatiskt.
+codex_mod_translationcaption            Är detta en översättning till ett annat språk?
+
+codex_language                          Språk
+codex_language_englishdefault           English (Default)
+codex_language_default                  Default Language
+codex_language_download                 Hämtar…
+codex_language_failed_download          Misslyckades med att hämta översättningen
+codex_language_failed_download_msg      Den valda översättningen kunde inte hämtas.
+codex_language_searching_workshop       Söker i Steam Workshop
+codex_language_community                Dessa översättningar skapas och underhålls av er spelare. Tack!
+
+codex_save_confirm                      Är du säker på att du vill skriva över *X med nuvarande fängelse?
+codex_researtchapter_confirm            Är du säker på att du vill starta om nuvarande kapitel? Du kommer att förlora det som inte sparats.
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Vill du behålla dessa grafikinställningar? Förändringarna kommer att återgå om
+graphicschange_time						sekunder.
+graphicschange_accept					Godkänn
+graphicschange_revert					Återgå
+
+# =============================================================================
+# Script
+# =============================================================================
+
+scriptdebugger_title                    Manusavlusare (F3)
+
+# =============================================================================
+# Mod Confirmation
+# =============================================================================
+
+modnotification_title                   Modskillnader hittade
+modnotification_info                    Dessa moddar användes när det nuvarande fängelset sparades. Vi rekommenderar att du laddar ner och aktiverar dem innan du spelar detta fängelse.
+modnotification_playnow                 Spela nu
+modnotification_active                  Aktiv
+modnotification_inactive                Inaktiv
+modnotification_new                     Ny
+modnotification_unknown                 Okänd
+modnotification_popup_title             Modskillnad
+modnotification_popup_active            Denna mod är för närvarande aktiv. Klicka för att avaktivera.
+modnotification_popup_inactive          Denna mod är för närvarande inaktiv. Klicka för att aktivera.
+modnotification_popup_new_url           Detta är en ny mod. Klicka för att öppna länken till den i en webbläsare.
+modnotification_popup_new_steam         Detta är en ny mod på Steam. Klicka för att abonnera på och ladda ner modden nu.
+modnotification_popup_unknown           Vi kunde inte ta reda på var denna mod kom ifrån. Var vänlig hitta och installera denna mod själv.
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Stanna och sök
+biography_selected                      VALD
+biography_prisoner_name                 *S, *F
+biography_prisoner_number               Intern #*X
+biography_prisoner_age                  Ålder: *X
+biography_prisoner_traits               Karaktärsdrag:
+biography_prisoner_convicted            Dömd för *C (förklarade sig *P)
+biography_prisoner_sentenced            Dömd till *X år i fängelse
+biography_parole_now                    Behörig för villkorlig frigivning nu
+biography_parole_later                  Behörig för villkorlig frigivning om *X år
+biography_prisoner_served               Tjänat *X år
+biography_prisoner_priors               Tidigare brott:
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Ålder:
+rapsheet_category						Kategori:
+rapsheet_traits							Karaktärsdrag:
+rapsheet_conviction_text				*C - *Y år
+rapsheet_found_text						(Förklarade sig: *P)
+rapsheet_convictions					Domar
+rapsheet_misconductstitle				Uppträdde olämpligt nyligen
+rapsheet_biography                      Biografi
+rapsheet_guilty							Skyldig
+rapsheet_notguilty						Oskyldig
+rapsheet_served							Tjänat
+rapsheet_served_time					Tjänat *Y år
+rapsheet_time							*Y år
+rapsheet_bio							Dömd till *Y år för *A.
+rapsheet_bio_med						Dömd till *Y år för flera brott, inklusive *A och *B.
+rapsheet_bio_long						Dömd till *Y år för flera brott, inklusive *A, *B och *C.
+rapsheet_category_minsec				Minimumsäkerhet
+rapsheet_category_normal				Normal säkerhet
+rapsheet_category_maxsec				Högsäkerhet
+rapsheet_category_protected             Skyddshäkte
+rapsheet_category_supermax              Superhög säkerhet
+rapsheet_category_deathrow              Dödscell
+rapsheet_tab_biography                  Biografi
+rapsheet_tab_experience                 Erfarenhet
+rapsheet_tab_grading                    Betyg
+rapsheet_tab_character                  Karaktär
+rapsheet_punish                         Straffa
+rapsheet_recruit                        Rekrytera uppgiftslämnare
+
+rapsheet_timeinside                     *X dagar i ditt fängelse
+rapsheet_timeinside_hours               *X timmar i ditt fängelse
+rapsheet_mood                           Humör
+rapsheet_activity                       Aktivitet
+rapsheet_condition                      Tillstånd
+rapsheet_program                        Program
+rapsheet_passchance                     Chans för framgång
+rapsheet_reformhistory                  Reformprogrammets historia
+
+rapsheet_reform_success                 Lyckades
+rapsheet_reform_successcount            Genomfört *X gånger
+rapsheet_reform_failed                  Misslyckades
+rapsheet_reform_failcount               Misslyckades *X gånger
+
+rapsheet_grading_punishment             Straff
+rapsheet_grading_health                 Hälsa
+rapsheet_grading_security               Säkerhet
+rapsheet_grading_reform                 Reform
+rapsheet_grading_points                 *X poäng:
+rapsheet_grading_penalties              *X påföljder:
+
+rapsheet_scheduleexecution              Schemalägg avrättning
+
+
+punish_lockdown_6                       Låsning (6h)
+punish_lockdown_12                      Låsning (12h)
+punish_lockdown_24                      Låsning (24h)
+punish_solitary_6                       Isoleringscell (6h)
+punish_solitary_12                      Isoleringscell (12h)
+punish_solitary_24                      Isoleringscell (24h)
+punish_solitary_perm                    Isoleringscell (Permanent)
+punish_lockdown_perm                    Låsning (Permanent)
+punish_solitary                         Isoleringscell
+punish_lockdown                         Låsning
+punish_none                             Inga påföljder
+punish_timer                            *Xh *Ym
+punish_timer_minutes                    *Xm
+punish_active                           AKTIVT
+punish_permanent                        (Permanent)
+punish_end                              Avsluta påföljder
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  Inget
+misconduct_reporttype_complaint             Klagomål
+misconduct_reporttype_destruction           Förstörelse
+misconduct_reporttype_escapeattempt         Flyktförsök
+misconduct_reporttype_injuredprisoner       Attackerade intern
+misconduct_reporttype_injuredstaff          Attackerade anställd
+misconduct_reporttype_seriousinjury         Allvarlig skada
+misconduct_reporttype_murder                Mord
+misconduct_reporttype_contrabandweapons     Vapen hittades
+misconduct_reporttype_contrabandtools       Verktyg hittades
+misconduct_reporttype_contrabandnarcotics   Droger hittades
+misconduct_reporttype_contrabandluxuries    Lyxvaror hittades
+misconduct_reporttype_intoxicated           Berusning
+misconduct_title                            =[Dåligt uppförande]=
+
+misconduct_report_addiction                 Beroende av *X
+misconduct_report_recoving                  Återhämtar sig från sitt missbruk av *X
+misconduct_report_alcoholic                 Alkoholist
+misconduct_report_recovingalcoholic         Återhämtar sig från sin alkoholism
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       Du behöver en *X för att förbereda denna rapport.
+research_requireunlock                  Du behöver forska fram *X för att låsa upp denna rapport
+research_approved                       GENOMFÖRD
+research_cost                           Kostnad: *X
+research_costperitem                    + *X per föremål.
+research_timetounlock                   Tid för att låsa upp: *X timmar
+research_movementpenalty                Rörelsestraff: *X%
+research_protectionbonus                Skydd: *X%
+research_tap_to_authorise               TRYCK FÖR ATT GODKÄNNA
+
+research_none                           Inget
+research_warden                         Fängelsedirektör
+research_maintainance                   Underhåll
+research_security                       Säkerhet
+research_legal                          Juridik
+research_mentalhealth                   Psykologi
+research_finance                        Ekonomi
+research_landexpansion                  Landökning
+research_cctv                           Övervakning
+research_riotguards                     Kravallvakter
+research_health                         Hälsa
+research_cleaning                       Städning
+research_groundskeeping                 Trädgårdsarbete
+research_clone                          Klona
+research_deployment                     Utplacering
+research_patrols                        Patruller
+research_dogs                           Hundar
+research_prisonlabour                   Fängelsearbete
+research_education                      Utbildning
+research_contraband                     Information
+research_policy                         Regler
+research_armoury                        Vapenförråd
+research_bodyarmour                     Skyddsvästar
+research_tazers                         Elpistoler
+research_tazersforeveryone              Elpistoler till alla vakter
+research_bankloans                      Banklån
+research_lowertaxes1                    Skattelättnader
+research_lowertaxes2                    Skatteparadis utomlands
+research_remoteaccess                   Fjärråtkomst
+research_extragrant                     Extra bidrag
+research_advancedmanagement             Mikrohantering
+research_deathrow                       Dödscell
+research_permanentpunishment            Permanenta påföljder
+research_removemincellsize              Små celler
+research_reduceexecutionliability       Minska ansvar för avrättningar
+research_legalprep                      Juridisk förberelse
+research_legaldefense                   Juridiskt försvar
+
+researchtooltip_warden                  Låser upp Fängelsedirektören och hela Byråkrati-systemet. Anställ honom från verktygsraden Personal.\n\nPrecis som alla anställda med administrativa uppgifter behöver han ett kontor.
+researchtooltip_security                Låser upp Säkerhetschefen, som kan anställas från verktygsraden Personal. Denna chef ger dig tillgång till utplaceringsskärmen, och ger dig även en rapport i realtid över faronivån i ditt fängelse, vilket ofta kan förvarna om framtida problem.\n\nPrecis som alla anställda med administrativa uppgifter behöver han ett kontor.
+researchtooltip_maintenance             Låser upp Arbetsledaren. Anställ honom från verktygsraden Personal.\n\nPrecis som alla anställda med administrativa uppgifter behöver han ett kontor.
+researchtooltip_legal                   Låser upp Advokaten, som kan anställas från verktygsraden Personal. Låser upp ett antal forskningsalternativ som ger dig mer kontroll över fängelset.\n\nPrecis som alla anställda med administrativa uppgifter behöver han ett kontor.
+researchtooltip_deployment              Låter dig permanent stationera ut Vakter till de olika sektorerna i ditt fängelse.
+researchtooltip_patrols                 Låter dig placera ut patrullrutter runt viktiga områden på ditt fängelse (t.ex. murarna) och tilldela vakter att gå rundor utmed dessa.
+researchtooltip_dogs                    Låser upp Hundföraren och Vakthunden. De är bra för att sniffa fram luktande smuggelgods i fängelset, och för att upptäcka rymningstunnlar.\n\nHundar är också snabba, vilket gör att de enkelt kan jaga interner.
+researchtooltip_cctv                    Låser upp övervakningskameror och säkerhetsmonitorer. Använd dessa för att hålla koll på obemannade delar av fängelset.\n\nLåser även upp Telefonavlyssning, vilket låter dig lyssna av internernas telefonsamtal och få viktiga upplysningar.
+researchtooltip_remoteaccess            Låser upp högteknologisk utrustning för fjärrkontroll och automatisering av dörrar. Dörrar kan öppnas på avstånd med ett dörrkontrollsystem (som sköts av en Vakt). De kan också öppnas av en dörrtimer vid särskilda tider på dygnet.
+researchtooltip_riotguards              (HAR FÖR NÄRVARANDE INGET SYFTE)\nLåser upp Kravallvakten. De här killarna är beväpnade till tänderna och bra på att ta hand om våldsamma situationer.
+researchtooltip_maintainance            Låser upp Arbetsledaren. Han låter dig forska mer på saker som Fängelsearbete, eller efter nya anställda som Trädgårdsmästaren.\n\nPrecis som alla anställda med administrativa uppgifter behöver han ett kontor.
+researchtooltip_clone                   Låser upp kloningsverktyget på huvudverktygsraden. Använd detta verktyg för att snabbt kopiera områden i ditt fängelse, till exempel Celler. För att använda detta väljer du en zon som ska kopieras genom att dra med höger musknapp, och sedan klickar du med vänster musknapp för att kopiera.
+researchtooltip_groundskeeping          Låser upp Trädgårdsmästaren. Han håller allt rent och snyggt utomhus.
+researchtooltip_cleaning                Låser upp Vaktmästaren. Han städar inne på fängelset och kan även hjälpa till med tvätten.
+researchtooltip_health                  Låser upp Doktorn, samt även Sjukstugan och Bårhuset. Skadade interner och personal tas till Sjukstugan så lappar doktorerna ihop dem.
+researchtooltip_MentalHealth            Låser upp Psykologen, som kan ge dig en värdefull inblick i internernas mentala hälsa.\n\nPrecis som alla anställda med administrativa uppgifter behöver han ett kontor.
+researchtooltip_finance                 Låser upp Revisorn, som ger dig tillgång till ekonomirapporten för ditt fängelse.\n\nLåter dig även spendera mer för varje dag än vad din ekonomi vanligtvis skulle tillåta, så länge som du har pengar i reserv.\n\nPrecis som alla anställda med administrativa uppgifter behöver hon ett kontor.
+researchtooltip_landexpansion           Låter dig köpa angränsande tomter, och på detta sätt bygga ut fängelset mer.
+researchtooltip_prisonlabour            Låter dig sätta internerna i arbete på fängelset (med Matlagning, Städning etc.), vilket sparar in på lönerna, ger dig mer pengar i kassan och lär ut nya saker till internerna på samma gång.\n\nLåser även upp Verkstaden och Tvättstugan.
+researchtooltip_education               Låser upp möjligheten att ha reformprogram inom utbildning för dina interner, med lärare utifrån.
+researchtooltip_contraband              Träning för dina Vakter att bli bättre på att spåra upp och samla in smuggelgods. Låser upp rapporten Tillgång och Efterfrågan för smuggelgods, överlägget för smuggelgods (du ser då alla möjliga platser där smuggelgods kan finnas i ditt fängelse) och spårar allt hittat smuggelgods tillbaka till varifrån det smugglades eller stals.\n\nLåser även upp möjligheten att rekrytera interner som Konfidentiella uppgiftslämnare.\n\nLåser dessutom upp gänginformationsvyn.
+researchtooltip_policy                  Låser upp Regelrapporten, som låter dig öka och minska internernas påföljder för allt dåligt uppförande. Den gör också att dina vakter automatiskt söker igenom internen med dåligt uppförande och hans cell.\n\nMed denna kan du även kontrollera hur mycket och vilken mat som serveras till internerna i näringsreglerna.
+researchtooltip_armoury                 Låser upp vapenförrådet, och låter dig placera ut beväpnade vakter runtom i ditt fängelse.
+researchtooltip_bodyarmour              Utrustar alla dina Vakter, Beväpnade vakter och Hundförare med skyddsvästar. Detta kan hjälpa till med att absorbera skada under ett slagsmål, men det gör även att vakterna rör sig långsammare.\n\nVakterna måste gå till vapenförrådet för att få denna utrustning, och det kostar pengar för alla skyddsvästar som köps på detta sätt.
+researchtooltip_tazers                  Låter dina Beväpnade vakter bära elpistoler, ett kraftfullt vapen med ett skott som gör de flesta som träffas av det medvetslösa omedelbart. Elpistoler kan bara skjutas en gång, och sedan tar det en hel timme innan de har laddats om igen.\n\nBeväpnade vakter måste besöka vapenförrådet för att få denna utrustning, och det kostar pengar för alla elpistoler som köps på detta sätt.
+researchtooltip_tazersforeveryone       Utvidgar programmet för elpistoler så att även dina vanliga Vakter kan bära dem som försvar.\n\nDe måste besöka vapenförrådet för att få denna utrustning, och det kostar pengar för alla elpistoler som köps på detta sätt.
+researchtooltip_bankloans               Låter dig låna en stor klumpsumma pengar från banken, i utbyte mot att du betalar ränta varje dag. När du betalar av dina lån ökar din kreditvärdighet och du får då låna större summor vid ett senare tillfälle.
+researchtooltip_lowertaxes1             Drar nytta av statens skatteincitament och sänker din bolagsskatt till bara 15%.\n\nDu sparar 1500 dollar i skatt för varje 10 000 dollar som du får i daglig vinst.
+researchtooltip_lowertaxes2             Din revisor böjer på reglerna så att de nästan går av, och flyttar alla dina officiella konton och företagsöverföringar till ett land utomlands med högst förmånliga skattenivåer. Ditt bolags skattskyldighet sjunker till cirka 1%.\n\nDu sparar totalt 3000 dollar i skatter för varje 10 000 dollar som du får i daglig vinst.
+researchtooltip_extragrant              Låter dig acceptera upp till tre bidrag på en gång istället för två.
+researchtooltip_advancedmanagement      Ger dig verktyg som behövs för att mikrohantera delar av ditt fängelse så att det fungerar exakt som du vill.\n\nLåser upp Matlogistik, vilket låter dig specificera vilka kök som lagar mat åt vilka matsalar, och vilka matsalar som internerna äter i. På samma sätt låter Tvättlogistiken dig bestämma själv vilka cellblock som sköts av vilka tvättstugor.\n\nLåser även upp Utplaceringsschemaläggaren, som låter dig anpassa dina vakters utplacering vid olika tider på dygnet.\n\nLåser upp Reformprogramsschemaläggaren, som låter dig manuellt ändra det dagliga schemat i olika program.
+researchtooltip_permanentpunishment     Ibland räcker det inte med att bara vara inlåst i fängelset. Din advokat kan skicka in de nödvändiga papprena för att du ska kunna låsa in interner i sina celler permanent.
+researchtooltip_removemincellsize       Cellerna i ditt fängelse behöver en viss storlek för att följa det som lagen kräver. Men tänk hur många fler celler som du hade kunnat få in om så inte vore fallet! Tar bort de minimala storlekskraven för vanliga celler.
+researchtooltip_reduceexecutionliability Din advokat yrkar på en minskning i den styrka som krävs på den fällande domen innan man kan gå vidare med dödsstraff. Detta sänker antalet överklaganden som en intern kan få innan du kan schemalägga deras avrättning utan straffrättsligt ansvar.
+researchtooltip_legalprep               Alla fängelser kan få problem då och då, och vissa av dem har stora rättsliga konsekvenser. Din advokat sätter igång med pappersarbetet för att hålla dig utan besvär om något skulle gå fel, men detta behöver göras i förväg.
+researchtooltip_legaldefense            Du har hamnat i knipa – nåt har gått väldigt fel och du har varslats för det. Om det verkar som att du inte kommer att kunna klara situationen kan din advokat hjälpa dig att ta dig ur det. Om du forskar dig in i detta tar det bort nuvarande varningar som annars kunde ha tvingat dig att avgå.
+
+research_legaldefense_adviser1          Det verkar som att din advokat har lämnat in pappersarbete som skyddar dig från konsekvenserna av den här röran. Jag antar att det betyder att jag inte kan ge dig sparken. För den här gången.
+research_legaldefense_adviser2          Skynda dig att få ordning på fängelset och se till att det håller sig så. Det där tricket kommer inte fungera igen och du kommer inte alltid ha stöd av det.
+
+research_missingadministrator           KRAV:
+
+
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                KRAV:
+roomrequirement_recommended             Rekommenderas:
+roomrequirement_minimumsize             Minsta storlek *W x *H
+roomrequirement_minimumsize_short	Storlek *W x *H
+roomrequirement_indoor                  Inomhus
+roomrequirement_outdoor                 Utomhus
+roomrequirement_solidground             Fast mark
+roomrequirement_secure                  Säkert (bakom minst en Dörr)
+roomrequirement_secure_short		Säkert
+roomrequirement_enclosed                Instängt (omgivet av väggar och dörrar)
+roomrequirement_enclosed_short		Instängt
+requirement_entrance                    Kräver ingång
+roomrequirement_title                   =[Rumskrav]=
+roomrequirement_passed                  [GODKÄNT]
+roomrequirement_failed                  [EJ GODKÄNT]
+roomrequirement_adjacentobject          Bredvid rum:
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            UPPLÅST
+
+unlock_special_electricity              Elektriska system
+unlock_special_food                     Matlagning
+unlock_special_officersafety            Säkerhet för högre ställd personal
+unlock_special_misbehavior              Dåligt uppförande
+unlock_special_accounting               Bokföring
+unlock_special_gangs                    Gäng
+
+unlock_electricity_caption              Låter dig bygga elverk och elkablar för elektricitet till allt som kräver detta.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Klicka för att fortsätta…
+incoming_call                           Inkommande samtal…
+
+adviser_name_unknown                    Okänd
+adviser_name_ceo                        VD:n
+adviser_name_warden                     Fängelsedirektören
+adviser_name_governer                   Guvernören
+adviser_name_chief                      Säkerhetschefen
+adviser_name_doctor                     Doktorn
+adviser_name_kingpin                    Gangsterbossen
+adviser_name_edwardshooter              Edward
+adviser_name_edwardsinner               Edward
+adviser_name_edwardinmate               Edward
+adviser_name_edwardswife                Edwards fru Susan
+adviser_name_priest                     Prästen
+adviser_name_newsreader                 CNDC News
+adviser_name_mayor 						Borgmästare Calvin Heller
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Personal
+report_prisoners                        Interner
+report_jobs                             Jobb
+report_needs                            Behov
+report_threats                          Hot
+report_regime                           Regim
+report_policy                           Regler
+report_grants                           Bidrag
+report_finance                          Ekonomi
+report_valuation                        Värdering
+report_contraband                       Smuggelgods
+report_programs                         Program
+report_schedule                         Schemaläggare
+report_intake                           Intag
+
+report_grants_bankloan                  Banklån
+report_grants_bankloan_text             Du kan låna en stor klumpsumma från banken. I gengäld tar banken en räntekostnad varje dag som du måste betala från ditt kassaflöde.\n\nMedan du gör regelbundna inbetalningar kommer din kreditvärdighet att öka, och banken låter dig låna mer. Om du missar betalningar kommer din kreditvärdighet att sänkas och banken lånar inte ut mer när du behöver det.\n\nObservera: Ditt lån blir aldrig avbetalt med endast dagliga avbetalningar på räntan.
+report_grants_max1                      Du kan endast acceptera ett bidrag åt gången.\nAnvänd revisorn för att höja antalet bidrag.
+report_grants_max2                      Du kan inte få fler än två bidrag åt gången.\nAnvänd revisorn för att höja antalet bidrag.
+report_grants_max3                      Du kan inte acceptera fler än tre bidrag åt gången.
+report_grants_bankloan_amount           Nuvarande banklån: *X
+report_grants_bankloan_interest         Ränta: *X per dag
+report_grants_bankloan_max              Maximalt lån: *X
+report_grants_creditrating              Din kreditvärdighet: *X
+report_grants_inprogress_tt             (PÅGÅR)
+report_grants_completed_tt              (KLART)
+report_grants_locked_tt                 (LÅST)
+report_grants_advancepayment            *X i förskottsbetalning
+report_grants_completionbonus           *X i slutförandebonus
+report_grants_objectives                [Mål]
+report_grants_prereqs                   [Krav]
+report_grants_completed                 KLART
+report_grants_locked                    Låst
+report_grants_inprogress                Pågår
+report_grants_hidden                    (*X fler finns gömda)
+report_grants_taptoaccept               TRYCK FÖR ATT ACCEPTERA
+report_grants_cancelfee                 Avbrottskostnad: *X
+
+report_staff_title                      Totalt antal anställda: *X
+report_prisoners_title                  Totalt antal interner: *X
+report_staff_group_builders             Arbetare
+report_staff_group_guards               Vakter
+report_staff_group_staff                Personal
+report_staff_group_administrators       Administratörer
+report_staff_group_prisoners            Interner
+report_staff_group_prisoners_high       Hög risk
+report_staff_group_prisoners_normal     Normal risk
+report_staff_group_prisoners_low        Låg risk
+report_staff_group_prisoners_protected  Skyddshäkte
+report_staff_group_prisoners_supermax   SuperMax
+report_staff_group_prisoners_deathrow   Dödscell
+
+report_staff_fire                       SPARKA
+
+report_intake_title                     Intag
+report_intake_catheader_cat             Kategori
+report_intake_catheader_pay             Betalning
+report_intake_catheader_available       Tillgänglig
+report_intake_catheader_amount          Kvot
+report_intake_next_header               Nästa intag: *X
+report_intake_cat_minsec                Lågsäkerhet
+report_intake_cat_normal                Medelsäkerhet
+report_intake_cat_maxsec                Högsäkerhet
+report_intake_cat_deathrow              Dödscell
+report_intake_slider_minsec             Justera intagningskvoten för Lågsäkerhet
+report_intake_slider_normal             Justera intagningskvoten för Medelsäkerhet
+report_intake_slider_maxsec             Justera intagningskvoten för Högsäkerhet
+report_intake_slider_deathrow           Justera intagningskvoten för Dödsceller
+report_intake_closed                    STÄNGT
+report_intake_locked                    LÅST
+report_intakemaxperdaydesc              Dagligt intag
+report_intakemaxperdaydesc_tooltip      Det totala antalet interner som du vill ha in vid nästa intag
+report_intakemaxperdaydecr              <<
+report_intakemaxperdayincr              >>
+report_intakemaxperdaynone              Inga
+report_intakemaxperdayall               Alla
+reports_intakedelivernow                Leverera nu
+report_intakepayment                    Betalning
+report_intakeall                        ALLA
+report_intake_list_tooltip_title        Intagskategorier
+report_intake_list_tooltip              En lista över alla kategorier som du kan få levererade till fängelset.\n\nStorleken som visas är antalet interner som finns tillgängliga för leverans i varje kategori. Detta antal växer med tiden beroende på dina kvoter.\n\nDu kan justera kontrollerna för att ändra kvoterna för vilka kategorier på internerna som du vill ta in i nästa intag.
+report_intake_list_tooltip_dr           \n\nInterner som är på väg att få dödsstraff kräver en specifikt designerad Dödscell innan de kan tas in på ditt fängelse. Intaget för Dödsceller är också mycket långsammare än det vanliga intaget, och det är inte alltid som du får fler fångar som ska in i Dödscell. Dessa interner finns det inte många av.
+report_intake_buttons_tooltip_title     Nästa intag
+report_intake_buttons_tooltip           Du kan öka eller minska antalet interner som du vill ha in i nästa intag med denna sektion.\n\nOm du väljer Inga stänger det fängelset för nya interner, och om du väljer Alla tar det in alla tillgängliga interner.\n\nAntalet interner för varje kategori kan ändras med kontrollerna ovan.
+report_intake_overview_tooltip_title    Översikt på intaget
+report_intake_overview_tooltip          Här kan du se din nästa internleverans, och den betalning du kommer få. Antalet interner som levereras och deras kategori kan ändras med kontrollerna och knapparna ovan. Betalningen baseras på antalet interner i varje kategori.
+
+valuation_categoryprison                Fängelsets värde
+valuation_construction                  Tegel och murbruk
+valuation_objects                       Inventarier
+valuation_stock                         Förråd och material
+valuation_staff                         Personal
+valuation_startupgrant                  Startbidrag
+valuation_capacity                      Internkapacitet
+valuation_cash                          Pengar
+valuation_debt                          Banklån
+valuation_categoryperformance           Trygghet och säkerhet
+valuation_bonustimewithoutincident      [Bonus] Tid utan incidenter
+valuation_finedeath                     [Straff] Dödsfall under de senaste 24h
+valuation_fineescape                    [Straff] Rymningar under de senaste 24h
+valuation_total                         TOTALT
+valuation_sell                          SÄLJ
+valuation_sellprison                    SÄLJ FÄNGELSE
+valuation_sell_tooltip                  Om du säljer ditt fängelse kan du ta dina vinster från detta fängelse och starta ett nytt med ett mycket högre saldo på banken.\n\nDu kommer fortfarande kunna driva detta fängelse, men du kan bara sälja ett fängelse en gång. Alla vinster från försäljningen förs över till den nya platsen.
+valuation_sold                          Detta fängelse såldes för: *X
+valuation_donotown                      Du kan inte sälja detta fängelse eftersom du inte äger det.
+valuation_sellsome                      Sälj aktier
+valuation_buysome                       Köp aktier
+valuation_shares                        Köp och sälj aktier
+valuation_shares_tooltip                Du kan sälja upp till 50% av ditt fängelse i aktier till utomstående investerare. Du får betalt kontant omedelbart. I gengäld för sina investeringar tar dina aktieägare en bråkdel av det totala försäljningspriset när du säljer fängelset.\n\nT.ex. om du säljer 30% av aktierna i ditt fängelse får du bara 70% av det slutliga försäljningsvärdet. Du kan köpa tillbaka aktier som du förut har sålt när som helst – men kostnaden kan vara högre än vad du fick när du sålde dem.
+valuation_ownership                     Du äger *X% av ditt fängelse
+valuation_saleprice                     Försäljningspris: *X
+valuation_title                         =[VÄRDERING]=
+valuation_totalprisonvalue              Totalt värde för fängelset: *X
+valuation_subcashreserves               Minus för kassareserven: *X
+valuation_tenpercentprice               Pris för 10%: *X
+valuation_profit                        Din vinst: *X
+valuation_tap_to_authorise              TRYCK FÖR ATT GODKÄNNA
+
+salecondition_title                     FÖRSÄLJNINGSKRAV
+salecondition_cannotsell                Du kan inte sälja ditt fängelse eller byta in dina aktier innan villkoren nedan är uppfyllda.
+salecondition_minimumvalue              Minsta försäljningsvärde på 50 000 dollar
+salecondition_cashflow                  Positivt kassaflöde
+salecondition_accountant                Revisor på plats
+salecondition_minprisoners              Minst 20 interner
+salecondition_recentdeaths              Inga dödsfall nyligen
+salecondition_recentescapes             Inga rymningar nyligen
+salecondition_passed                    [GODKÄNT]
+salecondition_failed                    [EJ GODKÄNT]
+
+policy_title                            INCIDENT
+policy_search                            - SÖK -
+policy_prisoner                         HONOM
+policy_cell                             CELL
+policy_punishment                       BESTRAFFNING
+policy_quantity                         TID
+policy_punishmenttime                   Kl. *X
+policy_mealcost                         *X $ / dag
+policy_totalmealcost                    (TOTALT: *X $ / dag)
+
+job_construct                           Bygg *X
+job_installobject                       Installera *X
+job_installobjectinroom                 Installera *X i *Y
+job_moveobject                          Flytta *X
+job_moveobjecttoroom                    Flytta *X till *Y
+job_loadobjectinto                      Ladda in *X in i *Y
+job_storeobject                         Lagra *X i *Y
+job_dismantleobject                     Ta isär *X
+job_dumpobject                          Dumpa *X
+job_repairobject                        Reparera *X
+job_operateequipment                    Sköt *X
+job_escortprisoner                      Eskortera intern till *X
+job_punishprisoner                      Behandla intern
+job_searchobject                        Sök *X
+job_searchentity                        Sök igenom intern
+job_searchingentity						Söker igenom fånge
+job_searchcell                          Sök igenom cell
+job_searchcellblock                     Sök igenom cellblock
+job_improvecellindoor                   Städa inomhus
+job_improvecelloutdoor                  Sköt om trädgården
+job_opendoor                            Öppna låst dörr
+job_giveuniform                         Ge intern uniform
+job_failurecount                        Misslyckades *X gånger
+job_feedprisoner                        Ge mat åt intern
+job_healprisoner                        Bota intern
+job_delivermail                         Dela ut post
+       
+finances_title                          Ekonomi
+finances_income                         Intäkter
+finances_expenses                       Utgifter
+finances_total                          Totalt
+finances_profit                         Netto
+finances_timewithoutincident            (*X dagar)
+finances_dailyincome                    *X / dag
+
+finances_category_federalgrant          Federalt bidrag
+finances_category_minsecprisoners       Bidrag för interner med låg säkerhet
+finances_category_medsecprisoners       Bidrag för interner med normal säkerhet
+finances_category_maxsecprisoners       Bidrag för interner med hög säkerhet
+finances_category_prisoners             Bidrag för interner
+finances_category_workmen               Arbetarnas löner
+finances_category_guards                Vakternas löner
+finances_category_admin                 Administratörernas löner
+finances_category_staff                 Personalens löner
+finances_category_food                  Mat
+finances_category_electricity           Elektricitet
+finances_category_workshops             Verkstäder
+finances_category_loaninterest          Ränta på lån
+finances_category_reformprogs           Reformprogram
+finances_category_noincident            Dagar utan incident
+finances_category_exports               Exporter (igår)
+finances_category_corptax               Bolagsskatter
+finances_category_prisonerwages         Internernas löner (igår)
+finances_category_shoprevenue           Intäkter i butiken (igår)
+
+reports_foodtitle                       Näringsregler
+meal_quantity                           Måltidsmängd
+meal_variety                            Måltidsvariation
+meal_cost                               Kostnad per intern
+
+reports_paroletitle                     Regler för villkorlig frigivning
+parole_title                            Grad för villkorlig frigivning
+parole_info                             Avbrott för villkorlig frigivning: *P%
+parole_desc                             Om en intern har en återfallsgrad som är lägre än detta värde blir de frigivna vid slutet av deras möte om villkorlig frigivning.
+parole_fine                             Böter för återfall hos intern
+parole_reward                           Belöning för tidig frigivning av intern
+
+victory_title                           CERTIFIERING
+
+victory_PrisonValue                     Värde på fängelset
+victory_Income                          Daglig vinst
+victory_Prisoners                       Kapacitet
+victory_PrisonersReleased               Frigivna interner
+victory_prisonersdied                   Dödsfall i häktet
+victory_prisonersescaped                Interner som rymt
+victory_Bankrupt                        Konkurs
+victory_Riot                            Okontrollerat\nupplopp
+victory_TooManyDeaths                   Kriminell\nförsumlighet
+victory_TooManyEscapes                  Säkerhets-\nkatastrof
+victory_failure                         MISSLYCKANDE
+victory_warning                         VARNING
+victory_remaining                       återstående
+victory_death                           DÖDSFALL
+victory_escapes                         RYMNINGAR
+victory_counter                         (*X idag)
+victory_executions                      Olagliga avrättningar
+victory_innocentsexecuted               Oskyldig intern avrättades
+
+victory_warning_bankrupt                Du har 24 timmar på dig att undkomma en ekonomisk katastrof.
+victory_warning_riot                    Gör slut på detta upplopp snart, annars kommer myndigheterna att tvingas ta över.
+victory_warning_toomanydeaths           Du kan komma att åtalas om för många dödsfall inträffar idag.
+victory_warning_toomanyescapes          Du får sparken om för många rymningar sker idag.
+
+victory_prisoners_units                 Platser
+victory_prisonersreleased_units         Släpptes
+victory_toomanydeaths_units             Dödsfall
+victory_toomanyescapes_units            Rymningar
+victory_prisonersparoled                Villkorligt frigivna interner
+victory_prisonersreoffended             Interner med återfall
+
+victory_adviserwarning_toomanydeaths1   Gårdagen var ett väldigt mörkt kapitel i detta fängelses historia. Alltför många människor förlorade sina liv här.
+victory_adviserwarning_toomanydeaths2   Se till att ingen annan dör idag, för annars åtalas du för din försumlighet.
+victory_advisernotice_toomanydeaths1    Säg inte att vi inte varnade dig. Du har gjort dig skyldig till försumlighet på grund av det som hänt här nyligen.
+victory_advisernotice_toomanydeaths2    Nu kommer du få tillbringa de närmaste tio åren i fängelse som straff för ditt brott. Ditt eget fängelse. Lycka till. 
+victory_adviserwarning_riot1            Ditt fängelse är utom all kontroll. Få ett slut på det här upploppet nu, annars måste myndigheterna ta tillbaka fängelset med våld.
+victory_advisernotice_riot1             Du har misslyckats med att få kontroll på upploppet. Myndigheterna har dragit in vårt fängelsekontrakt, och skickar nu nationalgardet för att ta tillbaka fängelset.
+victory_adviserwarning_toomanyescapes1  Vi har en PR-katastrof på gång här. Alldeles för många interner har rymt på sistone, och det är ditt fel.
+victory_adviserwarning_toomanyescapes2  Sätt lås och bom på stället och se till att ingen annan rymmer. Annars kommer pressen att servera ditt huvud på ett fat.
+victory_advisernotice_toomanyescapes1   Du har misslyckats. Fängelset har blivit till åtlöje i medierna, och man vill ha någon att skylla på.
+victory_advisernotice_toomanyescapes2   Denna någon är du. Du är avskedad.
+victory_adviserwarning_bankrupt1        Vi har gått i konkurs! Din fasansfulla förvaltning har lett oss till ekonomiska ruin.
+victory_adviserwarning_bankrupt2        Hitta ett sätt att fixa det här på, annars får du sparken.
+victory_advisernotice_bankrupt1         Vi har inget val annat än att gå bankrutt och låta fängelset styras av administrationen. Du misslyckades.
+victory_adviserwarning_wardendeaths1    Det har blivit alldeles för farligt att arbeta för dig. Vi har svårt med att hitta folk som vill jobba på det här fängelset.
+victory_adviserwarning_wardendeaths2    Om du låter en till ur personalen dö har vi inget val annat än att ge dig sparken.
+victory_advisernotice_wardendeaths1     Du har inte kunnat erbjuda en säker arbetsplats för dina anställda. Alla är rädda för att jobba för dig.
+victory_advisernotice_wardendeaths2     Vi har inget val annat än att låta dig gå. Du får sparken.
+victory_adviserwarning_reoffenders1     Många av de interner som du har släppt ut tidigt har begått nya brott. Detta kan stå oss dyrt om vi inte får kontroll på situationen.
+victory_adviserwarning_reoffenders2     Om det är många fler interner som begår brott igen efter frigivningen blir det du som får ta skulden.
+victory_advisernotice_reoffenders1      Du har släppt ut för många farliga brottslingar. Vi kan inte göra annat än att låta dig gå. Du misslyckades.
+victory_adviserwarning_executions1      Detta är andra gången som du har avrättat en oskyldig intern. Ilskan är enorm där utanför.
+victory_adviserwarning_executions2      Om en annan oskyldig intern blir avrättad blir det du som hålls skyldig.
+victory_advisernotice_executions1       Du har låtit för många oskyldiga människor bli avrättade. Vi kan inte längre låta dig styra det här fängelset. Du misslyckades.
+victory_advisernotice_InnocentsExecuted1 Du har just avrättat någon utan att gå igenom den rätta proceduren. Det visade sig att personen var oskyldig. Det här är ett stort juridiskt snedsteg, och det är du som är skyldig. Du är avskedad, och kommer antagligen själv åka in i fängelset.
+
+score_title                             FÄNGELSEBETYG
+score_reoffendingrate                   ÅTERFALLSGRAD
+score_prisonersreleased                 *X interner har släppts
+score_minimumprisonersreleased          *X interner måste släppas innan denna rapport kan skrivas
+score_deaths                            *X interner dog i häktet
+score_escapes                           *X interner har rymt
+score_reoffendingchance                 Uppskattad återfallsgrad
+score_startingreoffendingchance         Uppskattat vid ankomsten: *X%
+score_prisonersparoled                  Tidigt villkorligt frigiven (Återfall)
+score_prisonersparoled_info             *P (*E%)
+score_clemencychance                    Sannolikhet för nådeansökan
+score_convictionstrength                Styrka på fällande dom godkänd av staten
+score_prisonersexecuted                 Avrättade interner (Oskyldiga)
+score_prisonersexecuted_info            *E (*I)
+
+score_tooltip_punishment                Detta är en betygskala för hur bra internerna har blivit straffade för sina brott, enligt allmänheten. En lång tid i fängelset är grunden till ett starkt straff, men tuffa tider där internen är inlåst ensam räknas också.\n\nKom ihåg att för mycket reform eller fritid ses som att du är för snäll mot dina interner, och det räknas också in i betyget.\n\nEn hög poäng på straffskalan gör att internen blir avskräckt från återfall efter frigivningen.
+score_tooltip_reform                    En betygskala över hur bra du har försökt att reformera och rehabilitera denna fånge genom Reformprogram.\n\nEn hög poäng ger internen en mycket högre chans att hitta ett jobb efter frigivningen, och detta kommer att minska risken för återfall.\n\nObs: Det räknas också in när interner arbetar på fängelset.
+score_tooltip_health                    En dokumentation över internernas hälsa och välbefinnande under fängelsevistelsen. Motion utomhus och bra mat räknas in i denna. Skador som inte blir behandlade, droger och alkoholanvändning räknas mot den.\n\nDåligt betyg här ökar ofta risken för återfall, särskilt om internen lämnar fängelset med obehandlat drog- eller alkoholberoende.
+score_tooltip_security                  En betygskala över hur bra du har hållit internen säkert inlåst. Om du håller internerna inlåsta i sina celler med beväpnade vakter räknas detta in till en stor del. Du blir bestraffad om internen är involverad i slagsmål, mord eller rymningsförsök.\n\nEtt lågt betyg indikerar att internen fortsatte med sin kriminalitet inne i fängelset, och därför blir återfallsgraden hög när denna intern blir frigiven.
+
+score_tooltip_reoffendingchance         En uppskattning av hur troligt det är att internerna får återfall efter frigivningen. Många faktorer tas i anspråk för att få fram detta värde:\n\n- MINSKNING Hårt straff\n- MINSKNING Framgångsrika reformprogram\n- ÖKNING Dålig hälsa och säkerhet\n- ÖKNING Obehandlade drog- och alkoholberoenden\n- ÖKNING Gängmedlemskap\n\n\n-Internens ålder är en viktig faktor.\n- Antalet tidigare dömda brott är en stark indikator.\n- En stor familj som stödjer internen kan hjälpa.
+score_tooltip_clemencychance_title      Sannolikhet för benådan
+score_tooltip_clemencychance            Sannolikheten för att överklagandenämnden benådar och omvandlar internens dödsstraff. Varje överklagande som inte lyckas sänker detta värde tills det hamnar nedanför Styrka på fällande dom godkänd av staten, då fullt tillstånd att gå vidare med straffet ges. Om du schemalägger avrättningen innan detta resulterar det i extrema påföljder om man senare finner att internens överklagande hade lyckats.\n\nOm benådan ges frisläpps internen direkt (om denne är oskyldig), annars skickas internen till maxsäkerhetsavdelningen (om han fortfarande är skyldig).
+score_tooltip_currentchance             Styrkan på fällande dom godkänd av staten är *X%
+score_tooltip_clemencywarning           Chansen för att denna intern ska bli benådad ligger för närvarande ovanför den säkra nivå som är godkänd av staten. Om du går vidare med avrättningen hålls du personligen skyldig om det senare visar sig att han skulle ha blivit benådad.
+
+experiencefactor_FractionalLockedUp     *X% av tiden inlåst i cellen
+experiencefactor_FractionalReform       *X% av tiden i reformprogram
+experiencefactor_fractionalWorking      *X% av tiden i arbete
+experiencefactor_fractionalsuppressed   *X% av tiden kuvad
+experiencefactor_fractionalinjured      *X% av tiden med obehandlade skador
+experiencefactor_fractionalintoxicated  *X% av tiden berusad (droger/alkohol/abstinens)
+experiencefactor_fractionalmisbehaving  *X% av tiden beter internen sig illa
+experiencefactor_fractionalarmedguard   *X% av tiden under beväpnad vakthållning eller kuvad
+experiencefactor_fractionalwellfed      *X% av tiden mätt
+experiencefactor_fractionalexercising   *X% av tiden i motion
+experiencefactor_fractionalfreetime     *X% av tiden fritid
+
+experiencefactor_passedeasyprograms             Klarade *X enkla program
+experiencefactor_passedintermediateprograms     Klarade *X mellansvåra program
+experiencefactor_passedadvancedprograms         Klarade *X avancerade program
+experiencefactor_passedexpertprograms           Klarade *X expertprogram
+
+experiencefactor_YearsServed            *X år tjänade
+experiencefactor_fights                 Involverad i våldsamma incidenter
+experiencefactor_murders                Begick mord *X gånger inom fängelsets murar
+experiencefactor_escapeattempts         Försökte rymma *X gånger
+experiencefactor_addictions             *X aktiva beroenden
+experiencefactor_gangmembership         Gängmedlem
+
+legend_key                              Nyckel:
+
+needs_graphscale_title                  Interner:
+needs_key_critical                      Kritisk
+needs_key_high                          Hög
+needs_key_med                           Mellan
+needs_key_satisfied                     Nöjd
+needs_key_active                        Aktiv
+
+contraband_supplyanddemand              Tillgång och efterfrågan
+contraband_narcotics                    Narkotika
+contraband_weapons                      Vapen
+contraband_tools                        Verktyg
+contraband_luxuries                     Lyxvaror
+contraband_metal                        Metall
+contraband_smelly                       Luktande
+contraband_rangedweapon                 Handeldsvapen
+contraband_improvised                   Improviserat
+
+contraband_key_supply                   Tillgång
+contraband_key_demand                   Efterfrågan
+contraband_log_stolen                   STULET
+contraband_log_position                 POSITION
+contraband_log_smuggled                 SMUGGLAT
+contraband_log_traded                   UTBYTT
+contraband_log_thrown                   KASTAT
+contraband_log_hidden                   GÖMT
+contraband_log_detected                 UPPTÄCKT
+contraband_log_dog                      HUND
+contraband_log_found                    HITTAT
+contraband_log_owner                    ÄGARE
+
+schedule_zone_shared                    Delad
+schedule_zone_minseconly                Lågsäkerhet
+schedule_zone_medseconly                Normal säkerhet
+schedule_zone_maxseconly                Högsäkerhet
+schedule_zone_protectedonly             Skyddshäkte
+schedule_zone_supermaxonly              Superhög säkerhet
+schedule_zone_deathrowonly              Dödscell
+schedule_zone_staffonly                 Endast personal
+schedule_zone_unlocked                  Olåst
+
+
+
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+
+action_poo                              Bajsa
+action_wee                              Kissa
+action_wash                             Duscha
+action_relax                            Koppla av
+action_sleep                            Sova
+action_nap                              Ta en lur
+action_getmeal                          Hämta mat
+action_sit                              Sitta
+action_exercise                         Träna
+action_liftweights                      Träna tyngdlyftning
+action_phonehome                        Ringa familjen
+action_watchtv                          Titta på TV
+action_playpool                         Spela biljard
+action_stealknife                       Agera misstänkt
+action_stealspoon                       Agera misstänkt
+action_urinate                          Kissar
+action_soilsuit                         Gör i byxan
+action_eat                              Äter
+action_complain                         Klagar
+action_work                             Arbetar
+action_visitation                       Får besök
+action_parole                           Samtal om villkorlig frigivning
+action_none                             Inget
+action_misbehaving                      Missköter sig
+action_escaping                         Rymmer
+action_destroying                       Vandaliserar
+action_spoiling                         Muckar
+action_fighting                         Slåss
+action_rioting                          Gör upplopp
+action_hostagetaking                    Tar gisslan
+action_reformprogram                    Reformprogram
+action_changeclothes                    Byter om
+action_getbook                          Hämtar en bok
+action_pray                             Ber
+action_shopping                         Handlar
+
+status_effect_title						=[Statuseffekter]=
+status_effect_none						Ingen
+status_effect_suppressed				Kuvad
+status_effect_goodfood					Mätt
+status_effect_drunk						Berusad
+status_effect_high                      Hög
+status_effect_withdrawal				Abstinensbesvär
+status_effect_tazed                     Fått en elchock
+status_effect_overdosed                 Fått en överdos
+status_effect_surrendered               Gav upp
+status_effect_calming                   Lugnar sig
+status_effect_angst                     Arg
+status_effect_wounded                   Blöder
+status_effect_virus                     Sjuk
+status_effect_virusdeadly               Sjuk
+
+condition_treated                       Behandlad
+condition_needstreating                 Behöver behandling
+
+experience_totaltime                    Total tid
+experience_misconduct                   Dåligt uppförande
+experience_lockeddown                   Låsning
+experience_regime                       Regim
+experience_sleep                        Sömn
+experience_work                         Arbete
+experience_class                        Lektion
+experience_freetime                     Fritid
+experience_moodbad                      Dåligt
+experience_moodnormal                   Normalt
+experience_moodgood                     Bra
+experience_nocondition                  Inget
+experience_kod                          Knockad
+experience_hurt                         Skadad
+experience_suppressed                   Tystad
+experience_intoxicated                  Berusad
+experience_wellfed                      Mätt
+experience_exercise                     Träning
+
+need_name_nothing                       Ingenting
+need_name_bladder                       Kissa
+need_name_bowels                        Bajsa
+need_name_sleep                         Sömn
+need_name_food                          Mat
+need_name_safety                        Säkerhet
+need_name_hygiene                       Hygien
+need_name_exercise                      Träning
+need_name_family                        Familj
+need_name_recreation                    Fritid
+need_name_comfort                       Komfort
+need_name_environment                   Miljö
+need_name_privacy                       Privatliv
+need_name_freedom                       Frihet
+need_name_clothing                      Kläder
+need_name_drugs                         Droger
+need_name_alcohol                       Alkohol
+need_name_starving                      Svälter
+need_name_spirituality                  Andlighet
+need_name_literacy                      Läskunnighet
+needs_locked                            (Psykolog krävs för att visa behov)
+needs_title                             =[Behov]=
+
+reputation_title                        Rykte
+reputation_hidden                       (Okänt rykte)
+reputation_hidden_short                 ???
+
+reputation_legendary                    --LEGEND--
+reputation_strong                       Stark
+reputation_tough                        Tuff
+reputation_volatile                     Ostabil
+reputation_snitch                       Tjallare
+reputation_deadly                       Dödlig
+reputation_stoical                      Stoisk
+reputation_fearless                     Orädd
+reputation_exlaw                        Före detta brottsbekämpare
+reputation_copkiller                    Polismördare
+reputation_quick                        Snabb
+reputation_instigator                   Uppviglare
+reputation_fighter                      Skicklig på att slåss
+reputation_gangmember                   Gängmedlem
+reputation_federalwitness               Federalt vittne
+
+reputation_strong_high                  Extremt stark
+reputation_tough_high                   Extremt tuff
+reputation_volatile_high                Extremt ostabil
+reputation_deadly_high                  Extremt dödlig
+reputation_exlaw_high                   Före detta fängelsevakt
+reputation_quick_high                   Extremt snabb
+reputation_fighter_high                 Expert på att slåss
+
+reputation_legendary_high               --LEGEND--
+reputation_snitch_high                  Tjallare
+reputation_stoical_high                 Stoisk
+reputation_fearless_high                Orädd
+reputation_copkiller_high               Polismördare
+reputation_instigator_high              Uppviglare
+reputation_gangmember_high              Gängmedlem
+
+reputationtooltip_legendary             Denna intern är en legend i den undre världen, och har flera olika färdigheter som gör honom mycket farlig.
+reputationtooltip_strong                Denna intern slår hårdare för varje slag under bråk.
+reputationtooltip_tough                 Denna intern klarar av mycket mer stryk i ett bråk. Han kan också ibland tåla att bli träffad av en elpistol.
+reputationtooltip_volatile              Denna intern kan sätta igång med saker utan varning och utan anledning.
+reputationtooltip_stoical               Denna intern blir inte kuvad när han blir inlåst i isoleringscellen. Han bryr sig verkligen inte.
+reputationtooltip_snitch                Denna intern är en känd uppgiftslämnare och hans liv kan vara i fara. Lämna honom inte ensam med andra interner för länge.
+reputationtooltip_deadly                Denna intern är en mästare i dödliga slag, och kan ibland döda med en enda träff.
+reputationtooltip_exlaw                 Denna intern har en gång varit polis, eller något annat yrke inom brottsbekämpning. Hans liv kan vara i fara.
+reputationtooltip_copkiller             Denna intern har mördat en polis. Dina vakter kan kanske inte lägga band på sig själva när de tar hand om honom.
+reputationtooltip_fearless              Denna intern är inte rädd för beväpnade vakter, och det är mindre troligt att han ger upp under ett bråk.
+reputationtooltip_quick                 Denna intern springer ovanligt snabbt.
+reputationtooltip_instigator            Denna intern sår frön av missnöje hos alla i närheten. När han orsakar trubbel får han andra interner i närheten att göra detsamma.
+reputationtooltip_fighter               Denna intern är bra på att försvara sig. Han kan avväpna sin motståndare, eller till och med ta vapnet ifrån dem under ett bråk.
+reputationtooltip_gangmember            Denna intern tillhör ett gäng. Han försvarar de andra gängmedlemmarna och föraktar rivaliserande gäng.
+reputationtooltip_federalwitness        Denna intern är ett vittne till ett viktigt rättsfall, och kan därför dödas av ett gäng eller en stor brottsling.
+
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Jobbar
+nameplate_stationed                     Stationerad
+nameplate_patrolling                    Patrullerar
+nameplate_resting                       Vilar sig
+nameplate_tired                         Trött
+nameplate_injured                       Skadad
+nameplate_unconscious                   Medvetslös
+nameplate_dead                          DÖD
+nameplate_released                      FRIGIVEN
+nameplate_researching                   Forskar
+nameplate_overdose                      TOG ÖVERDOS
+nameplate_starving                      SVÄLTER
+nameplate_wounded                       BLÖDER
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Ge mat åt alla interner
+objective_caption_prisoners             Interner
+objective_caption_meals                 Måltider
+objective_readceosletter                Läs VD:ns brev
+objective_actionrequired                Incidentrapporter
+
+objective_deathrowinmates               Status för interner i dödsceller
+
+objective_prisonerintake                Internintag
+objective_intake_arrivals               *X interner ankommer kl. 08.00
+objective_intake_closed                 Ditt fängelse är stängt för nya interner
+objective_intake_closed2                (Se internrapporten)
+objective_intake_closed3                (Se intagsrapporten)
+objective_intake_specials				Speciella överföringar:
+objective_intake_categories             Kategorier:
+objective_intake_minsec                 Låg,
+objective_intake_medsec                 Normal,
+objective_intake_maxsec                 Hög
+objective_intake_deathrow               Dödscell
+
+objective_builddeliveriesroom           Ordna ett leveransområde
+
+objective_outgoing                      Interner som kommer att släppas
+objective_outgoing_count                *X interner släpps snart
+objective_outgoing_timer                (*X timmar)
+
+objective_visitors                      Besökare (08.00 till 20.00)
+objective_visitors_waiting              *familjer väntar på att besöka
+objective_visitors_onsite               *X besökare på fängelset i *Y grupper
+
+objective_staffexhausted                Personal är utmattad
+objective_reststaff_exhausted           *X anställda är utmattade.
+objective_reststaff_resting             (*X vilar sig)
+objective_reststaff_needstaffroom       Bygg ett personalrum så att de kan vila.
+
+objective_punishment_solitary           *X i isoleringscell
+objective_punishment_solitary_queue     *X väntar på isoleringscell
+objective_punishment_solitary_mix       *X i isoleringscell (+*Y som väntar)
+objective_punishment_lockdown           *X är inlåsta
+objective_incident_medical              *X behöver vård
+objective_incident_dead                 *X döda kroppar
+
+objective_prisonerparole                Villkorlig frigivning
+objective_parole_count                  *X väntar villkorlig frigivning
+
+objective_payment_receivedfull          Betalning: *X togs emot
+objective_payment_receivedpart          Betalning: *X togs emot av *Y totalt
+
+objective_grant_bootstraps                  Enkelt interneringsläger
+objective_grant_bootstraps_description      Gör ett tomt fält till ett fungerande fängelse. Detta myndighetskontrakt ger dig de pengar som är nödvändiga för att bygga det absolut minsta som krävs för dina första interner.
+objective_grant_bootstraps_holdingcell      Bygg en häktescell
+objective_grant_bootstraps_shower           Bygg en dusch
+objective_grant_bootstraps_yard             Bygg en gård
+objective_grant_bootstraps_kitchen          Bygg ett kök
+objective_grant_bootstraps_canteen          Bygg en matsal
+objective_grant_bootstraps_guard            Anställ minst två vakter
+objective_grant_bootstraps_chef             Anställ minst två kockar
+
+objective_grant_administration                          Administrationen
+objective_grant_administration_description              Varje fängelseprojekt behöver en fungerande administrationsavdelning, för att se till att saker och ting fungerar så smidigt som möjligt och för att hålla projektet ansvarigt. Detta kontrakt betalar för en Fängelsedirektör och en Revisor samt deras kontor, som sedan ger tillgång till hela bidragssystemet.
+objective_grant_administration_offices                  Bygg två kontor
+objective_grant_administration_warden                   Anställ en Fängelsedirektör
+objective_grant_administration_accountant_research      Lås upp Ekonomi via Byråkrati
+objective_grant_administration_accountant               Anställ en revisor
+
+objective_grant_firstcellblock                  Cellblock A
+objective_grant_firstcellblock_description      Nu har vi grunderna. Det är dags att bygga ditt första cellblock, och överföra de interner som finns till egna celler.
+objective_grant_firstcellblock_cells            Öka din internkapacitet till 15
+
+objective_grant_health                      Hälsa och välbefinnande för internerna
+objective_grant_health_description          Den fysiska och mentala hälsan för internerna är väldigt viktig för oss. Detta bidrag hjälper dig att bygga en modern sjukstuga, och anställa doktorer och psykologer som kan hålla koll på internernas hälsobehov.
+objective_grant_health_ward                 Bygg en sjukstuga
+objective_grant_health_doctors              Anställ minst två doktorer
+objective_grant_health_psychologist         Anställ en psykolog (kräver ett Kontor)
+
+objective_grant_bailout                     Räddningsaktion från myndigheterna
+objective_grant_bailout_description         Myndigheterna är ytterst missnöjda med dina prestationer, men man har bestämt att fängelset är för stort för att misslyckas. Pengar från skattebetalarna betalas in för att rädda fängelset från konkurs. Du måste dock se till att balansera dina intäkter och utgifter. Få fängelset att återgå till ett positivt kassaflöde (en daglig inkomst som är högre än utgifterna), och betala tillbaka dina skulder till banken.
+objective_grant_bailout_cashflow            Inkomst högre än utgifter
+objective_grant_bailout_debt                Betala tillbaka dina skulder
+
+
+objective_grant_maintenance                         Fängelseunderhåll
+objective_grant_maintenance_description             Allmän skötsel och underhåll av fängelset och dess marker är viktigt för säkerheten och tryggheten hos både personalen och internerna. Anställ nödvändig personal för att hålla fängelset rent och välordnat.
+objective_grant_maintenance_research_root           Låser upp Underhåll via Byråkrati
+objective_grant_maintenance_research_cleaning       Låser upp Städning via Byråkrati
+objective_grant_maintenance_research_groundskeeping Låser upp Trädgårdsskötsel via Byråkrati
+objective_grant_maintenance_foreman                 Anställ en Arbetsledare (kräver ett Kontor)
+objective_grant_maintenance_janitor                 Anställ minst två vaktmästare
+objective_grant_maintenance_gardener                Anställ en trädgårdsmästare
+
+objective_grant_visitation                          Rättighet till besök
+objective_grant_visitation_description              Ett antal andra anläggningar i området står inför rättsliga åtgärder efter att ha nekat interner deras rättighet till besök. Investerarna vill inte ha en skandal på halsen, så de erbjuder detta bidrag för att se till att det finns lämpliga faciliteter.
+objective_grant_visitation_room                     Bygg ett besöksrum
+objective_grant_visitation_tables                   Lägg till minst tre bord för besökare
+objective_grant_visitation_commonroom               Bygg ett allrum
+objective_grant_visitation_pooltable                Lägg till ett biljardbord
+objective_grant_visitation_tv                       Lägg till minst två TV-apparater
+objective_grant_visitation_phones                   Bygg minst fem telefonkiosker
+
+objective_grant_basicsecurity                       Certifiering för säkerhetsprocedur
+objective_grant_basicsecurity_description           En vanlig fallgrop för nya fängelser är misstag inom säkerheten på grund av oerfarenhet hos personalen. Se till att vi inte får några tidiga misstag som kan påverka vårt rykte negativt i framtiden, genom att öka säkerhetsnivån till en acceptabel nivå.
+objective_grant_basicsecurity_chief                 Anställ en Säkerhetschef (kräver ett Kontor)
+objective_grant_basicsecurity_guards                Anställ tio vakter
+objective_grant_basicsecurity_patrols               Anställ tre vakter för att patrullera
+objective_grant_basicsecurity_research              Låser upp Patruller via Byråkrati
+
+objective_grant_enhancedsecurity                    Säkerhetsbetyg från myndigheterna
+objective_grant_enhancedsecurity_description        Myndigheterna har särskilda föreskrifter gällande säkerheten i fängelser som är över en viss storlek, och tar häftigt betalt för de som inte klarar kraven. Se till att detta inte blir ett problem.
+objective_grant_enhancedsecurity_armoury            Bygg ett Vapenförråd
+objective_grant_enhancedsecurity_kennel             Bygg en Kennel
+objective_grant_enhancedsecurity_guards             Anställ två Beväpnade vakter
+objective_grant_enhancedsecurity_dogs               Anställ två Hundförare
+objective_grant_enhancedsecurity_patroldogs         Tilldela två Hundförare till en Hundpatrull
+objective_grant_enhancedsecurity_patrolarmed        Tilldela två Beväpnade vakter till en Patrull
+
+objective_grant_advancedsecurity                    Införande av infrastruktur för högsäkerhetsavdelning
+objective_grant_advancedsecurity_description        Det kan vara svårt att upprätthålla säkerheten för ett stort antal interner, men kostnaden för om denna skulle brytas är mycket större än att sätta in lämpliga åtgärder. Installera nödvändig utrustning i ditt fängelse.
+objective_grant_advancedsecurity_guards             Öka storleken på din säkerhetsstyrka
+objective_grant_advancedsecurity_researchcctv       Lås upp Kameraövervakning via Byråkrati
+objective_grant_advancedsecurity_researchbodyarmour Lås upp Skyddsvästar via Byråkrati
+objective_grant_advancedsecurity_researchtazers     Lås upp Elpistoler via Byråkrati
+objective_grant_advancedsecurity_office             Bygg en säkerhetsavdelning
+objective_grant_advancedsecurity_cctvmonitor        Bygg en övervakningsmonitor
+objective_grant_advancedsecurity_cctvcameras        Placera övervakningskameror i ditt fängelse
+
+objective_grant_prisonerworkforce                   Internacklimatisering och Arbete
+objective_grant_prisonerworkforce_description       Att låta internerna arbeta i ditt fängelse är ett bra sätt att integrera dem i miljön samtidigt som du minskar kostnaderna. Fullgör den nödvändiga utbildningen och bygg de faciliteter som behövs för att låta dina interner arbeta. 
+objective_grant_prisonerworkforce_research          Lås upp Fängelsearbete via Byråkrati
+objective_grant_prisonerworkforce_cleaning          Bygg en Städskrubb
+objective_grant_prisonerworkforce_laundry           Bygg en Tvättstuga
+objective_grant_prisonerworkforce_kitchenclass      Låt tre interner slutföra programmet Säkerhet och hygien i köket
+objective_grant_prisonerworkforce_laundryassigned   Låt tre interner arbeta i Tvättstugan
+objective_grant_prisonerworkforce_kitchenassigned   Låt tre interner arbeta i Köket
+objective_grant_prisonerworkforce_cleaningassigned  Låt tre interner arbeta i Städskrubben
+
+objective_grant_educationreformprogram              Initiativet Reform genom Utbildning
+objective_grant_educationreformprogram_description  En framträdande kampanjgrupp genomför ett storskaligt socialt experiment i effekten på återfallsgraderna för utbildade interner. Bygg några klassrum och börja utbilda dina interner.
+objective_grant_educationreformprogram_research     Lås upp Utbildning via Byråkrati
+objective_grant_educationreformprogram_classroom    Bygg ett Klassrum
+objective_grant_educationreformprogram_desks        Bygg tjugo skolbänkar
+objective_grant_educationreformprogram_foundationed Låt tio interner klara Grundkurs i utbildning
+objective_grant_educationreformprogram_generaled    Låt en intern klara Allmänbildande utbildningskurs
+
+objective_grant_prisonlabour                        Tillverkningsanläggning på fängelset
+objective_grant_prisonlabour_description            Finansiärer vill att du ökar ditt fängelses lönsamhet, och de är villiga att investera pengar för att hjälpa dig bygga verkstäder så att dina interner blir arbetskraft.
+objective_grant_prisonlabour_workshop               Bygg en Verkstad
+objective_grant_prisonlabour_saw                    Bygg två verkstadssågar
+objective_grant_prisonlabour_press                  Bygg två verkstadspressar
+objective_grant_prisonlabour_reform                 Låt fem interner klara programmet Säkerhet i Verkstaden
+objective_grant_prisonlabour_plates                 Producera 30 registreringsskyltar
+
+objective_grant_furnituremanufacturing              Lärlingsprogram för snickeriarbete
+objective_grant_furnituremanufacturing_description  Erbjuder kurser i snickeri för dina interner som kan lära dem något värdefullt som de kan använda när de har blivit frigivna. Låter dem producera möbler i din verkstad som kan säljas för att öka dina intäkter.
+objective_grant_furnituremanufacturing_forestry     Bygg ett Skogsbruk
+objective_grant_furnituremanufacturing_table        Bygg två snickarbord
+objective_grant_furnituremanufacturing_reform       Låt fem interner klara kursen Snickeri
+objective_grant_furnituremanufacturing_bed          Producera tio Lyxiga sängar
+
+objective_grant_reducestaffstress                   Iniativ för personalens välbefinnande
+objective_grant_reducestaffstress_description       Fackföreningar för fängelsearbetare har börjat få in rapporter om att personalen är stressad och överarbetad – så mycket att man börjat göra misstag. Se till att liknande händelser inte sker hos dig.
+objective_grant_reducestaffstress_staffroom         Bygg ett Personalrum
+objective_grant_reducestaffstress_freeguards        Låt minst fem vakter vara utan tilldelade uppgifter
+objective_grant_reducestaffstress_restedstaff       Se till att ingen ur personalstyrkan är utmattad
+
+objective_grant_shortterminvestment                 Investering på kort sikt
+objective_grant_shortterminvestment_description     Betala pengar till en investeringsfond som ger en rimlig avkastning på din ursprungliga summa.
+objective_grant_shortterminvestment_wait            Vänta på pengar…
+
+objective_grant_longterminvestment                  Långsiktig investering
+objective_grant_longterminvestment_description      Betala pengar till en investeringsfond som i slutändan ger en stor avkastning på den ursprungliga summan.
+objective_grant_longterminvestment_wait             Vänta på pengar…
+
+objective_grant_cellblock50                         Cellblock B
+objective_grant_cellblock50_description             Det är dags att bygga ut fängelset till mer än bara ett häkte.
+objective_grant_cellblock50_cells                   Öka max antal interner till 50
+
+objective_grant_cellblock100                        Cellblock C
+objective_grant_cellblock100_description            Använd din mark på ett lämpligt sätt genom att fortsätta att expandera ditt fängelse.
+objective_grant_cellblock100_cells                  Öka max antal interner till 100
+
+objective_grant_cellblock200                        Cellblock D
+objective_grant_cellblock200_description            Fler interner betyder mer pengar från staten. Öka kapaciteten för att utnyttja detta.
+objective_grant_cellblock200_cells                  Öka max antal interner till 200
+
+objective_grant_cellblock500                        Cellblock E
+objective_grant_cellblock500_description            Myndigheterna erbjuder gott om ekonomiska incitament till de största fängelserna. Det är dags att nå det målet.
+objective_grant_cellblock500_cells                  Öka max antal interner till 500
+
+objective_grant_nutritionresearch                   Forskning inom näringslära för interner
+objective_grant_nutritionresearch_description       En oberoende forskargrupp erbjuder medel för att delta i en försöksstudie på effekterna av olika matvanor för internerna.
+objective_grant_nutritionresearch_poor              Servera en enda måltid med låg kvalitet och lite variation under två dagar
+objective_grant_nutritionresearch_good              Servera tre måltider med hög kvalitet och gott om variation under två dagar
+
+objective_grant_drugsearch                          Kraftåtgärd mot droger
+objective_grant_drugsearch_description              Nyligen har man alltmer börjat ta upp droganvändning i större fängelser. Ta en proaktiv hållning och visa att du tar itu med problemet.
+objective_grant_drugsearch_find                     Hitta tio illegala substanser
+
+objective_grant_contrabandsupply                    Verktygsrensning
+objective_grant_contrabandsupply_description        Efter ett antal incidenter i andra fängelser med stulna föremål genomför en kommitté studier om distribueringen av verktyg och vapen på ett fängelse. Denna del av försöket involverar att man ska försöka ta bort alla sådana här objekt från fängelserna.
+objective_grant_contrabandsupply_tools              Ta bort utbudet av stulna verktyg
+objective_grant_contrabandsupply_weapons            Ta bort utbudet av stulna vapen
+
+grant_category_completed                            Genomfört:
+grant_category_unlocked                             Upplåst:
+grant_category_cash                                 Pengar:
+grant_category_cashflow                             Kassaflöde:
+grant_category_debt                                 Skuld:
+grant_category_prisoners                            Interner:
+
+grant_property_atleast                              Minst *X
+grant_property_atmost                               Inte mer än *X
+
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              Inget
+object_box                               Låda
+object_stack                             Hög
+object_bed                               Säng
+object_toilet                            Toalett
+object_table                             Bord
+object_chair                             Stol
+object_bench                             Bänk
+object_electricchair                     Elektriska stolen
+object_jaildoor                          Fängelsedörr
+object_jaildoorlarge                     Stor fängelsedörr
+object_door                              Dörr
+object_solitarydoor                      Isoleringsdörr
+object_staffdoor                         Personaldörr
+object_remotedoor                        Fjärrstyrd dörr
+object_roadgate                          Vägport
+object_jailbars                          Fängelsegaller
+object_window                            Fönster
+object_windowlarge                       Stort fönster
+object_tree                              Träd
+object_light                             Ljus
+object_cooker                            Spis
+object_fridge                            Kyl
+object_bin                               Sopkorg
+object_sink                              Diskbänk
+object_servingtable                      Serveringsbord
+object_showerhead                        Duschmunstycke
+object_brick                             Tegelsten
+object_concrete                          Betong
+object_steel                             Stål
+object_ingredients                       Ingredienser
+object_ingredientscooking                Ingredienser (Tillagas)
+object_ingredientscooked                 Ingredienser (Tillagade)
+object_ingredientsspoiled                Ingredienser (Skämda)
+object_meal                              Måltid
+object_foodtray                          Matbricka
+object_foodtraydirty                     Matbricka (Smutsig)
+object_grassturf                         Gräs
+object_prisoneruniform                   Internuniform
+object_dirtyprisoneruniform              Internuniform (Smutsig)
+object_crumpledprisoneruniform           Internuniform (Skrynklig)
+object_bleach                            Blekmedel
+object_sheetmetal                        Plåt
+object_licenseplateblank                 Registreringsskyltar (Utan text)
+object_licenseplate                      Registreringsskyltar
+object_log                               Virke
+object_wood                              Trä
+object_workman                           Arbetare
+object_truckdriver                       Lastbilschaufför
+object_guard                             Vakt
+object_riotguard                         Kravallvakt
+object_armedguard                        Beväpnad vakt
+object_prisoner                          Intern
+object_doctor                            Doktor
+object_paramedic                         Sjukvårdare
+object_cook                              Kock
+object_gardener                          Trädgårdsmästare
+object_janitor                           Vaktmästare
+object_fireman                           Brandman
+object_avatar                            Avatar
+object_actor                             Aktör
+object_visitor                           Besökare
+object_executionwitness                  Vittne till avrättning
+object_doghandler                        Hundförare
+object_dog                               Vakthund
+object_dogcrate                          Hundbur
+object_teacher                           Lärare
+object_soldier                           Soldat
+object_warden                            Fängelsedirektör
+object_chief                             Säkerhetschef
+object_foreman                           Arbetsledare
+object_psychologist                      Psykolog
+object_accountant                        Revisor
+object_lawyer                            Advokat
+object_supplytruck                       Lastbil
+object_prisonerbus                       Internbuss
+object_fireengine                        Brandbil
+object_riotvan                           Kravallvaktsbuss
+object_ambulance                         Ambulans
+object_hearse                            Likbil
+object_trooptruck                        Soldatbuss
+object_fire                              Eld
+object_garbage                           Sopor
+object_rubble                            Bråte
+object_bookshelf                         Bokhylla
+object_officedesk                        Skrivbord
+object_filingcabinet                     Arkivskåp
+object_medicalbed                        Sjuksäng
+object_morgueslab                        Obduktionsbord
+object_equipment                         Utrustning
+object_prop                              Föremål
+object_dummy                             Atrapp
+object_powerstation                      Kraftverk
+object_capacitor                         Kondensator
+object_electricalcable                   Elkabel
+object_powerswitch                       Strömbrytare
+object_logiccircuit                      Logikkrets
+object_logicbridge                       Logikbro
+object_waterpumpstation                  Vattenpumpsstation
+object_pipevalve                         Vattenventil
+object_pipelarge                         Stort vattenrör
+object_pipesmall                         Litet vattenrör
+object_drain                             Avlopp
+object_sprinkler                         Sprinkler
+object_metaldetector                     Metalldetektor
+object_weightsbench                      Tyngdlyftarbänk
+object_phonebooth                        Telefonkiosk
+object_tv                                TV
+object_largetv                           Stor TV
+object_pooltable                         Biljardbord
+object_polaroid                          Fotografi
+object_cctv                              Kameraövervakning
+object_cctvmonitor                       Övervakningsmonitor
+object_laundrymachine                    Tvättmaskin
+object_laundrybasket                     Tvättkorg
+object_ironingboard                      Strykbräda
+object_visitortable                      Besökarbord
+object_workshopsaw                       Verkstadssåg
+object_workshoppress                     Verkstadspress
+object_carpentertable                    Snickarbord
+object_boombox                           Stereo
+object_guardlocker                       Vaktskåp
+object_sofachairsingle                   Soffa
+object_sofachairdouble                   Bred soffa
+object_drinkmachine                      Drickaautomat
+object_arcadecabinet                     Arkadspel
+object_radio                             Radio
+object_bookshelflarge                    Bibliotekshylla
+object_weaponrack                        Vapenställ
+object_treestump                         Stubbe
+object_schooldesk                        Skolbänk
+object_superiorbed                       Lyxig säng
+object_doorcontrolsystem                 Dörrkontrollssystem
+object_phonemonitor                      Telefonavlyssning
+object_servo                             Dörrservo
+object_doortimer                         Dörrtimer
+object_pressurepad                       Tryckplatta
+object_statuslight                       Statuslampa
+object_wire                              Anslut
+object_dismantleobject                   Ta isär objekt
+object_dismantleutility                  Ta isär utilitetsobjekt
+object_sellobject                        Sälj objekt
+object_canceljobs                        Avbryt jobb
+object_showallwires                      Visa ledningar
+object_tidywires                         Rensa upp ledningar
+object_cutscenepolaroid                  Fotografi från mellansekvens
+object_cutscenecamera                    Mellansekvenskamera
+object_cutscenecue                       Stickreplik i mellansekvens
+object_foodwaste                         Matavfall
+object_altar                             Altare
+object_pews                              Kyrkbänk
+object_prayermat                         Bönematta
+object_paroleofficer                     Övervakare
+object_parolelawyer                      Advokat för villkorlig frigivning
+object_spiritualleader                   Andlig ledare
+object_librarybookshelf                  Bibliotekshylla
+object_librarybookunsorted               Biblioteksbok (Osorterad)
+object_librarybooksorted                 Biblioteksbok (Sorterad)
+object_sortingtable                      Sorteringsskrivbord
+object_ruinedbook                        Förstörd bok
+object_foodbowl                          Mat
+object_appealslawyer                     Apellationsadvokat
+object_appealsmagistrate                 Apellationsdomare
+object_mailsatchel                       Postväska
+object_mailunsorted                      Osorterad post
+object_mailsorted                        Sorterad post
+object_prisonermail                      Brev
+object_prisonermailopened                Brev (Öppnat)
+object_shopfront                         Kassa
+object_shopgoods                         Butiksvaror
+object_shopshelf                         Butikshylla
+
+material_none                            Inget
+material_building                        Byggnad (Tegel)
+material_buildingconcrete                Byggnad (Betong)
+material_demolish                        Riv
+material_clearindoorarea                 Ta bort inomhusområde
+material_demolishwalls                   Riv väggar
+material_removetunnels                   Ta bort tunnlar
+material_canceljobs                      Avbryt jobb
+material_dirt                            Jord
+material_sand                            Sand
+material_pavingstone                     Gatsten
+material_grass                           Gräs
+material_gravel                          Grus
+material_road                            Väg
+material_roadmarkings                    Vägmarkeringar
+material_roadmarkingsleft                Vägmarkeringar (Vänster)
+material_roadmarkingsright               Vägmarkeringar (Höger)
+material_stone                           Sten
+material_fence                           Staket
+material_concretetiles                   Betongplattor
+material_concretefloor                   Betonggolv
+material_woodenfloor                     Trägolv
+material_ceramicfloor                    Klinkergolv
+material_mosaicfloor                     Mosaikgolv
+material_metalfloor                      Metallgolv
+material_marbletiles                     Marmorplattor
+material_whitetiles                      Vita plattor
+material_fancytiles                      Lyxiga plattor
+material_concretewall                    Betongvägg
+material_brickwall                       Tegelvägg
+material_perimeterwall                   Fängelsemur
+material_burntfloor                      Bränt golv
+material_burntwall                       Bränd vägg
+material_buildingframe                   Byggram
+material_roof                            Tak
+
+room_none                                Inget
+room_cell                                Cell
+room_holdingcell                         Häktescell
+room_solitary                            Isolering
+room_superiorcell                        Förstklassig cell
+room_canteen                             Matsal
+room_kitchen                             Kök
+room_shower                              Dusch
+room_yard                                Gård
+room_storage                             Förråd
+room_deliveries                          Leveranser
+room_garbage                             Soprum
+room_execution                           Avrättning
+room_workshop                            Verkstad
+room_security                            Säkerhet
+room_office                              Kontor
+room_medicalward                         Sjukstuga
+room_morgue                              Bårhus
+room_commonroom                          Allrum
+room_laundry                             Tvättstugan
+room_visitation                          Besöksrum
+room_cleaningcupboard                    Städskrubb
+room_kennel                              Kennel
+room_armoury                             Vapenförråd
+room_staffroom                           Personalrum
+room_library                             Bibliotek
+room_forestry                            Skogsbruk
+room_classroom                           Klassrum
+room_exports                             Export
+room_chapel                              Kapell
+room_intake                              Reception
+room_clearrooms                          Tomt rum
+room_paroleroom                          Villkorlig frigivning
+room_mailroom                            Postrum
+room_shop                                Butik
+
+equipment_none                           Ingen
+equipment_fists                          Nävar
+equipment_baton                          Batong
+equipment_club                           Klubba
+equipment_shank                          Improviserad kniv
+equipment_knife                          Kniv
+equipment_fork                           Gaffel
+equipment_gun                            Pistol
+equipment_spoon                          Sked
+equipment_needle                         Spruta
+equipment_booze                          Alkohol
+equipment_poison                         Gift
+equipment_cigs                           Cigg
+equipment_saw                            Såg
+equipment_jailkeys                       Fängelsenycklar
+equipment_mobilephone                    Mobil
+equipment_lighter                        Tändare
+equipment_screwdriver                    Skruvmejsel
+equipment_drugs                          Droger
+equipment_sheers                         Sekatör
+equipment_mop                            Mopp
+equipment_rake                           Kratta
+equipment_hose                           Slang
+equipment_spatula                        Spatel
+equipment_woodenspoon                    Träsked
+equipment_cleaningbrush                  Rengöringsborste
+equipment_hammer                         Hammare
+equipment_clipboard                      Skrivplatta
+equipment_drill                          Borrmaskin
+equipment_pianowire                      Pianotråd
+equipment_scissors                       Sax
+equipment_medicine                       Medicin
+equipment_shotgun                       Hagelbössa
+equipment_moneybag                      Pengapåse
+equipment_tazer                         Elpistol
+equipment_guarduniform                  Vaktuniform
+equipment_stabvest                      Skyddsväst
+equipment_rifle                         Gevär
+equipment_dogleash                      Hundkoppel
+equipment_assaultrifle                  Kulspruta
+equipment_woodenpickaxe                 Trähacka
+equipment_cbradio                       CB-radio
+equipment_axe                           Yxa
+equipment_spade                         Spade
+
+research_requires_short                 Kräver *X
+
+reformprogram_workshopinduction         Säkerhetsintroduktion till verkstaden
+reformprogram_foundationeducation       Grundutbildningsprogram
+reformprogram_generaleducation          Kvalificering för allmänbildande utbildning
+reformprogram_carpentry                 Lärlingsprogram för snickeri
+reformprogram_kitcheninduction          Säkerhet och hygien i köket
+reformprogram_therapy                   Beteendeterapi
+reformprogram_methadone                 Farmakologisk behandling av drogberoende
+reformprogram_alcoholicsmeeting         Gruppterapi för alkoholister
+reformprogram_tazertraining             Certifieringsutbildning för vakter med elpistol
+reformprogram_spiritualguidance         Andlig vägledning
+reformprogram_parolehearing             Förhör om villkorlig frigivning
+reformprogram_deathrowappeal            Överklagande för dödsdömd
+
+reformprogram_tazertrained              Certifierad: Elpistol
+
+reformprogram_workshopinduction_text    Säkerheten kommer först! Internerna måste klara denna kurs innan de får arbeta i Verkstaden.
+reformprogram_foundationeducation_text  Många interner saknar till och med grunderna inom läsförståelse, skrivkunnighet och matematik. Denna kurs får upp internerna på denna nivå. Interner som klarar kursen kan arbeta i Biblioteket.
+reformprogram_carpentry_text            En komplex färdighet som kräver goda praktiska kunskaper. Kvalificerade interner kan använda denna färdighet för att skapa värdefulla träföremål på snickarbordet.
+reformprogram_kitcheninduction_text     Livsmedelsstandarden är viktig när man lagar mat åt hundratals människor åt gången. Internerna måste klara denna kursen innan de får arbeta i köket.
+reformprogram_therapy_text              Internerna får ofta problem med att kontrollera sin våldsamma natur. Dessa terapisessioner med en fängelsepsykolog ger dem det de behöver för att trappa ned situationer som de befinner sig i innan dessa blir våldsamma.
+reformprogram_methadone_text            En kurs med 5 farmakologiska substitut som används för att bekämpa en interns drogberoende. Varje behandling hjälper internen med beroendet, och det finns en chans att beroendet fullständigt försvinner om kursen genomgås.
+reformprogram_alcoholicsmeeting_text    Ett gruppterapimöte för alkoholister. Hjälper till att minska begäret efter alkohol. Tar aldrig bort behovet helt.
+reformprogram_parolehearing_text        Ett förhör för att se om internen är berättigad till tidig frigivning. En lyckad frigivning där internen inte begår brott igen ger en trevlig bonus.
+reformprogram_spiritualguidance_text    Vissa interner är religiösa, eller behöver helt enkelt andlighet i sitt liv. Detta tar in en andlig ledare från det lokala samhället som leder dem genom sina böner och ger en känsla av lugn bland internerna.
+
+reformerror_unscheduled                 OPLANERAD
+reformerror_noroom                      INGET RUM HITTADES
+reformerror_nofreetimeslot              ALLA RUM ÄR BOKADE
+reformerror_staffonly                   ALLA RUM ÄR ENDAST PERSONAL
+reformerror_noobjects                   INGEN UTRUSTNING
+reformerror_noregimetime                INGEN TIDSLUCKA
+reformerror_noteachers                  INGEN LÄRARE
+
+reform_interested                       *X är intresserade
+reform_interested_qualified             *X är intresserade/kvalificerade
+reform_queued                           *X är i kö
+reform_completion                       - *X färdiga - *X godkända (*P%)
+reform_locked                           LÅST
+reform_start                            STARTA
+reform_costpersession                   *X per session
+reform_placespersession                 *X platser / *Y sessioner
+reform_program_starting                 Startar
+reform_program_active                   AKTIVT
+reform_program_paused                   Pausat
+reform_program_stop                     STOPP
+reform_program_ledby                    - Leds av en *P i *Z
+reform_program_ledwith                  - Assisterat av en *S
+reform_program_length                   - Sessionslängd: *X timmar
+reform_program_requirements             - Varje intern behöver *X
+reform_program_requirements_alt         - Varje intern behöver *X eller *Y
+reform_program_prereqs                  - Internerna ska ha genomgått:
+reform_program_research_required        - Krav: *X
+
+reform_program_intake_none                      Inget
+reform_program_intake_mandatory                 Obligatoriskt
+reform_program_intake_voluntary                 Frivilligt
+reform_program_intake_referralviolence          Remiss: Våld
+reform_program_intake_referraldrugaddiction     Remiss: Drogberoende
+reform_program_intake_referralalcoholism        Remiss: Alkoholism
+reform_program_intake_guards                    Endast för vakter
+reform_program_intake_parole                    Efter att antingen 50% eller 75% av straffet har avtjänats
+reform_program_intake_needrequired              Varje intern behöver ett speciellt behov innan de går med
+reform_program_intake_deathrow                  Internen sitter i dödscell
+
+reform_program_properties_canhireexternally     Kan anställa utifrån
+reform_program_properties_studentssit           Elever sitter
+reform_program_properties_academic              Akademisk
+reform_program_properties_practical             Praktisk
+reform_program_properties_repeatable            Repeterbar
+reform_program_properties_passive               Passiv
+reform_program_properties_staffonly             Endast personal
+reform_program_properties_outsideofwork         Kan vara efter arbetstid
+reform_program_properties_teacherssit           Lärare sitter
+reform_program_properties_canescortstudent      Elever kan eskorteras av vakter
+
+reform_program_waittime                         Kan endast göras en gång per *T dagar
+
+reform_program_difficulty_easy          - Lätt
+reform_program_difficulty_intermediate  - Medelsvårt
+reform_program_difficulty_advanced      - Avancerat
+reform_program_difficulty_expert        - Expert
+
+regime_nothing                          Inlåst
+regime_sleep                            Sömn
+regime_eat                              Mat
+regime_shower                           Dusch
+regime_yard                             Tid utomhus
+regime_work                             Arbete
+regime_lockdown                         Låsning
+regime_freetime                         Fritid
+regime_currenttime                      Nu
+regime_unspecified                      Ospecifierat
+
+regimetooltip_nothing                   Internerna är inlåsta i sina celler. De har ingenting att göra förutom att tänka på det som fick dem att komma hit.\n\nLånga inlåsningar kan vara ett avgörande straff, till och med för de hårdaste internerna.
+regimetooltip_sleep                     Internerna är inlåsta i sina celler, och lamporna är släckta. Alla går och lägger sig.\n\nFörutom de som gräver rymningstunnlar…
+regimetooltip_eat                       Internerna tar sig till närmaste matsal och sätter sig för att äta.\n\nInternerna får använda alla faciliteter inom matsalen, men de får inte gå innan denna period är över.
+regimetooltip_shower                    Internerna tar av sig kläderna och hoppar in i duschen. Tid att duscha varje dag är viktigt för hygienen, men vissa interner bryr sig inte om att duscha om de inte blir tvingade till det.
+regimetooltip_yard                      Internerna släpps ut på gården så att de kan få sig sin träning, solljus och frisk luft.\n\nInternerna kan använda alla faciliteter på gården under denna tid, som tyngdlyftningsbänkarna för att träna, telefoner för att ringa nära och kära, duschar etc.
+regimetooltip_work                      Internerna sätts i arbete på fängelset. Alla lediga tjänster fylls och internerna rapporterar automatiskt till sina jobb. (Du kan ställa in lediga tjänster från utplaceringsskärmen.)\n\nAlla Reformprogram sker också under arbetstiden. Interner som inte har ett jobb och som för närvarande inte är tilldelade ett reformprogram kan gå omkring på fängelset som om det vore fritid.
+regimetooltip_freetime                  Internerna släpps ut från sina celler och får använda alla faciliteter på fängelset. Internerna trivs bäst under denna tid, och de socialiserar och tar hand om dina behov så gott de kan.\n\nLånga perioder av fritid kan minska stress och spänningar i ditt fängelse, men många tycker att det knappt räknas som ett straff.
+
+regime_clear                            Rensa regimen för denna kategori av interner, och använd standardregimen Normal säkerhet istället.
+
+schedule_editor_students                Elever: *X/*Y
+schedule_editor_error_staffonly         Rummet är markerat som Endast personal
+schedule_editor_error_noregimetime      Programmet ligger utanför en giltig arbetsregim
+schedule_editor_error_noteachers        Det finns inga lärare för detta program
+schedule_editor_error_noobjects         De objekt som krävs för detta program kan inte hittas i ett giltigt rum
+schedule_editor_pin                     Fäst detta program
+schedule_editor_unpin                   Ta bort detta program
+
+# =============================================================================
+# DoorTimer stuff
+# =============================================================================
+
+doortimer_title                         Dörrtimerkontroll
+doortimer_connected_servos              *X anslutna servos
+doortimer_state_open                    Öppen
+doortimer_state_closed                  Stängd
+
+doortimer_security_none                 All säkerhet
+doortimer_security_minsec               Lågsäkerhet
+doortimer_security_normal               Normal säkerhet
+doortimer_security_maxsec               Högsäkerhet
+doortimer_security_Protected            Skyddshäkte
+doortimer_security_SuperMax             SuperMax
+doortimer_security_DeathRow             Dödscell
+
+
+# =============================================================================
+# Execution
+# =============================================================================
+
+execution_stage_Start                   Avrättning påbörjad
+execution_stage_Lockdown                Påbörja låsning av hela fängelset
+execution_stage_Testing                 Testa anläggning
+execution_stage_Assemble                Samla ihop avrättningsgrupp
+execution_stage_Witnesses               Eskortera vittnen till anläggningen
+execution_stage_Escort                  Eskortera internen till anläggningen
+execution_stage_Execution               AVRÄTTNING
+execution_stage_Dismissed               Låt personal och vittnen gå
+execution_stage_FinalReport             Slutrapport
+
+execution_stagetooltip_start            Du har schemalagt avrättningen av denna intern, och måste nu följa den officiella proceduren.
+execution_stagetooltip_lockdown         Alla interner skickas tillbaka till sina celler och fängelset låses.
+execution_stagetooltip_testing          Det sista testet för att se till att allting fungerar. Elförsörjningen till stolen testas under belastning. Dessutom planeras den slutliga vägen för internen. Han måste kunna gå till avrättningsrummet själv.
+execution_stagetooltip_assemble         Fängelsedirektören och Säkerhetsvakten tar sig till den dödsdömda internens cell. Dessutom kommer en präst eller en spirituell ledare som internen väljer själv till internens cell för att be för denne.
+execution_stagetooltip_witnesses        Vittnen till avrättningen kommer till fängelset och tar sig till avrättningsanläggningen. Denna grupp kan bestå av familjemedlemmar till den dödsdömda internen, och även medlemmar av offrets familj.\n\nObs: Avrättningsvittnen behöver stolar.
+execution_stagetooltip_escort           Den dödsdömda internen eskorteras från sin cell till avrättningsanläggningen. Fängelsedirektören, Säkerhetschefen och Prästen följer med honom.
+execution_stagetooltip_execution        Då alla är på plats och alla procedurer har gåtts igenom ges det slutliga godkännandet för avrättningen.
+execution_stagetooltip_dismissed        Personal och vittnen får gå och får sedan lämna anläggningen.
+execution_stagetooltip_finalreport      När avrättningen är över sammanställer man en rapport, och dina prestationer betygsätts.
+
+execution_underway                      AVRÄTTNING PÅGÅR
+execution_result_ok                     Avrättningen av *N utfördes i *T som planerat, av elektriska stolen, med vittnen närvarande. Standardersättningen på 10 000 dollar tilldelas institutionen för sin del i processen.
+execution_result_appealed               Avrättningen av *N utfördes i *T som planerat, av elektriska stolen, med vittnen närvarande. Tyvärr kom ny information fram efter detta faktum som hade påverkat hans vädjan om nåd, men inga åtgärder kommer att vidtas mot institutionen och de får därför standardersättningen på 10 000 dollar för sin del i processen.
+execution_result_innocent               Avrättningen av *N utfördes i *T som planerat, av elektriska stolen, med vittnen närvarande. Tyvärr tog man sedan fram bevis som bevisade att *N var oskyldig, men inga åtgärder kommer att vidtas mot institutionen och de får därför standardersättningen på 10 000 dollar för sin del i processen. 
+execution_result_illegal                Avrättningen av *N utfördes i *T som planerat, av elektriska stolen, med vittnen närvarande. På grund av att man inte följde den juridiskt obligatoriska apellationsprocessen och att man upptäckt information som hade resulterat i ett giltigt överklagande, kommer institutionen att bötfällas med 50 000 dollar. På grund av att man misslyckats med att följa protokollen skjuts alla avrättningar upp till ett senare datum, och kvarvarande interner i Dödscell skickas till en annan anläggning.
+execution_result_illegalinnocent        Den olagliga avrättningen av *N utfördes i *T som planerat, av elektriska stolen, med vittnen närvarande. På grund av att man inte följde den juridiskt obligatoriska apellationsprocessen och att *N var oskyldig till sina brott, har administratören för denna anläggning avskedats med omedelbar verkan.
+execution_warning_one                   Om nästa avrättning som utförs här inte följer korrekt procedur blir du avskedad.
+execution_warning_two                   På grund av dina tidigare misslyckanden att följa det korrekta förfarandet kommer en ny överträdelse av protokollen på detta sätt att resultera i att du blir avskedad.
+
+execution_error_MissingEquipment        FEL: UTRUSTNING SAKNAS\nDu behöver ett avrättningsrum med en elektrisk stol.
+execution_error_ElectricalSupply        FEL: STRÖMAVBROTT\nDet finns inte tillräckligt med kraft till stolen.
+execution_error_NavigationPrisoner      FEL: INTERNENS VÄG\nDen dödsdömda internen kan inte gå från sin cell till avrättningsrummet.
+execution_error_NoRouteFromRoad         FEL: INGEN TILLGÅNG\nDe som kommer till avrättningen utifrån kan inte nå sin destination.
+execution_error_NoSpaceInRoom           FEL: INGET UTRYMME\nDet finns inte tillräckligt med tomt utrymme i avrättningsrummet för de som deltar.
+execution_error_NoRoom                  Du behöver ett Avrättningsrum innan du kan påbörja en avrättning
+
+roomerror_nokitchen                     Det finns inga kök som kan skicka mat till denna matsal
+roomerror_noprisoners                   Det finns inga interner som är tilldelade att äta i denna matsal
+roomerror_nocanteen_cells               Det finns inga matsalar som kan nås från denna cell. Interner i denna cell har ingenstans att äta
+roomerror_nocanteen_kitchen             Det finns inga matsalar som kan nås från detta kök. Man kommer inte laga någon mat för måltiderna här
+
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             Innehåll: *X
+stack_contents                           Innehåll: *X x *Y
+mail_contents                            Innehåll: *X brev
+mail_opened_from                         Brev från *Xs *F
+mail_closed_from                         Brev till *X
+
+object_dump                             Sopor
+object_todo                             Att göra: *X
+object_sale_price                       Försäljningspris: *X
+
+object_door_cyclepermissions            Klicka för att ändra Åtkomstbehörighet
+object_door_cyclepermissions_1          (Öppen, Endast personal, Stängd)
+
+object_firemen_hosehelp_intro           Brandmän siktar på bränder i närheten
+object_firemen_hosehelp                 Tryck H för att sikta manuellt
+
+interface_clone_help_copy               Håll ner höger musknapp och dra för att välja ett område att klona
+interface_clone_help_paste              Klicka på vänster musknapp för att kopiera ett valt område
+
+object_inactive                         INAKTIV
+object_cctv_moremonitors                Bygg fler övervakningsmonitorer
+object_cctvmonitor_needsguards          Vakt krävs för att sköta monitor
+object_processor_blocked                Arbetsplatsen kan inte nås
+
+administrator_requiresoffice            Kräver kontor
+administrator_requiresoffice_2          *X kräver kontor
+office_ownership                        *Xs kontor
+
+teacher_teaching                        Undervisar
+teacher_preparing                       Förbereder
+
+prisoner_assignedto                     Kräver: *X
+prisoner_roomquality                    Cellens kvalitet: *X (*Y)
+prisoner_roomquality_average            Genomsnittlig
+prisoner_roomquality_aboveaverage       Över genomsnittet
+prisoner_roomquality_wayaboveaverage    Mycket över genomsnittet
+prisoner_roomquality_belowaverage       Under genomsnittet
+prisoner_roomquality_waybelowaverage    Långt under genomsnittet
+prisoner_attendance                     Närvaro
+prisoner_concentration                  Koncentration
+prisoner_understanding                  Förståelse
+prisoner_concentration_0                Usel
+prisoner_concentration_1                Dålig
+prisoner_concentration_2                Medelmåttig
+prisoner_concentration_3                Bra
+prisoner_concentration_4                Utmärkt
+prisoner_passchance                     Chans för framgång: *X%
+prisoner_informant                      Konfidentiell uppgiftslämnare
+
+prisoner_dayswithoutincident            *X dagar utan incidenter
+prisoner_availablemoney                 Pengar: *X$
+
+informant_suspicion                     Misstänksamhet
+informant_title                         KONFIDENTIELLA UPPGIFTSLÄMNARE
+informant_none                          Du har inga uppgiftslämnare
+informant_hint                          (Rekrytera interner under tvång – t.ex. i Isoleringscell)
+informant_recruitable                   (Möjlig uppgiftslämnare)
+informant_target                        Mål
+
+contraband_owner                        Ägare: *X
+contraband_ownerunknown                 Okänd ägare
+contraband_stolenfrom                   Stulet från *X, *Y timmar sedan
+contraband_smuggledthrough              Smugglat genom *X, *Y timmar sedan
+contraband_smuggledin                   Smugglades in av Intern, *Y timmar sedan
+contraband_type                         Typ: *X
+contraband_tradevalue_title             Priser i handeln
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
+
+staff_exhausted                         Utmattad
+staff_tired                             Trött
+staff_needsrest                         Personalen föredrar att vila i ett Personalrum
+
+dog_needskennel                         Hundar behöver en Kennel att sova i
+
+doctor_requireinfirmary                 Kräver en Sjukstuga
+
+entity_carryingequipment                Bär *X
+entity_carryingkeys                     Bär fängelsenycklar
+entity_carryingstaffkeys                Bär personalnyckel
+entity_wearingarmour                    Bär en *X
+
+reports_schedule                        Boka om alla program
+reports_edit                            Ändra schema
+reports_bankloan                        Banklån
+reports_increaseloan                    Öka
+reports_decreaseloan                    Minska
+reports_unlockbankloans                 Upplåst av Revisor
+
+drugs_heroin                            Heroin
+drugs_cocaine                           Kokain
+
+#                                       T.ex. "Bobs mor"
+visitor_relationship                    *Xs *Y
+visitor_age                             Ålder: *X
+
+family_wife                             fru
+family_exwife                           exfru
+family_girlfriend                       flickvän
+family_son                              son
+family_daughter                         dotter
+family_mother                           mor
+family_father                           far
+family_brother                          bror
+family_sister                           syster
+family_lawyer                           advokat
+family_priest                           präst
+family_victims                          Offrets familj
+family_caption                          Familj:
+family_none                             Ingen
+
+damage_dead                             Död
+damage_unconscious                      Medvetslös
+damage_serious                          Allvarligt skadad
+damage_injured                          Skadad
+damage_amount                           *X% skadad
+
+message_autosaving                      Sparar automatiskt…
+
+buildtoolbar_entersearchterm            skriv in sökterm…
+
+deploymentscheduler_title               SCHEMALÄGGARE FÖR UTPLACERING
+supplyanddemand_supplyheader            TILLGÅNG
+supplyanddemand_demandheader            EFTERFRÅGAN
+
+tooltip_multipleobjects                 Tryck TAB för att ändra objekt
+remotedoor_noservo                      Fjärrstyrda dörrar öppnas inte utan en fungerande servo.
+
+roomgrading                             Rumsbetyg
+roomgrading_roomsize                    Rummets storlek är minst *X rutor
+roomgrading_cleanliness                 Renlighet på över *X%
+roomgrading_outsidewindow               Fönster utomhus
+roomgrading_item                        Föremål: *X
+roomgrading_result                      Betyg *X
+roomgrading_currentoccupant             Innehavaren har rätt till klass *X
+roomgrading_unoccupied                  Ledigt
+
+roomerror_nokitchen                     Det finns inga kök som kan skicka mat till denna matsal
+roomerror_noprisoners                   Det finns inga interner som är tilldelade att äta i denna matsal
+roomerror_nocanteen_cells               Det finns inga matsalar tillgängliga vid denna cell. Internerna i denna cell har ingenstans att äta
+roomerror_nocanteen_kitchen             Det finns inga matsalar som kan nås från detta kök. Man kommer inte laga någon mat för måltiderna här
+
+ceos_letter                             Kära herrn/frun,\n\n\nGrattis! Du har gått igenom introduktionen och är nu en fullt kvalificerad fängelsearkitekt! Snart kommer du designa, bygga och sköta dina egna fängelser. Du börjar från noll med bara en tom landplätt och några högar med tegelstenar. Innan du sätter igång tänkte jag att jag skulle dela med mig av några viktiga lektioner med dig.\n\n1. Varje fängelse behöver en Fängelsedirektör – han bör vara en av de första som du anställer. Bygg ett fint kontor åt honom så öppnar han upp en hel massa avancerade faciliteter genom byråkratisystemet.\n\n2. Individuella fängelseceller är dyra, särskilt i början när pengarna lätt tryter. Spara pengar genom att börja med en enda stor Häktescell, vilket kan delas mellan många olika interner på samma gång.\n\n3. Starta upp ditt Kök och din Matsal innan de första internerna kommer, och se till att du anställer några Kockar – det finns inget som irriterar en intern mer än en tom mage!\n\n4. Att bygga ett fängelse är dyrt, och du måste bli en mästare på att få ihop stora summor pengar genom bidrag och kontrakt. Du kan få tillgång till dessa bidrag genom Rapporter.\n\nDet var nog allt – lycka till!\n\nVD:n,\nPrison Architects Corp.
+
+# =============================================================================
+# Campaign info
+# =============================================================================
+
+campaignchapter_chapternumber			Kapitel *C
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Dödscell
+
+campaignchapter_deathrow_description    Vi har fått uppdraget att bygga en Avrättningskammare i detta fängelse, i god tid före den schemalagda avrättningen av en av deras interner.
+
+campaigncutscene_deathrowmurder         Dubbelmord
+campaigncutscene_deathrowconfession     Bekännelse
+
+adviser_deathrow_murder1                Jag visste att jag skulle få tag på er två här.
+adviser_deathrow_murder2                Edward! Jag…
+adviser_deathrow_murder25               Säg det inte.
+adviser_deathrow_murder3                Vad kommer du att göra?
+
+adviser_deathrow_church1                Kan jag hjälpa dig?
+adviser_deathrow_church15               …
+adviser_deathrow_church2                Vill du ha förlåtelse?
+adviser_deathrow_church3                Jag vet inte. Jag måste göra nåt. Jag kan inte leva med det jag har gjort.
+adviser_deathrow_church4                Du måste anmäla dig själv. Vad du än har gjort kan du inte undgå följderna.
+adviser_deathrow_church5                Du kommer aldrig kunna leva med dig själv om du inte möter ditt förflutna.
+adviser_deathrow_church6                Jag vill gå tillbaka. Jag vill förlåta henne. Jag vill att hon ska förlåta mig.
+adviser_deathrow_church7                Gud förlåter dig, vad du än har gjort, om du bara ber honom.
+adviser_deathrow_church8                Men du måste ta ansvar för dina brott i lagens mening. Det finns inget annat sätt.
+
+adviser_deathrowintro_1                 Detta är tufft.
+adviser_deathrowintro_2                 Det finns en intern som är inlåst här som har blivit dömd för ett dubbelmord, och han är dömd till döden.
+adviser_deathrowintro_3                 Det är där vi kommer in. Vi har fått uppdraget att bygga en avrättningskammare i tid för grabbens stora dag.
+adviser_deathrowintrob_1                Här vill jag att den nya anläggningen ska byggas.
+adviser_deathrowintrob_2                Det första steget vid ett projekt som detta är att bygga själva byggnaden – med tillräckligt med plats på insidan för att få plats med ett avrättningsrum och ett häkte.
+adviser_deathrowintrob_3                Så nu sätter vi igång. Bygg en ny byggnad här.
+
+adviser_deathrow_explain1               Dina Arbetare är ansvariga för att bygga byggnader.
+adviser_deathrow_explain2               De samlar ihop stål och betong från förrådet och tar det till byggarbetsplatsen.
+adviser_deathrow_explain3               De använder råmaterialet för att bygga fundamentet och ramen till den nya byggnaden.
+adviser_deathrow_explain4               Detta är den långsammaste delen av byggprocessen, så du bör planera i förväg när du bygger nya anläggningar.
+adviser_deathrow_explain5               Titta dig omkring medan vi väntar. Använd WASD eller piltangenterna för att röra dig, och använd mushjulet för att zooma in och ut.
+
+objective_deathrow_building             Uppför en byggnad för att hysa Avrättningsanläggningen.
+
+adviser_deathrow_buildinside1           Vi behöver också en ingång till den nya Avrättningsanläggningen.
+adviser_deathrow_buildinside2           Bygg en Stor fängelsedörr i södra väggen.
+
+objective_deathrow_buildouterdoor       Bygg en Stor fängelsedörr
+
+adviser_deathrow_internalwalls1          Inuti byggnaden vill jag ha en Cell och ett Avrättningsrum.
+adviser_deathrow_internalwalls2          Dela upp utrymmet genom att bygga några Tegelväggar.
+
+objective_deathrow_buildinternalwalls   Bygg innerväggar
+
+adviser_deathrow_internaldoors1          Lägg nu till Stora fängelsedörrar till skiljeväggarna.
+adviser_deathrow_internaldoors2          Du kan rotera ett objekt innan du placerar det genom att trycka på mittenmusknappen (eller genom att trycka på R).
+
+objective_deathrow_buildinternaldoors   Bygg interna dörrar (Klicka på mittenmusknappen eller tryck på R för att rotera ett objekt)
+
+adviser_deathrow_designation1           Det där ser bra ut. Nu måste vi ange vad rummen i dessa utrymmen ska ha för funktion.
+adviser_deathrow_designation2           Utse en Cell i det mindre området där den dödsdömde internen får bo.
+adviser_deathrow_designation3           Utse sedan Avrättningsrummet i det större området.
+
+objective_deathrow_designatecell        Utse en Cell
+objective_deathrow_designateexecution   Utse ett Avrättningsrum
+
+adviser_deathrow_roomrequirements1      De nya rummen har krav innan de blir funktionella.
+adviser_deathrow_roomrequirements2      Cellen behöver en Säng och en Toalett.
+adviser_deathrow_roomrequirements3      Avrättningsrummet behöver Elektriska stolen.
+
+objective_deathrow_cellobjects1         Bygg en Säng
+objective_deathrow_cellobjects2         Bygg en Toalett
+objective_deathrow_executionobjects     Bygg en Elektrisk stol
+
+adviser_deathrow_optional1              Nu tog vi hand om det viktigaste. Men det finns fortfarande en del som du kan göra.
+adviser_deathrow_optional2              Men dessa saker är upp till dig. De är inte strikt nödvändiga. Det beror på hur mycket du bryr dig om internerna och deras omgivningar.
+adviser_deathrow_optional3              Själva cellen kan förbättras med ett Fönster mot utsidan och en liten Bokhylla.
+adviser_deathrow_optional4              Och anläggningen ser bättre ut med ett golv av högre kvalitet – som Trägolv eller Mosaikplattor.
+adviser_deathrow_optional5              Du kan lägga till belysning utomhus, och en belagd väg om du tycker att det behövs.
+
+adviser_deathrow_transfer05             Det här är mannen i fråga, Edward Romsey. En lärare en gång i tiden, om du kan tro på det.
+adviser_deathrow_transfer06             Det är inte vår sak att avgöra om han förtjänar detta. Det har lagen bestämt. Vi är bara här för att göra ett jobb.
+adviser_deathrow_transfer1              När du känner att anläggningen är färdig kan du överföra internen till hans nya cell.
+adviser_deathrow_transfer2              Klicka på fotografiet i hans cell för att påbörja överföringen.
+
+objective_deathrow_path                 (VALBART) Bygg en Väg till den nya anläggningen
+objective_deathrow_window               (VALBART) Lägg till ett Fönster i Cellen
+objective_deathrow_bookshelf            (VALBART) Lägg till en Bokhylla i Cellen
+objective_deathrow_flooring             (VALBART) Byt materialet i golvet till något med bättre kvalitet
+objective_deathrow_outerlights          (VALBART) Lägg till utomhusbelysning runt anläggningen
+objective_deathrow_transferinmate       När du är färdig kan du påbörja internöverföringen genom att klicka på fotografiet i Edwards cell. 
+
+adviser_deathrow_setupmurder1           Gråt inte för honom. Han är en kallblodig mördare, fullständigt skyldig.
+adviser_deathrow_setupmurder2           Han har till och med erkänt. Vill du höra hans beskrivning av vad han gjorde?
+adviser_deathrow_setupmurder3           Det är saftiga grejer. "Klockan var runt elva på kvällen. Ljusen var tända. Jag visste att hon var hemma…"
+adviser_deathrow_postmurder1            Som jag sa, en kallblodig mördare.
+adviser_deathrow_postmurder2            Klart som korvspad om du frågar mig. Han förtjänar varje volt han får.
+adviser_deathrow_postmurder3            Alla människor förtjänar förlåtelse, till och med han. Är du så säker på dig själv att du kan dela ut en sådan slutgiltig dom?
+adviser_deathrow_postmurder4            Att fånga sin fru med en annan man är ingen ursäkt för vad han gjorde.
+adviser_deathrow_postmurder5            Och han gick in med ett laddat vapen. Han visste att de skulle vara där. Det är dubbelt planerat mord.
+adviser_deathrow_postmurder6            Han har inte gjort något annat än att samarbeta med myndigheterna. De gör ett exempel av honom.
+adviser_deathrow_postmurder7            Om han begick brottet 15 mil norrut hade han fått livstids fängelse istället. Hur är det rättvist?
+adviser_deathrow_postmurder8            Vill du att en sådan här man ska gå fri? Jag kommer sova gott när jag vet att han är borta.
+           
+
+adviser_deathrowelectricity_1           Bra jobbat hittills.
+adviser_deathrowelectricity_2           Det finns dock ett problem – avrättningsrummet fungerar inte än, för det har ingen kraft.
+adviser_deathrowelectricity_3           Vi behöver ansluta det till elnätet.
+
+adviser_deathrowelectricityb_1          Nu tittar vi på fängelset i läget Utiliteter, vilket visar oss hur elledningarna ligger i hela fängelset.
+adviser_deathrowelectricityb_2          Varje byggnad i fängelset ansluts till elnätet via dessa tjocka underjordiska elkablar.
+adviser_deathrowelectricityb_3          Kraften levereras till fängelset via denna transformatorstationen, som tar elektricitet från stamnätet.
+adviser_deathrowelectricityb_4          Som du kan se är hela avdelningen av fängelset utan ström. Alla lamporna är släckta.
+adviser_deathrowelectricityb_4b         För att fixa det här problemet måste vi först gå till läget Utiliteter för att förstå varför lamporna inte får någon ström.
+adviser_deathrowelectricityb_5          De närmaste elkablarna ligger för långt borta – våra ingenjörer kan inte koppla färdigt elledningarna här.
+adviser_deathrowelectricityb_6          Förläng elkablarna i närheten så att de täcker upp denna del av fängelset.
+
+objective_deathrow_cellpower            Anslut rummen till Strömförsörjningen
+
+adviser_deathrow_connectchair_1         Lampor är inte det enda som behöver ström. Det gör den nya Elektriska stolen också.
+adviser_deathrow_connectchair_2         Använd Elkablarna för att ansluta avrättningsanläggningen till elnätet.
+adviser_deathrow_connectchair_3         Själva Elektriska stolen är en speciell typ av elektriskt föremål. Det kräver en egen kraftledning. Du behöver ansluta den direkt till huvudledningen.
+
+objective_deathrow_chairpower           Anslut den Elektriska stolen till Strömförsörjningen
+objective_deathrow_condemnedcellpower   Anslut Cellen till Strömförsörjningen
+
+adviser_deathrow_testchair_1            Nu är vi nästan klara tror jag. Vi borde testa det nya Avrättningsrummet minst en gång innan vi försöker använda det.
+adviser_deathrow_testchair_2            Jag sätter på strömmen under ett par sekunder, för att se till att allt är OK.
+adviser_deathrow_testchair_3            Det där funkade inte. Det verkar som om vi tog för mycket ström, och slog ut en brytare i kraftverket. Hela fängelset är mörkt.
+adviser_deathrow_testchair_4            Vi behöver mer kräm för att hantera strömspiken som den elektriska stolen genererar.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   Detta är en process i två steg:
+adviser_deathrow_testchair_5b           Sätt på kraftverket igen genom att klicka på det, och välj sedan Sätt på i menyn som kommer fram.
+adviser_deathrow_testchair_6            Bygg sedan ytterligare tre kondensatorer så att vi får tillräckligt med Strömkapacitet för att hantera den elektriska stolen.
+adviser_deathrow_testchair_7            När du har gjort detta, testa Elektriska stolen igen genom att klicka på den och sedan välja Sätt på i menyn.
+
+objective_deathrow_poweron              Sätt på Kraftverket igen. (Klicka på kraftverket, och välj sedan Sätt på från menyn)
+objective_deathrow_expandpower          Expandera kraftverket med tre nya Kondensatorer
+objective_deathrow_chairworking         Testa stolen igen (klicka på den, och välj Sätt på)
+
+adviser_deathrow_execution_1            Bra jobbat. Jag tror att vi är färdiga här.
+adviser_deathrow_execution_2            Vad som händer nu ligger utanför vår kontroll. Vi gjorde ett professionellt jobb, och det är viktigt i vår verksamhet.
+adviser_deathrow_execution_3            Försök att inte oroa dig över vad som händer härnäst.
+
+adviser_deathrow_setupexecution1        Det är dags, Edward.
+adviser_deathrow_setupexecution2        Du gjorde det rätta, även om denna värld inte förlåter dig för det.
+adviser_deathrow_setupexecution3        Du kommer till Gud snart, och Han ger dig din slutgiltiga dom.
+
+adviser_deathrow_setupexecution4        Edward Romsey. Du är skyldig till två fall av mord i första graden.
+adviser_deathrow_setupexecution5        Straffet är döden.
+adviser_deathrow_setupexecution6        Har du något att säga?
+adviser_deathrow_setupexecution7        Susan…
+adviser_deathrow_setupexecution8        Jag är ledsen.
+
+# =============================================================================
+# Expense popups
+# =============================================================================
+
+finance_cost_prisonsale                 Försäljning av tidigare fängelse
+finance_cost_equiptazer                 Utrustning: Elpistol
+finance_cost_equipbodyarmour            Utrustning: Skyddsväst
+finance_cost_exports                    Exporter
+finance_cost_foundations                Byggnadsfundament
+finance_cost_cashflow                   Kassaflöde
+finance_cost_bankloan                   Banklån
+finance_cost_bankloan_repayment         Återbetalning av banklån
+finance_cost_sharesale                  Försäljning av aktier
+finance_cost_sharepurchase              Köp av aktier
+finance_cost_grantadvance               Förskottsbelopp för bidrag
+finance_cost_grantcompletion            Betalning för slutförande av bidrag
+finance_cost_reformprogram              Reformprogramssession
+finance_cost_repair                     Reparera
+finance_cost_sellobject                 Sälj objekt
+finance_cost_landpurchase               Köp av land
+finance_cost_prisonerintake             Intag av interner
+finance_cost_grantcancellation          Avbrottskostnader
+finance_cost_grantrefund                -Återbetalning: *X
+finance_cost_grantfine                  - Böter: *X
+finance_cost_executionfine              Böter för olämplig avrättning
+finance_cost_executioncompensation      Kompensation för avrättning
+finance_cost_shopintake                 Butiksintäkter
+finance_cost_prisonerwages              Lön för internerna
+finance_cost_fine                       Böter
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        …
+clock_add_hour                          +
+clock_am                                på morgonen
+clock_pm                                på kvällen
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  Ett strömöverslag har fått vår generator att överladdas och fatta eld!
+event_powerstationfire_x                Ett strömöverslag har orsakat en katastrofal överladdning i vår generator, och den har exploderat!
+event_powerstationfirelarge             Ett strömöverslag har orsakat vår generator att överladdas och fatta eld!
+event_powerstationfirelarge_x           Ett strömöverslag har orsakat en katastrofal överladdning i vår generator, och den har exploderat!
+event_kitchenfire                       Det har börjat brinna i köket!
+event_waterpipeburst                    Ett vattenrör har brustit och får området att svämma över. Fixa det innan skadorna blir alltför stora.
+event_bulkintake                        En katastrof på ett närliggande fängelse har fått en hel sektion av anläggningen oanvändbar. Vi har inget val annat än att överföra internerna där till vårt fängelse, eftersom det inte finns några andra anläggningar som kan användas i närheten. De kommer snart.
+event_workshopaccident                  En intern har blivit allvarligt skadad vid en incident i verkstaden, och kan inte flyttas! Skicka en doktor, skynda på!
+event_subsidence                        En landsänkning har förstört en sektion av de yttre murarna. Du måste reparera detta, nu på direkten!
+event_earthquake                        En jordbävning i området har fått en del av fängelset att kollapsa!
+event_virus                             Vi har fått in rapporter om att en del av internerna är sjuka. Det kan vara en bra idé att identifiera och sätta de infekterade i karantän för att motverka fortsatt spridning.
+event_virus_x                           Vi har fått in rapporter om att en del av internerna är sjuka, och symtomten verkar allvarliga. Du bör sätta de sjuka i karantän och behandla dem innan detta sprids alltför mycket.
+
+event_massassassination_1               Identiteterna hos ett antal av vittnena i ett åtalsfall har läckt ut, och vissa av dem är interner i vårt fängelse.
+event_massassassination_2               Man har slagit till mot dem, men vi behöver dem levande. Du måste identifiera internerna och se till att de inte skadas fram till dess att de ska in i rätten.
+event_massassassination_3_x             Vi fick reda på detta i senaste laget, så du har inte mycket tid innan folk slår till.
+
+event_tvremovaldemand_1                 Media har satt igång en kampanj om de bekvämligheter som internerna får ta del av, och det ger mig en rejäl huvudvärk.
+event_tvremovaldemand_2                 Jag ska anta en lag där TV-apparater i allmänna utrymmen i fängelse förbjuds, så du måste ta bort alla TV-apparater från dina allmänna utrymmen, annars kommer du få böta. Du har 6 timmar på dig.
+event_tvremovaldemand_fine              Du har inte tagit bort TV-apparaterna från dina allmänna utrymmen, och nu krävs detta av lagen. Du har fått böta, och fortsätter med detta tills du tar bort TV-apparaterna.
+event_tvremovaldemand_complete          Media har gått vidare till något annat och lagen som förbjuder TV-apparater i allmänna utrymmen har dragits tillbaka. Du får ställa in dem igen om du vill.
+
+event_weightsremovaldemand_1            Media har satt igång en kampanj om de bekvämligheter som internerna får ta del av, och det ger mig en rejäl huvudvärk.
+event_weightsremovaldemand_2            Jag ska anta en lag som förbjuder träningsutrustning på fängelsets gård, så du måste ta bort alla Tyngdlyftningsbänkar från dina Gårdar, annars får du böta. Du har 6 timmar på dig.
+event_weightsremovaldemand_fine         Du har inte tagit bort alla Tyngslyftningsbänkar från dina gårdar, och nu krävs detta av lagen. Du har fått böta, och fortsätter med detta tills du tar bort tyngdlyftningsbänkarna.
+event_weightsremovaldemand_complete     Media har gått vidare till något annat och lagen som förbjuder tyngdlyftningsbänkar på gårdar har dragits tillbaka. Du får ställa ut dem igen om du vill.
+
+event_lessfooddemand_1                  Fängelsestyrelsen har bestämt sig för att experimentera med ett antal kostnadssparande åtgärder på våra anläggningar, och detta inkluderar ditt fängelse.
+event_lessfooddemand_2                  Du måste minska antalet måltider och måltidsvariationen till låg, så att vi kan se vad det har för effekt på budgeten.
+event_lessfooddemand_fine               Eftersom du har bestämt dig för att inte anamma de nya matreglerna som vi har frågat efter kommer vi att ta de möjliga besparingarna direkt från din kassa. Detta fortsätter vi med tills du gör vad vi ber dig om.
+event_lessfooddemand_complete           Experimentet om matbudgeten är över och resultaten är ofullständiga. Du kan sätta tillbaka dina regler för maten som du vill.
+
+event_removevisitationdemand_1          En incident på en annan facilitet har lyft fram möjliga problem med säkerhetskontroller när det kommer till familjebesök i fängelset.
+event_removevisitationdemand_2          Fram till dess att processerna kan undergå en riktig genomgång har alla besök ställts in. Du har 12 timmar på dig att ta bort alla Besöksrum från ditt fängelse.
+event_removevisitationdemand_fine       Du har inte tagit bort Besöksrummen från ditt fängelse, trots säkerhetsproblemen för tillfället. Du har fått böta, och detta fortsätter tills du tar bort rummen.
+event_removevisitationdemand_complete   Vi har avslutat säkerhetsgenomgången av besöksprocessen och Besöksrum kan nu läggas till igen i ditt fängelse om du väljer detta.
+
+event_lessworkdemand_1                  Jag har just fått en notis om att internerna inte är nöjda med hur mycket de behöver arbeta varje dag, och de planerar på att ta till trubbel om detta inte minskas.
+event_lessworkdemand_2                  En vakt råkade höra när någon sa att om de var tvungna att arbeta under mer än 2 timmar skulle de "riva stället".
+event_lessworkdemand_ignore             Det verkar som om internerna har gett upp och lugnat sig. De är inte nöjda, men det är bra om man visar vem det är som faktiskt bestämmer.
+event_lessworkdemand_complete                Internerna har lugnat sig om arbetstiderna för tillfället – jag antar att de såg de senaste dagarna som en semester. Vi kan låta dem jobba igen utan något trubbel.
+
+event_moresleepdemand_1                 Vi har fått klagomål om att internerna inte får sova tillräckligt, och de blir väldigt irriterade på grund av det.
+event_moresleepdemand_2                 De har sagt att om de inte får minst 7 timmars sömn per natt så kommer de orsaka trubbel.
+event_moresleepdemand_ignore            Det verkar som om internerna till slut har lugnat sig och gett upp protesterna om att de inte får nog med sömn. Jag antar att de var för trötta.
+event_moresleepdemand_complete          Problemet med internernas sömntider är äntligen över, så du kan ändra dem igen utan några problem om du vill.
+
+event_morefreetimedemand_1              Tydligen är internerna inte nöjda med hur lite fritid de får under dagen.
+event_morefreetimedemand_2              Vakterna har hört att man viskat att om saker och ting inte förändras snart kommer internerna att börja slå sönder saker.
+event_morefreetimedemand_ignore         Internerna har lugnat sig och slutat orsaka trubbel på grund av sin brist på fritid. De kanske insåg att de skulle ha ännu mindre om de alltid satt i en isoleringscell.
+event_morefreetimedemand_complete       Internernas krav på mer fritid har tillfredsställts länge nog, så du får ändra deras schema igen precis som du vill.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Inkommande interner
+objective_tvremovaldemand               Ta bort TV-apparater från allmänna utrymmen
+objective_tvremovaldemand_child         Se till att det inte finns några TV-apparater i allmänna utrymmen
+objective_weightsremovaldemand          Ta bort TV-apparater från allmänna utrymmen
+objective_weightsremovaldemand_child    Se till att det inte finns några Tyngdlyftningsbänkar på gårdarna
+objective_lessfooddemand                Minska mängden måltider och variation till Låg
+objective_lessfooddemand_child          Ändra antalet måltider som internerna får samt måltidsvariationen till låg
+objective_removevisitationdemand        Ta bort alla Besöksrum
+objective_removevisitationdemand_child  Se till att det inte finns några besöksrum i fängelset förrän säkerhetsgenomgången är slutförd
+objective_virus                         Utbrott av virus
+objective_virus_child                   Totalt antal infekterade interner:
+objective_massassassination             Rättegångsdatum för\nfederalt vittne
+objective_massassassination_child       Överlevande vittnen:
+objective_lessworkdemand                Internerna kräver mindre arbete
+objective_lessworkdemand_child          Minska arbetstiden till 2 timmar om dagen eller mindre
+objective_moresleepdemand               Låt internerna få mer sömn
+objective_moresleepdemand_child         Öka sovtiden till minst 7 timmar om dagen
+objective_morefreetimedemand            Ge internerna mer Fritid
+objective_morefreetimedemand_child      Öka fritiden till minst 6 timmar om dagen
+
+# =============================================================================
+# Custom warden strings
+# =============================================================================
+
+warden_default_name                     Fängelsedirektören
+warden_default_desc                     Den mest balanserade individen i världen. Han gör sitt jobb och ingenting annat. Folk kallar honom helt enkelt Fängelsedirektören.
+warden_lobbyist_name                    Lobbyisten
+warden_lobbyist_desc                    Lobbyisten har vänner bland högre stånd, och ser till att de mer lättkontrollerade internerna håller med honom.\n\n – Halverar risken att få interner som är våldsamma, ostabila, dödliga eller som slåss.
+warden_lobbyist_desc_short              - Halverar risken att få interner som är våldsamma, ostabila, dödliga eller som slåss.
+warden_fear_name                        Rita
+warden_fear_desc                        Rita är skoningslös och skrämmande, och hon har ett rykte om sig att ta sina anläggningar genom en rättslig tillämpning av rädsla. Ryktena om att hon bär en piska kan vara smått överdrivna.\n\n – Halverar risken att interner är stoiska eller orädda\n – Interner kuvas dubbelt så snabbt
+warden_fear_desc_short                  Halverar risken att interner är stoiska eller orädda\n – Interner kuvas dubbelt så snabbt
+warden_tunnels_name                     J.W. Periwinkle
+warden_tunnels_desc                     Direktör Periwinkle säger att han var sappör i kriget. Han säger aldrig specifikt vilket krig det rörde sig om, men han vet definitivt allt som går att veta om att gräva tunnlar.\n\n - Vakthundar har en chans på 50% att avslöja alla tunnlar som de upptäcker
+warden_tunnels_desc_short                - Vakthundar har en chans på 50% att avslöja alla tunnlar som de upptäcker
+warden_calming_name                     Fredsmäklaren
+warden_calming_desc                     Fredsmäklaren har en ovanlig talang – han kan nämligen lugna till och med de mest våldsamma internerna. Till och med att vara i samma rum som honom är tillräckligt för att få människor att bli fogliga och lydiga.\n\n - Minskar den övergripande risken för att internerna ska orsaka trubbel på fängelset
+warden_calming_desc_short               - Minskar den övergripande risken för att internerna ska orsaka trubbel på fängelset
+warden_contraband_name                  Saphara Acknova
+warden_contraband_desc                  Saphara Acknova har ett fläckfritt rykte och en ren meritlista. Men bakom kulisserna är skumma affärer och erbjudanden under bordet inget ovanligt för henne.\n\n - Ger en liten andel av återförsäljningsvärdet för allt smuggelgods som hittas\n -  Interner som hittas med smuggelgods får "böta" direkt från sina besparingar
+warden_contraband_desc_short            - Ger en liten andel av återförsäljningsvärdet för allt smuggelgods som hittas\n – Interner som hittas med smuggelgods får "böta" direkt från sina besparingar
+buildtoolbar_wardenlobbyist             Lobbyisten
+buildtoolbar_tooltip_wardenlobbyist     Få färre våldsamma interner på fängelset
+interfacetopbar_tension_calmingwarden   - Din fängelsedirektör har en lugnande effekt på internerna
+warden_consultingfee                    Rådgivaravgift
+
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Mutning
+crime_aggravatedburglary          Grovt inbrott
+crime_burglary                    Inbrott
+crime_arson                       Mordbrand
+crime_criminaldamage              Skadegörelse
+crime_vandalism                   Vandalism
+crime_violentdisorder             Våldsamt uppförande
+crime_possession                  Olaga innehav
+crime_possessionintenttosupply    Olaga innehav med avsikt att leverera
+crime_forgery                     Förfalskning
+crime_fraud                       Bedrägeri
+crime_counterfeightingcurrency    Valutaförfalskning
+crime_falseaccounting             Bokföringsbrott
+crime_insidertrading              Insiderbrott
+crime_moneylaundering             Pengatvätt
+crime_aggravatedvehicletheft      Grov stöld av fordon
+crime_joyriding                   Tillgrepp av fortskaffningsmedel
+crime_dangerousdriving            Vårdslöshet i trafik
+crime_deathbydangerousdriving     Död genom vårdslöshet i trafik
+crime_drivingunderinfluence       Rattfylleri
+crime_kidnapping                  Kidnappning
+crime_falseimprisonment           Olaga frihetsberövande
+crime_torture                     Tortyr
+crime_assault                     Olaga hot
+crime_aggravatedassault           Grovt olaga hot
+crime_assaultinganofficer         Våld eller hot mot tjänsteman
+crime_greviousbodilyharm          Vållande till kroppsskada
+crime_murder                      Mord
+crime_attemptedmurder             Mordförsök
+crime_manslaughter                Dråp
+crime_pervertingcourseofjustice   Bevisförvanskning
+crime_contemptofcourt             Domstolstrots
+crime_drunkdisorderlybehaviour    Förargelseväckande beteende
+crime_escapingfromlawfulcustody   Rymning från arrest
+crime_perjury                     Mened
+crime_rioting                     Upplopp
+crime_espionage                   Spionage
+crime_violentdisorder             Våldsamt uppförande
+crime_trafficking                 Människohandel
+crime_armedrobbery                Beväpnat rån
+crime_robbery                     Rån
+crime_carjacking                  Bilstöld
+crime_blackmail                   Utpressning
+crime_handlingstolengoods         Häleri
+crime_videogamepiracy             Piratkopiering av spel
+crime_indievideogamepiracy        Piratkopiering av indiespel
+crime_shoplifting                 Snatteri
+crime_pickpocketing               Fickstöld
+crime_cartheft                    Bilstöld
+crime_rape                        Våldtäkt
+crime_grossindecency              Oanständighet
+crime_voyeurism                   Blottning
