@@ -1,4 +1,4 @@
-##Welcome, Warden!
+## Welcome, Warden!
 
 You've found the little corner of the internet where we're trying to document the Prison Architect API.
 
